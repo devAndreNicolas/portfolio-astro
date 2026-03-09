@@ -31,7 +31,7 @@ Para atingir latência próxima de zero e alta disponibilidade global, projetei 
 ## Integração com o Ecossistema Compass
 
 Embora o componente de interface seja agnóstico para o cliente final, ele é alimentado por uma inteligência de gestão robusta:
-* **Sincronização de Dados:** O Trust Center comunica-se de forma transparente com o painel administrativo do **Compass** (construído em **Angular 18**), onde as políticas configuradas pelos gestores são propagadas para a borda.
+* **Sincronização de Dados:** O Trust Center comunica-se de forma transparente com o painel administrativo do **Compass** (construído em **Angular 18+**), onde as políticas configuradas pelos gestores são propagadas para a borda.
 * **Arquitetura Desacoplada:** Esta separação permitiu que o painel de gestão fosse denso e complexo, enquanto o componente de face pública permanecesse focado em performance crítica e isolamento técnico.
 
 ## Destaques Técnicos
