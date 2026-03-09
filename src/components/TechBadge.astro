@@ -1,0 +1,107 @@
+---
+interface Props {
+  tech: string;
+}
+
+const { tech } = Astro.props;
+
+// Map tech names to devicon class names
+const techIconMap: Record<string, string> = {
+  "Angular 18+": "angular",
+  Angular: "angular",
+  React: "react",
+  "React.js": "react",
+  "Next.js": "nextjs",
+  Astro: "astro",
+  TypeScript: "typescript",
+  JavaScript: "javascript",
+  RxJS: "rxjs",
+  "Node.js": "nodejs",
+  "Express.js": "express",
+  "Tailwind CSS": "tailwindcss",
+  CSS3: "css3",
+  HTML5: "html5",
+  Compliance: "bash",
+  LGPD: "bash",
+  "Product Leadership": "bash",
+  Enterprise: "bash",
+  Fintech: "bash",
+  "UX Design": "figma",
+  "Design Systems": "figma",
+  Accessibility: "bash",
+  Performance: "webpack",
+  SEO: "bash",
+  "E-commerce": "bash",
+  "Payment Integration": "stripe",
+  "Cloud Infrastructure": "aws",
+  Supabase: "supabase",
+  PostgreSQL: "postgresql",
+  D1: "sqlite",
+  "Real-time Processing": "bash",
+  "Educational Tool": "bash",
+  "Social Impact": "bash",
+  "Conversion Rate Optimization": "bash",
+  "Copywriting Estratégico": "bash",
+  "Responsive Design": "bash",
+  "Dark Mode": "bash",
+  "Design Centrado no Usuário": "bash",
+  Testing: "vitest",
+  Vitest: "vitest",
+  Jasmine: "bash",
+  Karma: "bash",
+  Golang: "go",
+};
+
+const iconKey = techIconMap[tech] || "bash";
+const iconUrl = `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${iconKey}/${iconKey}-original.svg`;
+---
+
+<span class="tech-badge">
+  <img
+    src={iconUrl}
+    alt={tech}
+    class="tech-icon"
+    loading="lazy"
+    decoding="async"
+  />
+  <span class="tech-name">{tech}</span>
+</span>
+
+<style>
+  .tech-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    background: var(--gradient-subtle);
+    border: 1px solid var(--gray-800);
+    border-radius: 0.5rem;
+    color: var(--gray-200); 
+    font-size: var(--text-sm);
+    font-weight: 500;
+    transition: all var(--theme-transition);
+  }
+
+  .tech-badge:hover {
+    border-color: var(--accent-regular);
+    color: var(--gray-0);
+    transform: translateY(-2px);
+  }
+
+  .tech-icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    filter: grayscale(0.2) brightness(1.1);
+  }
+
+  :global(.theme-light) .tech-icon {
+    filter: saturate(1.2);
+  }
+
+  @media (max-width: 30em) {
+    .tech-badge {
+      padding: 0.3rem 0.6rem;
+      font-size: var(--text-xs);
+    }
+  }
+</style>

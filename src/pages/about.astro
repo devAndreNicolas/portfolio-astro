@@ -1,0 +1,217 @@
+---
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Sobre Mim | André Nicolas"
+  description="Conheça André Nicolas, Engenheiro Frontend especializado em Edge Computing, Engenharia de Produto e Liderança Técnica">
+  <div class="stack gap-20">
+    <main class="wrapper about" style="align-items: center;">
+      <Hero
+        title="Sobre Mim"
+        tagline="">
+      </Hero>
+
+      <section>
+        <h2 class="section-title">Resumo Profissional</h2>
+        <div class="content">
+          <p>
+            Engenheiro de Software Frontend com expertise em escalabilidade, <strong
+              >Edge Computing</strong
+            > e liderança de produto. Especialista em construir ecossistemas de alta
+            performance usando arquiteturas de nuvem modernas e frameworks como <strong
+              >Angular 18+, React e Astro</strong
+            >. Experiência estratégica como <strong
+              >Product Owner Interim</strong
+            >, recuperando a cadência de entregas em cenários de crise através
+            de liderança técnica e reestruturação de backlog.
+          </p>
+          <p>
+            Histórico comprovado entregando soluções em compliance global,
+            sistemas distribuídos de baixa latência e reagindo a restrições de
+            negócios complexas. Abordo cada problema estrategicamente—entendendo
+            o contexto, identificando raízes de problemas e entregando soluções
+            que importam.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Experiência</h2>
+        <div class="content">
+          <p>
+            <strong>MSPA — Engenheiro Frontend Líder & Product Owner</strong> (Abr
+            2025 – Presente)<br />
+            Soluções em Privacy, Compliance (LGPD/ESG) e Auditoria Digital
+          </p>
+          <ul style="margin-left: 1rem;">
+            <li>
+              <strong>Recuperação de Entrega (Acting PO):</strong> Normalizei ciclos
+              de sprint e garantiu 100% de entrega contratual através de liderança
+              orientada a resultados durante crise operacional.
+            </li>
+            <li>
+              <strong>Arquitetura Edge Computing:</strong> Projetei o Trust Center
+              usando infraestrutura serverless (D1, Durable Objects), reduzindo significantly
+              a latência global de resposta.
+            </li>
+            <li>
+              <strong>Engine de Consentimento Reativo:</strong> Implementei sistema
+              reativo de bloqueio de scripts baseado em consentimento com Angular
+              18, garantindo alta performance e compliance rigoroso com LGPD.
+            </li>
+            <li>
+              <strong>Excelência em QA:</strong> Liderei transição estratégica para
+              <strong>Vitest</strong>, reduzindo dramaticamente o tempo de
+              execução de testes em CI/CD.
+            </li>
+          </ul>
+          <p style="margin-top: 1rem;">
+            <strong>RendeCerto — Software Engineer (Founding Dev)</strong> (2025)<br />
+            <ul style="margin-left: 1rem; margin-top: 0.5rem;">
+              <li>
+                <strong>Engenharia de Produto:</strong> Desenvolvi motor de cálculo financeiro de alta precisão em TypeScript, utilizando testes unitários rigorosos para garantir integridade absoluta em projeções de dados para o usuário final.
+              </li>
+            </ul>
+          </p>
+          <p style="margin-top: 1rem;">
+            <strong>Quebrando Fronteiras — Frontend Developer (Social Impact)</strong> (2025)<br />
+            <ul style="margin-left: 1rem; margin-top: 0.5rem;">
+              <li>
+                <strong>Otimização de Conversão:</strong> Refatorei fluxos críticos de UX em plataforma Next.js, resultando em aumento mensurável na taxa de retenção e efetividade na arrecadação social.
+              </li>
+            </ul>
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Stack Tecnológica</h2>
+        <div class="content">
+          <p>
+            <strong>Core Frontend:</strong> Angular 18+ (Signals/RxJS), React, Next.js, Astro, TypeScript, Tailwind CSS.<br />
+            <strong>Cloud & Infraestrutura:</strong> Edge Computing (Cloudflare Stack), AWS/Vercel Serverless, SQL (D1/PostgreSQL).<br />
+            <strong>Arquitetura & QA:</strong> Design Systems, Micro-frontends, Vitest, CI/CD Pipelines, Acessibilidade (WCAG).<br />
+            <strong>Ecossistema:</strong> Git/GitHub Actions, Figma (UI/UX Engineering), Resend.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Formação & Idiomas</h2>
+        <div class="content">
+          <p>
+            <strong>Sistemas para a Internet</strong> — UNCISAL (Conclusão prevista:
+            2026)<br />
+            <strong>Inglês:</strong> Avançado (Proficiência em contextos técnicos e de liderança) | <strong>Português:</strong> Nativo
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Localização & Contato</h2>
+        <div class="content">
+          <p>
+            <strong>Localização:</strong> Maceió, AL<br />
+            <strong>Email:</strong> devandrenicolas@gmail.com<br />
+            <strong>Telefone:</strong> (82) 92001-4210
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <ContactCTA />
+  </div>
+</BaseLayout>
+
+<style>
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 50em) {
+    img {
+      width: 100%;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-300);
+  }
+
+  :global(.theme-light) section {
+    color: var(--gray-400);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
+
+  .content {
+    grid-column: 2 / 4;
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+
+  .content ul {
+    list-style: disc;
+    padding-left: 1rem;
+  }
+
+  .content li {
+    margin-bottom: 0.5rem;
+    color: var(--gray-300);
+  }
+
+  :global(.theme-light) .content li {
+    color: var(--gray-400);
+  }
+
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
+</style>

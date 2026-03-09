@@ -1,0 +1,267 @@
+---
+import TechIcon from "./TechIcon.astro";
+
+interface Tech {
+  name: string;
+  level: string;
+  icon: string;
+}
+
+interface Category {
+  name: string;
+  techs: Tech[];
+}
+
+const categories: Category[] = [
+  {
+    name: "Linguagens",
+    techs: [
+      { name: "TypeScript", level: "Avançado", icon: "typescript" },
+      { name: "JavaScript", level: "Avançado", icon: "javascript" },
+      { name: "Python", level: "Avançado", icon: "python" },
+      { name: "Java", level: "Intermediário", icon: "java" },
+      { name: "SQL", level: "Avançado", icon: "postgresql" },
+    ],
+  },
+  {
+    name: "Frontend",
+    techs: [
+      { name: "Angular 18+", level: "Avançado", icon: "angular" },
+      { name: "React", level: "Intermediário", icon: "react" },
+      { name: "Astro", level: "Avançado", icon: "astro" },
+      { name: "Next.js", level: "Avançado", icon: "nextjs" },
+      { name: "Tailwind CSS", level: "Especialista", icon: "tailwindcss" },
+      { name: "HTML5", level: "Especialista", icon: "html5" },
+      { name: "CSS3", level: "Especialista", icon: "css3" },
+    ],
+  },
+  {
+    name: "Backend",
+    techs: [
+      { name: "Node.js", level: "Avançado", icon: "nodejs" },
+      { name: "Express.js", level: "Avançado", icon: "express" },
+      { name: "PostgreSQL", level: "Intermediário", icon: "postgresql" },
+      { name: "Golang", level: "Intermediário", icon: "go" },
+    ],
+  },
+  {
+    name: "Ferramentas & Design",
+    techs: [
+      { name: "Git", level: "Avançado", icon: "git" },
+      { name: "GitHub", level: "Avançado", icon: "github" },
+      { name: "Figma", level: "Avançado", icon: "figma" },
+      { name: "VSCode", level: "Especialista", icon: "vscode" },
+      { name: "Vitest", level: "Avançado", icon: "vitest" },
+    ],
+  },
+];
+
+const getLevelColor = (level: string): string => {
+  switch (level) {
+    case "Especialista":
+      return "specialist";
+    case "Avançado":
+      return "advanced";
+    case "Intermediário":
+      return "intermediate";
+    default:
+      return "intermediate";
+  }
+};
+---
+
+<section class="skills-section">
+  <div class="skills-header">
+    <h2>Minha Stack Tecnológica</h2>
+    <p>
+      Tecnologias e ferramentas com as quais construir soluções eficientes e
+      modernas
+    </p>
+  </div>
+
+  <div class="categories-grid">
+    {
+      categories.map((category) => (
+        <div class="category-card">
+          <h3 class="category-title">{category.name}</h3>
+          <div class="tech-list">
+            {category.techs.map((tech) => (
+              <div class={`tech-skill ${getLevelColor(tech.level)}`}>
+                <TechIcon icon={tech.icon} name={tech.name} />
+                <div class="tech-details">
+                  <span class="tech-name">{tech.name}</span>
+                  <span class="tech-level">{tech.level}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .skills-section {
+    width: 100%;
+    max-width: 100%;
+    padding: 2rem;
+  }
+
+  .skills-header {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .skills-header h2 {
+    font-size: var(--text-2xl);
+    color: var(--gray-0);
+    margin: 0 0 0.5rem 0;
+  }
+
+  .skills-header p {
+    color: var(--gray-300);
+    font-size: var(--text-sm);
+    margin: 0;
+  }
+
+  :global(.theme-light) .skills-header p {
+    color: var(--gray-400);
+  }
+
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .category-card {
+    padding: 1.75rem;
+    background: var(--gradient-subtle);
+    border: 1px solid var(--gray-800);
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .category-card:hover {
+    border-color: var(--accent-light);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .category-title {
+    font-size: var(--text-lg);
+    font-weight: 600;
+    color: var(--gray-0);
+    margin: 0 0 1.25rem 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--accent-light);
+    opacity: 1;
+    letter-spacing: 0.01em;
+  }
+
+  :global(.theme-light) .category-title {
+    color: var(--accent-light);
+  }
+
+  .tech-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .tech-skill {
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+    padding: 0.625rem 0.875rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    background: rgba(118, 17, 166, 0.03);
+    transition: all 0.2s ease;
+  }
+
+  .tech-skill:hover {
+    background: rgba(118, 17, 166, 0.08);
+    border-color: var(--accent-light);
+    transform: translateX(4px);
+  }
+
+  .tech-skill.specialist {
+    border-left: 3px solid rgba(197, 97, 246, 0.8);
+  }
+
+  .tech-skill.advanced {
+    border-left: 3px solid rgba(37, 99, 235, 0.8);
+  }
+
+  .tech-skill.intermediate {
+    border-left: 3px solid rgba(100, 116, 162, 0.6);
+  }
+
+  .tech-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    flex: 1;
+  }
+
+  .tech-name {
+    display: block;
+    color: var(--gray-0);
+    font-weight: 500;
+    font-size: var(--text-sm);
+  }
+
+  .tech-level {
+    display: block;
+    color: var(--gray-400);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  :global(.theme-light) .tech-level {
+    color: var(--gray-500);
+  }
+
+  @media (max-width: 45em) {
+    .skills-section {
+      padding: 1.5rem;
+    }
+
+    .skills-header {
+      margin-bottom: 2rem;
+    }
+
+    .skills-header h2 {
+      font-size: var(--text-xl);
+    }
+
+    .categories-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .category-card {
+      padding: 1.5rem;
+    }
+
+    .tech-skill {
+      padding: 0.5rem 0.75rem;
+      gap: 0.75rem;
+    }
+  }
+
+  @media (min-width: 50em) and (max-width: 80em) {
+    .categories-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 80em) {
+    .categories-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>

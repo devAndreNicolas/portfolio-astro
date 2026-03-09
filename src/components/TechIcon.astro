@@ -1,0 +1,35 @@
+---
+interface Props {
+  icon: string;
+  name: string;
+}
+
+const { icon, name } = Astro.props;
+
+const iconUrl = `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${icon}/${icon}-original.svg`;
+---
+
+<img
+  src={iconUrl}
+  alt={name}
+  class="tech-icon"
+  loading="lazy"
+  decoding="async"
+/>
+
+<style>
+  .tech-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    opacity: 0.95;
+    filter: saturate(1.15);
+  }
+
+  @media (max-width: 50em) {
+    .tech-icon {
+      width: 1.3rem;
+      height: 1.3rem;
+    }
+  }
+</style>

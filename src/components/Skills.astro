@@ -1,0 +1,136 @@
+---
+import Icon from "./Icon.astro";
+---
+
+<section class="skills">
+  <div class="skill-card">
+    <div class="skill-header">
+      <Icon
+        icon="gauge" 
+        color="var(--accent-regular)"
+        size="2.5rem"
+        gradient
+      />
+      <h2>Performance Architecture</h2>
+    </div>
+    <p>
+      Especialista em <strong>Angular 18</strong> e sistemas reativos. Construindo ecossistemas escaláveis com 
+      foco em Web Vitals, Design Systems robustos e alta performance frontend.
+    </p>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <Icon
+        icon="cloud-sun"
+        color="var(--accent-regular)"
+        size="2.5rem"
+        gradient
+      />
+      <h2>Edge Computing</h2>
+    </div>
+    <p>
+      Arquitetura <strong>Cloud-native</strong> utilizando Cloudflare Stack (Workers, KV, D1, Durable Objects). 
+      Soluções serverless de baixa latência para problemas complexos em escala global.
+    </p>
+  </div>
+
+  <div class="skill-card">
+    <div class="skill-header">
+      <Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+      <h2>Product Leadership</h2>
+    </div>
+    <p>
+      Liderança técnica com <strong>Product Mindset</strong>. Experiência em recuperação de delivery, 
+      gestão de stakeholders e conformidade técnica (LGPD/ESG).
+    </p>
+  </div>
+</section>
+
+<style>
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .skill-card {
+    /* USANDO VARIÁVEIS DO SEU GLOBAL CSS */
+    border: 1px solid var(--gray-800);
+    border-radius: 1rem;
+    padding: 2rem;
+    background: var(--gradient-subtle);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--theme-transition);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Efeito de brilho no hover adaptativo */
+  .skill-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--accent-subtle-overlay);
+    opacity: 0;
+    transition: opacity var(--theme-transition);
+    pointer-events: none;
+  }
+
+  .skill-card:hover {
+    border-color: var(--accent-light);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+  }
+
+  .skill-card:hover::before {
+    opacity: 0.1; /* Sutil no dark e light */
+  }
+
+  .skill-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .skill-card h2 {
+    font-size: var(--text-lg);
+    margin: 0;
+    color: var(--gray-0); /* Inverte sozinho */
+    position: relative;
+    z-index: 1;
+  }
+
+  .skill-card p {
+    color: var(--gray-300); /* Inverte sozinho */
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    line-height: 1.6;
+    font-size: var(--text-md);
+  }
+
+  .skill-card p strong {
+    color: var(--accent-regular); /* Destaca as tecnologias core */
+    font-weight: 600;
+  }
+
+  @media (min-width: 50em) {
+    .skills {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .skill-card {
+      border-radius: 1.5rem;
+      padding: 2.5rem;
+    }
+
+    .skill-card h2 {
+      font-size: var(--text-xl);
+    }
+  }
+</style>
