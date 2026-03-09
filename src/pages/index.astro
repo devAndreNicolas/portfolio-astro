@@ -100,13 +100,16 @@ const projects = (await getCollection("work"))
     display: none;
   }
 
-  .hero img {
-    aspect-ratio: 5 / 4;
-    object-fit: cover;
-    object-position: top;
-    border-radius: 1.5rem;
-    box-shadow: var(--shadow-md);
-  }
+
+.hero img {
+  aspect-ratio: 4 / 5; 
+  object-fit: cover;
+  object-position: center 20%; 
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-md);
+  width: 100%;
+  max-width: 400px; 
+}
 
   @media (min-width: 50em) {
     .hero {
