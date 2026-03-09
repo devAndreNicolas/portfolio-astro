@@ -38,7 +38,7 @@ Beat Store é uma plataforma de marketplace full-stack conectando produtores de 
 
 - **Next.js** para capabilidades full-stack e renderização do lado do servidor
 - **Supabase** para banco de dados PostgreSQL e autenticação
-- **Stripe/Integração de Pagamento** para transações seguras
+- **Abacatepay/Stripe/Integração de Pagamento** para transações seguras
 - **Serviços de Email Automatizado** para comunicações transacionais
 - **Infraestrutura em Nuvem** para deployment escalável
 
