@@ -2,39 +2,48 @@
 title: MSPA Compass
 publishDate: 2026-03-09
 description: |
-  Liderança estratégica em GRC. Recuperação de delivery como Interim PO e engenharia frontend de alta performance para o mapeamento de dados mais intuitivo do mercado.
+  Core MSPA SaaS platform for privacy and compliance operations, focused on intuitive LGPD workflows, scalable frontend architecture, and integrated product modules.
 tags:
   - Angular
   - Signals
-  - RxJs
+  - RxJS
   - Product Engineering
-  - UX Design
-  - LGPD/ESG
-  - Tech Leadership
+  - UX Strategy
+  - Compliance
 ---
 
-## Visão Geral
+## Context
 
-O **Compass** é o ecossistema operacional da MSPA, projetado para desmistificar a implementação da LGPD/ESG em grandes organizações. Minha atuação foi dividida em dois pilares críticos: a **estabilização da operação de engenharia** (Acting PO) e a **liderança da interface de mapeamento de dados**, elevando o produto ao patamar de solução mais amigável do setor de GRC.
+Compass is one of MSPA's core SaaS products for privacy and compliance operations, used by more than 10 companies. The product serves users with different technical backgrounds and needs clear workflows for high-responsibility tasks.
 
-## Gestão Estratégica & Interim Product Ownership
+## Problem
 
-Assumi a gestão de produto durante um cenário de crise operacional. Minha missão foi reestruturar como o time entregava valor, focando em organização e escalabilidade do time:
-* **Recuperação de Delivery:** Reorganizei o backlog técnico e as cerimônias de sprint, normalizando o ciclo de entregas e garantindo 100% de cumprimento das obrigações contratuais.
-* **Otimização de Onboarding:** Estruturei novos processos de gerenciamento de tarefas que aumentaram a efetividade do treinamento de novos contratados, reduzindo o tempo de ramp-up técnico.
-* **Efetividade Operacional:** Implementei métricas de acompanhamento que elevaram a organização interna e a previsibilidade do roadmap.
+The platform needed to make LGPD processes understandable for non-technical users while preserving operational rigor for teams handling data mapping, risk analysis, and consent operations. At the same time, delivery and ownership needed stronger structure during a critical phase.
 
-## Engenharia de Produto & UX Disruptiva
+## Role & Ownership
 
-No frontend, liderei a implementação da interface de mapeamento de dados, com o objetivo de criar a jornada mais fluida e intuitiva do mercado de GRC:
-* **Mapeamento de Dados Visual:** Transformei processos burocráticos de inventário de dados em uma experiência colaborativa e visual, reduzindo drasticamente a carga cognitiva dos usuários.
-* **Arquitetura Reativa (Angular):** Utilizei **Signals e RxJS** para sustentar dashboards complexos que respondem instantaneamente, garantindo uma navegação sem travamentos mesmo em bases de dados extensas.
-* **Qualidade e QA:** Comandei a transição para o **Vitest**, elevando o padrão de confiabilidade e implementando testes unitários e de comportamento. A transição foi necessária para modernizar a stack de testes.
+I worked as a Frontend Engineer with product-oriented ownership across UX, architecture, and delivery alignment. My scope included:
 
-## Destaques Técnicos
-* **Leadership:** Gestão de Backlog, Agile Coaching, Treinamento de Engenharia.
-* **Frontend:** Angular, Tailwind CSS, Design Systems, Acessibilidade (WCAG).
-* **Domínio:** Mapeamento de Dados (Data Mapping), Governança, Risco e Conformidade.
+- Frontend architecture and implementation of core Compass flows.
+- User-flow design decisions to simplify compliance journeys.
+- Collaboration with stakeholders to align UX, technical constraints, and business priorities.
+- Support for team process clarity in a 6-developer squad, with direct influence on 4 developers.
 
-## Impacto
-O resultado foi uma plataforma que não apenas funciona, mas encanta. A combinação de processos internos organizados com uma UX de ponta tornou o Compass o principal diferencial competitivo da MSPA, facilitando o onboarding de clientes e a retenção de talentos no time de tecnologia. Consequentemente, as entregas de funcionalidades testadas para o Compass aumentou drasticamente.
+## Technical Decisions
+
+- Built Compass modules with Angular, Signals, and RxJS for responsive, maintainable state flows.
+- Applied a Zanzibar-style authorization approach (role and permission separation) to support clear responsibility boundaries by user role.
+- Helped modularize key domains such as data mapping, risk management, and consent management, and improved their integration points.
+- Strengthened testing and delivery reliability through Vitest and CI workflow improvements.
+- Contributed Go endpoints needed by Compass frontend workflows where backend support was required.
+
+## Outcome
+
+- LGPD workflows became more accessible for non-technical users without losing domain depth.
+- Compass maintained Lighthouse performance in the 90+ range across key product experiences.
+- Delivery organization and ownership clarity improved during a high-pressure operational period.
+- Product capabilities were delivered in a way that supported real adoption across 10+ companies.
+
+## Notes / Lessons
+
+Strong compliance products need both technical correctness and interaction clarity. Treating UX, permissions, and module boundaries as architecture decisions was critical to scale product usage safely.

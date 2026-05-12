@@ -1,45 +1,40 @@
 ---
-title: RegexSimple - Ferramentas Reativas
+title: RegexSimple - Reactive Learning Tool
 publishDate: 2025-11-11
 description: |
-  Ferramenta de aprendizado em tempo real para regex focada em usabilidade. Projetada para compreensão intuitiva com feedback instantâneo, tornando expressões regulares menos intimidadoras.
+  Real-time regex learning tool designed for usability, immediate feedback, and progressive understanding of pattern behavior.
 tags:
   - Angular
   - RxJS
-  - Processamento em Tempo Real
+  - Real-time Processing
   - UX Design
-  - Ferramenta Educacional
+  - Educational Tool
 ---
 
-## Visão Geral
+## Context
 
-Expressões regulares são poderosas mas intimidadoras. RegexSimple transforma aprendizado de regex de frustrante tentativa-e-erro em exploração guiada em tempo real. Enquanto ferramentas regex existem, RegexSimple se diferencia através de **usabilidade excepcional**.
+RegexSimple is an educational frontend project focused on making regular expressions easier to understand.
 
-## Filosofia de Design
+## Problem
 
-**Feedback em Tempo Real**: Digite uma regex e veja instantaneamente como ela corresponde contra sua string de teste. Sem esperar, sem botões "executar"—apenas feedback visual imediato.
+Regex tools are often powerful but intimidating, especially for users who need immediate comprehension rather than complex feature sets.
 
-**Complexidade Progressiva**: A interface guia usuários de padrões simples a técnicas avançadas, progressivamente construindo compreensão em vez de sobrecarregar com possibilidades.
+## Role & Ownership
 
-**Explicações Claras**: Cada elemento de padrão é explicado em linguagem natural, traduzindo a sin taxe misteriosa `(?<=...)` em compreensão acionável.
+I designed and implemented the real-time interaction model and reactive UI behavior to improve learning flow.
 
-## Implementação Técnica
+## Technical Decisions
 
-Padrões reativos avançados alimentam a experiência em tempo real:
+- Built with Angular and RxJS for responsive, real-time feedback loops.
+- Structured interaction patterns to show pattern behavior as users type.
+- Prioritized progressive learning UX over feature overload.
+- Kept the interface focused on clarity and speed.
 
-- **Angular Signals** para reatividade de granularidade fina
-- **RxJS** para manipulação de pipelines complexos de correspondencia de padrões
-- **Atualizações de Streaming** assegurando UI responsivo mesmo com processamento regex intensivo
-- **Web Workers** potencial para cargas computacionais pesadas
+## Outcome
 
-## Experiência do Usuário
+- The tool made regex practice more approachable.
+- Users could test and interpret patterns faster through immediate feedback.
 
-A interface mantém responsividade mesmo ao processar padrões complexos contra amostras de texto grandes. Usuários podem:
-- Testar padrões em tempo real
-- Entender componentes de padrão
-- Salvar e compartilhar padrões úteis
-- Aprender conceitos de regex complexos progressivamente
+## Notes / Lessons
 
-## Impacto
-
-RegexSimple torna regex mais acessível a desenvolvedores de todos os níveis. Ao priorizar UX intuitiva sobre complexidade de recursos, criamos uma ferramenta que ensina enquanto ajuda.
+Educational developer tools succeed when feedback speed and clarity are treated as core product requirements.

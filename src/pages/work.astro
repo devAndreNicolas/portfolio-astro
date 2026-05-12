@@ -1,24 +1,25 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import ContactCTA from "../components/ContactCTA.astro";
 import Grid from "../components/Grid.astro";
 import Hero from "../components/Hero.astro";
 import PortfolioPreview from "../components/PortfolioPreview.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const projects = (await getCollection("work")).sort(
-  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
+const projects: CollectionEntry<"work">[] = (await getCollection("work")).sort(
+  (a: CollectionEntry<"work">, b: CollectionEntry<"work">) =>
+    b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
 );
 ---
 
 <BaseLayout
-  title="Meus Projetos | André Nicolas"
-  description="Explore os projetos em destaque de André Nicolas em engenharia frontend, liderança de produto e sistemas escaláveis.">
+  title="Projects | Andre Nicolas"
+  description="Explore featured work by Andre Nicolas across frontend engineering, product development, and scalable systems.">
   <div class="stack gap-20">
     <main class="wrapper stack gap-8">
       <Hero
-        title="Meus Projetos"
-        tagline="Projetos de alto impacto em compliance, fintech e engenharia de produto. Soluções projetadas para resolver problemas reais em escala."
+        title="Projects"
+        tagline="Selected case studies across compliance SaaS, fintech, and product engineering, with recent MSPA work focused on LGPD UX, consent enforcement, and scalable frontend architecture."
         align="start"
       />
       <Grid variant="offset">

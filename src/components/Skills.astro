@@ -6,16 +6,17 @@ import Icon from "./Icon.astro";
   <div class="skill-card">
     <div class="skill-header">
       <Icon
-        icon="gauge" 
+        icon="gauge"
         color="var(--accent-regular)"
         size="2.5rem"
         gradient
       />
-      <h2>Performance Architecture</h2>
+      <h2>Scalable Frontend Systems</h2>
     </div>
     <p>
-      Especialista em <strong>Angular, React</strong> e sistemas reativos. Construindo ecossistemas escaláveis com 
-      foco em Web Vitals, Design Systems robustos e alta performance frontend.
+      Frontend engineer focused on <strong>Angular, React, and TypeScript</strong>.
+      I build scalable interfaces with strong UX foundations, measurable
+      performance, and reliable delivery standards.
     </p>
   </div>
 
@@ -27,22 +28,23 @@ import Icon from "./Icon.astro";
         size="2.5rem"
         gradient
       />
-      <h2>Edge Computing</h2>
+      <h2>Edge & Cloud Infrastructure</h2>
     </div>
     <p>
-      Arquitetura <strong>Cloud-native</strong> utilizando Cloudflare Stack (Workers, KV, D1, Durable Objects). 
-      Soluções serverless de baixa latência para problemas complexos em escala global.
+      Practical experience with <strong>Cloudflare Workers, KV, D1, and Durable Objects</strong>
+      to support low-latency, serverless architectures for compliance and SaaS products.
     </p>
   </div>
 
   <div class="skill-card">
     <div class="skill-header">
       <Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-      <h2>Product Leadership</h2>
+      <h2>Product-Oriented Delivery</h2>
     </div>
     <p>
-      Liderança técnica com <strong>Product Mindset</strong>. Experiência em recuperação de delivery, 
-      gestão de stakeholders e conformidade técnica (LGPD/ESG).
+      Product-minded execution across planning and delivery, including
+      backlog refinement, code review, and cross-functional collaboration in
+      high-responsibility environments.
     </p>
   </div>
 </section>
@@ -55,7 +57,6 @@ import Icon from "./Icon.astro";
   }
 
   .skill-card {
-    /* USANDO VARIÁVEIS DO SEU GLOBAL CSS */
     border: 1px solid var(--gray-800);
     border-radius: 1rem;
     padding: 2rem;
@@ -66,7 +67,6 @@ import Icon from "./Icon.astro";
     overflow: hidden;
   }
 
-  /* Efeito de brilho no hover adaptativo */
   .skill-card::before {
     content: "";
     position: absolute;
@@ -84,7 +84,7 @@ import Icon from "./Icon.astro";
   }
 
   .skill-card:hover::before {
-    opacity: 0.1; /* Sutil no dark e light */
+    opacity: 0.1;
   }
 
   .skill-header {
@@ -99,13 +99,13 @@ import Icon from "./Icon.astro";
   .skill-card h2 {
     font-size: var(--text-lg);
     margin: 0;
-    color: var(--gray-0); /* Inverte sozinho */
+    color: var(--gray-0);
     position: relative;
     z-index: 1;
   }
 
   .skill-card p {
-    color: var(--gray-300); /* Inverte sozinho */
+    color: var(--gray-300);
     position: relative;
     z-index: 1;
     margin: 0;
@@ -114,7 +114,7 @@ import Icon from "./Icon.astro";
   }
 
   .skill-card p strong {
-    color: var(--accent-regular); /* Destaca as tecnologias core */
+    color: var(--accent-regular);
     font-weight: 600;
   }
 

@@ -1,81 +1,68 @@
 ---
-import TechIcon from "./TechIcon.astro";
-
-interface Tech {
-  name: string;
-  level: string;
-  icon: string;
-}
-
 interface Category {
   name: string;
-  techs: Tech[];
+  items: string[];
 }
 
 const categories: Category[] = [
   {
-    name: "Linguagens",
-    techs: [
-      { name: "TypeScript", level: "Avançado", icon: "typescript" },
-      { name: "JavaScript", level: "Avançado", icon: "javascript" },
-      { name: "Python", level: "Avançado", icon: "python" },
-      { name: "Java", level: "Intermediário", icon: "java" },
-      { name: "SQL", level: "Avançado", icon: "postgresql" },
-    ],
-  },
-  {
     name: "Frontend",
-    techs: [
-      { name: "Angular", level: "Avançado", icon: "angular" },
-      { name: "React", level: "Intermediário", icon: "react" },
-      { name: "Astro", level: "Avançado", icon: "astro" },
-      { name: "Next.js", level: "Avançado", icon: "nextjs" },
-      { name: "Tailwind CSS", level: "Especialista", icon: "tailwindcss" },
-      { name: "HTML5", level: "Especialista", icon: "html5" },
-      { name: "CSS3", level: "Especialista", icon: "css3" },
+    items: [
+      "Angular (Signals/RxJS)",
+      "React",
+      "Web Components (Lit)",
+      "TypeScript",
+      "Tailwind CSS",
     ],
   },
   {
-    name: "Backend",
-    techs: [
-      { name: "Node.js", level: "Avançado", icon: "nodejs" },
-      { name: "Express.js", level: "Avançado", icon: "express" },
-      { name: "PostgreSQL", level: "Intermediário", icon: "postgresql" },
-      { name: "Golang", level: "Intermediário", icon: "go" },
+    name: "Architecture",
+    items: [
+      "Scalable Systems",
+      "Design Systems (Shadow DOM)",
+      "Performance Optimization",
+      "SEO",
     ],
   },
   {
-    name: "Ferramentas & Design",
-    techs: [
-      { name: "Git", level: "Avançado", icon: "git" },
-      { name: "GitHub", level: "Avançado", icon: "github" },
-      { name: "Figma", level: "Avançado", icon: "figma" },
-      { name: "VSCode", level: "Especialista", icon: "vscode" },
-      { name: "Vitest", level: "Avançado", icon: "vitest" },
+    name: "Backend Exposure",
+    items: [
+      "Golang (Concurrency, APIs)",
+      "Distributed Systems Debugging",
+    ],
+  },
+  {
+    name: "Cloud & Infra",
+    items: [
+      "Cloudflare Workers",
+      "Cloudflare KV",
+      "Cloudflare D1",
+      "Durable Objects",
+      "Serverless",
+    ],
+  },
+  {
+    name: "Testing & QA",
+    items: ["Vitest", "CI/CD Pipelines", "Reliability in Distributed Environments"],
+  },
+  {
+    name: "Product & Collaboration",
+    items: [
+      "Product Thinking",
+      "Backlog Refinement",
+      "Code Review",
+      "Cross-Functional Collaboration",
     ],
   },
 ];
-
-const getLevelColor = (level: string): string => {
-  switch (level) {
-    case "Especialista":
-      return "specialist";
-    case "Avançado":
-      return "advanced";
-    case "Intermediário":
-      return "intermediate";
-    default:
-      return "intermediate";
-  }
-};
 ---
 
 <section class="skills-section">
   <div class="skills-header">
-    <h2>Minha Stack Tecnológica</h2>
+    <h2>Technical Skills</h2>
     <p>
-      Tecnologias e ferramentas com as quais construir soluções eficientes e
-      modernas
+      Core technologies and capabilities used to deliver scalable,
+      high-performance product systems.
     </p>
   </div>
 
@@ -84,16 +71,8 @@ const getLevelColor = (level: string): string => {
       categories.map((category) => (
         <div class="category-card">
           <h3 class="category-title">{category.name}</h3>
-          <div class="tech-list">
-            {category.techs.map((tech) => (
-              <div class={`tech-skill ${getLevelColor(tech.level)}`}>
-                <TechIcon icon={tech.icon} name={tech.name} />
-                <div class="tech-details">
-                  <span class="tech-name">{tech.name}</span>
-                  <span class="tech-level">{tech.level}</span>
-                </div>
-              </div>
-            ))}
+          <div class="tag-list">
+            {category.items.map((item) => <span class="tag">{item}</span>)}
           </div>
         </div>
       ))
@@ -152,10 +131,9 @@ const getLevelColor = (level: string): string => {
     font-size: var(--text-lg);
     font-weight: 600;
     color: var(--gray-0);
-    margin: 0 0 1.25rem 0;
+    margin: 0 0 1rem 0;
     padding-bottom: 0.75rem;
     border-bottom: 2px solid var(--accent-light);
-    opacity: 1;
     letter-spacing: 0.01em;
   }
 
@@ -163,66 +141,23 @@ const getLevelColor = (level: string): string => {
     color: var(--accent-light);
   }
 
-  .tech-list {
+  .tag-list {
     display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+    flex-wrap: wrap;
+    gap: 0.55rem;
   }
 
-  .tech-skill {
-    display: flex;
-    align-items: center;
-    gap: 0.875rem;
-    padding: 0.625rem 0.875rem;
-    border-radius: 0.5rem;
-    border: 1px solid transparent;
-    background: rgba(118, 17, 166, 0.03);
-    transition: all 0.2s ease;
-  }
-
-  .tech-skill:hover {
-    background: rgba(118, 17, 166, 0.08);
-    border-color: var(--accent-light);
-    transform: translateX(4px);
-  }
-
-  .tech-skill.specialist {
-    border-left: 3px solid rgba(197, 97, 246, 0.8);
-  }
-
-  .tech-skill.advanced {
-    border-left: 3px solid rgba(37, 99, 235, 0.8);
-  }
-
-  .tech-skill.intermediate {
-    border-left: 3px solid rgba(100, 116, 162, 0.6);
-  }
-
-  .tech-details {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-    flex: 1;
-  }
-
-  .tech-name {
-    display: block;
-    color: var(--gray-0);
-    font-weight: 500;
-    font-size: var(--text-sm);
-  }
-
-  .tech-level {
-    display: block;
-    color: var(--gray-400);
-    font-size: 0.75rem;
+  .tag {
+    display: inline-block;
+    padding: 0.35rem 0.65rem;
+    background: var(--accent-overlay);
+    color: var(--accent-dark);
+    border: 1px solid var(--accent-regular);
+    border-radius: 0.375rem;
+    font-size: 0.73rem;
     font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-
-  :global(.theme-light) .tech-level {
-    color: var(--gray-500);
+    font-family: var(--font-mono);
+    line-height: 1.3;
   }
 
   @media (max-width: 45em) {
@@ -245,11 +180,6 @@ const getLevelColor = (level: string): string => {
 
     .category-card {
       padding: 1.5rem;
-    }
-
-    .tech-skill {
-      padding: 0.5rem 0.75rem;
-      gap: 0.75rem;
     }
   }
 

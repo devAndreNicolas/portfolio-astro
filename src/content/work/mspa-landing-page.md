@@ -1,36 +1,41 @@
 ---
-title: Landing Page MSPA
+title: MSPA Landing Page
 publishDate: 2026-02-02
 description: |
-  Landing Page institucional de alta performance projetada para posicionamento de autoridade e conversão. Construída com Astro, otimizada para SEO e engajamento do usuário.
+  Conversion-oriented landing page system built with Astro, including multi-LP campaign architecture and Cloudflare-based media delivery for video and static assets.
 tags:
   - Astro
-  - Performance
   - SEO
-  - Redaction
-  - Autoridade de Marca
+  - Core Web Vitals
+  - Conversion
+  - Brand Positioning
 ---
 
-## Visão Geral
+## Context
 
-A Landing Page da MSPA serve como porta digital frontal da empresa. Projetada para estabelecer autoridade, comunicar diferenciação e impulsionar conversões, este projeto combina copywriting estratégico com exceléncia técnica.
+MSPA needed a strong digital entry point to communicate value clearly and support growth campaigns.
 
-## Abordagem Estratégica
+## Problem
 
-**Posicionamento de Autoridade**: Cada decisão de design e mensagem reforça a posição da MSPA como fornecedora confiável de soluções GRC. A página comunica claramente serviços, diferenciadores e visão da empresa.
+A single static marketing page was not enough for different ad intents and campaign audiences. The team needed fast pages, scalable content operations, and consistent media performance.
 
-**Focado em Conversão**: Arquitetura da informação guia visitantes para entender a proposição de valor da empresa e tomar próximas ações, seja se inscrevendo ou solicitando demonstrações.
+## Role & Ownership
 
-**Relâmpago Rápido**: Aproveitando a geração estática do Astro, a página alcança tempos de carregamento quase instantaneos, impactando positivamente tanto experiência do usuário quanto rankings de busca.
+I worked on frontend implementation, architecture choices, and conversion-oriented structure for landing experiences. I also supported campaign flexibility and media delivery decisions.
 
-## Implementação Técnica
+## Technical Decisions
 
-- **Astro** para performance otimizada e SEO
-- **Tailwind CSS** para design rápido e responsivo
-- **HTML Semântico** para acessibilidade e compreensão de mecanismos de busca
-- **Imagery Otimizada** com WebP e elementos de figura responsivos
-- **Otimização Core Web Vitals** com foco
+- Built the landing experience with Astro for strong baseline performance and SEO.
+- Implemented a multi-LP model to support different campaign/ad contexts with reusable structure.
+- Used Cloudflare bucket-based media delivery for videos and assets to improve consistency and maintainability.
+- Coordinated page content structure with compliance-oriented messaging and discoverability goals.
 
-## Resultados
+## Outcome
 
-A Landing Page estabelece presença digital da MSPA com uma introdução moderna, rápida e convincente às soluções de compliance da empresa. Design limpo e mensagem estratégica trabalham juntos para comunicar tanto confiabilidade quanto inovação.
+- Landing pages became easier to adapt for multiple campaign scenarios.
+- Media-heavy sections remained performant and operationally manageable.
+- The experience delivered a clearer path from acquisition traffic to conversion-oriented actions.
+
+## Notes / Lessons
+
+Campaign performance depends on architecture as much as copy. A reusable multi-LP setup reduced iteration friction while keeping technical quality stable.

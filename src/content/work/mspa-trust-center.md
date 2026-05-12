@@ -2,42 +2,48 @@
 title: MSPA Trust Center
 publishDate: 2026-03-09
 description: |
-  Infraestrutura de transparência global. Engine de consentimento agnóstica baseada em Web Components e processamento distribuído em Edge Computing (KV, D1, Workers).
+  Enforcement-focused consent and transparency layer integrated with Compass, built with Web Components and Cloudflare edge services for auditable and low-latency privacy operations.
 tags:
   - Lit
   - Web Components
   - Edge Computing
+  - Cloudflare Workers
   - Cloudflare D1
   - Cloudflare KV
+  - Durable Objects
 ---
 
-## Visão Geral
+## Context
 
-O **Trust Center** é a camada de interface pública entre as empresas e os titulares de dados. O desafio era criar uma solução que fosse, simultaneamente, **extremamente leve** para não afetar o SEO dos clientes e **tecnologicamente agnóstica**, permitindo a integração em qualquer ecossistema web (React, Vue, WordPress ou HTML puro) sem conflitos de dependências ou overhead de performance.
+Trust Center is MSPA's public-facing privacy layer, designed to run across different client websites while staying connected to Compass policy management.
 
-## Engenharia de Componentes Agnósticos (Lit)
+## Problem
 
-Diferente de soluções presas a frameworks pesados, projetei o Trust Center como uma biblioteca de **Web Components**:
-* **Zero Framework Overlap:** Desenvolvi a engine utilizando **Lit** e **Shadow DOM**, garantindo que o componente seja injetável em qualquer site sem sofrer interferência do CSS ou JS hospedeiro.
-* **Engine de Bloqueio:** Implementei um sistema de interceptação de scripts de terceiros que atua diretamente no navegador, garantindo conformidade rigorosa com a LGPD com um bundle final de tamanho mínimo.
+Most consent banners provide UI but weak enforcement. MSPA needed a consent implementation that blocks third-party scripts until explicit acceptance, records consent events for auditability, and remains lightweight for production websites.
 
-## Arquitetura de Borda (Edge Computing)
+## Role & Ownership
 
-Para atingir latência próxima de zero e alta disponibilidade global, projetei a infraestrutura utilizando a stack serverless da Cloudflare:
-* **Cloudflare KV (Key-Value):** Utilizado para armazenamento de alta velocidade de leitura das configurações de conformidade. Isso permite que a engine decida quais scripts bloquear em milissegundos, antes mesmo do carregamento da página.
-* **Cloudflare D1 & Durable Objects:** Implementados para gerenciar estados de consentimento transacionais e persistência SQL na borda, reduzindo drasticamente a latência de resposta e otimizando o custo de processamento de dados massivos.
-* **Cloudflare Workers:** Toda a lógica de roteamento e aplicação de políticas de privacidade ocorre diretamente no ponto de presença (PoP) mais próximo do usuário.
+I contributed directly to both frontend behavior and architecture decisions, including:
 
-## Integração com o Ecossistema Compass
+- Consent banner behavior and script enforcement flow.
+- Integration design between Trust Center and Compass configuration.
+- Technical decisions around edge services and data persistence for audit records.
 
-Embora o componente de interface seja agnóstico para o cliente final, ele é alimentado por uma inteligência de gestão robusta:
-* **Sincronização de Dados:** O Trust Center comunica-se de forma transparente com o painel administrativo do **Compass** (construído em **Angular 18+**), onde as políticas configuradas pelos gestores são propagadas para a borda.
-* **Arquitetura Desacoplada:** Esta separação permitiu que o painel de gestão fosse denso e complexo, enquanto o componente de face pública permanecesse focado em performance crítica e isolamento técnico.
+## Technical Decisions
 
-## Destaques Técnicos
-* **Interface:** Lit (Web Components), TypeScript, Shadow DOM.
-* **Infra:** Cloudflare Workers, KV, D1, Durable Objects.
-* **Performance:** Foco em latência sub-100ms e impacto mínimo em Core Web Vitals.
+- Built a framework-agnostic consent UI using Lit + Web Components + Shadow DOM.
+- Implemented script control flow that allows third-party execution only after explicit user acceptance.
+- Added script tracking and acceptance/rejection event recording for compliance audit trails.
+- Used Cloudflare KV for fast policy reads, D1 for persisted records, and Edge Workers for low-latency decision paths.
+- Connected consent behavior to Compass-managed privacy settings for centralized operational control.
 
-## Impacto
-O Trust Center tornou-se uma solução de "Privacidade como Serviço" escalável. A natureza agnóstica permitiu uma adoção rápida por clientes com diferentes stacks, enquanto a arquitetura em Edge garantiu que a conformidade técnica não custasse a performance do site final.
+## Outcome
+
+- Delivered an enforcement-focused consent experience instead of only a visual banner.
+- Created auditable consent event tracking for client compliance operations.
+- Preserved low-latency behavior through edge-native architecture.
+- Enabled integration flexibility through framework-agnostic delivery.
+
+## Notes / Lessons
+
+Consent UX and consent enforcement are different problems. Treating enforcement and auditability as first-class requirements produced a more trustworthy implementation.

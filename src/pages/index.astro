@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 // Component Imports
 import CallToAction from "../components/CallToAction.astro";
 // Page section components
@@ -15,8 +15,11 @@ import SkillsAdvanced from "../components/SkillsAdvanced.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 // Content Fetching: List four most recent work projects
-const projects = (await getCollection("work"))
-  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+const projects: CollectionEntry<"work">[] = (await getCollection("work"))
+  .sort(
+    (a: CollectionEntry<"work">, b: CollectionEntry<"work">) =>
+      b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
+  )
   .slice(0, 4);
 
 // Full Astro Component Syntax:
@@ -27,24 +30,24 @@ const projects = (await getCollection("work"))
   <div class="stack gap-20 lg:gap-48">
     <div class="wrapper stack gap-8 lg:gap-20">
       <header class="hero">
-		<Hero
-			title="André Nicolas"
-			tagline="Engenheiro Frontend & Product Engineer. Especialista em Edge, Angular e React,  focado em construir sistemas escaláveis que resolvam problemas, priorizando performance escalável e experiência do usuário qualificada."
-			align="start">
-			<div class="roles">
-			<Pill><Icon icon="code" size="1.33em" />Web</Pill>
-			<Pill><Icon icon="microphone-stage" size="1.33em" /> Liderança Técnica</Pill>
-			<Pill><Icon icon="strategy" size="1.33em" /> Engenharia de Produto</Pill>
-			</div>
-		</Hero>
+        <Hero
+          title="Andre Nicolas"
+          tagline="Frontend Engineer and Product Engineer focused on scalable systems, UX, and performance. I build product-driven platforms with Angular, React, and Web Components for real business use."
+          align="start">
+          <div class="roles">
+            <Pill><Icon icon="code" size="1.33em" /> Web Engineering</Pill>
+            <Pill><Icon icon="microphone-stage" size="1.33em" /> Technical Leadership</Pill>
+            <Pill><Icon icon="strategy" size="1.33em" /> Product Engineering</Pill>
+          </div>
+        </Hero>
 
-<img
-  alt="André Nicolas - Engenheiro de Software Frontend"
-  width="480"
-  height="620"
-  src="/assets/IMG_20260205_092032_492.webp"
-  loading="eager"
-/>
+        <img
+          alt="Andre Nicolas - Frontend Software Engineer"
+          width="480"
+          height="620"
+          src="/assets/IMG_20260205_092032_492.webp"
+          loading="eager"
+        />
       </header>
 
       <Skills />
@@ -53,11 +56,11 @@ const projects = (await getCollection("work"))
     <main class="wrapper stack gap-20 lg:gap-48">
       <section class="section with-background with-cta">
         <header class="section-header stack gap-2 lg:gap-4">
-          <h3>Projetos em Destaque</h3>
+          <h3>Featured Projects</h3>
           <p>
-            Soluções de alto impacto em compliance global, fintech, engenharia
-            de produto e sistemas de performance crítica. Veja como entrego
-            valor em larga escala.
+            High-impact work across compliance products, fintech, and product
+            engineering. Built to solve real problems with scalable, maintainable
+            delivery.
           </p>
         </header>
 
@@ -75,7 +78,7 @@ const projects = (await getCollection("work"))
 
         <div class="cta">
           <CallToAction href="/work/">
-            Ver Todos
+            View All Projects
             <Icon icon="arrow-right" size="1.2em" />
           </CallToAction>
         </div>
@@ -100,16 +103,15 @@ const projects = (await getCollection("work"))
     display: none;
   }
 
-
-.hero img {
-  aspect-ratio: 4 / 5; 
-  object-fit: cover;
-  object-position: center 20%; 
-  border-radius: 1.5rem;
-  box-shadow: var(--shadow-md);
-  width: 100%;
-  max-width: 400px; 
-}
+  .hero img {
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center 20%;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+    width: 100%;
+    max-width: 400px;
+  }
 
   @media (min-width: 50em) {
     .hero {

@@ -7,7 +7,7 @@ const { tech } = Astro.props;
 
 // Map tech names to devicon class names
 const techIconMap: Record<string, string> = {
-  "Angular": "angular",
+  Angular: "angular",
   React: "react",
   "React.js": "react",
   "Next.js": "nextjs",
@@ -26,13 +26,14 @@ const techIconMap: Record<string, string> = {
   Enterprise: "bash",
   Fintech: "bash",
   "UX Design": "figma",
+  "UX Strategy": "figma",
   "Design Systems": "figma",
   Accessibility: "bash",
   Performance: "webpack",
   SEO: "bash",
   "E-commerce": "bash",
-  "Payment Integration": "stripe",
-  "Cloud Infrastructure": "aws",
+  "Payment Integration": "bash",
+  "Cloud Infrastructure": "amazonwebservices",
   Supabase: "supabase",
   PostgreSQL: "postgresql",
   D1: "sqlite",
@@ -40,19 +41,28 @@ const techIconMap: Record<string, string> = {
   "Educational Tool": "bash",
   "Social Impact": "bash",
   "Conversion Rate Optimization": "bash",
-  "Copywriting Estratégico": "bash",
-  "Responsive Design": "bash",
-  "Dark Mode": "bash",
-  "Design Centrado no Usuário": "bash",
+  "Content Strategy": "bash",
+  "Knowledge Base": "bash",
+  "Core Web Vitals": "webpack",
+  Conversion: "bash",
+  "Brand Positioning": "bash",
+  "Financial Simulation": "bash",
+  "Calculation Engine": "bash",
   Testing: "vitest",
   Vitest: "vitest",
-  Jasmine: "bash",
-  Karma: "bash",
   Golang: "go",
+  "Cloudflare Workers": "bash",
+  "Cloudflare KV": "bash",
+  "Cloudflare D1": "sqlite",
+  "Durable Objects": "bash",
+  "Web Components": "html5",
+  Lit: "javascript",
 };
 
 const iconKey = techIconMap[tech] || "bash";
 const iconUrl = `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${iconKey}/${iconKey}-original.svg`;
+const fallbackIconUrl =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg";
 ---
 
 <span class="tech-badge">
@@ -62,6 +72,7 @@ const iconUrl = `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${ico
     class="tech-icon"
     loading="lazy"
     decoding="async"
+    onerror={`this.onerror=null;this.src='${fallbackIconUrl}'`}
   />
   <span class="tech-name">{tech}</span>
 </span>
@@ -75,7 +86,7 @@ const iconUrl = `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${ico
     background: var(--gradient-subtle);
     border: 1px solid var(--gray-800);
     border-radius: 0.5rem;
-    color: var(--gray-200); 
+    color: var(--gray-200);
     font-size: var(--text-sm);
     font-weight: 500;
     transition: all var(--theme-transition);
