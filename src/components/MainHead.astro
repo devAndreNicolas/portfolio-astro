@@ -1,53 +1,15 @@
 ---
 import "../styles/global.css";
-
-interface Props {
-  title?: string | undefined;
-  description?: string | undefined;
-}
-
-const {
-  title = "Andre Nicolas: Frontend Engineer | Product-Oriented",
-  description = "Frontend Engineer focused on scalable, high-performance, product-driven systems across Angular, React, Web Components, and cloud edge infrastructure.",
-} = Astro.props;
+interface Props { title?: string; description?: string; }
+const { title = "André Nicolas — Frontend Engineer", description = "Frontend Engineer building thoughtful digital products through UX, product thinking, and engineering." } = Astro.props;
 ---
-
 <meta charset="UTF-8" />
-<meta name="description" property="og:description" content={description} />
-<meta name="viewport" content="width=device-width" />
+<meta name="description" content={description} />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="generator" content={Astro.generator} />
 <title>{title}</title>
-
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="icon" href="/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400&family=Rubik:wght@500;600&display=swap"
-  rel="stylesheet"
-/>
-<script is:inline>
-  // This code is inlined in the head to make dark mode instant & blocking.
-  const getThemePreference = () => {
-    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-      return localStorage.getItem("theme");
-    }
-    return window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
-  };
-  const isDark = getThemePreference() === "dark";
-  document.documentElement.classList[isDark ? "add" : "remove"]("theme-dark");
-
-  if (typeof localStorage !== "undefined") {
-    // Watch the document element and persist user preference when it changes.
-    const observer = new MutationObserver(() => {
-      const isDark = document.documentElement.classList.contains("theme-dark");
-      localStorage.setItem("theme", isDark ? "dark" : "light");
-    });
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["class"],
-    });
-  }
-</script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />

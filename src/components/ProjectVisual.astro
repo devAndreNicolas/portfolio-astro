@@ -1,0 +1,16 @@
+---
+interface Props { type: "workflow" | "consent" | "commerce" | "focus" | "content" | "social" | "finance" | "learning"; title: string; }
+const { type, title } = Astro.props;
+const labels = {
+  workflow: ["Map", "Assess", "Act"], consent: ["Visitor", "Consent", "Audit"], commerce: ["Discover", "Checkout", "Deliver"],
+  focus: ["30:00", "Presence", "Begin"], content: ["Read", "Define", "Understand"], social: ["Discover", "Support", "Impact"],
+  finance: ["Input", "Simulate", "Compare"], learning: ["Pattern", "Test", "Learn"],
+}[type];
+---
+<div class:list={["visual", `visual--${type}`]} aria-label={`${title} product representation`}>
+  <div class="window"><div class="bar"><i></i><i></i><i></i><span></span></div><div class="canvas"><p>{labels[0]}</p><b>{labels[1]}</b><p>{labels[2]}</p></div></div>
+  <div class="nodes" aria-hidden="true"><span></span><span></span><span></span></div>
+</div>
+<style>
+.visual { position:relative; min-height:17rem; overflow:hidden; border:1px solid var(--line); background:#e9edf2; padding:1.1rem; }.window { position:relative; z-index:1; height:100%; min-height:14.75rem; border:1px solid #b9c1cd; background:#fbfcfd; box-shadow:10px 10px 0 rgba(23,73,167,.1); }.bar { display:flex; align-items:center; gap:.32rem; height:2rem; padding:0 .65rem; border-bottom:1px solid #d8dde4; }.bar i { width:.38rem; height:.38rem; background:#aeb7c4; border-radius:50%; }.bar span { width:35%; height:.32rem; margin-left:.5rem; background:#e8ebef; }.canvas { display:grid; place-content:center; grid-template-columns:repeat(3, auto); gap:1rem; height:calc(100% - 2rem); text-align:center; color:#465365; font-size:.68rem; }.canvas b { display:grid; place-items:center; width:5.1rem; height:5.1rem; border:1px solid var(--blue); color:var(--blue); font-size:.88rem; font-weight:700; }.nodes { position:absolute; right:-1rem; bottom:-1rem; display:flex; gap:.5rem; transform:rotate(-25deg); }.nodes span { width:4rem; height:4rem; border:1px solid rgba(23,73,167,.25); background:var(--blue-soft); }.visual--focus { background:#edf2e9; }.visual--focus .canvas b { border-radius:50%; border-color:#517348; color:#34572e; }.visual--commerce { background:#f4ece7; }.visual--commerce .canvas b { border-color:#9d5938; color:#844625; }.visual--consent { background:#eef1fb; }.visual--finance { background:#e9f2ef; }.visual--social { background:#f5efea; }.visual--learning { background:#f3f1e9; }
+</style>

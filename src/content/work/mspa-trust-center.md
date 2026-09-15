@@ -1,8 +1,12 @@
 ---
 title: MSPA Trust Center
+order: 2
+headline: Making consent visible, enforceable and auditable.
+role: Frontend Engineering · Systems
+disciplines: [Web Components, Edge architecture, Privacy]
+visual: consent
 publishDate: 2026-03-09
-description: |
-  Enforcement-focused consent and transparency layer integrated with Compass, built with Web Components and Cloudflare edge services for auditable and low-latency privacy operations.
+description: A framework-agnostic privacy layer that turns consent from a visual banner into an enforceable, auditable product capability.
 tags:
   - Lit
   - Web Components
@@ -13,13 +17,23 @@ tags:
   - Durable Objects
 ---
 
+<section class="case-section">
+
 ## Context
 
 Trust Center is MSPA's public-facing privacy layer, designed to run across different client websites while staying connected to Compass policy management.
 
+</section>
+
+<section class="case-section">
+
 ## Problem
 
 Most consent banners provide UI but weak enforcement. MSPA needed a consent implementation that blocks third-party scripts until explicit acceptance, records consent events for auditability, and remains lightweight for production websites.
+
+</section>
+
+<section class="case-section">
 
 ## Role & Ownership
 
@@ -29,6 +43,10 @@ I contributed directly to both frontend behavior and architecture decisions, inc
 - Integration design between Trust Center and Compass configuration.
 - Technical decisions around edge services and data persistence for audit records.
 
+</section>
+
+<section class="case-section">
+
 ## Technical Decisions
 
 - Built a framework-agnostic consent UI using Lit + Web Components + Shadow DOM.
@@ -37,6 +55,10 @@ I contributed directly to both frontend behavior and architecture decisions, inc
 - Used Cloudflare KV for fast policy reads, D1 for persisted records, and Edge Workers for low-latency decision paths.
 - Connected consent behavior to Compass-managed privacy settings for centralized operational control.
 
+</section>
+
+<section class="case-section">
+
 ## Outcome
 
 - Delivered an enforcement-focused consent experience instead of only a visual banner.
@@ -44,6 +66,12 @@ I contributed directly to both frontend behavior and architecture decisions, inc
 - Preserved low-latency behavior through edge-native architecture.
 - Enabled integration flexibility through framework-agnostic delivery.
 
+</section>
+
+<section class="case-section">
+
 ## Notes / Lessons
 
 Consent UX and consent enforcement are different problems. Treating enforcement and auditability as first-class requirements produced a more trustworthy implementation.
+
+</section>

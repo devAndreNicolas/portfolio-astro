@@ -1,0 +1,15 @@
+---
+import type { CollectionEntry } from "astro:content";
+import ProjectVisual from "./ProjectVisual.astro";
+interface Props { project: CollectionEntry<"work">; index: number; priority?: boolean; }
+const { project, index, priority = false } = Astro.props;
+const { data, id } = project;
+---
+<article class:list={["project", { "project--priority": priority }]}>
+  <div class="meta"><span>{String(index).padStart(2, "0")}</span><span>{data.role ?? "Product engineering"}</span></div>
+  <div class="copy"><p class="eyebrow">{data.title}</p><h2 class="display">{data.headline ?? data.description}</h2><p>{data.description}</p><div class="disciplines">{data.disciplines.map((item) => <span>{item}</span>)}</div><a class="case-link" href={`/work/${id}/`}>Read case study <span aria-hidden="true">↗</span></a></div>
+  <a class="visual-link" href={`/work/${id}/`} aria-label={`Read ${data.title} case study`}><ProjectVisual type={data.visual} title={data.title} /></a>
+</article>
+<style>
+.project { display:grid; grid-template-columns:7rem minmax(0, .9fr) minmax(18rem, 1.1fr); gap:2rem; padding:4.5rem 0; border-top:1px solid var(--line); }.meta { display:flex; flex-direction:column; gap:.5rem; color:var(--muted); font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; }.copy { display:flex; flex-direction:column; align-items:flex-start; gap:1.25rem; }.copy h2 { max-width:12ch; font-size:clamp(2.1rem, 4vw, 4rem); }.copy > p:not(.eyebrow) { max-width:38ch; color:var(--muted); font-size:.94rem; }.disciplines { display:flex; flex-wrap:wrap; gap:.35rem .8rem; color:var(--muted); font-size:.75rem; }.disciplines span + span::before { content:"·"; margin-right:.8rem; }.case-link { color:var(--blue); font-size:.84rem; font-weight:700; text-decoration:none; }.case-link:hover { text-decoration:underline; text-underline-offset:.3em; }.visual-link { align-self:center; }.visual-link:hover .visual { border-color:var(--blue); }.project--priority .visual { min-height:22rem; }.project--priority .window { min-height:19.75rem; } @media(max-width:52rem) { .project { grid-template-columns:1fr; gap:1.5rem; padding:3rem 0; }.meta { flex-direction:row; justify-content:space-between; }.copy h2 { max-width:16ch; }.visual-link { width:100%; }.project--priority .visual { min-height:18rem; }.project--priority .window { min-height:15.75rem; } }
+</style>

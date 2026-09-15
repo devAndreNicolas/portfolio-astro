@@ -1,8 +1,7 @@
 ---
-import Hero from '../components/Hero.astro';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
-
-<BaseLayout title="Not Found" description="404 Error — this page was not found">
-	<Hero title="Page Not Found" tagline="Not found" />
+<BaseLayout title="Not found — André Nicolas" description="This page was not found.">
+  <main class="wrapper"><p class="eyebrow">404</p><h1 class="display">This page is not here.</h1><a class="button" href="/">Back to the casebook</a></main>
 </BaseLayout>
+<style>main { min-height:60vh; padding:10rem 0; } h1 { margin:1rem 0 2rem; font-size:clamp(3.5rem, 8vw, 7rem); }</style>

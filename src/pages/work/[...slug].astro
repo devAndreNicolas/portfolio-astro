@@ -1,195 +1,23 @@
 ---
-import { type CollectionEntry, getCollection, render } from "astro:content";
-
-import ContactCTA from "../../components/ContactCTA.astro";
-import Hero from "../../components/Hero.astro";
-import Icon from "../../components/Icon.astro";
-import TechBadge from "../../components/TechBadge.astro";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import ProjectVisual from "../../components/ProjectVisual.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-
-interface Props {
-  entry: CollectionEntry<"work">;
-}
-
-// This is a dynamic route that generates a page for every Markdown file in src/content/
-// Read more about dynamic routes and this `getStaticPaths` function in the Astro docs:
-// https://docs.astro.build/en/guides/routing/#dynamic-routes
+interface Props { entry: CollectionEntry<"work">; }
 export async function getStaticPaths() {
-  const work = await getCollection("work");
-  return work.map((entry) => ({
-    params: { slug: entry.id },
-    props: { entry },
-  }));
+  return (await getCollection("work")).map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
 }
-
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 ---
-
-<BaseLayout title={entry.data.title} description={entry.data.description}>
-  <div class="stack gap-20">
-    <div class="stack gap-15">
-      <header>
-        <div class="wrapper stack gap-2">
-          <a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
-          <Hero title={entry.data.title} align="start">
-            <div class="details">
-              <div class="tags">
-                {entry.data.tags.map((t) => <TechBadge tech={t} />)}
-              </div>
-              <p class="description">{entry.data.description}</p>
-            </div>
-          </Hero>
-        </div>
-      </header>
-      <main class="wrapper">
-        <div class="stack gap-10 content">
-          {
-            entry.data.img && (
-              <img src={entry.data.img} alt={entry.data.img_alt || ""} />
-            )
-          }
-          <div class="content">
-            <Content />
-          </div>
-        </div>
-      </main>
-    </div>
-    <ContactCTA />
-  </div>
+<BaseLayout title={`${entry.data.title} — André Nicolas`} description={entry.data.description}>
+  <main class="case wrapper">
+    <a class="back" href="/#work">← All work</a>
+    <header><p class="eyebrow">{String(entry.data.order).padStart(2, "0")} · {entry.data.role ?? "Product engineering"}</p><h1 class="display">{entry.data.headline ?? entry.data.title}</h1><p class="summary">{entry.data.description}</p><div class="facts"><div><span>Role</span><p>{entry.data.role ?? "Product engineering"}</p></div><div><span>Focus</span><p>{entry.data.disciplines.join(" · ")}</p></div>{entry.data.liveUrl && <div><span>Live product</span><p><a href={entry.data.liveUrl} target="_blank" rel="noreferrer">Visit product ↗</a></p></div>}</div></header>
+    <ProjectVisual type={entry.data.visual} title={entry.data.title} />
+    <article class="content"><Content /></article>
+    <section class="next"><p class="eyebrow">More work</p><a href="/#work">Explore all projects <span aria-hidden="true">↗</span></a></section>
+  </main>
 </BaseLayout>
-
 <style>
-  header {
-    padding-bottom: 2.5rem;
-    border-bottom: 1px solid var(--gray-800);
-  }
-
-  /* BACK-LINK: Responsivo ao tema */
-  .back-link {
-    display: none; /* Escondido no mobile por padrão como no original */
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--gray-200); /* Inverte entre dark/light automaticamente */
-    text-decoration: none;
-    font-weight: 500;
-    transition: color var(--theme-transition);
-  }
-
-  .back-link:hover,
-  .back-link:focus {
-    color: var(--accent-regular);
-    text-decoration: underline;
-    text-decoration-color: var(--accent-regular);
-    text-underline-offset: 0.25em;
-  }
-
-  /* LAYOUT DETAILS & TAGS */
-  .details {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    align-items: flex-start;
-    text-align: left;
-    padding: 0.5rem 0;
-  }
-
-  .tags {
-    display: flex;
-    flex-wrap: wrap; /* Impede quebra de layout */
-    gap: 0.75rem;
-    justify-content: flex-start;
-  }
-
-  .description {
-    font-size: var(--text-lg);
-    max-width: 54ch;
-    color: var(--gray-300); /* Cor secundária que respeita o tema */
-    margin: 0;
-    line-height: 1.5;
-  }
-
-  /* RESPONSIVIDADE DESKTOP */
-  @media (min-width: 50em) {
-    .back-link {
-      display: flex;
-      align-self: flex-start;
-    }
-
-    .details {
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 2.5rem;
-    }
-
-    .tags {
-      flex: 1;
-    }
-
-    .description {
-      flex: 1.5;
-      font-size: var(--text-xl);
-    }
-  }
-
-  /* CONTEÚDO (MARKDOWN) */
-  .content {
-    max-width: 65ch;
-    margin-inline: auto;
-    color: var(--gray-200);
-  }
-
-  .content > :global(* + *) {
-    margin-top: 1.5rem;
-  }
-
-  .content :global(h1),
-  .content :global(h2),
-  .content :global(h3),
-  .content :global(h4),
-  .content :global(h5) {
-    margin: 2rem 0 1rem;
-    color: var(--gray-0); /* Títulos em contraste máximo */
-  }
-
-  .content :global(img) {
-    border-radius: 1.5rem;
-    box-shadow: var(--shadow-sm);
-    background: var(--gradient-subtle);
-    border: 1px solid var(--gray-800);
-    margin: 2rem 0;
-  }
-
-  .content :global(blockquote) {
-    font-size: var(--text-lg);
-    font-family: var(--font-brand);
-    font-weight: 600;
-    line-height: 1.4;
-    padding: 1rem 1.5rem;
-    border-inline-start: 0.35rem solid var(--accent-regular);
-    background: var(--gradient-subtle);
-    color: var(--gray-0);
-    border-radius: 0 0.5rem 0.5rem 0;
-  }
-
-  /* LINKS DENTRO DO CONTEÚDO */
-  .content :global(a) {
-    color: var(--accent-regular);
-    text-decoration: 1px solid underline transparent;
-    text-underline-offset: 0.25em;
-    transition: all var(--theme-transition);
-  }
-
-  .content :global(a:hover),
-  .content :global(a:focus) {
-    color: var(--accent-light);
-    text-decoration-color: var(--accent-light);
-  }
-
-  @media (min-width: 50em) {
-    .content :global(blockquote) {
-      font-size: var(--text-2xl);
-    }
-  }
+.case { padding:3rem 0 8rem; }.back { display:inline-block; margin-bottom:5rem; color:var(--muted); font-size:.84rem; text-decoration:none; }.back:hover { color:var(--blue); }.case header { max-width:58rem; }.case h1 { margin:1rem 0 1.5rem; font-size:clamp(3.3rem, 7vw, 7rem); }.summary { max-width:46ch; color:var(--muted); font-size:clamp(1rem, 1.6vw, 1.22rem); }.facts { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; margin:4rem 0 3rem; padding-top:1rem; border-top:1px solid var(--line); }.facts span { color:var(--blue); font-size:.69rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }.facts p { margin-top:.4rem; font-size:.82rem; }.facts a { color:var(--blue); }.case > .visual { min-height:28rem; }.case > .visual .window { min-height:25.75rem; }.content { width:100%; margin:5rem 0; color:#4e5968; font-size:1.04rem; }.content :global(.case-section) { display:grid; grid-template-columns:minmax(12rem, .42fr) minmax(0, .58fr); column-gap:clamp(2rem, 8vw, 8rem); align-items:start; padding:3.5rem 0; border-top:1px solid var(--line); }.content :global(.case-section:last-child) { border-bottom:1px solid var(--line); }.content :global(.case-section h2) { grid-column:1; margin:0; padding-top:.2rem; color:var(--ink); font-family:var(--font-display); font-size:clamp(2rem, 4vw, 3.5rem); font-weight:400; line-height:1; letter-spacing:-.03em; }.content :global(.case-section > :not(h2)) { grid-column:2; margin:0; }.content :global(.case-section > * + *) { margin-top:1.1rem; }.content :global(.case-section h2 + *) { margin-top:0; }.content :global(li + li) { margin-top:.6rem; }.content :global(li::marker) { color:var(--blue); }.next { display:flex; justify-content:space-between; align-items:end; padding-top:1rem; border-top:1px solid var(--line); }.next a { color:var(--blue); font-size:clamp(1.4rem, 3vw, 2.4rem); font-family:var(--font-display); text-decoration:none; }.next a:hover { text-decoration:underline; text-underline-offset:.2em; } @media(max-width:42rem) { .back { margin-bottom:3rem; }.facts { grid-template-columns:1fr; margin:3rem 0 2rem; gap:1rem; }.case > .visual { min-height:18rem; }.case > .visual .window { min-height:15.75rem; }.content { margin:3rem 0; }.content :global(.case-section) { grid-template-columns:1fr; gap:1rem; padding:2.5rem 0; }.content :global(.case-section h2),.content :global(.case-section > :not(h2)) { grid-column:1; }.next { display:block; }.next a { display:block; margin-top:.5rem; } }
 </style>
