@@ -48,6 +48,11 @@ function isJobDescription(text) {
 }
 function isMarketRelevant(text) {
   if (country === "remote") return /\b(remote|remoto)\b/i.test(text);
+  // ATS vendors expose location in different layouts (a labelled field, an
+  // inline metadata row, or eligibility copy). The previous version only
+  // accepted one line-based layout and discarded valid Brazilian vacancies.
+  if (/\b(brazil|brasil)\b/i.test(text)) return true;
+  if (/\b(remote|remoto)\b/i.test(text)) return true;
   const lines = text.split("\n").map((line) => line.trim()).filter(Boolean);
   return lines.some((line, index) => /^(locations?|local de trabalho|location)$/i.test(line)
     && lines.slice(index + 1, index + 6).some((value) => /\b(brazil|brasil|remote|remoto)\b/i.test(value)));
@@ -110,6 +115,7 @@ const context = await browser.newContext({ locale: "pt-BR" });
 const page = await context.newPage();
 let saved = 0; let skipped = 0;
 const rejected = { duplicate: 0, location: 0, stale: 0, mismatch: 0, structure: 0, blocked: 0 };
+const attempts = [];
 try {
   for (const [url, discoveryProviders] of candidates) {
     if (saved >= limit) break;
@@ -119,16 +125,17 @@ try {
       const text = cleanText(await page.locator("body").innerText({ timeout: 10_000 }));
       const heading = cleanText(await page.locator("h1").first().innerText({ timeout: 3_000 }).catch(() => ""));
       const title = heading || cleanText(await page.title());
-      if (text.length < 700 || !isJobDescription(text)) { rejected.structure += 1; skipped += 1; continue; }
-      if (!isMarketRelevant(text)) { rejected.location += 1; skipped += 1; continue; }
-      if (/unusual traffic|captcha|access denied/i.test(text)) { rejected.blocked += 1; skipped += 1; continue; }
+      if (/unusual traffic|captcha|access denied/i.test(text)) { rejected.blocked += 1; attempts.push({ url, title, reason: "blocked" }); skipped += 1; continue; }
+      if (text.length < 700 || !isJobDescription(text)) { rejected.structure += 1; attempts.push({ url, title, reason: "structure", textLength: text.length }); skipped += 1; continue; }
+      if (!isMarketRelevant(text)) { rejected.location += 1; attempts.push({ url, title, reason: "location" }); skipped += 1; continue; }
       const ageDays = explicitAgeDays(text);
-      if (ageDays !== null && ageDays > maxAgeDays) { rejected.stale += 1; skipped += 1; continue; }
+      if (ageDays !== null && ageDays > maxAgeDays) { rejected.stale += 1; attempts.push({ url, title, reason: "stale", ageDays }); skipped += 1; continue; }
       const fit = fitSignals(text);
-      if (fit.rust || fit.core.length < 2) { rejected.mismatch += 1; skipped += 1; continue; }
+      if (fit.rust || fit.core.length < 2) { rejected.mismatch += 1; attempts.push({ url, title, reason: fit.rust ? "rust" : "insufficient-core-signals", fitSignals: fit.supported }); skipped += 1; continue; }
       if (alreadySaved(title)) {
         state.sources[url] = { ignored: "duplicate title", title, collectedAt: new Date().toISOString(), discoveryProviders };
         rejected.duplicate += 1;
+        attempts.push({ url, title, reason: "duplicate" });
         skipped += 1;
         continue;
       }
@@ -139,6 +146,7 @@ try {
     } catch (error) { skipped += 1; console.warn(`Skipped ${url}: ${error.message}`); }
     await sleep(1_200);
   }
+  state.lastRun = { at: new Date().toISOString(), country, provider, afterDate, maxAgeDays, discovered: candidates.size, collected: saved, rejected, attempts };
   writeFileSync(statePath, `${JSON.stringify(state, null, 2)}\n`);
   console.log(`Discovered ${candidates.size}; collected ${saved}; skipped ${skipped}; rejected ${JSON.stringify(rejected)}; market: ${country}; provider: ${provider}.`);
 } finally { await browser.close(); }
