@@ -1,0 +1,66 @@
+---
+import manifest from "../../../career/cvs/manifest.json";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const labels: Record<string, string> = {
+  "software-engineer": "Software Engineer",
+  "fullstack-engineer": "Full Stack Engineer",
+  "fullstack-developer": "Full Stack Developer",
+  "frontend-engineer": "Frontend Engineer",
+  "product-engineer": "Product Engineer",
+  "web-developer": "Web Developer",
+};
+
+const resumes = Object.entries(manifest.cvs)
+  .filter(([, cv]) => cv.public)
+  .map(([id, cv]) => {
+    const suffix = id.endsWith("-br") ? "-br" : "-international";
+    const role = id.slice(0, -suffix.length);
+    return {
+      id,
+      label: labels[role] ?? role,
+      language: cv.language === "pt-BR" ? "Portuguese (Brazil)" : "English",
+      href: `/${cv.output.replace(/^public\//, "")}`,
+    };
+  })
+  .sort((a, b) => a.label.localeCompare(b.label) || a.language.localeCompare(b.language));
+---
+
+<BaseLayout
+  title="CV library | Andre Nicolas"
+  description="Download the current role-specific CVs of Andre Nicolas."
+  noindex={true}
+>
+  <main class="wrapper cv-library">
+    <header>
+      <p class="eyebrow">Career documents</p>
+      <h1 class="display">CV library</h1>
+      <p>Role-specific, text-selectable PDF resumes. Choose the version closest to the opportunity.</p>
+    </header>
+
+    <ul aria-label="Available CVs">
+      {resumes.map((resume) => (
+        <li>
+          <div>
+            <h2>{resume.label}</h2>
+            <p>{resume.language}</p>
+          </div>
+          <a class="button button--quiet" href={resume.href} download>Download PDF <span aria-hidden="true">&darr;</span></a>
+        </li>
+      ))}
+    </ul>
+  </main>
+</BaseLayout>
+
+<style>
+  .cv-library { padding: clamp(4rem, 10vw, 8rem) 0; max-width: 54rem; }
+  header { max-width: 38rem; margin-bottom: 3rem; }
+  h1 { margin: .8rem 0 1.25rem; font-size: clamp(3rem, 7vw, 5.4rem); }
+  header > p:last-child { color: var(--muted); font-size: 1.05rem; }
+  ul { list-style: none; border-top: 1px solid var(--line); }
+  li { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.25rem 0; border-bottom: 1px solid var(--line); }
+  h2 { font-size: 1.05rem; }
+  li p { margin-top: .15rem; color: var(--muted); font-size: .86rem; }
+  .button { flex: 0 0 auto; }
+  @media (max-width: 34rem) { li { align-items: flex-start; flex-direction: column; gap: .8rem; } }
+</style>

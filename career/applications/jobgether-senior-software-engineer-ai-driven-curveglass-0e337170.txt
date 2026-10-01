@@ -1,0 +1,88 @@
+Source URL: https://jobs.lever.co/jobgether/05114e21-21d8-4d2b-a227-80879b883ab2
+Collected at: 2026-10-01T19:04:59.942Z
+Market: brazil
+Discovery: serper, serpapi
+Explicit age: unknown
+Fit signals: typescript, react, web-components, rest-api, postgresql, security, cicd, ai-product, product
+
+Senior Software Engineer (AI Driven) - Curveglass
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior Software Engineer (AI Driven) - Curveglass based in Brazil.
+
+This role offers broad technical ownership across the full lifecycle of a production AI and data-driven software platform.
+You will build and operate client-specific solutions for airline environments, spanning frontend, backend, integrations, infrastructure, and deployment.
+Working closely with revenue management teams, you’ll translate complex business and technical needs into reliable production systems.
+The position combines hands-on engineering with direct client interaction, troubleshooting, technical decision-making, and product collaboration.
+You’ll help determine which capabilities belong in client-specific implementations and which should become part of a shared core platform.
+With significant autonomy and a startup-oriented environment, you’ll have the opportunity to influence architecture, product direction, and engineering practices as the platform grows.
+
+Accountabilities:
+Own the technical implementation of the platform for one or two airline clients, from requirements and solution design through development, deployment, operation, and continuous improvement.
+Build and maintain client-specific Adapter functionality across frontend, backend, APIs, business logic, data integrations, and system exports.
+Develop production software using Python, TypeScript, React, SQL, and relevant cloud technologies.
+Integrate applications with client datasets, APIs, infrastructure, and existing enterprise systems.
+Deploy, maintain, and troubleshoot applications and infrastructure within client AWS or Azure environments.
+Use containers and Infrastructure-as-Code tools such as Terraform as part of application development and deployment.
+Work directly with clients to understand technical and business requirements, lead or participate in technical meetings, explain decisions, troubleshoot issues, and manage expectations.
+Analyze recommendation results in collaboration with revenue management teams and help identify technical or business issues affecting outcomes.
+Partner with the core engineering team to determine whether functionality should remain client-specific or become part of the shared product.
+Translate client requirements and implementation learnings into roadmap input and requests for improvements to the shared platform.
+Diagnose production issues, improve reliability and observability, and maintain systems throughout their operational lifecycle.
+Collaborate closely with engineering, data science, product, and leadership teams while contributing to architectural and technical decisions.
+Use modern AI-powered development tools to improve engineering productivity while maintaining code quality and sound technical judgment.
+
+Requirements:
+
+Strong professional software engineering experience with the ability to independently design, build, debug, deploy, and maintain production systems.
+Advanced proficiency in Python and experience using it in production environments.
+Full-stack development experience, including TypeScript and React, with the ability to own frontend functionality when required.
+Strong SQL skills and experience working with relational data, APIs, client datasets, and production data flows.
+Hands-on experience deploying and maintaining applications in AWS or Azure.
+Practical experience with containers and Infrastructure-as-Code tools such as Terraform.
+Demonstrated ability to take end-to-end ownership across application code, integrations, infrastructure, deployment, and ongoing maintenance.
+Strong client-facing communication skills, including the ability to lead technical discussions, explain complex decisions clearly, manage expectations, and challenge requirements constructively when appropriate.
+Business-oriented mindset with an understanding of the outcomes and value behind technical solutions.
+Production-focused engineering approach, with attention to maintainability, reliability, observability, debugging, and real-world system behavior.
+Experience using modern AI coding tools as part of the daily development workflow while applying sound judgment to maintain quality.
+Ability to work independently, navigate ambiguity, take ownership of complex problems, and deliver without constant supervision.
+Fluent spoken and written English, with the ability to communicate effectively with technical and non-technical stakeholders.
+Flexibility to occasionally adapt working hours for collaboration with clients across the Americas, Europe, and the Middle East.
+Experience implementing enterprise or data products requiring meaningful integration and customization is a plus.
+Familiarity with airline pricing, forecasting, revenue management, or related systems is advantageous.
+Experience with production data pipelines and technologies such as Parquet, Snowflake, or similar data infrastructure is beneficial.
+Professional proficiency in Spanish or Portuguese is a plus.
+Previous startup experience and comfort working in fast-moving, ambiguous environments are advantageous.
+Experience deploying and operating applications or infrastructure within enterprise AWS or Azure environments is beneficial.
+Strong product instincts, particularly around deciding between client-specific functionality and broader platform capabilities, are a plus.
+
+Benefits:
+
+Startup-level ownership combined with access to a broader engineering, AI, and product ecosystem.
+Opportunity to build production systems that directly support airline revenue management and business decision-making.
+End-to-end responsibility spanning architecture, development, integration, deployment, and ongoing operations.
+Direct exposure to real-world engineering and data challenges in a complex industry environment.
+Close collaboration with the people using the systems you build, with opportunities to influence technical and product decisions.
+Meaningful input into architecture, roadmap priorities, and the balance between client-specific and shared product functionality.
+Small, collaborative environment with close interaction across engineering, data science, product, and leadership.
+Remote-first working model with the option to connect with the broader team and community.
+Flexible schedules focused on outcomes, ownership, and impact.
+Competitive compensation, with specific salary figures not provided in the source description.
+Opportunities to influence engineering, infrastructure, integrations, and technical decision-making as the organization grows.
+Exposure to AI-powered development practices, data-intensive systems, cloud infrastructure, and enterprise implementations.
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by

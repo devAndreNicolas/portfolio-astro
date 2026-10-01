@@ -1,0 +1,83 @@
+Source URL: https://jobs.lever.co/jobgether/dc92c9bd-ac1e-4df6-8e09-7dbba1af08f1
+Collected at: 2026-10-01T19:04:54.732Z
+Market: brazil
+Discovery: serper, serpapi
+Explicit age: unknown
+Fit signals: typescript, react, nextjs, web-components, code-review, rest-api, postgresql, security, cicd, ai-product, product
+
+Senior Software Engineer
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior Software Engineer based in Brazil.
+
+This role offers the opportunity to build production systems that support advanced AI research, evaluation, and software engineering workflows.
+You will work at the intersection of engineering and research, developing the infrastructure used to create, validate, evaluate, and reproduce high-signal datasets.
+The position spans backend services, data pipelines, internal interfaces, agentic workflows, sandboxed execution environments, and evaluation systems.
+You will own systems end-to-end, from architecture and implementation through deployment, production operations, and reliability improvements.
+A strong emphasis on correctness and reproducibility means your work directly influences the quality of AI training and evaluation processes.
+You will collaborate closely with researchers, domain experts, and technical teams while solving complex problems involving both deterministic and non-deterministic systems.
+
+Accountabilities:
+Own production services end-to-end, including system design, implementation, deployment, rollout, monitoring, and ongoing operation.
+Build backend services and data pipelines that generate, validate, score, and version datasets in a reproducible manner.
+Develop internal, data-intensive interfaces using virtualized tables, server-side filtering, and review or annotation workflows capable of handling large datasets efficiently.
+Build and operate agent harnesses supporting multi-step workflows, tool usage, retries, structured outputs, and execution against real repositories and test suites.
+Design and maintain sandboxed environments where model-generated code can execute safely and deterministically at scale.
+Build reinforcement learning environments and evaluation harnesses on top of secure execution infrastructure.
+Trace and debug agent workflows end-to-end, identifying stalled loops, failed tool calls, and discrepancies between automated graders and human evaluations.
+Own Infrastructure-as-Code and CI/CD processes and troubleshoot production issues across the technology stack.
+Drive reliability improvements and follow through on operational issues identified in production.
+Contribute to code reviews, technical design documentation, engineering standards, and innovation initiatives.
+Partner with researchers and quality stakeholders to define and maintain standards for correctness, reproducibility, and evaluation quality.
+Continuously improve systems supporting AI research, software engineering evaluation, and data generation workflows.
+
+Requirements:
+
+6+ years of experience building and operating production software, ideally within product-focused organizations operating at meaningful scale.
+Deep Python expertise with production experience using FastAPI and/or Django, including ORM performance, database migrations, and asynchronous programming patterns.
+Strong PostgreSQL experience covering schema design, query optimization, indexing, and performance considerations, along with experience using NoSQL databases.
+Production frontend development experience with TypeScript, React, and Next.js.
+Strong Linux and Docker experience, with hands-on Infrastructure-as-Code experience using Terraform or comparable technologies on AWS or GCP.
+Experience owning and maintaining CI/CD processes used to deploy production infrastructure and applications.
+Daily practical use of LLM coding tools such as Claude Code, Cursor, or Copilot, with the ability to critically evaluate generated code and identify its limitations.
+Demonstrated experience building solutions on top of LLM APIs, such as agents, data pipelines, or evaluation systems, that have been used by other people.
+Comfort working with non-deterministic systems and distinguishing genuine regressions from expected variability through controlled experiments and evidence-based analysis.
+Advanced Git skills and strong testing discipline, including unit and integration testing as well as coverage of negative and edge cases.
+Strong understanding of software engineering principles, production reliability, and maintainable system design.
+Clear written communication skills and the ability to work independently without extensive supervision.
+Confidence challenging unclear or incorrect specifications when necessary.
+Experience with internal tools or developer platforms used daily by technical teams is a plus.
+Familiarity with agent frameworks and protocols such as LangGraph, MCP, or LLM tool-use capabilities is advantageous.
+Experience with sandboxing and untrusted code execution technologies such as gVisor, Firecracker, or seccomp is a plus.
+Knowledge of workflow orchestration technologies such as Temporal, Airflow, Prefect, or Dagster and Kubernetes beyond managed defaults is beneficial.
+Experience with LLM coding benchmarks, evaluation frameworks, RLHF, or RLVR is advantageous.
+A Bachelor's or Master's degree in Computer Science, Software Engineering, Data Science, Machine Learning, AI, or a programming-focused IT discipline is preferred; demonstrated professional outcomes are also strongly valued.
+
+Benefits:
+
+Opportunity to work at the forefront of AI research and software engineering.
+Direct contribution to datasets, reinforcement learning environments, evaluation systems, and benchmarks used to improve advanced AI models.
+Exposure to leading-edge AI research and opportunities to showcase technical work within the broader research community.
+Opportunity to apply frontier AI techniques to real-world enterprise challenges.
+Collaboration with experienced professionals from leading technology organizations and AI backgrounds.
+High-impact engineering environment with significant ownership and autonomy.
+Startup-style pace with an emphasis on speed, experimentation, and measurable impact.
+Opportunity to work across AI infrastructure, agentic systems, data engineering, backend development, and evaluation tooling.
+Remote work arrangement for the Brazil-based role.
+Salary and specific additional benefits were not specified in the source job description.
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by

@@ -17,13 +17,264 @@
         "serper"
       ]
     },
-    "https://jobs.ashbyhq.com/kraken.com/c591538b-b19c-4377-9a56-f5b9b30fc9fa": {
-      "file": "career/applications/senior-software-engineer-rust-consumer-81ed28f4.txt",
-      "title": "Senior Software Engineer - Rust - Consumer",
-      "collectedAt": "2026-10-01T18:55:04.496Z",
+    "https://jobs.lever.co/jobgether/54dd4066-6586-4d90-b7f2-7927181ba492": {
+      "file": "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt",
+      "title": "Jobgether - Full Stack Software Engineer - AI-First",
+      "collectedAt": "2026-10-01T19:04:35.146Z",
+      "discoveryProviders": [
+        "serpapi",
+        "serper"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "typescript",
+        "angular",
+        "web-components",
+        "code-review",
+        "rest-api",
+        "security",
+        "cicd",
+        "ai-product"
+      ]
+    },
+    "https://jobs.lever.co/jobgether/c11017a8-7c3f-4d59-9502-beca1064b10d": {
+      "file": "career/applications/jobgether-senior-full-stack-engineer-alpaca-connect-a38d7639.txt",
+      "title": "Jobgether - Senior Full-Stack Engineer - Alpaca Connect",
+      "collectedAt": "2026-10-01T19:04:42.231Z",
+      "discoveryProviders": [
+        "serpapi",
+        "serper"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "typescript",
+        "react",
+        "web-components",
+        "go",
+        "rest-api",
+        "postgresql",
+        "authorization",
+        "security",
+        "cicd"
+      ]
+    },
+    "https://jobs.lever.co/jobgether/dc92c9bd-ac1e-4df6-8e09-7dbba1af08f1": {
+      "file": "career/applications/jobgether-senior-software-engineer-371cb484.txt",
+      "title": "Jobgether - Senior Software Engineer",
+      "collectedAt": "2026-10-01T19:04:54.732Z",
+      "discoveryProviders": [
+        "serper",
+        "serpapi"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "typescript",
+        "react",
+        "nextjs",
+        "web-components",
+        "code-review",
+        "rest-api",
+        "postgresql",
+        "security",
+        "cicd",
+        "ai-product",
+        "product"
+      ]
+    },
+    "https://jobs.lever.co/jobgether/05114e21-21d8-4d2b-a227-80879b883ab2": {
+      "file": "career/applications/jobgether-senior-software-engineer-ai-driven-curveglass-0e337170.txt",
+      "title": "Jobgether - Senior Software Engineer (AI Driven) - Curveglass",
+      "collectedAt": "2026-10-01T19:04:59.942Z",
+      "discoveryProviders": [
+        "serper",
+        "serpapi"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "typescript",
+        "react",
+        "web-components",
+        "rest-api",
+        "postgresql",
+        "security",
+        "cicd",
+        "ai-product",
+        "product"
+      ]
+    },
+    "https://jobs.lever.co/jobgether/8e4b5add-889c-4658-a452-2c1322f9d7bd": {
+      "file": "career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt",
+      "title": "Jobgether - Mid-Level Fullstack (Java I Angular) Developer",
+      "collectedAt": "2026-10-01T19:05:05.153Z",
       "discoveryProviders": [
         "serper"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "angular",
+        "web-components",
+        "testing",
+        "node",
+        "rest-api",
+        "security",
+        "cicd",
+        "ai-product"
       ]
+    },
+    "https://jobs.smartrecruiters.com/SigmaSoftware2/744000152097194-middle-typescript-node-js-developer-with-ai-experience-adtech-": {
+      "ignored": "error page removed",
+      "title": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters"
+    },
+    "https://jobs.smartrecruiters.com/M3USA/744000152758649-ai-software-engineer-remote-": {
+      "ignored": "error page removed",
+      "title": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters"
     }
+  },
+  "lastRun": {
+    "at": "2026-10-01T19:06:02.980Z",
+    "country": "brazil",
+    "provider": "both",
+    "afterDate": "2026-09-28",
+    "maxAgeDays": 7,
+    "discovered": 23,
+    "collected": 7,
+    "rejected": {
+      "duplicate": 0,
+      "location": 0,
+      "stale": 0,
+      "mismatch": 4,
+      "structure": 12,
+      "blocked": 0
+    },
+    "attempts": [
+      {
+        "url": "https://portal.gupy.io/job-search/term=react",
+        "title": "Aplique para Vagas de react",
+        "reason": "structure",
+        "textLength": 2906
+      },
+      {
+        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Associate-Full-Stack-Developer--Net-Angular-Azure-_R2066910/apply",
+        "title": "Careers",
+        "reason": "structure",
+        "textLength": 0
+      },
+      {
+        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Associate-Full-Stack-Developer--Net-Angular-Azure-_R2066910/apply/useMyLastApplication",
+        "title": "Careers",
+        "reason": "structure",
+        "textLength": 161
+      },
+      {
+        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Full-Stack-Developer--Net-Angular-Azure-_R2066416",
+        "title": "Careers",
+        "reason": "structure",
+        "textLength": 169
+      },
+      {
+        "url": "https://boards.greenhouse.io/stone/jobs/7999476003",
+        "title": "[Aquisição Digital] Software Engineer III - Mobile",
+        "reason": "structure",
+        "textLength": 6870
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/g2i/70c018bc-d3b5-426f-bfd5-ae94891dcc7f",
+        "title": "Senior Software Engineer, AI Training - Brazil",
+        "reason": "structure",
+        "textLength": 3307
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/oneclick-ui/company/RenesasElectronics/publication/8c03db59-4736-4959-8cd0-457b0cb3d791?dcr_ci=RenesasElectronics&sid=2d92f286-613b-4daf-9dfa-6340ffbecf73",
+        "title": "smartrecruiters.com",
+        "reason": "structure",
+        "textLength": 0
+      },
+      {
+        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Associate-Full-Stack-Developer--Net-Angular-Azure-_R2066910",
+        "title": "Careers",
+        "reason": "structure",
+        "textLength": 0
+      },
+      {
+        "url": "https://jobs.lever.co/jobgether/8da0341b-a2ac-4231-91c7-9b2b81a5d560",
+        "title": "Jobgether - Software Engineer | AI-Native",
+        "reason": "insufficient-core-signals",
+        "fitSignals": [
+          "typescript",
+          "web-components",
+          "code-review",
+          "rest-api",
+          "security",
+          "cicd",
+          "ai-product",
+          "product"
+        ]
+      },
+      {
+        "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/BELO-HORIZONTE/Software-Engineer-II--R-D-Hardware-Verification_R56225?utm_source=hsamplify&utm_medium=linkedin&utm_term=2ce009d3-992f-4e66-8399-90da12317a46",
+        "title": "",
+        "reason": "structure",
+        "textLength": 0
+      },
+      {
+        "url": "https://boards.greenhouse.io/okta/jobs/8237695",
+        "title": "Senior Software Engineer",
+        "reason": "insufficient-core-signals",
+        "fitSignals": [
+          "javascript",
+          "accessibility",
+          "seo",
+          "web-components",
+          "rest-api",
+          "authorization",
+          "security",
+          "cicd"
+        ]
+      },
+      {
+        "url": "https://jobs.lever.co/jobgether/ba72a0cb-fb5b-400e-b0c0-5fc135b99703",
+        "title": "Jobgether - Senior Software Engineer, Quality",
+        "reason": "insufficient-core-signals",
+        "fitSignals": [
+          "typescript",
+          "web-components",
+          "rest-api",
+          "security",
+          "cicd",
+          "ai-product"
+        ]
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/cas/9622e35e-24a4-4d8a-9f7e-f0f3b0a80639",
+        "title": "AI-Native Full-Stack Engineer (Portal Owner)",
+        "reason": "structure",
+        "textLength": 7117
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/apas/a36c1e1b-8d9c-42ef-8a6b-5dcb7e836d84",
+        "title": "Full Stack Engineer",
+        "reason": "structure",
+        "textLength": 4896
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/oneclick-ui/company/M3USA/publication/687a7aea-bd8a-4c5c-9228-616f9c68672a?dcr_ci=M3USA",
+        "title": "smartrecruiters.com",
+        "reason": "structure",
+        "textLength": 0
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/Nagarro1/744000152723749-associate-principal-engineer-dataops",
+        "title": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
+        "reason": "insufficient-core-signals",
+        "fitSignals": [
+          "accessibility",
+          "web-components",
+          "rest-api",
+          "postgresql",
+          "security",
+          "cicd"
+        ]
+      }
+    ]
   }
 }

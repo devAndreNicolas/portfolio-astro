@@ -1,0 +1,63 @@
+Source URL: https://jobs.lever.co/jobgether/c11017a8-7c3f-4d59-9502-beca1064b10d
+Collected at: 2026-10-01T19:04:42.231Z
+Market: brazil
+Discovery: serpapi, serper
+Explicit age: unknown
+Fit signals: typescript, react, web-components, go, rest-api, postgresql, authorization, security, cicd
+
+Senior Full-Stack Engineer - Alpaca Connect
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior Full-Stack Engineer - Alpaca Connect based in Brazil.
+
+This role offers the opportunity to build the tools and services that enable developers to launch and manage applications within a modern financial infrastructure platform. You will work across TypeScript, React, and Go to create secure, reliable, and intuitive product experiences. The position spans developer onboarding, application management, compliance workflows, marketplace discovery, consent, and permissions. You will integrate these experiences with identity, account, trading, and market data systems. Working closely with Product, Design, Compliance, Support, Partnerships, and Platform teams, you will help turn complex requirements into straightforward solutions. You will also own features through production and contribute to the technical direction of a globally distributed engineering team.
+
+Accountabilities:
+Build and maintain full-stack experiences using TypeScript and React, supported by Go services.
+Improve application onboarding, testing, compliance review, approval, publishing, and ongoing management workflows.
+Transform manual support and compliance processes into clear, auditable, and self-service experiences.
+Design APIs and integrations connecting product workflows with identity, account, trading, and market data systems.
+Own features from initial design through production deployment, operation, and continuous improvement.
+Collaborate with Product, Design, Compliance, Support, Partnerships, and Platform teams to deliver secure and user-friendly solutions.
+Contribute to the team's technical direction and help establish effective approaches for solving complex product and engineering challenges.
+
+Requirements:
+
+5+ years of experience building and delivering production full-stack applications.
+Strong proficiency in TypeScript and React.
+Professional experience with Go or another modern backend programming language.
+Strong SQL and relational database skills, preferably with PostgreSQL.
+Experience designing REST APIs and integrating distributed services.
+Experience with OAuth, OIDC, or comparable authorization and identity systems.
+Demonstrated ability to deliver secure, user-facing features from end to end.
+Strong communication skills and sound judgment when working with incomplete or ambiguous requirements.
+Experience with developer platforms, partner portals, or marketplaces is a plus.
+Experience with compliance or operational workflows in regulated industries is a plus.
+Familiarity with GCP, Docker, Kubernetes, or production observability is a plus.
+Knowledge of financial markets, brokerage systems, or market data is a plus.
+Experience working in a startup environment or within a distributed remote team is a plus.
+
+Benefits:
+
+Competitive salary and stock options.
+Health benefits.
+One-time USD $500 home-office setup allowance for new hires.
+USD $150 monthly stipend provided through a Brex Card.
+Remote work across North America, South America, and Europe.
+Opportunity to work on developer-facing financial infrastructure and complex distributed systems.
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by
