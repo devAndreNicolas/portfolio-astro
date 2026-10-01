@@ -17,6 +17,9 @@
     "applications:analyze": "node scripts/analyze-applications.mjs --write",
     "applications:report": "node scripts/analyze-applications.mjs",
     "applications:test": "node --test scripts/analyze-applications.test.mjs",
+    "roles:recommend": "node scripts/recommend-roles.mjs --write",
+    "roles:test": "node --test scripts/recommend-roles.test.mjs",
+    "jobs:searches": "node scripts/generate-job-searches.mjs",
     "validate": "pnpm cv:check && pnpm build"
   },
   "dependencies": {

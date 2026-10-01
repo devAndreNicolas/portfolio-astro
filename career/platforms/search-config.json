@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "purpose": "High-signal Google searches for original ATS job boards. Queries are regenerated with a rolling date filter.",
+  "groups": [
+    { "id": "fullstack", "label": "Full Stack", "query": "(\"Full Stack Engineer\" OR \"Full Stack Developer\" OR \"Software Engineer\") (\"TypeScript\" OR \"React\" OR \"Angular\" OR \"Node.js\")" },
+    { "id": "frontend", "label": "Frontend", "query": "(\"Frontend Engineer\" OR \"Angular Developer\" OR \"React Developer\") (\"TypeScript\" OR \"Angular\" OR \"React\")" },
+    { "id": "product", "label": "Product / Software", "query": "(\"Product Engineer\" OR \"Software Engineer\") (\"TypeScript\" OR \"React\" OR \"AI\")" },
+    { "id": "ai", "label": "Applied AI", "query": "(\"AI Product Engineer\" OR \"Applied AI Engineer\" OR \"AI Software Engineer\" OR \"Full Stack Engineer\") (\"LLM\" OR \"GenAI\" OR \"AI\" OR \"TypeScript\")" },
+    { "id": "founding", "label": "Founding / Early Engineer", "query": "(\"Founding Engineer\" OR \"Founding Software Engineer\" OR \"Early Engineer\" OR \"First Engineer\") (\"TypeScript\" OR \"React\" OR \"AI\")" }
+  ],
+  "platforms": [
+    { "id": "ashby", "label": "Ashby", "site": "jobs.ashbyhq.com", "markets": ["remote", "brazil"] },
+    { "id": "greenhouse", "label": "Greenhouse", "site": "boards.greenhouse.io", "markets": ["remote", "brazil"] },
+    { "id": "lever", "label": "Lever", "site": "jobs.lever.co", "markets": ["remote", "brazil"] },
+    { "id": "inhire", "label": "InHire", "site": "inhire.com.br", "markets": ["brazil"] },
+    { "id": "gupy", "label": "Gupy", "site": "gupy.io", "markets": ["brazil"] },
+    { "id": "workable", "label": "Workable", "site": "apply.workable.com", "markets": ["remote", "brazil"] },
+    { "id": "smartrecruiters", "label": "SmartRecruiters", "site": "jobs.smartrecruiters.com", "markets": ["remote", "brazil"] },
+    { "id": "workday", "label": "Workday", "site": "myworkdayjobs.com", "markets": ["remote", "brazil"] }
+  ]
+}

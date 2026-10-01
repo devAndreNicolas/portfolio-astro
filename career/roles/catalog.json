@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "purpose": "Search-role recommendations grounded in the career evidence taxonomy and the locally saved application corpus.",
+  "roles": [
+    { "id": "frontend-engineer", "titles": ["Frontend Engineer", "Software Engineer Frontend", "Engenheiro de Frontend", "Desenvolvedor Front-end"], "cvFamily": "frontend-engineer", "strengths": ["typescript", "angular", "react", "html-css", "accessibility", "web-components", "testing", "product"], "searchTerms": ["Frontend Engineer TypeScript", "Angular Developer TypeScript", "React Frontend Engineer"] },
+    { "id": "angular-developer", "titles": ["Angular Developer", "Desenvolvedor Angular", "Angular Frontend Engineer"], "cvFamily": "frontend-engineer", "strengths": ["angular", "typescript", "html-css", "rest-api", "testing", "web-components"], "searchTerms": ["Angular Developer TypeScript", "Desenvolvedor Angular remoto", "Angular Frontend Engineer"] },
+    { "id": "react-developer", "titles": ["React Developer", "Desenvolvedor React", "React Frontend Engineer"], "cvFamily": "frontend-engineer", "strengths": ["react", "typescript", "nextjs", "html-css", "testing", "accessibility"], "searchTerms": ["React Developer TypeScript", "React Frontend Engineer", "Desenvolvedor React remoto"] },
+    { "id": "fullstack-typescript", "titles": ["Full Stack Engineer", "Full Stack Developer", "Engenheiro Full Stack", "Desenvolvedor Full Stack"], "cvFamily": "fullstack-engineer", "strengths": ["typescript", "react", "node", "rest-api", "postgresql", "auth", "testing", "product"], "searchTerms": ["Full Stack Engineer TypeScript", "Full Stack Developer React Node", "Desenvolvedor Full Stack TypeScript"] },
+    { "id": "software-engineer-product", "titles": ["Software Engineer", "Product Engineer", "Engenheiro de Software", "Engenheiro de Produto"], "cvFamily": "software-engineer", "strengths": ["typescript", "rest-api", "testing", "security", "cicd", "product", "ai-product"], "searchTerms": ["Software Engineer Product", "Product Engineer", "Engenheiro de Software produto"] },
+    { "id": "web-developer", "titles": ["Web Developer", "Desenvolvedor Web", "Web Engineer"], "cvFamily": "web-developer", "strengths": ["typescript", "astro", "html-css", "seo", "accessibility", "pwa-offline"], "searchTerms": ["Web Developer TypeScript", "Astro Developer", "Desenvolvedor Web SEO"] },
+    { "id": "ai-product-engineer", "titles": ["AI Product Engineer", "Applied AI Engineer", "Full Stack Engineer AI"], "cvFamily": "software-engineer", "strengths": ["typescript", "ai-product", "testing", "security", "product", "rest-api"], "searchTerms": ["AI Product Engineer", "Applied AI Engineer TypeScript", "Full Stack Engineer AI"] }
+  ]
+}

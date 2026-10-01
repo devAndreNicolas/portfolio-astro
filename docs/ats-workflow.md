@@ -17,4 +17,6 @@ Use the report to choose a canonical CV and decide whether the job is worth tail
 
 Use `pnpm applications:report -- <part-of-filename>` to inspect one application without rewriting reports.
 
+`pnpm roles:recommend` generates `career/roles/README.md`, with role titles and queries to use across job boards. Its score combines documented-strength coverage with representation in the local application corpus; it does not claim live market demand. The future market-research step can add an external adapter without changing the role catalogue interface.
+
 The taxonomy at `career/ats/taxonomy.json` is the single configuration seam for recognized terms, evidence IDs, and canonical-CV recommendations. Add a term only with real evidence; use an empty `evidence` array to expose a gap.

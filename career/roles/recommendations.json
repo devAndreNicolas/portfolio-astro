@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "basedOn": "career/applications/analysis/index.json",
+  "definition": "Score = 70% documented-strength coverage + 30% representation among locally saved vacancies. It is a search-prioritization aid, not market demand, ATS probability, or hiring prediction.",
+  "recommendations": [
+    {
+      "id": "fullstack-typescript",
+      "titles": [
+        "Full Stack Engineer",
+        "Full Stack Developer",
+        "Engenheiro Full Stack",
+        "Desenvolvedor Full Stack"
+      ],
+      "cvFamily": "fullstack-engineer",
+      "strengths": [
+        "typescript",
+        "react",
+        "node",
+        "rest-api",
+        "postgresql",
+        "auth",
+        "testing",
+        "product"
+      ],
+      "searchTerms": [
+        "Full Stack Engineer TypeScript",
+        "Full Stack Developer React Node",
+        "Desenvolvedor Full Stack TypeScript"
+      ],
+      "score": 83,
+      "profileScore": 70,
+      "localDemandScore": 13,
+      "matchingSavedVacancies": 11,
+      "supportedStrengths": [
+        "typescript",
+        "react",
+        "node",
+        "rest-api",
+        "postgresql",
+        "auth",
+        "testing",
+        "product"
+      ],
+      "evidenceGaps": []
+    },
+    {
+      "id": "angular-developer",
+      "titles": [
+        "Angular Developer",
+        "Desenvolvedor Angular",
+        "Angular Frontend Engineer"
+      ],
+      "cvFamily": "frontend-engineer",
+      "strengths": [
+        "angular",
+        "typescript",
+        "html-css",
+        "rest-api",
+        "testing",
+        "web-components"
+      ],
+      "searchTerms": [
+        "Angular Developer TypeScript",
+        "Desenvolvedor Angular remoto",
+        "Angular Frontend Engineer"
+      ],
+      "score": 80,
+      "profileScore": 70,
+      "localDemandScore": 10,
+      "matchingSavedVacancies": 8,
+      "supportedStrengths": [
+        "angular",
+        "typescript",
+        "html-css",
+        "rest-api",
+        "testing",
+        "web-components"
+      ],
+      "evidenceGaps": []
+    },
+    {
+      "id": "frontend-engineer",
+      "titles": [
+        "Frontend Engineer",
+        "Software Engineer Frontend",
+        "Engenheiro de Frontend",
+        "Desenvolvedor Front-end"
+      ],
+      "cvFamily": "frontend-engineer",
+      "strengths": [
+        "typescript",
+        "angular",
+        "react",
+        "html-css",
+        "accessibility",
+        "web-components",
+        "testing",
+        "product"
+      ],
+      "searchTerms": [
+        "Frontend Engineer TypeScript",
+        "Angular Developer TypeScript",
+        "React Frontend Engineer"
+      ],
+      "score": 80,
+      "profileScore": 70,
+      "localDemandScore": 10,
+      "matchingSavedVacancies": 8,
+      "supportedStrengths": [
+        "typescript",
+        "angular",
+        "react",
+        "html-css",
+        "accessibility",
+        "web-components",
+        "testing",
+        "product"
+      ],
+      "evidenceGaps": []
+    },
+    {
+      "id": "react-developer",
+      "titles": [
+        "React Developer",
+        "Desenvolvedor React",
+        "React Frontend Engineer"
+      ],
+      "cvFamily": "frontend-engineer",
+      "strengths": [
+        "react",
+        "typescript",
+        "nextjs",
+        "html-css",
+        "testing",
+        "accessibility"
+      ],
+      "searchTerms": [
+        "React Developer TypeScript",
+        "React Frontend Engineer",
+        "Desenvolvedor React remoto"
+      ],
+      "score": 80,
+      "profileScore": 70,
+      "localDemandScore": 10,
+      "matchingSavedVacancies": 8,
+      "supportedStrengths": [
+        "react",
+        "typescript",
+        "nextjs",
+        "html-css",
+        "testing",
+        "accessibility"
+      ],
+      "evidenceGaps": []
+    },
+    {
+      "id": "ai-product-engineer",
+      "titles": [
+        "AI Product Engineer",
+        "Applied AI Engineer",
+        "Full Stack Engineer AI"
+      ],
+      "cvFamily": "software-engineer",
+      "strengths": [
+        "typescript",
+        "ai-product",
+        "testing",
+        "security",
+        "product",
+        "rest-api"
+      ],
+      "searchTerms": [
+        "AI Product Engineer",
+        "Applied AI Engineer TypeScript",
+        "Full Stack Engineer AI"
+      ],
+      "score": 77,
+      "profileScore": 70,
+      "localDemandScore": 7,
+      "matchingSavedVacancies": 6,
+      "supportedStrengths": [
+        "typescript",
+        "ai-product",
+        "testing",
+        "security",
+        "product",
+        "rest-api"
+      ],
+      "evidenceGaps": []
+    },
+    {
+      "id": "software-engineer-product",
+      "titles": [
+        "Software Engineer",
+        "Product Engineer",
+        "Engenheiro de Software",
+        "Engenheiro de Produto"
+      ],
+      "cvFamily": "software-engineer",
+      "strengths": [
+        "typescript",
+        "rest-api",
+        "testing",
+        "security",
+        "cicd",
+        "product",
+        "ai-product"
+      ],
+      "searchTerms": [
+        "Software Engineer Product",
+        "Product Engineer",
+        "Engenheiro de Software produto"
+      ],
+      "score": 77,
+      "profileScore": 70,
+      "localDemandScore": 7,
+      "matchingSavedVacancies": 6,
+      "supportedStrengths": [
+        "typescript",
+        "rest-api",
+        "testing",
+        "security",
+        "cicd",
+        "product",
+        "ai-product"
+      ],
+      "evidenceGaps": []
+    },
+    {
+      "id": "web-developer",
+      "titles": [
+        "Web Developer",
+        "Desenvolvedor Web",
+        "Web Engineer"
+      ],
+      "cvFamily": "web-developer",
+      "strengths": [
+        "typescript",
+        "astro",
+        "html-css",
+        "seo",
+        "accessibility",
+        "pwa-offline"
+      ],
+      "searchTerms": [
+        "Web Developer TypeScript",
+        "Astro Developer",
+        "Desenvolvedor Web SEO"
+      ],
+      "score": 70,
+      "profileScore": 70,
+      "localDemandScore": 0,
+      "matchingSavedVacancies": 0,
+      "supportedStrengths": [
+        "typescript",
+        "astro",
+        "html-css",
+        "seo",
+        "accessibility",
+        "pwa-offline"
+      ],
+      "evidenceGaps": []
+    }
+  ]
+}
