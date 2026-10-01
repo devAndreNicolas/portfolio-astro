@@ -7,6 +7,23 @@
       "discoveryProviders": [
         "serper"
       ]
+    },
+    "https://jobs.ashbyhq.com/Commure/f947983b-ebcc-44b9-b329-2eaf498e2aa7": {
+      "file": "career/applications/software-engineer-applied-ai-brazil-687d1d4b.txt",
+      "title": "Software Engineer, Applied AI (Brazil)",
+      "collectedAt": "2026-10-01T18:51:45.068Z",
+      "discoveryProviders": [
+        "serpapi",
+        "serper"
+      ]
+    },
+    "https://jobs.ashbyhq.com/kraken.com/c591538b-b19c-4377-9a56-f5b9b30fc9fa": {
+      "file": "career/applications/senior-software-engineer-rust-consumer-81ed28f4.txt",
+      "title": "Senior Software Engineer - Rust - Consumer",
+      "collectedAt": "2026-10-01T18:55:04.496Z",
+      "discoveryProviders": [
+        "serper"
+      ]
     }
   }
 }
