@@ -18,6 +18,8 @@
     "applications:analyze": "node scripts/analyze-applications.mjs --write",
     "applications:report": "node scripts/analyze-applications.mjs",
     "career:dashboard": "node scripts/generate-career-dashboard.mjs",
+    "career:report": "node scripts/generate-career-operations-report.mjs",
+    "career:verify": "node scripts/validate-career-operation.mjs",
     "applications:test": "node --test scripts/analyze-applications.test.mjs",
     "roles:recommend": "node scripts/recommend-roles.mjs --write",
     "roles:test": "node --test scripts/recommend-roles.test.mjs",

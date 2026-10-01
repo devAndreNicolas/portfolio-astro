@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Career dashboard operations report",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "definitions", "totals", "recommendedRoles", "cvs", "plannedVariants"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "definitions": { "type": "object" },
+    "totals": { "type": "object" },
+    "recommendedRoles": { "type": "array" },
+    "cvs": { "type": "array" },
+    "plannedVariants": { "type": "array" }
+  }
+}

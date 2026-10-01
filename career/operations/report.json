@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-01T21:09:27.473Z",
+  "definitions": {
+    "synergy": "Weighted evidence coverage of recognized vacancy requirements. It is not an ATS-pass or interview-probability score.",
+    "atsStructure": "Static source checks for known ATS risks; PDF text extraction and visual review remain separate checks."
+  },
+  "totals": {
+    "analyzedVacancies": 37,
+    "strongMatches": 26,
+    "canonicalCvs": 11,
+    "atsStructureReady": 11,
+    "plannedVariants": 5
+  },
+  "recommendedRoles": [
+    {
+      "id": "ai-product-engineer",
+      "titles": [
+        "AI Product Engineer",
+        "Applied AI Engineer",
+        "Full Stack Engineer AI"
+      ],
+      "score": 81,
+      "matchingSavedVacancies": 14,
+      "cvFamily": "software-engineer",
+      "evidenceGaps": []
+    },
+    {
+      "id": "fullstack-typescript",
+      "titles": [
+        "Full Stack Engineer",
+        "Full Stack Developer",
+        "Engenheiro Full Stack",
+        "Desenvolvedor Full Stack"
+      ],
+      "score": 81,
+      "matchingSavedVacancies": 14,
+      "cvFamily": "fullstack-engineer",
+      "evidenceGaps": []
+    },
+    {
+      "id": "software-engineer-product",
+      "titles": [
+        "Software Engineer",
+        "Product Engineer",
+        "Engenheiro de Software",
+        "Engenheiro de Produto"
+      ],
+      "score": 81,
+      "matchingSavedVacancies": 14,
+      "cvFamily": "software-engineer",
+      "evidenceGaps": []
+    },
+    {
+      "id": "angular-developer",
+      "titles": [
+        "Angular Developer",
+        "Desenvolvedor Angular",
+        "Angular Frontend Engineer"
+      ],
+      "score": 77,
+      "matchingSavedVacancies": 9,
+      "cvFamily": "frontend-engineer",
+      "evidenceGaps": []
+    },
+    {
+      "id": "frontend-engineer",
+      "titles": [
+        "Frontend Engineer",
+        "Software Engineer Frontend",
+        "Engenheiro de Frontend",
+        "Desenvolvedor Front-end"
+      ],
+      "score": 77,
+      "matchingSavedVacancies": 9,
+      "cvFamily": "frontend-engineer",
+      "evidenceGaps": []
+    },
+    {
+      "id": "react-developer",
+      "titles": [
+        "React Developer",
+        "Desenvolvedor React",
+        "React Frontend Engineer"
+      ],
+      "score": 77,
+      "matchingSavedVacancies": 9,
+      "cvFamily": "frontend-engineer",
+      "evidenceGaps": []
+    },
+    {
+      "id": "web-developer",
+      "titles": [
+        "Web Developer",
+        "Desenvolvedor Web",
+        "Web Engineer"
+      ],
+      "score": 70,
+      "matchingSavedVacancies": 0,
+      "cvFamily": "web-developer",
+      "evidenceGaps": []
+    }
+  ],
+  "cvs": [
+    {
+      "id": "software-engineer-br",
+      "family": "software-engineer",
+      "language": "pt-BR",
+      "public": true,
+      "source": "career/cvs/software-engineer-br.tex",
+      "output": "public/cv/andre-nicolas-engenheiro-software-br.pdf",
+      "sourceSha256": "e3c931ec1a9b149928325a0edcad0e43a468879242ff0e5fbb2a9f47099606f1",
+      "matchingVacancies": 6,
+      "averageEvidenceCoverage": 73,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "normal"
+    },
+    {
+      "id": "software-engineer-international",
+      "family": "software-engineer",
+      "language": "en",
+      "public": true,
+      "source": "career/cvs/software-engineer-international.tex",
+      "output": "public/cv/andre-nicolas-software-engineer-en.pdf",
+      "sourceSha256": "2ee856dabb718259c9a46cad8b5b9b204472e955add379d7e6ae66768b0a118e",
+      "matchingVacancies": 8,
+      "averageEvidenceCoverage": 86,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "high"
+    },
+    {
+      "id": "fullstack-engineer-br",
+      "family": "fullstack-engineer",
+      "language": "pt-BR",
+      "public": true,
+      "source": "career/cvs/fullstack-engineer-br.tex",
+      "output": "public/cv/andre-nicolas-engenheiro-fullstack-br.pdf",
+      "sourceSha256": "614727d7d24eab0f1f2222fb38247a50b89cf0826cf6aad2f0432e43cb6eb7b5",
+      "matchingVacancies": 11,
+      "averageEvidenceCoverage": 85,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "high"
+    },
+    {
+      "id": "fullstack-engineer-international",
+      "family": "fullstack-engineer",
+      "language": "en",
+      "public": true,
+      "source": "career/cvs/fullstack-engineer-international.tex",
+      "output": "public/cv/andre-nicolas-fullstack-engineer-en.pdf",
+      "sourceSha256": "0ffe6820f9cd6728dd48911dfd3c5f8c213d9e41ae86b7d8b5fc7be95fa2df97",
+      "matchingVacancies": 3,
+      "averageEvidenceCoverage": 77,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "high"
+    },
+    {
+      "id": "fullstack-developer-br",
+      "family": "fullstack-developer",
+      "language": "pt-BR",
+      "public": true,
+      "source": "career/cvs/fullstack-developer-br.tex",
+      "output": "public/cv/andre-nicolas-desenvolvedor-fullstack-br.pdf",
+      "sourceSha256": "1f097de26d15c98585ad1f79fe9227c3783ced0b3fd2d1b2128b3f16aea4f8b9",
+      "matchingVacancies": 0,
+      "averageEvidenceCoverage": 0,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "low"
+    },
+    {
+      "id": "fullstack-developer-international",
+      "family": "fullstack-developer",
+      "language": "en",
+      "public": true,
+      "source": "career/cvs/fullstack-developer-international.tex",
+      "output": "public/cv/andre-nicolas-fullstack-developer-en.pdf",
+      "sourceSha256": "2a39da544038680df000e1a2acbbb59b852c91785b943c0e8c2f779309a3fbef",
+      "matchingVacancies": 0,
+      "averageEvidenceCoverage": 0,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "low"
+    },
+    {
+      "id": "frontend-engineer-br",
+      "family": "frontend-engineer",
+      "language": "pt-BR",
+      "public": true,
+      "source": "career/cvs/frontend-engineer-br.tex",
+      "output": "public/cv/andre-nicolas-engenheiro-frontend-br.pdf",
+      "sourceSha256": "df81064254536db3d62734fc5a03eda5bd09c46fe6e19829465193062fe6f256",
+      "matchingVacancies": 8,
+      "averageEvidenceCoverage": 77,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "high"
+    },
+    {
+      "id": "frontend-engineer-international",
+      "family": "frontend-engineer",
+      "language": "en",
+      "public": true,
+      "source": "career/cvs/frontend-engineer-international.tex",
+      "output": "public/cv/andre-nicolas-frontend-engineer-en.pdf",
+      "sourceSha256": "e196cdc18ef57ac262251e3b71b90b49a0db7df6c1f08831da5da0d81a52eedf",
+      "matchingVacancies": 1,
+      "averageEvidenceCoverage": 77,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "high"
+    },
+    {
+      "id": "product-engineer-international",
+      "family": "product-engineer",
+      "language": "en",
+      "public": true,
+      "source": "career/cvs/product-engineer-international.tex",
+      "output": "public/cv/andre-nicolas-product-engineer-en.pdf",
+      "sourceSha256": "61e32516a51b2f20360d510ab6926f4a0c8e8211fbcf895f1c2394eb0e7ed194",
+      "matchingVacancies": 0,
+      "averageEvidenceCoverage": 0,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "low"
+    },
+    {
+      "id": "web-developer-br",
+      "family": "web-developer",
+      "language": "pt-BR",
+      "public": true,
+      "source": "career/cvs/web-developer-br.tex",
+      "output": "public/cv/andre-nicolas-desenvolvedor-web-br.pdf",
+      "sourceSha256": "3edc23d93845c9d5a2a207370d47531728ecf3ee7c9e72288a07ce5c4bf50627",
+      "matchingVacancies": 0,
+      "averageEvidenceCoverage": 0,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "low"
+    },
+    {
+      "id": "web-developer-international",
+      "family": "web-developer",
+      "language": "en",
+      "public": true,
+      "source": "career/cvs/web-developer-international.tex",
+      "output": "public/cv/andre-nicolas-web-developer-en.pdf",
+      "sourceSha256": "009d79b02fe8e9d7ff7ee7e57c670559d798789b61d31a5cdc808653d57ebf41",
+      "matchingVacancies": 0,
+      "averageEvidenceCoverage": 0,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "low"
+    }
+  ],
+  "plannedVariants": [
+    {
+      "id": "angular-developer-br",
+      "title": "Desenvolvedor Angular",
+      "language": "pt-BR",
+      "sourceRole": "angular-developer",
+      "priority": "high",
+      "reason": "9 saved vacancies and 77 role score; Angular, TypeScript, Signals and RxJS have documented evidence.",
+      "status": "planned"
+    },
+    {
+      "id": "angular-developer-international",
+      "title": "Angular Developer",
+      "language": "en",
+      "sourceRole": "angular-developer",
+      "priority": "high",
+      "reason": "A reusable English variant is needed for international Angular openings; claims remain grounded in the same evidence.",
+      "status": "planned"
+    },
+    {
+      "id": "react-developer-br",
+      "title": "Desenvolvedor React",
+      "language": "pt-BR",
+      "sourceRole": "react-developer",
+      "priority": "high",
+      "reason": "9 saved vacancies and 77 role score; React, TypeScript, Next.js and testing have documented evidence.",
+      "status": "planned"
+    },
+    {
+      "id": "react-developer-international",
+      "title": "React Developer",
+      "language": "en",
+      "sourceRole": "react-developer",
+      "priority": "high",
+      "reason": "A reusable English variant is needed for international React openings; claims remain grounded in the same evidence.",
+      "status": "planned"
+    },
+    {
+      "id": "product-engineer-br",
+      "title": "Engenheiro de Produto",
+      "language": "pt-BR",
+      "sourceRole": "software-engineer-product",
+      "priority": "normal",
+      "reason": "Product-oriented engineering is strongly represented in the corpus and evidence ledger; the Brazilian canonical counterpart is missing.",
+      "status": "planned"
+    }
+  ]
+}

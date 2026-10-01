@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Career agent evaluation",
+  "type": "object",
+  "required": ["schemaVersion", "runId", "status", "generatedAt", "inputs", "cvEvaluations", "newCvCandidates", "validation", "unresolvedQuestions"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "runId": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["in-progress", "blocked", "complete"] },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "inputs": {
+      "type": "object",
+      "required": ["manifestIds", "applicationCount", "evidenceDocument", "sourceCommit"],
+      "properties": {
+        "manifestIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "applicationCount": { "type": "integer", "minimum": 0 },
+        "evidenceDocument": { "type": "string" },
+        "sourceCommit": { "type": "string" }
+      }
+    },
+    "cvEvaluations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["decision", "readiness", "synergy", "jobSources", "evidenceIds", "changes", "rejectedClaims", "gaps", "pdfCompilation"],
+        "properties": {
+          "decision": { "enum": ["optimized", "unchanged-verified", "blocked"] },
+          "readiness": {
+            "type": "object",
+            "required": ["score", "factualGrounding", "atsStructure", "roleAlignment", "languageQuality", "recruiterClarity", "sourceIntegrity"],
+            "properties": {
+              "score": { "type": "integer", "minimum": 0, "maximum": 100 },
+              "factualGrounding": { "type": "integer", "minimum": 0, "maximum": 100 },
+              "atsStructure": { "type": "integer", "minimum": 0, "maximum": 100 },
+              "roleAlignment": { "type": "integer", "minimum": 0, "maximum": 100 },
+              "languageQuality": { "type": "integer", "minimum": 0, "maximum": 100 },
+              "recruiterClarity": { "type": "integer", "minimum": 0, "maximum": 100 },
+              "sourceIntegrity": { "type": "integer", "minimum": 0, "maximum": 100 }
+            }
+          },
+          "synergy": { "type": "object", "required": ["average", "matchingVacancies"], "properties": { "average": { "type": "integer", "minimum": 0, "maximum": 100 }, "matchingVacancies": { "type": "integer", "minimum": 0 } } },
+          "jobSources": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+          "evidenceIds": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+          "changes": { "type": "array", "items": { "type": "string" } },
+          "rejectedClaims": { "type": "array", "items": { "type": "string" } },
+          "gaps": { "type": "array", "items": { "type": "string" } },
+          "pdfCompilation": { "enum": ["verified", "pending-ci", "failed"] }
+        }
+      }
+    },
+    "newCvCandidates": { "type": "array", "items": { "type": "object", "required": ["id", "status", "reason"], "properties": { "id": { "type": "string" }, "status": { "enum": ["created", "planned", "rejected"] }, "reason": { "type": "string" } } } },
+    "validation": { "type": "object" },
+    "unresolvedQuestions": { "type": "array", "items": { "type": "string" } }
+  }
+}

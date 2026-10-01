@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const applications = JSON.parse(readFileSync(join(root, "career/applications/analysis/index.json"), "utf8")).reports;
 const manifest = JSON.parse(readFileSync(join(root, "career/cvs/manifest.json"), "utf8")).cvs;
+const operationsPath = join(root, "career/operations/report.json");
 const collectionPath = join(root, "career/applications/collected-index.json");
 const collection = existsSync(collectionPath) ? JSON.parse(readFileSync(collectionPath, "utf8")) : {};
 const output = join(root, "src/data/career-dashboard.json");
@@ -34,6 +35,7 @@ const dashboard = {
   totals: { jobs: jobs.length, strongMatches: jobs.filter((job) => job.coverage >= 75).length, canonicalCvs: Object.values(manifest).filter((cv) => cv.public).length },
   cvs: Object.entries(manifest).filter(([, cv]) => cv.public).map(([id, cv]) => ({ id, language: cv.language, href: `/${cv.output.replace(/^public\//, "")}` })),
   jobs,
+  operations: existsSync(operationsPath) ? JSON.parse(readFileSync(operationsPath, "utf8")) : null,
 };
 
 mkdirSync(dirname(output), { recursive: true });
