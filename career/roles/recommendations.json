@@ -4,6 +4,41 @@
   "definition": "Score = 70% documented-strength coverage + 30% representation among locally saved vacancies. It is a search-prioritization aid, not market demand, ATS probability, or hiring prediction.",
   "recommendations": [
     {
+      "id": "ai-product-engineer",
+      "titles": [
+        "AI Product Engineer",
+        "Applied AI Engineer",
+        "Full Stack Engineer AI"
+      ],
+      "cvFamily": "software-engineer",
+      "strengths": [
+        "typescript",
+        "ai-product",
+        "testing",
+        "security",
+        "product",
+        "rest-api"
+      ],
+      "searchTerms": [
+        "AI Product Engineer",
+        "Applied AI Engineer TypeScript",
+        "Full Stack Engineer AI"
+      ],
+      "score": 81,
+      "profileScore": 70,
+      "localDemandScore": 11,
+      "matchingSavedVacancies": 14,
+      "supportedStrengths": [
+        "typescript",
+        "ai-product",
+        "testing",
+        "security",
+        "product",
+        "rest-api"
+      ],
+      "evidenceGaps": []
+    },
+    {
       "id": "fullstack-typescript",
       "titles": [
         "Full Stack Engineer",
@@ -27,10 +62,10 @@
         "Full Stack Developer React Node",
         "Desenvolvedor Full Stack TypeScript"
       ],
-      "score": 83,
+      "score": 81,
       "profileScore": 70,
-      "localDemandScore": 13,
-      "matchingSavedVacancies": 11,
+      "localDemandScore": 11,
+      "matchingSavedVacancies": 14,
       "supportedStrengths": [
         "typescript",
         "react",
@@ -40,6 +75,44 @@
         "auth",
         "testing",
         "product"
+      ],
+      "evidenceGaps": []
+    },
+    {
+      "id": "software-engineer-product",
+      "titles": [
+        "Software Engineer",
+        "Product Engineer",
+        "Engenheiro de Software",
+        "Engenheiro de Produto"
+      ],
+      "cvFamily": "software-engineer",
+      "strengths": [
+        "typescript",
+        "rest-api",
+        "testing",
+        "security",
+        "cicd",
+        "product",
+        "ai-product"
+      ],
+      "searchTerms": [
+        "Software Engineer Product",
+        "Product Engineer",
+        "Engenheiro de Software produto"
+      ],
+      "score": 81,
+      "profileScore": 70,
+      "localDemandScore": 11,
+      "matchingSavedVacancies": 14,
+      "supportedStrengths": [
+        "typescript",
+        "rest-api",
+        "testing",
+        "security",
+        "cicd",
+        "product",
+        "ai-product"
       ],
       "evidenceGaps": []
     },
@@ -64,10 +137,10 @@
         "Desenvolvedor Angular remoto",
         "Angular Frontend Engineer"
       ],
-      "score": 80,
+      "score": 77,
       "profileScore": 70,
-      "localDemandScore": 10,
-      "matchingSavedVacancies": 8,
+      "localDemandScore": 7,
+      "matchingSavedVacancies": 9,
       "supportedStrengths": [
         "angular",
         "typescript",
@@ -102,10 +175,10 @@
         "Angular Developer TypeScript",
         "React Frontend Engineer"
       ],
-      "score": 80,
+      "score": 77,
       "profileScore": 70,
-      "localDemandScore": 10,
-      "matchingSavedVacancies": 8,
+      "localDemandScore": 7,
+      "matchingSavedVacancies": 9,
       "supportedStrengths": [
         "typescript",
         "angular",
@@ -139,10 +212,10 @@
         "React Frontend Engineer",
         "Desenvolvedor React remoto"
       ],
-      "score": 80,
+      "score": 77,
       "profileScore": 70,
-      "localDemandScore": 10,
-      "matchingSavedVacancies": 8,
+      "localDemandScore": 7,
+      "matchingSavedVacancies": 9,
       "supportedStrengths": [
         "react",
         "typescript",
@@ -150,79 +223,6 @@
         "html-css",
         "testing",
         "accessibility"
-      ],
-      "evidenceGaps": []
-    },
-    {
-      "id": "ai-product-engineer",
-      "titles": [
-        "AI Product Engineer",
-        "Applied AI Engineer",
-        "Full Stack Engineer AI"
-      ],
-      "cvFamily": "software-engineer",
-      "strengths": [
-        "typescript",
-        "ai-product",
-        "testing",
-        "security",
-        "product",
-        "rest-api"
-      ],
-      "searchTerms": [
-        "AI Product Engineer",
-        "Applied AI Engineer TypeScript",
-        "Full Stack Engineer AI"
-      ],
-      "score": 77,
-      "profileScore": 70,
-      "localDemandScore": 7,
-      "matchingSavedVacancies": 6,
-      "supportedStrengths": [
-        "typescript",
-        "ai-product",
-        "testing",
-        "security",
-        "product",
-        "rest-api"
-      ],
-      "evidenceGaps": []
-    },
-    {
-      "id": "software-engineer-product",
-      "titles": [
-        "Software Engineer",
-        "Product Engineer",
-        "Engenheiro de Software",
-        "Engenheiro de Produto"
-      ],
-      "cvFamily": "software-engineer",
-      "strengths": [
-        "typescript",
-        "rest-api",
-        "testing",
-        "security",
-        "cicd",
-        "product",
-        "ai-product"
-      ],
-      "searchTerms": [
-        "Software Engineer Product",
-        "Product Engineer",
-        "Engenheiro de Software produto"
-      ],
-      "score": 77,
-      "profileScore": 70,
-      "localDemandScore": 7,
-      "matchingSavedVacancies": 6,
-      "supportedStrengths": [
-        "typescript",
-        "rest-api",
-        "testing",
-        "security",
-        "cicd",
-        "product",
-        "ai-product"
       ],
       "evidenceGaps": []
     },

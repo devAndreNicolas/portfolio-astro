@@ -1,0 +1,194 @@
+Source URL: https://boards.greenhouse.io/stone/jobs/7999476003
+Collected at: 2026-10-01T19:47:25.603Z
+Market: brazil
+Discovery: serpapi
+Explicit age: unknown
+Fit signals: react, accessibility, web-components, code-review, rest-api
+
+Voltar para vagas
+Novo
+[Aquisição Digital] Software Engineer III - Mobile
+Remoto
+Apply
+Sobre a Stone:
+
+Somos muito mais do que uma empresa de maquininhas! A Stone é uma empresa de tecnologia e serviços financeiros focada no(a) cliente.
+
+Nascemos com o propósito de ser protagonistas na transformação da indústria de pagamentos, servindo o(a) empreendedor(a) brasileiro(a) e transformando seus sonhos em resultados.
+
+Somos a maior empresa independente de meios de pagamentos do Brasil, com mais de quinze mil pessoas espalhadas pelas cinco regiões do país,  em um cenário repleto de desafios e oportunidades. Valorizamos o trabalho em equipe, a flexibilidade, o desenvolvimento contínuo e os pensamentos disruptivos e incansáveis na busca de soluções para a nossa RAZÃO.
+
+Nossa Cultura:
+
+Por aqui, vivemos nossa cultura no dia a dia, guiados por esses 5 valores:
+
+ 💚 O cliente é a razão
+O cliente é o motivo pelo qual existimos e só temos sucesso se ele tiver sucesso.
+
+⚡ Cabeça de dono
+Fazemos o que é certo, do jeito certo, com responsabilidade e tecnologia para decidir melhor.
+
+🎯 Direto ao ponto
+Profundidade para entender e simplicidade para resolver.
+
+🤝 Excelência é um jogo de equipe
+Construímos um negócio de longo prazo, em time e com colaboração.
+
+✨ Paixão em cada detalhe
+Fazemos com paixão, atenção aos detalhes e vontade de surpreender para ajudar o cliente a vencer.
+
+ 
+
+Como é ser uma pessoa Software Engineer Pleno:
+Atua em problemas com escopo aberto ou pouco definido;
+Tem autonomia em seu dia a dia e já não precisa de acompanhamento para tomar decisões acerca de detalhes da solução;
+Trabalha principalmente com sua equipe direta e com times de áreas cross, visando a colaboração entre todos envolvidos para o seu projeto;
+Colabora com times Android, iOS(KMP) e integração dos módulos React Native com às respectivas plataformas nativas
+Constrói interfaces com Compose Multiplatform, compreendendo os limites entre UI compartilhada e especificidades de cada plataforma;
+Contribui com decisões de arquitetura, padrões de desenvolvimento e melhorias de ferramentas no time mobile;
+Faz parte do processo de criação da solução;
+Participa de code reviews e apoia o crescimento técnico de engenheiros mais juniores.
+O que esperamos de você:
++3 anos de experiência de trabalho relevante em desenvolvimento de software mobile (Android ou iOS);
+Domínio de padrões de arquitetura mobile (MVVM e MVI);
+Experiência prática com estruturas de dados (listas, mappers, hashmaps) e escrita de código testável (testes unitários e de integração);
+Experiência em integração de sistemas (APIs REST, networking e persistência de dados local);
+O que aumenta as suas chances:
+Experiência prévia com Kotlin Multiplatform (KMP) e/ou Compose Multiplatform (CMP) em ambiente produtivo;
+Conhecimento em observabilidade como Datadog e Amplitude;
+
+#Li-remote
+
+Nosso pacote de Remuneração e Benefícios:
+
+(itens com asterisco possuem regras específicas de elegibilidade, que serão explicadas pelos recrutadores ao longo do processo seletivo)
+
+💸Salário Fixo
+
+💰 Pacote de Remuneração Variável* (PLR, ILP ou Comissão - disponibilizado conforme a elegibilidade do cargo, não sendo um modelo de livre escolha)
+
+🏥 Plano de Saúde e Odontológico com coparticipação (exceto para profissionais com deficiência que não possuem coparticipação)
+
+🩺Hospital Virtual Verde: equipe de telemedicina disponível 24 horas por dia, 7 dias por semana
+
+💊Subsídio de medicamentos
+
+🍽️ Vale Refeição e/ou Vale Alimentação - Pluxee* (exceto para cargos de Executivo(a) Comercial - 6hrs)
+
+👶 Auxílio Creche (para crianças até 5 anos e 11 meses)
+
+💙 Auxílio Filho com Deficiência
+
+🛡️ Seguro de Vida
+
+⛽Auxílio combustível ou auxílio deslocamento * 
+
+🏠 Auxílio home office * (apenas para contratos Híbridos ou Remotos)
+
+🎁 Kit Acolhimento para novos pais
+
+🏢 Convênio SESC*
+
+📚 Benefício Educação - Plataforma interna de autodesenvolvimento (Studa e Biblioteca Stone)
+
+🧠 Acolhe360º - Apoio emocional (gratuito)
+
+💆 Quick Massage e Ambulatório* 
+
+Opcionais:
+
+Wellhub - TotalPass - Pet Club - Flash - Férias&Co - VT - Allya - Parcerias educacionais
+
+ 
+
+*Além das vagas afirmativas, todas as vagas Stone também são destinadas a pessoas com deficiência.
+
+Candidatar a esta vaga
+
+*
+
+indica um campo obrigatório
+
+Nome*
+Sobrenome*
+E-mail*
+Telefone
+País*
+Telefone*
+Localização (Cidade)*
+Localize-me
+Currículo/CV*
+Anexar
+Anexar
+Dropbox
+Google Drive
+Informe manualmente
+Informe manualmente
+
+Tipos de arquivos aceitos: pdf, doc, docx, txt, rtf
+
+Qual é o seu CPF? (Formato: XXX.XXX.XXX-XX)*
+
+Usaremos o CPF somente como seu identificador único durante o processo seletivo.
+
+Qual é o seu perfil do Linkedin? *
+
+Escreva o link do seu usuário 
+
+Qual é a sua pretensão salarial?*
+Selecionar...
+
+A pretensão salarial nos ajuda a direcionar vagas mais enquadradas com seu perfil, mas não possuem caráter avaliativo. 
+
+Como você conheceu a nossa empresa? *
+Amigos, colegas ou familiares
+Alguém da Stone entrou em contato comigo
+Evento, feira ou conferência de tecnologia
+Evento, feira ou conferência universitária
+Notícias (jornal, TV, revistas ou sites)
+Participei de uma iniciativa do Instituto Stone
+Por meio de um parceiro (ex: Brasil Júnior, Na Prática, Fundação Estudar)
+Redes sociais
+Site de emprego (ex: Indeed, Infojobs, Vagas.com)
+Sou/fui cliente Stone
+Outro
+Qual motivo te fez querer se juntar ao nosso time? *
+Atuar em um ambiente inovador
+Atuar no segmento financeiro
+Autonomia
+Contato com pessoas que já trabalham na empresa
+Desafios no dia a dia
+Identificação cultural
+Identificação com o propósito da empresa
+Impacto social da empresa
+Remuneração e benefícios
+Ter trabalhado na Stone antes
+Outro
+Você é indicação de alguma pessoa que trabalha com a gente?*
+Selecionar...
+Se sim, informe o e-mail corporativo da pessoa que te indicou!
+Qual seu grau de relação com a pessoa que te indicou?
+Selecionar...
+
+Assinale somente se você for uma indicação de um colaborador(a) da Stone Co.
+
+Você é uma pessoa com deficiência?*
+Selecionar...
+Se sim, qual o seu tipo de deficiência?
+Deficiência Física (ex: paraplegia, amputação, nanismo...)
+Deficiência Visual (ex: baixa visão, cegueira...)
+Deficiência Auditiva (ex: perda bilateral, surdez...)
+Deficiência Intelectual (ex: Síndrome de Down...)
+Deficiência Mental/Psicossocial (ex: Transtorno do Espectro Autista...)
+Você precisa de alguma adaptação de acessibilidade para realização das suas funções?
+Você necessita de alguma adaptação ou recurso de acessibilidade para participar do processo seletivo?
+Consentimento - Diversidade e Inclusão (D&I)*
+Selecionar...
+
+Reforçamos que seu consentimento aqui sinalizado poderá ser revogado a qualquer momento - basta enviar sua solicitação via Portal de Privacidade.
+
+O cargo Software Engineer III, corresponde a Pleno, este nível de senioridade atende ao seu momento de carreira?*
+Selecionar...
+Enviar inscrição
+
+Powered by

@@ -1,0 +1,100 @@
+Source URL: https://jobs.lever.co/jobgether/ba72a0cb-fb5b-400e-b0c0-5fc135b99703
+Collected at: 2026-10-01T19:47:42.273Z
+Market: brazil
+Discovery: serper
+Explicit age: unknown
+Fit signals: typescript, web-components, rest-api, security, cicd, ai-product
+
+Senior Software Engineer, Quality
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior Software Engineer, Quality based in Brazil.
+
+This role focuses on building the next generation of quality engineering through AI-powered testing and intelligent automation.
+You will design, build, and operate agents that support test creation, execution, maintenance, evaluation, and failure triage.
+The role combines hands-on software engineering with test infrastructure, distributed systems, CI at scale, and emerging LLM technologies.
+You will help product teams take greater ownership of quality by providing reliable tooling, patterns, and practices rather than acting as a traditional QA safety net.
+You will also shape how AI-driven testing is evaluated and apply those methods to non-deterministic AI capabilities.
+Working across a fully remote, global engineering organization, you will have substantial ownership and influence over technical direction.
+The environment emphasizes autonomy, collaboration, experimentation, and engineering quality, with opportunities to solve complex problems at scale.
+
+Accountabilities
+
+Build and operate AI agents across the testing lifecycle, including test design, generation, maintenance, execution, and failure triage.
+
+Own the infrastructure required to make agent-driven testing dependable, including test environments, test data, tool interfaces, guardrails, runtime management, and cost controls.
+
+Establish reliable methods for evaluating agent output quality so engineering teams can trust automated results without extensive manual review.
+
+Apply AI-driven evaluation practices to testing the platform's own non-deterministic and AI-powered capabilities.
+
+Work closely with product engineering teams as new features are developed to ensure testing tools remain relevant, effective, and grounded in real product needs.
+
+Develop reusable testing patterns, tooling, and enablement practices that allow engineers to own quality independently.
+
+Drive adoption of quality engineering capabilities across teams that do not report directly to you.
+
+Contribute to technical decisions, system design, and continuous improvement of testing infrastructure and engineering practices.
+
+Requirements
+
+5+ years of professional software engineering experience, with a strong track record of writing and shipping production software.
+
+Hands-on experience building and owning test infrastructure, developer tooling, internal platforms, or comparable systems used by other engineers.
+
+Practical experience with LLMs or agent frameworks, including prompt and context design, tool use, non-deterministic behavior, and evaluation of AI-generated outputs.
+
+Strong understanding of distributed systems and continuous integration at scale, including reasoning about concurrency, state, timing, and system reliability.
+
+Ability to influence engineering teams without direct management authority and demonstrate that you have successfully driven adoption of tools or practices across teams.
+
+Ability and willingness to use and understand the product deeply enough to build effective quality solutions.
+
+Strong engineering judgment and an ability to balance quality, maintainability, delivery speed, and practical business needs.
+
+Excellent collaboration and communication skills, with the ability to work effectively in a distributed, cross-functional environment.
+
+Preferred experience with LLM evaluation or benchmarking, open-source software development, or developer tooling and platform engineering.
+
+Experience with Java, TypeScript, or Python, as well as Kubernetes and Helm, is advantageous.
+
+Benefits
+
+U.S. annual total target cash compensation ranging from $143,800 to $231,900, depending on market, location, skills, experience, and qualifications.
+
+Equity through a Virtual Stock Option Plan (VSOP), where applicable.
+
+Fully remote and flexible work environment with the ability to work from anywhere, subject to applicable employment arrangements.
+
+Home office budget and co-working space support.
+
+Flexible time off designed to support meaningful rest and recharge.
+
+Locally tailored healthcare benefits and global mental wellbeing support.
+
+Live Well Lifestyle Spending Account, providing flexible support for wellbeing, family, personal interests, experiences, and financial wellbeing.
+
+Retirement and pension plans, often including company contributions, plus life and disability insurance where applicable.
+
+Up to $1,000 per year for self-directed professional development, including courses, certifications, and books.
+
+Annual company gatherings, team offsites, local meetups, and budgets supporting in-person connection.
+
+Inclusive, global workplace committed to welcoming people across diverse cultures and backgrounds.
+
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by

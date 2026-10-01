@@ -1,125 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T19:42:10.078Z",
+  "generatedAt": "2026-10-01T19:47:53.768Z",
   "collection": {
-    "at": "2026-10-01T19:06:02.980Z",
+    "at": "2026-10-01T19:47:51.225Z",
     "country": "brazil",
     "provider": "both",
     "afterDate": "2026-09-28",
     "maxAgeDays": 7,
-    "discovered": 23,
-    "collected": 7,
+    "discovered": 12,
+    "collected": 5,
     "rejected": {
-      "duplicate": 0,
+      "duplicate": 1,
       "location": 0,
       "stale": 0,
-      "mismatch": 4,
-      "structure": 12,
+      "mismatch": 3,
+      "structure": 3,
       "blocked": 0
     },
     "attempts": [
       {
-        "url": "https://portal.gupy.io/job-search/term=react",
-        "title": "Aplique para Vagas de react",
-        "reason": "structure",
-        "textLength": 2906
-      },
-      {
-        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Associate-Full-Stack-Developer--Net-Angular-Azure-_R2066910/apply",
-        "title": "Careers",
-        "reason": "structure",
-        "textLength": 0
-      },
-      {
-        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Associate-Full-Stack-Developer--Net-Angular-Azure-_R2066910/apply/useMyLastApplication",
-        "title": "Careers",
-        "reason": "structure",
-        "textLength": 161
-      },
-      {
         "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Full-Stack-Developer--Net-Angular-Azure-_R2066416",
-        "title": "Careers",
-        "reason": "structure",
-        "textLength": 169
-      },
-      {
-        "url": "https://boards.greenhouse.io/stone/jobs/7999476003",
-        "title": "[Aquisição Digital] Software Engineer III - Mobile",
-        "reason": "structure",
-        "textLength": 6870
-      },
-      {
-        "url": "https://jobs.ashbyhq.com/g2i/70c018bc-d3b5-426f-bfd5-ae94891dcc7f",
-        "title": "Senior Software Engineer, AI Training - Brazil",
-        "reason": "structure",
-        "textLength": 3307
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/oneclick-ui/company/RenesasElectronics/publication/8c03db59-4736-4959-8cd0-457b0cb3d791?dcr_ci=RenesasElectronics&sid=2d92f286-613b-4daf-9dfa-6340ffbecf73",
-        "title": "smartrecruiters.com",
-        "reason": "structure",
-        "textLength": 0
-      },
-      {
-        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Associate-Full-Stack-Developer--Net-Angular-Azure-_R2066910",
-        "title": "Careers",
-        "reason": "structure",
-        "textLength": 0
-      },
-      {
-        "url": "https://jobs.lever.co/jobgether/8da0341b-a2ac-4231-91c7-9b2b81a5d560",
-        "title": "Jobgether - Software Engineer | AI-Native",
-        "reason": "insufficient-core-signals",
-        "fitSignals": [
-          "typescript",
-          "web-components",
-          "code-review",
-          "rest-api",
-          "security",
-          "cicd",
-          "ai-product",
-          "product"
-        ]
-      },
-      {
-        "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/BELO-HORIZONTE/Software-Engineer-II--R-D-Hardware-Verification_R56225?utm_source=hsamplify&utm_medium=linkedin&utm_term=2ce009d3-992f-4e66-8399-90da12317a46",
         "title": "",
         "reason": "structure",
         "textLength": 0
-      },
-      {
-        "url": "https://boards.greenhouse.io/okta/jobs/8237695",
-        "title": "Senior Software Engineer",
-        "reason": "insufficient-core-signals",
-        "fitSignals": [
-          "javascript",
-          "accessibility",
-          "seo",
-          "web-components",
-          "rest-api",
-          "authorization",
-          "security",
-          "cicd"
-        ]
-      },
-      {
-        "url": "https://jobs.lever.co/jobgether/ba72a0cb-fb5b-400e-b0c0-5fc135b99703",
-        "title": "Jobgether - Senior Software Engineer, Quality",
-        "reason": "insufficient-core-signals",
-        "fitSignals": [
-          "typescript",
-          "web-components",
-          "rest-api",
-          "security",
-          "cicd",
-          "ai-product"
-        ]
-      },
-      {
-        "url": "https://jobs.ashbyhq.com/cas/9622e35e-24a4-4d8a-9f7e-f0f3b0a80639",
-        "title": "AI-Native Full-Stack Engineer (Portal Owner)",
-        "reason": "structure",
-        "textLength": 7117
       },
       {
         "url": "https://jobs.ashbyhq.com/apas/a36c1e1b-8d9c-42ef-8a6b-5dcb7e836d84",
@@ -128,10 +31,43 @@
         "textLength": 4896
       },
       {
-        "url": "https://jobs.smartrecruiters.com/oneclick-ui/company/M3USA/publication/687a7aea-bd8a-4c5c-9228-616f9c68672a?dcr_ci=M3USA",
-        "title": "smartrecruiters.com",
+        "url": "https://jobs.ashbyhq.com/kraken.com/c591538b-b19c-4377-9a56-f5b9b30fc9fa",
+        "title": "Senior Software Engineer - Rust - Consumer",
+        "reason": "rust",
+        "fitSignals": [
+          "typescript",
+          "react",
+          "web-components",
+          "rest-api",
+          "security",
+          "ai-product",
+          "payments"
+        ]
+      },
+      {
+        "url": "https://boards.greenhouse.io/okta/jobs/8237695",
+        "title": "Senior Software Engineer",
+        "reason": "duplicate"
+      },
+      {
+        "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/BELO-HORIZONTE/Software-Engineer-II--R-D-Hardware-Verification_R56225?utm_source=hsamplify&utm_medium=linkedin&utm_term=2ce009d3-992f-4e66-8399-90da12317a46",
+        "title": "Careers",
         "reason": "structure",
         "textLength": 0
+      },
+      {
+        "url": "https://boards.greenhouse.io/okta/jobs/8220649",
+        "title": "Staff Software Engineer",
+        "reason": "insufficient-core-signals",
+        "fitSignals": [
+          "accessibility",
+          "seo",
+          "web-components",
+          "rest-api",
+          "auth",
+          "authorization",
+          "security"
+        ]
       },
       {
         "url": "https://jobs.smartrecruiters.com/Nagarro1/744000152723749-associate-principal-engineer-dataops",
@@ -149,8 +85,8 @@
     ]
   },
   "totals": {
-    "jobs": 32,
-    "strongMatches": 22,
+    "jobs": 37,
+    "strongMatches": 26,
     "canonicalCvs": 11
   },
   "cvs": [
@@ -212,7 +148,27 @@
   ],
   "jobs": [
     {
-      "id": "557b493c0692",
+      "id": "bd0364836a41",
+      "name": "aquisicao-digital-software-engineer-iii-mobile-7153465b",
+      "sourceUrl": "https://boards.greenhouse.io/stone/jobs/7999476003",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 100,
+      "requirementCount": 4,
+      "gaps": [],
+      "evidence": [
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "oss-002",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001"
+      ]
+    },
+    {
+      "id": "a16d69066d3c",
       "name": "Diagonal-DesenvolvedorFullStack",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -229,7 +185,7 @@
       ]
     },
     {
-      "id": "ae178b706170",
+      "id": "f6ea7ddca4ca",
       "name": "DigitalGrowth-Desenvolvedor(a)FullstackPleno",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -251,7 +207,7 @@
       ]
     },
     {
-      "id": "898c9d3ddef2",
+      "id": "6f9990ae21f9",
       "name": "Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto]",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -273,7 +229,28 @@
       ]
     },
     {
-      "id": "0e8a68a6efc2",
+      "id": "8a930dfbc431",
+      "name": "senior-software-engineer-ai-training-brazil-4fc23d96",
+      "sourceUrl": "https://jobs.ashbyhq.com/g2i/70c018bc-d3b5-426f-bfd5-ae94891dcc7f",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 100,
+      "requirementCount": 5,
+      "gaps": [],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-004",
+        "project-ecarryon-001",
+        "exp-mspa-003",
+        "project-fecha-002",
+        "project-fecha-003",
+        "project-fecha-001",
+        "project-terto-001"
+      ]
+    },
+    {
+      "id": "19fab2430178",
       "name": "Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -299,7 +276,7 @@
       ]
     },
     {
-      "id": "b7d767d4b63f",
+      "id": "32aa6655dc93",
       "name": "ISASaúde-DesenvolvedorFullStackPleno",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -321,7 +298,7 @@
       ]
     },
     {
-      "id": "13d1cb779b21",
+      "id": "4b2ea8f6174c",
       "name": "Artefact-SoftwareEngineer-Brasil",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -369,7 +346,7 @@
       ]
     },
     {
-      "id": "4e580ccec6e1",
+      "id": "e7d6eee5651e",
       "name": "CI&T  Mid-Level Fullstack Developer ( Java + Angular ) Brazil",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -416,7 +393,32 @@
       ]
     },
     {
-      "id": "7afca45d385d",
+      "id": "562a6a3ab7e6",
+      "name": "jobgether-software-engineer-ai-native-be1a4801",
+      "sourceUrl": "https://jobs.lever.co/jobgether/8da0341b-a2ac-4231-91c7-9b2b81a5d560",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 87,
+      "requirementCount": 8,
+      "gaps": [
+        "aws-gcp"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-002",
+        "project-fecha-002",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-fecha-003",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "oss-002"
+      ]
+    },
+    {
+      "id": "1c9e05a3e43c",
       "name": "CI&T-MidLevelDeveloperFullStackAEM-AdobeExperienceManager ",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -445,7 +447,7 @@
       ]
     },
     {
-      "id": "d77ec38d51d0",
+      "id": "50ce27c69226",
       "name": "CI&T-SeniorDeveloperFullStackAEM-AdobeExperienceManager",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -474,7 +476,7 @@
       ]
     },
     {
-      "id": "76323d7df729",
+      "id": "b071b64c06be",
       "name": "Jobgether  AI Process Forward Deployed Engineer",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -497,7 +499,7 @@
       ]
     },
     {
-      "id": "121401371097",
+      "id": "ac9cba6452d2",
       "name": "NOTORIA  Desenvolvedor(a) Full Stack (100% Remoto) – Foco em IA e Saúde - 1120",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -521,7 +523,7 @@
       ]
     },
     {
-      "id": "a084debdbac4",
+      "id": "3d9f0aa5f3c3",
       "name": "Software Engineer, Autonomous Revenue Operations (Brazil)",
       "sourceUrl": null,
       "language": "en",
@@ -543,7 +545,32 @@
       ]
     },
     {
-      "id": "22f23af2eecc",
+      "id": "012e8f2890e0",
+      "name": "ai-native-full-stack-engineer-portal-owner-37803d08",
+      "sourceUrl": "https://jobs.ashbyhq.com/cas/9622e35e-24a4-4d8a-9f7e-f0f3b0a80639",
+      "language": "en",
+      "recommendedCv": "fullstack-engineer-international",
+      "coverage": 81,
+      "requirementCount": 7,
+      "gaps": [
+        "advanced-english"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-002",
+        "project-fecha-002",
+        "exp-mspa-003",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-fecha-003"
+      ]
+    },
+    {
+      "id": "3aef23654055",
       "name": "N-iX  Fullstack Engineer (ScalaTypeScript)",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -564,7 +591,7 @@
       ]
     },
     {
-      "id": "349729263019",
+      "id": "338a76c8ca4e",
       "name": "Neppo-Desenvolvedor(a)FullStack ",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -582,7 +609,7 @@
       ]
     },
     {
-      "id": "0145349e583a",
+      "id": "946696b671f8",
       "name": "Sanar-SoftwareEngineer",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -606,7 +633,7 @@
       ]
     },
     {
-      "id": "3cbfa95bfe8e",
+      "id": "994009ab1fb3",
       "name": "Arco Educação  Software Engineer II - Front End ",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -655,7 +682,7 @@
       ]
     },
     {
-      "id": "bc95a69eb30b",
+      "id": "a276d96741b0",
       "name": "Jobgether-Full-Stack-Software-Engineer-AI-First",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -704,7 +731,7 @@
       ]
     },
     {
-      "id": "c0bd722dbcda",
+      "id": "b96949603671",
       "name": "Jobgether-MidLevel-Fullstack-(JavaIAngular)Developer",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -726,6 +753,30 @@
         "project-fecha-003",
         "project-terto-002",
         "project-rendecerto-001"
+      ]
+    },
+    {
+      "id": "bae7704b2498",
+      "name": "jobgether-senior-software-engineer-quality-8057b2a9",
+      "sourceUrl": "https://jobs.lever.co/jobgether/ba72a0cb-fb5b-400e-b0c0-5fc135b99703",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 73,
+      "requirementCount": 7,
+      "gaps": [
+        "seniority-5-years",
+        "java"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "exp-mspa-006",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001"
       ]
     },
     {
@@ -755,7 +806,7 @@
       ]
     },
     {
-      "id": "4f5135e9e558",
+      "id": "f9dcc3bd23e5",
       "name": "INDIStaffingServices-AngularDeveloper-Remote-Work",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -776,7 +827,7 @@
       ]
     },
     {
-      "id": "9434f47ce871",
+      "id": "bd951d84fab5",
       "name": "INDIStaffingServices-AngularDeveloper-Remote-Work2",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -797,7 +848,7 @@
       ]
     },
     {
-      "id": "9c9c9f5c1256",
+      "id": "721fb9b0b364",
       "name": "CI&T-MidLevel-AIFullstack-(JavaAngular)-Developer-Brazil ",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -814,7 +865,7 @@
       ]
     },
     {
-      "id": "967eaf7ddcea",
+      "id": "ab25eb570ba2",
       "name": "Athelas-SoftwareEngineer-Applied-AI(Brazil)",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -835,7 +886,7 @@
       ]
     },
     {
-      "id": "c5e63c6fc4dd",
+      "id": "3e7f79fe8c66",
       "name": "Commure-SoftwareEngineer-AppliedAI(Brazil)",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -877,7 +928,7 @@
       ]
     },
     {
-      "id": "e99c8a3a319e",
+      "id": "ec857cb9d5ec",
       "name": "FCamara-DesenvolvedorFullstack-NET+AngularouReact-Pleno",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -898,7 +949,7 @@
       ]
     },
     {
-      "id": "4332d2105e60",
+      "id": "de9e77a9fb79",
       "name": "APAS.AI-Full-Stack-Engineer",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -935,7 +986,7 @@
       ]
     },
     {
-      "id": "a6b72bd981f2",
+      "id": "8985ba431cfb",
       "name": "C&IT-Software-Architect-Brazil",
       "sourceUrl": null,
       "language": "pt-BR",
