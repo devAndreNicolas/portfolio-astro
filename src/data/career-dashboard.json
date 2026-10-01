@@ -1,0 +1,958 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-01T19:42:10.078Z",
+  "collection": {
+    "at": "2026-10-01T19:06:02.980Z",
+    "country": "brazil",
+    "provider": "both",
+    "afterDate": "2026-09-28",
+    "maxAgeDays": 7,
+    "discovered": 23,
+    "collected": 7,
+    "rejected": {
+      "duplicate": 0,
+      "location": 0,
+      "stale": 0,
+      "mismatch": 4,
+      "structure": 12,
+      "blocked": 0
+    },
+    "attempts": [
+      {
+        "url": "https://portal.gupy.io/job-search/term=react",
+        "title": "Aplique para Vagas de react",
+        "reason": "structure",
+        "textLength": 2906
+      },
+      {
+        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Associate-Full-Stack-Developer--Net-Angular-Azure-_R2066910/apply",
+        "title": "Careers",
+        "reason": "structure",
+        "textLength": 0
+      },
+      {
+        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Associate-Full-Stack-Developer--Net-Angular-Azure-_R2066910/apply/useMyLastApplication",
+        "title": "Careers",
+        "reason": "structure",
+        "textLength": 161
+      },
+      {
+        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Full-Stack-Developer--Net-Angular-Azure-_R2066416",
+        "title": "Careers",
+        "reason": "structure",
+        "textLength": 169
+      },
+      {
+        "url": "https://boards.greenhouse.io/stone/jobs/7999476003",
+        "title": "[Aquisição Digital] Software Engineer III - Mobile",
+        "reason": "structure",
+        "textLength": 6870
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/g2i/70c018bc-d3b5-426f-bfd5-ae94891dcc7f",
+        "title": "Senior Software Engineer, AI Training - Brazil",
+        "reason": "structure",
+        "textLength": 3307
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/oneclick-ui/company/RenesasElectronics/publication/8c03db59-4736-4959-8cd0-457b0cb3d791?dcr_ci=RenesasElectronics&sid=2d92f286-613b-4daf-9dfa-6340ffbecf73",
+        "title": "smartrecruiters.com",
+        "reason": "structure",
+        "textLength": 0
+      },
+      {
+        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Associate-Full-Stack-Developer--Net-Angular-Azure-_R2066910",
+        "title": "Careers",
+        "reason": "structure",
+        "textLength": 0
+      },
+      {
+        "url": "https://jobs.lever.co/jobgether/8da0341b-a2ac-4231-91c7-9b2b81a5d560",
+        "title": "Jobgether - Software Engineer | AI-Native",
+        "reason": "insufficient-core-signals",
+        "fitSignals": [
+          "typescript",
+          "web-components",
+          "code-review",
+          "rest-api",
+          "security",
+          "cicd",
+          "ai-product",
+          "product"
+        ]
+      },
+      {
+        "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/BELO-HORIZONTE/Software-Engineer-II--R-D-Hardware-Verification_R56225?utm_source=hsamplify&utm_medium=linkedin&utm_term=2ce009d3-992f-4e66-8399-90da12317a46",
+        "title": "",
+        "reason": "structure",
+        "textLength": 0
+      },
+      {
+        "url": "https://boards.greenhouse.io/okta/jobs/8237695",
+        "title": "Senior Software Engineer",
+        "reason": "insufficient-core-signals",
+        "fitSignals": [
+          "javascript",
+          "accessibility",
+          "seo",
+          "web-components",
+          "rest-api",
+          "authorization",
+          "security",
+          "cicd"
+        ]
+      },
+      {
+        "url": "https://jobs.lever.co/jobgether/ba72a0cb-fb5b-400e-b0c0-5fc135b99703",
+        "title": "Jobgether - Senior Software Engineer, Quality",
+        "reason": "insufficient-core-signals",
+        "fitSignals": [
+          "typescript",
+          "web-components",
+          "rest-api",
+          "security",
+          "cicd",
+          "ai-product"
+        ]
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/cas/9622e35e-24a4-4d8a-9f7e-f0f3b0a80639",
+        "title": "AI-Native Full-Stack Engineer (Portal Owner)",
+        "reason": "structure",
+        "textLength": 7117
+      },
+      {
+        "url": "https://jobs.ashbyhq.com/apas/a36c1e1b-8d9c-42ef-8a6b-5dcb7e836d84",
+        "title": "Full Stack Engineer",
+        "reason": "structure",
+        "textLength": 4896
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/oneclick-ui/company/M3USA/publication/687a7aea-bd8a-4c5c-9228-616f9c68672a?dcr_ci=M3USA",
+        "title": "smartrecruiters.com",
+        "reason": "structure",
+        "textLength": 0
+      },
+      {
+        "url": "https://jobs.smartrecruiters.com/Nagarro1/744000152723749-associate-principal-engineer-dataops",
+        "title": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
+        "reason": "insufficient-core-signals",
+        "fitSignals": [
+          "accessibility",
+          "web-components",
+          "rest-api",
+          "postgresql",
+          "security",
+          "cicd"
+        ]
+      }
+    ]
+  },
+  "totals": {
+    "jobs": 32,
+    "strongMatches": 22,
+    "canonicalCvs": 11
+  },
+  "cvs": [
+    {
+      "id": "software-engineer-br",
+      "language": "pt-BR",
+      "href": "/cv/andre-nicolas-engenheiro-software-br.pdf"
+    },
+    {
+      "id": "software-engineer-international",
+      "language": "en",
+      "href": "/cv/andre-nicolas-software-engineer-en.pdf"
+    },
+    {
+      "id": "fullstack-engineer-br",
+      "language": "pt-BR",
+      "href": "/cv/andre-nicolas-engenheiro-fullstack-br.pdf"
+    },
+    {
+      "id": "fullstack-engineer-international",
+      "language": "en",
+      "href": "/cv/andre-nicolas-fullstack-engineer-en.pdf"
+    },
+    {
+      "id": "fullstack-developer-br",
+      "language": "pt-BR",
+      "href": "/cv/andre-nicolas-desenvolvedor-fullstack-br.pdf"
+    },
+    {
+      "id": "fullstack-developer-international",
+      "language": "en",
+      "href": "/cv/andre-nicolas-fullstack-developer-en.pdf"
+    },
+    {
+      "id": "frontend-engineer-br",
+      "language": "pt-BR",
+      "href": "/cv/andre-nicolas-engenheiro-frontend-br.pdf"
+    },
+    {
+      "id": "frontend-engineer-international",
+      "language": "en",
+      "href": "/cv/andre-nicolas-frontend-engineer-en.pdf"
+    },
+    {
+      "id": "product-engineer-international",
+      "language": "en",
+      "href": "/cv/andre-nicolas-product-engineer-en.pdf"
+    },
+    {
+      "id": "web-developer-br",
+      "language": "pt-BR",
+      "href": "/cv/andre-nicolas-desenvolvedor-web-br.pdf"
+    },
+    {
+      "id": "web-developer-international",
+      "language": "en",
+      "href": "/cv/andre-nicolas-web-developer-en.pdf"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "557b493c0692",
+      "name": "Diagonal-DesenvolvedorFullStack",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 100,
+      "requirementCount": 4,
+      "gaps": [],
+      "evidence": [
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "exp-mspa-003",
+        "project-ecarryon-001"
+      ]
+    },
+    {
+      "id": "ae178b706170",
+      "name": "DigitalGrowth-Desenvolvedor(a)FullstackPleno",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 100,
+      "requirementCount": 10,
+      "gaps": [],
+      "evidence": [
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-004",
+        "project-fecha-003",
+        "project-terto-002"
+      ]
+    },
+    {
+      "id": "898c9d3ddef2",
+      "name": "Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto]",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 100,
+      "requirementCount": 7,
+      "gaps": [],
+      "evidence": [
+        "exp-mspa-003",
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "project-fecha-001",
+        "project-terto-001"
+      ]
+    },
+    {
+      "id": "0e8a68a6efc2",
+      "name": "Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 92,
+      "requirementCount": 9,
+      "gaps": [
+        "documentation"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "project-ecarryon-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "project-terto-001",
+        "exp-mspa-007",
+        "project-terto-002",
+        "project-rendecerto-001"
+      ]
+    },
+    {
+      "id": "b7d767d4b63f",
+      "name": "ISASaúde-DesenvolvedorFullStackPleno",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 90,
+      "requirementCount": 10,
+      "gaps": [
+        "aws-gcp"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ]
+    },
+    {
+      "id": "13d1cb779b21",
+      "name": "Artefact-SoftwareEngineer-Brasil",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "software-engineer-br",
+      "coverage": 89,
+      "requirementCount": 9,
+      "gaps": [
+        "advanced-english"
+      ],
+      "evidence": [
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006"
+      ]
+    },
+    {
+      "id": "fdd2270c906c",
+      "name": "jobgether-senior-software-engineer-371cb484",
+      "sourceUrl": "https://jobs.lever.co/jobgether/dc92c9bd-ac1e-4df6-8e09-7dbba1af08f1",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 89,
+      "requirementCount": 10,
+      "gaps": [
+        "aws-gcp"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "exp-mspa-003",
+        "project-ecarryon-001",
+        "oss-002",
+        "project-fecha-002",
+        "project-fecha-003"
+      ]
+    },
+    {
+      "id": "4e580ccec6e1",
+      "name": "CI&T  Mid-Level Fullstack Developer ( Java + Angular ) Brazil",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 88,
+      "requirementCount": 9,
+      "gaps": [
+        "java"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-ecarryon-landing-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001"
+      ]
+    },
+    {
+      "id": "10c5bfe591c6",
+      "name": "jobgether-senior-software-engineer-ai-driven-curveglass-0e337170",
+      "sourceUrl": "https://jobs.lever.co/jobgether/05114e21-21d8-4d2b-a227-80879b883ab2",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 87,
+      "requirementCount": 8,
+      "gaps": [
+        "aws-gcp"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "exp-mspa-003",
+        "project-terto-001",
+        "project-ecarryon-001",
+        "project-fecha-002",
+        "project-fecha-003"
+      ]
+    },
+    {
+      "id": "7afca45d385d",
+      "name": "CI&T-MidLevelDeveloperFullStackAEM-AdobeExperienceManager ",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 85,
+      "requirementCount": 14,
+      "gaps": [
+        "aem",
+        "java"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-003",
+        "oss-002",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-compliance-001",
+        "project-landing-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004"
+      ]
+    },
+    {
+      "id": "d77ec38d51d0",
+      "name": "CI&T-SeniorDeveloperFullStackAEM-AdobeExperienceManager",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 85,
+      "requirementCount": 14,
+      "gaps": [
+        "aem",
+        "java"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-003",
+        "oss-002",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-compliance-001",
+        "project-landing-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004"
+      ]
+    },
+    {
+      "id": "76323d7df729",
+      "name": "Jobgether  AI Process Forward Deployed Engineer",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "software-engineer-br",
+      "coverage": 83,
+      "requirementCount": 6,
+      "gaps": [
+        "java"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-002",
+        "project-fecha-002",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ]
+    },
+    {
+      "id": "121401371097",
+      "name": "NOTORIA  Desenvolvedor(a) Full Stack (100% Remoto) – Foco em IA e Saúde - 1120",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 83,
+      "requirementCount": 6,
+      "gaps": [
+        "aws-gcp"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "exp-mspa-003",
+        "project-terto-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "project-terto-002",
+        "project-rendecerto-001"
+      ]
+    },
+    {
+      "id": "a084debdbac4",
+      "name": "Software Engineer, Autonomous Revenue Operations (Brazil)",
+      "sourceUrl": null,
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 83,
+      "requirementCount": 7,
+      "gaps": [
+        "aws-gcp"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-terto-002"
+      ]
+    },
+    {
+      "id": "22f23af2eecc",
+      "name": "N-iX  Fullstack Engineer (ScalaTypeScript)",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 80,
+      "requirementCount": 6,
+      "gaps": [
+        "scala"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-ecarryon-001",
+        "exp-mspa-006",
+        "exp-mspa-007"
+      ]
+    },
+    {
+      "id": "349729263019",
+      "name": "Neppo-Desenvolvedor(a)FullStack ",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 80,
+      "requirementCount": 5,
+      "gaps": [
+        "java"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "project-ecarryon-001"
+      ]
+    },
+    {
+      "id": "0145349e583a",
+      "name": "Sanar-SoftwareEngineer",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "software-engineer-br",
+      "coverage": 80,
+      "requirementCount": 10,
+      "gaps": [
+        "aws-gcp",
+        "java"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "exp-mspa-003",
+        "project-fecha-002",
+        "project-fecha-003"
+      ]
+    },
+    {
+      "id": "3cbfa95bfe8e",
+      "name": "Arco Educação  Software Engineer II - Front End ",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 79,
+      "requirementCount": 9,
+      "gaps": [
+        "documentation",
+        "aws-gcp"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004"
+      ]
+    },
+    {
+      "id": "2678a78afbfc",
+      "name": "jobgether-full-stack-software-engineer-ai-first-1a319562",
+      "sourceUrl": "https://jobs.lever.co/jobgether/54dd4066-6586-4d90-b7f2-7927181ba492",
+      "language": "en",
+      "recommendedCv": "fullstack-engineer-international",
+      "coverage": 79,
+      "requirementCount": 9,
+      "gaps": [
+        "java",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-fecha-002",
+        "project-fecha-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "oss-002",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ]
+    },
+    {
+      "id": "bc95a69eb30b",
+      "name": "Jobgether-Full-Stack-Software-Engineer-AI-First",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 77,
+      "requirementCount": 8,
+      "gaps": [
+        "java",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-fecha-002",
+        "project-fecha-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "oss-002"
+      ]
+    },
+    {
+      "id": "d541d43ed62d",
+      "name": "jobgether-mid-level-fullstack-java-i-angular-developer-c908b789",
+      "sourceUrl": "https://jobs.lever.co/jobgether/8e4b5add-889c-4658-a452-2c1322f9d7bd",
+      "language": "en",
+      "recommendedCv": "frontend-engineer-international",
+      "coverage": 77,
+      "requirementCount": 9,
+      "gaps": [
+        "java",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "project-fecha-002"
+      ]
+    },
+    {
+      "id": "c0bd722dbcda",
+      "name": "Jobgether-MidLevel-Fullstack-(JavaIAngular)Developer",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 75,
+      "requirementCount": 8,
+      "gaps": [
+        "java",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001"
+      ]
+    },
+    {
+      "id": "cc966854b6a2",
+      "name": "jobgether-senior-full-stack-engineer-alpaca-connect-a38d7639",
+      "sourceUrl": "https://jobs.lever.co/jobgether/c11017a8-7c3f-4d59-9502-beca1064b10d",
+      "language": "en",
+      "recommendedCv": "fullstack-engineer-international",
+      "coverage": 72,
+      "requirementCount": 11,
+      "gaps": [
+        "aws-gcp",
+        "seniority-5-years",
+        "sso"
+      ],
+      "evidence": [
+        "project-fecha-003",
+        "project-saude-001",
+        "exp-mspa-007",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "exp-mspa-003",
+        "project-terto-001",
+        "project-ecarryon-001",
+        "project-fecha-002",
+        "exp-mspa-006"
+      ]
+    },
+    {
+      "id": "4f5135e9e558",
+      "name": "INDIStaffingServices-AngularDeveloper-Remote-Work",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 71,
+      "requirementCount": 7,
+      "gaps": [
+        "advanced-english",
+        "java"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ]
+    },
+    {
+      "id": "9434f47ce871",
+      "name": "INDIStaffingServices-AngularDeveloper-Remote-Work2",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 71,
+      "requirementCount": 7,
+      "gaps": [
+        "advanced-english",
+        "java"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ]
+    },
+    {
+      "id": "9c9c9f5c1256",
+      "name": "CI&T-MidLevel-AIFullstack-(JavaAngular)-Developer-Brazil ",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 70,
+      "requirementCount": 4,
+      "gaps": [
+        "java"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "exp-mspa-007",
+        "oss-002"
+      ]
+    },
+    {
+      "id": "967eaf7ddcea",
+      "name": "Athelas-SoftwareEngineer-Applied-AI(Brazil)",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "software-engineer-br",
+      "coverage": 68,
+      "requirementCount": 7,
+      "gaps": [
+        "aws-gcp",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "exp-mspa-007"
+      ]
+    },
+    {
+      "id": "c5e63c6fc4dd",
+      "name": "Commure-SoftwareEngineer-AppliedAI(Brazil)",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "software-engineer-br",
+      "coverage": 68,
+      "requirementCount": 7,
+      "gaps": [
+        "aws-gcp",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "exp-mspa-007"
+      ]
+    },
+    {
+      "id": "f16a89cecbf9",
+      "name": "software-engineer-applied-ai-brazil-687d1d4b",
+      "sourceUrl": "https://jobs.ashbyhq.com/Commure/f947983b-ebcc-44b9-b329-2eaf498e2aa7",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 68,
+      "requirementCount": 7,
+      "gaps": [
+        "aws-gcp",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "exp-mspa-007"
+      ]
+    },
+    {
+      "id": "e99c8a3a319e",
+      "name": "FCamara-DesenvolvedorFullstack-NET+AngularouReact-Pleno",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 65,
+      "requirementCount": 6,
+      "gaps": [
+        "aws-gcp",
+        "dotnet"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ]
+    },
+    {
+      "id": "4332d2105e60",
+      "name": "APAS.AI-Full-Stack-Engineer",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 62,
+      "requirementCount": 25,
+      "gaps": [
+        "advanced-english",
+        "documentation",
+        "ipad",
+        "load-testing",
+        "multi-tenancy",
+        "seniority-5-years",
+        "sso",
+        "vulnerability-testing",
+        "rag"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-fecha-003",
+        "project-saude-001",
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "exp-mspa-005",
+        "exp-mspa-002",
+        "project-fecha-002",
+        "project-ecarryon-001",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "project-diary-001"
+      ]
+    },
+    {
+      "id": "a6b72bd981f2",
+      "name": "C&IT-Software-Architect-Brazil",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "software-engineer-br",
+      "coverage": 47,
+      "requirementCount": 6,
+      "gaps": [
+        "aws-gcp",
+        "documentation",
+        "load-testing"
+      ],
+      "evidence": [
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-003",
+        "exp-mspa-007"
+      ]
+    }
+  ]
+}

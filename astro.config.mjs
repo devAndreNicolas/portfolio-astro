@@ -8,5 +8,5 @@ const site = process.env.SITE_URL;
 export default defineConfig({
   // Set SITE_URL in .env and on the deployment platform before production builds.
   site,
-  integrations: site ? [sitemap({ filter: (page) => !page.endsWith("/cv/") })] : [],
+  integrations: site ? [sitemap({ filter: (page) => !page.endsWith("/cv/") && !page.endsWith("/career/") })] : [],
 });

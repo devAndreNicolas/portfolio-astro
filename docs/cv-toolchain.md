@@ -18,7 +18,7 @@ pnpm cv:clean
 
 ## Published PDFs without local TeX
 
-On pushes to `main` that change `career/cvs/`, the `Publish public CV PDFs` GitHub Actions workflow compiles every canonical source with XeLaTeX and commits its PDFs under `public/cv/`. Vercel can then serve them and `/cv/` lists the public manifest entries.
+On pushes to `main` that change `career/cvs/`, the `Publish public CV PDFs` GitHub Actions workflow compiles every canonical source with XeLaTeX and commits its PDFs under `public/cv/`. Vercel can then serve them and `/cv/` lists the public manifest entries. The publishing script handles LaTeX engines that place generated PDFs either beside the source or at the workspace root.
 
 No local LaTeX installation is needed for that path. In repository settings, allow GitHub Actions workflows to have **Read and write permissions** so the workflow's `GITHUB_TOKEN` can commit the generated PDFs. If `main` has branch protection, allow this workflow to push or use its pull-request flow.
 

@@ -1,0 +1,16 @@
+---
+import dashboard from "../../data/career-dashboard.json";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+<BaseLayout title="Career pipeline | Andre Nicolas" description="Career pipeline and CV library." noindex={true}>
+  <main class="wrapper pipeline">
+    <p class="eyebrow">Career operations</p><h1 class="display">Application pipeline</h1>
+    <p class="intro">Evidence coverage ranks the fit between saved job requirements and documented experience. It is not an ATS pass probability or hiring prediction.</p>
+    <section class="metrics" aria-label="Pipeline totals"><p><strong>{dashboard.totals.jobs}</strong> analyzed jobs</p><p><strong>{dashboard.totals.strongMatches}</strong> strong evidence matches</p><p><strong>{dashboard.totals.canonicalCvs}</strong> downloadable CVs</p></section>
+    <section><h2>Prioritized jobs</h2><ol>{dashboard.jobs.slice(0, 20).map((job) => <li><div><strong>{job.name}</strong><small>{job.recommendedCv} · {job.requirementCount} recognized requirements</small>{job.gaps.length > 0 && <small>Gaps: {job.gaps.join(", ")}</small>}</div><div class="actions"><b>{job.coverage}%</b>{job.sourceUrl && <a href={job.sourceUrl} target="_blank" rel="noreferrer">Job ↗</a>}</div></li>)}</ol></section>
+    <section><h2>CV downloads</h2><div class="cvs">{dashboard.cvs.map((cv) => <a href={cv.href} download>{cv.id}<small>{cv.language} · PDF ↓</small></a>)}</div></section>
+  </main>
+</BaseLayout>
+<style>
+ .pipeline{padding:5rem 0 8rem;max-width:68rem}.pipeline h1{font-size:clamp(3rem,7vw,5.5rem);margin:.8rem 0 1.3rem}.intro{color:var(--muted);max-width:48rem}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:3rem 0;border-block:1px solid var(--line);padding:1rem 0}.metrics strong{display:block;font:2rem var(--font-display)}h2{margin:3rem 0 1rem;font-size:1.3rem}ol{list-style:none;border-top:1px solid var(--line)}li{display:flex;justify-content:space-between;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--line)}small{display:block;color:var(--muted);margin-top:.2rem}.actions{display:flex;gap:1rem;align-items:center}.actions b{color:var(--blue)}.actions a{font-size:.86rem}.cvs{display:grid;grid-template-columns:repeat(2,1fr);gap:.7rem}.cvs a{padding:1rem;border:1px solid var(--line);text-decoration:none}.cvs a:hover{border-color:var(--blue);color:var(--blue)}@media(max-width:38rem){.metrics,.cvs{grid-template-columns:1fr}li{flex-direction:column}.actions{justify-content:space-between}}
+</style>

@@ -126,11 +126,16 @@ async function discover() {
     }
     if (candidates.size >= limit * 4) break;
   }
-  if (!candidates.size) throw new Error("No new official ATS links discovered. Check key, quota, or freshness.");
   return candidates;
 }
 
 const candidates = await discover();
+if (!candidates.size) {
+  state.lastRun = { at: new Date().toISOString(), country, provider, afterDate, maxAgeDays, discovered: 0, collected: 0, rejected: {}, attempts: [] };
+  writeFileSync(statePath, `${JSON.stringify(state, null, 2)}\n`);
+  console.log(`Discovered 0 new official ATS links; market: ${country}; provider: ${provider}.`);
+  process.exit(0);
+}
 const browser = await chromium.launch({ headless: true });
 const context = await browser.newContext({ locale: "pt-BR" });
 const page = await context.newPage();
