@@ -1,0 +1,164 @@
+Source URL: https://jobs.ashbyhq.com/cas/9622e35e-24a4-4d8a-9f7e-f0f3b0a80639
+Collected at: 2026-10-01T19:47:48.436Z
+Market: brazil
+Discovery: serper
+Explicit age: unknown
+Fit signals: react, nextjs, web-components, rest-api, security, ai-product, product
+
+AI-Native Full-Stack Engineer (Portal Owner)
+Location
+
+Colombia; Argentina; Brazil; Chile; Mexico; Peru
+
+Employment Type
+
+Full time
+
+Location Type
+
+Remote
+
+Department
+
+🌐 Featured Global Remote Careers
+
+Compensation
+Accounting/Bookkeeping
+Estimated salary based on experience $5K – $7K per month • The base pay can be higher based on experience
+Overview
+Application
+
+AI-Native Full-Stack Engineer (Portal Owner)
+
+100% Remote · Full-Time Independent Contractor · Latin America-Based · $5,000–$7,000 USD/month · U.S. Eastern/Central Hours Overlap
+
+Imagine being the one engineer who owns the product at the center of a fast-growing company.
+
+Every improvement you ship makes the platform where accounting firms find and hire talent a little better than it was last week. Every AI feature you build puts real capability in front of real users. Every automation you create helps a 45-person team run like 150.
+
+That's this role.
+
+ABOUT THE ROLE
+
+You'd be joining Cloud Accountant Staffing (CAS), a firm that places accountants into U.S. CPA firms. We're at roughly $12.5M in annual revenue, doubled in the last year, and on a plan to reach $100M by 2031. Our co-owners include one of the most-followed voices in the U.S. accounting profession, and our clients range from 5-person firms to some of the largest accounting firms in the world.
+
+At the center of how we work is our portal, a marketplace-style platform built on Next.js and React where accounting firms find, review, and hire vetted talent. It's our biggest competitive advantage. It was built with our long-time development partner, who stays involved. Now we want one person in-house to own it and make it better every single day.
+
+As our AI-Native Full-Stack Engineer, you inherit a working production codebase with real users and a long backlog of improvements the CEO has been collecting. You'll work through it, then keep going, shipping small iterations constantly with a direct line to the person who sets the priorities.
+
+This is a product-ownership role. It is not a ticket queue, and it is not a short-term project. We are hiring for years.
+
+THE IDEAL CANDIDATE
+
+You're a senior full-stack engineer who is comfortable being the primary engineer on a product.
+
+You've found that one person with AI tools can do what a small team used to, and you've proven it.
+
+You can take a user complaint, a half-formed idea from the CEO, and a messy backlog and turn them into the right thing to build this week.
+
+You don't need a PM to write you a ticket.
+
+You write well and explain trade-offs clearly to non-engineers.
+
+You're all-in: one product, one client.
+
+WHAT YOU'LL OWN
+
+The Portal. Own it day to day. Work through the CEO's backlog in a production codebase with real users, shipping small daily iterations. You won't be alone: our development partner continues to support architecture, security, and overflow, so you have people to think with.
+
+The Candidate Side. Make it a true two-sided marketplace. Today the portal is built for firms. You'll design and build the candidate-facing side, where candidates apply, get vetted, build profiles, and move through the process inside the product.
+
+AI in the Product. Build it in, not around. Ship candidate matching, resume and profile parsing, vetting assistants, and LLM-driven workflows for firms and recruiters. Real features for real users, with the testing and monitoring habits that make them trustworthy.
+
+Business Automation. Then, automate the business. Once the portal is humming, the mandate widens to our recruiting funnel, weekly scorecard, HubSpot, and Slack, with agents and automations that let a 45-person team run like 150.
+
+WHAT YOU'LL BRING
+
+Roughly 6+ years as a full-stack engineer, shipping and maintaining production web applications (required)
+
+Comfort being the primary engineer on a product, with a partner agency behind you (required)
+
+Daily use of AI coding tools such as Cursor, Claude Code, Copilot, or equivalent, and the ability to show it live (required)
+
+Strong product thinking: you can turn feedback, ideas, and a backlog into clear priorities without a PM (required)
+
+Fluent English, written and spoken, including writing specs and docs (required)
+
+At least 4–5 hours of daily overlap with U.S. Eastern/Central hours (required)
+
+Availability for full-time, exclusive work, with no concurrent clients or contracts (required)
+
+Preferred (Nice to Have)
+
+Experience inheriting someone else's production codebase and making it your own
+
+Experience shipping LLM-powered features to real users, with an evaluation or QA loop, not just demos
+
+Experience with a two-sided marketplace, a recruiting/HR product, or a vetting/screening workflow
+
+Experience integrating with HubSpot, Slack, or similar business systems
+
+Experience with a U.S. company or U.S.-facing product
+
+Practical understanding of security and compliance (we are SOC 2 in progress)
+
+YOUR TEAM
+
+You report directly to the CEO, who is the product owner and will hand you a written backlog on day one.
+
+Our U.S. team is in-office in Indianapolis with a strong in-person culture, and our recruiting team is in the Philippines.
+
+You'll be a remote member of a team that talks a lot, so writing well matters.
+
+HOW WE WORK
+
+Quality First. Every feature that ships is tested, monitored, and ready for real users.
+
+Security Matters. Candidate, client, and company information is handled with the highest level of confidentiality, and we build with security and compliance in mind.
+
+Reliable Collaboration. We work closely through Slack, Zoom, shared documentation, and predictable communication rhythms, even across time zones.
+
+Own the Outcome. We don't just ship code. We own the result, close loops, and raise issues before they become problems.
+
+Continuous Improvement. We move fast and iterate constantly. The portal should be a little better every week than it was the week before.
+
+WHY CAS IS DIFFERENT
+
+We are not a gig platform. We are not a freelance marketplace. We are not short-term staffing.
+
+We aren't looking for someone to work through tickets on the side. We're looking for someone who wants to own the product at the center of our business for years.
+
+At CAS, you'll enjoy:
+
+$5,000–$7,000 USD per month, based on experience and location
+
+Equipment stipend
+
+Paid time off aligned with your country's norms
+
+A direct reporting line to the CEO
+
+A development partner behind you for architecture, security, and overflow
+
+Permanent remote work from anywhere in Latin America
+
+A long-term, full-time engagement
+
+A culture built around ownership, continuous learning, and innovation
+
+CONTRACT & EXCLUSIVITY
+
+This is an independent contractor engagement based in Latin America. Full-time exclusivity is required — one client, us. Candidates must not hold other clients, contracts, or freelance engagements once hired. Conflict-of-interest checks may apply.
+
+READY TO TAKE THE NEXT STEP?
+
+Your next big career move starts here.
+
+Apply now and own the product at the center of a fast-growing company.
+
+https://jobs.ashbyhq.com/cas
+
+Apply for this Job
+Powered by 
+
+Privacy PolicySecurityVulnerability Disclosure

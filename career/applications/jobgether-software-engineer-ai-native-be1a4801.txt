@@ -1,0 +1,110 @@
+Source URL: https://jobs.lever.co/jobgether/8da0341b-a2ac-4231-91c7-9b2b81a5d560
+Collected at: 2026-10-01T19:47:34.818Z
+Market: brazil
+Discovery: serper
+Explicit age: unknown
+Fit signals: typescript, web-components, code-review, rest-api, security, cicd, ai-product, product
+
+Software Engineer | AI-Native
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Software Engineer | AI-Native based in Brazil.
+
+This is an opportunity to join an early-stage startup building an AI-powered secured lending product from the ground up.
+You will work on a complex product involving credit analysis, business rules, exceptions, and multiple data integrations.
+The engineering approach is AI-native, with coding agents embedded throughout the software development lifecycle.
+You will combine strong engineering fundamentals with critical thinking to guide, review, and improve AI-generated solutions.
+The role spans architecture, backend integrations, application development, testing, deployment, and production troubleshooting.
+You will work closely with Product to translate ambiguous business problems into structured, scalable technical solutions.
+This is a high-autonomy environment where you can directly influence the architecture, product, and engineering practices as the company grows.
+
+Accountabilities
+
+Partner with Product to understand requirements, business rules, exceptions, dependencies, and potential impacts before translating them into technical solutions.
+
+Break down complex and ambiguous problems into structured systems, workflows, and implementation plans.
+
+Use AI coding agents extensively throughout development by providing appropriate context, objectives, constraints, and iterative feedback.
+
+Contribute to the design and evolution of application architecture, including onboarding flows, backend integrations, asynchronous communication, and distributed components.
+
+Review and critically evaluate AI-generated code and approaches, identifying risks related to security, performance, concurrency, databases, reliability, and maintainability.
+
+Work across different layers of the application, contributing to both frontend and backend functionality rather than operating within rigid technical boundaries.
+
+Implement, test, review, deploy, and monitor features throughout their full lifecycle.
+
+Investigate anomalous system behavior and production issues using logs, metrics, traces, and other diagnostic information.
+
+Make informed technical decisions in situations where requirements or solutions are not fully defined, testing approaches and adapting quickly as new information emerges.
+
+Help establish scalable engineering practices and contribute to the evolution of the product and technical architecture.
+
+Requirements
+
+Professional experience in software development and a solid understanding of the software development lifecycle, including version control, code reviews, testing, and deployment.
+
+Strong software engineering fundamentals covering architecture, data modeling, APIs, web applications, and system design.
+
+Strong analytical and critical-thinking skills, with the ability to decompose complex problems, ask effective questions, and evaluate alternative solutions.
+
+Ability to systematize business rules, scenarios, and exceptions into logical structures that can be translated into reliable software.
+
+Knowledge of software and cloud architecture, including distributed systems, serverless architectures, and/or event-driven systems.
+
+Hands-on experience with at least one major cloud provider.
+
+Experience using AI tools in software development and willingness to work intensively with coding agents throughout the development lifecycle.
+
+Ability to learn new technologies, systems, and business domains quickly.
+
+Strong product mindset, autonomy, and initiative, particularly when working with incomplete specifications or ambiguous problems.
+
+Comfort working in a fast-moving startup environment with changing priorities and a high pace of execution.
+
+Experience using coding agents regularly and at an advanced level is a strong advantage.
+
+Knowledge of Python, TypeScript, and AWS is a plus.
+
+Experience building products from early stages or working in startup environments is valuable.
+
+Experience with products involving multiple integrations and complex business rules is beneficial.
+
+Previous experience in fintech, credit, or financial services is considered an advantage.
+
+Benefits
+
+Remote work model in Brazil.
+
+Contractor/PJ engagement.
+
+Opportunity to build an AI-native financial product from its early stages.
+
+Hands-on exposure to AI coding agents and modern software development practices.
+
+Broad technical ownership across architecture, development, integrations, cloud infrastructure, deployment, and production operations.
+
+Direct collaboration with Product and other stakeholders to shape both technical solutions and business outcomes.
+
+High autonomy in a fast-moving startup environment.
+
+Opportunity to influence engineering architecture and development practices as the product evolves.
+
+Exposure to complex challenges in credit, financial technology, artificial intelligence, and distributed systems.
+
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by
