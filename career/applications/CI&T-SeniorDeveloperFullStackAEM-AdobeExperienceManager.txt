@@ -1,0 +1,137 @@
+Sobre a vaga
+
+Na CI&T , ajudamos grandes empresas a transformar o potencial da AI em impacto real nos negócios com AI Deployment, execução AI-native e tech-integrated business solutions.
+
+Com 30 anos de experiência em transformação tecnológica, aceleramos inovação com expertise em agentic SDLC, application modernization, Data & AI, martech e business strategy. 
+
+Somos 8.000 CI&Ters em mais de 25 países, colaborando para construir soluções com impacto real. AI já faz parte da forma como trabalhamos, evoluímos e inovamos todos os dias.
+
+
+Importante: se você reside na Região Metropolitana de Campinas, sua presença nos escritórios da cidade será obrigatória, conforme a política de frequencia vigente.
+
+
+
+A squad de Web Marketing é responsável pelas propriedades digitais do banco — sites institucionais, landing pages de campanha, hubs de conteúdo e páginas de produto. Construímos e evoluímos essas experiências sobre o Adobe Experience Manager (AEM), com forte integração ao ecossistema de marketing (Analytics, Target, Marketing Cloud) e às APIs internas.
+
+Buscamos uma pessoa Desenvolvedora Full Stack Sênior com especialização em Front-End, que goste de transformar design em interface performática, acessível e pixel-perfect — mas que também seja autônoma para criar componentes, templates e integrações no backend do AEM sem depender de terceiros. Aqui você é dona da ponta a ponta: do HTL e do componente no dialog até o comportamento em runtime, a integração com a API e a entrega em produção passando pelo quality gate.
+
+Responsabilidades:
+
+
+    Desenvolver e evoluir componentes, templates e Content Fragments no AEM (Sites), garantindo autonomia de edição para os times de marketing
+
+    Implementar interfaces responsivas e acessíveis a partir de layouts do Figma, com atenção a detalhe visual, cross-browser e mobile-first
+
+    Otimizar performance web e Core Web Vitals (LCP, CLS, INP): lazy loading, otimização de imagens, critical CSS e redução de JS
+
+    Manter e expandir o Design System/biblioteca de componentes da squad, promovendo reuso e consistência visual
+
+    Construir integrações backend no AEM: servlets, Sling Models, workflows, schedulers e consumo/exposição de APIs REST
+
+    Implementar e validar tagueamento e tracking (Adobe Analytics/GTM/dataLayer) em conjunto com o time de marketing e dados
+
+    Apoiar campanhas e ativações: criação ágil de landing pages, testes A/B e personalização
+
+    Participar de code review, versionamento (Git) e do pipeline de CI/CD (Cloud Manager) entre ambientes (dev/stage/prod)
+
+    Atuar no ciclo ágil da squad (refinamento, planning, dailys), junto a PO, UX e marketing
+
+
+
+Requisitos para este desafio:
+
+AEM:
+
+
+    Experiência com AEM as a Cloud Service e Cloud Manager
+
+    Desenvolvimento de componentes AEM com HTL/Sightly e dialog de autoria (Granite/Coral UI), incluindo Sling Models para expor dados ao HTL
+
+    Domínio da estrutura de projeto do AEM Project Archetype e dos módulos Maven (ui.config, core, ui.frontend), com build via Maven
+
+
+
+Front-End:
+
+
+    Domínio sólido de HTML5 semântico, CSS3 (Flexbox, Grid, SASS/LESS), JavaScript moderno (ES6+) e TypeScript
+
+    Experiência comprovada com layout responsivo, cross-browser e fidelidade ao design
+
+    Conhecimento de acessibilidade (WCAG) e boas práticas de SEO técnico
+
+    Experiência prática com otimização de performance e Core Web Vitals
+
+    Familiaridade com ao menos um framework/lib moderno (React ou Angular)
+
+    Versionamento com Git e fluxo de branches/code review
+
+
+
+AEM / Back-End:
+
+
+    Experiência prática com AEM as a Cloud Service: desenvolvimento de componentes, HTL (Sightly), Sling Models, dialogs, editable templates e Core Components
+
+    Conhecimento de Java aplicado ao AEM (OSGi, Sling, JCR)
+
+    Noções de Maven, AEM Archetype e estrutura de projeto AEM
+
+    Entendimento de arquitetura author/publish, dispatcher e cache
+
+    Consumo e criação de APIs REST/JSON
+
+
+
+Comportamental:
+
+
+    Boa comunicação e capacidade de traduzir necessidades de marketing em solução técnica
+
+    Autonomia, senso de dono e organização para lidar com múltiplas campanhas em paralelo
+
+    Colaboração próxima com UX/Design e áreas de negócio
+
+
+
+[Opcional] Diferenciais:
+
+
+    Certificação Adobe Certified Expert — AEM Sites Developer
+
+    Familiaridade com o build front-end integrado ao AEM (módulo ui.frontend com Webpack) e com geração/entrega de client libraries
+
+    Vivência com Adobe Experience Cloud: Analytics, Target, Launch, Campaign/Marketing Cloud
+
+    Conhecimento de AEM Headless/SPA Editor e arquitetura headless
+
+    Experiência com Web Components, TypeScript ou build tools (Webpack)
+
+    Noções de testes automatizados (Jest e JUnit)
+
+    Experiência em testes A/B, CRO e personalização de conteúdo
+
+    Inglês intermediário/avançado (documentação e suporte Adobe)
+
+    Familiaridade com Docker, Jenkins/GitHub Actions ou observabilidade.
+Veja como seu perfil se compara ao de outros candidatos
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Candidaturas a esta vaga
+
+4
+
+Candidaturas
+
+4
+
+Candidaturas no último dia
+Nível de experiência do candidato
+
+50% de pessoas em nível Iniciante se candidataram a esta vaga
+Nível de formação acadêmica do candidato
+
+50% têm um Bacharelado (semelhante a você)
+
+25% têm um Ensino Técnico
+
+25% têm um Pós-graduação Lato Sensu - MBA

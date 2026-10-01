@@ -1,0 +1,78 @@
+Sobre a vaga
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Full Stack Software Engineer - AI-First based in Brazil.
+
+This role offers the opportunity to build high-scale software in an AI-first engineering environment focused on transforming complex global work compliance into automated technology. You will join an autonomous engineering team where developers work closely with Product to shape what gets built, rather than simply executing tickets. The position combines backend development with Java and Spring Boot, frontend engineering with Angular and TypeScript, and end-to-end ownership of cloud-based applications. You will use modern AI coding agents to accelerate development while applying strong architectural judgment, code review, and security practices. With sensitive compliance data at the core of the platform, reliability and secure engineering are essential. This is a fully remote opportunity designed for engineers who value autonomy, continuous learning, and high-impact product ownership.
+
+Accountabilities
+
+    Own product development within an autonomous engineering team, collaborating closely with Product Managers to define priorities and solutions.
+    Develop and maintain full-stack applications using Java and Spring Boot on the backend and Angular and TypeScript on the frontend.
+    Use AI-powered development tools and agentic workflows to accelerate coding, testing, and delivery while maintaining high engineering standards.
+    Review AI-generated code critically, validating functionality, architecture, scalability, maintainability, and security.
+    Take end-to-end ownership of software delivery, from system design and implementation through cloud infrastructure and deployment.
+    Apply modern application security practices and proactively identify vulnerabilities and potential threats across applications.
+    Collaborate with teammates to shift between frontend and backend priorities based on product impact and business needs.
+    Contribute to a results-oriented, meeting-light engineering culture through strong autonomy and technical decision-making.
+
+Requirements
+
+    3+ years of professional software engineering experience, with strong exposure to full-stack development.
+    Professional experience with object-oriented backend development, particularly Java and Spring Boot.
+    Strong frontend experience with Angular and TypeScript, with the ability to work comfortably across the full stack.
+    Experience using AI coding assistants or a strong interest in adopting agentic development workflows and prompt-driven engineering.
+    Ability to critically review AI-generated code and distinguish robust, production-ready solutions from incorrect or unreliable implementations.
+    Strong understanding of secure software development and modern application security principles, with an awareness of current threat landscapes.
+    Experience taking ownership of applications across design, development, deployment, and cloud infrastructure.
+    Self-directed and comfortable working in an autonomous, results-oriented environment with limited meetings and minimal supervision.
+    Strong communication skills and professional fluency in English.
+    Curiosity, adaptability, and willingness to continuously learn emerging AI-assisted engineering practices.
+
+Benefits
+
+    Fully remote work with the flexibility to work from anywhere in the world for up to 183 days per year.
+    Budget and access to modern AI-powered development tools.
+    Virtual Stock Options (VSOPs).
+    Merit-based culture with significant opportunities for professional growth.
+    €200 monthly budget for coworking or sports activities.
+    Remote-first environment focused on autonomy, flexibility, and productivity.
+
+How Jobgether Works
+
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+
+We appreciate your interest and wish you the best!
+
+ Why Apply Through Jobgether?
+
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us. 
+
+Veja como seu perfil se compara ao de outros candidatos
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Candidaturas a esta vaga
+
+186
+
+Candidaturas
+
+33
+
+Candidaturas no último dia
+Nível de experiência do candidato
+
+74% de pessoas em nível Iniciante se candidataram a esta vaga
+
+20% de pessoas em nível Sênior se candidataram a esta vaga
+
+1% de pessoas em nível Gerente se candidataram a esta vaga
+Nível de formação acadêmica do candidato
+
+45% têm um Bacharelado (semelhante a você)
+
+9% têm um Pós-graduação Lato Sensu - MBA
+
+8% têm um Pós-graduação Stricto Sensu - Mestrado
+
+38% têm outros diplomas

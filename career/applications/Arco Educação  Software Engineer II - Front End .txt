@@ -1,0 +1,107 @@
+Sobre a vaga
+
+📚 Feita de pessoas que transformam a educação
+
+Todas as vagas da Arco são elegíveis para Pessoas com Deficiência. 
+
+Somos a Arcotech, o time de tecnologia do Grupo Arco Educação, a maior empresa de educação básica da América Latina. Nosso desafio é audacioso: estamos construindo um dos maiores Sistemas Operacionais de Educação do mundo. Para dar dimensão do nosso impacto: nossas soluções hoje funcionam como o "cérebro" de mais de 11 mil escolas, o que representa 1 a cada 4 escolas particulares do Brasil. Com tecnologia de ponta e uso intenso de Inteligência Artificial, integramos a parte pedagógica, gestão e finanças das escolas. Aqui, unimos tecnologia e propósito para elevar a experiência de aprendizagem de mais de 4 milhões de alunos anualmente. Junte-se a nós para potencializar o impacto da educação e ajudar a construir um dos melhores times de produto e tecnologia da América Latina.
+
+#VEMPRAARCO 🧡 #VEMSERTECH
+
+Agora que você já captou um pouco mais da nossa essência, vamos falar sobre a oportunidade?
+
+Estamos em busca de um(a) Engenheiro(a) de Software Frontend II para integrar nosso time de engenharia.
+
+Por aqui, desenvolvemos aplicações modernas e escaláveis, construídas para se integrar a uma arquitetura baseada em microsserviços. No frontend, utilizamos principalmente React, desenvolvendo interfaces intuitivas, performáticas e focadas na melhor experiência para nossos usuários. Nossas aplicações se comunicam com serviços distribuídos e são executadas em uma infraestrutura robusta de nuvem (AWS e GCP).
+
+Se você já tem experiência com React, excelente! Mas, se a sua base é sólida em outros frameworks modernos, como Vue ou similares, também queremos conversar com você. O mais importante para nós é que você tenha uma boa base em engenharia de software, experiência no desenvolvimento de aplicações frontend, preocupação com qualidade de código, testes e boas práticas, além de vontade de aprender e evoluir em arquiteturas modernas e escaláveis.
+
+No Dia a Dia, Você Vai
+
+    Projetar e desenvolver soluções frontend de alto impacto para os nossos clientes, atuando na evolução contínua das nossas principais plataformas web; 
+    Traduzir requisitos de negócio e de produto em arquitetura e designs técnicos eficientes; 
+    Ajudar o time com boas práticas de desenvolvimento, padrões de projeto, testes e revisão de código, tais como a definição dos processos e práticas que o time terá; 
+    Incentivar e manter a cultura de documentação técnica, garantindo que as soluções de plataforma sejam fáceis de serem adotadas por outros times; 
+    Trabalhar em um ambiente altamente colaborativo e analítico, com práticas de Code-Reviews, Pair-Programming e decisões baseadas em dados (Data-Driven Development). 
+
+O Que Esperamos De Você
+
+    Experiência em desenvolvimento de software com foco em Frontend; 
+    Domínio dos fundamentos web: HTML, CSS, JavaScript e TypeScript; 
+    Sólidos conhecimentos em algum framework com preferência em React ou Vue.js; 
+    Bons fundamentos de computação: Algoritmos, estruturas de dados e arquitetura de aplicações frontend; 
+    Noções de acessibilidade web. 
+    Mentalidade voltada para testes: Familiaridade com testes automatizados (ex: Jest, React Testing Library, Cypress); 
+    Orientação para o trabalho em equipe, facilidade para dar e receber feedbacks técnicos construtivos e colaborar no dia a dia da engenharia; 
+    Uso de IA para facilitar no trabalho e proatividade para se atualizar; 
+
+Será Um Diferencial Se Você Tiver
+
+    Experiência com React em produção; 
+    Ter trabalhado com design system ou componentes compartilhados; 
+
+Benefícios
+
+Vale-Refeição: Benefício flexível através do cartão Flash
+
+Planos de saúde e odontológico: Sulamérica, isentos de mensalidade para o titular
+
+ Modelo Remoto: O modelo de trabalho é 100% remoto, com escritórios em SP, Curitiba e Fortaleza
+
+ Licenças Estendidas: Como parte do programa Empresa Cidadã, oferecemos licença maternidade estendida de 180 dias e paternidade de 30 dias
+
+Auxílio Creche ou Babá: Apoio financeiro mensal para crianças até 6 anos
+
+Bem-estar Físico e Mental: Cuidado integral com a sua saúde através das plataformas Wellhub e Zenklub
+
+Desconto em Viagens: Acesso a preços corporativos em passagens aéreas e hospedagens para as suas viagens particulares
+
+Plano de Saúde Pet: Parceria com a Guapeco para cuidar do seu animal de estimação
+
+Desenvolvimento e Inovação: Incentivo à educação e acesso à plataformas de IA.
+
+(4178)
+
+O que você vai encontrar na Arco, além de pessoas incríveis:
+
+    Vale alimentação e/ou refeição Flash
+    Plano de saúde e odontológico SulAmerica
+    Vale transporte para vagas presenciais e híbridas
+    Licença maternidade e paternidade estendida
+    Auxílio creche
+    Cuidado com a saúde: parceria com a Wellhub e Zenklub
+    Incentivo à educação
+    Desconto em passagens aéreas
+    Parceria com plano de saúde para Pet
+    Acesso aos materiais didáticos Arco para filhos de colaboradores
+    Parcerias para MBA e Pós Graduação
+
+#MaisDiversidade
+
+Acreditamos que em um ambiente diverso e inclusivo nossas pessoas serão mais felizes, engajadas e com mais chances de atingir o seu máximo potencial. Por isso, aqui na Arco, respeitamos e valorizamos a igualdade de direito, reconhecemos as singularidades e acreditamos que todas as pessoas podem contribuir para o nosso propósito. #VemPraArco
+
+Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+4753
+
+total
+
+308
+
+no último dia
+Nível de experiência do candidato
+
+78% de candidatos com nível Iniciante
+
+18% de candidatos com nível Sênior
+Nível de formação acadêmica do candidato
+
+35% têm um Bacharelado (semelhante a você)
+
+8% têm um Curso Superior de Tecnologia (CST)
+
+8% têm um Ensino Técnico
+
+49% têm outros diplomas

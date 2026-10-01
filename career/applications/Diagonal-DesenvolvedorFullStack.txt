@@ -1,0 +1,96 @@
+Você irá trabalhar em um projeto de desenvolvimento e manutenção de softwares de Gestão de Projetos e Conteúdos, desenvolvido com tecnologias Nodejs, Reactjs, Laravel e Sveltejs.
+
+Buscamos um(a) profissional Full Stack, com sólida experiência em desenvolvimento backend e frontend, que tenha facilidade para trabalhar em equipe, propor soluções técnicas e contribuir para a evolução e escalabilidade das aplicações.
+
+O projeto utiliza tecnologias como Node.js, React.js, Svelte.js e Laravel, além de bancos de dados relacionais como PostgreSQL e MySQL.
+
+Sobre a Diagonal
+
+Desde 1990, a Diagonal atua como uma consultoria pioneira em gestão social e desenvolvimento sustentável. Nossa história é marcada por inovação, parcerias e pela transformação positiva de comunidades em todo o Brasil e no mundo.
+
+Ao longo desses 35 anos, já impactamos milhões de pessoas com projetos que unem conhecimento técnico, olhar humano e compromisso socioambiental. Mais do que entregar soluções, acreditamos no diálogo, na escuta e na construção coletiva para gerar mudanças reais e duradouras.
+
+Na Diagonal, acreditamos que cada trajetória importa e que é possível transformar cidades e vidas a partir das pessoas.
+
+Pessoas são o nosso território!
+
+#VemSerDiagonal
+
+Responsabilidades e atribuições
+
+🎯 Qual será a sua gigante missão?
+
+    Trabalhar na equipe de desenvolvimento web, dominando frontend e backend;
+    Dominar tecnologias backend Nodejs de forma escalável e de alta performance;
+    Dominar tecnologias frontend como Sveltejs e Reactjs;
+    Realizar testes e depuração de código para garantir a qualidade e a estabilidade das aplicações;
+    Otimizar o desempenho das aplicações, identificando e resolvendo possíveis gargalos;
+    Manter-se atualizado(a) com as melhores práticas e tendências em desenvolvimento web e trazer para a equipe sugestões de melhorias;
+    Construir rotinas e relatórios de Banco de Dados com PostgreSQL;
+    Desenvolver funcionalidades dinâmicas de alta escalabilidade;
+    Desenvolver soluções (APIs e serviços) e integrar com APIs de terceiros;
+    Integração com desenvolvedor frontend para construção das Interfaces;
+    Extrair o máximo de velocidade de sistemas e rotinas implantadas;
+    Colaborar com o time de desenvolvimento para projetar e implementar soluções técnicas que atendam aos requisitos do projeto;
+    Analisar sistemas e propor soluções para problemas reais.
+
+
+Requisitos e qualificações
+
+💡Para ter sucesso nesta missão, é essencial ter:
+
+    Experiência em desenvolvimento backend Nodejs
+    Experiência em linguagens de programação frontend Reactjs, Vuejs ou Sveltejs;
+    Experiência com bancos de dado relacional PostgreSQL e MySQL;
+    Experiência em integração de APIs de terceiros e desenvolvimento de APIs RESTful;
+    Capacidade de escrever código limpo, legível e modular, seguindo as melhores práticas de programação;
+    Familiaridade com controle de versão utilizando Git;
+    Sólido conhecimento em arquitetura MVC e micro services;
+    Dominar e aplicar os princípios SOLID para desenvolvimento das aplicações;
+    Capacidade de trabalhar de forma colaborativa em um ambiente ágil;
+    Familiaridade com metodologia Scrum e Kanban.
+
+
+💡
+Como diferencial:
+
+    Desenvolvimento com Laravel;
+    Desenvolvimento e manutenção de aplicações mobile em Flutter;
+    Domínio de configurações em Docker.
+
+
+Informações adicionais
+
+    📄 Vínculo: PJ
+    💵 Remuneração compatível com o mercado;
+    😊Modelo: Home Office 
+
+Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+354
+
+total
+
+13
+
+no último dia
+Nível de experiência do candidato
+
+72% de candidatos com nível Iniciante
+
+23% de candidatos com nível Sênior
+
+1% de candidatos com nível Dirigente (CEO, COO, CFO, CMO)
+
+1% de candidatos com nível Diretor
+Nível de formação acadêmica do candidato
+
+34% têm um Bacharelado (semelhante a você)
+
+11% têm um Curso Superior de Tecnologia (CST)
+
+7% têm um Ensino Técnico
+
+48% têm outros diplomas

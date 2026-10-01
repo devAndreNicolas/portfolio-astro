@@ -1,0 +1,110 @@
+Para entender os níveis de senioridade das vagas abertas IC3/IC4, pode ver as competências esperadas na carreira de desenvolvimento: https://sanarmed.com/carreiras/
+
+SOBRE O TIME
+
+Estamos em busca de pessoas Desenvolvedoras FullStack que queiram causar um impacto real na educação e na prática médica no Brasil. Atualmente nossos times estamos crescendo e temos algumas vagas abertas para compor nossos diferentes times de produto: Sanar Pós, Financial e Aquisição e Operações.
+
+Nosso foco é a excelência técnica e a escalabilidade. Você terá a oportunidade de atuar em alguns desafios como: evolução de arquitetura, construção de sistemas resilientes que suportam a jornada dos nossos alunos e participação ativa na definição de soluções que unem agilidade de negócio e robustez técnica.
+
+Aqui na Sanar os nossos times são multidisciplinares e donos ponta-a-ponta de domínios que impactam diferentes produtos, que servem tanto equipes internas, quanto os nossos usuários finais, empoderando os atuais e futuros médicos do Brasil. Inovação, qualidade e escalabilidade são cruciais para o nosso crescimento e são o fio condutor da nossa estratégia enquanto equipe de engenharia.
+
+Temos diversidade como um pilar da nossa cultura. Pessoas candidatas são consideradas para nossas vagas, sem distinção de raça, cor, religião, gênero e identidade de gênero, nacionalidade, deficiência, orientação sexual, ascendência ou idade.
+
+SEUS DESAFIOS:
+
+    Usar o melhor em desenvolvimento de software aliado a boas práticas;
+    Desenvolver código eficaz, escalável, legível e de fácil manutenção;
+    Participar da proposição de soluções de arquitetura robustas, escaláveis e eficientes;
+    Promover a qualidade de código e suas boas práticas;
+    Participar dos processos criativos, dando suporte técnico no desenvolvimento de novas features;
+    Ser uma referência técnica para as pessoas mais juniores do time, trazendo provocações e perspectivas diferentes para o dia a dia. 
+
+☀️
+ COMO SERÁ O DIA A DIA: 
+
+    Adotar práticas de entrega contínua para desenvolver software de qualidade, agregando valor para nossas usuárias;
+    Implementar sistemas distribuídos a partir de uma arquitetura baseada em microsserviços;
+    Colaborar com outras pessoas e times, a fim de impulsionar o crescimento da Sanar;
+    Usar práticas de DevOps para construir e colocar software em produção;
+    Contribuir no desenvolvimento de seus colegas com menos experiência por meio de seu conhecimento técnico e não técnico.
+
+ ESTAMOS BUSCANDO UMA PESSOA QUE: 
+
+    Trabalha continuamente para a melhoria do código e da qualidade dos projetos de todo o time, seguindo boas práticas de engenharia de software;
+    Constantemente instiga o time a pensar diferente, testar novas abordagens, e buscar a melhor solução para cada tipo de problema;
+    Tem vivência prática em projetos ágeis e consegue atuar num contexto ágil com desenvoltura;
+    Tem conhecimento sobre temas como arquitetura evolutiva, integração entre sistemas, práticas DevOps, CI/CD, boas práticas de segurança de aplicação e pirâmide de testes;
+    Viés para observabilidade: entende quais são as métricas que devem ser geradas durante o desenvolvimento para posterior monitoramento;
+    É responsável pela entrega durante todo o ciclo de desenvolvimento, acompanhando o código em produção e resolvendo problemas que surjam durante esse ciclo;
+    Se importa e se esforça para alcançar uma entrega coletiva, em prol dos objetivos comuns da área com autonomia;
+    Incentiva abertamente outros membros da equipe a expressar suas ideias e preocupações;
+    Contribui ativamente para a evolução técnica de seus colegas menos experientes;
+    Possuir conhecimento em linguagens como: Java Script, Node.js e Typescript. Não é necessário dominar todas elas, mas buscamos alguém com experiência prática em pelo menos uma dessas tecnologias e interesse em ampliar seu repertório técnico.
+
+✔️
+ VOCÊ VAI SE DESTACAR SE: 
+
+    Ter experiência prática com ferramentas de IA para desenvolvimento, como Claude Code, Cursor, GitHub Copilot ou similares;
+    Possuir experiência com os frameworks Nest.js, Next.js e React.js, e em eventos e mensageria (RabbitMQ, etc). 
+
+ AS FERRAMENTAS DE TRABALHO
+
+    Backend: NestJS, TypeORM.
+    Frontend: ReactJS + Typescript, NextJS.
+    Outras coisas mais: RabbitMQ, Postgres, MongoDB, Redis, AWS.
+
+Observação importante: não é necessário conhecimento prévio em toda a stack. Descrevemos o que é requisito da posição em “estamos buscando uma pessoa que...”.
+
+AQUI NA SANAR VOCÊ TEM
+
+Vale-alimentação no cartão de crédito flexível no Caju;
+
+Auxílio home office para contratos remotos;
+
+Plano de Saúde Amil sem coparticipação;
+
+Plano Odontológico sem coparticipação;
+
+Conexa Saúde: 2 sessões de terapia + 2 sessões com nutricionista online por mês;
+
+Gympass: acesso a academias, estúdios, apps de bem estar, entre outros;
+
+Equipamentos necessários para realizar o seu trabalho;
+
+Parcerias com descontos para seu desenvolvimento (OpenEnglish, FIAP e Escola
+
+Politécnica da USP);
+
+Parceria com linha de crédito consignadas;
+
+Licença Maternidade e Paternidade estendida;
+
+Folga no dia do seu aniversário.
+
+Se identifica com o nosso propósito e a nossa cultura? Então vem fazer parte desse time, inscreva-se nesta vaga e participe do nosso processo seletivo! 
+
+Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+231
+
+total
+
+231
+
+no último dia
+Nível de experiência do candidato
+
+78% de candidatos com nível Iniciante
+
+16% de candidatos com nível Sênior
+Nível de formação acadêmica do candidato
+
+74% têm um Bacharelado (semelhante a você)
+
+12% têm um Pós-graduação Stricto Sensu - Mestrado
+
+9% têm um Ensino Técnico
+
+5% têm outros diplomas

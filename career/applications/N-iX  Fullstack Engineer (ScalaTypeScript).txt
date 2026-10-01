@@ -1,0 +1,64 @@
+Sobre a vaga
+
+N-iX is looking for a Fullstack Engineer (Scala/TypeScript) to help redefine how the world handles business intelligence.
+
+Our customer is the semantic layer for modern data and AI. They bridge the gap between complex cloud data platforms- like Snowflake, Databricks, and Google BigQuery - and the business users who need consistent, AI-ready analytics.
+
+Responsibilities:
+
+    Take features end-to-end across the Fullstack - from backend Scala (70%) engine APIs down to TypeScript (30%) UI components- without handing off work.
+    Leverage AI tools across the development lifecycle for code generation, review, testing, and investigation, maintaining full ownership and accountability for everything you ship.
+    Mentor fellow engineers through code reviews, onboarding, and unblocking technical hurdles to continuously raise the team's engineering standards.
+    Navigate incomplete requirements independently by resolving ambiguity, proposing clear technical approaches, and driving execution forward.
+    Collaborate asynchronously via strong written communication across remote teams in the US, Latin America, and Europe.
+
+Requirements:
+
+    You bring 7+ years of experience building, owning, and shipping production software end-to-end.
+    You possess strong backend engineering skills with functional programming experience, specifically in Scala.
+    You are fluent across the stack, with demonstrated experience in TypeScript and modern JavaScript frameworks.
+    You have deep expertise in SQL along with a working understanding of relational databases and query behavior.
+    You hold a track record of mentoring engineers, raising the technical bar, and thriving in fast-paced environments with asynchronous, written communication.
+    You are comfortable in fast-paced environments where priorities can shift quickly.
+    You value quality over speed and are curious about using AI to improve efficiency.
+    You have experience with semantic layers, OLAP, dimensional modeling, or shipping LLM/AI-backed features to production (Nice to Have).
+    You have experience with Kubernetes, containerized deployments, or BI/cloud data tools like Snowflake, Databricks, BigQuery, or Tableau (Nice to Have).
+
+We offer*:
+
+    Flexible working format - remote, office-based or flexible
+    A competitive salary and good compensation package
+    Personalized career growth
+    Professional development tools (mentorship program, tech talks and trainings, centers of excellence, and more)
+    Active tech communities with regular knowledge sharing
+    Education reimbursement
+    Memorable anniversary presents
+    Corporate events and team buildings
+    Other location-specific benefits
+    not applicable for freelancers
+
+Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+33
+
+total
+
+33
+
+no último dia
+Nível de experiência do candidato
+
+67% de candidatos com nível Iniciante
+
+27% de candidatos com nível Sênior
+Nível de formação acadêmica do candidato
+
+69% têm um Bacharelado (semelhante a você)
+
+17% têm um Pós-graduação Stricto Sensu - Mestrado
+
+7% têm um Pós-graduação Lato Sensu - MBA
+
+7% têm outros diplomas

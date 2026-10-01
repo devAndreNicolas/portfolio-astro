@@ -1,0 +1,80 @@
+Se você espera receber uma especificação perfeita antes de começar, esta vaga não é para você.
+
+Na Digital Growth, você não vai apenas construir telas e APIs.
+
+Você vai entender o problema de negócio por trás de cada demanda, questionar processos, propor soluções e entregar software que roda em produção, na frente do cliente e impactando diretamente a receita.
+
+Buscamos alguém que escreva código de qualidade e enxergue além dele — entendendo que uma decisão técnica também é uma decisão de negócio.
+
+Aqui, IA não é tendência. É parte do trabalho.
+
+Exigimos que tenha curiosidade, responsabilidade e disposição para aprender a operar sistemas que crescem continuamente.
+
+É aqui que você vai desenvolver esse repertório, junto a um time que já enfrenta esses desafios diariamente.
+
+Missão da Vaga
+
+Desenvolver, manter e evoluir as aplicações, integrações e automações da Digital Growth, garantindo estabilidade, escalabilidade e velocidade de entrega.
+
+Você será responsável por transformar necessidades de negócio em soluções técnicas práticas, reduzindo trabalho manual, aumentando a eficiência da operação e contribuindo para uma plataforma confiável mesmo sob volume crescente.
+
+Responsabilidades
+
+    Desenvolver e evoluir aplicações com Node.js, TypeScript e Next.js.
+    Criar, manter e documentar APIs REST e integrações com sistemas externos.
+    Implementar funcionalidades para sistemas internos e plataforma SaaS.
+    Desenvolver rotinas de sincronização, workers, filas, agendamentos e cache com Redis.
+    Garantir performance, escalabilidade, confiabilidade e processamento seguro de dados.
+    Criar testes automatizados e escrever código legível e de fácil manutenção.
+    Diagnosticar incidentes, monitorar aplicações e propor melhorias.
+    Participar de revisões de código, decisões técnicas e evolução da arquitetura.
+    Colaborar no levantamento de requisitos e na documentação técnica.
+    Utilizar IA para apoiar desenvolvimento, investigação e qualidade.
+
+Conhecimentos necessários
+
+    JavaScript, TypeScript, Node.js, React e Next.js.
+    APIs REST, integrações e consumo de serviços externos.
+    PostgreSQL, Prisma, Redis, filas e processamento assíncrono.
+    Git, testes, Clean Code, SOLID, Docker e CI/CD.
+    Monitoramento, observabilidade e uso de IA no desenvolvimento.
+
+Como é trabalhar aqui
+
+Você encontrará um time enxuto, autonomia real e proximidade com o negócio.
+
+Suas decisões técnicas chegam rapidamente à produção e são percebidas por milhares de usuários.
+
+Você terá espaço para construir, medir, aprender e evoluir em ciclos curtos, lidando com problemas reais de integração, performance, dados e escalabilidade.
+
+Aqui, autonomia vem acompanhada de responsabilidade.
+
+ATENÇÃO: Após a inscrição, você receberá automaticamente um e-mail com os testes obrigatórios para continuidade no processo seletivo. Verifique também sua caixa de spam ou lixo eletrônico.
+
+Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+177
+
+total
+
+5
+
+no último dia
+Nível de experiência do candidato
+
+88% de candidatos com nível Iniciante
+
+8% de candidatos com nível Sênior
+
+1% de candidatos com nível Dirigente (CEO, COO, CFO, CMO)
+Nível de formação acadêmica do candidato
+
+28% têm um Bacharelado (semelhante a você)
+
+16% têm um Curso Superior de Tecnologia (CST)
+
+11% têm um Ensino Técnico
+
+45% têm outros diplomas

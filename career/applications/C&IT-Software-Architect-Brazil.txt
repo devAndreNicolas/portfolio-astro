@@ -1,0 +1,108 @@
+Sobre a vaga
+
+At CI&T, we help large enterprises transform the potential of AI into real business impact with AI Deployment, AI-native execution, and tech-integrated business solutions.
+
+With 30 years of experience in technological transformation, we accelerate innovation with expertise in Agentic SDLC, Application modernization, Data & AI, Martech and Business strategy.
+
+We are 8,000 CI&Ters across more than 25 countries, collaborating to build solutions with real impact. AI is already part of how we work, evolve, and innovate every day.
+
+
+We are digital specialists who impact some of the world’s most valuable brands. Our focus is on building digital products and solutions tailored to our clients’ needs. As digital natives, we bring a 29-year track record of accelerating business impact through comprehensive and scalable digital solutions. With a global presence of over 6,000 professionals in strategy, research, data science, design, and engineering, we unlock top-line growth, enhance customer experiences, and drive operational efficiency.
+
+We are seeking a talented and experienced Software Architect to join our team. The ideal candidate will have a strong background in software development and architecture, with a passion for designing innovative and scalable software solutions. As a Software Architect, you will work closely with our development teams and stakeholders to design and implement software systems that meet the needs of our business. Our client for this engagement is one of the leading automotive and you will have the opportunity to work on the customer web/app portal - bringing direct impact to them.
+
+Responsibilities:
+Designing the overall architecture of software systems, including the architecture, components, and interfaces.
+Collaborating with stakeholders to understand requirements and translate them into technical solutions.
+Selecting the appropriate technologies, frameworks, and platforms for the software solution.
+Providing technical leadership and guidance to development teams throughout the software development lifecycle.
+Reviewing code and providing feedback to developers to ensure adherence to architectural guidelines and best practices.
+Identifying and addressing performance issues in software systems, including scalability and reliability.
+Identifying and mitigating risks related to software architecture and design.
+Creating and maintaining technical documentation, including architectural diagrams, design documents, and guidelines.
+Collaborating with cross-functional teams, including developers, testers, and project managers, to ensure the successful delivery of software projects.
+Staying updated with the latest trends and technologies in software development and architecture.
+
+Qualifications:
+Proficiency in / Experience with our client core tech stack (React, Node.js, AWS, Graphql)
+Strong problem-solving skills and attention to detail.
+Excellent communication and interpersonal skills.
+Ability to work effectively in a fast-paced environment and manage multiple projects simultaneously.
+
+ 
+Available for hybrid work at the start of the project 
+
+
+
+Our benefits:
+
+ 
+
+-Health and dental insurance
+
+-Meal and food allowance
+
+-Childcare assistance
+
+-Extended paternity leave
+
+-Partnership with gyms and health and wellness professionals via Wellhub (Gympass) TotalPass;
+
+-Profit Sharing and Results Participation (PLR);
+
+-Life insurance
+
+-Continuous learning platform (CI&T University);
+
+-Discount club
+
+-Free online platform dedicated to physical, mental, and overall well-being
+
+-Pregnancy and responsible parenting course
+
+-Partnerships with online learning platforms
+
+-Language learning platform
+
+And many more!
+
+ 
+
+More details about our benefits here: https://ciandt.com/br/pt-br/carreiras
+
+ 
+
+At CI&T, inclusion starts at the first contact. If you are a person with a disability, it is important to present your assessment during the selection process. See which data needs to be included in the report by clicking here.This way, we can ensure the support and accommodations that you deserve. If you do not yet have the assessment, don't worry: we can support you in obtaining it.
+
+ 
+
+We have a dedicated Health and Well-being team, inclusion specialists, and affinity groups who will be with you at every stage. Count on us to make this journey side by side.
+
+Benefícios do seu anúncio de vaga
+
+Dental insurance, Medical insurance, Paid paternity leave
+Veja como seu perfil se compara ao de outros candidatos
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Candidaturas a esta vaga
+
+21
+
+Candidaturas
+
+21
+
+Candidaturas no último dia
+Nível de experiência do candidato
+
+62% de pessoas em nível Sênior se candidataram a esta vaga
+
+14% de pessoas em nível Iniciante se candidataram a esta vaga
+Nível de formação acadêmica do candidato
+
+58% têm um Bacharelado (semelhante a você)
+
+16% têm um Pós-graduação Stricto Sensu - Mestrado
+
+11% têm um Ensino Técnico
+
+15% têm outros diplomas

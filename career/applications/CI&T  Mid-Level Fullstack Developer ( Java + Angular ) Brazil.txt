@@ -1,0 +1,159 @@
+Sobre a vaga
+
+Na CI&T , ajudamos grandes empresas a transformar o potencial da AI em impacto real nos negócios com AI Deployment, execução AI-native e tech-integrated business solutions.
+
+Com 30 anos de experiência em transformação tecnológica, aceleramos inovação com expertise em agentic SDLC, application modernization, Data & AI, martech e business strategy. 
+
+Somos 8.000 CI&Ters em mais de 25 países, colaborando para construir soluções com impacto real. AI já faz parte da forma como trabalhamos, evoluímos e inovamos todos os dias.
+
+
+Importante: se você reside na Região Metropolitana de Campinas, sua presença nos escritórios da cidade será obrigatória, conforme a política de frequencia vigente.
+
+
+
+Buscamos uma pessoa Desenvolvedora Fullstack ( Java + Angular ) participativa, colaborativa e com vontade de encarar novos desafios, que goste de trabalhar em equipe, tenha boa comunicação e atue com senso de responsabilidade e autonomia para atuar em dos nossos maiores  clientes do segmento financeiro.
+
+O que você precisa ter
+
+
+
+    Experiência com desenvolvimento Java 17, 21 ou 25, utilizando Spring Framework e CDI;
+
+
+
+    Experiência com Angular 21;
+
+
+
+    Conhecimento em SASS e estilização de aplicações frontend;
+
+
+
+    Conhecimento em APIs RESTful, SQL Server, arquitetura distribuída, microsserviços e microfrontends;
+
+
+
+    Conhecimento em Node.js e TypeScript;
+
+
+
+    Familiaridade com práticas e ferramentas de DevOps e CI/CD, como Bitbucket, Bamboo, Sonar, Fortify, DAST e Docker;
+
+
+
+    Conhecimento em execução e automação de testes;
+
+
+
+    Experiência ou conhecimento em Cloud, preferencialmente Azure;
+
+
+
+    Vivência com metodologias ágeis, especialmente Scrum.
+
+
+
+
+Para essa posição, esperamos também
+
+
+
+    Boa comunicação e capacidade de relacionamento com time e cliente;
+
+
+
+    Senso de responsabilidade e comprometimento com as entregas;
+
+
+
+    Perfil colaborativo, participativo e orientado à resolução de problemas.
+
+
+
+
+Será um diferencial
+
+
+
+    Conhecimento em desenvolvimento para aplicativos mobile;
+
+
+
+    Conhecimento em acessibilidade;
+
+
+
+    Experiência com automação de testes utilizando Spock, JUnit e Jest;
+
+
+
+    Conhecimento em ferramentas como Confluence, Jira e Xray.
+
+
+
+
+
+
+Nossos benefícios:
+
+ 
+
+- Plano de saúde e odontológico;
+
+- Vale alimentação e refeição;
+
+- Auxílio-creche;
+
+- Licença parental estendida;
+
+- Parceria com academias e profissionais de saúde e bem-estar via Wellhub (Gympass)  TotalPass;
+
+- Participação nos Lucros e Resultados (PLR);
+
+- Seguro de Vida;
+
+- Plataforma de aprendizagem contínua (CI&T University);
+
+- Clube de descontos;
+
+- Plataforma online gratuita dedicada à promoção da saúde física, mental e bem-estar;
+
+- Curso gestante e parentalidade responsável;
+
+- Parceria com plataformas de cursos online;
+
+- Plataforma para aprendizagem de idiomas;
+
+- E muitos outros
+
+ 
+
+Mais detalhes sobre os nossos benefícios aqui: https://ciandt.com/br/pt-br/carreiras
+
+ 
+
+Na CI&T, a inclusão começa no primeiro contato. Se você é pessoa com deficiência, é importante apresentar o seu laudo durante o processo seletivo. Consulte quais dados são necessários conter no laudo clicando aqui. Assim, podemos garantir o suporte e as adaptações que você merece. Se ainda não tem o laudo caracterizador, não se preocupe: podemos te apoiar para obtê-lo.
+
+ 
+
+Temos um time dedicado de Saúde e Bem-estar, especialistas em inclusão e grupos de afinidade que estarão com você em todas as etapas. Conte com a gente para fazer essa jornada lado a lado
+
+Veja como seu perfil se compara ao de outros candidatos
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Candidaturas a esta vaga
+
+9
+
+Candidaturas
+
+9
+
+Candidaturas no último dia
+Nível de experiência do candidato
+
+100% de pessoas em nível Iniciante se candidataram a esta vaga
+Nível de formação acadêmica do candidato
+
+86% têm um Bacharelado (semelhante a você)
+
+14% têm um Pós-graduação Stricto Sensu - Mestrado

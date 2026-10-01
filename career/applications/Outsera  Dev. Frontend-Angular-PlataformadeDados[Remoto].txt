@@ -1,0 +1,82 @@
+Sobre a vaga
+
+Descrição da Vaga
+
+Estamos em busca de um(a) Desenvolvedor(a) Front-end Sênior para atuar em um projeto estratégico de Engenharia Corporativa da TOTVS, voltado à construção de uma plataforma de métricas e indicadores de engenharia.
+
+O profissional atuará no desenvolvimento da interface da plataforma, responsável pela visualização e exploração de indicadores relacionados à operação dos times de desenvolvimento, incluindo métricas DORA.
+
+Será responsável por transformar dados e indicadores provenientes de diferentes fontes em dashboards e interfaces claras, funcionais e eficientes, trabalhando em conjunto com profissionais de desenvolvimento, DevOps, líderes técnicos e stakeholders da Engenharia Corporativa.
+
+Buscamos um perfil altamente técnico, analítico e mão na massa, com autonomia para investigar problemas, propor soluções e contribuir tecnicamente para a evolução da plataforma.
+
+Responsabilidades
+
+    Desenvolver e evoluir a aplicação Front-end utilizando Angular e TypeScript. 
+    Construir interfaces e dashboards para visualização de métricas e indicadores de engenharia. 
+    Integrar a aplicação com APIs e serviços responsáveis pelo fornecimento dos dados da plataforma. 
+    Trabalhar na apresentação e exploração de métricas relacionadas à performance dos times de desenvolvimento, incluindo DORA Metrics. 
+    Desenvolver componentes reutilizáveis e estruturar soluções visando escalabilidade e manutenção do código. 
+    Garantir boa experiência de uso, performance, responsividade e consistência das interfaces. 
+    Trabalhar com grandes volumes de informações e diferentes conjuntos de indicadores, garantindo uma apresentação clara e eficiente dos dados. 
+    Participar das definições técnicas e da evolução da arquitetura Front-end da solução. 
+    Investigar problemas técnicos, identificar causas e propor soluções de forma autônoma. 
+    Trabalhar em conjunto com desenvolvedores Back-end, DevOps, líderes técnicos, coordenadores e demais stakeholders da Engenharia Corporativa. 
+    Aplicar boas práticas de desenvolvimento, versionamento, testes e qualidade de código. 
+
+Requisitos obrigatórios
+
+    Experiência sólida com desenvolvimento Front-end utilizando Angular e TypeScript. 
+    Domínio dos principais conceitos do Angular, incluindo componentes, serviços, módulos e gerenciamento de estado. 
+    Experiência com consumo e integração de APIs REST. 
+    Sólidos conhecimentos em HTML, CSS e JavaScript/TypeScript. 
+    Experiência na construção de interfaces e aplicações web de médio e grande porte. 
+    Conhecimento de boas práticas de arquitetura e organização de aplicações Front-end. 
+    Experiência com Git e versionamento de código. 
+    Experiência com desenvolvimento de componentes reutilizáveis. 
+    Conhecimento de testes automatizados para aplicações Front-end. 
+    Perfil altamente técnico, analítico e mão na massa. 
+    Capacidade de investigar problemas, propor soluções e atuar com autonomia. 
+
+Diferenciais
+
+    Experiência na construção de dashboards, plataformas de indicadores ou aplicações orientadas a dados. 
+    Vivência com DORA Metrics ou outras métricas de engenharia de software. 
+    Experiência com bibliotecas de visualização de dados e gráficos. 
+    Conhecimento de ferramentas e plataformas do ciclo de desenvolvimento, como Azure DevOps, Jira e GitHub. 
+    Conhecimento de DevOps e processos de desenvolvimento de software. 
+    Experiência com aplicações de grande escala e alto volume de dados. 
+    Conhecimento de UX/UI e capacidade de transformar necessidades de negócio em interfaces funcionais. 
+    Experiência em empresas de grande porte ou ambientes com alta complexidade tecnológica. 
+    Vivência no mercado financeiro ou bancário. 
+    Familiaridade com Inteligência Artificial e ferramentas de IA. 
+
+Informações Adicionais
+
+Local de Trabalho: 100% Remoto.
+
+Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+153
+
+total
+
+153
+
+no último dia
+Nível de experiência do candidato
+
+71% de candidatos com nível Iniciante
+
+24% de candidatos com nível Sênior
+Nível de formação acadêmica do candidato
+
+62% têm um Bacharelado (semelhante a você)
+
+17% têm um Pós-graduação Stricto Sensu - Mestrado
+
+9% têm um Ensino Técnico
+
+12% têm outros diplomas

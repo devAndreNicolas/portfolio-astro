@@ -1,0 +1,99 @@
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Mid-Level Fullstack (Java | Angular) Developer based in Brazil.
+
+This is an opportunity to contribute to full-stack software development within a collaborative, agile environment serving the financial sector.
+
+You will work across backend and frontend technologies, building scalable solutions with Java, Angular, Node.js, microservices, and REST APIs.
+
+The role combines hands-on development with a focus on engineering quality, architecture, and continuous improvement.
+
+You will collaborate with multidisciplinary teams to translate business and user needs into efficient technical solutions.
+
+There is also an opportunity to support junior developers through guidance and knowledge sharing.
+
+AI-assisted development tools are part of the engineering toolkit, supporting productivity and modern development practices.
+
+The position is remote within Brazil, with specific office attendance requirements for professionals located in the Campinas metropolitan region.
+
+Accountabilities
+
+    Develop and evolve full-stack applications using Java, Angular, Node.js, microservices, and REST APIs, with a focus on scalability, reliability, and user experience. 
+    Contribute to continuous improvement of engineering processes, development practices, architecture, and technical solutions. 
+    Design and implement solutions based on microservices and microfrontend architectures, applying patterns such as BFF and MVVM where appropriate. 
+    Apply software engineering principles and development practices including SOLID, KISS, YAGNI, DRY, and DDD. 
+    Collaborate with multidisciplinary teams throughout the design, development, testing, and implementation lifecycle. 
+    Participate actively in agile ceremonies and Scrum practices, contributing to planning, delivery, and continuous improvement. 
+    Provide technical guidance and support to junior developers, helping promote knowledge sharing and stronger engineering practices across the team. 
+    Use AI-assisted development tools such as Flow, Claude, and Copilot to improve development workflows and productivity. 
+    Contribute, when applicable, to architecture, CI/CD, Docker, networking, and automated testing initiatives. 
+
+Requirements
+
+    Professional experience developing applications with Java, Angular, Node.js, microservices, and REST APIs. 
+    Practical experience with microservices and microfrontend architectures. 
+    Knowledge of architectural patterns such as Backend for Frontend (BFF) and MVVM. 
+    Strong understanding of software development principles and practices, including SOLID, KISS, YAGNI, DRY, and Domain-Driven Design (DDD). 
+    Experience working in agile environments, particularly with Scrum methodologies. 
+    Familiarity with Git and GitHub for version control and collaborative development. 
+    Familiarity with AI-powered development tools such as Flow, Claude, or GitHub Copilot. 
+    Strong collaboration, communication, critical-thinking, and problem-solving skills. 
+    Ability to focus on the business and user impact of technical solutions rather than development alone. 
+    Experience with architecture, CI/CD, Docker, networking, and automated testing is desirable. 
+
+Benefits
+
+    Remote work within Brazil. 
+    Health and dental insurance. 
+    Meal and food allowances. 
+    Childcare assistance. 
+    Extended parental leave. 
+    Access to fitness, health, and wellness professionals through Wellhub/Gympass and TotalPass. 
+    Profit-sharing program (PLR). 
+    Life insurance. 
+    Continuous learning platform and professional development opportunities. 
+    Discounts through partner programs. 
+    Online platform focused on physical health, mental health, and overall well-being. 
+    Pregnancy and responsible-parenthood support programs. 
+    Partnerships with online learning platforms. 
+    Language-learning platform. 
+    Additional benefits and employee support programs. 
+
+How Jobgether Works
+
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+
+We appreciate your interest and wish you the best!
+
+ Why Apply Through Jobgether?
+
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+
+
+Veja como seu perfil se compara ao de outros candidatos
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Candidaturas a esta vaga
+
+41
+
+Candidaturas
+
+41
+
+Candidaturas no último dia
+Nível de experiência do candidato
+
+80% de pessoas em nível Iniciante se candidataram a esta vaga
+
+12% de pessoas em nível Sênior se candidataram a esta vaga
+
+5% de pessoas em nível Gerente se candidataram a esta vaga
+Nível de formação acadêmica do candidato
+
+64% têm um Bacharelado (semelhante a você)
+
+28% têm um Pós-graduação Stricto Sensu - Mestrado
+
+6% têm um Pós-graduação Lato Sensu - MBA
+
+2% têm outros diplomas

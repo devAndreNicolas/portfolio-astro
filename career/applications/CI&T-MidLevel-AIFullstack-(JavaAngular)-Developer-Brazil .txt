@@ -1,0 +1,102 @@
+Na CI&T , ajudamos grandes empresas a transformar o potencial da AI em impacto real nos negócios com AI Deployment, execução AI-native e tech-integrated business solutions.
+
+Com 30 anos de experiência em transformação tecnológica, aceleramos inovação com expertise em agentic SDLC, application modernization, Data & AI, martech e business strategy. 
+
+Somos 8.000 CI&Ters em mais de 25 países, colaborando para construir soluções com impacto real. AI já faz parte da forma como trabalhamos, evoluímos e inovamos todos os dias.
+
+
+Importante: se você reside na Região Metropolitana de Campinas, sua presença nos escritórios da cidade será obrigatória, conforme a política de frequencia vigente.
+
+
+Buscamos pessoas localizadas no Brasil para trabalhar como AI I Fullstack (Java I Angular) Developer e atuar em um dos nossos cliente do ramo financeiro.
+
+Responsabilidades:
+- Desenvolver e evoluir aplicações Backend com Java/Spring Boot e Frontend com Angular;
+- Aplicar boas práticas de engenharia, code review, testes e qualidade de código;
+- Utilizar IA e desenvolvimento agêntico para otimizar processos e aumentar a produtividade no ciclo de desenvolvimento;
+- Atuar com Spec-Driven Development (SDD) e explorar recursos como GitHub Copilot;
+- Participar de decisões técnicas, ritos ágeis e processos de release;
+- Trabalhar de forma colaborativa com times multidisciplinares, contribuindo para soluções escaláveis, seguras e de alta qualidade.
+
+Requisitos para este desafio:
+- Experiência com Java + Spring Boot;
+- Experiência com Angular;
+- Conhecimento prático em Inteligência Artificial e desenvolvimento de agentes;
+- Domínio ou experiência com Spec-Driven Development (SDD);
+- Conhecimento em GitHub Copilot.
+- Experiência com testes unitários e boas práticas de desenvolvimento;
+- Vivência com GitLab, Jenkins, SonarQube e Jira;
+- Experiência em metodologias ágeis e processos de release;
+- Boa comunicação, autonomia e capacidade de atuar em ambientes dinâmicos.
+
+
+
+
+
+Nossos benefícios:
+
+ 
+
+- Plano de saúde e odontológico;
+
+- Vale alimentação e refeição;
+
+- Auxílio-creche;
+
+- Licença parental estendida;
+
+- Parceria com academias e profissionais de saúde e bem-estar via Wellhub (Gympass)  TotalPass;
+
+- Participação nos Lucros e Resultados (PLR);
+
+- Seguro de Vida;
+
+- Plataforma de aprendizagem contínua (CI&T University);
+
+- Clube de descontos;
+
+- Plataforma online gratuita dedicada à promoção da saúde física, mental e bem-estar;
+
+- Curso gestante e parentalidade responsável;
+
+- Parceria com plataformas de cursos online;
+
+- Plataforma para aprendizagem de idiomas;
+
+- E muitos outros
+
+ 
+
+Mais detalhes sobre os nossos benefícios aqui: https://ciandt.com/br/pt-br/carreiras
+
+ 
+
+Na CI&T, a inclusão começa no primeiro contato. Se você é pessoa com deficiência, é importante apresentar o seu laudo durante o processo seletivo. Consulte quais dados são necessários conter no laudo clicando aqui. Assim, podemos garantir o suporte e as adaptações que você merece. Se ainda não tem o laudo caracterizador, não se preocupe: podemos te apoiar para obtê-lo.
+
+ 
+
+Temos um time dedicado de Saúde e Bem-estar, especialistas em inclusão e grupos de afinidade que estarão com você em todas as etapas. Conte com a gente para fazer essa jornada lado a lado. 
+
+Veja como seu perfil se compara ao de outros candidatos
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Candidaturas a esta vaga
+
+16
+
+Candidaturas
+
+16
+
+Candidaturas no último dia
+Nível de experiência do candidato
+
+75% de pessoas em nível Iniciante se candidataram a esta vaga
+
+13% de pessoas em nível Sênior se candidataram a esta vaga
+Nível de formação acadêmica do candidato
+
+77% têm um Bacharelado (semelhante a você)
+
+15% têm um Pós-graduação Stricto Sensu - Mestrado
+
+8% têm um Ensino Técnico

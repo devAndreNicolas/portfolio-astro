@@ -1,0 +1,82 @@
+Sobre a vaga
+
+A abertura atual é para a Artefact do Brasil, mas estamos em modelo Free Office. 
+
+Quem nós somos
+
+Nós da Artefact Brasil acreditamos e vivemos uma cultura com base na empatia!
+
+Um ambiente de trabalho saudável é um lugar onde todas as vozes são ouvidas, respeitadas e valorizadas.
+
+Temos como nosso compromisso a construção de um ambiente mais diverso e inclusivo, porque a empatia é para todas as pessoas, independentemente de etnia, cor, gênero, orientação sexual, identidade de gênero, deficiência ou crença religiosa.
+
+Queremos conosco mentes e corações incríveis! Venha ser Artefact 💙!
+
+Quais serão suas atividades;
+
+Como Software Engineer na Artefact, você fará parte do nosso time de tecnologia, que tem o objetivo de desenvolver aplicações web que atendam ás necessidades de processo e visualizações de informações dos nosso clientes em diversas industrias.
+
+Neste contexto, você terá a chance de trabalhar de maneira independente e em colaboração com nossas equipes de especialistas em Consultoria de Dados, Analises de dados e Engenharia de dados.
+
+Suas atividades serão realizadas exclusivamente para a empresa, permitindo que você esteja em constante contato com questões reais de clientes e adquira um profundo conhecimento em desenvolvimento web dentro do contexto de consultoria de dados.
+
+Suas principais funções incluirão;
+
+    Desenvolver aplicações web utilizando JavaScript: Implementar interfaces de usuário responsivas e componentes reutilizáveis utilizando as melhores práticas de JavaScript e TypeScript. React e Next.js são diferenciais.
+    Integração com bancos de dados: Projetar e implementar soluções de armazenamento de dados, integrando com bancos de dados relacionais e não relacionais como PostgreSQL, MongoDB ou Azure Cosmos DB. 
+    Gerenciar aplicações na nuvem: Configurar sistemas de autenticação e segurança, hospedar e gerenciar aplicações web, integrar as aplicações com serviços em nuvem como pipelines de dados, sistemas de armazenamento e outros serviços oferecidos por serviços de nuvem, como Azure. 
+    Colaboração multidisciplinar: Trabalhar em conjunto com equipes de Engenharia de Dados e Data Science para integrar algoritmos e visualizações de dados nas aplicações. 
+    Arquitetura e otimização: Participar na definição da arquitetura das aplicações, garantindo escalabilidade, performance e segurança, além de otimizar o código para máxima eficiência. 
+
+O que nós estamos procurando; 
+
+    Formação: Graduação em Ciência da Computação, Engenharia de Software ou curso na área correlata. 
+    Experiência em desenvolvimento web: Proficiência em React, Next.js, JavaScript e TypeScript. 
+    Bancos de dados: Conhecimento em SQL e NoSQL, capacidade de projetar esquemas de banco de dados eficientes e realizar queries complexas. 
+    Conhecimento em aplicações na nuvem: Experiência na configuração de sistemas de segurança e autenticação de usuários em plataformas de nuvem; familiaridade com hospedagem e gerenciamento de aplicações na nuvem; habilidade em integrar aplicações com serviços em nuvem como pipelines de dados, sistemas de autenticação e armazenamento. 
+    DevOps e CI/CD: Conhecimento em práticas de DevOps, incluindo configuração de pipelines de CI/CD, gestão de versões com Git e utilização de contêineres com Docker e orquestração com Kubernetes. 
+    Inglês fluente 
+
+O que oferecemos; 
+
+    VR/VT 
+    Free office (trabalhe de casa ou de onde quiser!) 
+    Gympass 
+    Seguros: Vida, saúde e odontológico 
+    Encontros Bimestrais (Famoso “Get Together” onde nos encontramos para estarmos juntos, com oficinas, palestras, treinamentos e aquele happy hour!) 
+    Woba (pode marcar para trabalhar em coworking onde quiser!) 
+    Avaliações semestrais (com oportunidade de promoção) 
+
+Por que você deveria se juntar a nós; 
+
+    Artefact é o lugar para estar: venha e construa o futuro da tecnologia de dados 
+    Progresso: cada dia oferece novos desafios e novas oportunidades de aprender 
+    Cultura: junte-se à melhor equipe que você poderia imaginar 
+    Empreendedorismo: você se juntará a uma equipe de empreendedores motivados. Não desistiremos até que façamos uma grande diferença nesta indústria! 
+Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+268
+
+total
+
+25
+
+no último dia
+Nível de experiência do candidato
+
+85% de candidatos com nível Iniciante
+
+11% de candidatos com nível Sênior
+
+1% de candidatos com nível Gerente
+Nível de formação acadêmica do candidato
+
+39% têm um Bacharelado (semelhante a você)
+
+10% têm um Curso Superior de Tecnologia (CST)
+
+6% têm um Tecnologia em Análise e Desenvolvimento de Sistemas
+
+45% têm outros diplomas

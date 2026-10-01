@@ -1,0 +1,69 @@
+At Commure, we're building the AI Operating System for healthcare, the foundation that defines how care is delivered, documented, and financed. Our platform spans the full care journey: Ambient AI and Dictation eliminating documentation burden at the point of care, intelligent Agents automating patient and revenue workflows, and autonomous RCM processing billions in claims, all on a single AI-native platform integrated with 60+ EHRs.
+
+Healthcare carries a $1 trillion administrative burden and we're at the center of transforming it. Today, 500,000+ clinicians across 500+ healthcare organizations nationwide trust Commure to handle $25B+ in annual claims and support over 200 million patient interactions. Our latest $70M raise at a $7B valuation reflects the confidence the market has placed in this mission. We've also been named to the Fortune Future 50 list and the 2026 AI Breakthrough Awards for “Overall NLP Company of the Year.”
+
+Our team works directly alongside clinicians, not through layers of process, which means the gap between what you build and its impact on patient care is immediate. We move fast, deploy daily, and take full ownership from early thinking to production. If you're energized by hard problems, high stakes, and a team that holds itself to a high bar, you'll find your people here.
+
+The future of healthcare is being built right now. Come deliver this transformation.
+
+About The Role
+
+At Commure, our Revenue Cycle Management (RCM) AI team is building the autonomous backend that turns healthcare's most manual financial workflows into intelligent systems. You'll ship production AI directly into core revenue cycle operations, with LLM-powered agents and copilots that automate claims submission, remittance posting, denials and appeals, and document extraction with real guardrails and compliance built in. You'll own the full lifecycle of AI features from prompt design and evals through production infrastructure, and partner directly with customers and internal operations teams to turn repetitive manual work into auditable, AI-assisted workflows. We're looking for a Backend Engineer who takes ownership end-to-end, moves fast, and wants their work to directly impact how care is delivered.
+
+What You’ll Do
+
+    Contribute to the technical direction of the RCM platform by proposing and implementing improvements to architecture, tools, and technologies. 
+    Build end-to-end products to revolutionize revenue cycle management for providers and administrators
+    Take ownership of end-to-end integration workflows, from design and development through to deployment and post-launch monitoring. 
+    Collaborate with cross-functional teams (product, engineering, and healthcare) to gather integration requirements, define technical approaches, and prioritize tasks based on business needs. 
+    Improve system reliability and observability by implementing best practices in monitoring, logging, and alerting
+    Optimize performance and scalability of our web applications, ensuring seamless user experiences as we rapidly expand
+    Collaborate with infrastructure and backend teams to ensure high availability and resilience of core functions
+    Mentor and guide engineers, fostering a culture of technical excellence and continuous learning
+    Conduct in-depth code reviews, uphold best practices, and drive architectural improvements across the stack
+
+What You Have
+
+    Bachelor’s or Master’s degree in Computer Science, Engineering, or a related field, or equivalent extensive experience
+    2+ years of professional software development industry experience
+    Proficiency in frontend languages like Javascript, HTML, CSS
+    Proficiency in backend languages like Python, Go, or C++. 
+    Experience including but not limited to Git, GCP / AWS, Docker, Kubernetes, relational and non-relational DBs, and monitoring/alerting tools
+    Proven track record of designing and implementing end-to-end solutions and making successful architectural decisions
+    Excellent communication and collaboration skills, with the ability to work in a fast-paced, dynamic environment. 
+
+Please be aware that all official communication from us will come exclusively from email addresses ending in
+ @commure.com. Any emails from other domains are not affiliated with our organization.
+
+Employees will act in accordance with the organization’s information security policies, to include but not limited to protecting assets from unauthorized access, disclosure, modification, destruction or interference nor execute particular security processes or activities. Employees will report to the information security office any confirmed or potential events or other risks to the organization. Employees will be required to attest to these requirements upon hire and on an annual basis.
+
+Compensation Range: $40K - $50K
+
+
+Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+165
+
+total
+
+165
+
+no último dia
+Nível de experiência do candidato
+
+67% de candidatos com nível Iniciante
+
+25% de candidatos com nível Sênior
+
+1% de candidatos com nível Diretor
+Nível de formação acadêmica do candidato
+
+58% têm um Bacharelado (semelhante a você)
+
+25% têm um Pós-graduação Stricto Sensu - Mestrado
+
+8% têm um Pós-graduação Lato Sensu - MBA
+
+9% têm outros diplomas

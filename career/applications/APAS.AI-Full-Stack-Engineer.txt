@@ -1,0 +1,91 @@
+Role
+
+We have a B2B software tool that is 70–80% built using AI-assisted ("vibe-coded") development. Your job is to take it to MVP: harden it, secure it, and get it ready for market with real user load.
+
+This role is 100% focused on this one product. You'll own the path from working prototype to production-ready application, including identity management, authentication, authorization, single sign-on, security, and vulnerability testing. Where the existing code holds up, you'll build on it. Where it doesn't, you'll be prepared to rebuild parts of it from scratch.
+
+The product is a web application only for Phase 1, which takes it from prototype to MVP. No native desktop or mobile apps (iPhone, Android, or App Store downloads) are in scope for this phase. It must work well in modern browsers on desktop and on iPad, since many of our users work from iPads.
+
+After MVP, we want you to stay on and help scale the product as we grow the team around it. Once we go to market and get real customer feedback, your work will be to:
+
+    Incorporate customer feedback into the product
+    Fix anything that breaks, quickly and reliably
+    Build new features and help scale the product as the company grows
+
+You'll work directly with the founders. You'll be expected to identify trade-offs, write them down, and explain them clearly so we can make decisions quickly. You'll also document every meaningful code change so the product stays maintainable as the team grows.
+
+DevOps and infrastructure are already in place. This is a full-stack application development role.
+
+Employment
+
+This is a full-time position of 40 hours per week. You will be employed in Brazil through our employer of record, working for APAS.AI or its sister company, both based in the United States.
+
+Must Have
+
+Experience
+
+    5+ years of hands-on full-stack development experience
+    Proven experience building at least one application from start to finish, from initial architecture through production release to real users
+    Experience maintaining a live production application: debugging issues, shipping fixes, and releasing new features based on user feedback
+
+Technical
+
+    Strong proficiency in modern web development: a front-end framework (e.g., React), a back-end language (e.g., Node.js/TypeScript or Python), and REST/JSON API design
+    Responsive web design that works well on desktop browsers and iPad, including touch interactions and testing on iPad Safari
+    Relational database design and operation: schema design, migrations, indexing, query optimization, and data integrity
+    Multi-tenant SaaS architecture: isolating each customer organization's data, users, and permissions within one platform
+    Identity management, authentication, and authorization, including role-based access control, OAuth 2.0, and OpenID Connect
+    Single sign-on implementation (SAML, OIDC, or providers such as Okta, Microsoft Entra ID, or Auth0)
+    Application security: secure coding practices, OWASP Top 10, input validation, session management, secrets handling, and encryption in transit and at rest
+    Vulnerability testing and remediation: dependency scanning, static analysis, and fixing issues found in security testing
+    Audit logging of user actions and access events
+    Automated testing: unit, integration, and end-to-end tests, with enough coverage to ship changes safely
+    Preparing applications for real-world user load: performance tuning, scalability, and load testing
+    Third-party API integration (identity providers, email, and other external services)
+    Regular, hands-on use of AI coding tools such as Claude Code and Codex to speed up development, with the judgement to review, test, and correct what they produce
+    Comfortable taking over AI-generated code, hardening it, and rebuilding components from scratch when that's the better option
+
+Communication and documentation
+
+    Ability to identify software trade-offs, write them up clearly, and recommend a path forward
+    Strong written and verbal communication skills in English
+    Strong documentation habits: clear commit messages, change logs, and written records of code changes and design decisions
+    Available for real-time collaboration with a team on US Eastern Time for part of each workday
+
+Nice to Have
+
+    SOC 2 or similar security compliance experience (useful after MVP, when selling to larger customers)
+    Security certifications or formal penetration testing background (e.g., OSCP)
+    Experience building LLM-powered product features (e.g., retrieval-augmented generation, AI assistants)
+    Subscription billing integration (e.g., Stripe)
+    Accessibility standards (WCAG)
+    Progressive web app (PWA) experience, such as offline support for iPad users
+
+
+Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+151
+
+total
+
+151
+
+no último dia
+Nível de experiência do candidato
+
+50% de candidatos com nível Iniciante
+
+45% de candidatos com nível Sênior
+
+1% de candidatos com nível Dirigente (CEO, COO, CFO, CMO)
+Nível de formação acadêmica do candidato
+
+69% têm um Bacharelado (semelhante a você)
+
+16% têm um Pós-graduação Stricto Sensu - Mestrado
+
+6% têm um Ensino Técnico
+
+9% têm outros diplomas

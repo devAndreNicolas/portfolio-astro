@@ -1,0 +1,90 @@
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for an AI Process Forward Deployed Engineer based in Brazil.
+
+This is a high-impact engineering role focused on bringing AI-powered process automation into enterprise production environments. You’ll own customer deployments from initial workflow setup through measurable improvement and successful handoff. The role combines hands-on software engineering, distributed systems, AI agents, workflow orchestration, and customer-facing technical leadership. You’ll work across Java services and React interfaces while configuring platforms, debugging integrations, and developing custom solutions. Your work will directly influence product evolution, deployment practices, and reusable engineering patterns. The environment is global, remote, collaborative, and designed for engineers who are comfortable operating with significant autonomy and ambiguity.
+
+Accountabilities
+
+    Own the end-to-end deployment journey, from the initial process file through a production workflow that continuously improves based on measurable results. 
+    Establish successful customer outcomes, including achieving an operational workflow and active improvement loop within the initial deployment period. 
+    Build and customize product capabilities, including features, AI agents, and skill files, while addressing bugs and technical limitations encountered in real-world deployments. 
+    Configure platform environments, including clusters and integrations, and troubleshoot complex failures across distributed systems and enterprise technology stacks. 
+    Develop custom agents and integrations when standard platform capabilities do not adequately address customer requirements. 
+    Work closely with engineering, architecture, business, and customer stakeholders to drive organizational adoption and turn initial deployments into sustainable capabilities. 
+    Capture lessons learned, document successful implementation patterns, and build a repeatable deployment playbook that improves future implementations. 
+    Train and enable customer teams so they can independently operate the solution and act on ongoing improvement results after the handoff. 
+    Contribute engineering insights from customer deployments directly back into product development and platform evolution. 
+    Travel occasionally when required to support customer or team engagements. 
+
+Requirements
+
+    Proven experience delivering and operating software in enterprise production environments, with a strong understanding of governance, resilience, reliability, and operational requirements at scale. 
+    Strong software engineering capabilities, including the ability to debug integrations, build custom agents against APIs or legacy systems, configure platform clusters, and work across distributed systems. 
+    Experience working with Java-based services and React interfaces, or the ability to quickly operate across comparable technology stacks. 
+    Practical production experience with AI technologies, including AI-powered applications, prompt engineering, context management, agent testing, and evaluating integration trade-offs. 
+    Ability to understand and explain generated BPMN workflows and technical concepts to both engineering teams and business stakeholders. 
+    Strong customer and stakeholder communication skills, with the ability to adapt technical discussions for engineering, architecture, and business leadership audiences. 
+    Demonstrated ability to operate effectively in ambiguous environments, make sound technical and operational decisions, and document emerging best practices. 
+    Experience working in customer-facing engineering, solutions engineering, or professional services environments is a plus. 
+    Familiarity with regulated industries such as financial services, healthcare, or insurance is advantageous. 
+    Production experience with agentic systems or AI-integrated workflows is a plus. 
+    Contributions to shared platforms or open-source projects are valued. 
+    Ability and willingness to use the product as part of the role. 
+    Willingness to travel occasionally as required. 
+
+Benefits
+
+    Fully remote and flexible working environment. 
+    Home office budget and support for coworking spaces. 
+    Flexible time off. 
+    Competitive, location-based compensation with transparent salary structures. 
+    Equity through a Virtual Stock Option Plan where applicable. 
+    Locally tailored healthcare benefits. 
+    Global mental wellbeing support through Modern Health. 
+    Live Well Lifestyle Spending Account supporting health, family, personal interests, experiences, and financial wellbeing, launching in 2026 and scaling to €1,000 annually from 2027. 
+    Retirement and pension plans, often including company contributions. 
+    Life and disability insurance where applicable. 
+    Annual learning and development budget of up to $/€/£1,000 for courses, certifications, books, and other self-directed learning. 
+    Annual company kickoff events, team offsites, local gatherings, and connection budgets that support meaningful in-person collaboration. 
+    Inclusive global environment with opportunities to work alongside diverse teams and cultures. 
+
+How Jobgether Works
+
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+
+We appreciate your interest and wish you the best!
+
+ Why Apply Through Jobgether?
+
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+
+Veja como seu perfil se compara ao de outros candidatos
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Candidaturas a esta vaga
+
+32
+
+Candidaturas
+
+14
+
+Candidaturas no último dia
+Nível de experiência do candidato
+
+53% de pessoas em nível Iniciante se candidataram a esta vaga
+
+19% de pessoas em nível Sênior se candidataram a esta vaga
+
+3% de pessoas em nível Dirigente (CEO, COO, CFO, CMO) se candidataram a esta vaga
+
+3% de pessoas em nível Diretor se candidataram a esta vaga
+Nível de formação acadêmica do candidato
+
+57% têm um Bacharelado (semelhante a você)
+
+17% têm um Pós-graduação Lato Sensu - MBA
+
+10% têm um Ciclo Formativo
+
+16% têm outros diplomas

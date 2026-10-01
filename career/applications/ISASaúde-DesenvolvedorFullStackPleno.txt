@@ -1,0 +1,55 @@
+Buscamos uma Pessoa Desenvolvedora Full Stack Pleno para fazer parte do nosso time de Engenharia, atuando na evolução de produtos digitais utilizados no contexto da saúde.
+
+Você trabalhará em aplicações web de ponta a ponta, participando desde o entendimento do problema e das necessidades do negócio até o desenvolvimento, entrega e acompanhamento das soluções em produção.
+
+Procuramos alguém com boa base técnica, autonomia para conduzir demandas do dia a dia e, principalmente, curiosidade para entender os problemas que estamos resolvendo. Mais do que apenas implementar tarefas, esperamos uma pessoa que participe das discussões, questione decisões quando necessário, proponha melhorias e tenha responsabilidade sobre aquilo que entrega.
+
+Nosso ambiente valoriza colaboração, aprendizado contínuo, qualidade de código e o uso responsável de ferramentas de inteligência artificial como parte do processo de desenvolvimento.
+
+Responsabilidades e atribuições
+
+    Desenvolver e evoluir aplicações web de ponta a ponta, atuando em frontend e backend.
+    Construir e manter APIs, integrações e interfaces web.
+    Participar de discussões técnicas e contribuir com decisões de implementação e arquitetura.
+    Colaborar com Produto e demais áreas para entender problemas e transformar necessidades de negócio em soluções técnicas.
+    Investigar problemas, corrigir bugs e contribuir para a evolução contínua dos sistemas.
+    Garantir a qualidade, legibilidade e manutenção do código, participando também de revisões e testes.
+    Acompanhar as próprias entregas até sua disponibilização e funcionamento adequado em produção.
+    Utilizar ferramentas de inteligência artificial como apoio ao desenvolvimento e à resolução de problemas.
+
+
+Requisitos e qualificações
+
+Requisitos técnicos
+
+Obrigatórios
+
+    Boa base de JavaScript/TypeScript e lógica de programação.
+    Experiência com Node.js no desenvolvimento de APIs e serviços.
+    Experiência com React, incluindo componentes, hooks, estados e integração com APIs.
+    Familiaridade com frameworks de backend como Express, Fastify ou similares.
+    Familiaridade com ferramentas e frameworks frontend como Vite, Next.js ou similares.
+    Conhecimentos de PostgreSQL e bancos relacionais.
+    Conhecimentos de MongoDB e modelagem orientada a documentos.
+    Conhecimento de Git e fluxos de versionamento.
+    Experiência no consumo e integração de APIs REST.
+    Noções de Docker.
+    Familiaridade com AWS e conceitos básicos de serviços em nuvem.
+    Familiaridade e proatividade no uso de ferramentas de IA para desenvolvimento, como Claude Code, Codex ou similares.
+
+
+Desejáveis
+
+    Familiaridade com Prisma ou Mongoose.
+    Conhecimentos de CI/CD, utilizando Azure Pipelines, GitHub Actions ou similares.
+    Entendimento básico de arquitetura de microsserviços.
+    Experiência com linters, formatação e testes unitários.
+
+
+O que esperamos de você
+
+    Autonomia e responsabilidade sobre as próprias entregas.
+    Curiosidade para entender o negócio, o produto e o impacto das soluções na área da saúde.
+    Proatividade para identificar problemas e propor melhorias.
+    Atenção à qualidade, legibilidade e manutenção do código.
+    Colaboração, abertura a feedback e disposição para compartilhar conhecimento e evoluir continuamente.

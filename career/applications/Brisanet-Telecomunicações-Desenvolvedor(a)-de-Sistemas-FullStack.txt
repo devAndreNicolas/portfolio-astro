@@ -1,0 +1,94 @@
+Sobre a vaga
+
+Estamos à procura de um(a) Desenvolvedor(a) de Sistemas para desenvolver, implantar e realizar manutenção de sites e sistemas, visando a agilidade, segurança e eficácia dos processos adequando-os às necessidades das áreas e clientes.
+
+Se você é um profissional atencioso, que encanta seus clientes e possui senso de propriedade, a Brisanet é o seu lugar!
+
+Vamos velejar rumo ao futuro! #VemSerBrisanet 💙🧡
+
+Responsabilidades e atribuições
+
+    Vivenciar a cultura do Grupo Brisanet, participando ativamente de reuniões e contribuindo para um ambiente colaborativo;
+    Propor inovações nas rotinas e processos da área, além de alimentar indicadores de desempenho e preparar relatórios técnicos conforme demanda;
+    Desenvolver, integrar e manter sistemas e microsserviços, garantindo código limpo, seguro e de alta performance;
+    Implementar testes unitários e de integração, realizar depuração (debugging) e identificar proativamente pontos de falha no código;
+    Modelar e otimizar bancos de dados (queries, views e procedures);
+    Acompanhar a saúde e a disponibilidade dos sistemas internos;
+    Manter a documentação técnica de APIs e soluções sempre atualizada para o time.
+
+
+Requisitos e qualificações
+
+    Conhecimento prático em ao menos uma linguagem de programação (Ex.: Go, Javascript, Python, Perl ou similares);
+    Lógica e Sintaxe: Conhecimento prático de TypeScript e ES6+ (Arrow functions, Destructuring, Promises);
+    Angular Core: Conhecimento dos conceitos de Ciclo de Vida (Hooks), Services, Injeção de Dependências e Roteamento;
+    Layout: Conhecimento em CSS moderno (Flexbox, Grid) e noções de pré-processadores (SASS/SCSS);
+    Conhecimento no desenvolvimento e consumo de APIs (REST, RESTful e SOAP);
+    Noções de bancos de dados relacionais e não relacionais (Ex.: PostgreSQL, Redis, MySQL, MongoDB ou similares);
+    Noções de Clean Code, Design Patterns e arquitetura (MVC, DDD);
+    Versionamento e Colaboração em Equipe: Conhecimento de Git (Branching, Merging e resolução de conflitos). Entendimento de fluxos colaborativos (ex: GitFlow) e respeito aos processos da equipe;
+    Familiaridade com métodos ágeis (Scrum ou Kanban);
+    Noções de boas práticas de segurança e conformidade com a LGPD;
+    Inglês técnico;
+    Proatividade e Aprendizado: Capacidade de buscar soluções e conduzir tarefas com o apoio do time, sabendo a hora de pedir ajuda;
+    Comunicação Clara: Capacidade de explicar o andamento das suas tarefas nas reuniões diárias (Daily Scrum) de forma objetiva;
+    Escuta Ativa: Estar aberto(a) a aceitar feedbacks no seu código durante os Code Reviews para impulsionar seu desenvolvimento contínuo.
+
+Será considerado um diferencial:
+
+    Gestão de Estado: Contato ou conhecimento teórico com NgRx ou Signals do Angular;
+    Testes: Vivência inicial com escrita de testes unitários (Jest/Cypress);
+    Performance: Noções de estratégias de detecção de mudanças no front-end;
+    Programação Reativa: Familiaridade com operadores RxJS;
+    Noções teóricas ou práticas em sistemas de mensageria e processamento assíncrono (NATS, Kafka, RabbitMQ ou similares);
+    Contato prévio com frameworks backend de mercado (ex.: Gin, Mojolicious);
+    Noções de integração entre sistemas, microsserviços e ambientes em nuvem;
+    Visão de Produto: Interesse em entender o impacto e o propósito da funcionalidade desenvolvida para o negócio.
+
+
+Informações adicionais
+
+    Cultura de trabalho que respeita e valoriza as pessoas;
+    Eventos internos que abordam temas diversos;
+    Meio colaborativo que valoriza o desenvolvimento pessoal e profissional;
+    Ambiente horizontal e vertical, ou seja, você é o protagonista de sua carreira!;
+    Alimentação (Sede via Refeitório e Filiais via Ifood);
+    Plano de Saúde Coparticipativo;
+    Plano Odontológico;
+    Seguro de Vida;
+    Auxílio Creche;
+    Auxílio Dependente PCD;
+    Empréstimo Consignado (após 6 meses);
+    Descontos de até 50% nos serviços Brisanet de Internet e BrisaMusic;
+    Wellhub (Gympass);
+    Descontos em Instituições de Ensino Superior de até 60%.
+
+    Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+1266
+
+total
+
+173
+
+no último dia
+Nível de experiência do candidato
+
+79% de candidatos com nível Iniciante
+
+13% de candidatos com nível Sênior
+
+1% de candidatos com nível Dirigente (CEO, COO, CFO, CMO)
+
+1% de candidatos com nível Gerente
+Nível de formação acadêmica do candidato
+
+40% têm um Bacharelado (semelhante a você)
+
+11% têm um Curso Superior de Tecnologia (CST)
+
+10% têm um Ensino Técnico
+
+39% têm outros diplomas

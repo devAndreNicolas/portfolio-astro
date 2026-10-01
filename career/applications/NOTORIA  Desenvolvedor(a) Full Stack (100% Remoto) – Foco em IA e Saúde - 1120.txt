@@ -1,0 +1,63 @@
+Sobre a vaga
+
+Estamos em forte expansão e buscamos profissionais que queiram crescer com a gente!
+
+Trabalhamos em projetos desafiadores com foco em soluções inovadoras para a área da saúde, usando tecnologias modernas e IA para gerar impacto real.
+
+
+🚀 O que você vai encontrar aqui:
+
+    Autonomia de verdade: liberdade para criar, propor e experimentar, sem barreiras hierárquicas.
+    Ambiente de confiança: times que colaboram, aprendem juntos e compartilham decisões.
+    Propósito claro: entregar valor contínuo para clientes que dependem do que construímos no dia a dia.
+    Modelo: 100% remoto (Home Office). 
+
+
+🎯 Perfil que buscamos:
+
+    Pessoas protagonistas, curiosas e orientadas a resultados.
+    Profissionais que valorizam qualidade, colaboração e aprendizado contínuo. 
+
+
+🛠️ Requisitos Técnicos Obrigatórios:
+
+    Experiência sólida no desenvolvimento de SPAs com React e seu ecossistema (React Router, Redux/Context API, Tailwind).
+    Domínio de bancos de dados SQL e NoSQL (PostgreSQL, MongoDB, DynamoDB ou Redis).
+    Experiência prática com Docker e testes automatizados (Jest, Cypress ou similares).
+
+
+🌟 Diferenciais (Será um grande bônus se você tiver):
+
+    Conhecimento prático ou projetos envolvendo Inteligência Artificial.
+    Experiência com serviços AWS (EC2, ECS, RDS, S3, SQS, Lambda).
+    Conhecimento em Design de Soluções (escalabilidade, segurança e custo).
+    Provisionamento de infraestrutura como código (AWS CDK ou Terraform).
+    Construção de pipelines CI/CD (GitHub Actions ou CodePipeline).
+
+    Veja como seu perfil se compara ao de outros candidatos
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Candidaturas a esta vaga
+
+712
+
+Candidaturas
+
+712
+
+Candidaturas no último dia
+Nível de experiência do candidato
+
+73% de pessoas em nível Iniciante se candidataram a esta vaga
+
+21% de pessoas em nível Sênior se candidataram a esta vaga
+
+1% de pessoas em nível Diretor se candidataram a esta vaga
+Nível de formação acadêmica do candidato
+
+68% têm um Bacharelado (semelhante a você)
+
+17% têm um Pós-graduação Stricto Sensu - Mestrado
+
+7% têm um Ensino Técnico
+
+8% têm outros diplomas

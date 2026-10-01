@@ -1,0 +1,94 @@
+Descrição da vaga
+
+A FCamara está em busca de uma Pessoa Desenvolvedora FullStack .NET e Angular ou React - Pleno, para atuar em parceria com o maior Banco de Investimentos da América Latina, especializado em capital de investimento, de risco, além de gerenciamento de patrimônio e ativos globais.
+
+Responsabilidades e atribuições
+
+    Responsabilidades e atribuições: 
+        Desenvolver aplicações Front-End utilizando Angular ou React.
+        Manter e evoluir sistemas existentes, analisando e depurando códigos com ferramentas como IDEs e DevTools do navegador (F12).
+        Desenvolver e manter APIs REST com .NET Core e Entity Framework.
+        Aplicar boas práticas de arquitetura de software, como DDD (Domain-Driven Design), injeção de dependência e testes unitários.
+        Trabalhar com mensageria, principalmente RabbitMQ, mas também com alternativas como SQS, SNS ou Kafka.
+        Projetar e manter sistemas distribuídos baseados em microserviços.
+        Monitorar e diagnosticar aplicações usando ferramentas de observabilidade (ex: DataDog, Azure Monitor, CloudWatch).
+        Utilizar bancos de dados não relacionais, como MongoDB ou DynamoDB.
+        Participar de pipelines de CI/CD, garantindo entregas contínuas e seguras.
+        Trabalhar com tecnologias de containerização e orquestração, como Docker e Kubernetes.
+        Utilizar serviços em nuvem (AWS, Azure, etc.), incluindo funções serverless e mensageria.
+        Colaborar em projetos via Azure DevOps, utilizando boards, pipelines e repositórios.
+
+Requisitos e qualificações
+
+Requisitos para vaga:
+
+    Experiencia com FrontEnd, Angular ou React;
+    Proficiência para novos desenvolvimentos e para entendimento de códigos existentes, bem como debugar aplicações e frontend na IDE e pelo F12 no browser;
+    Experiencia em desenvolvimento de WebApi .Net Core
+    EntityFramework
+    Injeção de Dependencia
+    DDD
+    Testes unitários
+    Candidato ambicioso, com vontade de crescer na carreira e força de vontade pra trabalhar/fazer horas extras.
+    Experiencia com ferramentas de mensageria (RabbitMQ, Sqs, Sns, Kafka), preferencialmente RabbitMQ
+    Experiencia com sistemas distribuídos, com microserviços que interagem entre si;
+    Experiencia com alguma ferramenta de observabilidade/logs, como DataDog, azuremonitor; CloudWatch
+    Banco de dados não relacional (MongoDB, DynamoDB)
+    Experiencia com ambiente de trabalho com estrutura de CI-CD
+    Experiencia com pelo menos 3 ferramentas de Cloud(Exemplo: Aws lambda, Azure functions, SQS, SNS, EC2)
+    Experiencia com docker e kubernetes;
+    Experiencia ou conhecimento do Azure DevOps
+
+Soft Skills:
+
+    Raciocínio lógico e capacidade analítica;
+    Boa Comunicação;
+    Espírito de equipe e capacidade de resolução de conflitos;
+    Ter capacidade de comunicação com diversos perfis de stakeholders;
+    Habilidade de trabalhar em equipes ágeis e multidisciplinares;
+    Criatividade e Proatividade para imaginar diferentes cenários de uso das aplicações;
+    Organização.
+
+Transformamos mundos sonhados em trajetórias reais.🧡🚀
+
+Aqui somos #SangueLaranja!
+
+Estamos há 17 anos no mercado, lado a lado com nossos clientes, proporcionando experiências transformadoras.
+
+Somos um ecossistema de tecnologia e inovação, com expansão global; Além do Brasil estamos presentes na Europa e Reino Unido com escritórios em Portugal, Londres, Dubai e Holanda. 🌎
+
+F de Formação: acreditamos na prática da cultura do compartilhamento, no senso de comunidade, e que o conhecimento
+
+tem o poder da transformação!
+
+Possuímos iniciativas, e ações sociais, que promovem o desenvolvimento, como a comunidade tech Orange Juice, o Programa de Formação,
+
+nossa escola de liderança e diversas parcerias com ONGs e Edtechs.
+
+Na FCamara todos são bem-vindos, para nós, Diversidade, Respeito e Ética, são elementos inegociáveis e fazem parte do nosso DNA. 
+
+E aí, está pronto para fazer parte de um time incrível e ser protagonista da própria história?
+
+Veja como sua candidatura se compara à de outras pessoas que clicaram em Candidate-se
+Com base nos dados do LinkedIn. Exclui subsidiárias.
+Pessoas que clicaram em Candidate-se
+
+40
+
+total
+
+40
+
+no último dia
+Nível de experiência do candidato
+
+75% de candidatos com nível Iniciante
+
+20% de candidatos com nível Sênior
+Nível de formação acadêmica do candidato
+
+82% têm um Bacharelado (semelhante a você)
+
+9% têm um Ensino Técnico
+
+9% têm um Pós-graduação Stricto Sensu - Mestrado
