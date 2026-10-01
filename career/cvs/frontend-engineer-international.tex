@@ -1,65 +1,384 @@
-\documentclass[10pt,a4paper]{article}
-\usepackage[left=1.35cm,right=1.35cm,top=1.15cm,bottom=1.15cm]{geometry}
+\documentclass[9pt,a4paper]{article}
+
+\usepackage[
+    left=0.55cm,
+    right=0.55cm,
+    top=0.25cm,
+    bottom=0.25cm
+]{geometry}
+
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
 \usepackage{fontspec}
+
 \definecolor{darkblue}{HTML}{0F172A}
 \definecolor{accentblue}{HTML}{2563EB}
-\hypersetup{colorlinks=true,urlcolor=accentblue,linkcolor=darkblue}
-\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}\renewcommand{\familydefault}{\sfdefault}\raggedbottom
-\titleformat{\section}{\normalsize\bfseries\color{darkblue}}{}{0pt}{}[\titlerule]
-\titlespacing*{\section}{0pt}{8pt}{3pt}
-\setlist[itemize]{leftmargin=1.2em,itemsep=2pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=accentblue,
+    linkcolor=darkblue
+}
+
+% --- GENERAL ---
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+\linespread{0.94}
+
+\raggedbottom
+
+% --- SECTION STYLE ---
+
+\titleformat{\section}
+    {\normalsize\bfseries\color{darkblue}}
+    {}
+    {0pt}
+    {}
+    [\titlerule]
+
+\titlespacing*{\section}
+    {0pt}
+    {0pt}
+    {0pt}
+
+% --- LISTS ---
+
+\setlist[itemize]{
+    leftmargin=1.15em,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+\setlist[description]{
+    style=multiline,
+    leftmargin=3.35cm,
+    labelwidth=3.35cm,
+    labelsep=0.12cm,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
 \begin{document}
+
+% =========================================================
+% HEADER
+% =========================================================
+
 \begin{center}
-{\LARGE \textbf{ANDRÉ NICOLAS SILVA}}\\[-2pt]
-{\normalsize \textbf{Frontend Engineer | Angular, React, TypeScript and Web Products}}\\[2pt]
-\footnotesize Maceió, Brazil \quad • \quad \href{mailto:devandrenicolas@gmail.com}{devandrenicolas@gmail.com}\\[-1pt]
-\href{https://portfolio-andrenicolas.vercel.app}{Portfolio} \quad • \quad \href{https://github.com/devAndreNicolas}{GitHub} \quad • \quad \href{https://www.linkedin.com/in/devandrenicolas}{LinkedIn}
+
+    {\LARGE \textbf{ANDRÉ NICOLAS SILVA}} \\[-2pt]
+
+    {\normalsize \textbf{Frontend Engineer | Product, TypeScript, Angular, React, AI \& Web Systems}} \\[1pt]
+
+    \footnotesize
+    Brazil \quad • \quad
+    \href{mailto:devandrenicolas@gmail.com}{devandrenicolas@gmail.com} \\[-1pt]
+
+    \textbf{\href{https://portfolio-andrenicolas.vercel.app}{Portfolio}}
+    \quad • \quad
+    \href{https://github.com/devAndreNicolas}{GitHub}
+    \quad • \quad
+    \href{https://www.linkedin.com/in/devandrenicolas}{LinkedIn}
+
 \end{center}
 
-\section*{SUMMARY}
-Frontend Engineer focused on product, user experience, and maintainable web systems. Experience evolving production SaaS surfaces from requirements and business rules through technical definition, implementation, debugging, and delivery. Works with \textbf{Angular, React, TypeScript, Astro, Web Components, Lit, accessibility, SEO, performance, and APIs}; uses AI deliberately for solution exploration, code review, and test support.
+\vspace{-3pt}
 
-\section*{SKILLS}
-\textbf{Frontend:} Angular, React, TypeScript, JavaScript, Next.js, Astro, HTML, CSS, Signals, RxJS, Tailwind CSS.\\
-\textbf{Web architecture:} Component-based architecture, Web Components, Lit, Shadow DOM, reusable components, separation of concerns.\\
-\textbf{Product and quality:} product requirements, business rules, UX, accessibility, SEO, performance, Lighthouse, Git, code review, Vitest, automated testing, CI/CD, and debugging.\\
-\textbf{Platform:} REST APIs, Go, SQL, PostgreSQL, Cloudflare Workers, KV, D1, Durable Objects, and edge computing.\\
-\textbf{AI:} Genkit, user-facing LLM features, contextual prompting, input sanitization, structured outputs, Codex, Claude, MCPs, agents, and SDD.
+% =========================================================
+% SUMMARY
+% =========================================================
 
-\section*{EXPERIENCE}
-\noindent\textbf{MSPA — Frontend Engineer (Product Focus)} \hfill \textit{Apr. 2025 -- Present}\\
-\textit{SaaS platform for privacy, LGPD compliance, and digital auditing}
+\section*{PROFESSIONAL SUMMARY}
+
+\footnotesize
+
+Product-focused Frontend Engineer with hands-on experience building and
+evolving \textbf{production SaaS products} used by \textbf{10+ companies},
+combining web development, backend integration, AI engineering,
+product thinking, UX, and software architecture.
+
+Strong experience with \textbf{TypeScript, JavaScript, Angular, React,
+Next.js, Golang, REST APIs, SQL, PostgreSQL, and Cloudflare},
+working across the product lifecycle from requirements and technical
+decisions to implementation, refinement, debugging, deployment,
+and production support.
+
+Experienced in taking ownership of product features and solving
+problems across application layers, with a focus on
+\textbf{business requirements, user experience, maintainability,
+performance, and reliable software delivery}.
+
+% =========================================================
+% SKILLS
+% =========================================================
+
+\section*{TECHNICAL SKILLS}
+
+\footnotesize
+
+\begin{description}
+
+    \item[\textbf{Programming}]
+    TypeScript, JavaScript, Golang, SQL, HTML, CSS
+
+    \item[\textbf{Product Engineering}]
+    Product Thinking, product development, requirements analysis,
+    business rules, UX, feature ownership, scope definition,
+    Agile/Sprints, independent delivery
+
+    \item[\textbf{Web Development}]
+    Angular, React, Next.js, Angular Signals, RxJS,
+    Web Components, Lit, Shadow DOM, Tailwind CSS
+
+    \item[\textbf{Backend \& APIs}]
+    Golang services, REST APIs, internal APIs,
+    frontend/backend integration, service integrations,
+    concurrency, asynchronous processing, automations
+
+    \item[\textbf{AI Engineering}]
+    LLM integration, Generative AI, prompt engineering,
+    contextual prompting, input sanitization,
+    structured AI responses, Genkit,
+    AI-powered product features
+
+    \item[\textbf{Code Quality}]
+    Code review, automated testing, Vitest,
+    debugging, correctness, maintainability,
+    software reliability
+
+    \item[\textbf{AI-Assisted Development}]
+    Codex, Claude, Cursor, CodeRabbit, Skills,
+    MCPs, Agents, SDD, AI-assisted coding,
+    AI-driven development workflows
+
+    \item[\textbf{Data}]
+    SQL, PostgreSQL, Supabase, relational databases,
+    data persistence, database migrations, queries
+
+    \item[\textbf{Architecture}]
+    Software Architecture, frontend architecture,
+    Component-Based Architecture, Clean Code,
+    separation of concerns, reusable systems
+
+    \item[\textbf{Cloud \& Infrastructure}]
+    Cloudflare Workers, KV, D1, Durable Objects,
+    edge computing, serverless, CI/CD, Git
+
+    \item[\textbf{Performance}]
+    Performance optimization, SEO, Lighthouse,
+    loading performance, usability, production reliability
+
+\end{description}
+
+% =========================================================
+% EXPERIENCE
+% =========================================================
+
+\section*{PROFESSIONAL EXPERIENCE}
+
+\noindent
+\textbf{MSPA — Frontend Engineer (product and web contributions)}
+\hfill
+\textit{Apr 2025 -- Present}
+
+\textit{SaaS platform for Privacy, Compliance (LGPD), and Digital Auditing}
+
 \begin{itemize}
-  \item Evolve Compass, Trust Center, and compliance surfaces used by \textbf{10+ companies}, from product context and requirements through delivery and production support.
-  \item Build interfaces and reusable systems with \textbf{Angular, React, TypeScript, Astro, Web Components, and Lit}; apply Signals, RxJS, and Shadow DOM when appropriate.
-  \item Contributed to a framework-agnostic consent flow integrated with \textbf{Cloudflare Workers, KV, D1, and Durable Objects}.
-  \item Investigate and improve UX, accessibility, SEO, and performance while working with code review, Vitest, CI/CD, debugging, and deployment.
-  \item Integrate user-facing generative-AI features with Genkit, contextual prompting, input sanitization, and structured responses.
-  \item Reorganized an engineering workflow in a critical phase, directly coordinating four contributors within a six-person team.
+
+    \item
+    \textbf{Product Engineering \& Ownership:}
+    Contributed to the evolution of core SaaS products, including
+    Compass and Trust Center, used by \textbf{10+ companies},
+    taking ownership of product features from requirements and
+    technical definition through implementation, refinement,
+    debugging, and production delivery.
+
+    \item
+    \textbf{Product Development:}
+    Translated business requirements and product needs into
+    production-ready software, contributing to feature scope,
+    technical decisions, UX, business rules, and implementation
+    across different layers of the application.
+
+    \item
+    \textbf{Web Development:}
+    Developed and evolved production web applications using
+    \textbf{Angular and TypeScript}, applying component-based
+    architecture, Signals/RxJS, reusable components, and
+    maintainability practices.
+
+    \item
+    \textbf{Backend \& APIs:}
+    Worked across application layers involving
+    \textbf{Golang services, REST/internal APIs, SQL/PostgreSQL,
+    concurrency, automations, and service integrations},
+    contributing to end-to-end product functionality rather than
+    frontend-only implementation.
+
+    \item
+    \textbf{AI Product Engineering:}
+    Integrated \textbf{Generative AI into production SaaS products},
+    developing user-facing capabilities with prompt engineering,
+    contextual information, input sanitization, and structured
+    AI responses using \textbf{Genkit}, translating product needs
+    into reliable AI-powered features.
+
+    \item
+    \textbf{Software Architecture:}
+    Participated in architectural decisions and implemented
+    solutions involving \textbf{Hexagonal Architecture},
+    component-based architecture, separation of responsibilities,
+    reusable systems, and maintainable application boundaries.
+
+    \item
+    \textbf{Performance \& SEO:}
+    Implemented performance and SEO improvements, achieving
+    high Lighthouse scores while improving loading performance,
+    usability, and overall product quality.
+
+    \item
+    \textbf{AI-Assisted Engineering:}
+    Applied an AI-driven development workflow using
+    \textbf{Codex, Claude, Cursor, CodeRabbit, Skills, MCPs,
+    Agents, and SDD}, accelerating implementation and iteration
+    while maintaining architectural consistency and code quality.
+
+    \item
+    \textbf{Web Components \& Edge Computing:}
+    Developed an agnostic consent engine using
+    \textbf{Web Components, Lit, and Shadow DOM}, integrated with
+    \textbf{Cloudflare Workers, KV, D1, and Durable Objects}
+    for edge-based execution and distributed functionality.
+
+    \item
+    \textbf{Code Quality \& Debugging:}
+    Investigated technical issues across application layers,
+    analyzed implementation behavior, and contributed to reliable
+    solutions through debugging, code review, automated testing,
+    and attention to correctness and maintainability.
+
+    \item
+    \textbf{Engineering Coordination:}
+    Reorganized development workflows during a critical project phase,
+    improving scope clarity, sprint organization, and productivity
+    across a \textbf{6-person team}, with direct coordination of
+    4 team members.
+
 \end{itemize}
 
-\section*{OPEN SOURCE}
-\noindent\textbf{Stoat / Revolt Platforms LTD — Volunteer Frontend Engineer} \hfill \textit{2026 -- Present}\\
-Frontend and UX contribution to Stoat's web client; a file-size validation-error fix was merged by maintainers.
+% =========================================================
+% OPEN SOURCE
+% =========================================================
 
-\section*{SELECTED PROJECTS}
-\noindent\textbf{Compliance Portal — Content and web experience} \hfill \textit{Astro, TypeScript}\\
-Content UX and SEO work with a shared TypeScript glossary component in a pnpm workspace.
+\section*{OPEN SOURCE CONTRIBUTIONS}
 
-\vspace{3pt}\noindent\textbf{eCarryOn Landing — Landing and content system} \hfill \textit{Astro, Tailwind CSS}\\
-Static landing page and blog with reusable sections, structured content, design tokens, responsive layouts, sitemap, canonical URLs, and Open Graph.
+\noindent
+\textbf{Stoat / Revolt Platforms LTD — Volunteer Frontend Engineer}
+\hfill
+\textit{2026 -- Present}
 
-\vspace{3pt}\noindent\textbf{Diário de Campo Escoteiro — Offline-first PWA} \hfill \textit{React, TypeScript, PouchDB/CouchDB}\\
-Installable field-record application with local data and automatic synchronization after reconnection.
+\footnotesize
+
+Contribute to the open-source project with a focus on
+\textbf{UX engineering and frontend development}, identifying
+UX issues and turning them into technical improvements that make
+the product clearer and more intuitive for users.
+\textbf{Pull request approved by project maintainers.}
+
+% =========================================================
+% PROJECTS
+% =========================================================
+
+\section*{PROJECTS}
+
+\noindent
+\textbf{Terto Beats — Digital-assets marketplace for music}
+\hfill
+\textit{Next.js, TypeScript, Supabase, Vercel}
+
+\footnotesize
+
+Built a personal digital platform for selling digital products,
+implementing end-to-end business workflows including the web interface,
+checkout, state management, data persistence, integrations,
+and post-purchase automations.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{RendeCerto — Investment-scenario simulator}
+\hfill
+\textit{Next.js, TypeScript, Vitest}
+
+\footnotesize
+
+Built a financial simulation and calculation application,
+implementing business rules and calculation scenarios with a focus
+on accuracy, reliability, and usability. Added automated test
+coverage to validate results across different scenarios.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{Quebrando Fronteiras — Social-impact and donation platform}
+\hfill
+\textit{Next.js, TypeScript}
+
+\footnotesize
+
+Refactored critical user flows in a social platform, focusing on
+user experience, flow clarity, and conversion improvement.
+
+% =========================================================
+% EDUCATION
+% =========================================================
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{Commerce websites — Repeated web delivery}
+\hfill
+\textit{Next.js 16, React 19, TypeScript, Tailwind, Vercel Analytics}
+
+\footnotesize
+
+Delivered three commerce-oriented web surfaces deployed on Vercel with analytics instrumentation. Evidence supports repeated technical web delivery, not a client relationship, revenue, conversion outcome, or checkout claim.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{Diário de Campo Escoteiro — Offline-first PWA}
+\hfill
+\textit{React, TypeScript, Vite, Tailwind, PouchDB/CouchDB}
+
+\footnotesize
+
+Built an installable field-record application with local data, a service worker, a web app manifest, and automatic CouchDB synchronization after reconnection.
 
 \section*{EDUCATION}
-\noindent\textbf{Tecnólogo in Internet Systems — UNCISAL, Brazil} \hfill \textit{Completed 2026}\\
-Brazilian higher-education technology degree.
+
+\noindent
+\textbf{Tecnólogo in Internet Systems} — UNCISAL (Brazil)
+\hfill
+\textit{Completed 2026}
+
+% =========================================================
+% LANGUAGES
+% =========================================================
 
 \section*{LANGUAGES}
-\textbf{Portuguese:} Native \quad • \quad \textbf{English:} Intermediate/advanced, improving
+
+\noindent
+\textbf{Portuguese:} Native
+\quad • \quad
+\textbf{English:} Intermediate/Advanced (actively improving)
+
 \end{document}

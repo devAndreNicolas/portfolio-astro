@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T21:44:20.439Z",
+  "generatedAt": "2026-10-01T21:59:23.037Z",
   "collection": {
     "at": "2026-10-01T21:22:53.124Z",
     "country": "brazil",
@@ -73,7 +73,7 @@
   },
   "totals": {
     "jobs": 37,
-    "strongMatches": 26,
+    "strongMatches": 30,
     "canonicalCvs": 16
   },
   "cvs": [
@@ -219,6 +219,28 @@
       ]
     },
     {
+      "id": "76323d7df729",
+      "name": "Jobgether  AI Process Forward Deployed Engineer",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "software-engineer-br",
+      "coverage": 100,
+      "requirementCount": 6,
+      "gaps": [],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-missions-001",
+        "exp-mspa-002",
+        "project-fecha-002",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ]
+    },
+    {
       "id": "898c9d3ddef2",
       "name": "Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto]",
       "sourceUrl": null,
@@ -259,6 +281,64 @@
         "project-fecha-003",
         "project-fecha-001",
         "project-terto-001"
+      ]
+    },
+    {
+      "id": "7afca45d385d",
+      "name": "CI&T-MidLevelDeveloperFullStackAEM-AdobeExperienceManager ",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 93,
+      "requirementCount": 14,
+      "gaps": [
+        "aem"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-003",
+        "oss-002",
+        "project-missions-001",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-compliance-001",
+        "project-landing-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004"
+      ]
+    },
+    {
+      "id": "d77ec38d51d0",
+      "name": "CI&T-SeniorDeveloperFullStackAEM-AdobeExperienceManager",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 93,
+      "requirementCount": 14,
+      "gaps": [
+        "aem"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-003",
+        "oss-002",
+        "project-missions-001",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-compliance-001",
+        "project-landing-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004"
       ]
     },
     {
@@ -310,6 +390,30 @@
       ]
     },
     {
+      "id": "0145349e583a",
+      "name": "Sanar-SoftwareEngineer",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "software-engineer-br",
+      "coverage": 90,
+      "requirementCount": 10,
+      "gaps": [
+        "aws-gcp"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-missions-001",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "exp-mspa-003",
+        "project-fecha-002",
+        "project-fecha-003"
+      ]
+    },
+    {
       "id": "13d1cb779b21",
       "name": "Artefact-SoftwareEngineer-Brasil",
       "sourceUrl": null,
@@ -330,6 +434,31 @@
         "project-fecha-002",
         "project-fecha-003",
         "exp-mspa-006"
+      ]
+    },
+    {
+      "id": "4e580ccec6e1",
+      "name": "CI&T  Mid-Level Fullstack Developer ( Java + Angular ) Brazil",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 89,
+      "requirementCount": 10,
+      "gaps": [
+        "spring"
+      ],
+      "evidence": [
+        "exp-mspa-003",
+        "exp-mspa-007",
+        "project-missions-001",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-ecarryon-landing-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001"
       ]
     },
     {
@@ -358,24 +487,51 @@
       ]
     },
     {
-      "id": "4e580ccec6e1",
-      "name": "CI&T  Mid-Level Fullstack Developer ( Java + Angular ) Brazil",
-      "sourceUrl": null,
-      "language": "pt-BR",
-      "recommendedCv": "frontend-engineer-br",
+      "id": "d541d43ed62d",
+      "name": "jobgether-mid-level-fullstack-java-i-angular-developer-c908b789",
+      "sourceUrl": "https://jobs.lever.co/jobgether/8e4b5add-889c-4658-a452-2c1322f9d7bd",
+      "language": "en",
+      "recommendedCv": "frontend-engineer-international",
       "coverage": 88,
       "requirementCount": 9,
       "gaps": [
-        "java"
+        "load-testing"
       ],
       "evidence": [
-        "exp-mspa-003",
+        "exp-mspa-006",
         "exp-mspa-007",
+        "exp-mspa-003",
+        "project-missions-001",
         "project-fecha-001",
         "project-terto-001",
         "exp-mspa-005",
         "project-ecarryon-001",
-        "project-ecarryon-landing-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "project-fecha-002"
+      ]
+    },
+    {
+      "id": "c0bd722dbcda",
+      "name": "Jobgether-MidLevel-Fullstack-(JavaIAngular)Developer",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 88,
+      "requirementCount": 8,
+      "gaps": [
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-missions-001",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
         "project-fecha-003",
         "project-terto-002",
         "project-rendecerto-001"
@@ -430,83 +586,63 @@
       ]
     },
     {
-      "id": "7afca45d385d",
-      "name": "CI&T-MidLevelDeveloperFullStackAEM-AdobeExperienceManager ",
+      "id": "4f5135e9e558",
+      "name": "INDIStaffingServices-AngularDeveloper-Remote-Work",
       "sourceUrl": null,
       "language": "pt-BR",
-      "recommendedCv": "fullstack-engineer-br",
-      "coverage": 85,
-      "requirementCount": 14,
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 86,
+      "requirementCount": 7,
       "gaps": [
-        "aem",
-        "java"
+        "advanced-english"
       ],
       "evidence": [
-        "exp-mspa-007",
-        "project-ecarryon-landing-001",
         "exp-mspa-003",
-        "oss-002",
+        "project-ecarryon-landing-001",
+        "project-missions-001",
         "project-fecha-001",
         "project-terto-001",
         "exp-mspa-005",
-        "project-ecarryon-001",
-        "project-compliance-001",
-        "project-landing-001",
-        "project-fecha-003",
-        "project-terto-002",
-        "project-rendecerto-001",
-        "exp-mspa-004"
+        "project-ecarryon-001"
       ]
     },
     {
-      "id": "d77ec38d51d0",
-      "name": "CI&T-SeniorDeveloperFullStackAEM-AdobeExperienceManager",
+      "id": "9434f47ce871",
+      "name": "INDIStaffingServices-AngularDeveloper-Remote-Work2",
       "sourceUrl": null,
       "language": "pt-BR",
-      "recommendedCv": "fullstack-engineer-br",
-      "coverage": 85,
-      "requirementCount": 14,
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 86,
+      "requirementCount": 7,
       "gaps": [
-        "aem",
-        "java"
+        "advanced-english"
       ],
       "evidence": [
-        "exp-mspa-007",
-        "project-ecarryon-landing-001",
         "exp-mspa-003",
-        "oss-002",
+        "project-ecarryon-landing-001",
+        "project-missions-001",
         "project-fecha-001",
         "project-terto-001",
         "exp-mspa-005",
-        "project-ecarryon-001",
-        "project-compliance-001",
-        "project-landing-001",
-        "project-fecha-003",
-        "project-terto-002",
-        "project-rendecerto-001",
-        "exp-mspa-004"
+        "project-ecarryon-001"
       ]
     },
     {
-      "id": "76323d7df729",
-      "name": "Jobgether  AI Process Forward Deployed Engineer",
+      "id": "349729263019",
+      "name": "Neppo-Desenvolvedor(a)FullStack ",
       "sourceUrl": null,
       "language": "pt-BR",
-      "recommendedCv": "software-engineer-br",
+      "recommendedCv": "fullstack-engineer-br",
       "coverage": 83,
       "requirementCount": 6,
       "gaps": [
-        "java"
+        "spring"
       ],
       "evidence": [
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "exp-mspa-002",
-        "project-fecha-002",
         "exp-mspa-003",
-        "project-fecha-001",
-        "project-terto-001",
+        "project-missions-001",
         "exp-mspa-005",
+        "project-fecha-001",
         "project-ecarryon-001"
       ]
     },
@@ -582,6 +718,80 @@
       ]
     },
     {
+      "id": "2678a78afbfc",
+      "name": "jobgether-full-stack-software-engineer-ai-first-1a319562",
+      "sourceUrl": "https://jobs.lever.co/jobgether/54dd4066-6586-4d90-b7f2-7927181ba492",
+      "language": "en",
+      "recommendedCv": "fullstack-engineer-international",
+      "coverage": 81,
+      "requirementCount": 10,
+      "gaps": [
+        "spring",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-missions-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "oss-002",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ]
+    },
+    {
+      "id": "bc95a69eb30b",
+      "name": "Jobgether-Full-Stack-Software-Engineer-AI-First",
+      "sourceUrl": null,
+      "language": "pt-BR",
+      "recommendedCv": "fullstack-engineer-br",
+      "coverage": 80,
+      "requirementCount": 9,
+      "gaps": [
+        "spring",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-missions-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "oss-002"
+      ]
+    },
+    {
+      "id": "d0ebd9908514",
+      "name": "jobgether-senior-software-engineer-quality-8057b2a9",
+      "sourceUrl": "https://jobs.lever.co/jobgether/ba72a0cb-fb5b-400e-b0c0-5fc135b99703",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 80,
+      "requirementCount": 7,
+      "gaps": [
+        "seniority-5-years"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "exp-mspa-006",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-missions-001"
+      ]
+    },
+    {
       "id": "22f23af2eecc",
       "name": "N-iX  Fullstack Engineer (ScalaTypeScript)",
       "sourceUrl": null,
@@ -600,48 +810,6 @@
         "project-ecarryon-001",
         "exp-mspa-006",
         "exp-mspa-007"
-      ]
-    },
-    {
-      "id": "349729263019",
-      "name": "Neppo-Desenvolvedor(a)FullStack ",
-      "sourceUrl": null,
-      "language": "pt-BR",
-      "recommendedCv": "fullstack-engineer-br",
-      "coverage": 80,
-      "requirementCount": 5,
-      "gaps": [
-        "java"
-      ],
-      "evidence": [
-        "exp-mspa-003",
-        "exp-mspa-005",
-        "project-fecha-001",
-        "project-ecarryon-001"
-      ]
-    },
-    {
-      "id": "0145349e583a",
-      "name": "Sanar-SoftwareEngineer",
-      "sourceUrl": null,
-      "language": "pt-BR",
-      "recommendedCv": "software-engineer-br",
-      "coverage": 80,
-      "requirementCount": 10,
-      "gaps": [
-        "aws-gcp",
-        "java"
-      ],
-      "evidence": [
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "project-fecha-001",
-        "project-terto-001",
-        "project-rendecerto-001",
-        "exp-mspa-005",
-        "exp-mspa-003",
-        "project-fecha-002",
-        "project-fecha-003"
       ]
     },
     {
@@ -669,126 +837,21 @@
       ]
     },
     {
-      "id": "2678a78afbfc",
-      "name": "jobgether-full-stack-software-engineer-ai-first-1a319562",
-      "sourceUrl": "https://jobs.lever.co/jobgether/54dd4066-6586-4d90-b7f2-7927181ba492",
-      "language": "en",
-      "recommendedCv": "fullstack-engineer-international",
-      "coverage": 79,
-      "requirementCount": 9,
-      "gaps": [
-        "java",
-        "load-testing"
-      ],
-      "evidence": [
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "exp-mspa-003",
-        "project-fecha-002",
-        "project-fecha-003",
-        "project-fecha-001",
-        "project-terto-001",
-        "oss-002",
-        "exp-mspa-005",
-        "project-ecarryon-001"
-      ]
-    },
-    {
-      "id": "bc95a69eb30b",
-      "name": "Jobgether-Full-Stack-Software-Engineer-AI-First",
-      "sourceUrl": null,
-      "language": "pt-BR",
-      "recommendedCv": "fullstack-engineer-br",
-      "coverage": 77,
-      "requirementCount": 8,
-      "gaps": [
-        "java",
-        "load-testing"
-      ],
-      "evidence": [
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "exp-mspa-003",
-        "project-fecha-002",
-        "project-fecha-003",
-        "project-fecha-001",
-        "project-terto-001",
-        "oss-002"
-      ]
-    },
-    {
-      "id": "d541d43ed62d",
-      "name": "jobgether-mid-level-fullstack-java-i-angular-developer-c908b789",
-      "sourceUrl": "https://jobs.lever.co/jobgether/8e4b5add-889c-4658-a452-2c1322f9d7bd",
-      "language": "en",
-      "recommendedCv": "frontend-engineer-international",
-      "coverage": 77,
-      "requirementCount": 9,
-      "gaps": [
-        "java",
-        "load-testing"
-      ],
-      "evidence": [
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "exp-mspa-003",
-        "project-fecha-001",
-        "project-terto-001",
-        "exp-mspa-005",
-        "project-ecarryon-001",
-        "project-fecha-003",
-        "project-terto-002",
-        "project-rendecerto-001",
-        "project-fecha-002"
-      ]
-    },
-    {
-      "id": "c0bd722dbcda",
-      "name": "Jobgether-MidLevel-Fullstack-(JavaIAngular)Developer",
+      "id": "9c9c9f5c1256",
+      "name": "CI&T-MidLevel-AIFullstack-(JavaAngular)-Developer-Brazil ",
       "sourceUrl": null,
       "language": "pt-BR",
       "recommendedCv": "frontend-engineer-br",
-      "coverage": 75,
-      "requirementCount": 8,
+      "coverage": 77,
+      "requirementCount": 5,
       "gaps": [
-        "java",
-        "load-testing"
+        "spring"
       ],
       "evidence": [
-        "exp-mspa-006",
-        "exp-mspa-007",
         "exp-mspa-003",
-        "project-fecha-001",
-        "project-terto-001",
-        "exp-mspa-005",
-        "project-ecarryon-001",
-        "project-fecha-003",
-        "project-terto-002",
-        "project-rendecerto-001"
-      ]
-    },
-    {
-      "id": "d0ebd9908514",
-      "name": "jobgether-senior-software-engineer-quality-8057b2a9",
-      "sourceUrl": "https://jobs.lever.co/jobgether/ba72a0cb-fb5b-400e-b0c0-5fc135b99703",
-      "language": "en",
-      "recommendedCv": "software-engineer-international",
-      "coverage": 73,
-      "requirementCount": 7,
-      "gaps": [
-        "seniority-5-years",
-        "java"
-      ],
-      "evidence": [
+        "project-missions-001",
         "exp-mspa-007",
-        "exp-mspa-006",
-        "exp-mspa-005",
-        "project-ecarryon-001",
-        "project-fecha-002",
-        "project-fecha-003",
-        "exp-mspa-003",
-        "project-fecha-001",
-        "project-terto-001"
+        "oss-002"
       ]
     },
     {
@@ -815,65 +878,6 @@
         "project-ecarryon-001",
         "project-fecha-002",
         "exp-mspa-006"
-      ]
-    },
-    {
-      "id": "4f5135e9e558",
-      "name": "INDIStaffingServices-AngularDeveloper-Remote-Work",
-      "sourceUrl": null,
-      "language": "pt-BR",
-      "recommendedCv": "frontend-engineer-br",
-      "coverage": 71,
-      "requirementCount": 7,
-      "gaps": [
-        "advanced-english",
-        "java"
-      ],
-      "evidence": [
-        "exp-mspa-003",
-        "project-ecarryon-landing-001",
-        "project-fecha-001",
-        "project-terto-001",
-        "exp-mspa-005",
-        "project-ecarryon-001"
-      ]
-    },
-    {
-      "id": "9434f47ce871",
-      "name": "INDIStaffingServices-AngularDeveloper-Remote-Work2",
-      "sourceUrl": null,
-      "language": "pt-BR",
-      "recommendedCv": "frontend-engineer-br",
-      "coverage": 71,
-      "requirementCount": 7,
-      "gaps": [
-        "advanced-english",
-        "java"
-      ],
-      "evidence": [
-        "exp-mspa-003",
-        "project-ecarryon-landing-001",
-        "project-fecha-001",
-        "project-terto-001",
-        "exp-mspa-005",
-        "project-ecarryon-001"
-      ]
-    },
-    {
-      "id": "9c9c9f5c1256",
-      "name": "CI&T-MidLevel-AIFullstack-(JavaAngular)-Developer-Brazil ",
-      "sourceUrl": null,
-      "language": "pt-BR",
-      "recommendedCv": "frontend-engineer-br",
-      "coverage": 70,
-      "requirementCount": 4,
-      "gaps": [
-        "java"
-      ],
-      "evidence": [
-        "exp-mspa-003",
-        "exp-mspa-007",
-        "oss-002"
       ]
     },
     {
@@ -1021,14 +1025,14 @@
   "operations": {
     "$schema": "./report.schema.json",
     "schemaVersion": 1,
-    "generatedAt": "2026-10-01T21:44:19.337Z",
+    "generatedAt": "2026-10-01T21:59:22.177Z",
     "definitions": {
       "synergy": "Weighted evidence coverage of recognized vacancy requirements. It is not an ATS-pass or interview-probability score.",
       "atsStructure": "Static source checks for known ATS risks; PDF text extraction and visual review remain separate checks."
     },
     "totals": {
       "analyzedVacancies": 37,
-      "strongMatches": 26,
+      "strongMatches": 30,
       "canonicalCvs": 16,
       "atsStructureReady": 16,
       "plannedVariants": 0
@@ -1130,12 +1134,12 @@
         "public": true,
         "source": "career/cvs/software-engineer-br.tex",
         "output": "public/cv/andre-nicolas-engenheiro-software-br.pdf",
-        "sourceSha256": "ea1e1d427241912c38ca042aea1d49169d1c52cbb8b78b7b707b0640579c6ee8",
+        "sourceSha256": "b4219ae91705b4f4939b37a1c553952e1a2b276a510e01425cf8f619af7e03dc",
         "matchingVacancies": 6,
-        "averageEvidenceCoverage": 73,
+        "averageEvidenceCoverage": 77,
         "status": "ats-structure-ok",
         "risks": [],
-        "optimizationPriority": "normal",
+        "optimizationPriority": "high",
         "agentEvaluation": {
           "decision": "optimized",
           "readiness": {
@@ -1172,12 +1176,12 @@
           ],
           "rejectedClaims": [
             "AWS/GCP experience",
-            "Java experience",
+            "professional Java/Spring experience",
             "advanced/fluent English"
           ],
           "gaps": [
             "aws-gcp",
-            "java",
+            "spring",
             "load-testing",
             "advanced-english"
           ],
@@ -1191,9 +1195,9 @@
         "public": true,
         "source": "career/cvs/software-engineer-international.tex",
         "output": "public/cv/andre-nicolas-software-engineer-en.pdf",
-        "sourceSha256": "40cc0881e8116247acd043f9c372be3f42ac965d1272bef58f6379826d90b3f9",
+        "sourceSha256": "59f0796b4ffa79984934a13a022bbfbc1e98e9a253c1caf50f7dc81c2da2c675",
         "matchingVacancies": 8,
-        "averageEvidenceCoverage": 86,
+        "averageEvidenceCoverage": 87,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -1251,9 +1255,9 @@
         "public": true,
         "source": "career/cvs/fullstack-engineer-br.tex",
         "output": "public/cv/andre-nicolas-engenheiro-fullstack-br.pdf",
-        "sourceSha256": "ea1edca0aa05f372ec61c2d7771ca291612ebf46a59cf3d5c1d6a97e48f4337c",
+        "sourceSha256": "e9d5d90f9ef0e616dae8251a955b0fd644465694e8fba7aadc5a9aadec062068",
         "matchingVacancies": 11,
-        "averageEvidenceCoverage": 85,
+        "averageEvidenceCoverage": 87,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -1292,12 +1296,12 @@
             "Preserved end-to-end product, API, database, testing, and deployment evidence."
           ],
           "rejectedClaims": [
-            "Java/AEM experience",
+            "professional Java/Spring or AEM experience",
             "AWS/GCP experience",
             "SSO experience"
           ],
           "gaps": [
-            "java",
+            "spring",
             "aem",
             "aws-gcp",
             "sso"
@@ -1312,9 +1316,9 @@
         "public": true,
         "source": "career/cvs/fullstack-engineer-international.tex",
         "output": "public/cv/andre-nicolas-fullstack-engineer-en.pdf",
-        "sourceSha256": "4049620ab4818e32759aa5db3c5fafb843b217e07ea914c730c2a6328091f25b",
+        "sourceSha256": "0775d87c472bb91a391a4082fa443ae5689402b1e160aee2cd03bf1572abed7f",
         "matchingVacancies": 3,
-        "averageEvidenceCoverage": 77,
+        "averageEvidenceCoverage": 78,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -1374,7 +1378,7 @@
         "public": true,
         "source": "career/cvs/fullstack-developer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-fullstack-br.pdf",
-        "sourceSha256": "03a0aa780664fb1c6756a85ccba92c5332f6fb52014dc5cdf6e9392bc47ce6fb",
+        "sourceSha256": "2f2b6734dfbc40630f49b26fee56b56c7c4f1f927555b87a63023f4a365eb437",
         "matchingVacancies": 0,
         "averageEvidenceCoverage": 0,
         "status": "ats-structure-ok",
@@ -1416,7 +1420,7 @@
           ],
           "gaps": [
             "aws-gcp",
-            "java",
+            "spring",
             "dotnet"
           ],
           "pdfCompilation": "pending-ci"
@@ -1429,7 +1433,7 @@
         "public": true,
         "source": "career/cvs/fullstack-developer-international.tex",
         "output": "public/cv/andre-nicolas-fullstack-developer-en.pdf",
-        "sourceSha256": "5b6a052ee7adca18a6837c40f4bf7a268f448a312badcebd7ab563449d0703a2",
+        "sourceSha256": "beee9be7769281b1aad4973d92c524f7e00c36ca15a4c9206bf8d2e703cc1716",
         "matchingVacancies": 0,
         "averageEvidenceCoverage": 0,
         "status": "ats-structure-ok",
@@ -1485,7 +1489,7 @@
         "output": "public/cv/andre-nicolas-engenheiro-frontend-br.pdf",
         "sourceSha256": "df81064254536db3d62734fc5a03eda5bd09c46fe6e19829465193062fe6f256",
         "matchingVacancies": 8,
-        "averageEvidenceCoverage": 77,
+        "averageEvidenceCoverage": 84,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -1524,11 +1528,11 @@
             "Prioritized Angular/React, Web Components, UX, accessibility, SEO, and performance evidence."
           ],
           "rejectedClaims": [
-            "Java/AEM experience",
+            "professional Java/Spring or AEM experience",
             "fluent English"
           ],
           "gaps": [
-            "java",
+            "spring",
             "aem",
             "advanced-english"
           ],
@@ -1544,7 +1548,7 @@
         "output": "public/cv/andre-nicolas-frontend-engineer-en.pdf",
         "sourceSha256": "e196cdc18ef57ac262251e3b71b90b49a0db7df6c1f08831da5da0d81a52eedf",
         "matchingVacancies": 1,
-        "averageEvidenceCoverage": 77,
+        "averageEvidenceCoverage": 88,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -1581,11 +1585,11 @@
             "Corrected degree translation and strengthened recruiter-readable frontend narrative."
           ],
           "rejectedClaims": [
-            "Java experience",
+            "professional Java/Spring experience",
             "load-testing experience"
           ],
           "gaps": [
-            "java",
+            "spring",
             "load-testing"
           ],
           "pdfCompilation": "pending-ci"
@@ -1598,7 +1602,7 @@
         "public": true,
         "source": "career/cvs/product-engineer-international.tex",
         "output": "public/cv/andre-nicolas-product-engineer-en.pdf",
-        "sourceSha256": "e39e8c6ca9a17ab450d720f0dcdc17bf54b7c3837bacfc635a2d3d5fe7f6e469",
+        "sourceSha256": "4c164da1421bc96880e292143d12442a7bc0bebf99bc3e8715139572b32d1572",
         "matchingVacancies": 2,
         "averageEvidenceCoverage": 84,
         "status": "ats-structure-ok",
@@ -1757,9 +1761,9 @@
         "public": true,
         "source": "career/cvs/angular-developer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-angular-br.pdf",
-        "sourceSha256": "891346c10fcb98c92eb82463e88ec8f30fc0ecebdfbf3a97dbd16250c8cc15a5",
+        "sourceSha256": "5009d572ccf2e06f8fcfc789258abf3f182f1aa761e4ca8e31d05090119d05fa",
         "matchingVacancies": 12,
-        "averageEvidenceCoverage": 80,
+        "averageEvidenceCoverage": 86,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -1795,12 +1799,12 @@
             "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
           ],
           "rejectedClaims": [
-            "Java backend",
+            "professional Java/Spring backend",
             "AEM",
             "fluent English"
           ],
           "gaps": [
-            "java",
+            "spring",
             "aem",
             "advanced-english"
           ],
@@ -1814,9 +1818,9 @@
         "public": true,
         "source": "career/cvs/angular-developer-international.tex",
         "output": "public/cv/andre-nicolas-angular-developer-en.pdf",
-        "sourceSha256": "5f930bf4ab9cc4c4e4f76b9def42307ec708b70d8c1621fa2571652fd4b53931",
+        "sourceSha256": "42ded2b6d66fc82e9bfefad332dc34f31a54c6295d2d66184cb2c8d1d22d2c38",
         "matchingVacancies": 2,
-        "averageEvidenceCoverage": 78,
+        "averageEvidenceCoverage": 85,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -1850,12 +1854,12 @@
             "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
           ],
           "rejectedClaims": [
-            "Java",
+            "professional Java/Spring experience",
             "load testing",
             "fluent English"
           ],
           "gaps": [
-            "java",
+            "spring",
             "load-testing",
             "advanced-english"
           ],
@@ -1869,9 +1873,9 @@
         "public": true,
         "source": "career/cvs/react-developer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-react-br.pdf",
-        "sourceSha256": "808a489b6f8f1f6616d21ed23877b36e60192383970547aab97c70a71701e53b",
+        "sourceSha256": "b060b7d33e3e68725e2bb6e57f14fe5ddd5e201aa4a4da1ee20c1c076f86380d",
         "matchingVacancies": 15,
-        "averageEvidenceCoverage": 79,
+        "averageEvidenceCoverage": 84,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -1925,7 +1929,7 @@
         "public": true,
         "source": "career/cvs/react-developer-international.tex",
         "output": "public/cv/andre-nicolas-react-developer-en.pdf",
-        "sourceSha256": "0f68fc5fa99a8620f7a9adf156fc7b5d5f84917680fd76298d3e04df425e6d85",
+        "sourceSha256": "4071880b427441eb236db89903881e3f23996422340f8f6958ad0e06b4a00ce2",
         "matchingVacancies": 6,
         "averageEvidenceCoverage": 85,
         "status": "ats-structure-ok",
@@ -1982,12 +1986,12 @@
         "public": true,
         "source": "career/cvs/product-engineer-br.tex",
         "output": "public/cv/andre-nicolas-engenheiro-produto-br.pdf",
-        "sourceSha256": "85444aea919d00657a17bd3b8778c369eac0a680767d67a858427102d470ebbd",
+        "sourceSha256": "c2586a3ecf1aaf2dca367c7a1e0c19a3508d69e59f4346c7d5f3ba606a03259b",
         "matchingVacancies": 2,
-        "averageEvidenceCoverage": 73,
+        "averageEvidenceCoverage": 81,
         "status": "ats-structure-ok",
         "risks": [],
-        "optimizationPriority": "normal",
+        "optimizationPriority": "high",
         "agentEvaluation": {
           "decision": "optimized",
           "readiness": {

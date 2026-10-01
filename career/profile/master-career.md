@@ -59,6 +59,7 @@ Private factual memory for CV and portfolio work. Last synthesized: 2026-10-01. 
 
 - Frontend/product: Angular, React, Next.js, Astro, TypeScript, JavaScript, HTML/CSS, UX, accessibility, SEO, performance/Lighthouse, product requirements, business rules, feature ownership, scope, reusable component systems.
 - Architecture/platform: Web Components, Lit, Shadow DOM, component-based architecture, separation of concerns, Hexagonal Architecture, REST/internal APIs, Go, event-driven systems, SSE, SQL/PostgreSQL/Supabase, Cloudflare Workers/KV/D1/Durable Objects, edge/serverless, CI/CD.
+- Java/mobile: Java and the Android SDK in the academic Missões do Dia application, including SQLite, SharedPreferences, Service, BroadcastReceiver, AsyncTask, Activity, and XML layouts. [project-missions-001] This is project evidence; it is not evidence of professional Java/Spring experience.
 - AI/productivity: generative AI/LLM product features, Genkit, prompt/context design, input sanitization, structured outputs; Codex, Claude, Cursor, CodeRabbit, MCPs, agents, skills, and SDD used in development workflow.
 
 ## Positioning themes
@@ -67,11 +68,11 @@ Private factual memory for CV and portfolio work. Last synthesized: 2026-10-01. 
 
 Use this map to select evidence, not to copy every project into every CV.
 
-- **Frontend Engineer:** MSPA Compass/Trust Center/Compliance Portal; merged Stoat PR; eCarryOn landing. Emphasize Angular/React/Astro, Web Components/Lit, accessibility/SEO/performance, UX clarity, and reusable frontend systems.
-- **Software Engineer:** MSPA full-stack contributions; FechaRacha; eCarryOn architecture; Saúde em Campo. Emphasize boundaries, Go/APIs, PostgreSQL/SQL, Cloudflare, authentication/authorization, tests, asynchronous/offline systems, and reliability.
-- **Full Stack Engineer / Developer:** FechaRacha; Terto Beats; MSPA; eCarryOn. Emphasize end-to-end product flows, auth/data/email/payment-domain integration only where directly evidenced, migrations, validation, server actions/endpoints, and deployment.
-- **Product Engineer:** FechaRacha product strategy; MSPA Compass; Terto Beats; RendaFácil/RendeCerto after name confirmation. Emphasize problem framing, user jobs, constraints, scope, trust, measurable events, and value hypotheses. Do not state unvalidated pricing, traction, or revenue as outcomes.
-- **Web Developer:** eCarryOn landing; commerce-oriented websites; RendaFácil; Diário de Campo. Emphasize responsive web delivery, SEO, content/marketing surfaces, PWA/offline capability, and clear user journeys.
+- **Frontend Engineer:** MSPA Compass/Trust Center/Compliance Portal; merged Stoat PR; Diário de Campo. Emphasize Angular/React/Astro, Web Components/Lit, accessibility/SEO/performance, UX clarity, and reusable frontend systems.
+- **Software Engineer:** MSPA full-stack contributions; FechaRacha; Saúde em Campo; Missões do Dia. Emphasize boundaries, Go/APIs, PostgreSQL/SQL, Cloudflare, authentication/authorization, tests, asynchronous/offline systems, reliability, and Java/Android project work where relevant.
+- **Full Stack Engineer / Developer:** FechaRacha; Terto Beats; MSPA; Saúde em Campo; Missões do Dia. Emphasize end-to-end product flows, auth/data/email/payment-domain integration only where directly evidenced, migrations, validation, server actions/endpoints, and deployment.
+- **Product Engineer:** FechaRacha product strategy; MSPA Compass; Terto Beats; Saúde em Campo; RendaFácil/RendeCerto after name confirmation. Emphasize problem framing, user jobs, constraints, scope, trust, measurable events, and value hypotheses. Do not state unvalidated pricing, traction, or revenue as outcomes.
+- **Web Developer:** commerce-oriented websites; RendaFácil; Diário de Campo; Compliance Portal. Emphasize responsive web delivery, SEO, content/marketing surfaces, PWA/offline capability, and clear user journeys.
 
 ## Evidence gaps to close
 

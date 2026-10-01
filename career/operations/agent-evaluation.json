@@ -18,8 +18,8 @@
       "jobSources": ["career/applications/Artefact-SoftwareEngineer-Brasil.txt", "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt", "career/applications/Sanar-SoftwareEngineer.txt"],
       "evidenceIds": ["exp-mspa-001", "exp-mspa-002", "exp-mspa-005", "exp-mspa-006", "exp-mspa-007", "project-fecha-001", "project-fecha-003", "project-ecarryon-001"],
       "changes": ["Preserved the official Frontend Engineer employment title while keeping the target role in the headline.", "Clarified the official Tecnólogo credential."],
-      "rejectedClaims": ["AWS/GCP experience", "Java experience", "advanced/fluent English"],
-      "gaps": ["aws-gcp", "java", "load-testing", "advanced-english"],
+      "rejectedClaims": ["AWS/GCP experience", "professional Java/Spring experience", "advanced/fluent English"],
+      "gaps": ["aws-gcp", "spring", "load-testing", "advanced-english"],
       "pdfCompilation": "pending-ci"
     },
     "software-engineer-international": {
@@ -40,8 +40,8 @@
       "jobSources": ["career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt", "career/applications/Diagonal-DesenvolvedorFullStack.txt", "career/applications/ISASaúde-DesenvolvedorFullStackPleno.txt"],
       "evidenceIds": ["exp-mspa-001", "exp-mspa-005", "exp-mspa-007", "project-fecha-001", "project-fecha-003", "project-terto-001", "project-terto-002", "project-ecarryon-001"],
       "changes": ["Separated official employment title from full-stack positioning.", "Preserved end-to-end product, API, database, testing, and deployment evidence."],
-      "rejectedClaims": ["Java/AEM experience", "AWS/GCP experience", "SSO experience"],
-      "gaps": ["java", "aem", "aws-gcp", "sso"],
+      "rejectedClaims": ["professional Java/Spring or AEM experience", "AWS/GCP experience", "SSO experience"],
+      "gaps": ["spring", "aem", "aws-gcp", "sso"],
       "pdfCompilation": "pending-ci"
     },
     "fullstack-engineer-international": {
@@ -63,7 +63,7 @@
       "evidenceIds": ["exp-mspa-001", "exp-mspa-005", "exp-mspa-007", "project-fecha-001", "project-terto-001", "project-terto-002"],
       "changes": ["Corrected official employment title and credential wording.", "Verified developer-oriented end-to-end implementation narrative."],
       "rejectedClaims": ["Unsupported cloud vendors and backend stacks"],
-      "gaps": ["aws-gcp", "java", "dotnet"],
+      "gaps": ["aws-gcp", "spring", "dotnet"],
       "pdfCompilation": "pending-ci"
     },
     "fullstack-developer-international": {
@@ -84,8 +84,8 @@
       "jobSources": ["career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt", "career/applications/Arco Educação  Software Engineer II - Front End .txt", "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt"],
       "evidenceIds": ["exp-mspa-001", "exp-mspa-002", "exp-mspa-003", "exp-mspa-004", "exp-mspa-007", "oss-002", "project-compliance-001", "project-ecarryon-landing-001"],
       "changes": ["Rebuilt as a concise single-column ATS source.", "Prioritized Angular/React, Web Components, UX, accessibility, SEO, and performance evidence."],
-      "rejectedClaims": ["Java/AEM experience", "fluent English"],
-      "gaps": ["java", "aem", "advanced-english"],
+      "rejectedClaims": ["professional Java/Spring or AEM experience", "fluent English"],
+      "gaps": ["spring", "aem", "advanced-english"],
       "pdfCompilation": "pending-ci"
     },
     "frontend-engineer-international": {
@@ -95,8 +95,8 @@
       "jobSources": ["career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt"],
       "evidenceIds": ["exp-mspa-001", "exp-mspa-002", "exp-mspa-003", "exp-mspa-004", "exp-mspa-007", "oss-002", "project-compliance-001", "project-ecarryon-landing-001"],
       "changes": ["Rebuilt from multi-column to single-column ATS layout.", "Corrected degree translation and strengthened recruiter-readable frontend narrative."],
-      "rejectedClaims": ["Java experience", "load-testing experience"],
-      "gaps": ["java", "load-testing"],
+      "rejectedClaims": ["professional Java/Spring experience", "load-testing experience"],
+      "gaps": ["spring", "load-testing"],
       "pdfCompilation": "pending-ci"
     },
     "product-engineer-international": {
@@ -139,8 +139,8 @@
       "jobSources": ["career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt", "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt", "career/applications/Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack.txt"],
       "evidenceIds": ["exp-mspa-003", "exp-mspa-007", "exp-mspa-005", "oss-002", "project-fecha-001"],
       "changes": ["Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand.", "Replaced the skeletal role shell with role-specific experience and detailed project narratives."],
-      "rejectedClaims": ["Java backend", "AEM", "fluent English"],
-      "gaps": ["java", "aem", "advanced-english"],
+      "rejectedClaims": ["professional Java/Spring backend", "AEM", "fluent English"],
+      "gaps": ["spring", "aem", "advanced-english"],
       "pdfCompilation": "pending-ci"
     },
     "angular-developer-international": {
@@ -150,8 +150,8 @@
       "jobSources": ["career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt", "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"],
       "evidenceIds": ["exp-mspa-003", "exp-mspa-007", "exp-mspa-005", "oss-002"],
       "changes": ["Created an English Angular canonical CV with transparent education and language claims.", "Replaced the skeletal role shell with role-specific experience and detailed project narratives."],
-      "rejectedClaims": ["Java", "load testing", "fluent English"],
-      "gaps": ["java", "load-testing", "advanced-english"],
+      "rejectedClaims": ["professional Java/Spring experience", "load testing", "fluent English"],
+      "gaps": ["spring", "load-testing", "advanced-english"],
       "pdfCompilation": "pending-ci"
     },
     "react-developer-br": {
