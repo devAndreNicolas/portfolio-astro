@@ -1,0 +1,20 @@
+# Application and ATS workflow
+
+`pnpm applications:analyze` reads every non-empty `.txt` job description under `career/applications/` and writes deterministic evidence-coverage reports to `career/applications/analysis/`.
+
+The analyzer repairs common UTF-8/Latin-1 mojibake found in copied LinkedIn descriptions before matching terms; it never modifies the original job-description file.
+
+The score is deliberately narrow: weighted coverage of recognized requirements that can be tied to an evidence ID in `career/profile/master-career.md`. It is not an ATS pass rate, interview likelihood, or a reason to claim missing experience.
+
+The taxonomy deliberately separates near-but-not-equivalent requirements. For example, authentication does not prove SSO, a security-conscious design does not prove vulnerability testing, and general performance work does not prove load testing. These show as evidence gaps until new, specific evidence exists.
+
+Use the report to choose a canonical CV and decide whether the job is worth tailoring. For a selected vacancy:
+
+1. Preserve the job description under `career/jobs/`.
+2. Create `career/applications/<company>-<role>/`.
+3. Add a requirement-to-evidence table and write the derivative `.tex` CV there.
+4. Run `pnpm cv:check`, build the target CV, and run `pnpm cv:verify` once a PDF is generated.
+
+Use `pnpm applications:report -- <part-of-filename>` to inspect one application without rewriting reports.
+
+The taxonomy at `career/ats/taxonomy.json` is the single configuration seam for recognized terms, evidence IDs, and canonical-CV recommendations. Add a term only with real evidence; use an empty `evidence` array to expose a gap.

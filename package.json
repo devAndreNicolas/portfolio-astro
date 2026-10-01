@@ -14,6 +14,9 @@
     "cv:check": "node scripts/validate-cv.mjs",
     "cv:verify": "node scripts/validate-cv.mjs --require-pdfs",
     "cv:clean": "node scripts/cv.mjs clean",
+    "applications:analyze": "node scripts/analyze-applications.mjs --write",
+    "applications:report": "node scripts/analyze-applications.mjs",
+    "applications:test": "node --test scripts/analyze-applications.test.mjs",
     "validate": "pnpm cv:check && pnpm build"
   },
   "dependencies": {

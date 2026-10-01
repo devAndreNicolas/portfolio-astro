@@ -1,0 +1,2639 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-01T18:03:42.971Z",
+  "reports": [
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Diagonal-DesenvolvedorFullStack.txt",
+      "sourceSha256": "557b493c06924962951742bfaf30d1982de4cad4c46765c1a5ae9016ff96af53",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 100,
+        "supportedWeight": 12,
+        "totalWeight": 12,
+        "recognizedRequirementCount": 4,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "node",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [],
+      "evidenceToPrioritize": [
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "exp-mspa-003",
+        "project-ecarryon-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
+      "sourceSha256": "ae178b706170d3fe842eeb6a2b32a2331ea6d19f6d7358f7174952b42d5a4b12",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 100,
+        "supportedWeight": 28,
+        "totalWeight": 28,
+        "recognizedRequirementCount": 10,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "cicd",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "nextjs",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001",
+            "project-rendecerto-001"
+          ]
+        },
+        {
+          "id": "node",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "cloudflare",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-004",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "testing",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007",
+            "project-fecha-003",
+            "project-terto-002",
+            "project-rendecerto-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [],
+      "evidenceToPrioritize": [
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-004",
+        "project-fecha-003",
+        "project-terto-002"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
+      "sourceSha256": "898c9d3ddef2612c7cba129a210e38d6b0f353453e7641566c26c14749291430",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 100,
+        "supportedWeight": 21,
+        "totalWeight": 21,
+        "recognizedRequirementCount": 7,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "html-css",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "testing",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-fecha-003",
+            "project-terto-002",
+            "project-rendecerto-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "project-fecha-001",
+        "project-terto-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack.txt",
+      "sourceSha256": "0e8a68a6efc20eed2d52a694aadd23325fa859235e5b34fb6c0e172d87ee5c8a",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 92,
+        "supportedWeight": 22,
+        "totalWeight": 24,
+        "recognizedRequirementCount": 9,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "html-css",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "security",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-002",
+            "project-fecha-003",
+            "exp-mspa-006"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "testing",
+          "tier": "preferred",
+          "evidence": [
+            "exp-mspa-007",
+            "project-fecha-003",
+            "project-terto-002",
+            "project-rendecerto-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "documentation",
+          "tier": "core",
+          "phrases": [
+            "documentation habits",
+            "technical documentation",
+            "change logs",
+            "design decisions",
+            "documentação técnica"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "project-ecarryon-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "project-terto-001",
+        "exp-mspa-007",
+        "project-terto-002",
+        "project-rendecerto-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/ISASaúde-DesenvolvedorFullStackPleno.txt",
+      "sourceSha256": "b7d767d4b63f0e6da5469f626a3b09d0a007fca74f3d4583658dfb40be0f4f50",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 90,
+        "supportedWeight": 27,
+        "totalWeight": 30,
+        "recognizedRequirementCount": 10,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "ai-product",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-006",
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "nextjs",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001",
+            "project-rendecerto-001"
+          ]
+        },
+        {
+          "id": "node",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "aws-gcp",
+          "tier": "required",
+          "phrases": [
+            "aws",
+            "gcp",
+            "google cloud",
+            "amazon web services"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
+      "sourceSha256": "13d1cb779b21ed04979b66c699448320a97376c4a3dc5a84a5b7a9081563d85b",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "software-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 89,
+        "supportedWeight": 16,
+        "totalWeight": 18,
+        "recognizedRequirementCount": 9,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "auth",
+          "tier": "core",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "nextjs",
+          "tier": "core",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001",
+            "project-rendecerto-001"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "security",
+          "tier": "core",
+          "evidence": [
+            "project-fecha-002",
+            "project-fecha-003",
+            "exp-mspa-006"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "advanced-english",
+          "tier": "core",
+          "phrases": [
+            "strong written and verbal communication skills in english",
+            "fluent english",
+            "advanced english",
+            "inglês fluente",
+            "inglês avançado"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/CI&T  Mid-Level Fullstack Developer ( Java + Angular ) Brazil.txt",
+      "sourceSha256": "4e580ccec6e1f54194ff044a439742b96267b1bce7b642bd6ddff082130d4ae8",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 88,
+        "supportedWeight": 14,
+        "totalWeight": 16,
+        "recognizedRequirementCount": 9,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "node",
+          "tier": "core",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "accessibility",
+          "tier": "preferred",
+          "evidence": [
+            "exp-mspa-007",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "testing",
+          "tier": "preferred",
+          "evidence": [
+            "exp-mspa-007",
+            "project-fecha-003",
+            "project-terto-002",
+            "project-rendecerto-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "java",
+          "tier": "core",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-ecarryon-landing-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/CI&T-MidLevelDeveloperFullStackAEM-AdobeExperienceManager .txt",
+      "sourceSha256": "7afca45d385dd73abe31c6cf9b146f1be908e07f27820a4743fbd4396a3bc577",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 85,
+        "supportedWeight": 34,
+        "totalWeight": 40,
+        "recognizedRequirementCount": 14,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "accessibility",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "code-review",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "oss-002"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "seo",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-compliance-001",
+            "project-landing-001"
+          ]
+        },
+        {
+          "id": "testing",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-fecha-003",
+            "project-terto-002",
+            "project-rendecerto-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "web-components",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "exp-mspa-004"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "html-css",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "aem",
+          "tier": "required",
+          "phrases": [
+            "adobe experience manager",
+            "aem",
+            "adobe"
+          ]
+        },
+        {
+          "id": "java",
+          "tier": "required",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-003",
+        "oss-002",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-compliance-001",
+        "project-landing-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/CI&T-SeniorDeveloperFullStackAEM-AdobeExperienceManager.txt",
+      "sourceSha256": "d77ec38d51d05aebe8b07d75bd68a997a8ec4f0918c252587845195d6325ab72",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 85,
+        "supportedWeight": 34,
+        "totalWeight": 40,
+        "recognizedRequirementCount": 14,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "accessibility",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "code-review",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "oss-002"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "seo",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-compliance-001",
+            "project-landing-001"
+          ]
+        },
+        {
+          "id": "testing",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-fecha-003",
+            "project-terto-002",
+            "project-rendecerto-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "web-components",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "exp-mspa-004"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "html-css",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "aem",
+          "tier": "required",
+          "phrases": [
+            "adobe experience manager",
+            "aem",
+            "adobe"
+          ]
+        },
+        {
+          "id": "java",
+          "tier": "required",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-003",
+        "oss-002",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-compliance-001",
+        "project-landing-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt",
+      "sourceSha256": "76323d7df729741b8d93e05b48fe35ffe589588d546b6b38c1d326f258df2edb",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "software-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 83,
+        "supportedWeight": 15,
+        "totalWeight": 18,
+        "recognizedRequirementCount": 6,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "ai-product",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-006",
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "product",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-002",
+            "project-fecha-002"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "java",
+          "tier": "required",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-002",
+        "project-fecha-002",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/NOTORIA  Desenvolvedor(a) Full Stack (100% Remoto) – Foco em IA e Saúde - 1120.txt",
+      "sourceSha256": "1214013710978a5f8b9fc3a770dbafebfc03d448980ba8bcfa4566b18a929575",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 83,
+        "supportedWeight": 15,
+        "totalWeight": 18,
+        "recognizedRequirementCount": 6,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "cicd",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "security",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-002",
+            "project-fecha-003",
+            "exp-mspa-006"
+          ]
+        },
+        {
+          "id": "testing",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-fecha-003",
+            "project-terto-002",
+            "project-rendecerto-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "aws-gcp",
+          "tier": "required",
+          "phrases": [
+            "aws",
+            "gcp",
+            "google cloud",
+            "amazon web services"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-007",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "exp-mspa-003",
+        "project-terto-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "project-terto-002",
+        "project-rendecerto-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/N-iX  Fullstack Engineer (ScalaTypeScript).txt",
+      "sourceSha256": "22f23af2eecc92dccbdab3b61105d42123e8d47134337ff7eb22a9c819e45714",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 80,
+        "supportedWeight": 12,
+        "totalWeight": 15,
+        "recognizedRequirementCount": 6,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "ai-product",
+          "tier": "preferred",
+          "evidence": [
+            "exp-mspa-006",
+            "exp-mspa-007"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "scala",
+          "tier": "required",
+          "phrases": [
+            "scala"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-ecarryon-001",
+        "exp-mspa-006",
+        "exp-mspa-007"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Neppo-Desenvolvedor(a)FullStack .txt",
+      "sourceSha256": "349729263019fc05ba99d720e27d783cec1feb5f2b867f157f69451a1b44a1d2",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 80,
+        "supportedWeight": 12,
+        "totalWeight": 15,
+        "recognizedRequirementCount": 5,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "java",
+          "tier": "required",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "project-ecarryon-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Sanar-SoftwareEngineer.txt",
+      "sourceSha256": "0145349e583a5d9b11e8ef655497cfe630121ed4d942c5610f7e4bcf5824d7a1",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "software-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 80,
+        "supportedWeight": 16,
+        "totalWeight": 20,
+        "recognizedRequirementCount": 10,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "ai-product",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-006",
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "nextjs",
+          "tier": "core",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001",
+            "project-rendecerto-001"
+          ]
+        },
+        {
+          "id": "node",
+          "tier": "core",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "security",
+          "tier": "core",
+          "evidence": [
+            "project-fecha-002",
+            "project-fecha-003",
+            "exp-mspa-006"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "aws-gcp",
+          "tier": "core",
+          "phrases": [
+            "aws",
+            "gcp",
+            "google cloud",
+            "amazon web services"
+          ]
+        },
+        {
+          "id": "java",
+          "tier": "core",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "exp-mspa-003",
+        "project-fecha-002",
+        "project-fecha-003"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Arco Educação  Software Engineer II - Front End .txt",
+      "sourceSha256": "3cbfa95bfe8e6504e9e7deeb9b8b8dc1ff40b82bc30560212072de8ed8d8e101",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 79,
+        "supportedWeight": 19,
+        "totalWeight": 24,
+        "recognizedRequirementCount": 9,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "accessibility",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "html-css",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "testing",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-fecha-003",
+            "project-terto-002",
+            "project-rendecerto-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "web-components",
+          "tier": "preferred",
+          "evidence": [
+            "exp-mspa-003",
+            "exp-mspa-004"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "documentation",
+          "tier": "required",
+          "phrases": [
+            "documentation habits",
+            "technical documentation",
+            "change logs",
+            "design decisions",
+            "documentação técnica"
+          ]
+        },
+        {
+          "id": "aws-gcp",
+          "tier": "core",
+          "phrases": [
+            "aws",
+            "gcp",
+            "google cloud",
+            "amazon web services"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Jobgether-Full-Stack-Software-Engineer-AI-First.txt",
+      "sourceSha256": "bc95a69eb30b719af9e097576938be27f3249d169ae35bac9007ed9e9939dd04",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 77,
+        "supportedWeight": 17,
+        "totalWeight": 22,
+        "recognizedRequirementCount": 8,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "ai-product",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-006",
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "security",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-002",
+            "project-fecha-003",
+            "exp-mspa-006"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "code-review",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007",
+            "oss-002"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "java",
+          "tier": "required",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        },
+        {
+          "id": "load-testing",
+          "tier": "core",
+          "phrases": [
+            "load testing",
+            "real-world user load",
+            "scalability",
+            "performance tuning"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-fecha-002",
+        "project-fecha-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "oss-002"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Jobgether-MidLevel-Fullstack-(JavaIAngular)Developer.txt",
+      "sourceSha256": "c0bd722dbcdae3be4567e9147bb58563e9b17b07a793e81879a9706927683138",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 75,
+        "supportedWeight": 18,
+        "totalWeight": 24,
+        "recognizedRequirementCount": 8,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "ai-product",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-006",
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "node",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "testing",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-fecha-003",
+            "project-terto-002",
+            "project-rendecerto-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "java",
+          "tier": "required",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        },
+        {
+          "id": "load-testing",
+          "tier": "required",
+          "phrases": [
+            "load testing",
+            "real-world user load",
+            "scalability",
+            "performance tuning"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt",
+      "sourceSha256": "4f5135e9e558952ec638117043e06fb4a8b7c8f099a818cf29ddeba44cd2afd3",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 71,
+        "supportedWeight": 15,
+        "totalWeight": 21,
+        "recognizedRequirementCount": 7,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "html-css",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "advanced-english",
+          "tier": "required",
+          "phrases": [
+            "strong written and verbal communication skills in english",
+            "fluent english",
+            "advanced english",
+            "inglês fluente",
+            "inglês avançado"
+          ]
+        },
+        {
+          "id": "java",
+          "tier": "required",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work2.txt",
+      "sourceSha256": "9434f47ce8714a8818693a5dd96d95e6b651a1a981bf3148cb0f2eb8242e7429",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 71,
+        "supportedWeight": 15,
+        "totalWeight": 21,
+        "recognizedRequirementCount": 7,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "html-css",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "advanced-english",
+          "tier": "required",
+          "phrases": [
+            "strong written and verbal communication skills in english",
+            "fluent english",
+            "advanced english",
+            "inglês fluente",
+            "inglês avançado"
+          ]
+        },
+        {
+          "id": "java",
+          "tier": "required",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/CI&T-MidLevel-AIFullstack-(JavaAngular)-Developer-Brazil .txt",
+      "sourceSha256": "9c9c9f5c1256c14b729f64d8ee22b282b122e2f260ac313d0e38f2ba9b644b8e",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 70,
+        "supportedWeight": 7,
+        "totalWeight": 10,
+        "recognizedRequirementCount": 4,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "code-review",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007",
+            "oss-002"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "java",
+          "tier": "required",
+          "phrases": [
+            "java",
+            "spring",
+            "spring boot"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "exp-mspa-007",
+        "oss-002"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Athelas-SoftwareEngineer-Applied-AI(Brazil).txt",
+      "sourceSha256": "967eaf7ddcea5d4e603efcb95aae15476df97e34850f4ac4aef8734dbb14e9c1",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "software-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 68,
+        "supportedWeight": 13,
+        "totalWeight": 19,
+        "recognizedRequirementCount": 7,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "html-css",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "security",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-002",
+            "project-fecha-003",
+            "exp-mspa-006"
+          ]
+        },
+        {
+          "id": "ai-product",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-006",
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "aws-gcp",
+          "tier": "required",
+          "phrases": [
+            "aws",
+            "gcp",
+            "google cloud",
+            "amazon web services"
+          ]
+        },
+        {
+          "id": "load-testing",
+          "tier": "required",
+          "phrases": [
+            "load testing",
+            "real-world user load",
+            "scalability",
+            "performance tuning"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "exp-mspa-007"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Commure-SoftwareEngineer-AppliedAI(Brazil).txt",
+      "sourceSha256": "c5e63c6fc4dd9f572698e4282134a85ffde26f5c40ccad83af607c54ab4b280b",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "software-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 68,
+        "supportedWeight": 13,
+        "totalWeight": 19,
+        "recognizedRequirementCount": 7,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "html-css",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "security",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-002",
+            "project-fecha-003",
+            "exp-mspa-006"
+          ]
+        },
+        {
+          "id": "ai-product",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-006",
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "aws-gcp",
+          "tier": "required",
+          "phrases": [
+            "aws",
+            "gcp",
+            "google cloud",
+            "amazon web services"
+          ]
+        },
+        {
+          "id": "load-testing",
+          "tier": "required",
+          "phrases": [
+            "load testing",
+            "real-world user load",
+            "scalability",
+            "performance tuning"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "exp-mspa-007"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/FCamara-DesenvolvedorFullstack-NET+AngularouReact-Pleno.txt",
+      "sourceSha256": "e99c8a3a319ee641647cb4f81411a5e00560ae75b86350eb03e296c890c5e118",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 65,
+        "supportedWeight": 11,
+        "totalWeight": 17,
+        "recognizedRequirementCount": 6,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "aws-gcp",
+          "tier": "required",
+          "phrases": [
+            "aws",
+            "gcp",
+            "google cloud",
+            "amazon web services"
+          ]
+        },
+        {
+          "id": "dotnet",
+          "tier": "required",
+          "phrases": [
+            ".net",
+            "dotnet",
+            "c#",
+            "asp.net"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/APAS.AI-Full-Stack-Engineer.txt",
+      "sourceSha256": "4332d2105e60a3a942a1bca202c35b475532ce7714c3a1ad312ffa14c06d47b2",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "fullstack-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 62,
+        "supportedWeight": 41,
+        "totalWeight": 66,
+        "recognizedRequirementCount": 25,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "ai-product",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-006",
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "auth",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "authorization",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-003",
+            "project-saude-001"
+          ]
+        },
+        {
+          "id": "html-css",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "node",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "product",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-002",
+            "project-fecha-002"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "security",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-002",
+            "project-fecha-003",
+            "exp-mspa-006"
+          ]
+        },
+        {
+          "id": "testing",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-007",
+            "project-fecha-003",
+            "project-terto-002",
+            "project-rendecerto-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "accessibility",
+          "tier": "preferred",
+          "evidence": [
+            "exp-mspa-007",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "payments",
+          "tier": "preferred",
+          "evidence": [
+            "project-terto-002"
+          ]
+        },
+        {
+          "id": "pwa-offline",
+          "tier": "preferred",
+          "evidence": [
+            "project-diary-001",
+            "project-saude-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "advanced-english",
+          "tier": "required",
+          "phrases": [
+            "strong written and verbal communication skills in english",
+            "fluent english",
+            "advanced english",
+            "inglês fluente",
+            "inglês avançado"
+          ]
+        },
+        {
+          "id": "documentation",
+          "tier": "required",
+          "phrases": [
+            "documentation habits",
+            "technical documentation",
+            "change logs",
+            "design decisions",
+            "documentação técnica"
+          ]
+        },
+        {
+          "id": "ipad",
+          "tier": "required",
+          "phrases": [
+            "ipad",
+            "ipad safari",
+            "touch interactions"
+          ]
+        },
+        {
+          "id": "load-testing",
+          "tier": "required",
+          "phrases": [
+            "load testing",
+            "real-world user load",
+            "scalability",
+            "performance tuning"
+          ]
+        },
+        {
+          "id": "multi-tenancy",
+          "tier": "required",
+          "phrases": [
+            "multi-tenant",
+            "multitenant",
+            "tenant isolation",
+            "customer organization"
+          ]
+        },
+        {
+          "id": "seniority-5-years",
+          "tier": "required",
+          "phrases": [
+            "5+ years",
+            "5 years of",
+            "five years"
+          ]
+        },
+        {
+          "id": "sso",
+          "tier": "required",
+          "phrases": [
+            "single sign-on",
+            "sso",
+            "saml",
+            "openid connect",
+            "oidc",
+            "okta",
+            "entra id",
+            "auth0"
+          ]
+        },
+        {
+          "id": "vulnerability-testing",
+          "tier": "required",
+          "phrases": [
+            "vulnerability testing",
+            "dependency scanning",
+            "static analysis",
+            "penetration testing",
+            "pentest",
+            "owasp top 10"
+          ]
+        },
+        {
+          "id": "rag",
+          "tier": "preferred",
+          "phrases": [
+            "retrieval-augmented generation",
+            "rag"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-fecha-003",
+        "project-saude-001",
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "exp-mspa-005",
+        "exp-mspa-002",
+        "project-fecha-002",
+        "project-ecarryon-001",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "project-diary-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/C&IT-Software-Architect-Brazil.txt",
+      "sourceSha256": "a6b72bd981f2759c1a65ae1bb726f2d493a20c84a907a2b1edae08684f25013b",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "software-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 47,
+        "supportedWeight": 8,
+        "totalWeight": 17,
+        "recognizedRequirementCount": 6,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "node",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "aws-gcp",
+          "tier": "required",
+          "phrases": [
+            "aws",
+            "gcp",
+            "google cloud",
+            "amazon web services"
+          ]
+        },
+        {
+          "id": "documentation",
+          "tier": "required",
+          "phrases": [
+            "documentation habits",
+            "technical documentation",
+            "change logs",
+            "design decisions",
+            "documentação técnica"
+          ]
+        },
+        {
+          "id": "load-testing",
+          "tier": "required",
+          "phrases": [
+            "load testing",
+            "real-world user load",
+            "scalability",
+            "performance tuning"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-003",
+        "exp-mspa-007"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    }
+  ]
+}
