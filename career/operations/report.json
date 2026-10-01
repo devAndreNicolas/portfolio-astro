@@ -1,6 +1,7 @@
 {
+  "$schema": "./report.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T21:09:27.473Z",
+  "generatedAt": "2026-10-01T21:27:18.386Z",
   "definitions": {
     "synergy": "Weighted evidence coverage of recognized vacancy requirements. It is not an ATS-pass or interview-probability score.",
     "atsStructure": "Static source checks for known ATS risks; PDF text extraction and visual review remain separate checks."
@@ -8,9 +9,9 @@
   "totals": {
     "analyzedVacancies": 37,
     "strongMatches": 26,
-    "canonicalCvs": 11,
-    "atsStructureReady": 11,
-    "plannedVariants": 5
+    "canonicalCvs": 16,
+    "atsStructureReady": 16,
+    "plannedVariants": 0
   },
   "recommendedRoles": [
     {
@@ -109,12 +110,59 @@
       "public": true,
       "source": "career/cvs/software-engineer-br.tex",
       "output": "public/cv/andre-nicolas-engenheiro-software-br.pdf",
-      "sourceSha256": "e3c931ec1a9b149928325a0edcad0e43a468879242ff0e5fbb2a9f47099606f1",
+      "sourceSha256": "ea1e1d427241912c38ca042aea1d49169d1c52cbb8b78b7b707b0640579c6ee8",
       "matchingVacancies": 6,
       "averageEvidenceCoverage": 73,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "normal"
+      "optimizationPriority": "normal",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 73,
+          "matchingVacancies": 6
+        },
+        "jobSources": [
+          "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
+          "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt",
+          "career/applications/Sanar-SoftwareEngineer.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-001",
+          "exp-mspa-002",
+          "exp-mspa-005",
+          "exp-mspa-006",
+          "exp-mspa-007",
+          "project-fecha-001",
+          "project-fecha-003",
+          "project-ecarryon-001"
+        ],
+        "changes": [
+          "Preserved the official Frontend Engineer employment title while keeping the target role in the headline.",
+          "Clarified the official Tecnólogo credential."
+        ],
+        "rejectedClaims": [
+          "AWS/GCP experience",
+          "Java experience",
+          "advanced/fluent English"
+        ],
+        "gaps": [
+          "aws-gcp",
+          "java",
+          "load-testing",
+          "advanced-english"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     },
     {
       "id": "software-engineer-international",
@@ -123,12 +171,58 @@
       "public": true,
       "source": "career/cvs/software-engineer-international.tex",
       "output": "public/cv/andre-nicolas-software-engineer-en.pdf",
-      "sourceSha256": "2ee856dabb718259c9a46cad8b5b9b204472e955add379d7e6ae66768b0a118e",
+      "sourceSha256": "40cc0881e8116247acd043f9c372be3f42ac965d1272bef58f6379826d90b3f9",
       "matchingVacancies": 8,
       "averageEvidenceCoverage": 86,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "high"
+      "optimizationPriority": "high",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 86,
+          "matchingVacancies": 8
+        },
+        "jobSources": [
+          "career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt",
+          "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
+          "career/applications/Software Engineer, Autonomous Revenue Operations (Brazil).txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-001",
+          "exp-mspa-005",
+          "exp-mspa-006",
+          "exp-mspa-007",
+          "project-fecha-001",
+          "project-fecha-003",
+          "project-ecarryon-001",
+          "oss-002"
+        ],
+        "changes": [
+          "Preserved the official employment title.",
+          "Reframed the Brazilian degree without inventing an international equivalence."
+        ],
+        "rejectedClaims": [
+          "AWS/GCP experience",
+          "five years of experience",
+          "fluent English"
+        ],
+        "gaps": [
+          "aws-gcp",
+          "seniority-5-years",
+          "advanced-english"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     },
     {
       "id": "fullstack-engineer-br",
@@ -137,12 +231,59 @@
       "public": true,
       "source": "career/cvs/fullstack-engineer-br.tex",
       "output": "public/cv/andre-nicolas-engenheiro-fullstack-br.pdf",
-      "sourceSha256": "614727d7d24eab0f1f2222fb38247a50b89cf0826cf6aad2f0432e43cb6eb7b5",
+      "sourceSha256": "ea1edca0aa05f372ec61c2d7771ca291612ebf46a59cf3d5c1d6a97e48f4337c",
       "matchingVacancies": 11,
       "averageEvidenceCoverage": 85,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "high"
+      "optimizationPriority": "high",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 85,
+          "matchingVacancies": 11
+        },
+        "jobSources": [
+          "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
+          "career/applications/Diagonal-DesenvolvedorFullStack.txt",
+          "career/applications/ISASaúde-DesenvolvedorFullStackPleno.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-001",
+          "exp-mspa-005",
+          "exp-mspa-007",
+          "project-fecha-001",
+          "project-fecha-003",
+          "project-terto-001",
+          "project-terto-002",
+          "project-ecarryon-001"
+        ],
+        "changes": [
+          "Separated official employment title from full-stack positioning.",
+          "Preserved end-to-end product, API, database, testing, and deployment evidence."
+        ],
+        "rejectedClaims": [
+          "Java/AEM experience",
+          "AWS/GCP experience",
+          "SSO experience"
+        ],
+        "gaps": [
+          "java",
+          "aem",
+          "aws-gcp",
+          "sso"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     },
     {
       "id": "fullstack-engineer-international",
@@ -151,12 +292,60 @@
       "public": true,
       "source": "career/cvs/fullstack-engineer-international.tex",
       "output": "public/cv/andre-nicolas-fullstack-engineer-en.pdf",
-      "sourceSha256": "0ffe6820f9cd6728dd48911dfd3c5f8c213d9e41ae86b7d8b5fc7be95fa2df97",
+      "sourceSha256": "4049620ab4818e32759aa5db3c5fafb843b217e07ea914c730c2a6328091f25b",
       "matchingVacancies": 3,
       "averageEvidenceCoverage": 77,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "high"
+      "optimizationPriority": "high",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 77,
+          "matchingVacancies": 3
+        },
+        "jobSources": [
+          "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt",
+          "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt",
+          "career/applications/jobgether-senior-full-stack-engineer-alpaca-connect-a38d7639.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-001",
+          "exp-mspa-005",
+          "exp-mspa-006",
+          "exp-mspa-007",
+          "project-fecha-001",
+          "project-fecha-003",
+          "project-terto-002",
+          "project-ecarryon-001"
+        ],
+        "changes": [
+          "Corrected employment-title framing and education translation.",
+          "Kept AI-native, React/Node, API, PostgreSQL, and testing evidence prominent."
+        ],
+        "rejectedClaims": [
+          "five years of experience",
+          "SSO",
+          "AWS/GCP",
+          "fluent English"
+        ],
+        "gaps": [
+          "seniority-5-years",
+          "sso",
+          "aws-gcp",
+          "advanced-english"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     },
     {
       "id": "fullstack-developer-br",
@@ -165,12 +354,53 @@
       "public": true,
       "source": "career/cvs/fullstack-developer-br.tex",
       "output": "public/cv/andre-nicolas-desenvolvedor-fullstack-br.pdf",
-      "sourceSha256": "1f097de26d15c98585ad1f79fe9227c3783ced0b3fd2d1b2128b3f16aea4f8b9",
+      "sourceSha256": "03a0aa780664fb1c6756a85ccba92c5332f6fb52014dc5cdf6e9392bc47ce6fb",
       "matchingVacancies": 0,
       "averageEvidenceCoverage": 0,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "low"
+      "optimizationPriority": "low",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 0,
+          "matchingVacancies": 0
+        },
+        "jobSources": [
+          "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
+          "career/applications/Diagonal-DesenvolvedorFullStack.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-001",
+          "exp-mspa-005",
+          "exp-mspa-007",
+          "project-fecha-001",
+          "project-terto-001",
+          "project-terto-002"
+        ],
+        "changes": [
+          "Corrected official employment title and credential wording.",
+          "Verified developer-oriented end-to-end implementation narrative."
+        ],
+        "rejectedClaims": [
+          "Unsupported cloud vendors and backend stacks"
+        ],
+        "gaps": [
+          "aws-gcp",
+          "java",
+          "dotnet"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     },
     {
       "id": "fullstack-developer-international",
@@ -179,12 +409,52 @@
       "public": true,
       "source": "career/cvs/fullstack-developer-international.tex",
       "output": "public/cv/andre-nicolas-fullstack-developer-en.pdf",
-      "sourceSha256": "2a39da544038680df000e1a2acbbb59b852c91785b943c0e8c2f779309a3fbef",
+      "sourceSha256": "5b6a052ee7adca18a6837c40f4bf7a268f448a312badcebd7ab563449d0703a2",
       "matchingVacancies": 0,
       "averageEvidenceCoverage": 0,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "low"
+      "optimizationPriority": "low",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 0,
+          "matchingVacancies": 0
+        },
+        "jobSources": [
+          "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt",
+          "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-001",
+          "exp-mspa-005",
+          "exp-mspa-006",
+          "project-fecha-001",
+          "project-terto-001",
+          "project-terto-002"
+        ],
+        "changes": [
+          "Corrected employment and education wording.",
+          "Verified implementation-first full-stack positioning."
+        ],
+        "rejectedClaims": [
+          "Unsupported seniority and cloud-vendor claims"
+        ],
+        "gaps": [
+          "seniority-5-years",
+          "aws-gcp"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     },
     {
       "id": "frontend-engineer-br",
@@ -198,7 +468,52 @@
       "averageEvidenceCoverage": 77,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "high"
+      "optimizationPriority": "high",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 77,
+          "matchingVacancies": 8
+        },
+        "jobSources": [
+          "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
+          "career/applications/Arco Educação  Software Engineer II - Front End .txt",
+          "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-001",
+          "exp-mspa-002",
+          "exp-mspa-003",
+          "exp-mspa-004",
+          "exp-mspa-007",
+          "oss-002",
+          "project-compliance-001",
+          "project-ecarryon-landing-001"
+        ],
+        "changes": [
+          "Rebuilt as a concise single-column ATS source.",
+          "Prioritized Angular/React, Web Components, UX, accessibility, SEO, and performance evidence."
+        ],
+        "rejectedClaims": [
+          "Java/AEM experience",
+          "fluent English"
+        ],
+        "gaps": [
+          "java",
+          "aem",
+          "advanced-english"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     },
     {
       "id": "frontend-engineer-international",
@@ -212,7 +527,49 @@
       "averageEvidenceCoverage": 77,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "high"
+      "optimizationPriority": "high",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 77,
+          "matchingVacancies": 1
+        },
+        "jobSources": [
+          "career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-001",
+          "exp-mspa-002",
+          "exp-mspa-003",
+          "exp-mspa-004",
+          "exp-mspa-007",
+          "oss-002",
+          "project-compliance-001",
+          "project-ecarryon-landing-001"
+        ],
+        "changes": [
+          "Rebuilt from multi-column to single-column ATS layout.",
+          "Corrected degree translation and strengthened recruiter-readable frontend narrative."
+        ],
+        "rejectedClaims": [
+          "Java experience",
+          "load-testing experience"
+        ],
+        "gaps": [
+          "java",
+          "load-testing"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     },
     {
       "id": "product-engineer-international",
@@ -221,12 +578,55 @@
       "public": true,
       "source": "career/cvs/product-engineer-international.tex",
       "output": "public/cv/andre-nicolas-product-engineer-en.pdf",
-      "sourceSha256": "61e32516a51b2f20360d510ab6926f4a0c8e8211fbcf895f1c2394eb0e7ed194",
-      "matchingVacancies": 0,
-      "averageEvidenceCoverage": 0,
+      "sourceSha256": "4408fa5974a175acd9bf1b5f19a117d69caaf32a44f342ff48f380b1af347022",
+      "matchingVacancies": 2,
+      "averageEvidenceCoverage": 84,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "low"
+      "optimizationPriority": "high",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 84,
+          "matchingVacancies": 2
+        },
+        "jobSources": [
+          "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
+          "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-002",
+          "exp-mspa-006",
+          "exp-mspa-007",
+          "project-fecha-001",
+          "project-fecha-002",
+          "project-fecha-003",
+          "project-terto-002"
+        ],
+        "changes": [
+          "Rebuilt without tables using a single-column product narrative.",
+          "Emphasized problem framing, trust, scope, UX, AI, and delivery without inventing revenue."
+        ],
+        "rejectedClaims": [
+          "Revenue or customer traction",
+          "formal sales ownership",
+          "validated pricing"
+        ],
+        "gaps": [
+          "sales-ownership",
+          "revenue-metrics"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     },
     {
       "id": "web-developer-br",
@@ -235,12 +635,49 @@
       "public": true,
       "source": "career/cvs/web-developer-br.tex",
       "output": "public/cv/andre-nicolas-desenvolvedor-web-br.pdf",
-      "sourceSha256": "3edc23d93845c9d5a2a207370d47531728ecf3ee7c9e72288a07ce5c4bf50627",
+      "sourceSha256": "4f31f846103d546463db2a13ea98b8f3a60436f891c862843b425d5f3ca47353",
       "matchingVacancies": 0,
       "averageEvidenceCoverage": 0,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "low"
+      "optimizationPriority": "low",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 0,
+          "matchingVacancies": 0
+        },
+        "jobSources": [],
+        "evidenceIds": [
+          "exp-mspa-001",
+          "exp-mspa-003",
+          "exp-mspa-007",
+          "project-compliance-001",
+          "project-landing-001",
+          "project-ecarryon-landing-001",
+          "project-diary-001"
+        ],
+        "changes": [
+          "Corrected employment and degree wording.",
+          "Verified responsive web, SEO, accessibility, performance, content, and PWA positioning."
+        ],
+        "rejectedClaims": [
+          "Unsupported commercial outcomes"
+        ],
+        "gaps": [
+          "current-saved-web-vacancies"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     },
     {
       "id": "web-developer-international",
@@ -249,12 +686,326 @@
       "public": true,
       "source": "career/cvs/web-developer-international.tex",
       "output": "public/cv/andre-nicolas-web-developer-en.pdf",
-      "sourceSha256": "009d79b02fe8e9d7ff7ee7e57c670559d798789b61d31a5cdc808653d57ebf41",
+      "sourceSha256": "55667085d0c866e49ff1c68e7695368639044f9cdef53fcaffaf320dfb0f9a5f",
       "matchingVacancies": 0,
       "averageEvidenceCoverage": 0,
       "status": "ats-structure-ok",
       "risks": [],
-      "optimizationPriority": "low"
+      "optimizationPriority": "low",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 0,
+          "matchingVacancies": 0
+        },
+        "jobSources": [],
+        "evidenceIds": [
+          "exp-mspa-001",
+          "exp-mspa-003",
+          "exp-mspa-007",
+          "project-compliance-001",
+          "project-landing-001",
+          "project-ecarryon-landing-001",
+          "project-diary-001"
+        ],
+        "changes": [
+          "Corrected official title and Brazilian degree explanation.",
+          "Verified web-delivery and user-journey emphasis."
+        ],
+        "rejectedClaims": [
+          "Unsupported conversion or revenue metrics"
+        ],
+        "gaps": [
+          "current-saved-web-vacancies"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
+    },
+    {
+      "id": "angular-developer-br",
+      "family": "angular-developer",
+      "language": "pt-BR",
+      "public": true,
+      "source": "career/cvs/angular-developer-br.tex",
+      "output": "public/cv/andre-nicolas-desenvolvedor-angular-br.pdf",
+      "sourceSha256": "c618fc936c6c930b27c2f46e873deafb255eb8365436c50322ac9c108dc4e37b",
+      "matchingVacancies": 12,
+      "averageEvidenceCoverage": 80,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "high",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 80,
+          "matchingVacancies": 12
+        },
+        "jobSources": [
+          "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
+          "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt",
+          "career/applications/Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-003",
+          "exp-mspa-007",
+          "exp-mspa-005",
+          "oss-002",
+          "project-fecha-001"
+        ],
+        "changes": [
+          "Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand."
+        ],
+        "rejectedClaims": [
+          "Java backend",
+          "AEM",
+          "fluent English"
+        ],
+        "gaps": [
+          "java",
+          "aem",
+          "advanced-english"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
+    },
+    {
+      "id": "angular-developer-international",
+      "family": "angular-developer",
+      "language": "en",
+      "public": true,
+      "source": "career/cvs/angular-developer-international.tex",
+      "output": "public/cv/andre-nicolas-angular-developer-en.pdf",
+      "sourceSha256": "141858d2bde056c658881c5799cb9da3cde8ca6d7869bb90ddf372f88d0f627d",
+      "matchingVacancies": 2,
+      "averageEvidenceCoverage": 78,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "high",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 78,
+          "matchingVacancies": 2
+        },
+        "jobSources": [
+          "career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt",
+          "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-003",
+          "exp-mspa-007",
+          "exp-mspa-005",
+          "oss-002"
+        ],
+        "changes": [
+          "Created an English Angular canonical CV with transparent education and language claims."
+        ],
+        "rejectedClaims": [
+          "Java",
+          "load testing",
+          "fluent English"
+        ],
+        "gaps": [
+          "java",
+          "load-testing",
+          "advanced-english"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
+    },
+    {
+      "id": "react-developer-br",
+      "family": "react-developer",
+      "language": "pt-BR",
+      "public": true,
+      "source": "career/cvs/react-developer-br.tex",
+      "output": "public/cv/andre-nicolas-desenvolvedor-react-br.pdf",
+      "sourceSha256": "442dfcb54ab94276a7c2d00f9e42afa1a89ad8e1e568a9b2f9d75a23594755ca",
+      "matchingVacancies": 15,
+      "averageEvidenceCoverage": 79,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "high",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 79,
+          "matchingVacancies": 15
+        },
+        "jobSources": [
+          "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
+          "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
+          "career/applications/FCamara-DesenvolvedorFullstack-NET+AngularouReact-Pleno.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-003",
+          "exp-mspa-007",
+          "project-fecha-001",
+          "project-fecha-003",
+          "project-terto-001",
+          "project-terto-002"
+        ],
+        "changes": [
+          "Created a dedicated React/Next.js canonical CV emphasizing authenticated product flows, data, and tests."
+        ],
+        "rejectedClaims": [
+          ".NET",
+          "AWS/GCP"
+        ],
+        "gaps": [
+          "dotnet",
+          "aws-gcp"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
+    },
+    {
+      "id": "react-developer-international",
+      "family": "react-developer",
+      "language": "en",
+      "public": true,
+      "source": "career/cvs/react-developer-international.tex",
+      "output": "public/cv/andre-nicolas-react-developer-en.pdf",
+      "sourceSha256": "9b21cd2ed3d04a25917b13f8f3113ba2f4521bca75b359867c7205adb40e1557",
+      "matchingVacancies": 6,
+      "averageEvidenceCoverage": 85,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "high",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 85,
+          "matchingVacancies": 6
+        },
+        "jobSources": [
+          "career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt",
+          "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
+          "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-003",
+          "exp-mspa-007",
+          "project-fecha-001",
+          "project-fecha-003",
+          "project-terto-001",
+          "project-terto-002",
+          "oss-002"
+        ],
+        "changes": [
+          "Created an English React/Next.js canonical CV with ATS-safe structure and grounded product examples."
+        ],
+        "rejectedClaims": [
+          "AWS/GCP",
+          "five years of experience"
+        ],
+        "gaps": [
+          "aws-gcp",
+          "seniority-5-years"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
+    },
+    {
+      "id": "product-engineer-br",
+      "family": "product-engineer",
+      "language": "pt-BR",
+      "public": true,
+      "source": "career/cvs/product-engineer-br.tex",
+      "output": "public/cv/andre-nicolas-engenheiro-produto-br.pdf",
+      "sourceSha256": "11244f1ac0ffe02918a7efc3061942f98f9bf775b304a83d1d9545a51f980f86",
+      "matchingVacancies": 2,
+      "averageEvidenceCoverage": 73,
+      "status": "ats-structure-ok",
+      "risks": [],
+      "optimizationPriority": "normal",
+      "agentEvaluation": {
+        "decision": "optimized",
+        "readiness": {
+          "score": 100,
+          "factualGrounding": 100,
+          "atsStructure": 100,
+          "roleAlignment": 100,
+          "languageQuality": 100,
+          "recruiterClarity": 100,
+          "sourceIntegrity": 100
+        },
+        "synergy": {
+          "average": 73,
+          "matchingVacancies": 2
+        },
+        "jobSources": [
+          "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
+          "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt"
+        ],
+        "evidenceIds": [
+          "exp-mspa-002",
+          "exp-mspa-006",
+          "exp-mspa-007",
+          "project-fecha-001",
+          "project-fecha-002",
+          "project-fecha-003",
+          "project-terto-002"
+        ],
+        "changes": [
+          "Created the missing Brazilian Product Engineer canonical CV with product, trust, UX, AI, and delivery evidence."
+        ],
+        "rejectedClaims": [
+          "Revenue",
+          "formal sales ownership",
+          "validated pricing"
+        ],
+        "gaps": [
+          "sales-ownership",
+          "revenue-metrics"
+        ],
+        "pdfCompilation": "pending-ci"
+      }
     }
   ],
   "plannedVariants": [
@@ -265,7 +1016,7 @@
       "sourceRole": "angular-developer",
       "priority": "high",
       "reason": "9 saved vacancies and 77 role score; Angular, TypeScript, Signals and RxJS have documented evidence.",
-      "status": "planned"
+      "status": "available"
     },
     {
       "id": "angular-developer-international",
@@ -274,7 +1025,7 @@
       "sourceRole": "angular-developer",
       "priority": "high",
       "reason": "A reusable English variant is needed for international Angular openings; claims remain grounded in the same evidence.",
-      "status": "planned"
+      "status": "available"
     },
     {
       "id": "react-developer-br",
@@ -283,7 +1034,7 @@
       "sourceRole": "react-developer",
       "priority": "high",
       "reason": "9 saved vacancies and 77 role score; React, TypeScript, Next.js and testing have documented evidence.",
-      "status": "planned"
+      "status": "available"
     },
     {
       "id": "react-developer-international",
@@ -292,7 +1043,7 @@
       "sourceRole": "react-developer",
       "priority": "high",
       "reason": "A reusable English variant is needed for international React openings; claims remain grounded in the same evidence.",
-      "status": "planned"
+      "status": "available"
     },
     {
       "id": "product-engineer-br",
@@ -301,7 +1052,13 @@
       "sourceRole": "software-engineer-product",
       "priority": "normal",
       "reason": "Product-oriented engineering is strongly represented in the corpus and evidence ledger; the Brazilian canonical counterpart is missing.",
-      "status": "planned"
+      "status": "available"
     }
-  ]
+  ],
+  "agentRun": {
+    "runId": "2026-10-01-full-career-001",
+    "status": "complete",
+    "generatedAt": "2026-10-01T21:23:43.931Z",
+    "unresolvedQuestions": []
+  }
 }

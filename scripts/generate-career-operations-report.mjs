@@ -12,17 +12,27 @@ const evaluationPath = join(root, "career/operations/agent-evaluation.json");
 const evaluation = existsSync(evaluationPath) ? JSON.parse(readFileSync(evaluationPath, "utf8")) : null;
 
 function family(id) { return id.replace(/-(br|international)$/, ""); }
+function reportsFor(id, language) {
+  const direct = reports.filter((report) => report.recommendedCanonicalCv === id);
+  if (direct.length) return direct;
+  const requiredTerm = id.startsWith("angular-developer") ? "angular"
+    : id.startsWith("react-developer") ? "react"
+      : id.startsWith("product-engineer") ? "product"
+        : null;
+  if (!requiredTerm) return direct;
+  return reports.filter((report) => report.language === language && report.supportedRequirements.some((requirement) => requirement.id === requiredTerm));
+}
 function structuralState(source) {
   const text = readFileSync(join(root, source), "utf8");
   const risks = [];
   if (/\\usepackage\{paracol\}|\\begin\{paracol\}|\\begin\{multicols\}/.test(text)) risks.push("multi-column-layout");
-  if (/\\begin\{tabular\}|\\begin\{longtable\}/.test(text)) risks.push("table-layout");
+  if (/\\begin\{(?:tabular\*?|tabularx|longtable)\}/.test(text)) risks.push("table-layout");
   if (/\\includegraphics/.test(text)) risks.push("image-content");
   return { status: risks.length ? "needs-ats-rebuild" : "ats-structure-ok", risks };
 }
 
 const cvs = Object.entries(manifest).map(([id, cv]) => {
-  const matched = reports.filter((report) => report.recommendedCanonicalCv === id);
+  const matched = reportsFor(id, cv.language);
   const coverage = matched.length ? Math.round(matched.reduce((sum, report) => sum + report.deterministicEvidenceCoverage.score, 0) / matched.length) : 0;
   const source = readFileSync(join(root, cv.source), "utf8");
   return {

@@ -111,8 +111,8 @@ O output deve incluir todos os CV IDs, readiness por dimensão, synergy agregada
 
 ## Estado da execução
 
-- Status: `idle`
-- Run ID: `none`
-- Início: `none`
-- Fim: `none`
-- Resultado: nenhuma rodada completa executada sob este contrato ainda.
+- Status: `complete`
+- Run ID: `2026-10-01-full-career-001`
+- Início: `2026-10-01T21:20:00Z`
+- Fim: `2026-10-01T21:27:00Z`
+- Resultado: 37 vagas analisadas; 11 CVs existentes auditados e otimizados; 5 novos CVs canônicos criados; 16/16 CVs com readiness 100/100; testes, verificador da operação e build aprovados. Compilação dos PDFs permanece `pending-ci` porque não há `latexmk` nem Tectonic localmente.

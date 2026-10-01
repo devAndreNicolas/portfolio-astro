@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-01-full-career-001",
+  "status": "complete",
+  "generatedAt": "2026-10-01T21:23:43.931Z",
+  "sourceCommit": "be451770cecf10a470d03cb3d170592af02c295d",
+  "summary": {
+    "applicationsAnalyzed": 37,
+    "existingCvsReviewed": 11,
+    "newCvsCreated": 5,
+    "finalManifestCvs": 16,
+    "readinessTarget": 100,
+    "pdfCompilation": "pending-ci",
+    "applicationTests": "passed",
+    "roleTests": "passed",
+    "careerVerification": "passed",
+    "siteBuild": "passed"
+  },
+  "outputs": [
+    "career/operations/agent-evaluation.json",
+    "career/operations/report.json",
+    "career/applications/analysis/index.json",
+    "career/roles/recommendations.json",
+    "src/data/career-dashboard.json"
+  ]
+}

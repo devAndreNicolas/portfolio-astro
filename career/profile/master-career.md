@@ -93,6 +93,6 @@ Use these as the narrative throughline only when the target role fits: **product
 
 ## Current canonical CV inventory
 
-Available: `software-engineer-{br,international}`, `fullstack-engineer-{br,international}`, `fullstack-developer-{br,international}`, `frontend-engineer-{br,international}`, `product-engineer-international`, `web-developer-{br,international}`.
+Available: `software-engineer-{br,international}`, `fullstack-engineer-{br,international}`, `fullstack-developer-{br,international}`, `frontend-engineer-{br,international}`, `angular-developer-{br,international}`, `react-developer-{br,international}`, `product-engineer-{br,international}`, and `web-developer-{br,international}`.
 
-Backlog: recreate `angular-developer-{br,international}`, `react-developer-{br,international}`, and `product-engineer-br` only from real source material or a tailored derivative.
+The Angular, React, and Brazilian Product Engineer variants were added on 2026-10-01 from existing evidence-backed claims after recurring role demand was confirmed in the saved application corpus. They do not introduce new career claims.

@@ -13,7 +13,7 @@ Você não preenche formulários, JSONs, comandos ou uma fila por vaga. O harnes
 
 GitHub não participa dessa inteligência. Ele só compila fontes LaTeX já aprovadas em PDFs e os disponibiliza na rota `/cv/`.
 
-Para disparar uma rodada completa, marque apenas `- [x] Run full career pipeline` em [`career/agent-control.md`](career/agent-control.md). Na próxima mensagem que eu receber, eu leio o marcador, executo tudo e registro o resultado no mesmo arquivo. Não precisa mencionar uma vaga, escolher um CV, criar arquivo por vaga ou preencher parâmetros.
+Para disparar uma rodada completa, marque apenas `- [x] EXECUTAR ROTINA COMPLETA DE CARREIRA` em [`career/agent-control.md`](career/agent-control.md). Na próxima mensagem que eu receber, eu sigo todo o contrato do arquivo: inventário, coleta, memória, mercado/personas, revisão e otimização individual de cada CV, novas variantes, structured outputs, QA e histórico. O gatilho só é desmarcado quando `pnpm career:verify` comprovar que nenhum CV do manifesto foi omitido e todos os não bloqueados chegaram a readiness 100/100.
 
 O único ato externo que permanece seu é enviar a candidatura. Se houver informação que não possa ser inferida com segurança — disponibilidade, pretensão, autorização de trabalho ou uma experiência nova — eu agrupo as perguntas necessárias em vez de interromper o processo a cada vaga.
 
@@ -41,6 +41,8 @@ pnpm validate
 pnpm cv:list
 pnpm cv:check
 pnpm applications:report -- <parte-do-nome-da-vaga>
+pnpm career:report
+pnpm career:verify
 ```
 
 `pnpm validate` verifica CVs e constrói o site. A instalação local de `latexmk`/XeLaTeX ou Tectonic só é necessária se você quiser gerar e inspecionar um PDF antes do push; o CI não depende dela na sua máquina. Veja [docs/cv-toolchain.md](docs/cv-toolchain.md) para detalhes do compilador.

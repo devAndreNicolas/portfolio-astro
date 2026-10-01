@@ -1,0 +1,207 @@
+{
+  "$schema": "./agent-evaluation.schema.json",
+  "schemaVersion": 1,
+  "runId": "2026-10-01-full-career-001",
+  "status": "complete",
+  "generatedAt": "2026-10-01T21:23:43.931Z",
+  "inputs": {
+    "manifestIds": ["software-engineer-br", "software-engineer-international", "fullstack-engineer-br", "fullstack-engineer-international", "fullstack-developer-br", "fullstack-developer-international", "frontend-engineer-br", "frontend-engineer-international", "product-engineer-international", "web-developer-br", "web-developer-international", "angular-developer-br", "angular-developer-international", "react-developer-br", "react-developer-international", "product-engineer-br"],
+    "applicationCount": 37,
+    "evidenceDocument": "career/profile/master-career.md",
+    "sourceCommit": "be451770cecf10a470d03cb3d170592af02c295d"
+  },
+  "cvEvaluations": {
+    "software-engineer-br": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 73, "matchingVacancies": 6 },
+      "jobSources": ["career/applications/Artefact-SoftwareEngineer-Brasil.txt", "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt", "career/applications/Sanar-SoftwareEngineer.txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-002", "exp-mspa-005", "exp-mspa-006", "exp-mspa-007", "project-fecha-001", "project-fecha-003", "project-ecarryon-001"],
+      "changes": ["Preserved the official Frontend Engineer employment title while keeping the target role in the headline.", "Clarified the official Tecnólogo credential."],
+      "rejectedClaims": ["AWS/GCP experience", "Java experience", "advanced/fluent English"],
+      "gaps": ["aws-gcp", "java", "load-testing", "advanced-english"],
+      "pdfCompilation": "pending-ci"
+    },
+    "software-engineer-international": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 86, "matchingVacancies": 8 },
+      "jobSources": ["career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt", "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt", "career/applications/Software Engineer, Autonomous Revenue Operations (Brazil).txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-005", "exp-mspa-006", "exp-mspa-007", "project-fecha-001", "project-fecha-003", "project-ecarryon-001", "oss-002"],
+      "changes": ["Preserved the official employment title.", "Reframed the Brazilian degree without inventing an international equivalence."],
+      "rejectedClaims": ["AWS/GCP experience", "five years of experience", "fluent English"],
+      "gaps": ["aws-gcp", "seniority-5-years", "advanced-english"],
+      "pdfCompilation": "pending-ci"
+    },
+    "fullstack-engineer-br": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 85, "matchingVacancies": 11 },
+      "jobSources": ["career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt", "career/applications/Diagonal-DesenvolvedorFullStack.txt", "career/applications/ISASaúde-DesenvolvedorFullStackPleno.txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-005", "exp-mspa-007", "project-fecha-001", "project-fecha-003", "project-terto-001", "project-terto-002", "project-ecarryon-001"],
+      "changes": ["Separated official employment title from full-stack positioning.", "Preserved end-to-end product, API, database, testing, and deployment evidence."],
+      "rejectedClaims": ["Java/AEM experience", "AWS/GCP experience", "SSO experience"],
+      "gaps": ["java", "aem", "aws-gcp", "sso"],
+      "pdfCompilation": "pending-ci"
+    },
+    "fullstack-engineer-international": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 77, "matchingVacancies": 3 },
+      "jobSources": ["career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt", "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt", "career/applications/jobgether-senior-full-stack-engineer-alpaca-connect-a38d7639.txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-005", "exp-mspa-006", "exp-mspa-007", "project-fecha-001", "project-fecha-003", "project-terto-002", "project-ecarryon-001"],
+      "changes": ["Corrected employment-title framing and education translation.", "Kept AI-native, React/Node, API, PostgreSQL, and testing evidence prominent."],
+      "rejectedClaims": ["five years of experience", "SSO", "AWS/GCP", "fluent English"],
+      "gaps": ["seniority-5-years", "sso", "aws-gcp", "advanced-english"],
+      "pdfCompilation": "pending-ci"
+    },
+    "fullstack-developer-br": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 0, "matchingVacancies": 0 },
+      "jobSources": ["career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt", "career/applications/Diagonal-DesenvolvedorFullStack.txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-005", "exp-mspa-007", "project-fecha-001", "project-terto-001", "project-terto-002"],
+      "changes": ["Corrected official employment title and credential wording.", "Verified developer-oriented end-to-end implementation narrative."],
+      "rejectedClaims": ["Unsupported cloud vendors and backend stacks"],
+      "gaps": ["aws-gcp", "java", "dotnet"],
+      "pdfCompilation": "pending-ci"
+    },
+    "fullstack-developer-international": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 0, "matchingVacancies": 0 },
+      "jobSources": ["career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt", "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-005", "exp-mspa-006", "project-fecha-001", "project-terto-001", "project-terto-002"],
+      "changes": ["Corrected employment and education wording.", "Verified implementation-first full-stack positioning."],
+      "rejectedClaims": ["Unsupported seniority and cloud-vendor claims"],
+      "gaps": ["seniority-5-years", "aws-gcp"],
+      "pdfCompilation": "pending-ci"
+    },
+    "frontend-engineer-br": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 77, "matchingVacancies": 8 },
+      "jobSources": ["career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt", "career/applications/Arco Educação  Software Engineer II - Front End .txt", "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-002", "exp-mspa-003", "exp-mspa-004", "exp-mspa-007", "oss-002", "project-compliance-001", "project-ecarryon-landing-001"],
+      "changes": ["Rebuilt as a concise single-column ATS source.", "Prioritized Angular/React, Web Components, UX, accessibility, SEO, and performance evidence."],
+      "rejectedClaims": ["Java/AEM experience", "fluent English"],
+      "gaps": ["java", "aem", "advanced-english"],
+      "pdfCompilation": "pending-ci"
+    },
+    "frontend-engineer-international": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 77, "matchingVacancies": 1 },
+      "jobSources": ["career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-002", "exp-mspa-003", "exp-mspa-004", "exp-mspa-007", "oss-002", "project-compliance-001", "project-ecarryon-landing-001"],
+      "changes": ["Rebuilt from multi-column to single-column ATS layout.", "Corrected degree translation and strengthened recruiter-readable frontend narrative."],
+      "rejectedClaims": ["Java experience", "load-testing experience"],
+      "gaps": ["java", "load-testing"],
+      "pdfCompilation": "pending-ci"
+    },
+    "product-engineer-international": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 84, "matchingVacancies": 2 },
+      "jobSources": ["career/applications/jobgether-software-engineer-ai-native-be1a4801.txt", "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"],
+      "evidenceIds": ["exp-mspa-002", "exp-mspa-006", "exp-mspa-007", "project-fecha-001", "project-fecha-002", "project-fecha-003", "project-terto-002"],
+      "changes": ["Rebuilt without tables using a single-column product narrative.", "Emphasized problem framing, trust, scope, UX, AI, and delivery without inventing revenue."],
+      "rejectedClaims": ["Revenue or customer traction", "formal sales ownership", "validated pricing"],
+      "gaps": ["sales-ownership", "revenue-metrics"],
+      "pdfCompilation": "pending-ci"
+    },
+    "web-developer-br": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 0, "matchingVacancies": 0 },
+      "jobSources": [],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-003", "exp-mspa-007", "project-compliance-001", "project-landing-001", "project-ecarryon-landing-001", "project-diary-001"],
+      "changes": ["Corrected employment and degree wording.", "Verified responsive web, SEO, accessibility, performance, content, and PWA positioning."],
+      "rejectedClaims": ["Unsupported commercial outcomes"],
+      "gaps": ["current-saved-web-vacancies"],
+      "pdfCompilation": "pending-ci"
+    },
+    "web-developer-international": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 0, "matchingVacancies": 0 },
+      "jobSources": [],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-003", "exp-mspa-007", "project-compliance-001", "project-landing-001", "project-ecarryon-landing-001", "project-diary-001"],
+      "changes": ["Corrected official title and Brazilian degree explanation.", "Verified web-delivery and user-journey emphasis."],
+      "rejectedClaims": ["Unsupported conversion or revenue metrics"],
+      "gaps": ["current-saved-web-vacancies"],
+      "pdfCompilation": "pending-ci"
+    },
+    "angular-developer-br": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 80, "matchingVacancies": 12 },
+      "jobSources": ["career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt", "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt", "career/applications/Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack.txt"],
+      "evidenceIds": ["exp-mspa-003", "exp-mspa-007", "exp-mspa-005", "oss-002", "project-fecha-001"],
+      "changes": ["Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand."],
+      "rejectedClaims": ["Java backend", "AEM", "fluent English"],
+      "gaps": ["java", "aem", "advanced-english"],
+      "pdfCompilation": "pending-ci"
+    },
+    "angular-developer-international": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 78, "matchingVacancies": 2 },
+      "jobSources": ["career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt", "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"],
+      "evidenceIds": ["exp-mspa-003", "exp-mspa-007", "exp-mspa-005", "oss-002"],
+      "changes": ["Created an English Angular canonical CV with transparent education and language claims."],
+      "rejectedClaims": ["Java", "load testing", "fluent English"],
+      "gaps": ["java", "load-testing", "advanced-english"],
+      "pdfCompilation": "pending-ci"
+    },
+    "react-developer-br": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 79, "matchingVacancies": 15 },
+      "jobSources": ["career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt", "career/applications/Artefact-SoftwareEngineer-Brasil.txt", "career/applications/FCamara-DesenvolvedorFullstack-NET+AngularouReact-Pleno.txt"],
+      "evidenceIds": ["exp-mspa-003", "exp-mspa-007", "project-fecha-001", "project-fecha-003", "project-terto-001", "project-terto-002"],
+      "changes": ["Created a dedicated React/Next.js canonical CV emphasizing authenticated product flows, data, and tests."],
+      "rejectedClaims": [".NET", "AWS/GCP"],
+      "gaps": ["dotnet", "aws-gcp"],
+      "pdfCompilation": "pending-ci"
+    },
+    "react-developer-international": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 85, "matchingVacancies": 6 },
+      "jobSources": ["career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt", "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt", "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt"],
+      "evidenceIds": ["exp-mspa-003", "exp-mspa-007", "project-fecha-001", "project-fecha-003", "project-terto-001", "project-terto-002", "oss-002"],
+      "changes": ["Created an English React/Next.js canonical CV with ATS-safe structure and grounded product examples."],
+      "rejectedClaims": ["AWS/GCP", "five years of experience"],
+      "gaps": ["aws-gcp", "seniority-5-years"],
+      "pdfCompilation": "pending-ci"
+    },
+    "product-engineer-br": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 73, "matchingVacancies": 2 },
+      "jobSources": ["career/applications/Artefact-SoftwareEngineer-Brasil.txt", "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt"],
+      "evidenceIds": ["exp-mspa-002", "exp-mspa-006", "exp-mspa-007", "project-fecha-001", "project-fecha-002", "project-fecha-003", "project-terto-002"],
+      "changes": ["Created the missing Brazilian Product Engineer canonical CV with product, trust, UX, AI, and delivery evidence."],
+      "rejectedClaims": ["Revenue", "formal sales ownership", "validated pricing"],
+      "gaps": ["sales-ownership", "revenue-metrics"],
+      "pdfCompilation": "pending-ci"
+    }
+  },
+  "newCvCandidates": [
+    { "id": "angular-developer-br", "status": "created", "reason": "Recurring Angular demand and strong documented Angular/TypeScript evidence." },
+    { "id": "angular-developer-international", "status": "created", "reason": "International Angular openings require a truthful English canonical variant." },
+    { "id": "react-developer-br", "status": "created", "reason": "Recurring React/Next.js demand and multiple implemented product examples." },
+    { "id": "react-developer-international", "status": "created", "reason": "International React openings require a truthful English canonical variant." },
+    { "id": "product-engineer-br", "status": "created", "reason": "Product-engineering evidence is strong and the Brazilian counterpart was missing." }
+  ],
+  "validation": {
+    "applicationTests": "passed",
+    "roleTests": "passed",
+    "manifest": "passed-16-cvs",
+    "atsStaticStructure": "passed-16-cvs",
+    "siteBuild": "passed",
+    "pdfCompilation": "pending-ci"
+  },
+  "unresolvedQuestions": []
+}
