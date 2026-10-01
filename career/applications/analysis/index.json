@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T18:03:42.971Z",
+  "generatedAt": "2026-10-01T18:43:00.887Z",
   "reports": [
     {
       "schemaVersion": 1,
@@ -1195,6 +1195,214 @@
         "exp-mspa-006",
         "project-terto-002",
         "project-rendecerto-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/Software Engineer, Autonomous Revenue Operations (Brazil).txt",
+      "sourceSha256": "a084debdbac49d8c7e4779edd884893d1696b66095aaa938fe56441bad6077fb",
+      "language": "en",
+      "recommendedCanonicalCv": "software-engineer-international",
+      "deterministicEvidenceCoverage": {
+        "score": 83,
+        "supportedWeight": 15,
+        "totalWeight": 18,
+        "recognizedRequirementCount": 7,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "security",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-002",
+            "project-fecha-003",
+            "exp-mspa-006"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "ai-product",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-006",
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "payments",
+          "tier": "core",
+          "evidence": [
+            "project-terto-002"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "aws-gcp",
+          "tier": "required",
+          "phrases": [
+            "aws",
+            "gcp",
+            "google cloud",
+            "amazon web services"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-terto-002"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/full-stack-developer-net-angular-azure-logo-68878346.txt",
+      "sourceSha256": "022d43d504d5d86e0cf682f78a3388b6365b09fc6b057d992857dcb92fb2c1ff",
+      "language": "en",
+      "recommendedCanonicalCv": "frontend-engineer-international",
+      "deterministicEvidenceCoverage": {
+        "score": 80,
+        "supportedWeight": 16,
+        "totalWeight": 20,
+        "recognizedRequirementCount": 10,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "cicd",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-007"
+          ]
+        },
+        {
+          "id": "html-css",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-ecarryon-landing-001"
+          ]
+        },
+        {
+          "id": "payments",
+          "tier": "core",
+          "evidence": [
+            "project-terto-002"
+          ]
+        },
+        {
+          "id": "postgresql",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-005",
+            "project-fecha-001"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [
+        {
+          "id": "dotnet",
+          "tier": "core",
+          "phrases": [
+            ".net",
+            "dotnet",
+            "c#",
+            "asp.net"
+          ]
+        },
+        {
+          "id": "load-testing",
+          "tier": "core",
+          "phrases": [
+            "load testing",
+            "real-world user load",
+            "scalability",
+            "performance tuning"
+          ]
+        }
+      ],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "project-terto-002",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-ecarryon-001"
       ],
       "manualReview": [
         "Confirm seniority, location, work authorization, compensation, and language requirements manually.",

@@ -20,9 +20,11 @@
     "roles:recommend": "node scripts/recommend-roles.mjs --write",
     "roles:test": "node --test scripts/recommend-roles.test.mjs",
     "jobs:searches": "node scripts/generate-job-searches.mjs",
-    "jobs:collect": "node scripts/collect-jobs.mjs",
-    "jobs:collect:br": "node scripts/collect-jobs.mjs --limit 10",
-    "jobs:collect:remote": "node scripts/collect-jobs.mjs --remote --limit 10",
+    "jobs:collect": "node scripts/collect-jobs.mjs --provider=both",
+    "jobs:collect:br": "node scripts/collect-jobs.mjs --provider=both --limit 10",
+    "jobs:collect:remote": "node scripts/collect-jobs.mjs --provider=both --remote --limit 10",
+    "jobs:collect:google": "node scripts/collect-jobs.mjs --provider=serpapi --limit 10",
+    "jobs:collect:serper": "node scripts/collect-jobs.mjs --provider=serper --limit 10",
     "validate": "pnpm cv:check && pnpm build"
   },
   "dependencies": {

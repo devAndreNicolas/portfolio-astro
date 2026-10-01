@@ -15,6 +15,8 @@ Deterministic coverage of recognized job requirements against evidence IDs in `c
 | 85% | 14 | fullstack-engineer-br | CI&T-SeniorDeveloperFullStackAEM-AdobeExperienceManager.txt | aem, java |
 | 83% | 6 | software-engineer-br | Jobgether  AI Process Forward Deployed Engineer.txt | java |
 | 83% | 6 | fullstack-engineer-br | NOTORIA  Desenvolvedor(a) Full Stack (100% Remoto) – Foco em IA e Saúde - 1120.txt | aws-gcp |
+| 83% | 7 | software-engineer-international | Software Engineer, Autonomous Revenue Operations (Brazil).txt | aws-gcp |
+| 80% | 10 | frontend-engineer-international | full-stack-developer-net-angular-azure-logo-68878346.txt | dotnet, load-testing |
 | 80% | 6 | fullstack-engineer-br | N-iX  Fullstack Engineer (ScalaTypeScript).txt | scala |
 | 80% | 5 | fullstack-engineer-br | Neppo-Desenvolvedor(a)FullStack .txt | java |
 | 80% | 10 | software-engineer-br | Sanar-SoftwareEngineer.txt | aws-gcp, java |

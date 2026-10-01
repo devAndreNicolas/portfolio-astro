@@ -21,4 +21,6 @@ Use `pnpm applications:report -- <part-of-filename>` to inspect one application 
 
 `pnpm jobs:collect:br` uses a local Playwright browser to discover up to 10 Brazil-focused results from public ATS pages and save their public text in `career/applications/`. It preserves the original URL and collection time, deduplicates by URL, rate-limits requests, and skips login, CAPTCHA, short, or blocked pages. Run `pnpm applications:analyze` afterwards. Use `jobs:collect:remote` only after reviewing the Brazil queue.
 
+Google currently presents an automated-traffic CAPTCHA to this network, so do not rely on the Google-discovery collector. Follow `career/platforms/tierlist.md`: use a registry of public company boards for direct collection, or adopt a permitted search API for broad discovery.
+
 The taxonomy at `career/ats/taxonomy.json` is the single configuration seam for recognized terms, evidence IDs, and canonical-CV recommendations. Add a term only with real evidence; use an empty `evidence` array to expose a gap.
