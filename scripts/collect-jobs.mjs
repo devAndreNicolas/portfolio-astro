@@ -7,14 +7,18 @@ import { chromium } from "playwright";
 const root = resolve(fileURLToPath(new URL("..", import.meta.url)));
 try { process.loadEnvFile(join(root, ".env")); } catch { /* optional in CI */ }
 const config = JSON.parse(readFileSync(join(root, "career/platforms/search-config.json"), "utf8"));
+const taxonomy = JSON.parse(readFileSync(join(root, "career/ats/taxonomy.json"), "utf8"));
 const destination = join(root, "career/applications");
 const statePath = join(destination, "collected-index.json");
 const limitIndex = process.argv.indexOf("--limit");
 const providerArgument = process.argv.find((argument) => argument.startsWith("--provider="));
 const limit = limitIndex >= 0 ? Number(process.argv[limitIndex + 1]) : 10;
+const maxAgeIndex = process.argv.indexOf("--max-age-days");
+const maxAgeDays = maxAgeIndex >= 0 ? Number(process.argv[maxAgeIndex + 1]) : 7;
 const provider = providerArgument?.split("=")[1] ?? "both";
 const country = process.argv.includes("--remote") ? "remote" : "brazil";
 if (!Number.isInteger(limit) || limit < 1 || limit > 30) throw new Error("Use --limit from 1 to 30.");
+if (!Number.isInteger(maxAgeDays) || maxAgeDays < 1 || maxAgeDays > 31) throw new Error("Use --max-age-days from 1 to 31.");
 if (!new Set(["serpapi", "serper", "both"]).has(provider)) throw new Error("Use --provider=serpapi, serper, or both.");
 
 const after = new Date(); after.setDate(after.getDate() - 3);
@@ -47,6 +51,23 @@ function isMarketRelevant(text) {
   const lines = text.split("\n").map((line) => line.trim()).filter(Boolean);
   return lines.some((line, index) => /^(locations?|local de trabalho|location)$/i.test(line)
     && lines.slice(index + 1, index + 6).some((value) => /\b(brazil|brasil|remote|remoto)\b/i.test(value)));
+}
+function explicitAgeDays(text) {
+  const value = normalized(text);
+  const relative = value.match(/(?:posted|publicada|publicado|postada).{0,24}?(\d+)\s*(?:days?|dias)/);
+  if (relative) return Number(relative[1]);
+  const date = value.match(/(?:posted|publicada|publicado|postada).{0,24}?(\d{2})\/(\d{2})\/(\d{4})/);
+  if (!date) return null;
+  const published = new Date(`${date[3]}-${date[2]}-${date[1]}T00:00:00`);
+  return Math.floor((Date.now() - published.getTime()) / 86_400_000);
+}
+function fitSignals(text) {
+  const value = normalized(text);
+  const supported = taxonomy.terms
+    .filter((term) => term.evidence.length && term.phrases.some((phrase) => value.includes(normalized(phrase))))
+    .map((term) => term.id);
+  const core = new Set(["typescript", "javascript", "angular", "react", "nextjs", "node", "go", "astro", "html-css"]);
+  return { supported, core: supported.filter((id) => core.has(id)), rust: /\brust\b/.test(value) };
 }
 
 async function discoverWithSerpApi(query) {
@@ -88,6 +109,7 @@ const browser = await chromium.launch({ headless: true });
 const context = await browser.newContext({ locale: "pt-BR" });
 const page = await context.newPage();
 let saved = 0; let skipped = 0;
+const rejected = { duplicate: 0, location: 0, stale: 0, mismatch: 0, structure: 0, blocked: 0 };
 try {
   for (const [url, discoveryProviders] of candidates) {
     if (saved >= limit) break;
@@ -97,19 +119,26 @@ try {
       const text = cleanText(await page.locator("body").innerText({ timeout: 10_000 }));
       const heading = cleanText(await page.locator("h1").first().innerText({ timeout: 3_000 }).catch(() => ""));
       const title = heading || cleanText(await page.title());
-      if (text.length < 700 || !isJobDescription(text) || !isMarketRelevant(text) || /unusual traffic|captcha|access denied/i.test(text)) { skipped += 1; continue; }
+      if (text.length < 700 || !isJobDescription(text)) { rejected.structure += 1; skipped += 1; continue; }
+      if (!isMarketRelevant(text)) { rejected.location += 1; skipped += 1; continue; }
+      if (/unusual traffic|captcha|access denied/i.test(text)) { rejected.blocked += 1; skipped += 1; continue; }
+      const ageDays = explicitAgeDays(text);
+      if (ageDays !== null && ageDays > maxAgeDays) { rejected.stale += 1; skipped += 1; continue; }
+      const fit = fitSignals(text);
+      if (fit.rust || fit.core.length < 2) { rejected.mismatch += 1; skipped += 1; continue; }
       if (alreadySaved(title)) {
         state.sources[url] = { ignored: "duplicate title", title, collectedAt: new Date().toISOString(), discoveryProviders };
+        rejected.duplicate += 1;
         skipped += 1;
         continue;
       }
       const hash = createHash("sha256").update(url).digest("hex").slice(0, 8);
       const filename = `${slug(title)}-${hash}.txt`; const relative = `career/applications/${filename}`; const collectedAt = new Date().toISOString();
-      writeFileSync(join(destination, filename), `Source URL: ${url}\nCollected at: ${collectedAt}\nMarket: ${country}\nDiscovery: ${discoveryProviders.join(", ")}\n\n${text}\n`, "utf8");
-      state.sources[url] = { file: relative, title, collectedAt, discoveryProviders }; saved += 1; console.log(`Saved ${relative}`);
+      writeFileSync(join(destination, filename), `Source URL: ${url}\nCollected at: ${collectedAt}\nMarket: ${country}\nDiscovery: ${discoveryProviders.join(", ")}\nExplicit age: ${ageDays ?? "unknown"}\nFit signals: ${fit.supported.join(", ")}\n\n${text}\n`, "utf8");
+      state.sources[url] = { file: relative, title, collectedAt, discoveryProviders, ageDays, fitSignals: fit.supported }; saved += 1; console.log(`Saved ${relative}`);
     } catch (error) { skipped += 1; console.warn(`Skipped ${url}: ${error.message}`); }
     await sleep(1_200);
   }
   writeFileSync(statePath, `${JSON.stringify(state, null, 2)}\n`);
-  console.log(`Discovered ${candidates.size}; collected ${saved}; skipped ${skipped}; market: ${country}; provider: ${provider}.`);
+  console.log(`Discovered ${candidates.size}; collected ${saved}; skipped ${skipped}; rejected ${JSON.stringify(rejected)}; market: ${country}; provider: ${provider}.`);
 } finally { await browser.close(); }

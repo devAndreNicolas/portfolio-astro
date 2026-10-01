@@ -42,6 +42,7 @@
     { "id": "dotnet", "phrases": [".net", "dotnet", "c#", "asp.net"], "evidence": [], "cvs": ["software-engineer", "fullstack-engineer", "fullstack-developer"] },
     { "id": "aem", "phrases": ["adobe experience manager", "aem", "adobe"], "evidence": [], "cvs": ["frontend-engineer", "fullstack-engineer", "fullstack-developer"] },
     { "id": "scala", "phrases": ["scala"], "evidence": [], "cvs": ["software-engineer", "fullstack-engineer", "fullstack-developer"] },
+    { "id": "rust", "phrases": ["rust"], "evidence": [], "cvs": ["software-engineer", "fullstack-engineer", "fullstack-developer"] },
     { "id": "aws-gcp", "phrases": ["aws", "gcp", "google cloud", "amazon web services"], "evidence": [], "cvs": ["software-engineer", "fullstack-engineer", "fullstack-developer"] }
   ]
 }
