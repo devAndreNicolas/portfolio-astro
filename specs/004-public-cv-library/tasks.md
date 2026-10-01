@@ -4,4 +4,4 @@
 - [x] Restore direct-path PDF output under `public/cv/`.
 - [x] Add the manifest-driven `/cv/` route without navigation links.
 - [x] Exclude the route from the sitemap.
-- [ ] Build canonical PDFs with an installed LaTeX engine before deployment.
+- [x] Build canonical PDFs in GitHub Actions with XeLaTeX; commit public assets for deployment.

@@ -16,6 +16,12 @@ pnpm cv:clean
 
 `pnpm build` builds only the website. `pnpm build:all` generates all PDFs then builds the website.
 
+## Published PDFs without local TeX
+
+On pushes to `main` that change `career/cvs/`, the `Publish public CV PDFs` GitHub Actions workflow compiles every canonical source with XeLaTeX and commits its PDFs under `public/cv/`. Vercel can then serve them and `/cv/` lists the public manifest entries.
+
+No local LaTeX installation is needed for that path. In repository settings, allow GitHub Actions workflows to have **Read and write permissions** so the workflow's `GITHUB_TOKEN` can commit the generated PDFs. If `main` has branch protection, allow this workflow to push or use its pull-request flow.
+
 ## Compiler
 
 The default is `latexmk` with XeLaTeX. Install TeX Live or MiKTeX with `latexmk`, `xelatex`, and the packages used by your CV. On Windows, use a non-interactive package-install setting in CI.

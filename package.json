@@ -11,6 +11,7 @@
     "cv": "node scripts/cv.mjs",
     "cv:list": "node scripts/cv.mjs list",
     "cv:build": "node scripts/cv.mjs build",
+    "cv:publish": "node scripts/sync-public-cvs.mjs",
     "cv:check": "node scripts/validate-cv.mjs",
     "cv:verify": "node scripts/validate-cv.mjs --require-pdfs",
     "cv:clean": "node scripts/cv.mjs clean",
