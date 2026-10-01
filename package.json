@@ -17,6 +17,7 @@
     "cv:clean": "node scripts/cv.mjs clean",
     "applications:analyze": "node scripts/analyze-applications.mjs --write",
     "applications:report": "node scripts/analyze-applications.mjs",
+    "tailoring:check": "node scripts/validate-tailoring-requests.mjs",
     "career:dashboard": "node scripts/generate-career-dashboard.mjs",
     "applications:test": "node --test scripts/analyze-applications.test.mjs",
     "roles:recommend": "node scripts/recommend-roles.mjs --write",
