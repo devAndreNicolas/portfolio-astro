@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T19:47:53.768Z",
+  "generatedAt": "2026-10-01T20:58:44.464Z",
   "collection": {
     "at": "2026-10-01T19:47:51.225Z",
     "country": "brazil",
@@ -148,7 +148,7 @@
   ],
   "jobs": [
     {
-      "id": "bd0364836a41",
+      "id": "fce13ed9b65b",
       "name": "aquisicao-digital-software-engineer-iii-mobile-7153465b",
       "sourceUrl": "https://boards.greenhouse.io/stone/jobs/7999476003",
       "language": "en",
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": "a16d69066d3c",
+      "id": "557b493c0692",
       "name": "Diagonal-DesenvolvedorFullStack",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "id": "f6ea7ddca4ca",
+      "id": "ae178b706170",
       "name": "DigitalGrowth-Desenvolvedor(a)FullstackPleno",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "id": "6f9990ae21f9",
+      "id": "898c9d3ddef2",
       "name": "Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto]",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "id": "8a930dfbc431",
+      "id": "0ce5beaef19c",
       "name": "senior-software-engineer-ai-training-brazil-4fc23d96",
       "sourceUrl": "https://jobs.ashbyhq.com/g2i/70c018bc-d3b5-426f-bfd5-ae94891dcc7f",
       "language": "en",
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "id": "19fab2430178",
+      "id": "0e8a68a6efc2",
       "name": "Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "id": "32aa6655dc93",
+      "id": "b7d767d4b63f",
       "name": "ISASaúde-DesenvolvedorFullStackPleno",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -298,7 +298,7 @@
       ]
     },
     {
-      "id": "4b2ea8f6174c",
+      "id": "13d1cb779b21",
       "name": "Artefact-SoftwareEngineer-Brasil",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -346,7 +346,7 @@
       ]
     },
     {
-      "id": "e7d6eee5651e",
+      "id": "4e580ccec6e1",
       "name": "CI&T  Mid-Level Fullstack Developer ( Java + Angular ) Brazil",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -393,7 +393,7 @@
       ]
     },
     {
-      "id": "562a6a3ab7e6",
+      "id": "90c0124f5278",
       "name": "jobgether-software-engineer-ai-native-be1a4801",
       "sourceUrl": "https://jobs.lever.co/jobgether/8da0341b-a2ac-4231-91c7-9b2b81a5d560",
       "language": "en",
@@ -418,7 +418,7 @@
       ]
     },
     {
-      "id": "1c9e05a3e43c",
+      "id": "7afca45d385d",
       "name": "CI&T-MidLevelDeveloperFullStackAEM-AdobeExperienceManager ",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "id": "50ce27c69226",
+      "id": "d77ec38d51d0",
       "name": "CI&T-SeniorDeveloperFullStackAEM-AdobeExperienceManager",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -476,7 +476,7 @@
       ]
     },
     {
-      "id": "b071b64c06be",
+      "id": "76323d7df729",
       "name": "Jobgether  AI Process Forward Deployed Engineer",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -499,7 +499,7 @@
       ]
     },
     {
-      "id": "ac9cba6452d2",
+      "id": "121401371097",
       "name": "NOTORIA  Desenvolvedor(a) Full Stack (100% Remoto) – Foco em IA e Saúde - 1120",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -523,7 +523,7 @@
       ]
     },
     {
-      "id": "3d9f0aa5f3c3",
+      "id": "a084debdbac4",
       "name": "Software Engineer, Autonomous Revenue Operations (Brazil)",
       "sourceUrl": null,
       "language": "en",
@@ -545,7 +545,7 @@
       ]
     },
     {
-      "id": "012e8f2890e0",
+      "id": "f81536547d8b",
       "name": "ai-native-full-stack-engineer-portal-owner-37803d08",
       "sourceUrl": "https://jobs.ashbyhq.com/cas/9622e35e-24a4-4d8a-9f7e-f0f3b0a80639",
       "language": "en",
@@ -570,7 +570,7 @@
       ]
     },
     {
-      "id": "3aef23654055",
+      "id": "22f23af2eecc",
       "name": "N-iX  Fullstack Engineer (ScalaTypeScript)",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -591,7 +591,7 @@
       ]
     },
     {
-      "id": "338a76c8ca4e",
+      "id": "349729263019",
       "name": "Neppo-Desenvolvedor(a)FullStack ",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -609,7 +609,7 @@
       ]
     },
     {
-      "id": "946696b671f8",
+      "id": "0145349e583a",
       "name": "Sanar-SoftwareEngineer",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -633,7 +633,7 @@
       ]
     },
     {
-      "id": "994009ab1fb3",
+      "id": "3cbfa95bfe8e",
       "name": "Arco Educação  Software Engineer II - Front End ",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -682,7 +682,7 @@
       ]
     },
     {
-      "id": "a276d96741b0",
+      "id": "bc95a69eb30b",
       "name": "Jobgether-Full-Stack-Software-Engineer-AI-First",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -731,7 +731,7 @@
       ]
     },
     {
-      "id": "b96949603671",
+      "id": "c0bd722dbcda",
       "name": "Jobgether-MidLevel-Fullstack-(JavaIAngular)Developer",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -756,7 +756,7 @@
       ]
     },
     {
-      "id": "bae7704b2498",
+      "id": "d0ebd9908514",
       "name": "jobgether-senior-software-engineer-quality-8057b2a9",
       "sourceUrl": "https://jobs.lever.co/jobgether/ba72a0cb-fb5b-400e-b0c0-5fc135b99703",
       "language": "en",
@@ -806,7 +806,7 @@
       ]
     },
     {
-      "id": "f9dcc3bd23e5",
+      "id": "4f5135e9e558",
       "name": "INDIStaffingServices-AngularDeveloper-Remote-Work",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -827,7 +827,7 @@
       ]
     },
     {
-      "id": "bd951d84fab5",
+      "id": "9434f47ce871",
       "name": "INDIStaffingServices-AngularDeveloper-Remote-Work2",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -848,7 +848,7 @@
       ]
     },
     {
-      "id": "721fb9b0b364",
+      "id": "9c9c9f5c1256",
       "name": "CI&T-MidLevel-AIFullstack-(JavaAngular)-Developer-Brazil ",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -865,7 +865,7 @@
       ]
     },
     {
-      "id": "ab25eb570ba2",
+      "id": "967eaf7ddcea",
       "name": "Athelas-SoftwareEngineer-Applied-AI(Brazil)",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -886,7 +886,7 @@
       ]
     },
     {
-      "id": "3e7f79fe8c66",
+      "id": "c5e63c6fc4dd",
       "name": "Commure-SoftwareEngineer-AppliedAI(Brazil)",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -928,7 +928,7 @@
       ]
     },
     {
-      "id": "ec857cb9d5ec",
+      "id": "e99c8a3a319e",
       "name": "FCamara-DesenvolvedorFullstack-NET+AngularouReact-Pleno",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -949,7 +949,7 @@
       ]
     },
     {
-      "id": "de9e77a9fb79",
+      "id": "4332d2105e60",
       "name": "APAS.AI-Full-Stack-Engineer",
       "sourceUrl": null,
       "language": "pt-BR",
@@ -986,7 +986,7 @@
       ]
     },
     {
-      "id": "8985ba431cfb",
+      "id": "a6b72bd981f2",
       "name": "C&IT-Software-Architect-Brazil",
       "sourceUrl": null,
       "language": "pt-BR",

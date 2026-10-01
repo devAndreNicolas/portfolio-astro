@@ -7,35 +7,15 @@ Este repositório mantém duas áreas separadas de propósito:
 
 O portfolio e a biblioteca pública de PDFs estão em produção. A rota `/cv/` permite baixar os currículos canônicos e `/career/` mostra o painel operacional não indexado. Nenhuma delas é colocada na navegação ou no sitemap.
 
-## Uso diário: o fluxo que você segue
+## Operação diária
 
-Você não precisa instalar LaTeX nem rodar scripts locais para o caminho normal.
+Você não preenche formulários, JSONs, comandos ou uma fila por vaga. O harness do agente trata `career/applications/` como a entrada única e executa, em ordem, coleta, deduplicação, análise, priorização, atualização da memória profissional, otimização dos CVs e atualização do dashboard. O agente decide o CV-base e cria um derivado somente quando a vaga justifica; melhorias factuais e reutilizáveis entram nos CVs canônicos.
 
-1. Encontre uma vaga interessante e me envie a URL, o texto ou diga para eu coletar vagas para um recorte específico (por padrão, Brasil).
-2. Eu salvo/atualizo a descrição em `career/applications/`, faço a análise determinística de requisitos e confronto a vaga com as evidências verificadas em `career/profile/master-career.md`.
-3. Crie uma solicitação estruturada a partir de [`career/tailoring-requests/_template.json`](career/tailoring-requests/_template.json), rode `pnpm tailoring:check`, faça commit e diga somente `processe a fila de tailoring` (ou o ID). A [fila de tailoring](career/tailoring-requests/README.md) define todos os campos e estados.
-4. Eu escolho o CV-base, explico lacunas reais e preparo um CV derivado em `career/applications/<empresa>-<cargo>/`. Não sobrescrevo um CV canônico para atender uma única vaga.
-5. Eu também atualizo os relatórios, o painel e, quando houver base factual, posso melhorar os CVs canônicos. Todo texto externo continua ancorado em evidência: não inventamos empregadores, datas, métricas, tecnologias ou resultados.
-6. Você revisa o conteúdo, faz commit e envia para `main`. O GitHub Actions compila os CVs canônicos com XeLaTeX, copia os PDFs para `public/cv/` e realiza o commit de publicação. Depois, você baixa em `/cv/` e envia a candidatura manualmente.
+GitHub não participa dessa inteligência. Ele só compila fontes LaTeX já aprovadas em PDFs e os disponibiliza na rota `/cv/`.
 
-Em outras palavras: **vagas, análise e tailoring são feitos comigo neste chat; compilação/publicação do PDF é automática no GitHub após push ou execução manual do workflow.** O envio de candidatura e qualquer informação que só você conhece continuam manuais.
+Na prática, você só pode dizer **“rode a rotina de carreira”** (ou continuar a conversa normalmente quando estivermos tratando de vagas). Não precisa mencionar uma vaga, escolher um CV, criar arquivo ou preencher parâmetros. Eu leio o corpus existente, processo o que ainda não foi tratado e deixo `career/`, `/career/` e os CVs coerentes entre si.
 
-## Rotina recomendada
-
-- Diariamente ou algumas vezes por semana: traga as vagas novas ou peça uma coleta focada. Eu elimino duplicadas, vagas antigas e incompatibilidades evidentes antes da análise.
-- Para cada vaga boa: peça a análise e o CV derivado antes de se candidatar.
-- Semanalmente: veja `/career/` para acompanhar o corpus, compatibilidade baseada em evidência e cobertura por CV; veja `/cv/` para confirmar que os PDFs públicos publicados são os esperados.
-- Quando ganhar nova experiência, resultado, projeto ou formação: me envie a fonte/descrição. Eu a registro primeiro no Master Career Document e só então ela pode ser usada nos próximos currículos.
-
-## O que é automático e o que não é
-
-| Etapa | Responsável |
-| --- | --- |
-| Coletar conteúdo público de vagas, normalizar e analisar requisitos | Eu, quando você solicita aqui |
-| Escolher evidências e escrever/ajustar CV | Eu, com sua revisão quando necessário |
-| Versionar arquivos e decidir quando publicar | Você, via commit/push |
-| Compilar os CVs canônicos e publicar PDFs | GitHub Actions |
-| Enviar a candidatura e responder informações do formulário | Você |
+O único ato externo que permanece seu é enviar a candidatura. Se houver informação que não possa ser inferida com segurança — disponibilidade, pretensão, autorização de trabalho ou uma experiência nova — eu agrupo as perguntas necessárias em vez de interromper o processo a cada vaga.
 
 O score exibido é cobertura de requisitos que possuem evidência documentada. Ele ajuda a priorizar e melhorar o texto, mas não é uma garantia de aprovação por ATS ou recrutador.
 
@@ -61,7 +41,6 @@ pnpm validate
 pnpm cv:list
 pnpm cv:check
 pnpm applications:report -- <parte-do-nome-da-vaga>
-pnpm tailoring:check
 ```
 
 `pnpm validate` verifica CVs e constrói o site. A instalação local de `latexmk`/XeLaTeX ou Tectonic só é necessária se você quiser gerar e inspecionar um PDF antes do push; o CI não depende dela na sua máquina. Veja [docs/cv-toolchain.md](docs/cv-toolchain.md) para detalhes do compilador.

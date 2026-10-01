@@ -11,7 +11,8 @@ This repository contains a public Astro portfolio and a career-document system. 
 5. Run `pnpm cv:check` after editing the manifest or a source. Run `pnpm cv:verify` after generating PDFs. Run `pnpm validate` after website work.
 6. Keep ATS CVs single-column, text-selectable, conventional in section names, and free of tables, icons-only contacts, charts, and fabricated keyword stuffing.
 7. Before changing a public-facing route or copy, create/update a spec under `specs/` and keep metadata, canonical URL, social sharing, and structured data in mind.
+8. Career operations are agent-owned. Do not ask the user to create request files, select a base CV, run local analysis commands, or manage a job-by-job queue. When asked to run or continue career work, read the existing `career/applications/` corpus; collect new vacancies when authorized by the available provider credentials; run deterministic analysis; update the dashboard and career memory where evidence supports it; and tailor or create the necessary CV derivatives. GitHub Actions is restricted to compiling approved LaTeX sources into PDFs and publishing the configured public outputs.
 
 ## Agent skills
 
-Portable project skills live in `.agents/skills/`. Use the smallest relevant one: `career-memory`, `career-tailoring`, `cv-qa`, or `portfolio-seo`.
+Portable project skills live in `.agents/skills/`. Use the smallest relevant one: `career-operations`, `career-memory`, `career-tailoring`, `cv-qa`, or `portfolio-seo`.
