@@ -17,6 +17,22 @@ const schema = z.object({
   jobSources: z.array(z.string()),
   rationale: z.string(),
 });
+const sleep = (milliseconds) => new Promise((resolveSleep) => setTimeout(resolveSleep, milliseconds));
+async function generateWithRetry(prompt) {
+  let lastError;
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    try { return await ai.generate({ prompt, output: { schema } }); }
+    catch (error) {
+      lastError = error;
+      const retryable = error?.status === "UNAVAILABLE" || error?.code === 429 || error?.code === 503;
+      if (!retryable || attempt === 4) throw error;
+      const wait = 2_000 * (2 ** attempt) + Math.floor(Math.random() * 1_000);
+      console.warn(`Gemini unavailable; retrying CV plan in ${wait}ms (attempt ${attempt + 2}/5).`);
+      await sleep(wait);
+    }
+  }
+  throw lastError;
+}
 
 const candidates = reports.filter((report) => report.deterministicEvidenceCoverage.score >= 75);
 const groups = Map.groupBy(candidates, (report) => report.recommendedCanonicalCv);
@@ -24,7 +40,7 @@ const plans = [];
 for (const [canonicalCv, jobs] of groups) {
   const allowedEvidence = [...new Set(jobs.flatMap((job) => job.evidenceToPrioritize))];
   const prompt = `You are a CV evidence planner. Never invent claims.\nCanonical CV: ${canonicalCv}\nAllowed evidence IDs: ${allowedEvidence.join(", ")}\nJobs: ${JSON.stringify(jobs.map((job) => ({ source: job.source, score: job.deterministicEvidenceCoverage.score, supported: job.supportedRequirements, gaps: job.evidenceGaps })))}\nMaster evidence ledger: ${master}\nChoose only allowed evidence IDs. Select optimize-canonical when shared job patterns improve the canonical CV; create-derivative only for a narrow role-specific emphasis; skip if evidence gaps make tailoring unsafe.`;
-  const response = await ai.generate({ prompt, output: { schema } });
+  const response = await generateWithRetry(prompt);
   const plan = response.output;
   if (!plan || plan.canonicalCv !== canonicalCv || plan.evidenceIds.some((id) => !allowedEvidence.includes(id)) || plan.jobSources.some((source) => !jobs.some((job) => job.source === source))) throw new Error(`Invalid evidence plan for ${canonicalCv}.`);
   plans.push(plan);
