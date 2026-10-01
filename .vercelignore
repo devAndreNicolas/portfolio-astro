@@ -1,3 +1,7 @@
-# Career source material is versioned in GitHub, but is not required to build the Astro site.
-# Public CV PDFs, when needed by the site, belong under public/ rather than career/.
-career/
+# Career source material is versioned in GitHub but is excluded from the deploy.
+# The public CV page reads only this non-sensitive manifest at build time; it is
+# consumed by Astro and is not a served static file.
+career/*
+!career/cvs/
+career/cvs/*
+!career/cvs/manifest.json
