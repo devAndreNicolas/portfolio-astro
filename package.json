@@ -5,10 +5,19 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "build:all": "pnpm cv:build && pnpm build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "cv": "node scripts/cv.mjs",
+    "cv:list": "node scripts/cv.mjs list",
+    "cv:build": "node scripts/cv.mjs build",
+    "cv:check": "node scripts/validate-cv.mjs",
+    "cv:verify": "node scripts/validate-cv.mjs --require-pdfs",
+    "cv:clean": "node scripts/cv.mjs clean",
+    "validate": "pnpm cv:check && pnpm build"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
     "astro": "^5.17.1"
   }
 }

@@ -1,13 +1,31 @@
 ---
 import "../styles/global.css";
-interface Props { title?: string; description?: string; }
-const { title = "André Nicolas — Frontend Engineer", description = "Frontend Engineer building thoughtful digital products through UX, product thinking, and engineering." } = Astro.props;
+interface Props { title?: string; description?: string; image?: string; noindex?: boolean; }
+const {
+  title = "André Nicolas — Frontend Engineer",
+  description = "Frontend Engineer building thoughtful digital products through UX, product thinking, and engineering.",
+  image = "/assets/portrait.jpg",
+  noindex = false,
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).href;
+const socialImage = new URL(image, Astro.site ?? Astro.url).href;
 ---
 <meta charset="UTF-8" />
 <meta name="description" content={description} />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="generator" content={Astro.generator} />
 <title>{title}</title>
+<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={socialImage} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={socialImage} />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="icon" href="/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />

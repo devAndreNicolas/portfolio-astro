@@ -1,0 +1,21 @@
+{
+  "$schema": "./manifest.schema.json",
+  "cvs": {
+    "software-engineer-br": { "source": "career/cvs/software-engineer-br.tex", "output": "public/cv/andre-nicolas-engenheiro-software-br.pdf", "language": "pt-BR", "public": true },
+    "software-engineer-international": { "source": "career/cvs/software-engineer-international.tex", "output": "public/cv/andre-nicolas-software-engineer-en.pdf", "language": "en", "public": true },
+    "fullstack-engineer-br": { "source": "career/cvs/fullstack-engineer-br.tex", "output": "public/cv/andre-nicolas-engenheiro-fullstack-br.pdf", "language": "pt-BR", "public": true },
+    "fullstack-engineer-international": { "source": "career/cvs/fullstack-engineer-international.tex", "output": "public/cv/andre-nicolas-fullstack-engineer-en.pdf", "language": "en", "public": true },
+    "fullstack-developer-br": { "source": "career/cvs/fullstack-developer-br.tex", "output": "public/cv/andre-nicolas-desenvolvedor-fullstack-br.pdf", "language": "pt-BR", "public": true },
+    "fullstack-developer-international": { "source": "career/cvs/fullstack-developer-international.tex", "output": "public/cv/andre-nicolas-fullstack-developer-en.pdf", "language": "en", "public": true },
+    "angular-developer-br": { "source": "career/cvs/angular-developer-br.tex", "output": "public/cv/andre-nicolas-desenvolvedor-angular-br.pdf", "language": "pt-BR", "public": true },
+    "angular-developer-international": { "source": "career/cvs/angular-developer-international.tex", "output": "public/cv/andre-nicolas-angular-developer-en.pdf", "language": "en", "public": true },
+    "react-developer-br": { "source": "career/cvs/react-developer-br.tex", "output": "public/cv/andre-nicolas-desenvolvedor-react-br.pdf", "language": "pt-BR", "public": true },
+    "react-developer-international": { "source": "career/cvs/react-developer-international.tex", "output": "public/cv/andre-nicolas-react-developer-en.pdf", "language": "en", "public": true },
+    "frontend-engineer-br": { "source": "career/cvs/frontend-engineer-br.tex", "output": "public/cv/andre-nicolas-engenheiro-frontend-br.pdf", "language": "pt-BR", "public": true },
+    "frontend-engineer-international": { "source": "career/cvs/frontend-engineer-international.tex", "output": "public/cv/andre-nicolas-frontend-engineer-en.pdf", "language": "en", "public": true },
+    "product-engineer-br": { "source": "career/cvs/product-engineer-br.tex", "output": "public/cv/andre-nicolas-engenheiro-produto-br.pdf", "language": "pt-BR", "public": true },
+    "product-engineer-international": { "source": "career/cvs/product-engineer-international.tex", "output": "public/cv/andre-nicolas-product-engineer-en.pdf", "language": "en", "public": true },
+    "web-developer-br": { "source": "career/cvs/web-developer-br.tex", "output": "public/cv/andre-nicolas-desenvolvedor-web-br.pdf", "language": "pt-BR", "public": true },
+    "web-developer-international": { "source": "career/cvs/web-developer-international.tex", "output": "public/cv/andre-nicolas-web-developer-en.pdf", "language": "en", "public": true }
+  }
+}

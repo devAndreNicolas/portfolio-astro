@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["cvs"],
+  "properties": {
+    "cvs": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["source", "output", "language", "public"],
+        "properties": {
+          "source": { "type": "string", "pattern": "^career/cvs/.+\\.tex$" },
+          "output": { "type": "string", "pattern": "^public/cv/.+\\.pdf$" },
+          "language": { "enum": ["pt-BR", "en"] },
+          "public": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

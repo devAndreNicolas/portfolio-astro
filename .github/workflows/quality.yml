@@ -1,0 +1,41 @@
+name: Quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  portfolio:
+    runs-on: ubuntu-latest
+    env:
+      # Configure this repository variable with the real production URL.
+      SITE_URL: ${{ vars.SITE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm validate
+
+  cv-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm cv:check
+      # Enable the next two lines after replacing the starter CVs with production sources.
+      # - uses: tectonic-typesetting/setup-tectonic@v3
+      # - run: pnpm build:all && pnpm cv:verify

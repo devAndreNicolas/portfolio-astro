@@ -2,7 +2,15 @@
 import Footer from "../components/Footer.astro";
 import MainHead from "../components/MainHead.astro";
 import Nav from "../components/Nav.astro";
-interface Props { title?: string; description?: string; }
-const { title, description } = Astro.props;
+interface Props { title?: string; description?: string; image?: string; noindex?: boolean; }
+const { title, description, image, noindex } = Astro.props;
+const person = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "André Nicolas",
+  jobTitle: "Frontend Engineer",
+  email: "mailto:devandrenicolas@gmail.com",
+  sameAs: ["https://github.com/devAndreNicolas", "https://www.linkedin.com/in/devandrenicolas"],
+};
 ---
-<html lang="en"><head><MainHead title={title} description={description} /></head><body><Nav /><slot /><Footer /></body></html>
+<html lang="en"><head><MainHead title={title} description={description} image={image} noindex={noindex} /><script type="application/ld+json" set:html={JSON.stringify(person)} /></head><body><Nav /><slot /><Footer /></body></html>

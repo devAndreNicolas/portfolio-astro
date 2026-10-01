@@ -22,3 +22,16 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# LaTeX intermediates. Public PDFs are intentional build artifacts and remain tracked.
+career/.build/
+career/**/*.aux
+career/**/*.fdb_latexmk
+career/**/*.fls
+career/**/*.log
+career/**/*.out
+career/**/*.synctex.gz
+
+# Your private, factual career inventory. Keep its tracked example as a guide.
+career/profile/master-career.md
+career/profile/claims.yml
