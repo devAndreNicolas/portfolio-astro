@@ -19,4 +19,6 @@ Use `pnpm applications:report -- <part-of-filename>` to inspect one application 
 
 `pnpm roles:recommend` generates `career/roles/README.md`, with role titles and queries to use across job boards. Its score combines documented-strength coverage with representation in the local application corpus; it does not claim live market demand. The future market-research step can add an external adapter without changing the role catalogue interface.
 
+`pnpm jobs:collect:br` uses a local Playwright browser to discover up to 10 Brazil-focused results from public ATS pages and save their public text in `career/applications/`. It preserves the original URL and collection time, deduplicates by URL, rate-limits requests, and skips login, CAPTCHA, short, or blocked pages. Run `pnpm applications:analyze` afterwards. Use `jobs:collect:remote` only after reviewing the Brazil queue.
+
 The taxonomy at `career/ats/taxonomy.json` is the single configuration seam for recognized terms, evidence IDs, and canonical-CV recommendations. Add a term only with real evidence; use an empty `evidence` array to expose a gap.
