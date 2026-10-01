@@ -1,4 +1,395 @@
-\documentclass[10pt]{article}
-\input{includes/ats-preamble}
-\newcommand{\TargetRole}{Engenheiro Frontend}
-\input{includes/cv-template}
+\documentclass[9pt,a4paper]{article}
+
+\usepackage[
+    left=0.45cm,
+    right=0.45cm,
+    top=0.32cm,
+    bottom=0.32cm
+]{geometry}
+
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontspec}
+\usepackage{paracol}
+
+% =========================================================
+% CORES
+% =========================================================
+
+\definecolor{darkblue}{HTML}{0F172A}
+\definecolor{accentblue}{HTML}{2563EB}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=accentblue,
+    linkcolor=darkblue
+}
+
+% =========================================================
+% GERAL
+% =========================================================
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+\raggedbottom
+
+% =========================================================
+% SEÇÕES
+% =========================================================
+
+\titleformat{\section}
+    {\small\bfseries\color{darkblue}}
+    {}
+    {0pt}
+    {}
+    [\titlerule]
+
+\titlespacing*{\section}
+    {0pt}
+    {1.8pt}
+    {0.8pt}
+
+% =========================================================
+% LISTAS
+% =========================================================
+
+\setlist[itemize]{
+    leftmargin=0.9em,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+% =========================================================
+% COLUNAS
+% =========================================================
+
+\columnratio{0.27,0.73}
+\setlength{\columnsep}{0.38cm}
+
+% =========================================================
+% DOCUMENTO
+% =========================================================
+
+\begin{document}
+
+% =========================================================
+% CABEÇALHO
+% =========================================================
+
+\begin{center}
+
+    {\Large \textbf{ANDRÉ NICOLAS SILVA}} \\[-1pt]
+
+    {\small
+    \textbf{Frontend Engineer | Produto, Angular, React, IA \& Engenharia Web}
+    } \\[1pt]
+
+    \scriptsize
+    Brasil
+    \quad • \quad
+    \href{mailto:devandrenicolas@gmail.com}{devandrenicolas@gmail.com}
+    \quad • \quad
+    \href{https://portfolio-andrenicolas.vercel.app}{Portfólio}
+    \quad • \quad
+    \href{https://github.com/devAndreNicolas}{GitHub}
+    \quad • \quad
+    \href{https://www.linkedin.com/in/devAndreNicolas}{GitHub}
+    \quad • \quad
+    \href{https://www.linkedin.com/in/devandrenicolas}{LinkedIn}
+
+\end{center}
+
+\vspace{-3pt}
+
+% =========================================================
+% COLUNAS
+% =========================================================
+
+\begin{paracol}{2}
+
+% =========================================================
+% COLUNA ESQUERDA
+% =========================================================
+
+\fontsize{7.7pt}{8.55pt}\selectfont
+
+% =========================================================
+% COMPETÊNCIAS
+% =========================================================
+
+\section*{COMPETÊNCIAS}
+
+\textbf{Frontend Engineering:}
+Angular, React, Next.js, Astro, TypeScript, JavaScript,
+HTML5, CSS3, Signals, RxJS, component-based architecture,
+componentização, componentes reutilizáveis.
+
+\textbf{Web Components:}
+Web Components, Lit, Shadow DOM, Custom Elements,
+componentes agnósticos e sistemas reutilizáveis.
+
+\textbf{UI \& UX Engineering:}
+UX, Product Thinking, acessibilidade, responsive interfaces,
+SEO, performance, Lighthouse, experiência do 
+
+usuário, fluxos de produto e conversão.
+
+\textbf{Produto \& Problemas:}
+Requisitos, regras de negócio, ownership de features,
+escopo, decisões técnicas, resolução de problemas,
+refinamento e entrega independente.
+
+\textbf{Arquitetura Frontend:}
+Component-Based Architecture, separation of concerns,
+reusable systems, design systems, Clean Code,
+Software Architecture, Hexagonal Architecture.
+
+\textbf{AI-Native:}
+Generative AI, LLMs, prompt engineering, contextual prompting,
+AI-assisted coding, codebase exploration, debugging,
+testes e AI workflows.
+
+\textbf{IA em Produto:}
+Genkit, LLM features, input sanitization,
+contextual information e structured outputs.
+
+\textbf{Backend \& APIs:}
+Golang, REST APIs, APIs internas, concorrência,
+processamento assíncrono, event-driven systems,
+SSE, integrações e automações.
+
+\textbf{Dados:}
+SQL, PostgreSQL, Supabase, bancos relacionais,
+migrations, queries e persistência.
+
+\textbf{AI Development Stack:}
+Codex, Claude, Cursor, CodeRabbit, Skills,
+MCPs, Agents e SDD.
+
+\textbf{Cloud \& Infra:}
+Cloudflare Workers, KV, D1, Durable Objects,
+edge computing, serverless, CI/CD e Git.
+
+\textbf{Qualidade:}
+Vitest, testes automatizados, code review,
+debugging, deployment, confiabilidade e manutenção.
+
+% =========================================================
+% FORMAÇÃO
+% =========================================================
+
+\section*{FORMAÇÃO}
+
+\textbf{Sistemas para Internet} — UNCISAL
+
+Concluído em 2026
+
+% =========================================================
+% IDIOMAS
+% =========================================================
+
+\section*{IDIOMAS}
+
+\textbf{Português} — Nativo
+
+\textbf{Inglês} — Intermediário/Avançado
+
+% =========================================================
+% OPEN SOURCE
+% =========================================================
+
+\section*{OPEN SOURCE}
+
+\textbf{Stoat / Revolt Platforms LTD}
+
+Engenheiro Frontend Voluntário
+
+
+\textit{(2026 -- Atual)}
+
+UX engineering e frontend development;
+\textbf{pull request aprovado pelos mantenedores.}
+
+% =========================================================
+% COLUNA DIREITA
+% =========================================================
+
+\switchcolumn
+
+\fontsize{8.15pt}{9.15pt}\selectfont
+
+% =========================================================
+% RESUMO
+% =========================================================
+
+\section*{RESUMO PROFISSIONAL}
+
+Frontend Engineer com \textbf{foco em produto e resolução de problemas},
+com experiência na construção e evolução de produtos SaaS utilizados por
+\textbf{mais de 10 empresas}. Especializado em \textbf{Angular, React,
+TypeScript e Engenharia Web}, com experiência também em Next.js, Astro,
+Web Components e Lit, atuando em UX, arquitetura frontend, APIs,
+backend, IA e infraestrutura.
+
+Atuo desde a compreensão de requisitos e regras de negócio até
+arquitetura, implementação, debugging, refinamento e entrega.
+Combino engenharia frontend com um \textbf{workflow AI-Native},
+usando IA para explorar soluções, compreender codebases, acelerar
+implementação, revisar mudanças, investigar bugs, gerar testes e
+iterar sobre funcionalidades, mantendo julgamento técnico,
+qualidade, arquitetura e manutenibilidade.
+
+% =========================================================
+% EXPERIÊNCIA
+% =========================================================
+
+\section*{EXPERIÊNCIA PROFISSIONAL}
+
+\textbf{MSPA — Frontend Engineer (Product Focus)}
+\hfill
+\textit{Abr. 2025 -- Atual}
+
+\textit{Plataforma SaaS para Privacidade, Compliance (LGPD) e Auditoria Digital}
+
+\begin{itemize}
+
+    \item
+    \textbf{Engenharia de Produto \& Ownership:}
+    Contribuí para a construção e evolução dos produtos SaaS
+    \textbf{Compass, Trust Center e Compliance}, utilizados por
+    \textbf{mais de 10 empresas}, atuando desde compreensão de
+    contexto, requisitos e regras de negócio até definição técnica,
+    implementação, refinamento, debugging e entrega em produção.
+
+    \item
+    \textbf{Frontend Engineering:}
+    Desenvolvi e evoluí diferentes superfícies do ecossistema MSPA
+    utilizando \textbf{Angular, React, TypeScript, JavaScript,
+    Astro, Web Components e Lit}, escolhendo abordagens conforme
+    o produto, contexto técnico e necessidade da solução.
+
+    \item
+    \textbf{Angular \& TypeScript:}
+    Desenvolvi e evoluí aplicações de produção com
+    \textbf{Angular e TypeScript}, utilizando Signals/RxJS,
+    component-based architecture, componentização e componentes
+    reutilizáveis para construir interfaces sustentáveis e fáceis
+    de evoluir.
+
+    \item
+    \textbf{React \& Astro:}
+    Trabalhei com \textbf{React e Astro} em diferentes produtos
+    e superfícies da MSPA, incluindo aplicações e páginas
+    institucionais, aplicando componentização, UX, SEO,
+    performance e integração com serviços e APIs.
+
+    \item
+    \textbf{Web Components \& Lit:}
+    Desenvolvi um mecanismo de consentimento agnóstico utilizando
+    \textbf{Web Components, Lit, Shadow DOM e componentes
+    reutilizáveis}, permitindo integração com diferentes
+    aplicações e contextos frontend.
+
+    \item
+    \textbf{Cloud \& Edge Engineering:}
+    Integrei o mecanismo de consentimento com
+    \textbf{Cloudflare Workers, KV, D1 e Durable Objects},
+    utilizando recursos de edge computing para execução,
+    persistência e funcionalidades distribuídas.
+
+    \item
+    \textbf{Produto \& UX:}
+    Transformei requisitos de negócio, regras de negócio e
+    problemas de experiência em soluções frontend, participando
+    de decisões de produto, definição de escopo, arquitetura
+    e evolução de funcionalidades em produção.
+
+    \item
+    \textbf{Engenharia AI-Native:}
+    Incorporei \textbf{Codex, Claude, Cursor, CodeRabbit, Skills,
+    MCPs, Agents e SDD} ao workflow para explorar soluções,
+    compreender codebases, acelerar implementação, investigar
+    bugs, revisar mudanças, gerar testes e iterar sobre
+    funcionalidades, mantendo julgamento técnico e qualidade.
+
+    \item
+    \textbf{IA em Produto:}
+    Integrei \textbf{Generative AI em produtos de produção},
+    utilizando Genkit, contextual prompt engineering,
+    sanitização de entradas e structured outputs para desenvolver
+    funcionalidades de IA voltadas ao usuário com respostas
+    consistentes e controladas.
+
+    \item
+    \textbf{Full Stack \& Sistemas:}
+    Atuei além do frontend na investigação e resolução de problemas
+    com \textbf{Golang, APIs REST e internas, concorrência,
+    eventos, automações e SSE}, conectando funcionalidades entre
+    diferentes camadas do sistema.
+
+    \item
+    \textbf{Arquitetura \& Engenharia:}
+    Participei de decisões arquiteturais e implementei soluções
+    utilizando \textbf{Hexagonal Architecture, Component-Based
+    Architecture, separation of concerns e reusable systems},
+    buscando limites claros, manutenibilidade e evolução segura.
+
+    \item
+    \textbf{Performance, SEO \& Acessibilidade:}
+    Investiguei gargalos e implementei melhorias de
+    \textbf{performance, SEO, acessibilidade e experiência},
+    utilizando métricas e ferramentas como Lighthouse para
+    orientar otimizações em produção.
+
+    \item
+    \textbf{Qualidade \& Entrega:}
+    Trabalhei com \textbf{Git, code review, testes automatizados,
+    Vitest, CI/CD, deployment e debugging}, acompanhando mudanças
+    desde implementação até investigação e suporte em produção.
+
+    \item
+    \textbf{Coordenação de Engenharia:}
+    Reorganizei o workflow durante fase crítica do projeto,
+    melhorando clareza de escopo, organização de sprints e
+    produtividade de uma \textbf{equipe de 6 pessoas}, com
+    coordenação direta de 4 integrantes.
+
+\end{itemize}
+
+% =========================================================
+% PROJETOS
+% =========================================================
+
+\section*{PROJETOS}
+
+\textbf{Terto Beats — Plataforma Digital}
+\hfill
+\textit{Next.js, TypeScript, Supabase, Vercel}
+
+Plataforma própria de comércio digital com interface, checkout,
+estado de pagamento, persistência, integrações e automações
+pós-compra.
+
+\textbf{RendeCerto — Aplicação Web Financeira}
+\hfill
+\textit{Next.js, TypeScript, Vitest}
+
+Aplicação de simulação financeira com regras de negócio
+determinísticas e testes automatizados para diferentes cenários.
+
+\textbf{Quebrando Fronteiras — Plataforma Social}
+\hfill
+\textit{Next.js, TypeScript}
+
+Refatorei fluxos críticos ao identificar problemas de UX e produto,
+transformando-os em melhorias técnicas focadas em clareza,
+experiência e conversão.
+
+\end{paracol}
+
+\end{document}

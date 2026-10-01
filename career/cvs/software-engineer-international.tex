@@ -1,4 +1,390 @@
-\documentclass[10pt]{article}
-\input{includes/ats-preamble}
-\newcommand{\TargetRole}{Software Engineer}
-\input{includes/cv-template}
+\documentclass[9pt,a4paper]{article}
+
+\usepackage[
+    left=0.62cm,
+    right=0.62cm,
+    top=0.42cm,
+    bottom=0.42cm
+]{geometry}
+
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontspec}
+
+\definecolor{darkblue}{HTML}{0F172A}
+\definecolor{accentblue}{HTML}{2563EB}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=accentblue,
+    linkcolor=darkblue
+}
+
+% =========================================================
+% GENERAL
+% =========================================================
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+\raggedbottom
+
+% =========================================================
+% SECTION STYLE
+% =========================================================
+
+\titleformat{\section}
+    {\normalsize\bfseries\color{darkblue}}
+    {}
+    {0pt}
+    {}
+    [\titlerule]
+
+\titlespacing*{\section}
+    {0pt}
+    {2pt}
+    {0.5pt}
+
+% =========================================================
+% LISTS
+% =========================================================
+
+\setlist[itemize]{
+    leftmargin=1.15em,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+\setlist[description]{
+    style=multiline,
+    leftmargin=3.35cm,
+    labelwidth=3.35cm,
+    labelsep=0.12cm,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+\begin{document}
+
+% =========================================================
+% HEADER
+% =========================================================
+
+\begin{center}
+
+    {\LARGE \textbf{ANDRÉ NICOLAS SILVA}} \\[-2pt]
+
+    {\normalsize \textbf{Software Engineer | Product, AI, Systems \& Software Engineering}} \\[1pt]
+
+    \footnotesize
+    Brazil \quad • \quad
+    \href{mailto:devandrenicolas@gmail.com}{devandrenicolas@gmail.com} \\[-1pt]
+
+    \textbf{\href{https://portfolio-andrenicolas.vercel.app}{Portfolio}}
+    \quad • \quad
+    \href{https://github.com/devAndreNicolas}{GitHub}
+    \quad • \quad
+    \href{https://www.linkedin.com/in/devandrenicolas}{LinkedIn}
+
+\end{center}
+
+\vspace{-3pt}
+
+% =========================================================
+% SUMMARY
+% =========================================================
+
+\section*{PROFESSIONAL SUMMARY}
+
+\footnotesize
+
+Software Engineer with a \textbf{product and problem-solving focus},
+with hands-on experience building and evolving production SaaS
+products used by \textbf{10+ companies}. Works across product
+requirements, technical decisions, software architecture, frontend,
+backend, APIs, data, AI, cloud infrastructure, debugging, and
+production delivery.
+
+Combines software engineering with an \textbf{AI-native development
+workflow}, using AI as an engineering multiplier to accelerate
+implementation, explore solutions, understand codebases, review
+changes, debug issues, generate tests, and iterate on product
+functionality while maintaining technical judgment, architecture,
+correctness, and maintainability.
+
+Strong experience with \textbf{TypeScript, Angular, React, Golang,
+REST APIs, SQL, PostgreSQL, concurrency, event-driven systems,
+Server-Sent Events (SSE), CI/CD, and Cloudflare}, with the ability
+to move across application layers according to the problem being
+solved.
+
+Takes ownership of problems rather than individual tasks, translating
+\textbf{business requirements and product needs into working software}
+while balancing UX, business rules, technical constraints,
+performance, reliability, and delivery.
+
+% =========================================================
+% SKILLS
+% =========================================================
+
+\section*{CORE COMPETENCIES}
+
+\footnotesize
+
+\begin{description}
+
+    \item[\textbf{Product \& Problem Solving}]
+    Product Thinking, problem decomposition, requirements analysis,
+    business rules, UX, feature ownership, scope definition,
+    technical decision-making, independent delivery
+
+    \item[\textbf{AI-Native Engineering}]
+    Generative AI, LLM integration, prompt engineering,
+    contextual prompting, structured AI responses,
+    AI-assisted problem solving, AI-assisted coding,
+    AI-driven development workflows
+
+    \item[\textbf{Software Engineering}]
+    Full-stack development, system design, software architecture,
+    debugging, code review, automated testing, maintainability,
+    reliability, production support
+
+    \item[\textbf{Architecture \& Systems}]
+    Software Architecture, Hexagonal Architecture,
+    Component-Based Architecture, frontend architecture,
+    separation of concerns, reusable systems,
+    maintainable system boundaries
+
+    \item[\textbf{Backend \& APIs}]
+    Golang, REST APIs, internal APIs, backend services,
+    concurrency, asynchronous processing, event-driven systems,
+    Server-Sent Events (SSE), service integrations, automations
+
+    \item[\textbf{Frontend \& Web}]
+    TypeScript, JavaScript, Angular, React, Next.js,
+    Angular Signals, RxJS, Web Components, Lit,
+    Shadow DOM, Tailwind CSS
+
+    \item[\textbf{Data}]
+    SQL, PostgreSQL, Supabase, relational databases,
+    database migrations, persistence, queries
+
+    \item[\textbf{AI Product Engineering}]
+    Genkit, LLM-powered features, input sanitization,
+    contextual information, structured outputs,
+    reliable AI-powered product functionality
+
+    \item[\textbf{AI Development Stack}]
+    Codex, Claude, Cursor, CodeRabbit, Skills, MCPs,
+    Agents, SDD
+
+    \item[\textbf{Cloud \& Infrastructure}]
+    Cloudflare Workers, KV, D1, Durable Objects,
+    edge computing, serverless, CI/CD, Git
+
+    \item[\textbf{Performance \& Quality}]
+    Performance optimization, SEO, Lighthouse,
+    Vitest, automated testing, code review,
+    debugging, production reliability
+
+\end{description}
+
+% =========================================================
+% EXPERIENCE
+% =========================================================
+
+\section*{PROFESSIONAL EXPERIENCE}
+
+\noindent
+\textbf{MSPA — Software Engineer (Full Stack)}
+\hfill
+\textit{Apr 2025 -- Present}
+
+\textit{SaaS platform for Privacy, Compliance (LGPD), and Digital Auditing}
+
+\begin{itemize}
+
+    \item
+    \textbf{Product Engineering \& Problem Ownership:}
+    Built and evolved core SaaS products, including Compass and
+    Trust Center, used by \textbf{10+ companies}, taking ownership
+    from product context and requirements through technical
+    definition, implementation, refinement, debugging, and
+    production delivery.
+
+    \item
+    \textbf{Product \& Technical Decision-Making:}
+    Translated business requirements and product needs into
+    technical solutions, contributing to feature scope, business
+    rules, UX, architecture, implementation strategy, and
+    technical trade-offs.
+
+    \item
+    \textbf{AI-Native Engineering:}
+    Applied an AI-driven development workflow using
+    \textbf{Codex, Claude, Cursor, CodeRabbit, Skills, MCPs,
+    Agents, and SDD} to accelerate implementation, explore
+    solutions, understand codebases, debug issues, review changes,
+    and iterate on product functionality while maintaining
+    architectural consistency and code quality.
+
+    \item
+    \textbf{Generative AI Product Engineering:}
+    Integrated \textbf{Generative AI into production SaaS products},
+    developing user-facing capabilities with contextual prompt
+    engineering, input sanitization, and structured AI responses
+    using \textbf{Genkit}, with emphasis on reliable and consistent
+    product functionality.
+
+    \item
+    \textbf{Full-Stack Engineering:}
+    Implemented production functionality across frontend,
+    backend, APIs, data, and infrastructure, moving between
+    application layers according to product requirements and
+    technical problems.
+
+    \item
+    \textbf{Backend \& Systems Engineering:}
+    Contributed to \textbf{Golang backend services and APIs},
+    investigating and implementing solutions involving
+    concurrency, asynchronous processing, events, service
+    integrations, automations, and production issues across
+    the application stack.
+
+    \item
+    \textbf{Data \& Business Logic:}
+    Worked with \textbf{SQL and PostgreSQL}, including queries,
+    data persistence, database migrations, business rules,
+    and investigation of data-related issues across
+    application workflows.
+
+    \item
+    \textbf{Software Architecture:}
+    Participated in architectural decisions and implemented
+    solutions following \textbf{Hexagonal Architecture},
+    component-based architecture, separation of responsibilities,
+    reusable systems, and maintainable system boundaries.
+
+    \item
+    \textbf{Web \& Edge Systems:}
+    Developed an agnostic consent engine using
+    \textbf{Web Components, Lit, and Shadow DOM}, integrated with
+    \textbf{Cloudflare Workers, KV, D1, and Durable Objects}
+    for edge-based execution and distributed functionality.
+
+    \item
+    \textbf{Performance \& Reliability:}
+    Implemented performance and SEO improvements, investigating
+    bottlenecks and optimizing loading behavior and application
+    performance while maintaining usability and production
+    reliability.
+
+    \item
+    \textbf{Engineering Delivery:}
+    Worked across the software delivery lifecycle, including
+    \textbf{CI/CD, deployment, debugging, production investigation,
+    and integration of changes across application layers}.
+
+    \item
+    \textbf{Engineering Coordination:}
+    Reorganized development workflow during a critical project
+    phase, improving scope clarity, sprint organization, and
+    productivity across a \textbf{6-person team}, with direct
+    coordination of 4 team members.
+
+\end{itemize}
+
+% =========================================================
+% OPEN SOURCE
+% =========================================================
+
+\section*{OPEN SOURCE CONTRIBUTIONS}
+
+\noindent
+\textbf{Stoat / Revolt Platforms LTD — Volunteer Frontend Engineer}
+\hfill
+\textit{2026 -- Present}
+
+\footnotesize
+
+Contribute to the open-source project with a focus on
+\textbf{UX engineering and frontend development}, identifying
+user-facing problems and turning them into technical improvements
+that make the product clearer and more intuitive for users.
+\textbf{Pull request approved by project maintainers.}
+
+% =========================================================
+% PROJECTS
+% =========================================================
+
+\section*{PROJECTS}
+
+\noindent
+\textbf{RendeCerto — Financial Web Application}
+\hfill
+\textit{Next.js, TypeScript, Vitest}
+
+\footnotesize
+
+Built a financial simulation and calculation application focused on
+investment scenarios, translating financial scenarios into
+deterministic business rules and calculation logic with automated
+testing to validate results across different scenarios.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{Terto Beats — Digital Platform}
+\hfill
+\textit{Next.js, TypeScript, Supabase, Vercel}
+
+\footnotesize
+
+Built an end-to-end digital commerce platform for selling digital
+products, translating product and business requirements into the
+web interface, checkout, payment state, data persistence,
+integrations, and post-purchase automations.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{Quebrando Fronteiras — Social Platform}
+\hfill
+\textit{Next.js, TypeScript}
+
+\footnotesize
+
+Refactored critical user flows by identifying UX and product-flow
+problems and turning them into technical improvements focused on
+clarity and conversion.
+
+% =========================================================
+% EDUCATION
+% =========================================================
+
+\section*{EDUCATION}
+
+\noindent
+\textbf{Internet Systems} — UNCISAL
+\hfill
+\textit{Completed 2026}
+
+% =========================================================
+% LANGUAGES
+% =========================================================
+
+\section*{LANGUAGES}
+
+\noindent
+\textbf{Portuguese:} Native
+\quad • \quad
+\textbf{English:} Intermediate/Advanced (actively improving)
+
+\end{document}

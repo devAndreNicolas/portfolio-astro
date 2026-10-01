@@ -1,4 +1,385 @@
-\documentclass[10pt]{article}
-\input{includes/ats-preamble}
-\newcommand{\TargetRole}{Engenheiro Full Stack}
-\input{includes/cv-template}
+\documentclass[9pt,a4paper]{article}
+
+\usepackage[
+    left=0.62cm,
+    right=0.62cm,
+    top=0.42cm,
+    bottom=0.42cm
+]{geometry}
+
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontspec}
+
+\definecolor{darkblue}{HTML}{0F172A}
+\definecolor{accentblue}{HTML}{2563EB}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=accentblue,
+    linkcolor=darkblue
+}
+
+% --- GERAL ---
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+\raggedbottom
+
+% --- ESTILO DAS SEÇÕES ---
+
+\titleformat{\section}
+    {\normalsize\bfseries\color{darkblue}}
+    {}
+    {0pt}
+    {}
+    [\titlerule]
+
+\titlespacing*{\section}
+    {0pt}
+    {2pt}
+    {0.5pt}
+
+% --- LISTAS ---
+
+\setlist[itemize]{
+    leftmargin=1.15em,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+\setlist[description]{
+    style=multiline,
+    leftmargin=3.35cm,
+    labelwidth=3.35cm,
+    labelsep=0.12cm,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+\begin{document}
+
+% =========================================================
+% CABEÇALHO
+% =========================================================
+
+\begin{center}
+
+    {\LARGE \textbf{ANDRÉ NICOLAS SILVA}} \\[-2pt]
+
+    {\normalsize \textbf{Engenheiro Full Stack | Produto, IA, Sistemas \& Engenharia de Software}} \\[1pt]
+
+    \footnotesize
+    Brasil \quad • \quad
+    \href{mailto:devandrenicolas@gmail.com}{devandrenicolas@gmail.com} \\[-1pt]
+
+    \textbf{\href{https://portfolio-andrenicolas.vercel.app}{Portfólio}}
+    \quad • \quad
+    \href{https://github.com/devAndreNicolas}{GitHub}
+    \quad • \quad
+    \href{https://www.linkedin.com/in/devandrenicolas}{LinkedIn}
+
+\end{center}
+
+\vspace{-3pt}
+
+% =========================================================
+% RESUMO
+% =========================================================
+
+\section*{RESUMO PROFISSIONAL}
+
+\footnotesize
+
+Engenheiro Full Stack com foco em \textbf{produto e resolução de
+problemas}, com experiência na construção e evolução de produtos SaaS
+em produção utilizados por \textbf{10+ empresas}. Atua em requisitos
+de produto, decisões técnicas, arquitetura, frontend, backend, APIs,
+dados, IA, cloud, debugging e entrega em produção.
+
+Combina engenharia de software com um \textbf{fluxo de desenvolvimento
+AI-native}, utilizando IA para acelerar a implementação, explorar
+soluções, compreender codebases, revisar alterações, investigar
+problemas, gerar testes e iterar sobre funcionalidades de produto,
+mantendo julgamento técnico, arquitetura, corretude e
+manutenibilidade.
+
+Experiência sólida com \textbf{TypeScript, Angular, React, Golang,
+REST APIs, SQL, PostgreSQL, Cloudflare e IA Generativa}, com capacidade
+de atuar entre diferentes camadas da aplicação e transformar
+\textbf{problemas de negócio e requisitos de produto em software
+funcional}.
+
+Experiência em assumir responsabilidade por problemas, e não apenas
+por tarefas individuais, equilibrando \textbf{requisitos de produto,
+UX, regras de negócio, restrições técnicas, confiabilidade do sistema,
+performance e entrega}.
+
+% =========================================================
+% COMPETÊNCIAS
+% =========================================================
+
+\section*{COMPETÊNCIAS PRINCIPAIS}
+
+\footnotesize
+
+\begin{description}
+
+    \item[\textbf{Produto \& Resolução de Problemas}]
+    Product Thinking, decomposição de problemas, análise de requisitos,
+    regras de negócio, UX, ownership de funcionalidades,
+    definição de escopo, tomada de decisões técnicas,
+    entrega independente
+
+    \item[\textbf{Engenharia AI-Native}]
+    IA Generativa, integração com LLMs, prompt engineering,
+    contextual prompting, respostas estruturadas de IA,
+    resolução de problemas assistida por IA,
+    desenvolvimento assistido por IA,
+    fluxos de desenvolvimento orientados por IA
+
+    \item[\textbf{Engenharia de Software}]
+    Desenvolvimento Full Stack, system design,
+    arquitetura de software, debugging, code review,
+    testes automatizados, manutenibilidade,
+    confiabilidade, suporte em produção
+
+    \item[\textbf{Arquitetura \& Sistemas}]
+    Arquitetura de Software, Hexagonal Architecture,
+    Component-Based Architecture, arquitetura frontend,
+    separation of concerns, sistemas reutilizáveis,
+    funcionalidades distribuídas
+
+    \item[\textbf{Backend \& APIs}]
+    Golang, REST APIs, APIs internas, serviços backend,
+    concorrência, processamento assíncrono,
+    sistemas orientados a eventos,
+    Server-Sent Events (SSE), integrações entre serviços,
+    automações
+
+    \item[\textbf{Frontend \& Web}]
+    TypeScript, JavaScript, Angular, React, Next.js,
+    Angular Signals, RxJS, Web Components, Lit,
+    Shadow DOM, Tailwind CSS
+
+    \item[\textbf{Dados}]
+    SQL, PostgreSQL, Supabase, bancos de dados relacionais,
+    migrações de banco de dados, persistência de dados,
+    queries
+
+    \item[\textbf{Engenharia de Produto com IA}]
+    Genkit, funcionalidades baseadas em LLM,
+    sanitização de entradas, informações contextuais,
+    saídas estruturadas,
+    funcionalidades de produto confiáveis baseadas em IA
+
+    \item[\textbf{Stack de Desenvolvimento com IA}]
+    Codex, Claude, Cursor, CodeRabbit, Skills,
+    MCPs, Agents, SDD
+    \vspace{12pt}
+
+    \item[\textbf{Cloud \& Infraestrutura}]
+    Cloudflare Workers, KV, D1, Durable Objects,
+    edge computing, serverless, CI/CD, Git
+
+    \item[\textbf{Performance \& Qualidade}]
+    otimização de performance, SEO, Lighthouse,
+    Vitest, testes automatizados, code review,
+    debugging, confiabilidade em produção
+
+\end{description}
+
+% =========================================================
+% EXPERIÊNCIA
+% =========================================================
+
+\section*{EXPERIÊNCIA PROFISSIONAL}
+
+\noindent
+\textbf{MSPA — Engenheiro de Software (Full Stack)}
+\hfill
+\textit{Abr 2025 -- Atual}
+
+\textit{Plataforma SaaS para Privacidade, Compliance (LGPD) e Auditoria Digital}
+
+\begin{itemize}
+
+    \item
+    \textbf{Engenharia de Produto \& Ownership de Problemas:}
+    Construção e evolução dos principais produtos SaaS, incluindo
+    Compass e Trust Center, utilizados por \textbf{10+ empresas},
+    assumindo responsabilidade pelos problemas desde os requisitos
+    e contexto do produto até definição técnica, implementação,
+    refinamento, debugging e entrega em produção.
+
+    \item
+    \textbf{Produto \& Tomada de Decisões Técnicas:}
+    Transformação de requisitos de negócio e necessidades de produto
+    em soluções técnicas, contribuindo para definição de escopo,
+    regras de negócio, UX, arquitetura, estratégia de implementação
+    e trade-offs entre diferentes camadas da aplicação.
+
+    \item
+    \textbf{Engenharia AI-Native:}
+    Aplicação de um fluxo de desenvolvimento orientado por IA utilizando
+    \textbf{Codex, Claude, Cursor, CodeRabbit, Skills, MCPs,
+    Agents e SDD} para acelerar implementação, explorar soluções,
+    compreender código existente, investigar problemas, revisar
+    alterações e iterar sobre funcionalidades de produto, mantendo
+    consistência arquitetural e qualidade de código.
+
+    \item
+    \textbf{Engenharia de Produto com IA Generativa:}
+    Integração de \textbf{IA Generativa em produtos SaaS em produção},
+    desenvolvendo funcionalidades voltadas aos usuários com
+    prompt engineering, informações contextuais, sanitização de
+    entradas e respostas estruturadas utilizando \textbf{Genkit},
+    com foco em funcionalidades baseadas em IA confiáveis e
+    consistentes.
+
+    \item
+    \textbf{Engenharia Full Stack:}
+    Entrega de funcionalidades envolvendo
+    \textbf{aplicações frontend, serviços backend, APIs, dados e
+    infraestrutura}, transitando entre as camadas da aplicação
+    de acordo com o problema, em vez de ficar limitado a uma única
+    camada técnica.
+
+    \item
+    \textbf{Engenharia Backend \& Sistemas:}
+    Atuação com \textbf{serviços em Golang, REST/internal APIs,
+    concorrência, processamento assíncrono, eventos, SSE,
+    automações e integrações entre serviços}, investigando e
+    implementando soluções para sistemas em produção.
+
+    \item
+    \textbf{Dados \& Regras de Negócio:}
+    Atuação com \textbf{SQL e PostgreSQL}, incluindo queries,
+    persistência de dados, migrações, regras de negócio e
+    investigação de problemas relacionados a dados nos fluxos
+    da aplicação.
+
+    \item
+    \textbf{Arquitetura de Software:}
+    Participação em decisões arquiteturais e implementação de
+    soluções envolvendo \textbf{Hexagonal Architecture},
+    arquitetura baseada em componentes, separação de responsabilidades,
+    sistemas reutilizáveis e limites de aplicação manuteníveis.
+
+    \item
+    \textbf{Web \& Edge Systems:}
+    Desenvolvimento de um consent engine agnóstico utilizando
+    \textbf{Web Components, Lit e Shadow DOM}, integrado ao
+    \textbf{Cloudflare Workers, KV, D1 e Durable Objects}
+    para execução em edge e funcionalidades distribuídas.
+
+    \item
+    \textbf{Performance \& Confiabilidade:}
+    Implementação de melhorias de performance e SEO, investigando
+    gargalos e melhorando comportamento de carregamento, usabilidade,
+    performance no Lighthouse e confiabilidade em produção.
+
+    \item
+    \textbf{Coordenação de Engenharia:}
+    Reorganização dos fluxos de desenvolvimento durante uma fase
+    crítica do projeto, melhorando clareza de escopo, organização
+    de sprints e produtividade em uma \textbf{equipe de 6 pessoas},
+    com coordenação direta de 4 integrantes.
+
+\end{itemize}
+
+% =========================================================
+% OPEN SOURCE
+% =========================================================
+
+\section*{CONTRIBUIÇÕES OPEN SOURCE}
+
+\noindent
+\textbf{Stoat / Revolt Platforms LTD — Engenheiro Frontend Voluntário}
+\hfill
+\textit{2026 -- Atual}
+
+\footnotesize
+
+Contribuição para o projeto open source com foco em
+\textbf{UX engineering e desenvolvimento frontend}, identificando
+problemas voltados aos usuários e transformando-os em melhorias
+técnicas que tornam o produto mais claro e intuitivo.
+\textbf{Pull request aprovado pelos mantenedores do projeto.}
+
+% =========================================================
+% PROJETOS
+% =========================================================
+
+\section*{PROJETOS}
+
+\noindent
+\textbf{Terto Beats — Plataforma Digital}
+\hfill
+\textit{Next.js, TypeScript, Supabase, Vercel}
+
+\footnotesize
+
+Desenvolvimento de uma plataforma de comércio digital de ponta a
+ponta, transformando um fluxo de negócio real em software abrangendo
+apresentação de produtos, checkout, estado de pagamento, persistência
+de dados, integrações e automações pós-compra.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{RendeCerto — Aplicação Web Financeira}
+\hfill
+\textit{Next.js, TypeScript, Vitest}
+
+\footnotesize
+
+Desenvolvimento de uma aplicação de simulação e cálculo financeiro,
+transformando cenários de investimento em regras de negócio
+determinísticas e lógica de cálculo, com testes automatizados para
+validar resultados em diferentes cenários.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{Quebrando Fronteiras — Plataforma Social}
+\hfill
+\textit{Next.js, TypeScript}
+
+\footnotesize
+
+Refatoração de fluxos críticos de usuário em uma plataforma social,
+identificando problemas de UX e dos fluxos e implementando melhorias
+com foco em clareza e conversão.
+
+% =========================================================
+% FORMAÇÃO
+% =========================================================
+
+\section*{FORMAÇÃO}
+
+\noindent
+\textbf{Sistemas para Internet} — UNCISAL
+\hfill
+\textit{Concluído em 2026}
+
+% =========================================================
+% IDIOMAS
+% =========================================================
+
+\section*{IDIOMAS}
+
+\noindent
+\textbf{Português:} Nativo
+\quad • \quad
+\textbf{Inglês:} Intermediário/Avançado (em aprimoramento)
+
+\end{document}
