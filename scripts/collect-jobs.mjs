@@ -29,6 +29,13 @@ function isBoardUrl(value) {
   try { return [...acceptedDomains].some((domain) => new URL(value).hostname === domain || new URL(value).hostname.endsWith(`.${domain}`)); }
   catch { return false; }
 }
+function unwrapGoogleResult(value) {
+  try {
+    const parsed = new URL(value);
+    if (parsed.hostname.endsWith("google.com") && parsed.pathname === "/url") return parsed.searchParams.get("q") ?? value;
+  } catch { /* keep the original value; isBoardUrl will reject malformed URLs */ }
+  return value;
+}
 function cleanText(value) { return value.replace(/\r/g, "").replace(/\n{3,}/g, "\n\n").trim(); }
 
 const browser = await chromium.launch({ headless: true });
@@ -41,7 +48,10 @@ try {
     if (candidates.size >= limit * 4) break;
     await page.goto(`https://www.google.com/search?q=${encodeURIComponent(query)}&hl=pt-BR`, { waitUntil: "domcontentloaded", timeout: 30_000 });
     const links = await page.locator("a").evaluateAll((anchors) => anchors.map((anchor) => anchor.href).filter(Boolean));
-    for (const link of links) if (isBoardUrl(link) && !state.sources[link]) candidates.add(link);
+    for (const rawLink of links) {
+      const link = unwrapGoogleResult(rawLink);
+      if (isBoardUrl(link) && !state.sources[link]) candidates.add(link);
+    }
     await sleep(1_000);
   }
 
