@@ -1,11 +1,11 @@
 {
   "sources": {
-    "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Full-Stack-Developer--Net-Angular-Azure-_R2066416": {
-      "file": "career/applications/full-stack-developer-net-angular-azure-logo-68878346.txt",
-      "title": "Full-Stack Developer (.Net/Angular/Azure) - Logo",
-      "collectedAt": "2026-10-01T18:42:05.904Z",
+    "https://jobs.ashbyhq.com/Commure/c34dad27-842f-4f56-b4e2-c265c3118b0a": {
+      "ignored": "duplicate title",
+      "title": "Software Engineer, Autonomous Revenue Operations (Brazil)",
+      "collectedAt": "2026-10-01T18:49:23.102Z",
       "discoveryProviders": [
-        "serpapi"
+        "serper"
       ]
     }
   }

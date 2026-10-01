@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright";
@@ -30,10 +30,23 @@ function sleep(milliseconds) { return new Promise((resolveSleep) => setTimeout(r
 function slug(value) { return value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 90) || "job"; }
 function isBoardUrl(value) { try { return [...acceptedDomains].some((domain) => new URL(value).hostname === domain || new URL(value).hostname.endsWith(`.${domain}`)); } catch { return false; } }
 function cleanText(value) { return value.replace(/\r/g, "").replace(/\n{3,}/g, "\n\n").trim(); }
+function normalized(value) { return value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase(); }
+function alreadySaved(title) {
+  const candidate = normalized(title);
+  return readdirSync(destination, { withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".txt"))
+    .some((entry) => normalized(readFileSync(join(destination, entry.name), "utf8")).includes(candidate));
+}
 function isJobDescription(text) {
   const normalized = text.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
   return /\b(requirements|requisitos|qualifications|qualificacoes|responsibilities|responsabilidades)\b/.test(normalized)
     && /\b(apply|candidate-se|candidatar|vaga|job)\b/.test(normalized);
+}
+function isMarketRelevant(text) {
+  if (country === "remote") return /\b(remote|remoto)\b/i.test(text);
+  const lines = text.split("\n").map((line) => line.trim()).filter(Boolean);
+  return lines.some((line, index) => /^(locations?|local de trabalho|location)$/i.test(line)
+    && lines.slice(index + 1, index + 6).some((value) => /\b(brazil|brasil|remote|remoto)\b/i.test(value)));
 }
 
 async function discoverWithSerpApi(query) {
@@ -84,7 +97,12 @@ try {
       const text = cleanText(await page.locator("body").innerText({ timeout: 10_000 }));
       const heading = cleanText(await page.locator("h1").first().innerText({ timeout: 3_000 }).catch(() => ""));
       const title = heading || cleanText(await page.title());
-      if (text.length < 700 || !isJobDescription(text) || /unusual traffic|captcha|access denied/i.test(text)) { skipped += 1; continue; }
+      if (text.length < 700 || !isJobDescription(text) || !isMarketRelevant(text) || /unusual traffic|captcha|access denied/i.test(text)) { skipped += 1; continue; }
+      if (alreadySaved(title)) {
+        state.sources[url] = { ignored: "duplicate title", title, collectedAt: new Date().toISOString(), discoveryProviders };
+        skipped += 1;
+        continue;
+      }
       const hash = createHash("sha256").update(url).digest("hex").slice(0, 8);
       const filename = `${slug(title)}-${hash}.txt`; const relative = `career/applications/${filename}`; const collectedAt = new Date().toISOString();
       writeFileSync(join(destination, filename), `Source URL: ${url}\nCollected at: ${collectedAt}\nMarket: ${country}\nDiscovery: ${discoveryProviders.join(", ")}\n\n${text}\n`, "utf8");
