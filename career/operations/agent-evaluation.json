@@ -1,9 +1,9 @@
 {
   "$schema": "./agent-evaluation.schema.json",
   "schemaVersion": 1,
-  "runId": "2026-10-01-full-career-001",
+  "runId": "2026-10-01-editorial-hardening-001",
   "status": "complete",
-  "generatedAt": "2026-10-01T21:23:43.931Z",
+  "generatedAt": "2026-10-01T22:15:00.000Z",
   "inputs": {
     "manifestIds": ["software-engineer-br", "software-engineer-international", "fullstack-engineer-br", "fullstack-engineer-international", "fullstack-developer-br", "fullstack-developer-international", "frontend-engineer-br", "frontend-engineer-international", "product-engineer-international", "web-developer-br", "web-developer-international", "angular-developer-br", "angular-developer-international", "react-developer-br", "react-developer-international", "product-engineer-br"],
     "applicationCount": 37,
@@ -105,7 +105,7 @@
       "synergy": { "average": 84, "matchingVacancies": 2 },
       "jobSources": ["career/applications/jobgether-software-engineer-ai-native-be1a4801.txt", "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"],
       "evidenceIds": ["exp-mspa-002", "exp-mspa-006", "exp-mspa-007", "project-fecha-001", "project-fecha-002", "project-fecha-003", "project-terto-002"],
-      "changes": ["Rebuilt without tables using a single-column product narrative.", "Emphasized problem framing, trust, scope, UX, AI, and delivery without inventing revenue."],
+      "changes": ["Replaced the generic shared experience block with role-specific context-action-evidence bullets.", "Expanded product evidence for MSPA, FechaRacha, and Terto Beats without inventing revenue or traction."],
       "rejectedClaims": ["Revenue or customer traction", "formal sales ownership", "validated pricing"],
       "gaps": ["sales-ownership", "revenue-metrics"],
       "pdfCompilation": "pending-ci"
@@ -138,7 +138,7 @@
       "synergy": { "average": 80, "matchingVacancies": 12 },
       "jobSources": ["career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt", "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt", "career/applications/Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack.txt"],
       "evidenceIds": ["exp-mspa-003", "exp-mspa-007", "exp-mspa-005", "oss-002", "project-fecha-001"],
-      "changes": ["Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand."],
+      "changes": ["Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand.", "Replaced the skeletal role shell with role-specific experience and detailed project narratives."],
       "rejectedClaims": ["Java backend", "AEM", "fluent English"],
       "gaps": ["java", "aem", "advanced-english"],
       "pdfCompilation": "pending-ci"
@@ -149,7 +149,7 @@
       "synergy": { "average": 78, "matchingVacancies": 2 },
       "jobSources": ["career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt", "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"],
       "evidenceIds": ["exp-mspa-003", "exp-mspa-007", "exp-mspa-005", "oss-002"],
-      "changes": ["Created an English Angular canonical CV with transparent education and language claims."],
+      "changes": ["Created an English Angular canonical CV with transparent education and language claims.", "Replaced the skeletal role shell with role-specific experience and detailed project narratives."],
       "rejectedClaims": ["Java", "load testing", "fluent English"],
       "gaps": ["java", "load-testing", "advanced-english"],
       "pdfCompilation": "pending-ci"
@@ -160,7 +160,7 @@
       "synergy": { "average": 79, "matchingVacancies": 15 },
       "jobSources": ["career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt", "career/applications/Artefact-SoftwareEngineer-Brasil.txt", "career/applications/FCamara-DesenvolvedorFullstack-NET+AngularouReact-Pleno.txt"],
       "evidenceIds": ["exp-mspa-003", "exp-mspa-007", "project-fecha-001", "project-fecha-003", "project-terto-001", "project-terto-002"],
-      "changes": ["Created a dedicated React/Next.js canonical CV emphasizing authenticated product flows, data, and tests."],
+      "changes": ["Created a dedicated React/Next.js canonical CV emphasizing authenticated product flows, data, and tests.", "Replaced the skeletal role shell with role-specific experience and detailed project narratives."],
       "rejectedClaims": [".NET", "AWS/GCP"],
       "gaps": ["dotnet", "aws-gcp"],
       "pdfCompilation": "pending-ci"
@@ -171,7 +171,7 @@
       "synergy": { "average": 85, "matchingVacancies": 6 },
       "jobSources": ["career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt", "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt", "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt"],
       "evidenceIds": ["exp-mspa-003", "exp-mspa-007", "project-fecha-001", "project-fecha-003", "project-terto-001", "project-terto-002", "oss-002"],
-      "changes": ["Created an English React/Next.js canonical CV with ATS-safe structure and grounded product examples."],
+      "changes": ["Created an English React/Next.js canonical CV with ATS-safe structure and grounded product examples.", "Replaced the skeletal role shell with role-specific experience and detailed project narratives."],
       "rejectedClaims": ["AWS/GCP", "five years of experience"],
       "gaps": ["aws-gcp", "seniority-5-years"],
       "pdfCompilation": "pending-ci"
@@ -182,7 +182,7 @@
       "synergy": { "average": 73, "matchingVacancies": 2 },
       "jobSources": ["career/applications/Artefact-SoftwareEngineer-Brasil.txt", "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt"],
       "evidenceIds": ["exp-mspa-002", "exp-mspa-006", "exp-mspa-007", "project-fecha-001", "project-fecha-002", "project-fecha-003", "project-terto-002"],
-      "changes": ["Created the missing Brazilian Product Engineer canonical CV with product, trust, UX, AI, and delivery evidence."],
+      "changes": ["Created the missing Brazilian Product Engineer canonical CV with product, trust, UX, AI, and delivery evidence.", "Replaced the skeletal role shell with role-specific context-action-evidence content."],
       "rejectedClaims": ["Revenue", "formal sales ownership", "validated pricing"],
       "gaps": ["sales-ownership", "revenue-metrics"],
       "pdfCompilation": "pending-ci"
@@ -201,6 +201,7 @@
     "manifest": "passed-16-cvs",
     "atsStaticStructure": "passed-16-cvs",
     "siteBuild": "passed",
+    "contentQuality": "passed-16-cvs",
     "pdfCompilation": "pending-ci"
   },
   "unresolvedQuestions": []

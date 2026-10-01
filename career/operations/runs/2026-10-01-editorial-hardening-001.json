@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-01-editorial-hardening-001",
+  "status": "complete",
+  "generatedAt": "2026-10-01T22:15:00.000Z",
+  "sourceCommit": "be451770cecf10a470d03cb3d170592af02c295d",
+  "summary": {
+    "reason": "Editorial audit found generic shared experience content and insufficiently detailed role variants.",
+    "cvsRebuilt": [
+      "angular-developer-br",
+      "angular-developer-international",
+      "react-developer-br",
+      "react-developer-international",
+      "product-engineer-br",
+      "product-engineer-international"
+    ],
+    "architecture": "Shared layout retained; each role now owns its summary, skills, experience, and project narratives.",
+    "editorialMethod": "context-action-evidence/effect (STAR/CAR logic without unsupported results)",
+    "contentQualityGate": "passed-16-cvs",
+    "pdfCompilation": "pending-ci"
+  },
+  "outputs": [
+    "career/cvs/includes/canonical-role-br.tex",
+    "career/cvs/includes/canonical-role-en.tex",
+    "scripts/validate-cv-content.mjs",
+    "career/operations/agent-evaluation.json",
+    "career/operations/report.json",
+    "src/data/career-dashboard.json"
+  ]
+}

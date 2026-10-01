@@ -16,5 +16,5 @@ The career system is operated by the Codex agent from the existing application c
 - A discoverable `career-operations` skill defines the autonomous routine and its evidence boundary.
 - README documents the no-form, no-queue daily experience.
 - A single checked control-file marker authorizes a complete agent-owned run without per-vacancy input.
-- Completion is machine-rejected unless every manifest CV has a structured evaluation, every non-blocked readiness gate is 100, the consolidated dashboard output is current, and immutable run history exists.
+- Completion is machine-rejected unless every manifest CV has a structured evaluation, every non-blocked readiness gate is 100, the consolidated dashboard output is current, immutable run history exists, and every source passes the editorial-content gate (role-specific experience/projects, sufficient depth, and context/action/evidence signals).
 - The public dashboard and CV library remain read-only outputs; the GitHub workflow only compiles/publishes approved PDFs.

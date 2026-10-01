@@ -1,6 +1,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { spawnSync } from "node:child_process";
 
 const root = resolve(fileURLToPath(new URL("..", import.meta.url)));
 const manifest = JSON.parse(readFileSync(join(root, "career/cvs/manifest.json"), "utf8")).cvs;
@@ -40,5 +41,7 @@ if (failures.length) {
   for (const failure of failures) console.error(`Career operation invalid: ${failure}`);
   process.exitCode = 1;
 } else {
-  console.log(`Career operation complete and valid (${Object.keys(manifest).length} CVs).`);
+  const qualityCheck = spawnSync(process.execPath, [join(root, "scripts/validate-cv-content.mjs")], { stdio: "inherit" });
+  if (qualityCheck.status !== 0) process.exitCode = qualityCheck.status || 1;
+  else console.log(`Career operation complete and valid (${Object.keys(manifest).length} CVs).`);
 }

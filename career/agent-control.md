@@ -15,7 +15,7 @@ Transformar todo o conhecimento existente no repositório em CVs canônicos fact
 ## Definições de score
 
 - **Synergy:** cobertura ponderada das exigências reconhecidas de uma vaga por evidências reais. Não é probabilidade de aprovação e não deve ser elevada por keyword stuffing ou invenção.
-- **CV readiness:** checklist controlável de qualidade do currículo. Cada CV precisa terminar em **100/100**: factual grounding, estrutura ATS, alinhamento ao cargo, qualidade do idioma, clareza para recrutador e integridade técnica da fonte.
+- **CV readiness:** checklist controlável de qualidade do currículo. Cada CV precisa terminar em **100/100**: factual grounding, estrutura ATS, alinhamento ao cargo, qualidade do idioma, clareza para recrutador, integridade técnica da fonte e qualidade editorial comprovada pelo gate de conteúdo.
 - Uma lacuna real da carreira reduz synergy e vira dado de mercado; ela não impede readiness 100 quando o CV a trata honestamente.
 
 ## Fontes obrigatórias — ler todas, sem amostragem
@@ -66,10 +66,12 @@ Para **cada ID do manifesto**, sem exceção:
 3. Auditar toda claim atual; remover, corrigir ou qualificar qualquer claim sem sustentação.
 4. Otimizar título, resumo, experiência, skills, projetos, formação e palavras-chave naturais para a família de cargo.
 5. Priorizar resultados, escopo, ownership, produto, qualidade e stack comprovados; evitar boilerplate repetitivo.
-6. Manter uma coluna, headings convencionais, contatos literais, texto selecionável, datas consistentes, sem tabelas, gráficos, skill bars ou ícones sem texto.
-7. Revisar português/inglês como texto profissional do contexto, preservando a credencial brasileira corretamente.
-8. Calcular CV readiness. Iterar até 100/100 ou registrar bloqueio factual explícito.
-9. Registrar jobs usados, evidence IDs, alterações, gaps rejeitados e decisão no structured output.
+6. Para cada experiência e projeto, escrever conteúdo específico com a lógica **contexto → ação → evidência/efeito** (STAR/CAR sem usar o rótulo no CV). Resultado só pode ser numérico quando houver evidência; caso contrário, explicitar escopo, decisão, salvaguarda ou comportamento implementado.
+7. Layout compartilhado pode ser reutilizado, mas experiência, projetos, resumo e competências precisam ser específicos da família de cargo; um novo CV não pode ser apenas título e palavras-chave sobre um bloco genérico.
+8. Manter uma coluna, headings convencionais, contatos literais, texto selecionável, datas consistentes, sem tabelas, gráficos, skill bars ou ícones sem texto.
+9. Revisar português/inglês como texto profissional do contexto, preservando a credencial brasileira corretamente.
+10. Executar `pnpm cv:content:check`; ele exige profundidade mínima, projetos detalhados e sinais de contexto/ação/evidência. Calcular readiness somente depois de passar esse gate; iterar até 100/100 ou registrar bloqueio factual explícito.
+11. Registrar jobs usados, evidence IDs, alterações, gaps rejeitados e decisão no structured output.
 
 ### 6. Criação de novos CVs
 
@@ -94,7 +96,7 @@ O output deve incluir todos os CV IDs, readiness por dimensão, synergy agregada
 ### 8. QA e gates finais
 
 - Executar testes de aplicações e cargos.
-- Executar `pnpm cv:check`, `pnpm career:verify` e `pnpm validate`.
+- Executar `pnpm cv:check`, `pnpm cv:content:check`, `pnpm career:verify` e `pnpm validate`.
 - Quando houver compilador local, compilar/verificar PDFs e extração de texto. Sem compilador local, registrar `pdfCompilation: pending-ci`, sem alegar verificação concluída.
 - Confirmar que `/career/` consome o relatório consolidado e `/cv/` usa somente o manifesto.
 - Confirmar que GitHub Actions continua restrito a compilação/publicação de PDFs.

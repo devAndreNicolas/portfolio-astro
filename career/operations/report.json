@@ -1,7 +1,7 @@
 {
   "$schema": "./report.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T21:27:18.386Z",
+  "generatedAt": "2026-10-01T21:44:19.337Z",
   "definitions": {
     "synergy": "Weighted evidence coverage of recognized vacancy requirements. It is not an ATS-pass or interview-probability score.",
     "atsStructure": "Static source checks for known ATS risks; PDF text extraction and visual review remain separate checks."
@@ -578,7 +578,7 @@
       "public": true,
       "source": "career/cvs/product-engineer-international.tex",
       "output": "public/cv/andre-nicolas-product-engineer-en.pdf",
-      "sourceSha256": "4408fa5974a175acd9bf1b5f19a117d69caaf32a44f342ff48f380b1af347022",
+      "sourceSha256": "e39e8c6ca9a17ab450d720f0dcdc17bf54b7c3837bacfc635a2d3d5fe7f6e469",
       "matchingVacancies": 2,
       "averageEvidenceCoverage": 84,
       "status": "ats-structure-ok",
@@ -613,8 +613,8 @@
           "project-terto-002"
         ],
         "changes": [
-          "Rebuilt without tables using a single-column product narrative.",
-          "Emphasized problem framing, trust, scope, UX, AI, and delivery without inventing revenue."
+          "Replaced the generic shared experience block with role-specific context-action-evidence bullets.",
+          "Expanded product evidence for MSPA, FechaRacha, and Terto Beats without inventing revenue or traction."
         ],
         "rejectedClaims": [
           "Revenue or customer traction",
@@ -737,7 +737,7 @@
       "public": true,
       "source": "career/cvs/angular-developer-br.tex",
       "output": "public/cv/andre-nicolas-desenvolvedor-angular-br.pdf",
-      "sourceSha256": "c618fc936c6c930b27c2f46e873deafb255eb8365436c50322ac9c108dc4e37b",
+      "sourceSha256": "891346c10fcb98c92eb82463e88ec8f30fc0ecebdfbf3a97dbd16250c8cc15a5",
       "matchingVacancies": 12,
       "averageEvidenceCoverage": 80,
       "status": "ats-structure-ok",
@@ -771,7 +771,8 @@
           "project-fecha-001"
         ],
         "changes": [
-          "Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand."
+          "Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand.",
+          "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
         ],
         "rejectedClaims": [
           "Java backend",
@@ -793,7 +794,7 @@
       "public": true,
       "source": "career/cvs/angular-developer-international.tex",
       "output": "public/cv/andre-nicolas-angular-developer-en.pdf",
-      "sourceSha256": "141858d2bde056c658881c5799cb9da3cde8ca6d7869bb90ddf372f88d0f627d",
+      "sourceSha256": "5f930bf4ab9cc4c4e4f76b9def42307ec708b70d8c1621fa2571652fd4b53931",
       "matchingVacancies": 2,
       "averageEvidenceCoverage": 78,
       "status": "ats-structure-ok",
@@ -825,7 +826,8 @@
           "oss-002"
         ],
         "changes": [
-          "Created an English Angular canonical CV with transparent education and language claims."
+          "Created an English Angular canonical CV with transparent education and language claims.",
+          "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
         ],
         "rejectedClaims": [
           "Java",
@@ -847,7 +849,7 @@
       "public": true,
       "source": "career/cvs/react-developer-br.tex",
       "output": "public/cv/andre-nicolas-desenvolvedor-react-br.pdf",
-      "sourceSha256": "442dfcb54ab94276a7c2d00f9e42afa1a89ad8e1e568a9b2f9d75a23594755ca",
+      "sourceSha256": "808a489b6f8f1f6616d21ed23877b36e60192383970547aab97c70a71701e53b",
       "matchingVacancies": 15,
       "averageEvidenceCoverage": 79,
       "status": "ats-structure-ok",
@@ -882,7 +884,8 @@
           "project-terto-002"
         ],
         "changes": [
-          "Created a dedicated React/Next.js canonical CV emphasizing authenticated product flows, data, and tests."
+          "Created a dedicated React/Next.js canonical CV emphasizing authenticated product flows, data, and tests.",
+          "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
         ],
         "rejectedClaims": [
           ".NET",
@@ -902,7 +905,7 @@
       "public": true,
       "source": "career/cvs/react-developer-international.tex",
       "output": "public/cv/andre-nicolas-react-developer-en.pdf",
-      "sourceSha256": "9b21cd2ed3d04a25917b13f8f3113ba2f4521bca75b359867c7205adb40e1557",
+      "sourceSha256": "0f68fc5fa99a8620f7a9adf156fc7b5d5f84917680fd76298d3e04df425e6d85",
       "matchingVacancies": 6,
       "averageEvidenceCoverage": 85,
       "status": "ats-structure-ok",
@@ -938,7 +941,8 @@
           "oss-002"
         ],
         "changes": [
-          "Created an English React/Next.js canonical CV with ATS-safe structure and grounded product examples."
+          "Created an English React/Next.js canonical CV with ATS-safe structure and grounded product examples.",
+          "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
         ],
         "rejectedClaims": [
           "AWS/GCP",
@@ -958,7 +962,7 @@
       "public": true,
       "source": "career/cvs/product-engineer-br.tex",
       "output": "public/cv/andre-nicolas-engenheiro-produto-br.pdf",
-      "sourceSha256": "11244f1ac0ffe02918a7efc3061942f98f9bf775b304a83d1d9545a51f980f86",
+      "sourceSha256": "85444aea919d00657a17bd3b8778c369eac0a680767d67a858427102d470ebbd",
       "matchingVacancies": 2,
       "averageEvidenceCoverage": 73,
       "status": "ats-structure-ok",
@@ -993,7 +997,8 @@
           "project-terto-002"
         ],
         "changes": [
-          "Created the missing Brazilian Product Engineer canonical CV with product, trust, UX, AI, and delivery evidence."
+          "Created the missing Brazilian Product Engineer canonical CV with product, trust, UX, AI, and delivery evidence.",
+          "Replaced the skeletal role shell with role-specific context-action-evidence content."
         ],
         "rejectedClaims": [
           "Revenue",
@@ -1056,9 +1061,9 @@
     }
   ],
   "agentRun": {
-    "runId": "2026-10-01-full-career-001",
+    "runId": "2026-10-01-editorial-hardening-001",
     "status": "complete",
-    "generatedAt": "2026-10-01T21:23:43.931Z",
+    "generatedAt": "2026-10-01T22:15:00.000Z",
     "unresolvedQuestions": []
   }
 }
