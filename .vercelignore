@@ -1,0 +1,3 @@
+# Career source material is versioned in GitHub, but is not required to build the Astro site.
+# Public CV PDFs, when needed by the site, belong under public/ rather than career/.
+career/

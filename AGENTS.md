@@ -4,7 +4,7 @@ This repository contains a public Astro portfolio and a career-document system. 
 
 ## Operating rules
 
-1. Read `career/profile/master-career.md` before proposing or editing a CV. It is ignored by Git; use the tracked example only as a schema.
+1. Read `career/profile/master-career.md` before proposing or editing a CV. It is tracked in Git but excluded from the Vercel deployment; do not put secrets or sensitive private-repository content in it.
 2. Never invent employers, dates, technologies, seniority, outcomes, or metrics. Every externally stated claim needs an evidence ID or source in the Master Career Document.
 3. Treat `career/cvs/manifest.json` as the source of CV IDs and public PDF locations. Do not hard-code a filename elsewhere.
 4. A job-specific CV belongs in `career/applications/<company>-<role>/`; do not overwrite a canonical CV.

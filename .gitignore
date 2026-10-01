@@ -32,6 +32,6 @@ career/**/*.log
 career/**/*.out
 career/**/*.synctex.gz
 
-# Your private, factual career inventory. Keep its tracked example as a guide.
-career/profile/master-career.md
+# Optional local claims dataset. Keep it untracked when it contains credentials or notes
+# that are not appropriate for the public repository.
 career/profile/claims.yml

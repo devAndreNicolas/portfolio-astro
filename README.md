@@ -24,7 +24,7 @@ pnpm cv:build -- career/cvs/frontend-engineer-br.tex
 pnpm cv:build
 ```
 
-See [the CV toolchain](docs/cv-toolchain.md). First install `latexmk` plus XeLaTeX, or Tectonic. Put private, verified career facts in `career/profile/master-career.md`, created from the tracked example; it is intentionally ignored.
+See [the CV toolchain](docs/cv-toolchain.md). First install `latexmk` plus XeLaTeX, or Tectonic. Put verified career facts in `career/profile/master-career.md`, created from the tracked example. It is versioned with the repository but excluded from the Vercel deployment; do not add secrets or sensitive private-repository details.
 
 The canonical starter files are role and language pairs:
 

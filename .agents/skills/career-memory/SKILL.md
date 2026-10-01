@@ -5,6 +5,12 @@ description: Establish or update the factual career profile that CV and portfoli
 
 # Career memory
 
+## GitHub intake
+
+When André authorizes authenticated GitHub read access, inspect repositories in this order: repository metadata, README, architecture/product docs, manifests, tests/CI, merged pull requests, then only the source paths needed to substantiate a claim. Do not read `.env`, credentials, user data, or copy proprietary code into career memory.
+
+Treat a package dependency, roadmap, or architecture document as evidence of project direction or technical design, not automatic proof of a shipped integration or business outcome. Record the repository URL/path and distinguish implemented behavior from a documented proposal.
+
 Use this skill when ingesting a CV, portfolio case study, LinkedIn export, project evidence, or a correction from André.
 
 Read `career/profile/master-career.md` first. Add only supported facts with a source path, date, and confidence note. Keep three distinct groups:
