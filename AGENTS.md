@@ -14,4 +14,4 @@ This repository contains a public Astro portfolio and a career-document system. 
 
 ## Agent skills
 
-Portable project skills live in `.agents/skills/`. Use the smallest relevant one: `career-tailoring`, `cv-qa`, or `portfolio-seo`.
+Portable project skills live in `.agents/skills/`. Use the smallest relevant one: `career-memory`, `career-tailoring`, `cv-qa`, or `portfolio-seo`.
