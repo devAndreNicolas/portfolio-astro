@@ -49,7 +49,19 @@
       }
     },
     "newCvCandidates": { "type": "array", "items": { "type": "object", "required": ["id", "status", "reason"], "properties": { "id": { "type": "string" }, "status": { "enum": ["created", "planned", "rejected"] }, "reason": { "type": "string" } } } },
-    "validation": { "type": "object" },
+    "validation": {
+      "type": "object",
+      "required": ["applicationTests", "roleTests", "manifest", "atsStaticStructure", "contentQuality", "siteBuild", "pdfCompilation"],
+      "properties": {
+        "applicationTests": { "type": "string" },
+        "roleTests": { "type": "string" },
+        "manifest": { "type": "string" },
+        "atsStaticStructure": { "type": "string" },
+        "contentQuality": { "type": "string", "pattern": "^passed-" },
+        "siteBuild": { "type": "string" },
+        "pdfCompilation": { "enum": ["verified", "pending-ci", "failed"] }
+      }
+    },
     "unresolvedQuestions": { "type": "array", "items": { "type": "string" } }
   }
 }

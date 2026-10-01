@@ -23,6 +23,7 @@ if (!failures.length) {
   const reportIds = (report.cvs ?? []).map((cv) => cv.id).sort();
 
   if (evaluation.status !== "complete") failures.push(`agent evaluation status is ${evaluation.status ?? "missing"}, expected complete`);
+  if (!/^passed-/.test(evaluation.validation?.contentQuality ?? "")) failures.push("agent evaluation does not record a passing content-quality gate");
   if (JSON.stringify(manifestIds) !== JSON.stringify(evaluatedIds)) failures.push("agent evaluation does not contain exactly every manifest CV ID");
   if (JSON.stringify(manifestIds) !== JSON.stringify(reportIds)) failures.push("operations report does not contain exactly every manifest CV ID");
 
