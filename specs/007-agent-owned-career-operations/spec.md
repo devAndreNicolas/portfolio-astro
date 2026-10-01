@@ -15,4 +15,5 @@ The career system is operated by the Codex agent from the existing application c
 - Repository harness instructions make the agent, not the user, owner of career operations.
 - A discoverable `career-operations` skill defines the autonomous routine and its evidence boundary.
 - README documents the no-form, no-queue daily experience.
+- A single checked control-file marker authorizes a complete agent-owned run without per-vacancy input.
 - The public dashboard and CV library remain read-only outputs; the GitHub workflow only compiles/publishes approved PDFs.

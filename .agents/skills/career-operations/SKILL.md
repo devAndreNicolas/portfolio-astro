@@ -5,7 +5,7 @@ description: Autonomously run the repository's vacancy-to-CV career routine when
 
 # Career operations
 
-The user does not manage a per-vacancy queue. Treat the current application corpus as the work queue and take ownership of the routine.
+The user does not manage a per-vacancy queue. Treat the current application corpus as the work queue and take ownership of the routine. Check `career/agent-control.md` at the beginning of every career-related turn. A checked `Run full career pipeline` is an instruction to execute the complete routine, then replace it with an unchecked box and a concise dated result.
 
 Read `career/profile/master-career.md`, the application analysis index, canonical manifest, and the relevant existing CVs. If collection is in scope and credentials are present, refresh the Brazil-first corpus with the repository collector. Then run deterministic analysis, role recommendations, and dashboard generation.
 

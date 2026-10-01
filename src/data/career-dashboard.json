@@ -1,88 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T20:58:44.464Z",
+  "generatedAt": "2026-10-01T20:59:45.323Z",
   "collection": {
-    "at": "2026-10-01T19:47:51.225Z",
+    "at": "2026-10-01T20:58:56.237Z",
     "country": "brazil",
     "provider": "both",
     "afterDate": "2026-09-28",
     "maxAgeDays": 7,
-    "discovered": 12,
-    "collected": 5,
-    "rejected": {
-      "duplicate": 1,
-      "location": 0,
-      "stale": 0,
-      "mismatch": 3,
-      "structure": 3,
-      "blocked": 0
-    },
-    "attempts": [
-      {
-        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Full-Stack-Developer--Net-Angular-Azure-_R2066416",
-        "title": "",
-        "reason": "structure",
-        "textLength": 0
-      },
-      {
-        "url": "https://jobs.ashbyhq.com/apas/a36c1e1b-8d9c-42ef-8a6b-5dcb7e836d84",
-        "title": "Full Stack Engineer",
-        "reason": "structure",
-        "textLength": 4896
-      },
-      {
-        "url": "https://jobs.ashbyhq.com/kraken.com/c591538b-b19c-4377-9a56-f5b9b30fc9fa",
-        "title": "Senior Software Engineer - Rust - Consumer",
-        "reason": "rust",
-        "fitSignals": [
-          "typescript",
-          "react",
-          "web-components",
-          "rest-api",
-          "security",
-          "ai-product",
-          "payments"
-        ]
-      },
-      {
-        "url": "https://boards.greenhouse.io/okta/jobs/8237695",
-        "title": "Senior Software Engineer",
-        "reason": "duplicate"
-      },
-      {
-        "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/BELO-HORIZONTE/Software-Engineer-II--R-D-Hardware-Verification_R56225?utm_source=hsamplify&utm_medium=linkedin&utm_term=2ce009d3-992f-4e66-8399-90da12317a46",
-        "title": "Careers",
-        "reason": "structure",
-        "textLength": 0
-      },
-      {
-        "url": "https://boards.greenhouse.io/okta/jobs/8220649",
-        "title": "Staff Software Engineer",
-        "reason": "insufficient-core-signals",
-        "fitSignals": [
-          "accessibility",
-          "seo",
-          "web-components",
-          "rest-api",
-          "auth",
-          "authorization",
-          "security"
-        ]
-      },
-      {
-        "url": "https://jobs.smartrecruiters.com/Nagarro1/744000152723749-associate-principal-engineer-dataops",
-        "title": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
-        "reason": "insufficient-core-signals",
-        "fitSignals": [
-          "accessibility",
-          "web-components",
-          "rest-api",
-          "postgresql",
-          "security",
-          "cicd"
-        ]
-      }
-    ]
+    "discovered": 0,
+    "collected": 0,
+    "rejected": {},
+    "attempts": []
   },
   "totals": {
     "jobs": 37,

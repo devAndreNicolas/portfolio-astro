@@ -13,7 +13,7 @@ Você não preenche formulários, JSONs, comandos ou uma fila por vaga. O harnes
 
 GitHub não participa dessa inteligência. Ele só compila fontes LaTeX já aprovadas em PDFs e os disponibiliza na rota `/cv/`.
 
-Na prática, você só pode dizer **“rode a rotina de carreira”** (ou continuar a conversa normalmente quando estivermos tratando de vagas). Não precisa mencionar uma vaga, escolher um CV, criar arquivo ou preencher parâmetros. Eu leio o corpus existente, processo o que ainda não foi tratado e deixo `career/`, `/career/` e os CVs coerentes entre si.
+Para disparar uma rodada completa, marque apenas `- [x] Run full career pipeline` em [`career/agent-control.md`](career/agent-control.md). Na próxima mensagem que eu receber, eu leio o marcador, executo tudo e registro o resultado no mesmo arquivo. Não precisa mencionar uma vaga, escolher um CV, criar arquivo por vaga ou preencher parâmetros.
 
 O único ato externo que permanece seu é enviar a candidatura. Se houver informação que não possa ser inferida com segurança — disponibilidade, pretensão, autorização de trabalho ou uma experiência nova — eu agrupo as perguntas necessárias em vez de interromper o processo a cada vaga.
 
