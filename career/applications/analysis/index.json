@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T19:47:52.651Z",
+  "generatedAt": "2026-10-01T20:21:15.885Z",
   "reports": [
     {
       "schemaVersion": 1,
       "source": "career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt",
-      "sourceSha256": "bd0364836a414134c6ba3a8bda7af8eaa94d9147c26917b600bc67724b1c4848",
+      "sourceSha256": "fce13ed9b65bae3d9dfbf761607cdfa4464aa50d9e20d7930f8bac2328f5a7de",
       "language": "en",
       "recommendedCanonicalCv": "software-engineer-international",
       "deterministicEvidenceCoverage": {
@@ -70,7 +70,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Diagonal-DesenvolvedorFullStack.txt",
-      "sourceSha256": "a16d69066d3c0efe8f30800944b20f0375f4e2ffbc90516e40c2f7c5b1c8135e",
+      "sourceSha256": "557b493c06924962951742bfaf30d1982de4cad4c46765c1a5ae9016ff96af53",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -132,7 +132,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
-      "sourceSha256": "f6ea7ddca4ca652f0b05377c161bd4d98794eba5f7e5018f502aaeca46baa503",
+      "sourceSha256": "ae178b706170d3fe842eeb6a2b32a2331ea6d19f6d7358f7174952b42d5a4b12",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -249,7 +249,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
-      "sourceSha256": "6f9990ae21f9cac3d1eabb7dec8f7c2a2e2585ac7c06fa781724eeb9f5925d45",
+      "sourceSha256": "898c9d3ddef2612c7cba129a210e38d6b0f353453e7641566c26c14749291430",
       "language": "pt-BR",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -339,7 +339,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/senior-software-engineer-ai-training-brazil-4fc23d96.txt",
-      "sourceSha256": "8a930dfbc431f5f94df5ae8d91b2415791377138812a5448391791f7a969d941",
+      "sourceSha256": "0ce5beaef19c60c6f5da60eb0dcf9f18909e9f45f6f09ce4c3b00aad64075659",
       "language": "en",
       "recommendedCanonicalCv": "software-engineer-international",
       "deterministicEvidenceCoverage": {
@@ -413,7 +413,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack.txt",
-      "sourceSha256": "19fab2430178fde062ba50533d629ded3edc35b15bf8896c95e740672da126dd",
+      "sourceSha256": "0e8a68a6efc20eed2d52a694aadd23325fa859235e5b34fb6c0e172d87ee5c8a",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -527,7 +527,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/ISASaúde-DesenvolvedorFullStackPleno.txt",
-      "sourceSha256": "32aa6655dc9386da78b65e7883b430058a0dccbaabd69b62e4f557174bfe3577",
+      "sourceSha256": "b7d767d4b63f0e6da5469f626a3b09d0a007fca74f3d4583658dfb40be0f4f50",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -643,7 +643,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
-      "sourceSha256": "4b2ea8f6174cb1aef2c18229700bb59b44b5f31817a5118e3f4d64af12ee1261",
+      "sourceSha256": "13d1cb779b21ed04979b66c699448320a97376c4a3dc5a84a5b7a9081563d85b",
       "language": "pt-BR",
       "recommendedCanonicalCv": "software-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -875,7 +875,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/CI&T  Mid-Level Fullstack Developer ( Java + Angular ) Brazil.txt",
-      "sourceSha256": "e7d6eee5651e49d77ab2080a333c1332804e9500a243fb42ee6646a7c888b4ec",
+      "sourceSha256": "4e580ccec6e1f54194ff044a439742b96267b1bce7b642bd6ddff082130d4ae8",
       "language": "pt-BR",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -1086,7 +1086,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
-      "sourceSha256": "562a6a3ab7e697e35806dbc64f451513e08548b9f5a2cc3922f7cbe24c7a4378",
+      "sourceSha256": "90c0124f52784f1787d2ab20cc3f93e0c5c2a1e6945ce18a6efb3262f963ee39",
       "language": "en",
       "recommendedCanonicalCv": "software-engineer-international",
       "deterministicEvidenceCoverage": {
@@ -1189,7 +1189,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/CI&T-MidLevelDeveloperFullStackAEM-AdobeExperienceManager .txt",
-      "sourceSha256": "1c9e05a3e43c8e20696ef319071f3026b2b2627c9c182edb18280e29ffeca409",
+      "sourceSha256": "7afca45d385dd73abe31c6cf9b146f1be908e07f27820a4743fbd4396a3bc577",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -1344,7 +1344,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/CI&T-SeniorDeveloperFullStackAEM-AdobeExperienceManager.txt",
-      "sourceSha256": "50ce27c69226f75390548e202cb0fe7dd3a75d37f808e4e9de47a1b0ae902655",
+      "sourceSha256": "d77ec38d51d05aebe8b07d75bd68a997a8ec4f0918c252587845195d6325ab72",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -1499,7 +1499,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt",
-      "sourceSha256": "b071b64c06be3873a0be256532384e148a5903529489974760a15835dc17a824",
+      "sourceSha256": "76323d7df729741b8d93e05b48fe35ffe589588d546b6b38c1d326f258df2edb",
       "language": "pt-BR",
       "recommendedCanonicalCv": "software-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -1582,7 +1582,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/NOTORIA  Desenvolvedor(a) Full Stack (100% Remoto) – Foco em IA e Saúde - 1120.txt",
-      "sourceSha256": "ac9cba6452d29d00bc33a215ae68ac2cef7a6e8479c9d7f114a7bca7d25cfad7",
+      "sourceSha256": "1214013710978a5f8b9fc3a770dbafebfc03d448980ba8bcfa4566b18a929575",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -1670,7 +1670,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Software Engineer, Autonomous Revenue Operations (Brazil).txt",
-      "sourceSha256": "3d9f0aa5f3c3654eb62b2b9316e67503fd8fb3eacdf0f0207cf277f3f3c0a3d9",
+      "sourceSha256": "a084debdbac49d8c7e4779edd884893d1696b66095aaa938fe56441bad6077fb",
       "language": "en",
       "recommendedCanonicalCv": "software-engineer-international",
       "deterministicEvidenceCoverage": {
@@ -1762,7 +1762,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt",
-      "sourceSha256": "012e8f2890e0ed612bcea62b6a89caab87ffd23b82ce3db738a034494afc986a",
+      "sourceSha256": "f81536547d8b7e9103992f8484718ccd668b742446bdb6febb9104ec61746828",
       "language": "en",
       "recommendedCanonicalCv": "fullstack-engineer-international",
       "deterministicEvidenceCoverage": {
@@ -1860,7 +1860,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/N-iX  Fullstack Engineer (ScalaTypeScript).txt",
-      "sourceSha256": "3aef23654055f0ada16aa781e5074b69b3b78bf87098905a267e45537efc6dbb",
+      "sourceSha256": "22f23af2eecc92dccbdab3b61105d42123e8d47134337ff7eb22a9c819e45714",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -1939,7 +1939,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Neppo-Desenvolvedor(a)FullStack .txt",
-      "sourceSha256": "338a76c8ca4e4e2a335d1f39c8270f2e8a8da9c0e54cf2316f4080628112a978",
+      "sourceSha256": "349729263019fc05ba99d720e27d783cec1feb5f2b867f157f69451a1b44a1d2",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -2007,7 +2007,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Sanar-SoftwareEngineer.txt",
-      "sourceSha256": "946696b671f8075a4d5118226bca933f5daad54609f3f9c70fdd5c28148dabd1",
+      "sourceSha256": "0145349e583a5d9b11e8ef655497cfe630121ed4d942c5610f7e4bcf5824d7a1",
       "language": "pt-BR",
       "recommendedCanonicalCv": "software-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -2127,7 +2127,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Arco Educação  Software Engineer II - Front End .txt",
-      "sourceSha256": "994009ab1fb32c52f05be6393083af089050fbf3834a2f2e39eab08b841313da",
+      "sourceSha256": "3cbfa95bfe8e6504e9e7deeb9b8b8dc1ff40b82bc30560212072de8ed8d8e101",
       "language": "pt-BR",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -2351,7 +2351,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Jobgether-Full-Stack-Software-Engineer-AI-First.txt",
-      "sourceSha256": "a276d96741b0d5b407320bc0928f3980e6dd85efdfff0068a323a54633cb32e4",
+      "sourceSha256": "bc95a69eb30b719af9e097576938be27f3249d169ae35bac9007ed9e9939dd04",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -2563,7 +2563,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Jobgether-MidLevel-Fullstack-(JavaIAngular)Developer.txt",
-      "sourceSha256": "b9694960367186470108e73e1120eac15f1f27b59bb9f114a1bb2ecb2138d4d4",
+      "sourceSha256": "c0bd722dbcdae3be4567e9147bb58563e9b17b07a793e81879a9706927683138",
       "language": "pt-BR",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -2665,7 +2665,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/jobgether-senior-software-engineer-quality-8057b2a9.txt",
-      "sourceSha256": "bae7704b2498b692a149de69cdbf122e48a85e0e602d01891856c62d07296c57",
+      "sourceSha256": "d0ebd9908514dd9b304d7c2ffe1b2a83ba9cc0ef8f6974b3376a3dedfc9973ce",
       "language": "en",
       "recommendedCanonicalCv": "software-engineer-international",
       "deterministicEvidenceCoverage": {
@@ -2891,7 +2891,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt",
-      "sourceSha256": "f9dcc3bd23e58582091ae24317c6a5293e132f3e241e17f20246f14b27d6baf3",
+      "sourceSha256": "4f5135e9e558952ec638117043e06fb4a8b7c8f099a818cf29ddeba44cd2afd3",
       "language": "pt-BR",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -2981,7 +2981,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work2.txt",
-      "sourceSha256": "bd951d84fab59d4ecf476045d7d1548445edd2dfe3c82b7afe9031e4a0a1c2fa",
+      "sourceSha256": "9434f47ce8714a8818693a5dd96d95e6b651a1a981bf3148cb0f2eb8242e7429",
       "language": "pt-BR",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -3071,7 +3071,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/CI&T-MidLevel-AIFullstack-(JavaAngular)-Developer-Brazil .txt",
-      "sourceSha256": "721fb9b0b364892f18c03b8dcf9b4fa0f2a1fcafe7711445241263878f21ac14",
+      "sourceSha256": "9c9c9f5c1256c14b729f64d8ee22b282b122e2f260ac313d0e38f2ba9b644b8e",
       "language": "pt-BR",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -3130,7 +3130,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Athelas-SoftwareEngineer-Applied-AI(Brazil).txt",
-      "sourceSha256": "ab25eb570ba2da18ad9a0f664169f5c1144f56c8e1cf28a07cc99ead6dff66d1",
+      "sourceSha256": "967eaf7ddcea5d4e603efcb95aae15476df97e34850f4ac4aef8734dbb14e9c1",
       "language": "pt-BR",
       "recommendedCanonicalCv": "software-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -3220,7 +3220,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/Commure-SoftwareEngineer-AppliedAI(Brazil).txt",
-      "sourceSha256": "3e7f79fe8c66e5014566ab8bc46dd0fb3010b8df32dc63551dfcddff3c2418c5",
+      "sourceSha256": "c5e63c6fc4dd9f572698e4282134a85ffde26f5c40ccad83af607c54ab4b280b",
       "language": "pt-BR",
       "recommendedCanonicalCv": "software-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -3400,7 +3400,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/FCamara-DesenvolvedorFullstack-NET+AngularouReact-Pleno.txt",
-      "sourceSha256": "ec857cb9d5ec2d47717e70cea0cc5138fb29769c23d01d875f68af80bd746cb5",
+      "sourceSha256": "e99c8a3a319ee641647cb4f81411a5e00560ae75b86350eb03e296c890c5e118",
       "language": "pt-BR",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -3482,7 +3482,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/APAS.AI-Full-Stack-Engineer.txt",
-      "sourceSha256": "de9e77a9fb7923fa0d1072780593f0373970ad2fdb978c62d576d5f34e534e14",
+      "sourceSha256": "4332d2105e60a3a942a1bca202c35b475532ce7714c3a1ad312ffa14c06d47b2",
       "language": "pt-BR",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "deterministicEvidenceCoverage": {
@@ -3747,7 +3747,7 @@
     {
       "schemaVersion": 1,
       "source": "career/applications/C&IT-Software-Architect-Brazil.txt",
-      "sourceSha256": "8985ba431cfb8ee640e6ed9187fa72b4d1f498a63ae59716a6f06a8ba0c4b89d",
+      "sourceSha256": "a6b72bd981f2759c1a65ae1bb726f2d493a20c84a907a2b1edae08684f25013b",
       "language": "pt-BR",
       "recommendedCanonicalCv": "software-engineer-br",
       "deterministicEvidenceCoverage": {

@@ -18,8 +18,6 @@
     "applications:analyze": "node scripts/analyze-applications.mjs --write",
     "applications:report": "node scripts/analyze-applications.mjs",
     "career:dashboard": "node scripts/generate-career-dashboard.mjs",
-    "career:plan-cvs": "node scripts/plan-cv-optimization.mjs",
-    "career:render-cvs": "node scripts/render-optimized-cvs.mjs",
     "applications:test": "node --test scripts/analyze-applications.test.mjs",
     "roles:recommend": "node scripts/recommend-roles.mjs --write",
     "roles:test": "node --test scripts/recommend-roles.test.mjs",
@@ -33,9 +31,7 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
-    "@genkit-ai/google-genai": "^1.42.0",
-    "astro": "^5.17.1",
-    "genkit": "^1.42.0"
+    "astro": "^5.17.1"
   },
   "devDependencies": {
     "playwright": "^1.63.0"
