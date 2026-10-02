@@ -8,7 +8,7 @@ Private factual memory for CV and portfolio work. Last synthesized: 2026-10-01. 
 - Based in Maceió, Brazil. [identity-002]
 - Target positioning: Frontend Engineer / Software Engineer with product focus; credible adjacent roles include Full Stack Engineer, Full Stack Developer, Product Engineer, and Web Developer. [position-001]
 - Contact: `devandrenicolas@gmail.com`; GitHub `devAndreNicolas`; LinkedIn `devandrenicolas`; portfolio `portfolio-andrenicolas.vercel.app`. [identity-003]
-- Languages: Portuguese (native); English self-described as intermediate/advanced and improving. Do not describe English as fluent without new evidence. [language-001]
+- Languages: Portuguese (native); English self-described as advanced and improving. Do not describe English as fluent without new evidence. [language-001]
 
 ## Evidence ledger
 
