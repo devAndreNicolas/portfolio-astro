@@ -1,11 +1,11 @@
-# LinkedIn profile — Full Stack Engineer positioning
+# LinkedIn profile — Full Stack Engineer / Software Engineer positioning
 
 Ready-to-paste public-profile copy. Primary language: English. Keep the actual MSPA job title as `Frontend Engineer`; use `Full Stack Engineer` as public positioning, supported by documented product and full-stack contributions.
 
 ## Headline
 
 ```text
-Full Stack Engineer | TypeScript, React, Angular, APIs & Product Systems
+Full Stack Engineer | Java, TypeScript, Angular, React | AI Product & Systems
 ```
 
 ## Open to Work roles
@@ -21,13 +21,15 @@ Frontend Engineer
 ## About
 
 ```text
-I’m a Full Stack Engineer focused on building reliable web products from requirements and business rules through implementation, testing, and production support.
+I’m a Full Stack Engineer and Software Engineer focused on product, systems, and problem ownership. I take work from product context, requirements, business rules, scope, and technical decisions through implementation, refinement, debugging, production delivery, and support.
 
-At MSPA, I contribute to privacy, LGPD-compliance, and digital-auditing SaaS surfaces used by 10+ companies. My work connects product context and technical definition to delivery across Angular, React, TypeScript, Web Components, Lit, APIs, data, and platform concerns.
+At MSPA, I contribute to privacy, LGPD-compliance, and digital-auditing SaaS surfaces used by 10+ companies. I work across Angular, React, TypeScript, Web Components, Lit, APIs, data, and Cloudflare/edge concerns to turn complex compliance constraints into clear, maintainable product journeys.
 
-I work with TypeScript, Angular, React, Signals, RxJS, Next.js, Astro, REST/internal APIs, Go, SQL/PostgreSQL, Supabase, Cloudflare, automated testing, CI/CD, accessibility, SEO, and performance.
+My systems work includes Go services, REST/internal APIs, SQL/PostgreSQL, persistence, migrations, concurrency, asynchronous processing, events/SSE, integrations, automations, and framework-agnostic consent flows with Cloudflare Workers, KV, D1, Durable Objects, and audit events. Java is part of my academic and project foundation, including Android development with SQLite and native platform components.
 
-I also build end-to-end product flows involving authentication, authorization, validation, invitations, payments, webhooks, offline-first behavior, and AI-assisted user capabilities. I care about clear user journeys, maintainable systems, and technical decisions grounded in product constraints.
+I use an AI-native engineering workflow—Codex, Claude, Cursor, CodeRabbit, MCPs, agents, and specification-driven development—to explore solutions, understand codebases, review changes, investigate problems, generate tests, and iterate with technical judgment. I also integrate user-facing generative-AI features with Genkit, contextual prompting, input sanitization, and structured outputs.
+
+I care about product clarity, maintainable architecture, reliable delivery, and the quality practices behind it: automated testing, code review, CI/CD, deployment, debugging, accessibility, SEO, performance, and production support.
 
 Open to Full Stack Engineer, Full Stack Developer, Software Engineer, Product Engineer, and Frontend Engineer opportunities.
 ```
@@ -44,10 +46,12 @@ MSPA is a SaaS platform for privacy, LGPD compliance, and digital auditing.
 
 • Contribute to Compass, Trust Center, and compliance surfaces used by 10+ companies, from product context, requirements, and business rules through implementation, debugging, delivery, and production support.
 • Build reusable interfaces and systems with Angular, React, TypeScript, Astro, Web Components, Lit, Signals, RxJS, and Shadow DOM; translate complex compliance constraints into understandable product journeys.
-• Contribute to features spanning Go services, REST/internal APIs, SQL/PostgreSQL, asynchronous processing, events/SSE, integrations, and Cloudflare services when the product requires work beyond the interface layer.
-• Contributed to a framework-agnostic consent UI and enforcement flow using Web Components, Lit, Shadow DOM, Cloudflare Workers, KV, D1, Durable Objects, configuration, and audit events.
+• Contribute to features spanning Go services, REST/internal APIs, SQL/PostgreSQL queries and migrations, concurrency, asynchronous processing, events/SSE, integrations, automations, and Cloudflare services when a product problem requires end-to-end work.
+• Participate in architecture and implementation using Hexagonal Architecture, component-based architecture, separation of concerns, reusable systems, and maintainable application boundaries.
+• Contributed to a framework-agnostic consent UI and enforcement flow using Web Components, Lit, Shadow DOM, Cloudflare Workers, KV, D1, Durable Objects, managed configuration, and audit events.
+• Use an AI-native engineering workflow for solution exploration, codebase understanding, code review, debugging, test generation, and iteration; integrate user-facing Genkit capabilities with contextual prompts, input sanitization, and structured outputs.
 • Use Git, code review, Vitest, automated testing, CI/CD, deployment, debugging, accessibility, SEO, and performance practices to deliver and support production changes.
-• Integrate user-facing generative-AI capabilities with Genkit, contextual prompting, input sanitization, and structured responses.
+• Reorganized workflow during a critical delivery phase in a six-person team, directly coordinating four contributors to improve scope clarity and continuity of delivery.
 ```
 
 ### Stoat / Revolt Platforms LTD
@@ -85,6 +89,22 @@ Built an installable application for field records with local data, a service wo
 Stack: React, TypeScript, Vite, Tailwind, PouchDB/CouchDB.
 ```
 
+### Saúde em Campo — Offline-first field-work architecture
+
+```text
+Designed an offline-first mobile architecture for teams recording field visits and health information without stable connectivity. The design specifies per-user local data isolation, a sync queue, idempotency keys, retries/backoff, role-based access, and risk-prioritization rules. This is architecture/design evidence, not a clinical-deployment claim.
+
+Stack: React Native, Expo, TypeScript, SQLite, Drizzle, TanStack Query.
+```
+
+### Missões do Dia — Android mission manager
+
+```text
+Built an academic Android CRUD application for managing missions, using local persistence and native platform components.
+
+Stack: Java, Android SDK, SQLite, SharedPreferences, Service, BroadcastReceiver, AsyncTask, Activity, XML layouts.
+```
+
 ### RendaFácil — Investment-yield simulator
 
 ```text
@@ -110,14 +130,14 @@ Pin these three first:
 
 ```text
 TypeScript
-React.js
+Java
 Angular
 ```
 
 Then add:
 
 ```text
-JavaScript · Next.js · Astro · HTML · CSS · Tailwind CSS · Signals · RxJS · Web Components · Lit · Shadow DOM · REST APIs · Go · SQL · PostgreSQL · Supabase · Cloudflare Workers · Cloudflare KV · Cloudflare D1 · Durable Objects · Authentication · Authorization · Webhooks · Vitest · Automated Testing · CI/CD · Git · Code Review · Debugging · Accessibility · SEO · Web Performance · Genkit · Generative AI · Product Development
+JavaScript · React.js · Next.js · Astro · HTML · CSS · Tailwind CSS · Signals · RxJS · Web Components · Lit · Shadow DOM · Hexagonal Architecture · Component-Based Architecture · REST APIs · Go · SQL · PostgreSQL · Database Migrations · Supabase · Cloudflare Workers · Cloudflare KV · Cloudflare D1 · Durable Objects · Server-Sent Events (SSE) · Event-Driven Systems · Authentication · Authorization · Webhooks · Vitest · Automated Testing · CI/CD · Git · Code Review · Debugging · Accessibility · SEO · Web Performance · Genkit · Generative AI · AI Product Engineering · Android SDK · SQLite · Product Development
 ```
 
 ## Education

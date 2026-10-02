@@ -6,7 +6,7 @@ Private factual memory for CV and portfolio work. Last synthesized: 2026-10-01. 
 
 - Public name: **André Nicolas**. Full name used in CV headers: **André Nicolas Silva**. [identity-001]
 - Based in Maceió, Brazil. [identity-002]
-- Target positioning: Frontend Engineer / Software Engineer with product focus; credible adjacent roles include Full Stack Engineer, Full Stack Developer, Product Engineer, and Web Developer. [position-001]
+- Primary target positioning: Full Stack Engineer / Full Stack Developer and Software Engineer with product, systems, and AI-native delivery focus. Frontend Engineer, Product Engineer, Angular Developer, React Developer, and Web Developer remain evidence-backed adjacent routes. This prioritization reflects the documented full-stack work and the current role-recommendation corpus; it is positioning, not an employer title. [position-001]
 - Contact: `devandrenicolas@gmail.com`; GitHub `devAndreNicolas`; LinkedIn `devandrenicolas`; portfolio `portfolio-andrenicolas.vercel.app`. [identity-003]
 - Languages: Portuguese (native); English self-described as advanced and improving. Do not describe English as fluent without new evidence. [language-001]
 
@@ -23,6 +23,7 @@ Private factual memory for CV and portfolio work. Last synthesized: 2026-10-01. 
 - **project-diary-001 — Diário de Campo Escoteiro.** Offline-first installable PWA for field records, with local data and automatic CouchDB synchronization after reconnecting; React, TypeScript, Vite, Tailwind, PouchDB/CouchDB, service worker, and web app manifest. Source: public GitHub `devAndreNicolas/diario-de-campo-escoteiro`, README, inspected 2026-10-01.
 - **project-rendafacil-001 — RendaFácil.** Separate public investment-yield simulator repository with Next.js 15, TypeScript, ApexCharts, forms, SEO/sitemap configuration, calculation rules, comparison, glossary, and financial-disclaimer documentation. Source: public GitHub `devAndreNicolas/renda-facil`, README, inspected 2026-10-01. Confirm whether this is the same project as `RendeCerto` before merging names in a CV.
 - **project-missions-001 — Missões do Dia.** Academic Android Java application for mission CRUD using SQLite, SharedPreferences, Service, BroadcastReceiver, AsyncTask, Activity, and XML layouts. Source: public GitHub `devAndreNicolas/missoes-do-dia`, README, inspected 2026-10-01. Frame as academic/mobile work, not professional Android experience.
+- **edu-java-001 — Academic Java foundation.** André confirms Java was used throughout his Sistemas para Internet coursework, alongside the documented Missões do Dia Android project. This supports describing Java as an academic/project foundation and listing its Android/SQLite components; it does not support a professional Java/Spring claim. Source: André Nicolas, career-profile correction, 2026-10-02.
 - **project-terto-002 — Implemented checkout and webhook flow.** The private `andre-nicolas-beats` repository has a payment orchestration layer that creates pending orders, validates provider/currency/amount, starts Stripe Checkout or a Mercado Pago flow, and records checkout details. Mercado Pago and Stripe webhook routes process payment events; the Stripe route validates its webhook signature and both call shared paid-order fulfillment. The repository also has a Vitest test command and MDX-content tests. This supports describing implemented checkout/order/webhook handling; it does not establish production traffic, revenue, or successful payment volume. Sources: private GitHub `devAndreNicolas/andre-nicolas-beats`, payment routes/services and `package.json`, inspected 2026-10-01.
 
 ### Employment and open source
@@ -35,6 +36,9 @@ Private factual memory for CV and portfolio work. Last synthesized: 2026-10-01. 
 - **exp-mspa-006 — AI product work.** Integrated user-facing generative-AI capabilities using Genkit, contextual prompt engineering, input sanitization, and structured responses. Sources: canonical CVs.
 - **exp-mspa-007 — Delivery and quality.** Worked with Git, code review, Vitest/automated testing, CI/CD, deployment, debugging, performance, SEO, and accessibility. Sources: canonical CVs; `mspa-compass.md`; `mspa-compliance-portal.md`; `mspa-landing-page.md`.
 - **exp-mspa-008 — Team coordination.** During a critical project phase, reorganized workflow with a 6-person team and direct coordination of 4 people. Source: canonical CVs; `mspa-compass.md`. Do not inflate this into a people-manager title.
+- **exp-mspa-009 — AI-native engineering workflow.** Uses Codex, Claude, Cursor, CodeRabbit, skills, MCPs, agents, and specification-driven development to explore solutions, understand codebases, review changes, investigate problems, generate tests, and iterate on product work. This supports a workflow/productivity claim, not a claim that AI replaces engineering judgment or that it produced an unverified outcome. Sources: rich canonical Software Engineer and Full Stack CVs, inspected 2026-10-02.
+- **exp-mspa-010 — Software architecture and system boundaries.** Participated in software-architecture decisions and implementation involving Hexagonal Architecture, component-based architecture, separation of concerns, reusable systems, and maintainable application boundaries. Sources: rich canonical Software Engineer and Full Stack CVs, inspected 2026-10-02.
+- **exp-mspa-011 — Data and production delivery.** Worked with SQL/PostgreSQL queries, persistence, database migrations, and business rules; participated in CI/CD, deployment, production debugging, and cross-layer change integration. Sources: rich canonical Software Engineer and Full Stack CVs, inspected 2026-10-02.
 - **oss-001 — Stoat / Revolt Platforms LTD, 2026–present.** Volunteer Frontend Engineer; UX/frontend contribution with a pull request approved by maintainers. Source: canonical CVs. Keep `Volunteer` explicit.
 
 ### Projects
@@ -62,12 +66,26 @@ Private factual memory for CV and portfolio work. Last synthesized: 2026-10-01. 
 
 ## Evidence-backed skill map
 
-- Frontend/product: Angular, React, Next.js, Astro, TypeScript, JavaScript, HTML/CSS, UX, accessibility, SEO, performance/Lighthouse, product requirements, business rules, feature ownership, scope, reusable component systems.
-- Architecture/platform: Web Components, Lit, Shadow DOM, component-based architecture, separation of concerns, Hexagonal Architecture, REST/internal APIs, Go, event-driven systems, SSE, SQL/PostgreSQL/Supabase, Cloudflare Workers/KV/D1/Durable Objects, edge/serverless, CI/CD.
-- Java/mobile: Java and the Android SDK in the academic Missões do Dia application, including SQLite, SharedPreferences, Service, BroadcastReceiver, AsyncTask, Activity, and XML layouts. [project-missions-001] This is project evidence; it is not evidence of professional Java/Spring experience.
-- AI/productivity: generative AI/LLM product features, Genkit, prompt/context design, input sanitization, structured outputs; Codex, Claude, Cursor, CodeRabbit, MCPs, agents, skills, and SDD used in development workflow.
+- Frontend/product: Angular, React, Next.js, Astro, TypeScript, JavaScript, Java, HTML/CSS, UX, accessibility, SEO, performance/Lighthouse, product requirements, business rules, feature ownership, scope, technical decision-making, trade-offs, and reusable component systems.
+- Architecture/platform: Web Components, Lit, Shadow DOM, component-based architecture, separation of concerns, Hexagonal Architecture, system boundaries, REST/internal APIs, Go, concurrency, asynchronous processing, event-driven systems, SSE, service integrations, automations, SQL/PostgreSQL/Supabase, persistence, database migrations, Cloudflare Workers/KV/D1/Durable Objects, edge/serverless, CI/CD, deployment, and production debugging.
+- Java/mobile: Java is an academic foundation throughout the Sistemas para Internet coursework and in the Missões do Dia Android application, including SQLite, SharedPreferences, Service, BroadcastReceiver, AsyncTask, Activity, and XML layouts. [edu-java-001, project-missions-001] This is academic/project evidence; it is not evidence of professional Java/Spring experience.
+- AI/productivity: generative AI/LLM product features, Genkit, prompt/context design, input sanitization, structured outputs; Codex, Claude, Cursor, CodeRabbit, MCPs, agents, skills, and SDD used as an AI-native development workflow for exploration, codebase understanding, review, investigation, test generation, and iteration with human technical judgment.
 
 ## Positioning themes
+
+### Canonical narrative modules from the rich CV baseline
+
+These modules are the reusable source for public profiles and role variants. They consolidate the detailed canonical Software Engineer, Full Stack Engineer, and Full Stack Developer CVs; select and order them by role, but do not turn every module into one generic profile paragraph.
+
+- **Product ownership and problem framing.** Takes a problem from product context, requirements, business rules, scope, and technical decisions through implementation, refinement, debugging, production delivery, and support. [exp-mspa-001, exp-mspa-002]
+- **End-to-end systems work.** Can contribute across frontend, backend services, APIs, data, and Cloudflare/edge infrastructure when a feature requires more than one layer. [exp-mspa-003, exp-mspa-004, exp-mspa-005, exp-mspa-011]
+- **Backend, data, and asynchronous systems.** Go services, REST/internal APIs, SQL/PostgreSQL, persistence, migrations, concurrency, asynchronous processing, events/SSE, integrations, and automations. [exp-mspa-005, exp-mspa-011]
+- **Architecture and trust-sensitive product systems.** Uses Hexagonal and component-based architecture, clear boundaries, reusable systems, Web Components/Lit/Shadow DOM, and the framework-agnostic consent flow with Cloudflare services and audit events. [exp-mspa-004, exp-mspa-010]
+- **AI-native engineering and user-facing AI.** Uses AI as an engineering workflow while also integrating user-facing Genkit capabilities with contextual prompts, input sanitization, and structured responses. [exp-mspa-006, exp-mspa-009]
+- **Quality, performance, and production responsibility.** Tests, code review, CI/CD, deployment, debugging, accessibility, SEO, performance/Lighthouse, and production support are part of delivery rather than isolated keywords. [exp-mspa-007, exp-mspa-011]
+- **Collaboration under delivery pressure.** Reorganized workflow during a critical phase for a six-person team and directly coordinated four contributors; do not describe this as formal people management. [exp-mspa-008]
+- **Full-stack project evidence.** FechaRacha demonstrates authorization and state safeguards; Terto Beats demonstrates checkout/order/webhook orchestration; Diário de Campo demonstrates offline synchronization; Saúde em Campo is architecture evidence only; Missões do Dia scopes Java to academic Android work. [project-fecha-001, project-fecha-002, project-fecha-003, project-terto-001, project-terto-002, project-diary-001, project-saude-001, project-missions-001]
+- **Java foundation.** Java is part of the academic and project foundation, including an Android CRUD application with local persistence and native lifecycle/background components. Present it as a visible engineering keyword with its scope, never as an implied Java/Spring production role. [edu-java-001, project-missions-001]
 
 ## CV selection map
 
