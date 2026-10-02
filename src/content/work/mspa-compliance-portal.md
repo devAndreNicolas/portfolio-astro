@@ -1,6 +1,6 @@
 ---
 title: MSPA Compliance Portal
-order: 5
+order: 7
 headline: Making dense compliance knowledge easier to use.
 role: Frontend Engineering · Content UX
 disciplines: [Astro, Accessibility, Shared systems]

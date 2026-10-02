@@ -1,6 +1,6 @@
 ---
 title: Deep Work Rhythm
-order: 4
+order: 12
 headline: A calmer place to make room for one thing.
 description: A personal focus tool that combines a configurable session timer, subtle presence sounds, a garden-click moment, and a playlist made for meaningful work.
 publishDate: 2026-09-15

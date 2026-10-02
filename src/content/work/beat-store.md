@@ -1,6 +1,6 @@
 ---
 title: Terto Beats - Digital Assets Marketplace
-order: 3
+order: 4
 headline: Building a digital marketplace for music creators.
 role: Product · Full-stack Engineering
 disciplines: [Commerce, Checkout, Digital delivery]
@@ -43,9 +43,10 @@ I developed core commerce flows and integration behavior across checkout, state 
 
 ## Technical Decisions
 
-- Implemented checkout and order lifecycle behavior in Next.js.
+- Implemented checkout and pending-order lifecycle behavior in Next.js.
 - Used Supabase for authentication and data persistence.
-- Structured transaction-related automations for confirmation and delivery steps.
+- Added Stripe Checkout and Mercado Pago initiation flows with provider, currency, and amount validation.
+- Implemented webhook handling, including Stripe signature validation, and shared paid-order fulfillment.
 - Organized state handling for cart, user session, and purchase context.
 
 </section>
@@ -54,8 +55,8 @@ I developed core commerce flows and integration behavior across checkout, state 
 
 ## Outcome
 
-- The platform supported practical digital commerce operations with a stable end-to-end flow.
-- Post-purchase steps became more predictable and less manual.
+- The codebase supports an end-to-end checkout, order, and fulfillment flow for digital assets.
+- Payment-volume, revenue, and production outcomes are not represented here.
 
 </section>
 

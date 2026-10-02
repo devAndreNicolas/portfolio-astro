@@ -14,7 +14,7 @@ export const collections = {
       headline: z.string().optional(),
       role: z.string().optional(),
       disciplines: z.array(z.string()).default([]),
-      visual: z.enum(["workflow", "consent", "commerce", "focus", "content", "social", "finance", "learning"]).default("workflow"),
+      visual: z.enum(["workflow", "consent", "commerce", "focus", "content", "social", "finance", "learning", "mobile", "collaboration"]).default("workflow"),
       liveUrl: z.string().url().optional(),
       img: z.string().optional(),
       img_alt: z.string().optional(),

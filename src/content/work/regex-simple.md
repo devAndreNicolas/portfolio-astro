@@ -1,6 +1,6 @@
 ---
 title: RegexSimple - Reactive Learning Tool
-order: 9
+order: 13
 headline: Helping people learn patterns through immediate feedback.
 role: Frontend Engineering · Learning UX
 disciplines: [Angular, RxJS, Interaction design]

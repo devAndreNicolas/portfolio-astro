@@ -1,6 +1,6 @@
 ---
 title: MSPA Landing Page
-order: 6
+order: 8
 headline: A flexible acquisition system, not a single marketing page.
 role: Frontend Engineering · Growth
 disciplines: [Astro, SEO, Performance]

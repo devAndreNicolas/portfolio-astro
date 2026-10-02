@@ -3,7 +3,7 @@ const isHome = Astro.url.pathname === "/";
 ---
 <nav class="wrapper" aria-label="Main navigation">
   <a class="brand" href="/">André Nicolas</a>
-  <div class="links"><a href={isHome ? "#work" : "/#work"}>Work</a><a href="/about/">About</a><a href="https://github.com/devAndreNicolas" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+  <div class="links"><a href={isHome ? "#work" : "/#work"}>Work</a><a href="/about/">About</a><a href="/cv/">CVs</a><a href="https://github.com/devAndreNicolas" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
 </nav>
 <style>
 nav { display:flex; justify-content:space-between; align-items:center; min-height:5.5rem; border-bottom:1px solid var(--line); }.brand { font-size:1rem; font-weight:700; text-decoration:none; }.links { display:flex; gap:1.1rem; align-items:center; font-size:.86rem; }.links a { text-decoration:none; color:var(--muted); }.links a:hover { color:var(--blue); } @media (max-width:30rem) { .links { gap:.75rem; font-size:.8rem; } }
