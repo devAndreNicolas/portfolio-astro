@@ -21,6 +21,7 @@
     "career:dashboard": "node scripts/generate-career-dashboard.mjs",
     "career:report": "node scripts/generate-career-operations-report.mjs",
     "career:verify": "node scripts/validate-career-operation.mjs",
+    "profile:audit": "node scripts/audit-public-profile.mjs",
     "applications:test": "node --test scripts/analyze-applications.test.mjs",
     "roles:recommend": "node scripts/recommend-roles.mjs --write",
     "roles:test": "node --test scripts/recommend-roles.test.mjs",

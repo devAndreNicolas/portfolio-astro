@@ -55,6 +55,11 @@ Private factual memory for CV and portfolio work. Last synthesized: 2026-10-01. 
 
 - **edu-001 — Tecnólogo em Sistemas para Internet, UNCISAL; completed 2026.** For English CVs use: `Tecnólogo in Internet Systems, UNCISAL (Brazil)`, optionally followed by a neutral explanation such as `Brazilian higher-education technology degree`. Do not rename UNCISAL or claim a bachelor’s/associate degree equivalence without verified credential guidance. Sources: canonical CVs.
 
+### Public-profile evidence
+
+- **linkedin-001 — Public LinkedIn profile, inspected 2026-10-02.** The profile publicly identifies André Nicolas Pires Terto Silva as being at MSPA in Maceió, links the portfolio, and presents him as a Frontend Engineer. Its public activity includes engineering articles about AI review for regulatory workflows, real-time role updates, Angular, React, and consent-system architecture. These articles are public positioning evidence; do not convert their implementation details into CV claims unless separately substantiated.
+- **cert-001 — Public LinkedIn credentials, inspected 2026-10-02.** The current profile lists Angular 17 Fundamentals and Web Performance Fundamentals v2 (Frontend Masters, issued May 2025), Front-End System Design (Frontend Masters, issued March 2025), Responsive Web Design (freeCodeCamp, issued March 2025), Imersão Computação Básica (BRISA, issued February 2025), Google Data Analytics foundations (issued February 2025), and Discover (Rocketseat, issued June 2024). Source: public LinkedIn profile. Preserve the issuer/title/date exactly when listing them; certifications are supplementary evidence, not a substitute for experience.
+
 ## Evidence-backed skill map
 
 - Frontend/product: Angular, React, Next.js, Astro, TypeScript, JavaScript, HTML/CSS, UX, accessibility, SEO, performance/Lighthouse, product requirements, business rules, feature ownership, scope, reusable component systems.

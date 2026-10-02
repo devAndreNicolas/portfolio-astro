@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-02T13:05:23.655Z",
+  "scope": "Public-profile evidence coverage against the repository Master Career Document. The audit never invents claims.",
+  "inputs": {
+    "github": {
+      "user": "devAndreNicolas",
+      "repository": "devAndreNicolas",
+      "status": "fetched",
+      "source": "https://github.com/devAndreNicolas/devAndreNicolas"
+    },
+    "linkedin": {
+      "status": "not-provided",
+      "sources": []
+    }
+  },
+  "profiles": [
+    {
+      "name": "GitHub profile README",
+      "status": "fetched",
+      "textLength": 3336,
+      "evidenceCoverage": {
+        "score": 88,
+        "found": [
+          "target-role",
+          "frontend-stack",
+          "platform-stack",
+          "quality",
+          "projects",
+          "open-source",
+          "contact-links"
+        ],
+        "missing": [
+          "mspa"
+        ]
+      },
+      "factualRisks": [
+        {
+          "id": "nest",
+          "label": "NestJS is not evidenced in career memory",
+          "guidance": "Remove NestJS unless you can add inspected project evidence to the Master Career Document."
+        },
+        {
+          "id": "firebase",
+          "label": "Firebase is not evidenced in career memory",
+          "guidance": "Remove Firebase unless you can add inspected project evidence to the Master Career Document."
+        }
+      ],
+      "recruiterReview": [
+        "Add the current MSPA SaaS role with product context and scope.",
+        "Treat this as evidence coverage, not an ATS pass probability or a hiring prediction."
+      ]
+    },
+    {
+      "name": "LinkedIn export",
+      "status": "not-provided",
+      "textLength": 0,
+      "evidenceCoverage": {
+        "score": 0,
+        "found": [],
+        "missing": [
+          "target-role",
+          "mspa",
+          "frontend-stack",
+          "platform-stack",
+          "quality",
+          "projects",
+          "open-source",
+          "contact-links"
+        ]
+      },
+      "factualRisks": [],
+      "recruiterReview": [
+        "Make the target role explicit in the headline/about section.",
+        "Add the current MSPA SaaS role with product context and scope.",
+        "Surface 2–4 named projects with problem, action, and technical evidence.",
+        "Link the portfolio and GitHub from the profile.",
+        "Treat this as evidence coverage, not an ATS pass probability or a hiring prediction."
+      ]
+    }
+  ],
+  "nextSteps": [
+    "Export your LinkedIn data or save your own profile text/HTML, then rerun with `--linkedin <path>`. Do not automate scraping a logged-in LinkedIn session.",
+    "Review any suggested copy against career/profile/master-career.md before publishing it."
+  ]
+}
