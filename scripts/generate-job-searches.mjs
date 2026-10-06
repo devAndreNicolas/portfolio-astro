@@ -14,12 +14,15 @@ const afterDate = after.toISOString().slice(0, 10);
 const markets = { remote: "\"Remote\"", brazil: "(\"Brazil\" OR \"Brasil\" OR \"Remoto\")" };
 const primaryPlatforms = new Set(["ashby", "greenhouse", "lever", "inhire", "gupy"]);
 const rows = [];
+const groupsFor = (platform) => platform.searchGroups ?? config.groups;
+const querySiteFor = (platform) => platform.searchSite ?? platform.site;
+const marketTermsFor = (platform, market) => platform.marketTerms?.[market] ?? markets[market];
 
 for (const platform of config.platforms) {
   for (const market of platform.markets) {
-    for (const group of config.groups) {
+    for (const group of groupsFor(platform)) {
       if (group.id === "founding" && !["ashby", "greenhouse", "lever"].includes(platform.id)) continue;
-      const query = `site:${platform.site} ${group.query} ${markets[market]} after:${afterDate}`;
+      const query = [`site:${querySiteFor(platform)}`, group.query, marketTermsFor(platform, market), `after:${afterDate}`].filter(Boolean).join(" ");
       rows.push({ platform, market, group, query, url: `https://www.google.com/search?q=${encodeURIComponent(query)}` });
     }
   }

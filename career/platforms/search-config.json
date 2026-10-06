@@ -12,7 +12,20 @@
     { "id": "ashby", "label": "Ashby", "site": "jobs.ashbyhq.com", "markets": ["remote", "brazil"] },
     { "id": "greenhouse", "label": "Greenhouse", "site": "boards.greenhouse.io", "markets": ["remote", "brazil"] },
     { "id": "lever", "label": "Lever", "site": "jobs.lever.co", "markets": ["remote", "brazil"] },
-    { "id": "inhire", "label": "InHire", "site": "inhire.com.br", "markets": ["brazil"] },
+    {
+      "id": "inhire",
+      "label": "InHire",
+      "site": "inhire.com.br",
+      "searchSite": "carreira.inhire.com.br",
+      "markets": ["brazil"],
+      "marketTerms": { "brazil": "" },
+      "searchGroups": [
+        { "id": "fullstack-pt", "label": "Full Stack (PT-BR)", "query": "(\"Desenvolvedor Full Stack\" OR \"Desenvolvedor(a) Full Stack\" OR \"Desenvolvedor Fullstack\" OR \"Desenvolvedor(a) Fullstack\" OR \"Pessoa Desenvolvedora Full Stack\") (\"TypeScript\" OR \"React\" OR \"Angular\" OR \"Node.js\" OR \"JavaScript\")" },
+        { "id": "frontend-pt", "label": "Frontend (PT-BR)", "query": "(\"Desenvolvedor Frontend\" OR \"Desenvolvedor(a) Frontend\" OR \"Desenvolvedor Angular\" OR \"Desenvolvedor(a) Angular\" OR \"Desenvolvedor React\" OR \"Pessoa Desenvolvedora Frontend\") (\"TypeScript\" OR \"Angular\" OR \"React\")" },
+        { "id": "software-pt", "label": "Software / Produto (PT-BR)", "query": "(\"Engenheiro de Software\" OR \"Engenheira de Software\" OR \"Desenvolvedor de Software\" OR \"Desenvolvedor(a) de Software\" OR \"Pessoa Desenvolvedora\") (\"TypeScript\" OR \"React\" OR \"Angular\" OR \"Node.js\" OR \"API\")" },
+        { "id": "ai-pt", "label": "IA aplicada (PT-BR)", "query": "(\"Engenheiro de IA\" OR \"Engenheira de IA\" OR \"Desenvolvedor de IA\" OR \"Desenvolvedor(a) de IA\" OR \"Inteligência Artificial\" OR \"Full Stack\") (\"IA\" OR \"AI\" OR \"LLM\" OR \"GenAI\" OR \"TypeScript\")" }
+      ]
+    },
     { "id": "gupy", "label": "Gupy", "site": "gupy.io", "markets": ["brazil"] },
     { "id": "workable", "label": "Workable", "site": "apply.workable.com", "markets": ["remote", "brazil"] },
     { "id": "smartrecruiters", "label": "SmartRecruiters", "site": "jobs.smartrecruiters.com", "markets": ["remote", "brazil"] },

@@ -24,10 +24,15 @@ if (!new Set(["serpapi", "serper", "both"]).has(provider)) throw new Error("Use 
 const after = new Date(); after.setDate(after.getDate() - 3);
 const afterDate = after.toISOString().slice(0, 10);
 const countryTerms = country === "brazil" ? "(\"Brazil\" OR \"Brasil\" OR \"Remoto Brasil\")" : "\"Remote\"";
-const acceptedDomains = new Set(config.platforms.filter((platform) => platform.markets.includes(country)).map((platform) => platform.site));
-const queries = config.groups.filter((group) => group.id !== "founding" || country === "remote").map((group) =>
-  `(${config.platforms.filter((platform) => platform.markets.includes(country)).map((platform) => `site:${platform.site}`).join(" OR ")}) ${group.query} ${countryTerms} after:${afterDate}`
-);
+const activePlatforms = config.platforms.filter((platform) => platform.markets.includes(country));
+const acceptedDomains = new Set(activePlatforms.map((platform) => platform.site));
+const groupsFor = (platform) => platform.searchGroups ?? config.groups;
+const querySiteFor = (platform) => platform.searchSite ?? platform.site;
+const marketTermsFor = (platform) => platform.marketTerms?.[country] ?? countryTerms;
+const queries = activePlatforms.flatMap((platform) => groupsFor(platform)
+  .filter((group) => group.id !== "founding" || country === "remote")
+  .map((group) => [`site:${querySiteFor(platform)}`, group.query, marketTermsFor(platform), `after:${afterDate}`]
+    .filter(Boolean).join(" ")));
 const state = existsSync(statePath) ? JSON.parse(readFileSync(statePath, "utf8")) : { sources: {} };
 
 function sleep(milliseconds) { return new Promise((resolveSleep) => setTimeout(resolveSleep, milliseconds)); }
