@@ -1,0 +1,105 @@
+Yoodli
+Copiar Feedback
+Força
+Você mostrou domínio técnico real e honestidade ao reconhecer limitações e aprendizados, o que gera credibilidade. 
+Ótimo trabalho!
+Responder para Yoodli
+Cancelar
+​
+Responder
+Área de Crescimento
+• 
+Comece com a conclusão e o resultado
+: nas perguntas sobre projetos, diga logo o que você fez e qual número mudou (adoção, tempo, clientes), e só depois explique o contexto.
+
+• 
+Prepare uma métrica concreta por história
+: antes da entrevista, defina para cada projeto um resultado mensurável, para não depender de o entrevistador pressionar por números.
+• 
+Estruture cada resposta em quatro blocos curtos
+: situação, seu papel, suas ações e resultado.
+ ◦ Na primeira pergunta, sobre o projeto significativo, você passou muito tempo explicando a LGPD e o diferencial do produto antes de dizer qual foi a sua tarefa.
+ ◦ Tente: "No Compass, eu liderei a UX. Fiz pesquisas com usuários, criei personas e validei cada fluxo. O resultado foi mais de 10 empresas adequadas à LGPD."
+
+• 
+Responda a pergunta de resultado de forma direta
+: o entrevistador precisou perguntar três vezes pelo resultado mensurável das personas e da validação.
+ ◦ Em vez de explicar como o funil funcionava, diga qual indicador melhorou, mesmo que seja aproximado.
+ ◦ Se não houver número, diga isso em uma frase e passe para o aprendizado.
+
+• 
+Mostre o seu papel individual com "eu"
+: em vários trechos você alternou entre "a gente" e "eu", o que dificulta ver sua contribuição.
+ ◦ Na história do Trust Center, destaque o que você decidiu e implementou, como estudar Web Components e Shadow DOM e liderar a solução de borda.
+ ◦ Em seguida, cite o impacto: o consentimento passou a ser realmente respeitado e auditado.
+
+• 
+Mantenha o tom positivo em falhas e conflitos
+: ao explicar por que não automatizou o teste, você citou sua falta de experiência e conhecimento. Foque no que mudou depois.
+ ◦ Tente: "Hoje eu automatizaria esse teste com um navegador real, simulando a ordem de carregamento dos scripts."
+
+• 
+Corte detalhes que não respondem à pergunta
+: na pergunta sobre conflito, a explicação sobre cultura de estagiários e custo de equipes em Maceió desviou do ponto.
+ ◦ Vá direto: a divergência, como foi resolvida (a apresentação conjunta até o consenso) e o que você aprendeu (validar com dados antes de construir).
+
+• 
+Feche cada história com uma frase de lição aplicada ao cargo
+: você já tem ótimos aprendizados, como não atirar no escuro e priorizar confiança em produto de conformidade. Conecte-os ao que fará na vaga de Full Stack.
+Veja mais
+Responder para Yoodli
+Cancelar
+​
+Responder
+Feedback por Resposta
+Pergunta 1
+Great, você respondeu de forma cordial e confirmou claramente a vaga e o tipo de entrevista.
+
+Você começou com um tom educado e amigável, o que ajuda a criar uma boa primeira impressão. A resposta foi direta e mostrou que você estava alinhado com o contexto da conversa. Para ficar ainda melhor, vale demonstrar mais presença profissional logo no início da entrevista.
+
+Adicione uma saudação mais profissional e um fechamento breve, por exemplo, agradecendo a oportunidade antes de confirmar a entrevista.
+
+1
+/
+16
+Responder para Yoodli
+Cancelar
+​
+Responder
+Tom
+Confiante
+Sincero
+Envolvente
+Profissional
+Você demonstrou confiança e profissionalismo ao longo da entrevista, utilizando um tom de voz adequado e engajando-se ativamente com o entrevistador. Suas respostas, embora detalhadas, foram entregues de maneira a transmitir sinceridade e conhecimento sobre os temas abordados. Por exemplo, ao descrever o projeto Compass, você se expressou com clareza, dizendo "o nosso projeto ele era justamente a ponte mais fácil possível pra essa empresa essa organização conseguir se adequar à LGPD", o que soa confiante e direto.
+Para aprimorar sua entrega, foque em ser mais conciso. Em alguns momentos, as frases tendiam a se estender, como em "O 1º projeto que me vem em mente é o projeto core da última empresa que eu trabalhei, que o nome era Compass, que era 1 empresa de GRC né governança isca e conformidade. Esse projeto ele era bem ambicioso porque ele visava ser o, o produto e o projeto né de mapeamento de dados democrático pra pessoas que não sabem a LGPD mais intuitivo do Brasil né? Então a gente desde o início começou com essa ambição...". Tentar quebrar ideias mais longas em frases mais curtas e objetivas pode melhorar a clareza e o ritmo, evitando que o ouvinte perca o fio. Considere também pequenas pausas estratégicas para pontuar suas ideias.
+Observei algumas hesitações pontuais, como no início da entrevista ao dizer "Como assim na curva?" antes de pedir esclarecimento. Embora seja normal em qualquer conversa, em uma entrevista, minimizar essas pausas com uma respiração mais controlada pode transmitir ainda mais segurança. Pequenos ajustes em como você articula o início das frases e o encadeamento de ideias podem tornar sua comunicação ainda mais impactante e direta.
+Veja mais
+Responder para Yoodli
+Cancelar
+​
+Responder
+Resumo
+• A pessoa relatou ter liderado iniciativas de UX e produto em um software de LGPD, usando entrevistas, personas e métricas de funil para orientar decisões.
+• A entrevista destacou evolução de frontend para full stack, aprendizado de Go e a importância de validar problemas com dados, além de priorizar confiança e conformidade em soluções sensíveis.
+• A pessoa descreveu o projeto Compass, de GRC/LGPD, como o mais significativo, por tentar tornar o mapeamento de dados e a adequação à LGPD mais intuitivos para empresas.
+• A principal contribuição foi liderar a experiência do usuário, conduzindo ou acompanhando entrevistas, analisando feedbacks e criando personas para orientar o produto.
+• A validação das melhorias ocorreu por entrevistas manuais, feedbacks em formulários no PostHog e métricas automatizadas em funis, com foco no tempo de conclusão de fluxos.
+• Em uma decisão técnica difícil, foi escolhida uma solução robusta de consentimento para o Trust Center, mesmo com maior custo de tempo e complexidade, para garantir privacidade real e bloqueio de scripts antes do consentimento.
+• Houve um problema em produção por ordem incorreta de carregamento do script, que foi identificado manualmente e corrigido com ajustes de documentação e orientação de implementação.
+• A pessoa também contou que aprendeu Go com estudo, prática, leitura de código e apoio de IA, e que refatorou funções para reduzir erros, como trocar parâmetros soltos por structs tipados.
+Veja mais
+Responder para Yoodli
+Cancelar
+​
+Responder
+
+No geral, você falou 54% a mais do que precisava. Tente chegar a 30% em vez disso
+
+Veja um exemplo de reformulação:
+
+0:17
+
+Opa, Roland, tudo bem? Tudo certo por aqui e com você? Confirmo a entrevista para essa posição.
+
+Dica: Veja mais sugestões de reformulação clicando no botão de varinha mágica roxa em sua transcrição

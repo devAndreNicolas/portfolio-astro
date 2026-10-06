@@ -1,0 +1,105 @@
+
+  Entrevista Tech
+  
+
+  2 de outubro de 2026 às 16:40
+  
+
+  Link do vídeo em Yoodli: https://app.yoodli.ai/share/sLzKmyP2muFMjBMoc5bfdt
+  
+
+0:02: IA
+Oi André, tudo bem? Sou Carla, recrutadora técnica aqui na TalentBridge. Obrigada por tirar um tempo para conversar comigo hoje.
+
+0:12:
+Nada eu que agradeço.
+
+0:16: IA
+Perfeito. Então, para a gente começar, você poderia me contar um pouco sobre sua trajetória profissional? Como você chegou até onde está agora?
+
+0:27:
+Certo, Primeiramente, meu início na na área de tecnologia começou, no ano de 2023, em que eu resolvi, que escolheria essa área pra seguir pela minha vida profissionalmente, eu entrei na faculdade de sistemas em 2024 por meio de 1 vestibular público, numa faculdade pública aqui no estado de Alagoas, e eu entrei lá e já comecei, a ser introduzido claro né àquelas grades, que separam quem vai continuar no curso e quem vai sair, e eu escolhi, ficar porque me adaptei bem, estrutura de dados lógica de programação e enfim. Minha vida acadêmica sempre foi muito mexendo com Java né essa linguagem de programação. Só que eu fui introduzido na no mercado profissional quando eu, entrei num estágio, por 1 empresa chamada MSPA que era de GRC que quer governança isca e conformidade.
+
+1:47:
+E lá eu aprendi tudo, que eu eu precisava né pra ter esse empurrão, de crescimento profissional então lá eu, eu aprendi não só a parte de programação mas também aprendi a partir de produto, aprendi a partir de vendas, aprendi regras de negócio, refinamento levantamento de requisitos, como eu como é foi era em né eu tive esse foco 1º no, só que com o tempo com a evolução até do mercado mesmo, eu comecei a participar em outras áreas né em outras partes do, do da empresa então eu eu e da tecnologia ou seja, eu tenho participação na infraestrutura, na questão onde é que é hospedado, o né, os pipelines, a questão de cash como é que gerencia o cash lá a gente usava cloudflare por exemplo. Eu também tive muita participação em outras partes como no por exemplo, ou seja eu sempre eu eu sou 1 profissional que realmente é e que não se prende a parte de programação mas eu sei lidar com o produto em si eu sei acrescentar ele acrescentar valor aos usuários, participar da evolução e da construção de 1 produto, lidar com diferentes personalidades de de usuário de clientes de de parceiros de colegas. E assim esse em geral essa é minha trajetória profissional, eu sou eu fui 1 1 dos fundadores de da maioria dos sistemas dessa empresa da MSA porque ela é 1 startup que teve o seu início no ano de 2025 né que foi o ano que eu entrei lá. E eu estou procurando novos desafios até porque está teve 1 encerramento é 1 encerramento de ciclo lá né nessa na MSPA e eu estou em busca de novos desafios pra me aprofundar, em outras em outras áreas em outros nichos de tecnologia, e se for assim no mesmo nicho eu eu quero aprofundar mais por exemplo na parte técnica do backend que lá eu tenho 1 parte muito de de né de front, e eu quero agregar valor pra outras pra outras empresas pra outros negócios né, eu quero novos desafios pra mim e pra o meu crescimento, pessoal na minha carreira profissional.
+
+4:26: IA
+Que legal, André. Entendi bem sua trajetória, e vejo que você teve uma experiência bem completa na MSPA mesmo sendo startup. Só pra eu ter certeza de compreender bem, quando você fala dessa participação em outras áreas além do frontend, tipo infraestrutura e esses pipelines que você mencionou, como é que você descreveria o peso entre essas contribuições full-stack e sua especialidade que realmente é frontend? Onde você se sente mais confortável e produtivo?
+
+5:05:
+Olha.
+
+5:09: IA
+Sim, pode falar.
+
+5:11:
+Essas contribuições que eu fiz na parte de infraestrutura de pipeline era elas foram muito importantes pra eu entender como é que funciona essa outra parte né de entrega de de 1 funcionalidade pra o repositório principal e da entrega do nosso repositório pro usuário final por exemplo, né? E.
+
+5:33: IA
+Ent—
+
+5:34:
+nesse nesse caso foi importante e esse é o peso né disso pra mim, Agora por exemplo, como é que eu lido com essa especialidade que eu tenho no, sendo que eu sou 1 1 Fuustec Engine né? Eu acho que essa é a pergunta. É o seguinte, eu eu acho que isso na verdade é até 1 qualidade pro mercado atual porque o mercado atual pelo que eu acompanho né e de outros colegas, está precisando de profissionais que não sejam só implementadoras de código mas entendam como fazer 1 produto que os usuários vão usar e vão conseguir usar o produto como usar né essa parte de como 1 diferencial mesmo do produto né pra o produto ser usado pelas pessoas e ele evoluir e ou ser construído né se for 1 produto de 1 startup que está começando por exemplo.
+
+6:26:
+Então eu vejo dessa forma sabe mas, por exemplo nesses últimos meses eu tive muito mais experiência na parte do do que no porque como eu passei, 1 1 ano praticamente mesmo, lidando só com o só com a experiência do usuário, mas claro participando da arquitetura de software, refinamento de regra de negócio, definindo a cara mesmo do produto né a a marca como é que ela é eu participei dessas partes junto com outros profissionais né, claro nada sozinho, mas esses últimos meses eu tenho tido muita muita participação e muita tenho sido muito ativo na parte do backend né que é 1 parte que eu vou lidar ok com com questão de banco de dados que eu vou lidar com regra de negócio mesmo sabe que eu vou fornecer, o que o frontend precisa, que eu vou, lidar com permissões autorização, novas funcionalidades complexas, então eu tenho eu tenho mexido mais nessa parte mesmo do nesses últimos meses, e é por isso que o meu título né o meu cargo hoje é de porque antes eu era 1 front especializado em UX só que eu decidi ressignificar isso, e eu decidi ser mais participativo na startup até porque ela precisava mais então eu, decidi me colocar à disposição pra aprender né a de lá de ler livros e aplicar esse conhecimento que eu consegui na empresa né então eu, a maioria das tarefas que eu tenho implementado nesses últimos meses foram de não foram de entendeu? Mas claro, tem tive tarefas que eu ainda tive que fazer o, teve tarefas que eu tive que fazer os 2, entendeu? Tive que fazer tanto a parte de refinar ali aquela aquela regra de negócio com os interessados, discutir né aquilo e no sentido de entender melhor né pra não ter dúvidas, e aí implementar tanto no no front quanto no entendeu? Então eu eu acho que isso responde a sua pergunta né?
+
+8:45: IA
+Ótimo, André. Entendi bem. Vejo que você realmente fez essa transição pra full-stack mesmo, e que isso foi uma decisão sua de se adaptar ao que a startup precisava naquele momento. Faz sentido. 
+Então, mudando um pouco de assunto, você mencionou que está procurando novos desafios porque teve um encerramento de ciclo lá na MSPA. O que especificamente motiva você a buscar uma oportunidade agora neste momento?
+
+9:15:
+Olha o que me motiva a buscar 1 oportunidade nesse momento é porque lá na MPA a gente está passando por 1 reestruturação né e essa reestruturação envolve, algumas pessoas saírem, e daqui a 1 tempo outras pessoas entrarem entendeu? E também como eu passei muito tempo me expondo né nessa questão de GRC de governança risco e conformidade, eu procurei outras oportunidades mesmo porque além de eu precisar né claro, de de 1 trabalho, eu estou buscando oportunidades que eu vejo 1 crescimento estratégico pra minha carreira né que é esse crescimento que lida mais com a parte do com regra de negócio, que é o que eu percebi nas vagas de porque essa parte de eu peguei como eu falei nos últimos meses né nos últimos 6 meses 5 meses, eu assim passei 1 ano todo só no fronte então eu quero mais sabe eu quero mais conhecimento, mais colegas, mais conexões e mais, projetos e ações práticas nessa área nesse cargo de e eu estou procurando isso agora em outras empresas né em outros negócios.
+
+10:42: IA
+Entendi, André. Faz total sentido você querer aprofundar essa área que você começou a explorar recentemente, e buscar um ambiente onde você possa crescer mais nessa direção. 
+Então me diz uma coisa, quando você pensa na próxima oportunidade, o que você realmente quer nesse próximo papel? Tipo, além de trabalhar mais com backend e regra de negócio, há outras coisas que são importantes pra você?
+
+11:09:
+Ah sim com certeza, tantas coisas que são muito importantes pra mim que eu desejo construir nessa nova jornada se eu for chamado né e, convidado para participar da equipe de desenvolvimento, da dessa empresa que nós estamos aqui discutindo eu vou querer muito novos colegas novas conexões, novo conhecimento de negócio, né? E também melhor conhecer novas pessoas em si sabe conhecer novas pessoas, e ter essa troca de conhecimento com elas né? Porque isso é muito importante pra carreira profissional de qualquer pessoa independente da área dela.
+
+11:55:
+E assim eu acho que que é isso outras coisas que são muito importantes pra mim, com certeza, além disso que eu falei, a questão do da autonomia né? Eu quero 1, 1 oportunidade 1 papel que tem a ver com o meu perfil que é esse perfil de né de negócio de alguém que dá sugestões, de alguém que tem 1 pensamento crítico, forte pensando no produto né não encontraria os outros mas pensando no melhor por produto, no no melhor tecnicamente e e como experiência pra os usuários finais pro produto né? Então é isso que eu procuro é isso.
+
+12:57: IA
+Perfeito. Vejo que você valoriza bastante essa autonomia e esse impacto direto no produto. Isso é bem claro no que você falou. 
+Agora, pensando de forma mais realista né, quais você diria que são seus principais pontos fortes como profissional, e onde você sente que ainda precisa evoluir?
+
+13:18:
+Olha os meus pontos fortes como os meus pontos fortes como profissional, eu vejo que, a minha capacidade de resolver os problemas, entender eles e conseguir dividir as responsabilidades muito bem do que é que eu tenho que fazer, como eu tenho que fazer, e usar e não não ser preso a 1 ferramenta na área de tecnologia mas saber aprender a usar alguma ferramenta saber escolher qual ferramenta eu vou usar, ou se eu estou no caso 1 equipe nova né e a gente já usa algumas ferramentas, entender essas ferramentas aprender essas ferramentas, fazer o uso eu acho que esse é o meu principal diferencial hoje né nesse mercado de ar, que é fazer o uso da inteligência artificial pra acelerar o meu aprendizado acelerar a minha adaptação a 1 1 novo contexto a 1 novo ambiente usar e a pra acelerar o meu processo de entrega processo de desenvolvimento, e também, melhorar a qualidade do que eu faço ou do que ela mesma faz né? No caso hoje em dia, tenho muito conhecimento técnico acerca de inteligência artificial prática né de de usar IA integrar IA em 1 produto integrar IA no desenvolvimento integrar a IA no do desenvolvedor né do produto de entrega de entrega contínua, e assim acho que esse é o meu 1 esses são os meus pontos fortes como profissional hoje em dia né? E onde eu preciso evoluir eu acredito que eu preciso evoluir as minhas partes, que a gente chama de soft skills né? Preciso evoluir a minha comunicação, eu preciso evoluir, ensinar outras pessoas, acerca de determinados assuntos, E é isso.
+
+15:18: IA
+Certo, André. Vejo que você tem uma boa autoconsciência aí, reconhecendo tanto seus pontos fortes quanto onde quer melhorar. A comunicação é realmente importante, especialmente em times maiores. 
+Uma coisa que eu gostaria de entender melhor é sobre sua disponibilidade. Qual é sua preferência em relação a trabalho remoto versus presencial? E qual é a região onde você está ou gostaria de trabalhar?
+
+15:47: IA
+André, desculpa, acho que houve um problema na transcrição. Você consegue responder de novo sobre suas preferências de localização e se você prefere trabalho remoto ou presencial?
+
+16:00:
+Nesse caso a vaga da falava de 1 trabalho remoto né? Então eu estou a em busca de trabalho remoto, eu só eu eu teria assim eu aceitaria trabalho presencial assim mas só se for no meu no meu no local que eu estou hoje em dia né que é em Maceió Alagoas.
+
+16:21: IA
+Ótimo, então você está aberto a remoto, que é o ideal, e se fosse presencial teria que ser em Maceió mesmo. Isso faz sentido. 
+Agora, última coisa que preciso saber é sobre expectativas salariais. Qual é a faixa que você está esperando para essa próxima oportunidade?
+
+16:48:
+Sentido com o que a empresa né a organização pode fornecer pra mim e faça sentido com o valor né do meu trabalho atual, eu acho que, torno de 4500 a 7000.
+
+17:07: IA
+Entendi, André. Quatro mil e quinhentos a sete mil reais, isso é uma faixa bem razoável considerando sua experiência e o que você traz à mesa. 
+Olha, eu achei muito bom conversar com você. Você tem uma narrativa clara sobre sua trajetória, comunicou bem suas motivações e o que você busca no próximo passo. Seu conhecimento técnico é sólido e você mostrou uma boa capacidade de adaptação e aprendizado, que é importante nessa área. 
+O que eu acho que você pode melhorar é exatamente o que você mesmo mencionou, a comunicação. Às vezes você explicava bastante e poderia ser um pouco mais direto e objetivo nas respostas. Mas isso é totalmente trabalhável, né? No geral, você se apresentou bem e tem muita clareza sobre quem você é profissionalmente e pra onde quer ir. Boa sorte na sua busca, tá?
+
+18:06:
+Obrigado no caso eu passaria nessa entrevista aqui.
+
+18:11: IA
+Fico feliz que tenha achado útil André. Sim, você se saiu bem. Agora é só a gente passar essas informações adiante pro time técnico e eles vão avaliar se há um match mesmo com a vaga e com o projeto. 
+A gente entra em contato com você em breve, tá bem? Obrigada novamente pela conversa.
+
+18:35:
+Certo, obrigado.
+
+18:38: IA
+De nada, André. Até logo.
+
