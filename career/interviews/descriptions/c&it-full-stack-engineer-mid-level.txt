@@ -1,0 +1,127 @@
+CI&T
+
+Mid-Level Fullstack Developer ( Java + Angular ), Brasil 
+
+Sobre a vaga
+
+Na CI&T , ajudamos grandes empresas a transformar o potencial da AI em impacto real nos negócios com AI Deployment, execução AI-native e tech-integrated business solutions.
+
+Com 30 anos de experiência em transformação tecnológica, aceleramos inovação com expertise em agentic SDLC, application modernization, Data & AI, martech e business strategy. 
+
+Somos 8.000 CI&Ters em mais de 25 países, colaborando para construir soluções com impacto real. AI já faz parte da forma como trabalhamos, evoluímos e inovamos todos os dias.
+
+
+Importante: se você reside na Região Metropolitana de Campinas, sua presença nos escritórios da cidade será obrigatória, conforme a política de frequencia vigente.
+
+
+
+Na CI&T, nosso rápido crescimento é impulsionado pelas soluções inovadoras que criamos para nossos clientes globais.
+
+Estamos procurando um profissional de Desenvolvimento de Software com foco em Java e Angular que esteja preparado para enfrentar desafios técnicos complexos e contribuir para a criação de soluções escaláveis e de alto desempenho.
+
+Responsabilidades
+
+
+    Desenvolver e implementar aplicações utilizando Java (versões 17 a 25) com Spring Framework e CDI
+
+    Criar interfaces interativas e responsivas em Angular 21
+
+    Estilizar componentes de frontend utilizando SASS
+
+    Projetar e integrar APIs Restful, além de trabalhar com SQL Server
+
+    Contribuir para a arquitetura distribuída, microsserviços e microfrontends
+
+    Colaborar em ambientes Node e TypeScript
+
+    Utilizar ferramentas DevOps e CI/CD, como Bitbucket, Bamboo, Sonar, Fortify, Dast e Docker
+
+    Executar testes e implementar automação de processos
+
+    Trabalhar com aplicações em cloud, preferencialmente Azure
+
+    Participar ativamente dos processos Scrum
+
+
+
+Requisitos
+
+
+    Experiência em desenvolvimento Java (versões 17 a 25) e Angular 21
+
+    Conhecimento em estilização com SASS
+
+    Familiaridade com APIs Restful, SQL Server, arquitetura distribuída, microsserviços, microfrontends, Node e TypeScript
+
+    Experiência em ferramentas DevOps e CI/CD (Bitbucket, Bamboo, Sonar, Fortify, Dast, Docker)
+
+    Habilidade em execução de testes e automação
+
+    Conhecimento em aplicações em nuvem, preferencialmente Azure
+
+    Familiaridade com metodologias ágeis, especialmente Scrum
+
+
+
+Diferenciais
+
+
+    Conhecimento em desenvolvimento para aplicativos móveis
+
+    Experiência em acessibilidade
+
+    Familiaridade com automação de testes utilizando Spock, JUnit e Jest
+
+    Conhecimento em ferramentas como Confluence, Jira e xRay
+
+
+
+Junte-se à CI&T e faça parte da nossa missão de transformar desafios em soluções inovadoras. Se você tem paixão por tecnologia e colaboração, queremos conhecer você!
+
+ 
+
+
+
+Nossos benefícios:
+
+ 
+
+- Plano de saúde e odontológico;
+
+- Vale alimentação e refeição;
+
+- Auxílio-creche;
+
+- Licença parental estendida;
+
+- Parceria com academias e profissionais de saúde e bem-estar via Wellhub (Gympass)  TotalPass;
+
+- Participação nos Lucros e Resultados (PLR);
+
+- Seguro de Vida;
+
+- Plataforma de aprendizagem contínua (CI&T University);
+
+- Clube de descontos;
+
+- Plataforma online gratuita dedicada à promoção da saúde física, mental e bem-estar;
+
+- Curso gestante e parentalidade responsável;
+
+- Parceria com plataformas de cursos online;
+
+- Plataforma para aprendizagem de idiomas;
+
+- E muitos outros
+
+ 
+
+Mais detalhes sobre os nossos benefícios aqui: https://ciandt.com/br/pt-br/carreiras
+
+ 
+
+Na CI&T, a inclusão começa no primeiro contato. Se você é pessoa com deficiência, é importante apresentar o seu laudo durante o processo seletivo. Consulte quais dados são necessários conter no laudo clicando aqui. Assim, podemos garantir o suporte e as adaptações que você merece. Se ainda não tem o laudo caracterizador, não se preocupe: podemos te apoiar para obtê-lo.
+
+ 
+
+Temos um time dedicado de Saúde e Bem-estar, especialistas em inclusão e grupos de afinidade que estarão com você em todas as etapas. Conte com a gente para fazer essa jornada lado a lado.

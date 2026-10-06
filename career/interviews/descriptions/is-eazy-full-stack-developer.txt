@@ -1,0 +1,47 @@
+Logo da empresa isEazy.
+
+isEazy
+
+Full Stack Developer | IA Agéntica 
+
+Sobre a vaga
+
+En isEazy seguimos creciendo y apostando por la innovación tecnológica aplicada al aprendizaje. Por eso, buscamos incorporar un/a Product Owner con enfoque en Inteligencia Artificial para impulsar la evolución de isEazy Brain, nuestra solución de IA para la formación corporativa.
+
+Buscamos a una persona con experiencia en producto digital, mentalidad analítica y capacidad para transformar las necesidades de negocio y de nuestros clientes en funcionalidades bien definidas y de alto impacto.
+
+Serás el nexo entre negocio, clientes y tecnología, liderando la gestión del backlog de producto y asegurando que cada desarrollo aporte valor real a nuestros usuarios.
+
+¿Qué funciones realizarás?
+
+    Desarrollar funcionalidades de punta a punta: backend NestJS + TypeScript (arquitectura hexagonal, MongoDB con una base de datos por cliente) y frontends Next.js / React.
+    Construir e integrar flujos agénticos y de LLM: orquestación durable con Temporal, pasarela LLM multiproveedor (AWS Bedrock / Google Vertex), prompts versionados y evaluación de la calidad de la salida.
+    Trabajar con metodología Spec-Driven Development (SDD): PRD -diseño técnico - tareas - implementación - revisión, con desarrollo asistido por agentes de IA (Claude Code).
+    Garantizar el aislamiento multitenant, la seguridad (OWASP web + LLM) y la calidad (tests, quality gates).
+    Desplegar y operar en AWS (ECS Fargate, CDK, Amplify, SQS/EventBridge) en staging y en producción.
+
+¿Qué requisitos necesitas?
+
+    4 o más años como full stack con TypeScript: Node.js/NestJS en backend y React/Next.js en frontend.
+    MongoDB, APIs REST y testing (Jest / Vitest).
+    Experiencia en cloud, preferiblemente AWS.
+    Autonomía y costumbre de trabajar con especificaciones escritas.
+
+Se valorará adicionalmente (nice to have)
+
+    Spec-Driven Development (SDD) o flujos de desarrollo con agentes de IA (Claude Code, Cursor, etc.).
+    Haber llevado proyectos agénticos a producción: LLMs, RAG, tool use, evaluación y observabilidad de agentes, control de costes de tokens.
+    Temporal u otros motores de workflows durables, y arquitecturas SaaS multitenant.
+
+¿Qué ofrecemos?
+
+    Incorporación a un proyecto estable y en pleno crecimiento.
+    Trabajo 100% remoto con sede central en nuestras oficinas en Madrid (cerca de Av.America)
+    Horario flexible (3 días a la semana de jornada intensiva todo el año)
+    Opciones de retribución flexible: seguro médico privado, tarjeta restaurante, transporte y guardería.
+    Equipo técnico con amplia experiencia y enfoque colaborativo. Proyecto propio repleto de retos.
+    Muy buen ambiente de trabajo en un equipo de apasionados por la tecnología, entorno de aprendizaje continuo y contacto con tecnologías emergentes.
+
+Si te apasiona el mundo del producto digital, disfrutas convirtiendo ideas en soluciones reales y quieres participar en la evolución de la Inteligencia Artificial aplicada al aprendizaje, ¡APLICA, te estamos esperando!
+
+Are you ready for this challenge?
