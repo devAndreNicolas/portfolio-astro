@@ -1,0 +1,3 @@
+# Presentación
+
+“Soy André Nicolas, ingeniero de software con un perfil full-stack y orientado al producto. Mi experiencia más fuerte está en TypeScript, Angular, React, Next.js, APIs, reglas de negocio y sistemas web. En MSPA trabajé con productos de GRC y LGPD, y también participé en funcionalidades de IA generativa usando contexto, sanitización de entradas y respuestas estructuradas. Además, utilizo un flujo AI-native y especificaciones escritas para explorar, implementar, revisar y probar cambios. No afirmaría experiencia directa con Temporal o AWS sin contexto adicional, pero tengo una base transferible en arquitectura, autorización, testing y entrega end-to-end.”

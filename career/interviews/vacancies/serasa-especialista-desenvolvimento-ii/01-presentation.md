@@ -1,0 +1,3 @@
+# Apresentação
+
+“Sou André Nicolas, engenheiro de software com base forte em TypeScript, Angular, React e arquitetura de componentes. Na MSPA, trabalhei em produtos de GRC e LGPD, incluindo um fluxo de consentimento com Web Components, Lit, Shadow DOM, Cloudflare e eventos de auditoria. Isso me ensinou a tratar a camada cliente como parte de segurança e confiança, não só como interface. Também tenho experiência com testes, logs, performance e integração entre camadas. Não venho de antifraude diretamente, mas vejo uma conexão forte entre meu trabalho com consentimento, integridade e observabilidade e o desafio de construir SDKs web confiáveis.”
