@@ -4,41 +4,6 @@
   "definition": "Score = 70% documented-strength coverage + 30% representation among locally saved vacancies. It is a search-prioritization aid, not market demand, ATS probability, or hiring prediction.",
   "recommendations": [
     {
-      "id": "ai-product-engineer",
-      "titles": [
-        "AI Product Engineer",
-        "Applied AI Engineer",
-        "Full Stack Engineer AI"
-      ],
-      "cvFamily": "software-engineer",
-      "strengths": [
-        "typescript",
-        "ai-product",
-        "testing",
-        "security",
-        "product",
-        "rest-api"
-      ],
-      "searchTerms": [
-        "AI Product Engineer",
-        "Applied AI Engineer TypeScript",
-        "Full Stack Engineer AI"
-      ],
-      "score": 81,
-      "profileScore": 70,
-      "localDemandScore": 11,
-      "matchingSavedVacancies": 14,
-      "supportedStrengths": [
-        "typescript",
-        "ai-product",
-        "testing",
-        "security",
-        "product",
-        "rest-api"
-      ],
-      "evidenceGaps": []
-    },
-    {
       "id": "fullstack-typescript",
       "titles": [
         "Full Stack Engineer",
@@ -62,10 +27,10 @@
         "Full Stack Developer React Node",
         "Desenvolvedor Full Stack TypeScript"
       ],
-      "score": 81,
+      "score": 82,
       "profileScore": 70,
-      "localDemandScore": 11,
-      "matchingSavedVacancies": 14,
+      "localDemandScore": 12,
+      "matchingSavedVacancies": 16,
       "supportedStrengths": [
         "typescript",
         "react",
@@ -75,6 +40,41 @@
         "auth",
         "testing",
         "product"
+      ],
+      "evidenceGaps": []
+    },
+    {
+      "id": "ai-product-engineer",
+      "titles": [
+        "AI Product Engineer",
+        "Applied AI Engineer",
+        "Full Stack Engineer AI"
+      ],
+      "cvFamily": "software-engineer",
+      "strengths": [
+        "typescript",
+        "ai-product",
+        "testing",
+        "security",
+        "product",
+        "rest-api"
+      ],
+      "searchTerms": [
+        "AI Product Engineer",
+        "Applied AI Engineer TypeScript",
+        "Full Stack Engineer AI"
+      ],
+      "score": 81,
+      "profileScore": 70,
+      "localDemandScore": 11,
+      "matchingSavedVacancies": 15,
+      "supportedStrengths": [
+        "typescript",
+        "ai-product",
+        "testing",
+        "security",
+        "product",
+        "rest-api"
       ],
       "evidenceGaps": []
     },
@@ -104,7 +104,7 @@
       "score": 81,
       "profileScore": 70,
       "localDemandScore": 11,
-      "matchingSavedVacancies": 14,
+      "matchingSavedVacancies": 15,
       "supportedStrengths": [
         "typescript",
         "rest-api",

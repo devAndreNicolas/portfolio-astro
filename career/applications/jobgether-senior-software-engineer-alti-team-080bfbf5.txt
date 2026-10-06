@@ -1,0 +1,68 @@
+Source URL: https://jobs.lever.co/jobgether/46a3033c-f2a2-4484-840e-7bdc84b49eaf
+Collected at: 2026-10-06T15:09:44.549Z
+Market: brazil
+Discovery: serper
+Explicit age: unknown
+Fit signals: typescript, javascript, web-components, rest-api, security, ai-product, payments, java
+
+Senior Software Engineer - Alti Team
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior Software Engineer - Alti Team based in Brazil.
+
+This role offers the opportunity to build and scale an AI agent product at the intersection of software engineering, machine learning, and customer-facing technology.
+You will develop product features end to end, spanning conversational AI, intelligent agents, automated routines, and LLM-powered experiences.
+The position combines hands-on product engineering with RAG, evaluation, observability, and machine learning in production.
+You will work within a small, highly collaborative squad alongside engineering, product, and design professionals.
+Your work will directly influence how customers use AI to solve real business problems and automate important workflows.
+The environment is fast-paced and product-driven, with significant ownership across the delivery lifecycle and opportunities to shape technical practices as the product scales.
+This is an exciting opportunity for a senior engineer who wants to build practical AI products and contribute to their evolution from early-stage growth to production scale.
+
+Accountabilities:
+Build and ship AI product features end to end, including conversational AI experiences, intelligent agents, and automated routines that deliver measurable value to customers.
+Design, implement, and continuously improve Retrieval-Augmented Generation (RAG) pipelines and prompt strategies.
+Develop and maintain LLM evaluation pipelines to measure output quality, identify regressions, and continuously improve AI-powered experiences.
+Establish monitoring and observability practices for AI features, including prompts, models, usage patterns, and system performance.
+Support the transition of machine learning models into production environments, implementing monitoring and continuous feedback loops to improve their effectiveness over time.
+Collaborate closely with Product and Design to identify meaningful customer problems where AI and machine learning can provide practical and scalable solutions.
+Contribute across multiple stages of the delivery lifecycle, taking ownership of technical decisions and helping strengthen engineering practices as the product and team grow.
+Work collaboratively in a small squad environment, sharing knowledge and contributing to a culture of experimentation, accountability, and continuous improvement.
+Requirements
+Solid professional experience as a software engineer building and successfully shipping customer-facing product features.
+Hands-on experience developing AI products within the last 12 months, particularly involving LLMs, AI agents, or AI-powered features.
+Practical experience with at least one of the following: chatbots or conversational AI, Retrieval-Augmented Generation (RAG), or LLM evaluation pipelines.
+Strong programming skills in at least one of Go, TypeScript/JavaScript, or Python.
+A strong product mindset, with a focus on delivering useful experiences to end users rather than concentrating solely on model development.
+Comfort working in a fast-paced environment where engineers take ownership of multiple parts of the delivery and product lifecycle.
+Professional working proficiency in English.
+Experience with prompt engineering, AI monitoring and observability tools, autonomous or personal agents operating across channels such as Slack, Teams, or WhatsApp is highly desirable.
+Experience taking machine learning models, including predictive models, into production with monitoring and feedback loops is an advantage.
+Background in fintech, payments, or financial products is a plus.
+Experience building and scaling ML or LLM-powered products is highly valued.
+Previous experience in an early-stage startup environment, particularly from Seed through Series B, is considered a plus.
+Benefits
+Competitive salary tailored to experience, skills, and expertise.
+Total target compensation of $90,000–$105,000, plus equity.
+Equity opportunities that allow employees to share in the organization’s growth and success.
+Unlimited paid time off with flexibility when needed.
+Annual learning and development stipend to support professional growth.
+Fully remote position based in Brazil.
+Opportunity to work on high-impact AI and fintech-related technology projects.
+Collaborative, diverse, and supportive environment with significant ownership and opportunities for career growth.
+Culture focused on transparency, resourcefulness, partnership, bold thinking, and accountability.
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by

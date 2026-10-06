@@ -114,7 +114,7 @@ O output deve incluir todos os CV IDs, readiness por dimensão, synergy agregada
 ## Estado da execução
 
 - Status: `complete`
-- Run ID: `2026-10-01-editorial-hardening-001`
-- Início: `2026-10-01T22:00:00Z`
-- Fim: `2026-10-01T22:15:00Z`
-- Resultado: auditoria editorial corrigiu seis CVs que usavam uma casca genérica; cada variante agora possui resumo, competências, experiência e projetos específicos, estruturados por contexto → ação → evidência/efeito. O novo gate de conteúdo aprovou 16/16 fontes; verificador da operação e build aprovados. Compilação dos PDFs permanece `pending-ci` porque não há `latexmk` nem Tectonic localmente.
+- Run ID: `2026-10-06-full-career-002`
+- Início: `2026-10-06T15:08:00Z`
+- Fim: `2026-10-06T15:14:00Z`
+- Resultado: coleta Brasil não encontrou novas vagas oficiais; o corpus local de 40 vagas foi reanalisado. Full Stack Engineer (82), AI Product Engineer (81) e Software Engineer (81) permanecem as prioridades. Todas as 16 fontes canônicas foram verificadas como factualmente sustentadas, específicas ao cargo, ATS-safe e aprovadas no gate de conteúdo. Testes de vagas/cargos, relatório/dashboard, verificação da operação e build do site passaram. Compilação dos PDFs permanece `pending-ci` porque não há `latexmk` nem Tectonic localmente.

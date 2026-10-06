@@ -1,0 +1,108 @@
+Source URL: https://jobs.lever.co/jobgether/3cd21de8-5bb5-40f9-be79-27b3d6f31f38
+Collected at: 2026-10-06T15:09:33.724Z
+Market: brazil
+Discovery: serper
+Explicit age: unknown
+Fit signals: typescript, react, web-components, code-review, node, rest-api, auth, authorization, security
+
+Software Engineer, Developer Tools
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Software Engineer, Developer Tools based in Brazil.
+
+This is a fully remote engineering role focused on building tools that make software integration simple, reliable, and intuitive for developers.
+You will work across SDKs, command-line tools, React Email, MCP, integrations, and the backend services that support them.
+The role combines strong backend engineering with a deep focus on developer experience, APIs, reliability, and interface design.
+You will help developers understand failures, integrate products into existing workflows, and confidently scale their applications.
+You will collaborate closely with product and engineering teams while also interacting directly with developers through support channels, GitHub issues, and pull requests.
+The environment values technical ownership, thoughtful feedback, high-quality execution, and continuous learning.
+You will have meaningful opportunities to influence technical decisions and take projects from discovery through production.
+
+Accountabilities
+
+Build, maintain, and operate developer tools that simplify integrations across programming languages, frameworks, and development environments.
+
+Develop backend services supporting developer tools, integrations, and related workflows.
+
+Collaborate with product and engineering teams to establish clear API contracts and consistent behavior across SDKs, CLI tools, MCP, and documentation.
+
+Build interfaces that developers and AI agents use to interact with the platform, including MCP, skills, and command-line tooling.
+
+Manage compatibility, testing, releases, upgrades, and backward compatibility to ensure reliable developer experiences.
+
+Create shared tooling that enables other engineering teams to confidently deliver changes across the developer tools ecosystem.
+
+Work directly with developers through support interactions, GitHub issues, pull requests, and other feedback channels.
+
+Take ownership of projects from discovery and solution design through implementation, release, and post-launch improvements.
+
+Contribute to reliability through appropriate handling of authentication, authorization, retries, idempotency, rate limits, monitoring, and partial failures.
+
+Requirements
+
+Strong backend software engineering experience, including building and maintaining production APIs or services.
+
+Professional experience with TypeScript and Node.js.
+
+Solid understanding of authentication, authorization, retries, idempotency, rate limiting, and failure recovery.
+
+Experience building software, libraries, APIs, or tools that other developers rely on in production.
+
+Strong appreciation for developer experience, including intuitive interfaces, clear error messages, useful documentation, and backward compatibility.
+
+Ability to approach AI agents as product users and consider their requirements around discovery, usability, and security.
+
+Strong problem-solving skills and the ability to turn ambiguous problems into focused, practical solutions.
+
+Clear communication skills, openness to feedback, and a strong sense of ownership and accountability.
+
+Experience with open-source projects or external developer communities is a plus.
+
+Experience building SDKs, CLI tools, MCP servers, or integrations between platforms is highly valued.
+
+Familiarity with React or frontend build tooling is advantageous.
+
+Experience operating systems involving queues, monitoring, and error recovery is a plus.
+
+Exposure to multiple programming languages and an understanding of language-specific library design is beneficial.
+
+Experience with email development or a strong interest in learning the email technology ecosystem is a plus.
+
+Benefits
+
+Fully remote position, with eligibility for candidates based in Brazil.
+
+Compensation of $130,000–$160,000 USD, depending on location and experience.
+
+Opportunity to work with an international, distributed engineering team.
+
+Meaningful autonomy to influence technical decisions and own projects from discovery through production.
+
+Close collaboration with developers who actively use the tools and products you build.
+
+A culture centered on thoughtful feedback, knowledge sharing, and continuous learning.
+
+High standards for product quality, reliability, usability, and engineering craft.
+
+Opportunities to work across SDKs, APIs, CLI tooling, MCP, integrations, and developer experience.
+
+Some travel may be expected for team offsites, conferences, meetups, and related events.
+
+Exposure to a modern developer-focused technology environment and opportunities to expand your technical scope.
+
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by

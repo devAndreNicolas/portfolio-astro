@@ -224,75 +224,195 @@
         "ai-product",
         "product"
       ]
+    },
+    "https://jobs.lever.co/jobgether/cbae117a-307d-4c63-b39f-2496d4ac8591": {
+      "file": "career/applications/jobgether-senior-full-stack-software-engineer-298f7459.txt",
+      "title": "Jobgether - Senior Full-Stack Software Engineer",
+      "collectedAt": "2026-10-06T15:09:22.469Z",
+      "discoveryProviders": [
+        "serper"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "react",
+        "web-components",
+        "testing",
+        "node",
+        "rest-api",
+        "postgresql",
+        "security"
+      ]
+    },
+    "https://jobs.lever.co/jobgether/40e80404-e202-45cc-9694-4ea5389b6aa5": {
+      "file": "career/applications/jobgether-senior-software-engineer-full-stack-9569b578.txt",
+      "title": "Jobgether - Senior Software Engineer Full stack",
+      "collectedAt": "2026-10-06T15:09:28.349Z",
+      "discoveryProviders": [
+        "serper"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "typescript",
+        "react",
+        "web-components",
+        "go",
+        "rest-api",
+        "postgresql",
+        "security",
+        "cicd",
+        "product",
+        "java"
+      ]
+    },
+    "https://jobs.lever.co/jobgether/3cd21de8-5bb5-40f9-be79-27b3d6f31f38": {
+      "file": "career/applications/jobgether-software-engineer-developer-tools-bae6d94f.txt",
+      "title": "Jobgether - Software Engineer, Developer Tools",
+      "collectedAt": "2026-10-06T15:09:33.724Z",
+      "discoveryProviders": [
+        "serper"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "typescript",
+        "react",
+        "web-components",
+        "code-review",
+        "node",
+        "rest-api",
+        "auth",
+        "authorization",
+        "security"
+      ]
+    },
+    "https://jobs.lever.co/bluelightconsulting/d2b1eff0-5ed0-43b8-8ce8-de8d52e9a69c": {
+      "file": "career/applications/bluelight-consulting-senior-software-engineer-python-flask-react-remote-latin-america-ae253dec.txt",
+      "title": "Bluelight Consulting - Senior Software Engineer (Python/Flask+React) - Remote, Latin America",
+      "collectedAt": "2026-10-06T15:09:39.134Z",
+      "discoveryProviders": [
+        "serper"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "typescript",
+        "javascript",
+        "react",
+        "web-components",
+        "postgresql",
+        "java"
+      ]
+    },
+    "https://jobs.lever.co/jobgether/46a3033c-f2a2-4484-840e-7bdc84b49eaf": {
+      "file": "career/applications/jobgether-senior-software-engineer-alti-team-080bfbf5.txt",
+      "title": "Jobgether - Senior Software Engineer - Alti Team",
+      "collectedAt": "2026-10-06T15:09:44.549Z",
+      "discoveryProviders": [
+        "serper"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "typescript",
+        "javascript",
+        "web-components",
+        "rest-api",
+        "security",
+        "ai-product",
+        "payments",
+        "java"
+      ]
+    },
+    "https://jobs.lever.co/jobgether/40e57f85-85ca-460d-9734-40a3e118ec79": {
+      "file": "career/applications/jobgether-senior-software-engineer-product-expansion-team-e788ea5e.txt",
+      "title": "Jobgether - Senior Software Engineer - Product Expansion Team",
+      "collectedAt": "2026-10-06T15:09:53.091Z",
+      "discoveryProviders": [
+        "serper"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "typescript",
+        "web-components",
+        "code-review",
+        "rest-api",
+        "postgresql",
+        "security",
+        "cicd",
+        "payments"
+      ]
+    },
+    "https://jobs.ashbyhq.com/truelogic/dc02aa2e-ed76-46a2-a1ac-95b68668cafd": {
+      "file": "career/applications/senior-frontend-engineer-media-production-brazil-a0724182.txt",
+      "title": "Senior Frontend Engineer - Media Production - Brazil",
+      "collectedAt": "2026-10-06T15:10:03.180Z",
+      "discoveryProviders": [
+        "serper"
+      ],
+      "ageDays": null,
+      "fitSignals": [
+        "typescript",
+        "react",
+        "nextjs",
+        "accessibility",
+        "seo",
+        "web-components",
+        "code-review",
+        "rest-api",
+        "security",
+        "ai-product"
+      ]
     }
   },
   "lastRun": {
-    "at": "2026-10-01T21:22:53.124Z",
+    "at": "2026-10-06T15:10:13.482Z",
     "country": "brazil",
     "provider": "both",
-    "afterDate": "2026-09-28",
+    "afterDate": "2026-10-03",
     "maxAgeDays": 7,
-    "discovered": 6,
-    "collected": 0,
+    "discovered": 13,
+    "collected": 7,
     "rejected": {
       "duplicate": 0,
       "location": 0,
       "stale": 0,
-      "mismatch": 2,
-      "structure": 4,
+      "mismatch": 0,
+      "structure": 6,
       "blocked": 0
     },
     "attempts": [
       {
-        "url": "https://dow.wd1.myworkdayjobs.com/pt-BR/ExternalCareers/job/Navi-Mumbai-IND/Full-Stack-Developer--Net-Angular-Azure-_R2066416",
-        "title": "Careers",
+        "url": "https://boards.greenhouse.io/bitwarden/jobs/8001613003",
+        "title": "Staff Software Engineer (Architecture)",
         "reason": "structure",
-        "textLength": 0
+        "textLength": 5616
       },
       {
-        "url": "https://jobs.ashbyhq.com/apas/a36c1e1b-8d9c-42ef-8a6b-5dcb7e836d84",
-        "title": "Full Stack Engineer",
+        "url": "https://apply.workable.com/pavago/j/B8B68C0741/apply/",
+        "title": "Full-Stack Developer",
         "reason": "structure",
-        "textLength": 4896
+        "textLength": 1414
       },
       {
-        "url": "https://jobs.ashbyhq.com/kraken.com/c591538b-b19c-4377-9a56-f5b9b30fc9fa",
-        "title": "Senior Software Engineer - Rust - Consumer",
-        "reason": "rust",
-        "fitSignals": [
-          "typescript",
-          "react",
-          "web-components",
-          "rest-api",
-          "security",
-          "ai-product",
-          "payments"
-        ]
-      },
-      {
-        "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/job/BELO-HORIZONTE/Software-Engineer-II--R-D-Hardware-Verification_R56225?utm_source=hsamplify&utm_medium=linkedin&utm_term=2ce009d3-992f-4e66-8399-90da12317a46",
-        "title": "Careers",
+        "url": "https://jobs.lever.co/bluelightconsulting?workplacetype=onsite&location=Sucre%2C%20Bolivia",
+        "title": "Bluelight Consulting",
         "reason": "structure",
-        "textLength": 0
+        "textLength": 1689
       },
       {
-        "url": "https://boards.greenhouse.io/okta/jobs/8239247",
-        "title": "Securing the AI era starts here",
+        "url": "https://apply.workable.com/digital-368/j/D0A651F827/apply/",
+        "title": "Freelance Full-Stack Developer - Python & JavaScript",
         "reason": "structure",
-        "textLength": 3583
+        "textLength": 637
       },
       {
-        "url": "https://jobs.smartrecruiters.com/Nagarro1/744000152723749-associate-principal-engineer-dataops",
-        "title": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
-        "reason": "insufficient-core-signals",
-        "fitSignals": [
-          "accessibility",
-          "web-components",
-          "rest-api",
-          "postgresql",
-          "security",
-          "cicd"
-        ]
+        "url": "https://jobs.lever.co/xsolla/?workplacetype%5B0%5D=remote&workplacetype%5B1%5D=hybrid&workplacetype%5B2%5D=onsite&workplacetype%5B3%5D=hybrid&workplacetype%5B4%5D=onsite&workplacetype%5B5%5D=hybrid&%20development%5B0%5D=&%20development%5B1%5D=&location=Canada",
+        "title": "Xsolla",
+        "reason": "structure",
+        "textLength": 2694
+      },
+      {
+        "url": "https://jobs.lever.co/xsolla/?workplacetype%5B0%5D=remote&workplacetype%5B1%5D=hybrid&workplacetype%5B2%5D=onsite&workplacetype%5B3%5D=hybrid&workplacetype%5B4%5D=onsite&workplacetype%5B5%5D=hybrid&%20development%5B0%5D=&%20development%5B1%5D=&location=Seoul%2C%20South%20Korea",
+        "title": "Xsolla",
+        "reason": "structure",
+        "textLength": 2322
       }
     ]
   }

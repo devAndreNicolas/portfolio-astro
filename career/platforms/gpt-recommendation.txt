@@ -224,47 +224,47 @@ O truque é combinar:
 ### Full Stack
 
 ```text
-site:inhire.com.br "Full Stack" after:2026-09-24
+site:inhire.com.br "Full Stack" after:2026-10-01
 ```
 
 ```text
-site:gupy.io "Full Stack" after:2026-09-24
+site:gupy.io "Full Stack" after:2026-10-01
 ```
 
 ```text
-site:boards.greenhouse.io "Full Stack" "Brazil" after:2026-09-24
+site:boards.greenhouse.io "Full Stack" "Brazil" after:2026-10-01
 ```
 
 ```text
-site:jobs.ashbyhq.com "Full Stack" "Brazil" after:2026-09-24
+site:jobs.ashbyhq.com "Full Stack" "Brazil" after:2026-10-01
 ```
 
 ```text
-site:jobs.lever.co "Full Stack" "Brazil" after:2026-09-24
+site:jobs.lever.co "Full Stack" "Brazil" after:2026-10-01
 ```
 
 ### Software Engineer
 
 ```text
-site:inhire.com.br "Software Engineer" after:2026-09-24
+site:inhire.com.br "Software Engineer" after:2026-10-01
 ```
 
 ```text
-site:boards.greenhouse.io "Software Engineer" "Brazil" after:2026-09-24
+site:boards.greenhouse.io "Software Engineer" "Brazil" after:2026-10-01
 ```
 
 ```text
-site:jobs.ashbyhq.com "Software Engineer" "Brazil" after:2026-09-24
+site:jobs.ashbyhq.com "Software Engineer" "Brazil" after:2026-10-01
 ```
 
 ### AI
 
 ```text
-site:boards.greenhouse.io ("AI Engineer" OR "AI Software Engineer") "Brazil" after:2026-09-24
+site:boards.greenhouse.io ("AI Engineer" OR "AI Software Engineer") "Brazil" after:2026-10-01
 ```
 
 ```text
-site:jobs.ashbyhq.com ("AI Engineer" OR "AI Software Engineer") "Brazil" after:2026-09-24
+site:jobs.ashbyhq.com ("AI Engineer" OR "AI Software Engineer") "Brazil" after:2026-10-01
 ```
 
 ---
@@ -276,29 +276,29 @@ Aqui eu faria pesquisas diferentes.
 ### Remote Full Stack
 
 ```text
-site:jobs.ashbyhq.com "Full Stack Engineer" "Remote" after:2026-09-24
+site:jobs.ashbyhq.com "Full Stack Engineer" "Remote" after:2026-10-01
 ```
 
 ```text
-site:boards.greenhouse.io "Full Stack Engineer" "Remote" after:2026-09-24
+site:boards.greenhouse.io "Full Stack Engineer" "Remote" after:2026-10-01
 ```
 
 ```text
-site:jobs.lever.co "Full Stack Engineer" "Remote" after:2026-09-24
+site:jobs.lever.co "Full Stack Engineer" "Remote" after:2026-10-01
 ```
 
 ### AI
 
 ```text
-site:jobs.ashbyhq.com "AI Engineer" "Remote" after:2026-09-24
+site:jobs.ashbyhq.com "AI Engineer" "Remote" after:2026-10-01
 ```
 
 ```text
-site:boards.greenhouse.io "AI Engineer" "Remote" after:2026-09-24
+site:boards.greenhouse.io "AI Engineer" "Remote" after:2026-10-01
 ```
 
 ```text
-site:jobs.lever.co "AI Engineer" "Remote" after:2026-09-24
+site:jobs.lever.co "AI Engineer" "Remote" after:2026-10-01
 ```
 
 ### Product Engineer
@@ -306,11 +306,11 @@ site:jobs.lever.co "AI Engineer" "Remote" after:2026-09-24
 Essa eu colocaria **obrigatoriamente** no seu radar:
 
 ```text
-site:jobs.ashbyhq.com "Product Engineer" "Remote" after:2026-09-24
+site:jobs.ashbyhq.com "Product Engineer" "Remote" after:2026-10-01
 ```
 
 ```text
-site:boards.greenhouse.io "Product Engineer" "Remote" after:2026-09-24
+site:boards.greenhouse.io "Product Engineer" "Remote" after:2026-10-01
 ```
 
 Porque ela pega vagas que não necessariamente se chamam "Full Stack", mas procuram alguém que **constrói produto de ponta a ponta**.

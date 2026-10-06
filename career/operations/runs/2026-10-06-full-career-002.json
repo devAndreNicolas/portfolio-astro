@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-06-full-career-002",
+  "status": "complete",
+  "generatedAt": "2026-10-06T15:10:00.000Z",
+  "sourceCommit": "433f7a77cb9aa26883936c48631a169e2e11d7d3",
+  "summary": {
+    "reason": "Checked full-pipeline trigger: refreshed the Brazil-first collection, reanalyzed the saved vacancy corpus, reevaluated role priorities, and verified every canonical CV against factual and ATS content gates.",
+    "collection": {
+      "market": "brazil",
+      "providers": ["serpapi", "serper"],
+      "discovered": 0,
+      "collected": 0,
+      "note": "No new official ATS links were available from the configured providers."
+    },
+    "market": {
+      "analyzedVacancies": 40,
+      "priorityRoles": [
+        "Full Stack Engineer (82)",
+        "AI Product Engineer (81)",
+        "Software Engineer (81)"
+      ]
+    },
+    "cvReview": {
+      "evaluated": 16,
+      "changes": "No canonical CV text changes were needed: all variants remained factually grounded, role-specific, single-column, and passed the context-action-evidence content gate.",
+      "pdfCompilation": "pending-ci"
+    },
+    "validation": {
+      "applicationTests": "passed",
+      "roleTests": "passed",
+      "manifest": "passed-16-cvs",
+      "contentQuality": "passed-16-cvs",
+      "siteBuild": "passed"
+    }
+  },
+  "outputs": [
+    "career/applications/analysis/index.json",
+    "career/roles/recommendations.json",
+    "career/operations/agent-evaluation.json",
+    "career/operations/report.json",
+    "src/data/career-dashboard.json"
+  ],
+  "unresolvedQuestions": []
+}

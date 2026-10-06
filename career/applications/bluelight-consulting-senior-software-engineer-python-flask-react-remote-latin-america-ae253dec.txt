@@ -1,0 +1,29 @@
+Source URL: https://jobs.lever.co/bluelightconsulting/d2b1eff0-5ed0-43b8-8ce8-de8d52e9a69c
+Collected at: 2026-10-06T15:09:39.134Z
+Market: brazil
+Discovery: serper
+Explicit age: unknown
+Fit signals: typescript, javascript, react, web-components, postgresql, java
+
+Senior Software Engineer (Python/Flask+React) - Remote, Latin America
+Recife, Pernambuco, BrazilEngineering – Software Development /Full-Time /Remote
+	APPLY FOR THIS JOB
+Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Our mission is not only to create cutting-edge applications but also to foster a collaborative and enriching work environment where each team member can grow and thrive. With a presence across the United States and Central/South America, Bluelight is in an exciting phase of expansion, continually seeking exceptional talent to join its dynamic and diverse community.
+
+We are looking for a skilled individual to join our rapidly growing team at Bluelight. This position is ideal for someone who thrives in a fast-paced, dynamic environment where everyone's opinions and efforts are valued and appreciated. You will have the opportunity to contribute to challenging and meaningful projects, developing high-quality applications that stand out in the market. We value continuous learning, personal growth, and hard work, offering a collaborative environment that promotes professional development. If you are passionate about software development and eager to be part of a growing software consultancy, we invite you to apply and join us on this exciting journey.
+Technical Qualifications
+Backend: 5+ years of experience with Python (Flask, FastAPI, Django) and building complex, service-oriented server logic.
+Frontend: Modern JavaScript/TypeScript development utilizing ReactJS for scalable interactive web applications.
+Data Access: Heavy experience with relational databases (PostgreSQL), data storage systems, and advanced data-access models.
+Core Responsibilities:
+Full-Stack Ownership: Architect, test, and ship end-to-end full-stack software solutions to fulfill complex financial reporting and data visualization needs.
+Optimization: Refactor existing software continuously using Agile methodologies to improve overall maintainability and speed.
+Collaboration: Partner with product managers and data engineering teams to safely extract, parse, and serve multi-billion-dollar private asset analytics.
+Being a consultant in our team is a fun, challenging, and rewarding career choice. Your contributions are highly valued by clients, and the work you do often has a direct and significant impact on their business.
+You will have the opportunity to work on a variety of projects for our incredible clients, which will accelerate your career growth. You’ll collaborate with modern technologies and work alongside some of the best professionals in the industry!
+If you’re eager to be part of an exciting, challenging, and rapidly growing consultancy, we encourage you to apply. #LI-Remote
+APPLY FOR THIS JOB
+
+Bluelight Consulting Home Page
+
+Jobs powered by

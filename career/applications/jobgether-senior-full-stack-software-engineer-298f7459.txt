@@ -1,0 +1,73 @@
+Source URL: https://jobs.lever.co/jobgether/cbae117a-307d-4c63-b39f-2496d4ac8591
+Collected at: 2026-10-06T15:09:22.469Z
+Market: brazil
+Discovery: serper
+Explicit age: unknown
+Fit signals: react, web-components, testing, node, rest-api, postgresql, security
+
+Senior Full-Stack Software Engineer
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior Full-Stack Software Engineer based in Brazil.
+
+This role offers the opportunity to build and support scalable full-stack applications across modern cloud environments.
+You will work across both front-end and back-end development, infrastructure, testing, releases, and production support.
+The position focuses heavily on Node.js, React, AWS, and PostgreSQL or DynamoDB, with an emphasis on serverless architecture.
+You will collaborate closely with product, design, and technical teams within a highly scaled Agile engineering environment.
+The role combines hands-on technical contribution with opportunities to influence development practices and solve complex problems.
+You will be expected to contribute across multiple stages of the software lifecycle while maintaining a strong focus on quality and reliability.
+It is an environment suited to a self-directed engineer who enjoys continuous learning, collaboration, and end-to-end ownership.
+
+Accountabilities:
+Collaborate with product, design, and technical teams to deliver software solutions aligned with business and user needs.
+Design, develop, test, release, and maintain back-end services, front-end applications, and supporting infrastructure.
+Build and maintain scalable applications using Node.js, React, AWS, PostgreSQL, DynamoDB, and related technologies.
+Design and implement serverless applications and services within AWS environments.
+Contribute as a hands-on technical member of an Agile engineering team, participating throughout the software development lifecycle.
+Support automated testing, end-to-end testing, releases, and production operations to maintain reliable applications.
+Troubleshoot technical issues and apply structured problem-solving to resolve development and production challenges.
+Contribute to continuous improvement by identifying opportunities to enhance engineering practices, systems, and processes.
+Manage multiple assignments effectively while collaborating with colleagues across functions, disciplines, and organizations.
+
+Requirements:
+
+Bachelor’s degree required, preferably in an analytical or technical field.
+5–7 years of relevant professional software engineering experience.
+Strong hands-on experience with Node.js, React, AWS, and relational databases such as PostgreSQL or NoSQL databases such as DynamoDB.
+Proven experience designing and implementing serverless applications on AWS.
+Experience developing and supporting software applications in highly scaled environments.
+Experience working within Agile engineering teams and development methodologies.
+Ability to contribute across development, testing, and production support rather than focusing on a single stage of the lifecycle.
+Strong analytical thinking and structured problem-solving skills.
+Sound understanding of software libraries and frameworks, with the ability to understand and maintain the underlying code.
+Strong collaboration and interpersonal skills, with the ability to work effectively with diverse colleagues across functions and organizations.
+Ability to manage multiple priorities, work independently, set priorities, and consistently achieve goals.
+Self-starter mindset with a strong commitment to continuous improvement and learning new technologies.
+Ability to understand the broader business and technical implications of engineering decisions.
+AWS certification at Associate level or higher is preferred.
+
+Benefits:
+
+Opportunity to work on scalable full-stack applications and modern cloud infrastructure.
+Hands-on experience with Node.js, React, AWS, serverless architecture, PostgreSQL, and DynamoDB.
+Exposure to highly scaled Agile engineering environments.
+Broad involvement across development, testing, releases, and production support.
+Collaboration with multidisciplinary teams across product, design, and technology.
+Opportunities for continuous learning, technical growth, and process improvement.
+A role offering meaningful technical ownership and the ability to contribute across the full software lifecycle.
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by

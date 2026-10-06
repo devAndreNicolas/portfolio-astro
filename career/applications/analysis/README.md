@@ -8,6 +8,7 @@ Deterministic coverage of recognized job requirements against evidence IDs in `c
 | 100% | 4 | fullstack-engineer-br | Diagonal-DesenvolvedorFullStack.txt | none recognized |
 | 100% | 10 | fullstack-engineer-br | DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt | none recognized |
 | 100% | 6 | software-engineer-br | Jobgether  AI Process Forward Deployed Engineer.txt | none recognized |
+| 100% | 8 | software-engineer-international | jobgether-software-engineer-developer-tools-bae6d94f.txt | none recognized |
 | 100% | 7 | frontend-engineer-br | Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt | none recognized |
 | 100% | 5 | software-engineer-international | senior-software-engineer-ai-training-brazil-4fc23d96.txt | none recognized |
 | 93% | 14 | fullstack-engineer-br | CI&T-MidLevelDeveloperFullStackAEM-AdobeExperienceManager .txt | aem |
@@ -24,6 +25,8 @@ Deterministic coverage of recognized job requirements against evidence IDs in `c
 | 87% | 8 | software-engineer-international | jobgether-software-engineer-ai-native-be1a4801.txt | aws-gcp |
 | 86% | 7 | frontend-engineer-br | INDIStaffingServices-AngularDeveloper-Remote-Work.txt | advanced-english |
 | 86% | 7 | frontend-engineer-br | INDIStaffingServices-AngularDeveloper-Remote-Work2.txt | advanced-english |
+| 84% | 11 | fullstack-engineer-international | jobgether-senior-software-engineer-full-stack-9569b578.txt | aws-gcp, load-testing |
+| 83% | 7 | fullstack-engineer-international | jobgether-senior-full-stack-software-engineer-298f7459.txt | aws-gcp |
 | 83% | 6 | fullstack-engineer-br | Neppo-Desenvolvedor(a)FullStack .txt | spring |
 | 83% | 6 | fullstack-engineer-br | NOTORIA  Desenvolvedor(a) Full Stack (100% Remoto) – Foco em IA e Saúde - 1120.txt | aws-gcp |
 | 83% | 7 | software-engineer-international | Software Engineer, Autonomous Revenue Operations (Brazil).txt | aws-gcp |

@@ -1,14 +1,14 @@
 {
   "$schema": "./agent-evaluation.schema.json",
   "schemaVersion": 1,
-  "runId": "2026-10-01-editorial-hardening-001",
+  "runId": "2026-10-06-full-career-002",
   "status": "complete",
-  "generatedAt": "2026-10-01T22:15:00.000Z",
+  "generatedAt": "2026-10-06T15:10:00.000Z",
   "inputs": {
     "manifestIds": ["software-engineer-br", "software-engineer-international", "fullstack-engineer-br", "fullstack-engineer-international", "fullstack-developer-br", "fullstack-developer-international", "frontend-engineer-br", "frontend-engineer-international", "product-engineer-international", "web-developer-br", "web-developer-international", "angular-developer-br", "angular-developer-international", "react-developer-br", "react-developer-international", "product-engineer-br"],
-    "applicationCount": 37,
+    "applicationCount": 40,
     "evidenceDocument": "career/profile/master-career.md",
-    "sourceCommit": "be451770cecf10a470d03cb3d170592af02c295d"
+    "sourceCommit": "433f7a77cb9aa26883936c48631a169e2e11d7d3"
   },
   "cvEvaluations": {
     "software-engineer-br": {
