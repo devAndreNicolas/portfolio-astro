@@ -1,0 +1,12 @@
+Source URL: user-provided vacancy description
+Company: Edge / Unidade Embrapii
+Role: Designer UI/UX / Designer de Produto
+Location: Maceió, AL, Brazil
+Work model: Presencial imediato; mudança para Maceió quando necessário
+Hours: 160 horas mensais
+
+Requisitos: 3+ anos; superior em Design de Produto, Design Gráfico ou área similar; User-Centered Design, Design Thinking, Double Diamond, User Research, Benchmarking, Desk Research, User Flow, User Journey, testes de usabilidade, testes A/B, Continuous Discovery, UX, prototipagem e inglês intermediário. Desejáveis: pós-graduação, gestão de projetos e inglês avançado.
+
+Responsabilidades: liderar o processo de design da pesquisa à entrega; conduzir pesquisa de usuário; criar wireframes, fluxos e protótipos; colaborar com desenvolvimento e stakeholders; facilitar revisões; iterar com feedback; orientar juniores; acompanhar tendências e boas práticas de UI/UX.
+
+Observação de evidência: há experiência documentada em UX engineering, UI/frontend, produto, acessibilidade, fluxos e implementação, mas não há evidência formal no Master Career Document de três anos em cargo de design, formação específica em Design, pesquisa moderada, testes A/B, Continuous Discovery ou mentoria de designers. Essas dimensões são gaps e não devem ser apresentadas como experiência comprovada.

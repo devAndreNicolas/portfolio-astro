@@ -1,0 +1,8 @@
+Source URL: https://www.casado.dev/vaga/product-designer-product-discovery-ai
+Company: VendePay
+Role: Product Designer — Product Discovery & AI
+Location: São Paulo, híbrido
+
+Resumo: conectar Produto, UX/UI e Tecnologia desde a descoberta do problema até a entrega para engenharia; compreender usuários, negócio e restrições técnicas, desenhar a experiência e transformar a solução em produto implementável. IA é parte central da posição.
+
+Match observado: forte em produto, IA generativa aplicada, contextual prompting, requisitos, trade-offs técnicos, UX engineering e entrega ponta a ponta; gaps em pesquisa formal, prototipação em ferramenta específica e experiência comprovada em Product Design como cargo.

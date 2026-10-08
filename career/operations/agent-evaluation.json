@@ -1,12 +1,12 @@
 {
   "$schema": "./agent-evaluation.schema.json",
   "schemaVersion": 1,
-  "runId": "2026-10-06-full-career-002",
+  "runId": "2026-10-08-ux-product-design-001",
   "status": "complete",
-  "generatedAt": "2026-10-06T15:10:00.000Z",
+  "generatedAt": "2026-10-08T19:30:00.000Z",
   "inputs": {
-    "manifestIds": ["software-engineer-br", "software-engineer-international", "fullstack-engineer-br", "fullstack-engineer-international", "fullstack-developer-br", "fullstack-developer-international", "frontend-engineer-br", "frontend-engineer-international", "product-engineer-international", "web-developer-br", "web-developer-international", "angular-developer-br", "angular-developer-international", "react-developer-br", "react-developer-international", "product-engineer-br"],
-    "applicationCount": 40,
+    "manifestIds": ["software-engineer-br", "software-engineer-international", "fullstack-engineer-br", "fullstack-engineer-international", "fullstack-developer-br", "fullstack-developer-international", "frontend-engineer-br", "frontend-engineer-international", "product-engineer-international", "web-developer-br", "web-developer-international", "angular-developer-br", "angular-developer-international", "react-developer-br", "react-developer-international", "product-engineer-br", "ux-product-designer-br"],
+    "applicationCount": 50,
     "evidenceDocument": "career/profile/master-career.md",
     "sourceCommit": "433f7a77cb9aa26883936c48631a169e2e11d7d3"
   },
@@ -20,6 +20,17 @@
       "changes": ["Preserved the official Frontend Engineer employment title while keeping the target role in the headline.", "Clarified the official Tecnólogo credential."],
       "rejectedClaims": ["AWS/GCP experience", "professional Java/Spring experience", "advanced/fluent English"],
       "gaps": ["aws-gcp", "spring", "load-testing", "advanced-english"],
+      "pdfCompilation": "pending-ci"
+    },
+    "ux-product-designer-br": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 68, "matchingVacancies": 6 },
+      "jobSources": ["career/applications/Edge-Designer-UI-UX-Maceio.txt", "career/applications/Orbite-Product-Designer-Pleno.txt", "career/applications/VendePay-Product-Designer-Discovery-AI.txt", "career/applications/Central-IT-UX-Engineer-Pleno.txt", "career/applications/Jobcenter-Product-Designer-UX-UI.txt", "career/applications/Grupo-Boticario-Product-Designer-Especialista-I.txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-002", "exp-mspa-003", "exp-mspa-004", "exp-mspa-007", "project-qf-001", "project-fecha-002", "project-saude-001", "oss-001"],
+      "changes": ["Expanded the CV by composing the strongest role-specific evidence from the Product Engineer, Frontend, React, and Full Stack variants, then reordering it for UX/Product Design ATS terms.", "Added six product/UX vacancy sources and aligned the search taxonomy with discovery, journeys, usability, design systems, accessibility, and UX engineering.", "Kept explicit qualification boundaries for user research, usability testing, A/B testing, Continuous Discovery, formal design education, Figma, and design mentorship."],
+      "rejectedClaims": ["Three years in a formal design role", "Design/Product Design degree", "Moderated user research", "Usability testing", "A/B testing", "Continuous Discovery ownership", "Formal design mentorship", "Advanced English"],
+      "gaps": ["user-research", "usability-testing", "ab-testing", "design-methods", "advanced-english", "design-degree", "seniority-3-years-design"],
       "pdfCompilation": "pending-ci"
     },
     "software-engineer-international": {
@@ -193,15 +204,16 @@
     { "id": "angular-developer-international", "status": "created", "reason": "International Angular openings require a truthful English canonical variant." },
     { "id": "react-developer-br", "status": "created", "reason": "Recurring React/Next.js demand and multiple implemented product examples." },
     { "id": "react-developer-international", "status": "created", "reason": "International React openings require a truthful English canonical variant." },
-    { "id": "product-engineer-br", "status": "created", "reason": "Product-engineering evidence is strong and the Brazilian counterpart was missing." }
+    { "id": "product-engineer-br", "status": "created", "reason": "Product-engineering evidence is strong and the Brazilian counterpart was missing." },
+    { "id": "ux-product-designer-br", "status": "created", "reason": "UX/Product Design demand is represented by a role-specific CV grounded in documented UX engineering and product-interface evidence; research and formal-design gaps remain explicit." }
   ],
   "validation": {
     "applicationTests": "passed",
     "roleTests": "passed",
-    "manifest": "passed-16-cvs",
-    "atsStaticStructure": "passed-16-cvs",
+    "manifest": "passed-17-cvs",
+    "atsStaticStructure": "passed-17-cvs",
     "siteBuild": "passed",
-    "contentQuality": "passed-16-cvs",
+    "contentQuality": "passed-17-cvs",
     "pdfCompilation": "pending-ci"
   },
   "unresolvedQuestions": []

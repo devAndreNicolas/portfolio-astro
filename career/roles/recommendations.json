@@ -4,6 +4,41 @@
   "definition": "Score = 70% documented-strength coverage + 30% representation among locally saved vacancies. It is a search-prioritization aid, not market demand, ATS probability, or hiring prediction.",
   "recommendations": [
     {
+      "id": "ai-product-engineer",
+      "titles": [
+        "AI Product Engineer",
+        "Applied AI Engineer",
+        "Full Stack Engineer AI"
+      ],
+      "cvFamily": "software-engineer",
+      "strengths": [
+        "typescript",
+        "ai-product",
+        "testing",
+        "security",
+        "product",
+        "rest-api"
+      ],
+      "searchTerms": [
+        "AI Product Engineer",
+        "Applied AI Engineer TypeScript",
+        "Full Stack Engineer AI"
+      ],
+      "score": 80,
+      "profileScore": 70,
+      "localDemandScore": 10,
+      "matchingSavedVacancies": 16,
+      "supportedStrengths": [
+        "typescript",
+        "ai-product",
+        "testing",
+        "security",
+        "product",
+        "rest-api"
+      ],
+      "evidenceGaps": []
+    },
+    {
       "id": "fullstack-typescript",
       "titles": [
         "Full Stack Engineer",
@@ -27,9 +62,9 @@
         "Full Stack Developer React Node",
         "Desenvolvedor Full Stack TypeScript"
       ],
-      "score": 82,
+      "score": 80,
       "profileScore": 70,
-      "localDemandScore": 12,
+      "localDemandScore": 10,
       "matchingSavedVacancies": 16,
       "supportedStrengths": [
         "typescript",
@@ -40,41 +75,6 @@
         "auth",
         "testing",
         "product"
-      ],
-      "evidenceGaps": []
-    },
-    {
-      "id": "ai-product-engineer",
-      "titles": [
-        "AI Product Engineer",
-        "Applied AI Engineer",
-        "Full Stack Engineer AI"
-      ],
-      "cvFamily": "software-engineer",
-      "strengths": [
-        "typescript",
-        "ai-product",
-        "testing",
-        "security",
-        "product",
-        "rest-api"
-      ],
-      "searchTerms": [
-        "AI Product Engineer",
-        "Applied AI Engineer TypeScript",
-        "Full Stack Engineer AI"
-      ],
-      "score": 81,
-      "profileScore": 70,
-      "localDemandScore": 11,
-      "matchingSavedVacancies": 15,
-      "supportedStrengths": [
-        "typescript",
-        "ai-product",
-        "testing",
-        "security",
-        "product",
-        "rest-api"
       ],
       "evidenceGaps": []
     },
@@ -101,10 +101,10 @@
         "Product Engineer",
         "Engenheiro de Software produto"
       ],
-      "score": 81,
+      "score": 80,
       "profileScore": 70,
-      "localDemandScore": 11,
-      "matchingSavedVacancies": 15,
+      "localDemandScore": 10,
+      "matchingSavedVacancies": 16,
       "supportedStrengths": [
         "typescript",
         "rest-api",
@@ -140,7 +140,7 @@
       "score": 77,
       "profileScore": 70,
       "localDemandScore": 7,
-      "matchingSavedVacancies": 9,
+      "matchingSavedVacancies": 12,
       "supportedStrengths": [
         "angular",
         "typescript",
@@ -178,7 +178,7 @@
       "score": 77,
       "profileScore": 70,
       "localDemandScore": 7,
-      "matchingSavedVacancies": 9,
+      "matchingSavedVacancies": 12,
       "supportedStrengths": [
         "typescript",
         "angular",
@@ -215,7 +215,7 @@
       "score": 77,
       "profileScore": 70,
       "localDemandScore": 7,
-      "matchingSavedVacancies": 9,
+      "matchingSavedVacancies": 12,
       "supportedStrengths": [
         "react",
         "typescript",
@@ -223,6 +223,46 @@
         "html-css",
         "testing",
         "accessibility"
+      ],
+      "evidenceGaps": []
+    },
+    {
+      "id": "ux-product-design",
+      "titles": [
+        "Product Designer",
+        "UX Designer",
+        "Designer UI/UX",
+        "Designer de Produto",
+        "UX Engineer"
+      ],
+      "cvFamily": "ux-product-designer",
+      "strengths": [
+        "ux",
+        "ui",
+        "user-flows",
+        "accessibility",
+        "product",
+        "html-css",
+        "web-components"
+      ],
+      "searchTerms": [
+        "Product Designer UX",
+        "UX Designer usabilidade",
+        "Designer UI/UX Maceió",
+        "UX Engineer frontend"
+      ],
+      "score": 71,
+      "profileScore": 70,
+      "localDemandScore": 1,
+      "matchingSavedVacancies": 1,
+      "supportedStrengths": [
+        "ux",
+        "ui",
+        "user-flows",
+        "accessibility",
+        "product",
+        "html-css",
+        "web-components"
       ],
       "evidenceGaps": []
     },

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-08-ux-product-design-001",
+  "status": "complete",
+  "generatedAt": "2026-10-08T19:30:00.000Z",
+  "summary": {
+    "reason": "Expanded the UX/Product Design CV from the strongest existing Product Engineer, Frontend, React, and Full Stack evidence and added a broader product/UX vacancy corpus.",
+    "market": {
+      "newVacancies": 5,
+      "roleSources": ["Edge", "Orbite Consulting", "VendePay", "Central IT", "Jobcenter", "Grupo Boticário"],
+      "patterns": ["discovery", "user journeys", "wireframes", "prototyping", "usability", "accessibility", "design systems", "UX engineering", "AI and product technology"]
+    },
+    "cvReview": {
+      "id": "ux-product-designer-br",
+      "readiness": 100,
+      "synergy": 68,
+      "changes": "Expanded from the prior short draft into a full ATS-oriented CV with detailed experience bullets, UX/product competencies, seven selected projects, product journeys, UI engineering, AI workflow, and explicit evidence boundaries.",
+      "pdfCompilation": "pending-ci"
+    },
+    "validation": {
+      "cvCheck": "passed",
+      "contentQuality": "passed-17-cvs",
+      "applicationAnalysis": "passed-50-reports",
+      "searchRadar": "passed-76-queries"
+    }
+  },
+  "outputs": [
+    "career/cvs/ux-product-designer-br.tex",
+    "career/applications/analysis/index.json",
+    "career/roles/recommendations.json",
+    "career/operations/agent-evaluation.json",
+    "career/operations/report.json",
+    "src/data/career-dashboard.json"
+  ],
+  "unresolvedQuestions": [
+    "Confirm whether André has hands-on Figma usage, formal user interviews, usability tests, A/B tests, or documented design case studies before adding them as experience claims."
+  ]
+}

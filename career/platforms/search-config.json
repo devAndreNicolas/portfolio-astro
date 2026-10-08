@@ -5,6 +5,7 @@
     { "id": "fullstack", "label": "Full Stack", "query": "(\"Full Stack Engineer\" OR \"Full Stack Developer\" OR \"Software Engineer\") (\"TypeScript\" OR \"React\" OR \"Angular\" OR \"Node.js\")" },
     { "id": "frontend", "label": "Frontend", "query": "(\"Frontend Engineer\" OR \"Angular Developer\" OR \"React Developer\") (\"TypeScript\" OR \"Angular\" OR \"React\")" },
     { "id": "product", "label": "Product / Software", "query": "(\"Product Engineer\" OR \"Software Engineer\") (\"TypeScript\" OR \"React\" OR \"AI\")" },
+    { "id": "ux-product-design", "label": "UX / Product Design", "query": "(\"Product Designer\" OR \"UX Designer\" OR \"UI/UX Designer\" OR \"UX Engineer\" OR \"Product Design\") (\"UX\" OR \"user research\" OR \"Figma\" OR \"usability\")" },
     { "id": "ai", "label": "Applied AI", "query": "(\"AI Product Engineer\" OR \"Applied AI Engineer\" OR \"AI Software Engineer\" OR \"Full Stack Engineer\") (\"LLM\" OR \"GenAI\" OR \"AI\" OR \"TypeScript\")" },
     { "id": "founding", "label": "Founding / Early Engineer", "query": "(\"Founding Engineer\" OR \"Founding Software Engineer\" OR \"Early Engineer\" OR \"First Engineer\") (\"TypeScript\" OR \"React\" OR \"AI\")" }
   ],
@@ -23,7 +24,8 @@
         { "id": "fullstack-pt", "label": "Full Stack (PT-BR)", "query": "(\"Desenvolvedor Full Stack\" OR \"Desenvolvedor(a) Full Stack\" OR \"Desenvolvedor Fullstack\" OR \"Desenvolvedor(a) Fullstack\" OR \"Pessoa Desenvolvedora Full Stack\") (\"TypeScript\" OR \"React\" OR \"Angular\" OR \"Node.js\" OR \"JavaScript\")" },
         { "id": "frontend-pt", "label": "Frontend (PT-BR)", "query": "(\"Desenvolvedor Frontend\" OR \"Desenvolvedor(a) Frontend\" OR \"Desenvolvedor Angular\" OR \"Desenvolvedor(a) Angular\" OR \"Desenvolvedor React\" OR \"Pessoa Desenvolvedora Frontend\") (\"TypeScript\" OR \"Angular\" OR \"React\")" },
         { "id": "software-pt", "label": "Software / Produto (PT-BR)", "query": "(\"Engenheiro de Software\" OR \"Engenheira de Software\" OR \"Desenvolvedor de Software\" OR \"Desenvolvedor(a) de Software\" OR \"Pessoa Desenvolvedora\") (\"TypeScript\" OR \"React\" OR \"Angular\" OR \"Node.js\" OR \"API\")" },
-        { "id": "ai-pt", "label": "IA aplicada (PT-BR)", "query": "(\"Engenheiro de IA\" OR \"Engenheira de IA\" OR \"Desenvolvedor de IA\" OR \"Desenvolvedor(a) de IA\" OR \"Inteligência Artificial\" OR \"Full Stack\") (\"IA\" OR \"AI\" OR \"LLM\" OR \"GenAI\" OR \"TypeScript\")" }
+        { "id": "ai-pt", "label": "IA aplicada (PT-BR)", "query": "(\"Engenheiro de IA\" OR \"Engenheira de IA\" OR \"Desenvolvedor de IA\" OR \"Desenvolvedor(a) de IA\" OR \"Inteligência Artificial\" OR \"Full Stack\") (\"IA\" OR \"AI\" OR \"LLM\" OR \"GenAI\" OR \"TypeScript\")" },
+        { "id": "ux-product-design-pt", "label": "UX / Design de Produto (PT-BR)", "query": "(\"Designer de Produto\" OR \"Designer UI/UX\" OR \"UX Designer\" OR \"UI/UX\" OR \"UX Engineer\") (\"UX\" OR \"pesquisa de usuário\" OR \"usabilidade\" OR \"Figma\")" }
       ]
     },
     { "id": "gupy", "label": "Gupy", "site": "gupy.io", "markets": ["brazil"] },
