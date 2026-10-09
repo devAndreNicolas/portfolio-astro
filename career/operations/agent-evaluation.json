@@ -1,12 +1,12 @@
 {
   "$schema": "./agent-evaluation.schema.json",
   "schemaVersion": 1,
-  "runId": "2026-10-08-ux-product-design-001",
+  "runId": "2026-10-09-frontend-developer-001",
   "status": "complete",
-  "generatedAt": "2026-10-08T19:30:00.000Z",
+  "generatedAt": "2026-10-09T19:30:00.000Z",
   "inputs": {
-    "manifestIds": ["software-engineer-br", "software-engineer-international", "fullstack-engineer-br", "fullstack-engineer-international", "fullstack-developer-br", "fullstack-developer-international", "frontend-engineer-br", "frontend-engineer-international", "product-engineer-international", "web-developer-br", "web-developer-international", "angular-developer-br", "angular-developer-international", "react-developer-br", "react-developer-international", "product-engineer-br", "ux-product-designer-br"],
-    "applicationCount": 50,
+    "manifestIds": ["software-engineer-br", "software-engineer-international", "fullstack-engineer-br", "fullstack-engineer-international", "fullstack-developer-br", "fullstack-developer-international", "frontend-engineer-br", "frontend-engineer-international", "product-engineer-international", "web-developer-br", "web-developer-international", "angular-developer-br", "angular-developer-international", "react-developer-br", "react-developer-international", "product-engineer-br", "ux-product-designer-br", "frontend-developer-br", "frontend-developer-international"],
+    "applicationCount": 53,
     "evidenceDocument": "career/profile/master-career.md",
     "sourceCommit": "433f7a77cb9aa26883936c48631a169e2e11d7d3"
   },
@@ -31,6 +31,28 @@
       "changes": ["Expanded the CV by composing the strongest role-specific evidence from the Product Engineer, Frontend, React, and Full Stack variants, then reordering it for UX/Product Design ATS terms.", "Added six product/UX vacancy sources and aligned the search taxonomy with discovery, journeys, usability, design systems, accessibility, and UX engineering.", "Kept explicit qualification boundaries for user research, usability testing, A/B testing, Continuous Discovery, formal design education, Figma, and design mentorship."],
       "rejectedClaims": ["Three years in a formal design role", "Design/Product Design degree", "Moderated user research", "Usability testing", "A/B testing", "Continuous Discovery ownership", "Formal design mentorship", "Advanced English"],
       "gaps": ["user-research", "usability-testing", "ab-testing", "design-methods", "advanced-english", "design-degree", "seniority-3-years-design"],
+      "pdfCompilation": "pending-ci"
+    },
+    "frontend-developer-br": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 100, "matchingVacancies": 3 },
+      "jobSources": ["career/applications/PicPay-Desenvolvedor-Frontend-Junior-Angular.txt", "career/applications/PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog.txt", "career/applications/WithMira-Frontend-Developer-React.txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-002", "exp-mspa-003", "exp-mspa-004", "exp-mspa-005", "exp-mspa-006", "exp-mspa-007", "exp-mspa-008", "exp-mspa-009", "oss-002", "project-fecha-001", "project-fecha-003", "project-qf-001", "project-terto-001", "project-diary-001"],
+      "changes": ["Created a dedicated Brazilian Frontend Developer CV from the strongest Frontend Engineer, React, Full Stack, and Product Engineer evidence.", "Prioritized Angular, React, TypeScript, JavaScript, HTML/CSS, APIs, UX, accessibility, performance, testing, production, and product delivery terms found in the PicPay and React vacancy corpus."],
+      "rejectedClaims": ["Senior-level title or seniority", "Fluent English", "Unverified production scale or user volume"],
+      "gaps": ["advanced-english", "seniority-5-years"],
+      "pdfCompilation": "pending-ci"
+    },
+    "frontend-developer-international": {
+      "decision": "optimized",
+      "readiness": { "score": 100, "factualGrounding": 100, "atsStructure": 100, "roleAlignment": 100, "languageQuality": 100, "recruiterClarity": 100, "sourceIntegrity": 100 },
+      "synergy": { "average": 86, "matchingVacancies": 2 },
+      "jobSources": ["career/applications/WithMira-Frontend-Developer-React.txt", "career/applications/PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog.txt"],
+      "evidenceIds": ["exp-mspa-001", "exp-mspa-002", "exp-mspa-003", "exp-mspa-004", "exp-mspa-005", "exp-mspa-006", "exp-mspa-007", "oss-002", "project-fecha-001", "project-fecha-003", "project-qf-001", "project-terto-001", "project-diary-001"],
+      "changes": ["Created an English Frontend Developer CV with transparent Brazilian education wording and evidence-backed Angular, React, TypeScript, JavaScript, UX, API, testing, and production positioning."],
+      "rejectedClaims": ["Senior-level title or seniority", "Fluent English", "Unverified production scale or user volume"],
+      "gaps": ["seniority-5-years", "advanced-english"],
       "pdfCompilation": "pending-ci"
     },
     "software-engineer-international": {
@@ -205,15 +227,17 @@
     { "id": "react-developer-br", "status": "created", "reason": "Recurring React/Next.js demand and multiple implemented product examples." },
     { "id": "react-developer-international", "status": "created", "reason": "International React openings require a truthful English canonical variant." },
     { "id": "product-engineer-br", "status": "created", "reason": "Product-engineering evidence is strong and the Brazilian counterpart was missing." },
-    { "id": "ux-product-designer-br", "status": "created", "reason": "UX/Product Design demand is represented by a role-specific CV grounded in documented UX engineering and product-interface evidence; research and formal-design gaps remain explicit." }
+    { "id": "ux-product-designer-br", "status": "created", "reason": "UX/Product Design demand is represented by a role-specific CV grounded in documented UX engineering and product-interface evidence; research and formal-design gaps remain explicit." },
+    { "id": "frontend-developer-br", "status": "created", "reason": "Recurring Brazilian Frontend Developer demand, including PicPay Angular/React/TypeScript roles, justifies a dedicated Portuguese CV." },
+    { "id": "frontend-developer-international", "status": "created", "reason": "React/TypeScript international frontend demand justifies a dedicated English CV with transparent education and language claims." }
   ],
   "validation": {
     "applicationTests": "passed",
     "roleTests": "passed",
-    "manifest": "passed-17-cvs",
-    "atsStaticStructure": "passed-17-cvs",
+    "manifest": "passed-19-cvs",
+    "atsStaticStructure": "passed-19-cvs",
     "siteBuild": "passed",
-    "contentQuality": "passed-17-cvs",
+    "contentQuality": "passed-19-cvs",
     "pdfCompilation": "pending-ci"
   },
   "unresolvedQuestions": []

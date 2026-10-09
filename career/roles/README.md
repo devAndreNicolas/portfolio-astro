@@ -11,6 +11,7 @@ This ranking uses documented strengths and the vacancies currently saved in this
 | 77 | Frontend Engineer | 70/70 | 7/30 (12) | Frontend Engineer; Software Engineer Frontend; Engenheiro de Frontend; Desenvolvedor Front-end |
 | 77 | React Developer | 70/70 | 7/30 (12) | React Developer; Desenvolvedor React; React Frontend Engineer |
 | 71 | Product Designer | 70/70 | 1/30 (1) | Product Designer; UX Designer; Designer UI/UX; Designer de Produto; UX Engineer |
+| 70 | Frontend Developer | 70/70 | 0/30 (0) | Frontend Developer; Frontend Engineer; Desenvolvedor Frontend; Desenvolvedor Front-end |
 | 70 | Web Developer | 70/70 | 0/30 (0) | Web Developer; Desenvolvedor Web; Web Engineer |
 
 ## Search queries
@@ -63,6 +64,13 @@ Evidence gaps to keep out of CV claims: none in this role profile.
 - `UX Designer usabilidade`
 - `Designer UI/UX Maceió`
 - `UX Engineer frontend`
+
+Evidence gaps to keep out of CV claims: none in this role profile.
+### Frontend Developer
+
+- `Frontend Developer TypeScript React`
+- `Desenvolvedor Frontend Angular`
+- `Frontend Developer JavaScript React`
 
 Evidence gaps to keep out of CV claims: none in this role profile.
 ### Web Developer

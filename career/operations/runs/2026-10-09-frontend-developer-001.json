@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-09-frontend-developer-001",
+  "status": "complete",
+  "generatedAt": "2026-10-09T19:30:00.000Z",
+  "summary": {
+    "reason": "Created Portuguese and English Frontend Developer CV variants and expanded the vacancy research corpus around PicPay, Angular, React, TypeScript, UX, APIs, performance, accessibility, testing, and production web delivery.",
+    "market": {
+      "newVacancies": 3,
+      "sources": ["PicPay Frontend Angular", "PicPay Frontend Data Catalog", "WithMira Frontend React"],
+      "signals": ["Angular", "React", "TypeScript", "JavaScript", "responsive web", "high performance", "APIs", "UX", "production", "testing"]
+    },
+    "cvReview": {
+      "ids": ["frontend-developer-br", "frontend-developer-international"],
+      "readiness": 100,
+      "changes": "Created dedicated role variants from existing Frontend Engineer, React, Full Stack, and Product Engineer evidence, preserving the official MSPA title and transparent education/language claims.",
+      "pdfCompilation": "pending-ci"
+    },
+    "validation": {
+      "cvCheck": "passed",
+      "contentQuality": "passed-19-cvs",
+      "applicationAnalysis": "passed-53-reports",
+      "searchRadar": "updated"
+    }
+  },
+  "outputs": [
+    "career/cvs/frontend-developer-br.tex",
+    "career/cvs/frontend-developer-international.tex",
+    "career/applications/analysis/index.json",
+    "career/roles/recommendations.json",
+    "career/operations/agent-evaluation.json",
+    "career/operations/report.json",
+    "src/data/career-dashboard.json"
+  ],
+  "unresolvedQuestions": []
+}

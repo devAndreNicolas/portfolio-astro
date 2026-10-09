@@ -3,7 +3,7 @@
   "purpose": "High-signal Google searches for original ATS job boards. Queries are regenerated with a rolling date filter.",
   "groups": [
     { "id": "fullstack", "label": "Full Stack", "query": "(\"Full Stack Engineer\" OR \"Full Stack Developer\" OR \"Software Engineer\") (\"TypeScript\" OR \"React\" OR \"Angular\" OR \"Node.js\")" },
-    { "id": "frontend", "label": "Frontend", "query": "(\"Frontend Engineer\" OR \"Angular Developer\" OR \"React Developer\") (\"TypeScript\" OR \"Angular\" OR \"React\")" },
+    { "id": "frontend", "label": "Frontend", "query": "(\"Frontend Developer\" OR \"Frontend Engineer\" OR \"Desenvolvedor Frontend\" OR \"Desenvolvedor Front-end\" OR \"Angular Developer\" OR \"React Developer\") (\"TypeScript\" OR \"JavaScript\" OR \"Angular\" OR \"React\")" },
     { "id": "product", "label": "Product / Software", "query": "(\"Product Engineer\" OR \"Software Engineer\") (\"TypeScript\" OR \"React\" OR \"AI\")" },
     { "id": "ux-product-design", "label": "UX / Product Design", "query": "(\"Product Designer\" OR \"UX Designer\" OR \"UI/UX Designer\" OR \"UX Engineer\" OR \"Product Design\") (\"UX\" OR \"user research\" OR \"Figma\" OR \"usability\")" },
     { "id": "ai", "label": "Applied AI", "query": "(\"AI Product Engineer\" OR \"Applied AI Engineer\" OR \"AI Software Engineer\" OR \"Full Stack Engineer\") (\"LLM\" OR \"GenAI\" OR \"AI\" OR \"TypeScript\")" },

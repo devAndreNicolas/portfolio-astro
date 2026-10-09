@@ -13,8 +13,11 @@ Deterministic coverage of recognized job requirements against evidence IDs in `c
 | 100% | 7 | product-engineer-international | jobgether-senior-software-engineer-product-expansion-team-e788ea5e.txt | none recognized |
 | 100% | 9 | software-engineer-international | jobgether-software-engineer-developer-tools-bae6d94f.txt | none recognized |
 | 100% | 9 | frontend-engineer-br | Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt | none recognized |
+| 100% | 7 | frontend-engineer-br | PicPay-Desenvolvedor-Frontend-Junior-Angular.txt | none recognized |
+| 100% | 6 | frontend-engineer-br | PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog.txt | none recognized |
 | 100% | 5 | software-engineer-international | senior-software-engineer-ai-training-brazil-4fc23d96.txt | none recognized |
 | 100% | 3 | product-engineer-br | VendePay-Product-Designer-Discovery-AI.txt | none recognized |
+| 100% | 6 | frontend-engineer-br | WithMira-Frontend-Developer-React.txt | none recognized |
 | 92% | 9 | fullstack-engineer-br | Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack.txt | documentation |
 | 91% | 11 | fullstack-engineer-br | ISASaúde-DesenvolvedorFullStackPleno.txt | aws-gcp |
 | 90% | 10 | software-engineer-br | Artefact-SoftwareEngineer-Brasil.txt | advanced-english |

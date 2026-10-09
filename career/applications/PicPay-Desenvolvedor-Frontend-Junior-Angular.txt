@@ -1,0 +1,8 @@
+Source URL: https://www.techjobs.space/vagas/desenvolvedor-frontend-junior-angular-ed89ea5e6c
+Company: PicPay
+Role: Desenvolvedor Frontend Júnior | Gestão Seller
+Location: Brasil / remoto, conforme o anúncio indexado
+
+Tecnologias e sinais: Angular, React, TypeScript, JavaScript, interfaces web responsivas e de alta performance, integração com APIs, inovação, escala e experiências digitais para usuários e parceiros comerciais.
+
+Match observado: forte em Angular, React, TypeScript, JavaScript, UX, responsividade, performance, APIs, testes, produção e produto. A senioridade da vaga é júnior; o CV deve manter a experiência MSPA factual sem rebaixar o título oficial Frontend Engineer.

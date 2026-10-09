@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T19:21:23.691Z",
+  "generatedAt": "2026-10-09T13:02:05.867Z",
   "reports": [
     {
       "schemaVersion": 1,
@@ -775,6 +775,185 @@
     },
     {
       "schemaVersion": 1,
+      "source": "career/applications/PicPay-Desenvolvedor-Frontend-Junior-Angular.txt",
+      "sourceSha256": "a5c4eba215b2a9c67a653828127b1a3aa10ef7f228fb18537a7cf40b6144b90d",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 100,
+        "supportedWeight": 14,
+        "totalWeight": 14,
+        "recognizedRequirementCount": 7,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "javascript",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "ui",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "exp-mspa-004",
+            "oss-001"
+          ]
+        },
+        {
+          "id": "ux",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-002",
+            "exp-mspa-007",
+            "project-qf-001",
+            "oss-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-004",
+        "oss-001",
+        "exp-mspa-002",
+        "exp-mspa-007",
+        "project-qf-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog.txt",
+      "sourceSha256": "0f3f2e1144fac8275e436c81a5b49cb048d3a9b783902249da8cbf7c74777d42",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 100,
+        "supportedWeight": 12,
+        "totalWeight": 12,
+        "recognizedRequirementCount": 6,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "angular",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "ui",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-003",
+            "exp-mspa-004",
+            "oss-001"
+          ]
+        },
+        {
+          "id": "ux",
+          "tier": "core",
+          "evidence": [
+            "exp-mspa-002",
+            "exp-mspa-007",
+            "project-qf-001",
+            "oss-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-004",
+        "oss-001",
+        "exp-mspa-002",
+        "exp-mspa-007",
+        "project-qf-001"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
       "source": "career/applications/senior-software-engineer-ai-training-brazil-4fc23d96.txt",
       "sourceSha256": "0ce5beaef19c60c6f5da60eb0dcf9f18909e9f45f6f09ce4c3b00aad64075659",
       "language": "en",
@@ -898,6 +1077,92 @@
         "oss-001",
         "exp-mspa-003",
         "exp-mspa-004"
+      ],
+      "manualReview": [
+        "Confirm seniority, location, work authorization, compensation, and language requirements manually.",
+        "Do not add an unsupported keyword merely because it improves term coverage.",
+        "Use the recommended CV only as a starting point; create a job-specific derivative under career/applications/<company>-<role>/ before editing content."
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "source": "career/applications/WithMira-Frontend-Developer-React.txt",
+      "sourceSha256": "6576bed3b41c0e9a8e7eab4e1079508f50a9eddb8b5b32033d1617bf368b8c35",
+      "language": "pt-BR",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "deterministicEvidenceCoverage": {
+        "score": 100,
+        "supportedWeight": 18,
+        "totalWeight": 18,
+        "recognizedRequirementCount": 6,
+        "definition": "Weighted coverage of recognized job terms that have at least one evidence ID in the Master Career Document. It is not an ATS pass probability or a hiring prediction."
+      },
+      "supportedRequirements": [
+        {
+          "id": "javascript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003"
+          ]
+        },
+        {
+          "id": "nextjs",
+          "tier": "required",
+          "evidence": [
+            "project-fecha-001",
+            "project-terto-001",
+            "project-rendecerto-001"
+          ]
+        },
+        {
+          "id": "react",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "rest-api",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-005",
+            "project-ecarryon-001"
+          ]
+        },
+        {
+          "id": "typescript",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-003",
+            "project-fecha-001",
+            "project-terto-001"
+          ]
+        },
+        {
+          "id": "ux",
+          "tier": "required",
+          "evidence": [
+            "exp-mspa-002",
+            "exp-mspa-007",
+            "project-qf-001",
+            "oss-001"
+          ]
+        }
+      ],
+      "evidenceGaps": [],
+      "evidenceToPrioritize": [
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-002",
+        "exp-mspa-007",
+        "project-qf-001",
+        "oss-001"
       ],
       "manualReview": [
         "Confirm seniority, location, work authorization, compensation, and language requirements manually.",

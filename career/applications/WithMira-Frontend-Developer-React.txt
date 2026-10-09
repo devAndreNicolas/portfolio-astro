@@ -1,0 +1,8 @@
+Source URL: https://withmira.dev/pt-BR/jobs/nearshore-business-solutions-frontend-developer-react
+Company: Nearshore Business Solutions / WithMira
+Role: Frontend Developer (React)
+Location: Remoto; Brasil entre os países elegíveis
+
+Requisitos reconhecidos: JavaScript, React e TypeScript; desenvolvimento frontend remoto e sinal de senioridade senior.
+
+Match observado: forte em React, TypeScript, JavaScript, Next.js, frontend de produto, testes, UX e integração com APIs. Senioridade e inglês devem ser avaliados manualmente.

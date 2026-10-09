@@ -267,6 +267,48 @@
       "evidenceGaps": []
     },
     {
+      "id": "frontend-developer",
+      "titles": [
+        "Frontend Developer",
+        "Frontend Engineer",
+        "Desenvolvedor Frontend",
+        "Desenvolvedor Front-end"
+      ],
+      "cvFamily": "frontend-developer",
+      "strengths": [
+        "typescript",
+        "javascript",
+        "angular",
+        "react",
+        "html-css",
+        "accessibility",
+        "web-components",
+        "testing",
+        "product"
+      ],
+      "searchTerms": [
+        "Frontend Developer TypeScript React",
+        "Desenvolvedor Frontend Angular",
+        "Frontend Developer JavaScript React"
+      ],
+      "score": 70,
+      "profileScore": 70,
+      "localDemandScore": 0,
+      "matchingSavedVacancies": 0,
+      "supportedStrengths": [
+        "typescript",
+        "javascript",
+        "angular",
+        "react",
+        "html-css",
+        "accessibility",
+        "web-components",
+        "testing",
+        "product"
+      ],
+      "evidenceGaps": []
+    },
+    {
       "id": "web-developer",
       "titles": [
         "Web Developer",

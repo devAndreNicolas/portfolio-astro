@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T19:22:02.209Z",
+  "generatedAt": "2026-10-09T13:02:57.267Z",
   "collection": {
     "at": "2026-10-06T15:10:13.482Z",
     "country": "brazil",
@@ -57,9 +57,9 @@
     ]
   },
   "totals": {
-    "jobs": 50,
-    "strongMatches": 41,
-    "canonicalCvs": 17
+    "jobs": 53,
+    "strongMatches": 44,
+    "canonicalCvs": 19
   },
   "cvs": [
     {
@@ -146,6 +146,16 @@
       "id": "ux-product-designer-br",
       "language": "pt-BR",
       "href": "/cv/andre-nicolas-ux-product-designer-br.pdf"
+    },
+    {
+      "id": "frontend-developer-br",
+      "language": "pt-BR",
+      "href": "/cv/andre-nicolas-desenvolvedor-frontend-br.pdf"
+    },
+    {
+      "id": "frontend-developer-international",
+      "language": "en",
+      "href": "/cv/andre-nicolas-frontend-developer-en.pdf"
     }
   ],
   "jobs": [
@@ -346,6 +356,50 @@
       ]
     },
     {
+      "id": "a5c4eba215b2",
+      "name": "PicPay-Desenvolvedor-Frontend-Junior-Angular",
+      "sourceUrl": "https://www.techjobs.space/vagas/desenvolvedor-frontend-junior-angular-ed89ea5e6c",
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 100,
+      "requirementCount": 7,
+      "gaps": [],
+      "evidence": [
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-004",
+        "oss-001",
+        "exp-mspa-002",
+        "exp-mspa-007",
+        "project-qf-001"
+      ]
+    },
+    {
+      "id": "0f3f2e1144fa",
+      "name": "PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog",
+      "sourceUrl": "https://emprego24.com.br/desenvolvedor_sao-paulo-c482736/2026-09-picpay_i4215391341",
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 100,
+      "requirementCount": 6,
+      "gaps": [],
+      "evidence": [
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-004",
+        "oss-001",
+        "exp-mspa-002",
+        "exp-mspa-007",
+        "project-qf-001"
+      ]
+    },
+    {
       "id": "0ce5beaef19c",
       "name": "senior-software-engineer-ai-training-brazil-4fc23d96",
       "sourceUrl": "https://jobs.ashbyhq.com/g2i/70c018bc-d3b5-426f-bfd5-ae94891dcc7f",
@@ -383,6 +437,28 @@
         "oss-001",
         "exp-mspa-003",
         "exp-mspa-004"
+      ]
+    },
+    {
+      "id": "6576bed3b41c",
+      "name": "WithMira-Frontend-Developer-React",
+      "sourceUrl": "https://withmira.dev/pt-BR/jobs/nearshore-business-solutions-frontend-developer-react",
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 100,
+      "requirementCount": 6,
+      "gaps": [],
+      "evidence": [
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-002",
+        "exp-mspa-007",
+        "project-qf-001",
+        "oss-001"
       ]
     },
     {
@@ -1352,16 +1428,16 @@
   "operations": {
     "$schema": "./report.schema.json",
     "schemaVersion": 1,
-    "generatedAt": "2026-10-08T19:21:54.408Z",
+    "generatedAt": "2026-10-09T13:02:49.124Z",
     "definitions": {
       "synergy": "Weighted evidence coverage of recognized vacancy requirements. It is not an ATS-pass or interview-probability score.",
       "atsStructure": "Static source checks for known ATS risks; PDF text extraction and visual review remain separate checks."
     },
     "totals": {
-      "analyzedVacancies": 50,
-      "strongMatches": 41,
-      "canonicalCvs": 17,
-      "atsStructureReady": 17,
+      "analyzedVacancies": 53,
+      "strongMatches": 44,
+      "canonicalCvs": 19,
+      "atsStructureReady": 19,
       "plannedVariants": 0
     },
     "recommendedRoles": [
@@ -1452,6 +1528,19 @@
         "score": 71,
         "matchingSavedVacancies": 1,
         "cvFamily": "ux-product-designer",
+        "evidenceGaps": []
+      },
+      {
+        "id": "frontend-developer",
+        "titles": [
+          "Frontend Developer",
+          "Frontend Engineer",
+          "Desenvolvedor Frontend",
+          "Desenvolvedor Front-end"
+        ],
+        "score": 70,
+        "matchingSavedVacancies": 0,
+        "cvFamily": "frontend-developer",
         "evidenceGaps": []
       },
       {
@@ -1829,8 +1918,8 @@
         "source": "career/cvs/frontend-engineer-br.tex",
         "output": "public/cv/andre-nicolas-engenheiro-frontend-br.pdf",
         "sourceSha256": "9f6c67fda65b98aaabc2be5d990c5d60def36531b37a3e4ec053617b251fcf22",
-        "matchingVacancies": 9,
-        "averageEvidenceCoverage": 86,
+        "matchingVacancies": 12,
+        "averageEvidenceCoverage": 90,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -2103,8 +2192,8 @@
         "source": "career/cvs/angular-developer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-angular-br.pdf",
         "sourceSha256": "8a824974aca116c709fd8abb51f052abe52589411f0f9cdb6b3b49c45fbaff11",
-        "matchingVacancies": 12,
-        "averageEvidenceCoverage": 85,
+        "matchingVacancies": 14,
+        "averageEvidenceCoverage": 88,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -2215,8 +2304,8 @@
         "source": "career/cvs/react-developer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-react-br.pdf",
         "sourceSha256": "87bb2ab711d7ec1260598114cc32d94a09af7bc4eed22a0ce5036c5f070c183b",
-        "matchingVacancies": 15,
-        "averageEvidenceCoverage": 84,
+        "matchingVacancies": 18,
+        "averageEvidenceCoverage": 87,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -2384,7 +2473,7 @@
         "public": true,
         "source": "career/cvs/ux-product-designer-br.tex",
         "output": "public/cv/andre-nicolas-ux-product-designer-br.pdf",
-        "sourceSha256": "3a068932775d81e3a08441f173ceeaad512e8e25a676db28f279181173a387eb",
+        "sourceSha256": "fe63f05aa0e3db591ef44049647fa3fabf36e29ceaac6e69ae2fee7d912ada51",
         "matchingVacancies": 1,
         "averageEvidenceCoverage": 40,
         "status": "ats-structure-ok",
@@ -2450,6 +2539,134 @@
           ],
           "pdfCompilation": "pending-ci"
         }
+      },
+      {
+        "id": "frontend-developer-br",
+        "family": "frontend-developer",
+        "language": "pt-BR",
+        "public": true,
+        "source": "career/cvs/frontend-developer-br.tex",
+        "output": "public/cv/andre-nicolas-desenvolvedor-frontend-br.pdf",
+        "sourceSha256": "ac6d393029d3ef3853a2ccfdab4529dd4c871e630422ee26029b51e9267fe5e9",
+        "matchingVacancies": 0,
+        "averageEvidenceCoverage": 0,
+        "status": "ats-structure-ok",
+        "risks": [],
+        "optimizationPriority": "low",
+        "agentEvaluation": {
+          "decision": "optimized",
+          "readiness": {
+            "score": 100,
+            "factualGrounding": 100,
+            "atsStructure": 100,
+            "roleAlignment": 100,
+            "languageQuality": 100,
+            "recruiterClarity": 100,
+            "sourceIntegrity": 100
+          },
+          "synergy": {
+            "average": 100,
+            "matchingVacancies": 3
+          },
+          "jobSources": [
+            "career/applications/PicPay-Desenvolvedor-Frontend-Junior-Angular.txt",
+            "career/applications/PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog.txt",
+            "career/applications/WithMira-Frontend-Developer-React.txt"
+          ],
+          "evidenceIds": [
+            "exp-mspa-001",
+            "exp-mspa-002",
+            "exp-mspa-003",
+            "exp-mspa-004",
+            "exp-mspa-005",
+            "exp-mspa-006",
+            "exp-mspa-007",
+            "exp-mspa-008",
+            "exp-mspa-009",
+            "oss-002",
+            "project-fecha-001",
+            "project-fecha-003",
+            "project-qf-001",
+            "project-terto-001",
+            "project-diary-001"
+          ],
+          "changes": [
+            "Created a dedicated Brazilian Frontend Developer CV from the strongest Frontend Engineer, React, Full Stack, and Product Engineer evidence.",
+            "Prioritized Angular, React, TypeScript, JavaScript, HTML/CSS, APIs, UX, accessibility, performance, testing, production, and product delivery terms found in the PicPay and React vacancy corpus."
+          ],
+          "rejectedClaims": [
+            "Senior-level title or seniority",
+            "Fluent English",
+            "Unverified production scale or user volume"
+          ],
+          "gaps": [
+            "advanced-english",
+            "seniority-5-years"
+          ],
+          "pdfCompilation": "pending-ci"
+        }
+      },
+      {
+        "id": "frontend-developer-international",
+        "family": "frontend-developer",
+        "language": "en",
+        "public": true,
+        "source": "career/cvs/frontend-developer-international.tex",
+        "output": "public/cv/andre-nicolas-frontend-developer-en.pdf",
+        "sourceSha256": "2051dd73219248d6df93d518d756e1c2c3a77f24f97b9e3737f9c7e44764a447",
+        "matchingVacancies": 0,
+        "averageEvidenceCoverage": 0,
+        "status": "ats-structure-ok",
+        "risks": [],
+        "optimizationPriority": "low",
+        "agentEvaluation": {
+          "decision": "optimized",
+          "readiness": {
+            "score": 100,
+            "factualGrounding": 100,
+            "atsStructure": 100,
+            "roleAlignment": 100,
+            "languageQuality": 100,
+            "recruiterClarity": 100,
+            "sourceIntegrity": 100
+          },
+          "synergy": {
+            "average": 86,
+            "matchingVacancies": 2
+          },
+          "jobSources": [
+            "career/applications/WithMira-Frontend-Developer-React.txt",
+            "career/applications/PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog.txt"
+          ],
+          "evidenceIds": [
+            "exp-mspa-001",
+            "exp-mspa-002",
+            "exp-mspa-003",
+            "exp-mspa-004",
+            "exp-mspa-005",
+            "exp-mspa-006",
+            "exp-mspa-007",
+            "oss-002",
+            "project-fecha-001",
+            "project-fecha-003",
+            "project-qf-001",
+            "project-terto-001",
+            "project-diary-001"
+          ],
+          "changes": [
+            "Created an English Frontend Developer CV with transparent Brazilian education wording and evidence-backed Angular, React, TypeScript, JavaScript, UX, API, testing, and production positioning."
+          ],
+          "rejectedClaims": [
+            "Senior-level title or seniority",
+            "Fluent English",
+            "Unverified production scale or user volume"
+          ],
+          "gaps": [
+            "seniority-5-years",
+            "advanced-english"
+          ],
+          "pdfCompilation": "pending-ci"
+        }
       }
     ],
     "plannedVariants": [
@@ -2500,9 +2717,9 @@
       }
     ],
     "agentRun": {
-      "runId": "2026-10-08-ux-product-design-001",
+      "runId": "2026-10-09-frontend-developer-001",
       "status": "complete",
-      "generatedAt": "2026-10-08T19:30:00.000Z",
+      "generatedAt": "2026-10-09T19:30:00.000Z",
       "unresolvedQuestions": []
     }
   }

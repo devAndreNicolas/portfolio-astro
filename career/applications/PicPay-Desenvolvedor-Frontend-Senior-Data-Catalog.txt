@@ -1,0 +1,8 @@
+Source URL: https://emprego24.com.br/desenvolvedor_sao-paulo-c482736/2026-09-picpay_i4215391341
+Company: PicPay
+Role: Desenvolvedor(a) Frontend Sênior — catálogo de entidades de dados
+Location: São Paulo, SP
+
+Resumo: referência técnica frontend para uma aplicação web estratégica de catálogo de dados, com interface robusta, intuitiva e escalável para descoberta, navegação e uso de informações por diferentes públicos internos. O trabalho combina experiência de usuário, qualidade técnica e integração com backend.
+
+Match observado: forte em frontend de produto, UI/UX, clareza de navegação, Angular, React, TypeScript, APIs, dados, performance e arquitetura. Senioridade sênior não é afirmada no CV.
