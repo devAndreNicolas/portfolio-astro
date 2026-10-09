@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T13:02:05.867Z",
+  "generatedAt": "2026-10-09T13:10:49.904Z",
   "reports": [
     {
       "schemaVersion": 1,
@@ -83,7 +83,7 @@
       "source": "career/applications/Central-IT-UX-Engineer-Pleno.txt",
       "sourceSha256": "5c701f2a91304b46e73aadd8a230fe4030619443f8a07a4113fcd2f93cab15ab",
       "language": "pt-BR",
-      "recommendedCanonicalCv": "frontend-engineer-br",
+      "recommendedCanonicalCv": "ux-product-designer-br",
       "deterministicEvidenceCoverage": {
         "score": 100,
         "supportedWeight": 4,
@@ -320,7 +320,7 @@
       "source": "career/applications/Grupo-Boticario-Product-Designer-Especialista-I.txt",
       "sourceSha256": "5cb0363b5fea23d6616c5a7509b4a8d9bf435030b03c9625fcde0a2b098c44ad",
       "language": "pt-BR",
-      "recommendedCanonicalCv": "product-engineer-br",
+      "recommendedCanonicalCv": "ux-product-designer-br",
       "deterministicEvidenceCoverage": {
         "score": 100,
         "supportedWeight": 6,
@@ -1031,7 +1031,7 @@
       "source": "career/applications/VendePay-Product-Designer-Discovery-AI.txt",
       "sourceSha256": "c3fd073374f72f50432eab0f5da09808ea73b950e4ea43608502052cc8f75844",
       "language": "pt-BR",
-      "recommendedCanonicalCv": "product-engineer-br",
+      "recommendedCanonicalCv": "ux-product-designer-br",
       "deterministicEvidenceCoverage": {
         "score": 100,
         "supportedWeight": 8,
@@ -4429,7 +4429,7 @@
       "source": "career/applications/Jobcenter-Product-Designer-UX-UI.txt",
       "sourceSha256": "eb0b41cfd4a0972eac4d9555275d3f828996988133935b867870045f13c155b6",
       "language": "pt-BR",
-      "recommendedCanonicalCv": "product-engineer-br",
+      "recommendedCanonicalCv": "ux-product-designer-br",
       "deterministicEvidenceCoverage": {
         "score": 75,
         "supportedWeight": 6,
@@ -5250,7 +5250,7 @@
       "source": "career/applications/Orbite-Product-Designer-Pleno.txt",
       "sourceSha256": "ccb8b8ec46c5c1bee0d2a83971509ea2d222cd8bc2cf5a49d697ad0ee2878848",
       "language": "pt-BR",
-      "recommendedCanonicalCv": "product-engineer-br",
+      "recommendedCanonicalCv": "ux-product-designer-br",
       "deterministicEvidenceCoverage": {
         "score": 57,
         "supportedWeight": 12,

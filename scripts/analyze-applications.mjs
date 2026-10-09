@@ -53,6 +53,7 @@ function inferLanguage(text) {
 
 function inferRole(filename, matchedTerms) {
   const name = normalize(filename);
+  if (/designer|ux|ui.?ux/.test(name)) return "ux-product-designer";
   if (/front.?end|angular|react/.test(name)) return "frontend-engineer";
   if (/product/.test(name)) return "product-engineer";
   if (/web/.test(name)) return "web-developer";

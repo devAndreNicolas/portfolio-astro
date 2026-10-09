@@ -14,10 +14,16 @@ if (!existsSync(reportPath)) throw new Error("Application analysis is missing. R
 const applications = JSON.parse(readFileSync(reportPath, "utf8")).reports;
 const terms = new Map(taxonomy.terms.map((term) => [term.id, term]));
 
+const compatibleFamilies = {
+  "frontend-developer": ["frontend-developer", "frontend-engineer"],
+  "frontend-engineer": ["frontend-engineer", "frontend-developer"]
+};
+
 function score(role) {
   const supported = role.strengths.filter((id) => terms.get(id)?.evidence?.length);
   const profileScore = Math.round((supported.length / role.strengths.length) * 70);
-  const related = applications.filter((application) => application.recommendedCanonicalCv.startsWith(role.cvFamily));
+  const families = compatibleFamilies[role.cvFamily] ?? [role.cvFamily];
+  const related = applications.filter((application) => families.some((family) => application.recommendedCanonicalCv.startsWith(family)));
   const demandScore = Math.round((related.length / Math.max(1, applications.length)) * 30);
   const gaps = role.strengths.filter((id) => !terms.get(id)?.evidence?.length);
   return {

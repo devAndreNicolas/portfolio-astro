@@ -24,9 +24,9 @@
         "Applied AI Engineer TypeScript",
         "Full Stack Engineer AI"
       ],
-      "score": 80,
+      "score": 79,
       "profileScore": 70,
-      "localDemandScore": 10,
+      "localDemandScore": 9,
       "matchingSavedVacancies": 16,
       "supportedStrengths": [
         "typescript",
@@ -62,9 +62,9 @@
         "Full Stack Developer React Node",
         "Desenvolvedor Full Stack TypeScript"
       ],
-      "score": 80,
+      "score": 79,
       "profileScore": 70,
-      "localDemandScore": 10,
+      "localDemandScore": 9,
       "matchingSavedVacancies": 16,
       "supportedStrengths": [
         "typescript",
@@ -101,9 +101,9 @@
         "Product Engineer",
         "Engenheiro de Software produto"
       ],
-      "score": 80,
+      "score": 79,
       "profileScore": 70,
-      "localDemandScore": 10,
+      "localDemandScore": 9,
       "matchingSavedVacancies": 16,
       "supportedStrengths": [
         "typescript",
@@ -137,10 +137,10 @@
         "Desenvolvedor Angular remoto",
         "Angular Frontend Engineer"
       ],
-      "score": 77,
+      "score": 78,
       "profileScore": 70,
-      "localDemandScore": 7,
-      "matchingSavedVacancies": 12,
+      "localDemandScore": 8,
+      "matchingSavedVacancies": 14,
       "supportedStrengths": [
         "angular",
         "typescript",
@@ -148,6 +148,48 @@
         "rest-api",
         "testing",
         "web-components"
+      ],
+      "evidenceGaps": []
+    },
+    {
+      "id": "frontend-developer",
+      "titles": [
+        "Frontend Developer",
+        "Frontend Engineer",
+        "Desenvolvedor Frontend",
+        "Desenvolvedor Front-end"
+      ],
+      "cvFamily": "frontend-developer",
+      "strengths": [
+        "typescript",
+        "javascript",
+        "angular",
+        "react",
+        "html-css",
+        "accessibility",
+        "web-components",
+        "testing",
+        "product"
+      ],
+      "searchTerms": [
+        "Frontend Developer TypeScript React",
+        "Desenvolvedor Frontend Angular",
+        "Frontend Developer JavaScript React"
+      ],
+      "score": 78,
+      "profileScore": 70,
+      "localDemandScore": 8,
+      "matchingSavedVacancies": 14,
+      "supportedStrengths": [
+        "typescript",
+        "javascript",
+        "angular",
+        "react",
+        "html-css",
+        "accessibility",
+        "web-components",
+        "testing",
+        "product"
       ],
       "evidenceGaps": []
     },
@@ -175,10 +217,10 @@
         "Angular Developer TypeScript",
         "React Frontend Engineer"
       ],
-      "score": 77,
+      "score": 78,
       "profileScore": 70,
-      "localDemandScore": 7,
-      "matchingSavedVacancies": 12,
+      "localDemandScore": 8,
+      "matchingSavedVacancies": 14,
       "supportedStrengths": [
         "typescript",
         "angular",
@@ -212,10 +254,10 @@
         "React Frontend Engineer",
         "Desenvolvedor React remoto"
       ],
-      "score": 77,
+      "score": 78,
       "profileScore": 70,
-      "localDemandScore": 7,
-      "matchingSavedVacancies": 12,
+      "localDemandScore": 8,
+      "matchingSavedVacancies": 14,
       "supportedStrengths": [
         "react",
         "typescript",
@@ -251,10 +293,10 @@
         "Designer UI/UX Maceió",
         "UX Engineer frontend"
       ],
-      "score": 71,
+      "score": 73,
       "profileScore": 70,
-      "localDemandScore": 1,
-      "matchingSavedVacancies": 1,
+      "localDemandScore": 3,
+      "matchingSavedVacancies": 6,
       "supportedStrengths": [
         "ux",
         "ui",
@@ -263,48 +305,6 @@
         "product",
         "html-css",
         "web-components"
-      ],
-      "evidenceGaps": []
-    },
-    {
-      "id": "frontend-developer",
-      "titles": [
-        "Frontend Developer",
-        "Frontend Engineer",
-        "Desenvolvedor Frontend",
-        "Desenvolvedor Front-end"
-      ],
-      "cvFamily": "frontend-developer",
-      "strengths": [
-        "typescript",
-        "javascript",
-        "angular",
-        "react",
-        "html-css",
-        "accessibility",
-        "web-components",
-        "testing",
-        "product"
-      ],
-      "searchTerms": [
-        "Frontend Developer TypeScript React",
-        "Desenvolvedor Frontend Angular",
-        "Frontend Developer JavaScript React"
-      ],
-      "score": 70,
-      "profileScore": 70,
-      "localDemandScore": 0,
-      "matchingSavedVacancies": 0,
-      "supportedStrengths": [
-        "typescript",
-        "javascript",
-        "angular",
-        "react",
-        "html-css",
-        "accessibility",
-        "web-components",
-        "testing",
-        "product"
       ],
       "evidenceGaps": []
     },

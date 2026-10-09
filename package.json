@@ -18,6 +18,7 @@
     "cv:clean": "node scripts/cv.mjs clean",
     "applications:analyze": "node scripts/analyze-applications.mjs --write",
     "applications:report": "node scripts/analyze-applications.mjs",
+    "career:cv-fit": "node scripts/audit-cv-role-fit.mjs --write",
     "career:dashboard": "node scripts/generate-career-dashboard.mjs",
     "career:report": "node scripts/generate-career-operations-report.mjs",
     "career:verify": "node scripts/validate-career-operation.mjs",

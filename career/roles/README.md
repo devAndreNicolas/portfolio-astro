@@ -4,14 +4,14 @@ This ranking uses documented strengths and the vacancies currently saved in this
 
 | Priority | Role | Profile evidence | Local vacancy signal | Search titles |
 | ---: | --- | ---: | ---: | --- |
-| 80 | AI Product Engineer | 70/70 | 10/30 (16) | AI Product Engineer; Applied AI Engineer; Full Stack Engineer AI |
-| 80 | Full Stack Engineer | 70/70 | 10/30 (16) | Full Stack Engineer; Full Stack Developer; Engenheiro Full Stack; Desenvolvedor Full Stack |
-| 80 | Software Engineer | 70/70 | 10/30 (16) | Software Engineer; Product Engineer; Engenheiro de Software; Engenheiro de Produto |
-| 77 | Angular Developer | 70/70 | 7/30 (12) | Angular Developer; Desenvolvedor Angular; Angular Frontend Engineer |
-| 77 | Frontend Engineer | 70/70 | 7/30 (12) | Frontend Engineer; Software Engineer Frontend; Engenheiro de Frontend; Desenvolvedor Front-end |
-| 77 | React Developer | 70/70 | 7/30 (12) | React Developer; Desenvolvedor React; React Frontend Engineer |
-| 71 | Product Designer | 70/70 | 1/30 (1) | Product Designer; UX Designer; Designer UI/UX; Designer de Produto; UX Engineer |
-| 70 | Frontend Developer | 70/70 | 0/30 (0) | Frontend Developer; Frontend Engineer; Desenvolvedor Frontend; Desenvolvedor Front-end |
+| 79 | AI Product Engineer | 70/70 | 9/30 (16) | AI Product Engineer; Applied AI Engineer; Full Stack Engineer AI |
+| 79 | Full Stack Engineer | 70/70 | 9/30 (16) | Full Stack Engineer; Full Stack Developer; Engenheiro Full Stack; Desenvolvedor Full Stack |
+| 79 | Software Engineer | 70/70 | 9/30 (16) | Software Engineer; Product Engineer; Engenheiro de Software; Engenheiro de Produto |
+| 78 | Angular Developer | 70/70 | 8/30 (14) | Angular Developer; Desenvolvedor Angular; Angular Frontend Engineer |
+| 78 | Frontend Developer | 70/70 | 8/30 (14) | Frontend Developer; Frontend Engineer; Desenvolvedor Frontend; Desenvolvedor Front-end |
+| 78 | Frontend Engineer | 70/70 | 8/30 (14) | Frontend Engineer; Software Engineer Frontend; Engenheiro de Frontend; Desenvolvedor Front-end |
+| 78 | React Developer | 70/70 | 8/30 (14) | React Developer; Desenvolvedor React; React Frontend Engineer |
+| 73 | Product Designer | 70/70 | 3/30 (6) | Product Designer; UX Designer; Designer UI/UX; Designer de Produto; UX Engineer |
 | 70 | Web Developer | 70/70 | 0/30 (0) | Web Developer; Desenvolvedor Web; Web Engineer |
 
 ## Search queries
@@ -44,6 +44,13 @@ Evidence gaps to keep out of CV claims: none in this role profile.
 - `Angular Frontend Engineer`
 
 Evidence gaps to keep out of CV claims: none in this role profile.
+### Frontend Developer
+
+- `Frontend Developer TypeScript React`
+- `Desenvolvedor Frontend Angular`
+- `Frontend Developer JavaScript React`
+
+Evidence gaps to keep out of CV claims: none in this role profile.
 ### Frontend Engineer
 
 - `Frontend Engineer TypeScript`
@@ -64,13 +71,6 @@ Evidence gaps to keep out of CV claims: none in this role profile.
 - `UX Designer usabilidade`
 - `Designer UI/UX Maceió`
 - `UX Engineer frontend`
-
-Evidence gaps to keep out of CV claims: none in this role profile.
-### Frontend Developer
-
-- `Frontend Developer TypeScript React`
-- `Desenvolvedor Frontend Angular`
-- `Frontend Developer JavaScript React`
 
 Evidence gaps to keep out of CV claims: none in this role profile.
 ### Web Developer
