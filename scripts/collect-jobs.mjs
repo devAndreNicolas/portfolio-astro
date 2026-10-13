@@ -25,15 +25,20 @@ const after = new Date(); after.setDate(after.getDate() - 3);
 const afterDate = after.toISOString().slice(0, 10);
 const countryTerms = country === "brazil" ? "(\"Brazil\" OR \"Brasil\" OR \"Remoto Brasil\")" : "\"Remote\"";
 const activePlatforms = config.platforms.filter((platform) => platform.markets.includes(country));
-const acceptedDomains = new Set(activePlatforms.map((platform) => platform.site));
+const acceptedDomains = new Set(activePlatforms.flatMap((platform) => platform.id === "inhire"
+  ? [platform.site, "inhire.app"]
+  : [platform.site]));
 const groupsFor = (platform) => platform.searchGroups ?? config.groups;
 const querySiteFor = (platform) => platform.searchSite ?? platform.site;
 const marketTermsFor = (platform) => platform.marketTerms?.[country] ?? countryTerms;
-const queries = activePlatforms.flatMap((platform) => groupsFor(platform)
+const queries = activePlatforms.flatMap((platform) => (platform.discoveryQuery
+  ? [{ query: platform.discoveryQuery }]
+  : groupsFor(platform))
   .filter((group) => group.id !== "founding" || country === "remote")
-  .map((group) => [`site:${querySiteFor(platform)}`, group.query, marketTermsFor(platform), `after:${afterDate}`]
+  .map((group) => [`site:${querySiteFor(platform)}`, group.query, marketTermsFor(platform), platform.id === "inhire" ? "" : `after:${afterDate}`]
     .filter(Boolean).join(" ")));
 const state = existsSync(statePath) ? JSON.parse(readFileSync(statePath, "utf8")) : { sources: {} };
+const discoveryErrors = [];
 
 function sleep(milliseconds) { return new Promise((resolveSleep) => setTimeout(resolveSleep, milliseconds)); }
 function slug(value) { return value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 90) || "job"; }
@@ -49,6 +54,12 @@ function isBoardUrl(value) {
     if (url.hostname.endsWith("smartrecruiters.com") && url.pathname.startsWith("/oneclick-ui")) return false;
     if (url.hostname.endsWith("myworkdayjobs.com") && url.pathname.includes("/apply")) return false;
     return true;
+  } catch { return false; }
+}
+function isInhireCareerPage(value) {
+  try {
+    const url = new URL(value);
+    return url.hostname === "carreira.inhire.com.br" && /\/carreiras(?:\/|[-/])/.test(url.pathname);
   } catch { return false; }
 }
 function cleanText(value) { return value.replace(/\r/g, "").replace(/\n{3,}/g, "\n\n").trim(); }
@@ -127,7 +138,10 @@ async function discover() {
       try {
         const links = name === "serpapi" ? await discoverWithSerpApi(query) : await discoverWithSerper(query);
         for (const url of links) if (!state.sources[url]) candidates.set(url, [...new Set([...(candidates.get(url) ?? []), name])]);
-      } catch (error) { console.warn(`${name} discovery skipped: ${error.message}`); }
+      } catch (error) {
+        discoveryErrors.push({ provider: name, message: error.message });
+        console.warn(`${name} discovery skipped: ${error.message}`);
+      }
     }
     if (candidates.size >= limit * 4) break;
   }
@@ -136,7 +150,8 @@ async function discover() {
 
 const candidates = await discover();
 if (!candidates.size) {
-  state.lastRun = { at: new Date().toISOString(), country, provider, afterDate, maxAgeDays, discovered: 0, collected: 0, rejected: {}, attempts: [] };
+  if (state.lastRun) state.runHistory = [...(state.runHistory ?? []), state.lastRun];
+  state.lastRun = { at: new Date().toISOString(), country, provider, afterDate, maxAgeDays, discovered: 0, collected: 0, rejected: {}, attempts: [], discoveryErrors };
   writeFileSync(statePath, `${JSON.stringify(state, null, 2)}\n`);
   console.log(`Discovered 0 new official ATS links; market: ${country}; provider: ${provider}.`);
   process.exit(0);
@@ -153,6 +168,32 @@ try {
     try {
       await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30_000 });
       await page.waitForTimeout(700);
+      if (isInhireCareerPage(url)) {
+        const vacancyLinks = await page.locator('a[href*="inhire.app"]').evaluateAll((anchors) => anchors.map((anchor) => anchor.href));
+        for (const vacancyUrl of new Set(vacancyLinks.filter(isBoardUrl))) {
+          if (state.sources[vacancyUrl]) continue;
+          try {
+            await page.goto(vacancyUrl, { waitUntil: "domcontentloaded", timeout: 30_000 });
+            await page.waitForTimeout(700);
+            const vacancyText = cleanText(await page.locator("body").innerText({ timeout: 10_000 }));
+            const vacancyHeading = cleanText(await page.locator("h1").first().innerText({ timeout: 3_000 }).catch(() => ""));
+            const vacancyTitle = vacancyHeading || cleanText(await page.title());
+            if (vacancyText.length < 700 || !isJobDescription(vacancyText) || !isMarketRelevant(vacancyText)) continue;
+            const ageDays = explicitAgeDays(vacancyText);
+            if (ageDays !== null && ageDays > maxAgeDays) { rejected.stale += 1; attempts.push({ url: vacancyUrl, title: vacancyTitle, reason: "stale", ageDays }); continue; }
+            const fit = fitSignals(vacancyText);
+            if (fit.rust || fit.core.length < 2) { rejected.mismatch += 1; attempts.push({ url: vacancyUrl, title: vacancyTitle, reason: fit.rust ? "rust" : "insufficient-core-signals", fitSignals: fit.supported }); continue; }
+            if (alreadySaved(vacancyTitle)) { rejected.duplicate += 1; attempts.push({ url: vacancyUrl, title: vacancyTitle, reason: "duplicate" }); continue; }
+            const hash = createHash("sha256").update(vacancyUrl).digest("hex").slice(0, 8);
+            const filename = `${slug(vacancyTitle)}-${hash}.txt`; const relative = `career/applications/${filename}`; const collectedAt = new Date().toISOString();
+            writeFileSync(join(destination, filename), `Source URL: ${vacancyUrl}\nCollected at: ${collectedAt}\nMarket: ${country}\nDiscovery: ${discoveryProviders.join(", ")} via ${url}\nExplicit age: ${ageDays ?? "unknown"}\nFit signals: ${fit.supported.join(", ")}\n\n${vacancyText}\n`, "utf8");
+            state.sources[vacancyUrl] = { file: relative, title: vacancyTitle, collectedAt, discoveryProviders, discoveredFrom: url, ageDays, fitSignals: fit.supported };
+            saved += 1; console.log(`Saved ${relative}`);
+            if (saved >= limit) break;
+          } catch (error) { attempts.push({ url: vacancyUrl, reason: "request-error", message: error.message }); }
+        }
+        continue;
+      }
       const text = cleanText(await page.locator("body").innerText({ timeout: 10_000 }));
       const heading = cleanText(await page.locator("h1").first().innerText({ timeout: 3_000 }).catch(() => ""));
       const title = heading || cleanText(await page.title());
@@ -178,7 +219,8 @@ try {
     } catch (error) { skipped += 1; attempts.push({ url, reason: "request-error", message: error.message }); console.warn(`Skipped ${url}: ${error.message}`); }
     await sleep(1_200);
   }
-  state.lastRun = { at: new Date().toISOString(), country, provider, afterDate, maxAgeDays, discovered: candidates.size, collected: saved, rejected, attempts };
+  if (state.lastRun) state.runHistory = [...(state.runHistory ?? []), state.lastRun];
+  state.lastRun = { at: new Date().toISOString(), country, provider, afterDate, maxAgeDays, discovered: candidates.size, collected: saved, rejected, attempts, discoveryErrors };
   writeFileSync(statePath, `${JSON.stringify(state, null, 2)}\n`);
   console.log(`Discovered ${candidates.size}; collected ${saved}; skipped ${skipped}; rejected ${JSON.stringify(rejected)}; market: ${country}; provider: ${provider}.`);
 } finally { await browser.close(); }

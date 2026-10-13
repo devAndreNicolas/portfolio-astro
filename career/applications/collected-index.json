@@ -362,58 +362,361 @@
     }
   },
   "lastRun": {
-    "at": "2026-10-06T15:10:13.482Z",
+    "at": "2026-10-13T22:24:46.670Z",
     "country": "brazil",
     "provider": "both",
-    "afterDate": "2026-10-03",
+    "afterDate": "2026-10-10",
     "maxAgeDays": 7,
-    "discovered": 13,
-    "collected": 7,
-    "rejected": {
-      "duplicate": 0,
-      "location": 0,
-      "stale": 0,
-      "mismatch": 0,
-      "structure": 6,
-      "blocked": 0
-    },
-    "attempts": [
+    "discovered": 0,
+    "collected": 0,
+    "rejected": {},
+    "attempts": [],
+    "discoveryErrors": [
       {
-        "url": "https://boards.greenhouse.io/bitwarden/jobs/8001613003",
-        "title": "Staff Software Engineer (Architecture)",
-        "reason": "structure",
-        "textLength": 5616
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://apply.workable.com/pavago/j/B8B68C0741/apply/",
-        "title": "Full-Stack Developer",
-        "reason": "structure",
-        "textLength": 1414
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/bluelightconsulting?workplacetype=onsite&location=Sucre%2C%20Bolivia",
-        "title": "Bluelight Consulting",
-        "reason": "structure",
-        "textLength": 1689
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://apply.workable.com/digital-368/j/D0A651F827/apply/",
-        "title": "Freelance Full-Stack Developer - Python & JavaScript",
-        "reason": "structure",
-        "textLength": 637
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/xsolla/?workplacetype%5B0%5D=remote&workplacetype%5B1%5D=hybrid&workplacetype%5B2%5D=onsite&workplacetype%5B3%5D=hybrid&workplacetype%5B4%5D=onsite&workplacetype%5B5%5D=hybrid&%20development%5B0%5D=&%20development%5B1%5D=&location=Canada",
-        "title": "Xsolla",
-        "reason": "structure",
-        "textLength": 2694
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/xsolla/?workplacetype%5B0%5D=remote&workplacetype%5B1%5D=hybrid&workplacetype%5B2%5D=onsite&workplacetype%5B3%5D=hybrid&workplacetype%5B4%5D=onsite&workplacetype%5B5%5D=hybrid&%20development%5B0%5D=&%20development%5B1%5D=&location=Seoul%2C%20South%20Korea",
-        "title": "Xsolla",
-        "reason": "structure",
-        "textLength": 2322
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
       }
     ]
-  }
+  },
+  "runHistory": [
+    {
+      "at": "2026-10-06T15:10:13.482Z",
+      "country": "brazil",
+      "provider": "both",
+      "afterDate": "2026-10-03",
+      "maxAgeDays": 7,
+      "discovered": 13,
+      "collected": 7,
+      "rejected": {
+        "duplicate": 0,
+        "location": 0,
+        "stale": 0,
+        "mismatch": 0,
+        "structure": 6,
+        "blocked": 0
+      },
+      "attempts": [
+        {
+          "url": "https://boards.greenhouse.io/bitwarden/jobs/8001613003",
+          "title": "Staff Software Engineer (Architecture)",
+          "reason": "structure",
+          "textLength": 5616
+        },
+        {
+          "url": "https://apply.workable.com/pavago/j/B8B68C0741/apply/",
+          "title": "Full-Stack Developer",
+          "reason": "structure",
+          "textLength": 1414
+        },
+        {
+          "url": "https://jobs.lever.co/bluelightconsulting?workplacetype=onsite&location=Sucre%2C%20Bolivia",
+          "title": "Bluelight Consulting",
+          "reason": "structure",
+          "textLength": 1689
+        },
+        {
+          "url": "https://apply.workable.com/digital-368/j/D0A651F827/apply/",
+          "title": "Freelance Full-Stack Developer - Python & JavaScript",
+          "reason": "structure",
+          "textLength": 637
+        },
+        {
+          "url": "https://jobs.lever.co/xsolla/?workplacetype%5B0%5D=remote&workplacetype%5B1%5D=hybrid&workplacetype%5B2%5D=onsite&workplacetype%5B3%5D=hybrid&workplacetype%5B4%5D=onsite&workplacetype%5B5%5D=hybrid&%20development%5B0%5D=&%20development%5B1%5D=&location=Canada",
+          "title": "Xsolla",
+          "reason": "structure",
+          "textLength": 2694
+        },
+        {
+          "url": "https://jobs.lever.co/xsolla/?workplacetype%5B0%5D=remote&workplacetype%5B1%5D=hybrid&workplacetype%5B2%5D=onsite&workplacetype%5B3%5D=hybrid&workplacetype%5B4%5D=onsite&workplacetype%5B5%5D=hybrid&%20development%5B0%5D=&%20development%5B1%5D=&location=Seoul%2C%20South%20Korea",
+          "title": "Xsolla",
+          "reason": "structure",
+          "textLength": 2322
+        }
+      ]
+    }
+  ]
 }

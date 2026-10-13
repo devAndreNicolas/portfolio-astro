@@ -6,7 +6,11 @@ This document is a durable operating note, not a dated list of search links. Gen
 
 InHire should not share the generic English-title query used by global ATS boards. Its Brazilian listings are commonly indexed under `carreira.inhire.com.br` and use Portuguese titles such as `Desenvolvedor(a) Full Stack`, `Pessoa Desenvolvedora`, or `Desenvolvedor(a) Frontend`.
 
-The search configuration therefore uses four dedicated Portuguese query families:
+The search configuration uses a broad career-page discovery query instead of requiring a job title and technology on the company page. Many InHire career pages render their active vacancies in a separate JavaScript application, so title/stack queries miss them.
+
+The collector follows official vacancy links from `carreira.inhire.com.br` to the employer's `*.inhire.app/vagas/` page, then applies the normal job-description, Brazil, recency, and evidence-fit checks there. The provider query has no `after:` restriction because Google often indexes these career pages late.
+
+The vacancy filters still prioritize the candidate's documented stacks:
 
 - Full Stack: TypeScript, React, Angular, Node.js, or JavaScript.
 - Frontend: TypeScript, Angular, or React.

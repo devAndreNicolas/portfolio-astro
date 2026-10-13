@@ -18,6 +18,7 @@
       "label": "InHire",
       "site": "inhire.com.br",
       "searchSite": "carreira.inhire.com.br",
+      "discoveryQuery": "(\"ver vagas\" OR \"vagas abertas\" OR oportunidades)",
       "markets": ["brazil"],
       "marketTerms": { "brazil": "" },
       "searchGroups": [

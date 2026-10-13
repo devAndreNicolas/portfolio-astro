@@ -15,14 +15,17 @@ const markets = { remote: "\"Remote\"", brazil: "(\"Brazil\" OR \"Brasil\" OR \"
 const primaryPlatforms = new Set(["ashby", "greenhouse", "lever", "inhire", "gupy"]);
 const rows = [];
 const groupsFor = (platform) => platform.searchGroups ?? config.groups;
+const searchGroupsFor = (platform) => platform.discoveryQuery
+  ? [{ id: "career-pages", label: "Career pages", query: platform.discoveryQuery }]
+  : groupsFor(platform);
 const querySiteFor = (platform) => platform.searchSite ?? platform.site;
 const marketTermsFor = (platform, market) => platform.marketTerms?.[market] ?? markets[market];
 
 for (const platform of config.platforms) {
   for (const market of platform.markets) {
-    for (const group of groupsFor(platform)) {
+    for (const group of searchGroupsFor(platform)) {
       if (group.id === "founding" && !["ashby", "greenhouse", "lever"].includes(platform.id)) continue;
-      const query = [`site:${querySiteFor(platform)}`, group.query, marketTermsFor(platform, market), `after:${afterDate}`].filter(Boolean).join(" ");
+      const query = [`site:${querySiteFor(platform)}`, group.query, marketTermsFor(platform, market), platform.id === "inhire" ? "" : `after:${afterDate}`].filter(Boolean).join(" ");
       rows.push({ platform, market, group, query, url: `https://www.google.com/search?q=${encodeURIComponent(query)}` });
     }
   }

@@ -1,58 +1,304 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T13:02:57.267Z",
+  "generatedAt": "2026-10-13T22:25:28.126Z",
   "collection": {
-    "at": "2026-10-06T15:10:13.482Z",
+    "at": "2026-10-13T22:24:46.670Z",
     "country": "brazil",
     "provider": "both",
-    "afterDate": "2026-10-03",
+    "afterDate": "2026-10-10",
     "maxAgeDays": 7,
-    "discovered": 13,
-    "collected": 7,
-    "rejected": {
-      "duplicate": 0,
-      "location": 0,
-      "stale": 0,
-      "mismatch": 0,
-      "structure": 6,
-      "blocked": 0
-    },
-    "attempts": [
+    "discovered": 0,
+    "collected": 0,
+    "rejected": {},
+    "attempts": [],
+    "discoveryErrors": [
       {
-        "url": "https://boards.greenhouse.io/bitwarden/jobs/8001613003",
-        "title": "Staff Software Engineer (Architecture)",
-        "reason": "structure",
-        "textLength": 5616
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://apply.workable.com/pavago/j/B8B68C0741/apply/",
-        "title": "Full-Stack Developer",
-        "reason": "structure",
-        "textLength": 1414
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/bluelightconsulting?workplacetype=onsite&location=Sucre%2C%20Bolivia",
-        "title": "Bluelight Consulting",
-        "reason": "structure",
-        "textLength": 1689
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://apply.workable.com/digital-368/j/D0A651F827/apply/",
-        "title": "Freelance Full-Stack Developer - Python & JavaScript",
-        "reason": "structure",
-        "textLength": 637
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/xsolla/?workplacetype%5B0%5D=remote&workplacetype%5B1%5D=hybrid&workplacetype%5B2%5D=onsite&workplacetype%5B3%5D=hybrid&workplacetype%5B4%5D=onsite&workplacetype%5B5%5D=hybrid&%20development%5B0%5D=&%20development%5B1%5D=&location=Canada",
-        "title": "Xsolla",
-        "reason": "structure",
-        "textLength": 2694
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/xsolla/?workplacetype%5B0%5D=remote&workplacetype%5B1%5D=hybrid&workplacetype%5B2%5D=onsite&workplacetype%5B3%5D=hybrid&workplacetype%5B4%5D=onsite&workplacetype%5B5%5D=hybrid&%20development%5B0%5D=&%20development%5B1%5D=&location=Seoul%2C%20South%20Korea",
-        "title": "Xsolla",
-        "reason": "structure",
-        "textLength": 2322
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
       }
     ]
   },
@@ -186,7 +432,7 @@
       "name": "Central-IT-UX-Engineer-Pleno",
       "sourceUrl": "https://www.vagas.com.br/vagas-de-product-designer",
       "language": "pt-BR",
-      "recommendedCv": "frontend-engineer-br",
+      "recommendedCv": "ux-product-designer-br",
       "coverage": 100,
       "requirementCount": 2,
       "gaps": [],
@@ -244,7 +490,7 @@
       "name": "Grupo-Boticario-Product-Designer-Especialista-I",
       "sourceUrl": "https://grupoboticario.gupy.io/job/eyJqb2JJZCI6MTI1OTE3NjYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D",
       "language": "pt-BR",
-      "recommendedCv": "product-engineer-br",
+      "recommendedCv": "ux-product-designer-br",
       "coverage": 100,
       "requirementCount": 2,
       "gaps": [],
@@ -425,7 +671,7 @@
       "name": "VendePay-Product-Designer-Discovery-AI",
       "sourceUrl": "https://www.casado.dev/vaga/product-designer-product-discovery-ai",
       "language": "pt-BR",
-      "recommendedCv": "product-engineer-br",
+      "recommendedCv": "ux-product-designer-br",
       "coverage": 100,
       "requirementCount": 3,
       "gaps": [],
@@ -1191,7 +1437,7 @@
       "name": "Jobcenter-Product-Designer-UX-UI",
       "sourceUrl": "https://www.vagas.com.br/vagas-de-product-designer",
       "language": "pt-BR",
-      "recommendedCv": "product-engineer-br",
+      "recommendedCv": "ux-product-designer-br",
       "coverage": 75,
       "requirementCount": 4,
       "gaps": [
@@ -1358,7 +1604,7 @@
       "name": "Orbite-Product-Designer-Pleno",
       "sourceUrl": "https://talent.orbite-ats.com.br/carreiras/vqo2wiehkqjd3ks",
       "language": "pt-BR",
-      "recommendedCv": "product-engineer-br",
+      "recommendedCv": "ux-product-designer-br",
       "coverage": 57,
       "requirementCount": 7,
       "gaps": [
@@ -1428,7 +1674,7 @@
   "operations": {
     "$schema": "./report.schema.json",
     "schemaVersion": 1,
-    "generatedAt": "2026-10-09T13:02:49.124Z",
+    "generatedAt": "2026-10-13T22:25:26.997Z",
     "definitions": {
       "synergy": "Weighted evidence coverage of recognized vacancy requirements. It is not an ATS-pass or interview-probability score.",
       "atsStructure": "Static source checks for known ATS risks; PDF text extraction and visual review remain separate checks."
@@ -1448,7 +1694,7 @@
           "Applied AI Engineer",
           "Full Stack Engineer AI"
         ],
-        "score": 80,
+        "score": 79,
         "matchingSavedVacancies": 16,
         "cvFamily": "software-engineer",
         "evidenceGaps": []
@@ -1461,7 +1707,7 @@
           "Engenheiro Full Stack",
           "Desenvolvedor Full Stack"
         ],
-        "score": 80,
+        "score": 79,
         "matchingSavedVacancies": 16,
         "cvFamily": "fullstack-engineer",
         "evidenceGaps": []
@@ -1474,7 +1720,7 @@
           "Engenheiro de Software",
           "Engenheiro de Produto"
         ],
-        "score": 80,
+        "score": 79,
         "matchingSavedVacancies": 16,
         "cvFamily": "software-engineer",
         "evidenceGaps": []
@@ -1486,9 +1732,22 @@
           "Desenvolvedor Angular",
           "Angular Frontend Engineer"
         ],
-        "score": 77,
-        "matchingSavedVacancies": 12,
+        "score": 78,
+        "matchingSavedVacancies": 14,
         "cvFamily": "frontend-engineer",
+        "evidenceGaps": []
+      },
+      {
+        "id": "frontend-developer",
+        "titles": [
+          "Frontend Developer",
+          "Frontend Engineer",
+          "Desenvolvedor Frontend",
+          "Desenvolvedor Front-end"
+        ],
+        "score": 78,
+        "matchingSavedVacancies": 14,
+        "cvFamily": "frontend-developer",
         "evidenceGaps": []
       },
       {
@@ -1499,8 +1758,8 @@
           "Engenheiro de Frontend",
           "Desenvolvedor Front-end"
         ],
-        "score": 77,
-        "matchingSavedVacancies": 12,
+        "score": 78,
+        "matchingSavedVacancies": 14,
         "cvFamily": "frontend-engineer",
         "evidenceGaps": []
       },
@@ -1511,8 +1770,8 @@
           "Desenvolvedor React",
           "React Frontend Engineer"
         ],
-        "score": 77,
-        "matchingSavedVacancies": 12,
+        "score": 78,
+        "matchingSavedVacancies": 14,
         "cvFamily": "frontend-engineer",
         "evidenceGaps": []
       },
@@ -1525,22 +1784,9 @@
           "Designer de Produto",
           "UX Engineer"
         ],
-        "score": 71,
-        "matchingSavedVacancies": 1,
+        "score": 73,
+        "matchingSavedVacancies": 6,
         "cvFamily": "ux-product-designer",
-        "evidenceGaps": []
-      },
-      {
-        "id": "frontend-developer",
-        "titles": [
-          "Frontend Developer",
-          "Frontend Engineer",
-          "Desenvolvedor Frontend",
-          "Desenvolvedor Front-end"
-        ],
-        "score": 70,
-        "matchingSavedVacancies": 0,
-        "cvFamily": "frontend-developer",
         "evidenceGaps": []
       },
       {
@@ -1571,7 +1817,7 @@
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -1582,7 +1828,7 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 73,
+            "average": 78,
             "matchingVacancies": 6
           },
           "jobSources": [
@@ -1632,7 +1878,7 @@
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -1643,8 +1889,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 86,
-            "matchingVacancies": 8
+            "average": 88,
+            "matchingVacancies": 10
           },
           "jobSources": [
             "career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt",
@@ -1692,7 +1938,7 @@
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -1703,7 +1949,7 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 85,
+            "average": 86,
             "matchingVacancies": 11
           },
           "jobSources": [
@@ -1753,7 +1999,7 @@
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -1764,8 +2010,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 77,
-            "matchingVacancies": 3
+            "average": 80,
+            "matchingVacancies": 5
           },
           "jobSources": [
             "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt",
@@ -1815,7 +2061,7 @@
         "risks": [],
         "optimizationPriority": "low",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -1870,7 +2116,7 @@
         "risks": [],
         "optimizationPriority": "low",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -1917,14 +2163,14 @@
         "public": true,
         "source": "career/cvs/frontend-engineer-br.tex",
         "output": "public/cv/andre-nicolas-engenheiro-frontend-br.pdf",
-        "sourceSha256": "9f6c67fda65b98aaabc2be5d990c5d60def36531b37a3e4ec053617b251fcf22",
-        "matchingVacancies": 12,
-        "averageEvidenceCoverage": 90,
+        "sourceSha256": "4264060d28b94a1a3981917c66a8f52c1217f2f90c6d254c88d522658cbe59f9",
+        "matchingVacancies": 11,
+        "averageEvidenceCoverage": 89,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -1935,8 +2181,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 77,
-            "matchingVacancies": 8
+            "average": 89,
+            "matchingVacancies": 11
           },
           "jobSources": [
             "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
@@ -1976,14 +2222,14 @@
         "public": true,
         "source": "career/cvs/frontend-engineer-international.tex",
         "output": "public/cv/andre-nicolas-frontend-engineer-en.pdf",
-        "sourceSha256": "0cbb7c407159c78fc98d5f66eca7979b7d2c5ecb4e9508f486f8537c11c3011e",
+        "sourceSha256": "f63042b59ffe11f9dd4c3db4da93a6c570827896db0e3459c61004f17e26f062",
         "matchingVacancies": 3,
         "averageEvidenceCoverage": 84,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -1994,8 +2240,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 77,
-            "matchingVacancies": 1
+            "average": 84,
+            "matchingVacancies": 3
           },
           "jobSources": [
             "career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt"
@@ -2039,7 +2285,7 @@
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2050,8 +2296,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 84,
-            "matchingVacancies": 2
+            "average": 100,
+            "matchingVacancies": 1
           },
           "jobSources": [
             "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
@@ -2096,7 +2342,7 @@
         "risks": [],
         "optimizationPriority": "low",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2147,7 +2393,7 @@
         "risks": [],
         "optimizationPriority": "low",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2198,7 +2444,7 @@
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2209,8 +2455,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 80,
-            "matchingVacancies": 12
+            "average": 88,
+            "matchingVacancies": 14
           },
           "jobSources": [
             "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
@@ -2255,7 +2501,7 @@
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2266,7 +2512,7 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 78,
+            "average": 86,
             "matchingVacancies": 2
           },
           "jobSources": [
@@ -2310,7 +2556,7 @@
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2321,8 +2567,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 79,
-            "matchingVacancies": 15
+            "average": 87,
+            "matchingVacancies": 18
           },
           "jobSources": [
             "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
@@ -2366,7 +2612,7 @@
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2377,8 +2623,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 85,
-            "matchingVacancies": 6
+            "average": 86,
+            "matchingVacancies": 11
           },
           "jobSources": [
             "career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt",
@@ -2417,13 +2663,13 @@
         "source": "career/cvs/product-engineer-br.tex",
         "output": "public/cv/andre-nicolas-engenheiro-produto-br.pdf",
         "sourceSha256": "3696eaced5c67a4da77e46ecc1d1a4eb8d479f3e757323004062908b7f60864a",
-        "matchingVacancies": 4,
-        "averageEvidenceCoverage": 83,
+        "matchingVacancies": 3,
+        "averageEvidenceCoverage": 87,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2434,8 +2680,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 73,
-            "matchingVacancies": 2
+            "average": 87,
+            "matchingVacancies": 3
           },
           "jobSources": [
             "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
@@ -2474,13 +2720,13 @@
         "source": "career/cvs/ux-product-designer-br.tex",
         "output": "public/cv/andre-nicolas-ux-product-designer-br.pdf",
         "sourceSha256": "fe63f05aa0e3db591ef44049647fa3fabf36e29ceaac6e69ae2fee7d912ada51",
-        "matchingVacancies": 1,
-        "averageEvidenceCoverage": 40,
+        "matchingVacancies": 6,
+        "averageEvidenceCoverage": 79,
         "status": "ats-structure-ok",
         "risks": [],
-        "optimizationPriority": "normal",
+        "optimizationPriority": "high",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2491,7 +2737,7 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 68,
+            "average": 79,
             "matchingVacancies": 6
           },
           "jobSources": [
@@ -2545,16 +2791,16 @@
         "family": "frontend-developer",
         "language": "pt-BR",
         "public": true,
-        "source": "career/cvs/frontend-developer-br.tex",
+        "source": "career/cvs/frontend-engineer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-frontend-br.pdf",
-        "sourceSha256": "ac6d393029d3ef3853a2ccfdab4529dd4c871e630422ee26029b51e9267fe5e9",
+        "sourceSha256": "4264060d28b94a1a3981917c66a8f52c1217f2f90c6d254c88d522658cbe59f9",
         "matchingVacancies": 0,
         "averageEvidenceCoverage": 0,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "low",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2565,8 +2811,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 100,
-            "matchingVacancies": 3
+            "average": 0,
+            "matchingVacancies": 0
           },
           "jobSources": [
             "career/applications/PicPay-Desenvolvedor-Frontend-Junior-Angular.txt",
@@ -2611,16 +2857,16 @@
         "family": "frontend-developer",
         "language": "en",
         "public": true,
-        "source": "career/cvs/frontend-developer-international.tex",
+        "source": "career/cvs/frontend-engineer-international.tex",
         "output": "public/cv/andre-nicolas-frontend-developer-en.pdf",
-        "sourceSha256": "2051dd73219248d6df93d518d756e1c2c3a77f24f97b9e3737f9c7e44764a447",
+        "sourceSha256": "f63042b59ffe11f9dd4c3db4da93a6c570827896db0e3459c61004f17e26f062",
         "matchingVacancies": 0,
         "averageEvidenceCoverage": 0,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "low",
         "agentEvaluation": {
-          "decision": "optimized",
+          "decision": "unchanged-verified",
           "readiness": {
             "score": 100,
             "factualGrounding": 100,
@@ -2631,8 +2877,8 @@
             "sourceIntegrity": 100
           },
           "synergy": {
-            "average": 86,
-            "matchingVacancies": 2
+            "average": 0,
+            "matchingVacancies": 0
           },
           "jobSources": [
             "career/applications/WithMira-Frontend-Developer-React.txt",
@@ -2717,9 +2963,9 @@
       }
     ],
     "agentRun": {
-      "runId": "2026-10-09-frontend-developer-001",
+      "runId": "2026-10-13-full-career-003",
       "status": "complete",
-      "generatedAt": "2026-10-09T19:30:00.000Z",
+      "generatedAt": "2026-10-13T22:25:21.748Z",
       "unresolvedQuestions": []
     }
   }

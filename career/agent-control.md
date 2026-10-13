@@ -114,7 +114,7 @@ O output deve incluir todos os CV IDs, readiness por dimensão, synergy agregada
 ## Estado da execução
 
 - Status: `complete`
-- Run ID: `2026-10-06-full-career-002`
-- Início: `2026-10-06T15:08:00Z`
-- Fim: `2026-10-06T15:14:00Z`
-- Resultado: coleta Brasil não encontrou novas vagas oficiais; o corpus local de 40 vagas foi reanalisado. Full Stack Engineer (82), AI Product Engineer (81) e Software Engineer (81) permanecem as prioridades. Todas as 16 fontes canônicas foram verificadas como factualmente sustentadas, específicas ao cargo, ATS-safe e aprovadas no gate de conteúdo. Testes de vagas/cargos, relatório/dashboard, verificação da operação e build do site passaram. Compilação dos PDFs permanece `pending-ci` porque não há `latexmk` nem Tectonic localmente.
+- Run ID: `2026-10-13-full-career-003`
+- Início: `2026-10-13T22:24:46Z`
+- Fim: `2026-10-13T22:25:46Z`
+- Resultado: os dois provedores configurados (SerpAPI e Serper) falharam com `fetch failed`; a coleta externa fica registrada como bloqueada por rede, sem afirmar que não havia vagas. O corpus local completo de 53 vagas foi reanalisado, com análise, recomendações de cargo, role-fit, relatório e dashboard atualizados. Os 19 IDs do manifesto mantêm readiness 100/100 e foram registrados na avaliação estruturada. Testes de aplicações e cargos, `cv:check`, `career:verify` e `pnpm validate` passaram. `/career/` consome o relatório/dashboard e `/cv/` usa o manifesto; GitHub Actions segue restrito à compilação/publicação dos PDFs. Compilação dos PDFs permanece `pending-ci` porque não há `latexmk` nem Tectonic localmente.

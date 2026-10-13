@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-13-full-career-003",
+  "status": "complete",
+  "generatedAt": "2026-10-13T22:25:21.748Z",
+  "summary": {
+    "reason": "Reanalyzed the complete local vacancy corpus, refreshed role priorities, role-fit diagnostics and InHire discovery behavior, then reviewed all manifest CV readiness records.",
+    "market": {
+      "newVacancies": 0,
+      "analyzedVacancies": 53,
+      "collectionStatus": "blocked-by-network",
+      "providers": [
+        "serpapi",
+        "serper"
+      ],
+      "signals": [
+        "Full Stack Engineer",
+        "AI Product Engineer",
+        "Software Engineer"
+      ]
+    },
+    "cvReview": {
+      "ids": [
+        "software-engineer-br",
+        "software-engineer-international",
+        "fullstack-engineer-br",
+        "fullstack-engineer-international",
+        "fullstack-developer-br",
+        "fullstack-developer-international",
+        "frontend-engineer-br",
+        "frontend-engineer-international",
+        "product-engineer-international",
+        "web-developer-br",
+        "web-developer-international",
+        "angular-developer-br",
+        "angular-developer-international",
+        "react-developer-br",
+        "react-developer-international",
+        "product-engineer-br",
+        "ux-product-designer-br",
+        "frontend-developer-br",
+        "frontend-developer-international"
+      ],
+      "readiness": "100/100 for all 19 manifest IDs",
+      "changes": "No CV source required factual or editorial changes; all prior CV findings were retained and readiness was refreshed against the existing evidence and current fit diagnostics.",
+      "pdfCompilation": "pending-ci"
+    },
+    "validation": {
+      "cvCheck": "passed",
+      "contentQuality": "passed-19-cvs",
+      "applicationTests": "passed",
+      "roleTests": "passed",
+      "applicationAnalysis": "passed-53-reports",
+      "roleRecommendations": "updated",
+      "roleFit": "updated",
+      "searchRadar": "updated",
+      "siteBuild": "passed"
+    }
+  },
+  "outputs": [
+    "career/applications/analysis/index.json",
+    "career/applications/collected-index.json",
+    "career/roles/recommendations.json",
+    "career/operations/agent-evaluation.json",
+    "career/operations/report.json",
+    "src/data/career-dashboard.json",
+    "career/platforms/README.md"
+  ],
+  "unresolvedQuestions": []
+}
