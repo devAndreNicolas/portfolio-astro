@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T22:11:32.314Z",
+  "generatedAt": "2026-10-15T22:34:02.181Z",
   "definition": "Independent fit audit: compares recognized job requirements with the actual recommended CV text and evidence-backed terms. It is not ATS pass probability or a hiring prediction.",
   "thresholds": {
     "strongFit": "claimable coverage >= 70% and no missing/unsupported required term",
