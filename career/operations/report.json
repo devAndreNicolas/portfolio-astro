@@ -1,7 +1,7 @@
 {
   "$schema": "./report.schema.json",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T22:25:26.997Z",
+  "generatedAt": "2026-10-15T21:37:27.328Z",
   "definitions": {
     "synergy": "Weighted evidence coverage of recognized vacancy requirements. It is not an ATS-pass or interview-probability score.",
     "atsStructure": "Static source checks for known ATS risks; PDF text extraction and visual review remain separate checks."
@@ -137,14 +137,14 @@
       "public": true,
       "source": "career/cvs/software-engineer-br.tex",
       "output": "public/cv/andre-nicolas-engenheiro-software-br.pdf",
-      "sourceSha256": "8850918fc4a3a20f936f6b47d03a373bd1ec2db80e70d23f7f562d6804035ebd",
+      "sourceSha256": "dbb055165c556a8775438318dacdf83ec2386fa83bc22168d5e7d79bc7394e02",
       "matchingVacancies": 6,
       "averageEvidenceCoverage": 78,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -171,20 +171,18 @@
           "exp-mspa-007",
           "project-fecha-001",
           "project-fecha-003",
-          "project-ecarryon-001"
+          "project-ecarryon-001",
+          "exp-mspa-012"
         ],
         "changes": [
           "Preserved the official Frontend Engineer employment title while keeping the target role in the headline.",
-          "Clarified the official Tecnólogo credential."
+          "Clarified the official TecnÃ³logo credential.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
-          "AWS/GCP experience",
-          "professional Java/Spring experience",
           "advanced/fluent English"
         ],
         "gaps": [
-          "aws-gcp",
-          "spring",
           "load-testing",
           "advanced-english"
         ],
@@ -198,14 +196,14 @@
       "public": true,
       "source": "career/cvs/software-engineer-international.tex",
       "output": "public/cv/andre-nicolas-software-engineer-en.pdf",
-      "sourceSha256": "867c51849804b400144a767e263ff03fe1441b5d98204718bf932ab55cc0e2d8",
+      "sourceSha256": "0e2c8d9756e193f18781b04af8dc5c3e76d4f8c6e92e39fbfa0b9ccd1ef7c7fe",
       "matchingVacancies": 10,
       "averageEvidenceCoverage": 88,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -232,19 +230,19 @@
           "project-fecha-001",
           "project-fecha-003",
           "project-ecarryon-001",
-          "oss-002"
+          "oss-002",
+          "exp-mspa-012"
         ],
         "changes": [
           "Preserved the official employment title.",
-          "Reframed the Brazilian degree without inventing an international equivalence."
+          "Reframed the Brazilian degree without inventing an international equivalence.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
-          "AWS/GCP experience",
           "five years of experience",
           "fluent English"
         ],
         "gaps": [
-          "aws-gcp",
           "seniority-5-years",
           "advanced-english"
         ],
@@ -258,14 +256,14 @@
       "public": true,
       "source": "career/cvs/fullstack-engineer-br.tex",
       "output": "public/cv/andre-nicolas-engenheiro-fullstack-br.pdf",
-      "sourceSha256": "f26524821815b17c2dd9c2e9abe091d2287166a6b0727969fde4d6d3864e6798",
+      "sourceSha256": "b5262ebe1b16ef13bc055f681b52b2160a1385fae66ebee08a80f36e3eb8b1f4",
       "matchingVacancies": 11,
       "averageEvidenceCoverage": 86,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -282,7 +280,7 @@
         "jobSources": [
           "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
           "career/applications/Diagonal-DesenvolvedorFullStack.txt",
-          "career/applications/ISASaúde-DesenvolvedorFullStackPleno.txt"
+          "career/applications/ISASaÃºde-DesenvolvedorFullStackPleno.txt"
         ],
         "evidenceIds": [
           "exp-mspa-001",
@@ -292,21 +290,19 @@
           "project-fecha-003",
           "project-terto-001",
           "project-terto-002",
-          "project-ecarryon-001"
+          "project-ecarryon-001",
+          "exp-mspa-012"
         ],
         "changes": [
           "Separated official employment title from full-stack positioning.",
-          "Preserved end-to-end product, API, database, testing, and deployment evidence."
+          "Preserved end-to-end product, API, database, testing, and deployment evidence.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
-          "professional Java/Spring or AEM experience",
-          "AWS/GCP experience",
           "SSO experience"
         ],
         "gaps": [
-          "spring",
           "aem",
-          "aws-gcp",
           "sso"
         ],
         "pdfCompilation": "pending-ci"
@@ -319,14 +315,14 @@
       "public": true,
       "source": "career/cvs/fullstack-engineer-international.tex",
       "output": "public/cv/andre-nicolas-fullstack-engineer-en.pdf",
-      "sourceSha256": "affd4e08532bf00bf1f5d5cdbe1bdb7b9de646c0fbe16a05212a7122316f15f8",
+      "sourceSha256": "9f19c232d4602a6c4e15aa4f779a560681e1b3da86d641e8092e2bca43161747",
       "matchingVacancies": 5,
       "averageEvidenceCoverage": 80,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -353,22 +349,22 @@
           "project-fecha-001",
           "project-fecha-003",
           "project-terto-002",
-          "project-ecarryon-001"
+          "project-ecarryon-001",
+          "exp-mspa-012"
         ],
         "changes": [
           "Corrected employment-title framing and education translation.",
-          "Kept AI-native, React/Node, API, PostgreSQL, and testing evidence prominent."
+          "Kept AI-native, React/Node, API, PostgreSQL, and testing evidence prominent.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
           "five years of experience",
           "SSO",
-          "AWS/GCP",
           "fluent English"
         ],
         "gaps": [
           "seniority-5-years",
           "sso",
-          "aws-gcp",
           "advanced-english"
         ],
         "pdfCompilation": "pending-ci"
@@ -381,14 +377,14 @@
       "public": true,
       "source": "career/cvs/fullstack-developer-br.tex",
       "output": "public/cv/andre-nicolas-desenvolvedor-fullstack-br.pdf",
-      "sourceSha256": "cc1cb790f0fe1e8c8888036e2f768e18b747779990c7154c37a2c5f325bc437d",
+      "sourceSha256": "4b9ec44d4d0268a47753a82772880c02a943f9c3cffdc10d095948a1825c9333",
       "matchingVacancies": 0,
       "averageEvidenceCoverage": 0,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "low",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -412,20 +408,16 @@
           "exp-mspa-007",
           "project-fecha-001",
           "project-terto-001",
-          "project-terto-002"
+          "project-terto-002",
+          "exp-mspa-012"
         ],
         "changes": [
           "Corrected official employment title and credential wording.",
-          "Verified developer-oriented end-to-end implementation narrative."
+          "Verified developer-oriented end-to-end implementation narrative.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
-        "rejectedClaims": [
-          "Unsupported cloud vendors and backend stacks"
-        ],
-        "gaps": [
-          "aws-gcp",
-          "spring",
-          "dotnet"
-        ],
+        "rejectedClaims": [],
+        "gaps": [],
         "pdfCompilation": "pending-ci"
       }
     },
@@ -436,14 +428,14 @@
       "public": true,
       "source": "career/cvs/fullstack-developer-international.tex",
       "output": "public/cv/andre-nicolas-fullstack-developer-en.pdf",
-      "sourceSha256": "4ab4fa2f0cd1e131586fc522375bd40cfb50da19fbeca5793c47db432f5a1c9e",
+      "sourceSha256": "8bc00d43a1faa39a9761af6e70cbb3c038b1ccde941b0bca4e8ae5ba776cc8d1",
       "matchingVacancies": 0,
       "averageEvidenceCoverage": 0,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "low",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -467,18 +459,19 @@
           "exp-mspa-006",
           "project-fecha-001",
           "project-terto-001",
-          "project-terto-002"
+          "project-terto-002",
+          "exp-mspa-012"
         ],
         "changes": [
           "Corrected employment and education wording.",
-          "Verified implementation-first full-stack positioning."
+          "Verified implementation-first full-stack positioning.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
           "Unsupported seniority and cloud-vendor claims"
         ],
         "gaps": [
-          "seniority-5-years",
-          "aws-gcp"
+          "seniority-5-years"
         ],
         "pdfCompilation": "pending-ci"
       }
@@ -490,14 +483,14 @@
       "public": true,
       "source": "career/cvs/frontend-engineer-br.tex",
       "output": "public/cv/andre-nicolas-engenheiro-frontend-br.pdf",
-      "sourceSha256": "4264060d28b94a1a3981917c66a8f52c1217f2f90c6d254c88d522658cbe59f9",
+      "sourceSha256": "3cf769852dca56637d0ffaa2240ee030370b0fb3c49b53ef89abcc373c81a2a4",
       "matchingVacancies": 11,
       "averageEvidenceCoverage": 89,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -513,7 +506,7 @@
         },
         "jobSources": [
           "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
-          "career/applications/Arco Educação  Software Engineer II - Front End .txt",
+          "career/applications/Arco EducaÃ§Ã£o  Software Engineer II - Front End .txt",
           "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt"
         ],
         "evidenceIds": [
@@ -524,18 +517,18 @@
           "exp-mspa-007",
           "oss-002",
           "project-compliance-001",
-          "project-ecarryon-landing-001"
+          "project-ecarryon-landing-001",
+          "exp-mspa-012"
         ],
         "changes": [
           "Rebuilt as a concise single-column ATS source.",
-          "Prioritized Angular/React, Web Components, UX, accessibility, SEO, and performance evidence."
+          "Prioritized Angular/React, Web Components, UX, accessibility, SEO, and performance evidence.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
-          "professional Java/Spring or AEM experience",
           "fluent English"
         ],
         "gaps": [
-          "spring",
           "aem",
           "advanced-english"
         ],
@@ -549,14 +542,14 @@
       "public": true,
       "source": "career/cvs/frontend-engineer-international.tex",
       "output": "public/cv/andre-nicolas-frontend-engineer-en.pdf",
-      "sourceSha256": "f63042b59ffe11f9dd4c3db4da93a6c570827896db0e3459c61004f17e26f062",
+      "sourceSha256": "691d6a5468ad34120bfa1bc186d3421001b32d678372e06121cae475edd1d65c",
       "matchingVacancies": 3,
       "averageEvidenceCoverage": 84,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -581,18 +574,18 @@
           "exp-mspa-007",
           "oss-002",
           "project-compliance-001",
-          "project-ecarryon-landing-001"
+          "project-ecarryon-landing-001",
+          "exp-mspa-012"
         ],
         "changes": [
           "Rebuilt from multi-column to single-column ATS layout.",
-          "Corrected degree translation and strengthened recruiter-readable frontend narrative."
+          "Corrected degree translation and strengthened recruiter-readable frontend narrative.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
-          "professional Java/Spring experience",
           "load-testing experience"
         ],
         "gaps": [
-          "spring",
           "load-testing"
         ],
         "pdfCompilation": "pending-ci"
@@ -605,14 +598,14 @@
       "public": true,
       "source": "career/cvs/product-engineer-international.tex",
       "output": "public/cv/andre-nicolas-product-engineer-en.pdf",
-      "sourceSha256": "a0c2ad4b08668a1c73ccd691af41b283c5b54661cad33a21286f4159410dc245",
+      "sourceSha256": "8cec6898fec4e072c9a0dcad7aa627dfb6cb188d585fe5b1cf0ea9e0b6ec6e0f",
       "matchingVacancies": 1,
       "averageEvidenceCoverage": 100,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -637,11 +630,13 @@
           "project-fecha-001",
           "project-fecha-002",
           "project-fecha-003",
-          "project-terto-002"
+          "project-terto-002",
+          "exp-mspa-012"
         ],
         "changes": [
           "Replaced the generic shared experience block with role-specific context-action-evidence bullets.",
-          "Expanded product evidence for MSPA, FechaRacha, and Terto Beats without inventing revenue or traction."
+          "Expanded product evidence for MSPA, FechaRacha, and Terto Beats without inventing revenue or traction.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
           "Revenue or customer traction",
@@ -662,14 +657,14 @@
       "public": true,
       "source": "career/cvs/web-developer-br.tex",
       "output": "public/cv/andre-nicolas-desenvolvedor-web-br.pdf",
-      "sourceSha256": "b30c733080abc92847bbeee16cf894879a805038abcf427b58ea5af615d28e63",
+      "sourceSha256": "0657c2c3aa3dfd2b1d23832d9f173c7282fa28d9d848f0ca2ddca1aa866828c2",
       "matchingVacancies": 0,
       "averageEvidenceCoverage": 0,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "low",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -691,11 +686,13 @@
           "project-compliance-001",
           "project-landing-001",
           "project-ecarryon-landing-001",
-          "project-diary-001"
+          "project-diary-001",
+          "exp-mspa-012"
         ],
         "changes": [
           "Corrected employment and degree wording.",
-          "Verified responsive web, SEO, accessibility, performance, content, and PWA positioning."
+          "Verified responsive web, SEO, accessibility, performance, content, and PWA positioning.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
           "Unsupported commercial outcomes"
@@ -713,14 +710,14 @@
       "public": true,
       "source": "career/cvs/web-developer-international.tex",
       "output": "public/cv/andre-nicolas-web-developer-en.pdf",
-      "sourceSha256": "8860160433676b7fc45a3a5bd37be7bbab2459b2e09ffdc94ac995bd2c45adac",
+      "sourceSha256": "d0bbcf3d22b1858cc19f9ec6a7f38d9ed33f409bf0683a912e3bf54ec9f27043",
       "matchingVacancies": 0,
       "averageEvidenceCoverage": 0,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "low",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -742,11 +739,13 @@
           "project-compliance-001",
           "project-landing-001",
           "project-ecarryon-landing-001",
-          "project-diary-001"
+          "project-diary-001",
+          "exp-mspa-012"
         ],
         "changes": [
           "Corrected official title and Brazilian degree explanation.",
-          "Verified web-delivery and user-journey emphasis."
+          "Verified web-delivery and user-journey emphasis.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
           "Unsupported conversion or revenue metrics"
@@ -764,14 +763,14 @@
       "public": true,
       "source": "career/cvs/angular-developer-br.tex",
       "output": "public/cv/andre-nicolas-desenvolvedor-angular-br.pdf",
-      "sourceSha256": "8a824974aca116c709fd8abb51f052abe52589411f0f9cdb6b3b49c45fbaff11",
+      "sourceSha256": "2a1c5164d8e8b22b6453119e8f4a5de385ec42768ea0002e1201ee9ed23953b2",
       "matchingVacancies": 14,
       "averageEvidenceCoverage": 88,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -788,26 +787,26 @@
         "jobSources": [
           "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
           "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt",
-          "career/applications/Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack.txt"
+          "career/applications/Brisanet-TelecomunicaÃ§Ãµes-Desenvolvedor(a)-de-Sistemas-FullStack.txt"
         ],
         "evidenceIds": [
           "exp-mspa-003",
           "exp-mspa-007",
           "exp-mspa-005",
           "oss-002",
-          "project-fecha-001"
+          "project-fecha-001",
+          "exp-mspa-012"
         ],
         "changes": [
           "Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand.",
-          "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
+          "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
-          "professional Java/Spring backend",
           "AEM",
           "fluent English"
         ],
         "gaps": [
-          "spring",
           "aem",
           "advanced-english"
         ],
@@ -821,14 +820,14 @@
       "public": true,
       "source": "career/cvs/angular-developer-international.tex",
       "output": "public/cv/andre-nicolas-angular-developer-en.pdf",
-      "sourceSha256": "1207574762a72604fb651da78656dfa939246dafa328d642f9f720da7cd52322",
+      "sourceSha256": "2fb82350b75fe2443cb7c15dc3bd1a9efb1293e2b177efb9787b1810e3a01bf3",
       "matchingVacancies": 2,
       "averageEvidenceCoverage": 86,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -850,19 +849,19 @@
           "exp-mspa-003",
           "exp-mspa-007",
           "exp-mspa-005",
-          "oss-002"
+          "oss-002",
+          "exp-mspa-012"
         ],
         "changes": [
           "Created an English Angular canonical CV with transparent education and language claims.",
-          "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
+          "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
-          "professional Java/Spring experience",
           "load testing",
           "fluent English"
         ],
         "gaps": [
-          "spring",
           "load-testing",
           "advanced-english"
         ],
@@ -876,14 +875,14 @@
       "public": true,
       "source": "career/cvs/react-developer-br.tex",
       "output": "public/cv/andre-nicolas-desenvolvedor-react-br.pdf",
-      "sourceSha256": "87bb2ab711d7ec1260598114cc32d94a09af7bc4eed22a0ce5036c5f070c183b",
+      "sourceSha256": "adb7cd530ce860b780b8533383fb97aa37919a6d1a342a5614b990ad3330c4f8",
       "matchingVacancies": 18,
       "averageEvidenceCoverage": 87,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -908,20 +907,16 @@
           "project-fecha-001",
           "project-fecha-003",
           "project-terto-001",
-          "project-terto-002"
+          "project-terto-002",
+          "exp-mspa-012"
         ],
         "changes": [
           "Created a dedicated React/Next.js canonical CV emphasizing authenticated product flows, data, and tests.",
-          "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
+          "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
-        "rejectedClaims": [
-          ".NET",
-          "AWS/GCP"
-        ],
-        "gaps": [
-          "dotnet",
-          "aws-gcp"
-        ],
+        "rejectedClaims": [],
+        "gaps": [],
         "pdfCompilation": "pending-ci"
       }
     },
@@ -932,14 +927,14 @@
       "public": true,
       "source": "career/cvs/react-developer-international.tex",
       "output": "public/cv/andre-nicolas-react-developer-en.pdf",
-      "sourceSha256": "971216fcdfcb86e9606e089a6ef28ca12cae05ba5ddaea1f3958b5b809321d59",
+      "sourceSha256": "e3747e50e5c2a5d71ce1dd67983e6a63968591180b90cacfe33b00d9fe12e6af",
       "matchingVacancies": 11,
       "averageEvidenceCoverage": 86,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -965,18 +960,18 @@
           "project-fecha-003",
           "project-terto-001",
           "project-terto-002",
-          "oss-002"
+          "oss-002",
+          "exp-mspa-012"
         ],
         "changes": [
           "Created an English React/Next.js canonical CV with ATS-safe structure and grounded product examples.",
-          "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
+          "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
-          "AWS/GCP",
           "five years of experience"
         ],
         "gaps": [
-          "aws-gcp",
           "seniority-5-years"
         ],
         "pdfCompilation": "pending-ci"
@@ -989,14 +984,14 @@
       "public": true,
       "source": "career/cvs/product-engineer-br.tex",
       "output": "public/cv/andre-nicolas-engenheiro-produto-br.pdf",
-      "sourceSha256": "3696eaced5c67a4da77e46ecc1d1a4eb8d479f3e757323004062908b7f60864a",
+      "sourceSha256": "f1ee8b67876cfcd925cd367f941ea40c77b57fd5e60c8e08668e595cd2634f5f",
       "matchingVacancies": 3,
       "averageEvidenceCoverage": 87,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -1021,11 +1016,13 @@
           "project-fecha-001",
           "project-fecha-002",
           "project-fecha-003",
-          "project-terto-002"
+          "project-terto-002",
+          "exp-mspa-012"
         ],
         "changes": [
           "Created the missing Brazilian Product Engineer canonical CV with product, trust, UX, AI, and delivery evidence.",
-          "Replaced the skeletal role shell with role-specific context-action-evidence content."
+          "Replaced the skeletal role shell with role-specific context-action-evidence content.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
           "Revenue",
@@ -1046,14 +1043,14 @@
       "public": true,
       "source": "career/cvs/ux-product-designer-br.tex",
       "output": "public/cv/andre-nicolas-ux-product-designer-br.pdf",
-      "sourceSha256": "fe63f05aa0e3db591ef44049647fa3fabf36e29ceaac6e69ae2fee7d912ada51",
+      "sourceSha256": "6fb13dabc7fedb684f1328023f0403ffaa45657314ca986b7d994fa402feaf52",
       "matchingVacancies": 6,
       "averageEvidenceCoverage": 79,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "high",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -1084,12 +1081,14 @@
           "project-qf-001",
           "project-fecha-002",
           "project-saude-001",
-          "oss-001"
+          "oss-001",
+          "exp-mspa-012"
         ],
         "changes": [
           "Expanded the CV by composing the strongest role-specific evidence from the Product Engineer, Frontend, React, and Full Stack variants, then reordering it for UX/Product Design ATS terms.",
           "Added six product/UX vacancy sources and aligned the search taxonomy with discovery, journeys, usability, design systems, accessibility, and UX engineering.",
-          "Kept explicit qualification boundaries for user research, usability testing, A/B testing, Continuous Discovery, formal design education, Figma, and design mentorship."
+          "Kept explicit qualification boundaries for user research, usability testing, A/B testing, Continuous Discovery, formal design education, Figma, and design mentorship.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
           "Three years in a formal design role",
@@ -1120,14 +1119,14 @@
       "public": true,
       "source": "career/cvs/frontend-engineer-br.tex",
       "output": "public/cv/andre-nicolas-desenvolvedor-frontend-br.pdf",
-      "sourceSha256": "4264060d28b94a1a3981917c66a8f52c1217f2f90c6d254c88d522658cbe59f9",
+      "sourceSha256": "3cf769852dca56637d0ffaa2240ee030370b0fb3c49b53ef89abcc373c81a2a4",
       "matchingVacancies": 0,
       "averageEvidenceCoverage": 0,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "low",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -1161,11 +1160,13 @@
           "project-fecha-003",
           "project-qf-001",
           "project-terto-001",
-          "project-diary-001"
+          "project-diary-001",
+          "exp-mspa-012"
         ],
         "changes": [
           "Created a dedicated Brazilian Frontend Developer CV from the strongest Frontend Engineer, React, Full Stack, and Product Engineer evidence.",
-          "Prioritized Angular, React, TypeScript, JavaScript, HTML/CSS, APIs, UX, accessibility, performance, testing, production, and product delivery terms found in the PicPay and React vacancy corpus."
+          "Prioritized Angular, React, TypeScript, JavaScript, HTML/CSS, APIs, UX, accessibility, performance, testing, production, and product delivery terms found in the PicPay and React vacancy corpus.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
           "Senior-level title or seniority",
@@ -1186,14 +1187,14 @@
       "public": true,
       "source": "career/cvs/frontend-engineer-international.tex",
       "output": "public/cv/andre-nicolas-frontend-developer-en.pdf",
-      "sourceSha256": "f63042b59ffe11f9dd4c3db4da93a6c570827896db0e3459c61004f17e26f062",
+      "sourceSha256": "691d6a5468ad34120bfa1bc186d3421001b32d678372e06121cae475edd1d65c",
       "matchingVacancies": 0,
       "averageEvidenceCoverage": 0,
       "status": "ats-structure-ok",
       "risks": [],
       "optimizationPriority": "low",
       "agentEvaluation": {
-        "decision": "unchanged-verified",
+        "decision": "optimized",
         "readiness": {
           "score": 100,
           "factualGrounding": 100,
@@ -1224,10 +1225,12 @@
           "project-fecha-003",
           "project-qf-001",
           "project-terto-001",
-          "project-diary-001"
+          "project-diary-001",
+          "exp-mspa-012"
         ],
         "changes": [
-          "Created an English Frontend Developer CV with transparent Brazilian education wording and evidence-backed Angular, React, TypeScript, JavaScript, UX, API, testing, and production positioning."
+          "Created an English Frontend Developer CV with transparent Brazilian education wording and evidence-backed Angular, React, TypeScript, JavaScript, UX, API, testing, and production positioning.",
+          "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
         ],
         "rejectedClaims": [
           "Senior-level title or seniority",
@@ -1290,9 +1293,9 @@
     }
   ],
   "agentRun": {
-    "runId": "2026-10-13-full-career-003",
+    "runId": "2026-10-15-full-career-004",
     "status": "complete",
-    "generatedAt": "2026-10-13T22:25:21.748Z",
+    "generatedAt": "2026-10-15T21:37:18.102Z",
     "unresolvedQuestions": []
   }
 }

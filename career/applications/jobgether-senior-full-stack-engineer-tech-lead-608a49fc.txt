@@ -1,0 +1,116 @@
+Source URL: https://jobs.lever.co/jobgether/384c8cda-f403-46c8-b78d-6f1fd4f23707
+Collected at: 2026-10-15T21:30:52.098Z
+Market: brazil
+Discovery: serpapi, serper
+Explicit age: unknown
+Fit signals: typescript, react, web-components, testing, node, rest-api, security, cicd, ai-product, product, ui
+
+Senior Full Stack Engineer / Tech Lead
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for a Senior Full Stack Engineer / Tech Lead based in Brazil.
+
+In this role, you will help build and evolve an end-to-end forecasting platform that brings machine learning capabilities into practical, user-facing applications. You will work across modern frontend and backend technologies, developing scalable applications and reliable cloud-based services. Using React, TypeScript, Node.js, and AWS serverless architecture, you will support automated workflows while enabling users to interact with forecasting models. The role emphasizes distributed systems, automated testing, continuous delivery, and responsible AI-assisted software development. You will collaborate closely with engineers, product stakeholders, and machine learning specialists to deliver high-quality solutions. As a Tech Lead, you will also shape architecture, guide technical decisions, mentor colleagues, and take ownership of delivery while remaining hands-on in development.
+
+Accountabilities
+
+Build, maintain, and improve full-stack applications using React, TypeScript, Node.js, and NestJS.
+
+Develop and operate AWS serverless services, including TypeScript-based AWS Lambda functions.
+
+Design and evolve distributed systems and event-driven workflows using Amazon EventBridge, SNS, and SQS.
+
+Integrate machine learning forecasting models into product features, supporting automated processes and meaningful user interaction.
+
+Develop and maintain automated unit, integration, and end-to-end tests, using tools such as Playwright and applying appropriate testing strategies.
+
+Improve CI/CD pipelines to enable reliable, efficient, and increasingly automated software delivery.
+
+Manage cloud infrastructure as code using Terraform and contribute to delivery workflows through Jenkins.
+
+Monitor production systems using observability tools such as Grafana and OpenSearch to track performance, investigate issues, and improve reliability.
+
+Apply AI-assisted development tools throughout the software development lifecycle while maintaining high standards of code quality, review, and validation.
+
+Collaborate with engineering teams, product stakeholders, and forecasting specialists to deliver features across the platform.
+
+Provide technical leadership by shaping architecture, guiding engineering decisions, mentoring team members, and supporting effective delivery.
+
+Remain actively involved in implementation while taking ownership of complex technical challenges and helping the team continuously improve its engineering practices.
+
+Requirements
+
+Strong professional experience delivering full-stack applications using TypeScript, React, and Node.js.
+
+Experience building backend services with NestJS or a comparable Node.js framework.
+
+Hands-on experience designing and developing AWS serverless solutions, particularly with AWS Lambda.
+
+Solid understanding of distributed systems and event-driven architecture, including asynchronous messaging, failure handling, and service reliability.
+
+Experience with Amazon EventBridge, SNS/SQS, and DynamoDB, or equivalent technologies and architectural patterns.
+
+Strong commitment to test automation, with experience across unit, integration, and end-to-end testing.
+
+Experience with Playwright or a comparable end-to-end testing framework.
+
+Familiarity with Terraform, CI/CD pipelines, infrastructure automation, and production observability.
+
+Experience using AI-assisted development tools and practices responsibly, with appropriate technical review and validation.
+
+Understanding of how software applications integrate with machine learning models to deliver product features, automation, and user-facing functionality; dedicated MLOps expertise is not required.
+
+Proven ability to provide technical leadership, influence architecture, mentor engineers, and guide delivery in a complex, distributed environment.
+
+Strong problem-solving skills, initiative, and the ability to work independently while collaborating effectively with a wider team.
+
+Excellent written and verbal communication skills in English.
+
+Location requirement: Must be based in Brazil or Portugal.
+
+Preferred qualifications:
+
+Experience building forecasting, predictive analytics, or other machine learning-powered products.
+
+Experience designing interfaces and workflows that help users interpret, review, and interact with model outputs.
+
+Hands-on experience with Jenkins, Grafana, and OpenSearch.
+
+Experience improving software delivery through advanced test automation and AI-assisted engineering practices.
+
+Previous involvement in developing end-to-end platforms that integrate frontend applications, backend services, and machine learning models.
+
+Benefits
+
+Remote work: Work remotely from Brazil or Portugal.
+
+Collaborative culture: Join a collegial environment that encourages shared responsibility, trust, and active participation in shaping team culture.
+
+Learning-oriented environment: Work in a culture that treats mistakes as opportunities to learn and improve.
+
+Agile ways of working: Contribute ideas, collaborate across disciplines, and help shape technical solutions.
+
+Professional development: Access ongoing training, mentoring, and opportunities to strengthen your technical and leadership skills.
+
+Career growth: Explore different projects and expand your experience across technologies and engineering challenges.
+
+Travel opportunities: Possibility of traveling as part of the role.
+
+Compensation and additional benefits: Salary, healthcare coverage, paid leave, and other specific financial benefits are not detailed in the available job description.
+
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T22:23:14.369Z",
+  "generatedAt": "2026-10-15T21:35:41.162Z",
   "definition": "Independent fit audit: compares recognized job requirements with the actual recommended CV text and evidence-backed terms. It is not ATS pass probability or a hiring prediction.",
   "thresholds": {
     "strongFit": "claimable coverage >= 70% and no missing/unsupported required term",
@@ -11,9 +11,9 @@
       "cv": "software-engineer-international",
       "vacancyCount": 10,
       "averageOriginalEvidenceCoverage": 88,
-      "averageCvClaimableCoverage": 74,
-      "averageDelta": 14,
-      "criticalGapVacancies": 8
+      "averageCvClaimableCoverage": 88,
+      "averageDelta": 0,
+      "criticalGapVacancies": 7
     },
     {
       "cv": "ux-product-designer-br",
@@ -27,48 +27,48 @@
       "cv": "fullstack-engineer-br",
       "vacancyCount": 11,
       "averageOriginalEvidenceCoverage": 86,
-      "averageCvClaimableCoverage": 73,
-      "averageDelta": 14,
-      "criticalGapVacancies": 11
+      "averageCvClaimableCoverage": 86,
+      "averageDelta": 0,
+      "criticalGapVacancies": 8
     },
     {
       "cv": "software-engineer-br",
       "vacancyCount": 6,
       "averageOriginalEvidenceCoverage": 78,
-      "averageCvClaimableCoverage": 66,
-      "averageDelta": 13,
+      "averageCvClaimableCoverage": 78,
+      "averageDelta": 0,
       "criticalGapVacancies": 3
     },
     {
       "cv": "product-engineer-international",
       "vacancyCount": 1,
       "averageOriginalEvidenceCoverage": 100,
-      "averageCvClaimableCoverage": 86,
-      "averageDelta": 14,
+      "averageCvClaimableCoverage": 100,
+      "averageDelta": 0,
       "criticalGapVacancies": 0
     },
     {
       "cv": "frontend-engineer-br",
       "vacancyCount": 11,
       "averageOriginalEvidenceCoverage": 89,
-      "averageCvClaimableCoverage": 79,
-      "averageDelta": 10,
+      "averageCvClaimableCoverage": 89,
+      "averageDelta": 0,
       "criticalGapVacancies": 6
     },
     {
       "cv": "frontend-engineer-international",
       "vacancyCount": 3,
       "averageOriginalEvidenceCoverage": 84,
-      "averageCvClaimableCoverage": 65,
-      "averageDelta": 19,
+      "averageCvClaimableCoverage": 84,
+      "averageDelta": 0,
       "criticalGapVacancies": 2
     },
     {
       "cv": "fullstack-engineer-international",
       "vacancyCount": 5,
       "averageOriginalEvidenceCoverage": 80,
-      "averageCvClaimableCoverage": 68,
-      "averageDelta": 13,
+      "averageCvClaimableCoverage": 80,
+      "averageDelta": 0,
       "criticalGapVacancies": 5
     }
   ],
@@ -77,14 +77,12 @@
       "source": "career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 100,
-      "cvClaimableCoverage": 82,
-      "delta": 18,
+      "cvClaimableCoverage": 100,
+      "delta": 0,
       "status": "strong-fit",
       "requiredMissing": [],
       "unsupportedRequired": [],
-      "missingFromCv": [
-        "accessibility"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 5
     },
     {
@@ -103,33 +101,24 @@
       "source": "career/applications/Diagonal-DesenvolvedorFullStack.txt",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "originalEvidenceCoverage": 100,
-      "cvClaimableCoverage": 64,
-      "delta": 36,
-      "status": "review-critical-gaps",
-      "requiredMissing": [
-        "node"
-      ],
+      "cvClaimableCoverage": 100,
+      "delta": 0,
+      "status": "strong-fit",
+      "requiredMissing": [],
       "unsupportedRequired": [],
-      "missingFromCv": [
-        "node",
-        "ui"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 5
     },
     {
       "source": "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "originalEvidenceCoverage": 100,
-      "cvClaimableCoverage": 89,
-      "delta": 11,
-      "status": "review-critical-gaps",
-      "requiredMissing": [
-        "node"
-      ],
+      "cvClaimableCoverage": 100,
+      "delta": 0,
+      "status": "strong-fit",
+      "requiredMissing": [],
       "unsupportedRequired": [],
-      "missingFromCv": [
-        "node"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 10
     },
     {
@@ -160,32 +149,24 @@
       "source": "career/applications/jobgether-senior-software-engineer-product-expansion-team-e788ea5e.txt",
       "recommendedCanonicalCv": "product-engineer-international",
       "originalEvidenceCoverage": 100,
-      "cvClaimableCoverage": 86,
-      "delta": 14,
+      "cvClaimableCoverage": 100,
+      "delta": 0,
       "status": "strong-fit",
       "requiredMissing": [],
       "unsupportedRequired": [],
-      "missingFromCv": [
-        "security"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 7
     },
     {
       "source": "career/applications/jobgether-software-engineer-developer-tools-bae6d94f.txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 100,
-      "cvClaimableCoverage": 77,
-      "delta": 23,
-      "status": "review-critical-gaps",
-      "requiredMissing": [
-        "node",
-        "security"
-      ],
+      "cvClaimableCoverage": 100,
+      "delta": 0,
+      "status": "strong-fit",
+      "requiredMissing": [],
       "unsupportedRequired": [],
-      "missingFromCv": [
-        "node",
-        "security"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 9
     },
     {
@@ -228,14 +209,12 @@
       "source": "career/applications/senior-software-engineer-ai-training-brazil-4fc23d96.txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 100,
-      "cvClaimableCoverage": 80,
-      "delta": 20,
+      "cvClaimableCoverage": 100,
+      "delta": 0,
       "status": "strong-fit",
       "requiredMissing": [],
       "unsupportedRequired": [],
-      "missingFromCv": [
-        "security"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 5
     },
     {
@@ -266,51 +245,38 @@
       "source": "career/applications/Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack.txt",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "originalEvidenceCoverage": 92,
-      "cvClaimableCoverage": 79,
-      "delta": 13,
-      "status": "review-critical-gaps",
-      "requiredMissing": [
-        "security"
-      ],
+      "cvClaimableCoverage": 92,
+      "delta": 0,
+      "status": "strong-fit",
+      "requiredMissing": [],
       "unsupportedRequired": [],
-      "missingFromCv": [
-        "security",
-        "documentation"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 9
     },
     {
       "source": "career/applications/ISASaúde-DesenvolvedorFullStackPleno.txt",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "originalEvidenceCoverage": 91,
-      "cvClaimableCoverage": 75,
-      "delta": 16,
+      "cvClaimableCoverage": 91,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "node",
-        "aws-gcp"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "aws-gcp"
       ],
-      "missingFromCv": [
-        "node",
-        "aws-gcp",
-        "ui"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 11
     },
     {
       "source": "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
       "recommendedCanonicalCv": "software-engineer-br",
       "originalEvidenceCoverage": 90,
-      "cvClaimableCoverage": 80,
-      "delta": 10,
+      "cvClaimableCoverage": 90,
+      "delta": 0,
       "status": "strong-fit",
       "requiredMissing": [],
       "unsupportedRequired": [],
       "missingFromCv": [
-        "security",
         "advanced-english"
       ],
       "evaluatedRequirements": 10
@@ -319,22 +285,17 @@
       "source": "career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt",
       "recommendedCanonicalCv": "frontend-engineer-international",
       "originalEvidenceCoverage": 90,
-      "cvClaimableCoverage": 62,
-      "delta": 28,
+      "cvClaimableCoverage": 90,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "java",
-        "node",
         "load-testing"
       ],
       "unsupportedRequired": [
         "load-testing"
       ],
       "missingFromCv": [
-        "java",
-        "node",
-        "load-testing",
-        "security"
+        "load-testing"
       ],
       "evaluatedRequirements": 10
     },
@@ -342,72 +303,54 @@
       "source": "career/applications/jobgether-senior-software-engineer-371cb484.txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 90,
-      "cvClaimableCoverage": 83,
-      "delta": 7,
+      "cvClaimableCoverage": 90,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "aws-gcp"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "aws-gcp"
       ],
-      "missingFromCv": [
-        "aws-gcp",
-        "security"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 11
     },
     {
       "source": "career/applications/Sanar-SoftwareEngineer.txt",
       "recommendedCanonicalCv": "software-engineer-br",
       "originalEvidenceCoverage": 90,
-      "cvClaimableCoverage": 70,
-      "delta": 20,
+      "cvClaimableCoverage": 90,
+      "delta": 0,
       "status": "strong-fit",
       "requiredMissing": [],
       "unsupportedRequired": [],
-      "missingFromCv": [
-        "node",
-        "security",
-        "aws-gcp"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 10
     },
     {
       "source": "career/applications/CI&T  Mid-Level Fullstack Developer ( Java + Angular ) Brazil.txt",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "originalEvidenceCoverage": 89,
-      "cvClaimableCoverage": 61,
-      "delta": 28,
-      "status": "needs-tailoring",
+      "cvClaimableCoverage": 89,
+      "delta": 0,
+      "status": "strong-fit",
       "requiredMissing": [],
       "unsupportedRequired": [],
-      "missingFromCv": [
-        "java",
-        "node",
-        "spring",
-        "accessibility"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 10
     },
     {
       "source": "career/applications/Jobgether-MidLevel-Fullstack-(JavaIAngular)Developer.txt",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "originalEvidenceCoverage": 89,
-      "cvClaimableCoverage": 67,
-      "delta": 22,
+      "cvClaimableCoverage": 89,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "java",
-        "node",
         "load-testing"
       ],
       "unsupportedRequired": [
         "load-testing"
       ],
       "missingFromCv": [
-        "java",
-        "node",
         "load-testing"
       ],
       "evaluatedRequirements": 9
@@ -416,12 +359,10 @@
       "source": "career/applications/CI&T-MidLevelDeveloperFullStackAEM-AdobeExperienceManager .txt",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "originalEvidenceCoverage": 88,
-      "cvClaimableCoverage": 76,
-      "delta": 12,
+      "cvClaimableCoverage": 88,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "accessibility",
-        "ui",
         "ab-testing",
         "aem"
       ],
@@ -430,8 +371,6 @@
         "aem"
       ],
       "missingFromCv": [
-        "accessibility",
-        "ui",
         "ab-testing",
         "aem"
       ],
@@ -441,12 +380,10 @@
       "source": "career/applications/CI&T-SeniorDeveloperFullStackAEM-AdobeExperienceManager.txt",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "originalEvidenceCoverage": 88,
-      "cvClaimableCoverage": 76,
-      "delta": 12,
+      "cvClaimableCoverage": 88,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "accessibility",
-        "ui",
         "ab-testing",
         "aem"
       ],
@@ -455,8 +392,6 @@
         "aem"
       ],
       "missingFromCv": [
-        "accessibility",
-        "ui",
         "ab-testing",
         "aem"
       ],
@@ -466,18 +401,16 @@
       "source": "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "originalEvidenceCoverage": 87,
-      "cvClaimableCoverage": 74,
-      "delta": 13,
+      "cvClaimableCoverage": 87,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "java",
         "advanced-english"
       ],
       "unsupportedRequired": [
         "advanced-english"
       ],
       "missingFromCv": [
-        "java",
         "advanced-english"
       ],
       "evaluatedRequirements": 8
@@ -486,18 +419,16 @@
       "source": "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work2.txt",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "originalEvidenceCoverage": 87,
-      "cvClaimableCoverage": 74,
-      "delta": 13,
+      "cvClaimableCoverage": 87,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "java",
         "advanced-english"
       ],
       "unsupportedRequired": [
         "advanced-english"
       ],
       "missingFromCv": [
-        "java",
         "advanced-english"
       ],
       "evaluatedRequirements": 8
@@ -506,47 +437,36 @@
       "source": "career/applications/jobgether-senior-software-engineer-ai-driven-curveglass-0e337170.txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 87,
-      "cvClaimableCoverage": 78,
-      "delta": 9,
+      "cvClaimableCoverage": 87,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "aws-gcp"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "aws-gcp"
       ],
-      "missingFromCv": [
-        "aws-gcp",
-        "security"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 8
     },
     {
       "source": "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 87,
-      "cvClaimableCoverage": 74,
-      "delta": 13,
+      "cvClaimableCoverage": 87,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "security",
-        "aws-gcp"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "aws-gcp"
       ],
-      "missingFromCv": [
-        "security",
-        "aws-gcp"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 8
     },
     {
       "source": "career/applications/jobgether-senior-software-engineer-alti-team-080bfbf5.txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 86,
-      "cvClaimableCoverage": 76,
-      "delta": 10,
+      "cvClaimableCoverage": 86,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
         "rag"
@@ -555,8 +475,7 @@
         "rag"
       ],
       "missingFromCv": [
-        "rag",
-        "security"
+        "rag"
       ],
       "evaluatedRequirements": 8
     },
@@ -564,18 +483,14 @@
       "source": "career/applications/jobgether-senior-software-engineer-full-stack-9569b578.txt",
       "recommendedCanonicalCv": "fullstack-engineer-international",
       "originalEvidenceCoverage": 84,
-      "cvClaimableCoverage": 77,
-      "delta": 7,
+      "cvClaimableCoverage": 84,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "aws-gcp"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "aws-gcp"
       ],
       "missingFromCv": [
-        "aws-gcp",
-        "security",
         "load-testing"
       ],
       "evaluatedRequirements": 11
@@ -584,13 +499,12 @@
       "source": "career/applications/bluelight-consulting-senior-software-engineer-python-flask-react-remote-latin-america-ae253dec.txt",
       "recommendedCanonicalCv": "frontend-engineer-international",
       "originalEvidenceCoverage": 83,
-      "cvClaimableCoverage": 67,
-      "delta": 16,
-      "status": "needs-tailoring",
+      "cvClaimableCoverage": 83,
+      "delta": 0,
+      "status": "strong-fit",
       "requiredMissing": [],
       "unsupportedRequired": [],
       "missingFromCv": [
-        "java",
         "seniority-5-years"
       ],
       "evaluatedRequirements": 6
@@ -599,21 +513,14 @@
       "source": "career/applications/jobgether-senior-full-stack-software-engineer-298f7459.txt",
       "recommendedCanonicalCv": "fullstack-engineer-international",
       "originalEvidenceCoverage": 83,
-      "cvClaimableCoverage": 56,
-      "delta": 27,
+      "cvClaimableCoverage": 83,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "node",
-        "aws-gcp"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "aws-gcp"
       ],
-      "missingFromCv": [
-        "node",
-        "aws-gcp",
-        "security"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 7
     },
     {
@@ -623,63 +530,47 @@
       "cvClaimableCoverage": 83,
       "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "spring"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "spring"
       ],
-      "missingFromCv": [
-        "spring"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 6
     },
     {
       "source": "career/applications/NOTORIA  Desenvolvedor(a) Full Stack (100% Remoto) – Foco em IA e Saúde - 1120.txt",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "originalEvidenceCoverage": 83,
-      "cvClaimableCoverage": 67,
-      "delta": 16,
+      "cvClaimableCoverage": 83,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "security",
-        "aws-gcp"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "aws-gcp"
       ],
-      "missingFromCv": [
-        "security",
-        "aws-gcp"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 6
     },
     {
       "source": "career/applications/Software Engineer, Autonomous Revenue Operations (Brazil).txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 83,
-      "cvClaimableCoverage": 67,
-      "delta": 16,
+      "cvClaimableCoverage": 83,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "security",
-        "aws-gcp"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "aws-gcp"
       ],
-      "missingFromCv": [
-        "security",
-        "aws-gcp"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 7
     },
     {
       "source": "career/applications/N-iX  Fullstack Engineer (ScalaTypeScript).txt",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "originalEvidenceCoverage": 82,
-      "cvClaimableCoverage": 71,
-      "delta": 11,
+      "cvClaimableCoverage": 82,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
         "scala"
@@ -688,8 +579,7 @@
         "scala"
       ],
       "missingFromCv": [
-        "scala",
-        "ui"
+        "scala"
       ],
       "evaluatedRequirements": 7
     },
@@ -697,8 +587,8 @@
       "source": "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt",
       "recommendedCanonicalCv": "fullstack-engineer-international",
       "originalEvidenceCoverage": 81,
-      "cvClaimableCoverage": 69,
-      "delta": 12,
+      "cvClaimableCoverage": 81,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
         "advanced-english"
@@ -707,8 +597,7 @@
         "advanced-english"
       ],
       "missingFromCv": [
-        "advanced-english",
-        "security"
+        "advanced-english"
       ],
       "evaluatedRequirements": 7
     },
@@ -716,40 +605,28 @@
       "source": "career/applications/Arco Educação  Software Engineer II - Front End .txt",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "originalEvidenceCoverage": 81,
-      "cvClaimableCoverage": 69,
-      "delta": 12,
+      "cvClaimableCoverage": 81,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "accessibility",
-        "documentation"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "documentation"
       ],
-      "missingFromCv": [
-        "accessibility",
-        "documentation",
-        "aws-gcp"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 10
     },
     {
       "source": "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt",
       "recommendedCanonicalCv": "fullstack-engineer-international",
       "originalEvidenceCoverage": 81,
-      "cvClaimableCoverage": 70,
-      "delta": 11,
+      "cvClaimableCoverage": 81,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "security",
-        "spring"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "spring"
       ],
       "missingFromCv": [
-        "security",
-        "spring",
         "load-testing"
       ],
       "evaluatedRequirements": 10
@@ -758,19 +635,14 @@
       "source": "career/applications/Jobgether-Full-Stack-Software-Engineer-AI-First.txt",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "originalEvidenceCoverage": 80,
-      "cvClaimableCoverage": 68,
-      "delta": 12,
+      "cvClaimableCoverage": 80,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "security",
-        "spring"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "spring"
       ],
       "missingFromCv": [
-        "security",
-        "spring",
         "load-testing"
       ],
       "evaluatedRequirements": 9
@@ -779,8 +651,8 @@
       "source": "career/applications/jobgether-senior-software-engineer-quality-8057b2a9.txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 79,
-      "cvClaimableCoverage": 68,
-      "delta": 11,
+      "cvClaimableCoverage": 79,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
         "seniority-5-years"
@@ -790,7 +662,6 @@
       ],
       "missingFromCv": [
         "seniority-5-years",
-        "security",
         "user-research"
       ],
       "evaluatedRequirements": 9
@@ -799,8 +670,8 @@
       "source": "career/applications/senior-frontend-engineer-media-production-brazil-a0724182.txt",
       "recommendedCanonicalCv": "frontend-engineer-international",
       "originalEvidenceCoverage": 79,
-      "cvClaimableCoverage": 66,
-      "delta": 13,
+      "cvClaimableCoverage": 79,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
         "advanced-english",
@@ -812,9 +683,7 @@
       ],
       "missingFromCv": [
         "advanced-english",
-        "seniority-5-years",
-        "accessibility",
-        "security"
+        "seniority-5-years"
       ],
       "evaluatedRequirements": 11
     },
@@ -822,20 +691,14 @@
       "source": "career/applications/CI&T-MidLevel-AIFullstack-(JavaAngular)-Developer-Brazil .txt",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "originalEvidenceCoverage": 77,
-      "cvClaimableCoverage": 54,
-      "delta": 23,
+      "cvClaimableCoverage": 77,
+      "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "java",
-        "spring"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "spring"
       ],
-      "missingFromCv": [
-        "java",
-        "spring"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 5
     },
     {
@@ -854,11 +717,10 @@
       "source": "career/applications/jobgether-senior-full-stack-engineer-alpaca-connect-a38d7639.txt",
       "recommendedCanonicalCv": "fullstack-engineer-international",
       "originalEvidenceCoverage": 72,
-      "cvClaimableCoverage": 66,
-      "delta": 6,
+      "cvClaimableCoverage": 72,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "aws-gcp",
         "seniority-5-years",
         "sso"
       ],
@@ -868,10 +730,8 @@
         "sso"
       ],
       "missingFromCv": [
-        "aws-gcp",
         "seniority-5-years",
-        "sso",
-        "security"
+        "sso"
       ],
       "evaluatedRequirements": 11
     },
@@ -879,12 +739,10 @@
       "source": "career/applications/Athelas-SoftwareEngineer-Applied-AI(Brazil).txt",
       "recommendedCanonicalCv": "software-engineer-br",
       "originalEvidenceCoverage": 68,
-      "cvClaimableCoverage": 53,
-      "delta": 15,
+      "cvClaimableCoverage": 68,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "security",
-        "aws-gcp",
         "load-testing"
       ],
       "unsupportedRequired": [
@@ -892,8 +750,6 @@
         "load-testing"
       ],
       "missingFromCv": [
-        "security",
-        "aws-gcp",
         "load-testing"
       ],
       "evaluatedRequirements": 7
@@ -902,12 +758,10 @@
       "source": "career/applications/Commure-SoftwareEngineer-AppliedAI(Brazil).txt",
       "recommendedCanonicalCv": "software-engineer-br",
       "originalEvidenceCoverage": 68,
-      "cvClaimableCoverage": 53,
-      "delta": 15,
+      "cvClaimableCoverage": 68,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "security",
-        "aws-gcp",
         "load-testing"
       ],
       "unsupportedRequired": [
@@ -915,8 +769,6 @@
         "load-testing"
       ],
       "missingFromCv": [
-        "security",
-        "aws-gcp",
         "load-testing"
       ],
       "evaluatedRequirements": 7
@@ -925,12 +777,10 @@
       "source": "career/applications/software-engineer-applied-ai-brazil-687d1d4b.txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 68,
-      "cvClaimableCoverage": 53,
-      "delta": 15,
+      "cvClaimableCoverage": 68,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "security",
-        "aws-gcp",
         "load-testing"
       ],
       "unsupportedRequired": [
@@ -938,8 +788,6 @@
         "load-testing"
       ],
       "missingFromCv": [
-        "security",
-        "aws-gcp",
         "load-testing"
       ],
       "evaluatedRequirements": 7
@@ -951,32 +799,23 @@
       "cvClaimableCoverage": 65,
       "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [
-        "aws-gcp",
-        "dotnet"
-      ],
+      "requiredMissing": [],
       "unsupportedRequired": [
         "aws-gcp",
         "dotnet"
       ],
-      "missingFromCv": [
-        "aws-gcp",
-        "dotnet"
-      ],
+      "missingFromCv": [],
       "evaluatedRequirements": 6
     },
     {
       "source": "career/applications/APAS.AI-Full-Stack-Engineer.txt",
       "recommendedCanonicalCv": "fullstack-engineer-br",
       "originalEvidenceCoverage": 62,
-      "cvClaimableCoverage": 52,
-      "delta": 10,
+      "cvClaimableCoverage": 62,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "node",
-        "security",
         "advanced-english",
-        "documentation",
         "ipad",
         "load-testing",
         "multi-tenancy",
@@ -995,17 +834,13 @@
         "vulnerability-testing"
       ],
       "missingFromCv": [
-        "node",
-        "security",
         "advanced-english",
-        "documentation",
         "ipad",
         "load-testing",
         "multi-tenancy",
         "seniority-5-years",
         "sso",
         "vulnerability-testing",
-        "accessibility",
         "rag"
       ],
       "evaluatedRequirements": 25
@@ -1030,13 +865,10 @@
       "source": "career/applications/C&IT-Software-Architect-Brazil.txt",
       "recommendedCanonicalCv": "software-engineer-br",
       "originalEvidenceCoverage": 53,
-      "cvClaimableCoverage": 37,
-      "delta": 16,
+      "cvClaimableCoverage": 53,
+      "delta": 0,
       "status": "review-critical-gaps",
       "requiredMissing": [
-        "node",
-        "aws-gcp",
-        "documentation",
         "load-testing"
       ],
       "unsupportedRequired": [
@@ -1045,9 +877,6 @@
         "load-testing"
       ],
       "missingFromCv": [
-        "node",
-        "aws-gcp",
-        "documentation",
         "load-testing"
       ],
       "evaluatedRequirements": 7

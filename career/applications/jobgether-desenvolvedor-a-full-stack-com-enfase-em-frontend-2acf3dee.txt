@@ -1,0 +1,78 @@
+Source URL: https://jobs.lever.co/jobgether/103a89b6-5eb7-4274-b50f-ed54cb72db1b
+Collected at: 2026-10-15T21:30:46.652Z
+Market: brazil
+Discovery: serpapi, serper
+Explicit age: unknown
+Fit signals: typescript, javascript, react, nextjs, html-css, accessibility, seo, web-components, testing, code-review, node, rest-api, postgresql, security, cicd, ai-product, payments, product, ux, ui, java
+
+Desenvolvedor(a) Full Stack (com ênfase em Frontend)
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Desenvolvedor(a) Full Stack (com ênfase em Frontend) based in Brazil.
+
+We are looking for a creative and experienced Full Stack Developer with a strong focus on frontend development to build and enhance high-performance e-commerce experiences. In this role, you will develop scalable, responsive, and accessible web interfaces using React, Next.js, and TypeScript. You will contribute to the entire development lifecycle, from technical design and implementation to testing, deployment, and continuous optimization. Working closely with product, design, and marketing teams, you will transform business requirements into intuitive digital experiences that improve customer engagement and conversion. You will also contribute to backend integrations, frontend architecture, and reusable component development. The position offers a fully remote work environment, collaborative teams, and opportunities to leverage AI-powered tools to improve engineering productivity.
+
+Accountabilities
+Design, develop, and maintain scalable, responsive, and accessible frontend interfaces using React, Next.js, TypeScript, HTML, and modern CSS.
+Build and optimize key e-commerce journeys, including storefronts, product discovery, search, product pages, shopping carts, checkout, and customer account areas.
+Translate product requirements and design specifications into high-quality user interfaces, ensuring visual consistency and usability across devices and browsers.
+Integrate REST and GraphQL APIs with e-commerce platforms, payment providers, and third-party services to deliver seamless digital experiences.
+Monitor and improve website performance, Core Web Vitals, technical SEO, accessibility, and overall user experience.
+Develop Node.js middleware and supporting services when required to enable frontend functionality and system integrations.
+Contribute to frontend architecture decisions, componentization, reusable design systems, and maintainable application structures.
+Manage code versioning, participate in code reviews, implement automated tests where appropriate, and follow engineering best practices.
+Deploy and validate applications across testing and production environments using CI/CD pipelines, monitoring releases and resolving issues.
+Incorporate AI tools into development workflows, including technical specification, code generation and review, testing, and documentation, following established engineering practices.
+Maintain clear technical documentation and collaborate with cross-functional teams to deliver solutions aligned with business priorities.
+Adapt to changing requirements and priorities in a dynamic retail and e-commerce environment.
+Requirements
+Solid experience with React, JavaScript, TypeScript, semantic HTML, and modern CSS technologies such as CSS Modules, Styled Components, or Tailwind CSS.
+Experience with Next.js, including server-side rendering, static generation, API routes, image optimization, and caching, or a demonstrated ability to learn these capabilities quickly.
+Experience integrating REST and GraphQL APIs and working with third-party services.
+Knowledge of web performance optimization, Core Web Vitals, technical SEO, accessibility, and responsive design.
+Practical experience with Node.js for developing middleware and frontend-supporting services.
+Proficiency with Git and GitHub, including branching strategies, pull requests, and code review practices.
+Experience with CI/CD pipelines, such as GitHub Actions or equivalent tools, and application deployment across testing and production environments.
+Familiarity with AI-assisted software development, including specification-driven development, coding assistants such as Claude and other large language models, AI agents, and MCPs.
+Understanding of agile methodologies, such as Scrum or Kanban.
+Strong communication, analytical thinking, problem-solving, and collaboration skills, with the ability to work effectively across multidisciplinary teams.
+
+Additional qualifications that would be an advantage:
+
+Experience with automated testing tools such as Jest, React Testing Library, Cypress, or Playwright.
+Familiarity with headless frontend architectures and platforms such as Adobe Commerce or Magento.
+Experience with Material UI, other design systems, or reusable component library development.
+Knowledge of micro-frontends, monorepos, and scalable application architecture.
+Familiarity with analytics tools, tag management, and A/B testing for e-commerce.
+Additional backend development experience with Node.js and SQL or NoSQL databases.
+Knowledge of cloud environments, content delivery networks (CDNs), and web application monitoring.
+Previous experience in retail, e-commerce, or omnichannel environments with high traffic volumes and business-critical workflows.
+Applications are welcome from professionals with disabilities, and the recruitment process is committed to equal opportunity and inclusion.
+Benefits
+100% remote work: Fully home-based working arrangements throughout Brazil.
+Meal and food allowance: Financial support for everyday meals and groceries.
+Healthcare: Medical and dental insurance.
+Pharmacy benefit: Access to a pharmacy partnership program.
+Pet benefits: Access to a pet-related benefits program.
+Fitness benefit: Support for physical activity and well-being through a gym benefit.
+Birthday day off: An additional day off to celebrate your birthday.
+Exclusive discounts: Special offers through Wine Locals and discounts on products from the group's wine brands.
+Collaborative environment: Opportunities to contribute ideas, share knowledge, and help shape technical solutions.
+Leadership engagement: Monthly All Hands meetings with the CEO and directors, providing visibility into company priorities and strategy.
+Professional development: Opportunities to expand technical expertise and contribute to continuous improvement in engineering practices.
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by

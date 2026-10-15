@@ -1,942 +1,959 @@
 {
-  "$schema": "./agent-evaluation.schema.json",
-  "schemaVersion": 1,
-  "runId": "2026-10-13-full-career-003",
-  "status": "complete",
-  "generatedAt": "2026-10-13T22:25:21.748Z",
-  "inputs": {
-    "manifestIds": [
-      "angular-developer-br",
-      "angular-developer-international",
-      "frontend-developer-br",
-      "frontend-developer-international",
-      "frontend-engineer-br",
-      "frontend-engineer-international",
-      "fullstack-developer-br",
-      "fullstack-developer-international",
-      "fullstack-engineer-br",
-      "fullstack-engineer-international",
-      "product-engineer-br",
-      "product-engineer-international",
-      "react-developer-br",
-      "react-developer-international",
-      "software-engineer-br",
-      "software-engineer-international",
-      "ux-product-designer-br",
-      "web-developer-br",
-      "web-developer-international"
-    ],
-    "applicationCount": 53,
-    "evidenceDocument": "career/profile/master-career.md",
-    "sourceCommit": "b4a8af4d90fdbca218bac77273a804b4d97156fc"
-  },
-  "cvEvaluations": {
-    "software-engineer-br": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 78,
-        "matchingVacancies": 6
-      },
-      "jobSources": [
-        "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
-        "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt",
-        "career/applications/Sanar-SoftwareEngineer.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-002",
-        "exp-mspa-005",
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "project-fecha-001",
-        "project-fecha-003",
-        "project-ecarryon-001"
-      ],
-      "changes": [
-        "Preserved the official Frontend Engineer employment title while keeping the target role in the headline.",
-        "Clarified the official Tecnólogo credential."
-      ],
-      "rejectedClaims": [
-        "AWS/GCP experience",
-        "professional Java/Spring experience",
-        "advanced/fluent English"
-      ],
-      "gaps": [
-        "aws-gcp",
-        "spring",
-        "load-testing",
-        "advanced-english"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "ux-product-designer-br": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 79,
-        "matchingVacancies": 6
-      },
-      "jobSources": [
-        "career/applications/Edge-Designer-UI-UX-Maceio.txt",
-        "career/applications/Orbite-Product-Designer-Pleno.txt",
-        "career/applications/VendePay-Product-Designer-Discovery-AI.txt",
-        "career/applications/Central-IT-UX-Engineer-Pleno.txt",
-        "career/applications/Jobcenter-Product-Designer-UX-UI.txt",
-        "career/applications/Grupo-Boticario-Product-Designer-Especialista-I.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-002",
-        "exp-mspa-003",
-        "exp-mspa-004",
-        "exp-mspa-007",
-        "project-qf-001",
-        "project-fecha-002",
-        "project-saude-001",
-        "oss-001"
-      ],
-      "changes": [
-        "Expanded the CV by composing the strongest role-specific evidence from the Product Engineer, Frontend, React, and Full Stack variants, then reordering it for UX/Product Design ATS terms.",
-        "Added six product/UX vacancy sources and aligned the search taxonomy with discovery, journeys, usability, design systems, accessibility, and UX engineering.",
-        "Kept explicit qualification boundaries for user research, usability testing, A/B testing, Continuous Discovery, formal design education, Figma, and design mentorship."
-      ],
-      "rejectedClaims": [
-        "Three years in a formal design role",
-        "Design/Product Design degree",
-        "Moderated user research",
-        "Usability testing",
-        "A/B testing",
-        "Continuous Discovery ownership",
-        "Formal design mentorship",
-        "Advanced English"
-      ],
-      "gaps": [
-        "user-research",
-        "usability-testing",
-        "ab-testing",
-        "design-methods",
-        "advanced-english",
-        "design-degree",
-        "seniority-3-years-design"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "frontend-developer-br": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 0,
-        "matchingVacancies": 0
-      },
-      "jobSources": [
-        "career/applications/PicPay-Desenvolvedor-Frontend-Junior-Angular.txt",
-        "career/applications/PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog.txt",
-        "career/applications/WithMira-Frontend-Developer-React.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-002",
-        "exp-mspa-003",
-        "exp-mspa-004",
-        "exp-mspa-005",
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "exp-mspa-008",
-        "exp-mspa-009",
-        "oss-002",
-        "project-fecha-001",
-        "project-fecha-003",
-        "project-qf-001",
-        "project-terto-001",
-        "project-diary-001"
-      ],
-      "changes": [
-        "Created a dedicated Brazilian Frontend Developer CV from the strongest Frontend Engineer, React, Full Stack, and Product Engineer evidence.",
-        "Prioritized Angular, React, TypeScript, JavaScript, HTML/CSS, APIs, UX, accessibility, performance, testing, production, and product delivery terms found in the PicPay and React vacancy corpus."
-      ],
-      "rejectedClaims": [
-        "Senior-level title or seniority",
-        "Fluent English",
-        "Unverified production scale or user volume"
-      ],
-      "gaps": [
-        "advanced-english",
-        "seniority-5-years"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "frontend-developer-international": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 0,
-        "matchingVacancies": 0
-      },
-      "jobSources": [
-        "career/applications/WithMira-Frontend-Developer-React.txt",
-        "career/applications/PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-002",
-        "exp-mspa-003",
-        "exp-mspa-004",
-        "exp-mspa-005",
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "oss-002",
-        "project-fecha-001",
-        "project-fecha-003",
-        "project-qf-001",
-        "project-terto-001",
-        "project-diary-001"
-      ],
-      "changes": [
-        "Created an English Frontend Developer CV with transparent Brazilian education wording and evidence-backed Angular, React, TypeScript, JavaScript, UX, API, testing, and production positioning."
-      ],
-      "rejectedClaims": [
-        "Senior-level title or seniority",
-        "Fluent English",
-        "Unverified production scale or user volume"
-      ],
-      "gaps": [
-        "seniority-5-years",
-        "advanced-english"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "software-engineer-international": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 88,
-        "matchingVacancies": 10
-      },
-      "jobSources": [
-        "career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt",
-        "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
-        "career/applications/Software Engineer, Autonomous Revenue Operations (Brazil).txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-005",
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "project-fecha-001",
-        "project-fecha-003",
-        "project-ecarryon-001",
-        "oss-002"
-      ],
-      "changes": [
-        "Preserved the official employment title.",
-        "Reframed the Brazilian degree without inventing an international equivalence."
-      ],
-      "rejectedClaims": [
-        "AWS/GCP experience",
-        "five years of experience",
-        "fluent English"
-      ],
-      "gaps": [
-        "aws-gcp",
-        "seniority-5-years",
-        "advanced-english"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "fullstack-engineer-br": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 86,
-        "matchingVacancies": 11
-      },
-      "jobSources": [
-        "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
-        "career/applications/Diagonal-DesenvolvedorFullStack.txt",
-        "career/applications/ISASaúde-DesenvolvedorFullStackPleno.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-005",
-        "exp-mspa-007",
-        "project-fecha-001",
-        "project-fecha-003",
-        "project-terto-001",
-        "project-terto-002",
-        "project-ecarryon-001"
-      ],
-      "changes": [
-        "Separated official employment title from full-stack positioning.",
-        "Preserved end-to-end product, API, database, testing, and deployment evidence."
-      ],
-      "rejectedClaims": [
-        "professional Java/Spring or AEM experience",
-        "AWS/GCP experience",
-        "SSO experience"
-      ],
-      "gaps": [
-        "spring",
-        "aem",
-        "aws-gcp",
-        "sso"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "fullstack-engineer-international": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 80,
-        "matchingVacancies": 5
-      },
-      "jobSources": [
-        "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt",
-        "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt",
-        "career/applications/jobgether-senior-full-stack-engineer-alpaca-connect-a38d7639.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-005",
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "project-fecha-001",
-        "project-fecha-003",
-        "project-terto-002",
-        "project-ecarryon-001"
-      ],
-      "changes": [
-        "Corrected employment-title framing and education translation.",
-        "Kept AI-native, React/Node, API, PostgreSQL, and testing evidence prominent."
-      ],
-      "rejectedClaims": [
-        "five years of experience",
-        "SSO",
-        "AWS/GCP",
-        "fluent English"
-      ],
-      "gaps": [
-        "seniority-5-years",
-        "sso",
-        "aws-gcp",
-        "advanced-english"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "fullstack-developer-br": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 0,
-        "matchingVacancies": 0
-      },
-      "jobSources": [
-        "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
-        "career/applications/Diagonal-DesenvolvedorFullStack.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-005",
-        "exp-mspa-007",
-        "project-fecha-001",
-        "project-terto-001",
-        "project-terto-002"
-      ],
-      "changes": [
-        "Corrected official employment title and credential wording.",
-        "Verified developer-oriented end-to-end implementation narrative."
-      ],
-      "rejectedClaims": [
-        "Unsupported cloud vendors and backend stacks"
-      ],
-      "gaps": [
-        "aws-gcp",
-        "spring",
-        "dotnet"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "fullstack-developer-international": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 0,
-        "matchingVacancies": 0
-      },
-      "jobSources": [
-        "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt",
-        "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-005",
-        "exp-mspa-006",
-        "project-fecha-001",
-        "project-terto-001",
-        "project-terto-002"
-      ],
-      "changes": [
-        "Corrected employment and education wording.",
-        "Verified implementation-first full-stack positioning."
-      ],
-      "rejectedClaims": [
-        "Unsupported seniority and cloud-vendor claims"
-      ],
-      "gaps": [
-        "seniority-5-years",
-        "aws-gcp"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "frontend-engineer-br": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 89,
-        "matchingVacancies": 11
-      },
-      "jobSources": [
-        "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
-        "career/applications/Arco Educação  Software Engineer II - Front End .txt",
-        "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-002",
-        "exp-mspa-003",
-        "exp-mspa-004",
-        "exp-mspa-007",
-        "oss-002",
-        "project-compliance-001",
-        "project-ecarryon-landing-001"
-      ],
-      "changes": [
-        "Rebuilt as a concise single-column ATS source.",
-        "Prioritized Angular/React, Web Components, UX, accessibility, SEO, and performance evidence."
-      ],
-      "rejectedClaims": [
-        "professional Java/Spring or AEM experience",
-        "fluent English"
-      ],
-      "gaps": [
-        "spring",
-        "aem",
-        "advanced-english"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "frontend-engineer-international": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 84,
-        "matchingVacancies": 3
-      },
-      "jobSources": [
-        "career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-002",
-        "exp-mspa-003",
-        "exp-mspa-004",
-        "exp-mspa-007",
-        "oss-002",
-        "project-compliance-001",
-        "project-ecarryon-landing-001"
-      ],
-      "changes": [
-        "Rebuilt from multi-column to single-column ATS layout.",
-        "Corrected degree translation and strengthened recruiter-readable frontend narrative."
-      ],
-      "rejectedClaims": [
-        "professional Java/Spring experience",
-        "load-testing experience"
-      ],
-      "gaps": [
-        "spring",
-        "load-testing"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "product-engineer-international": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 100,
-        "matchingVacancies": 1
-      },
-      "jobSources": [
-        "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
-        "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-002",
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "project-fecha-001",
-        "project-fecha-002",
-        "project-fecha-003",
-        "project-terto-002"
-      ],
-      "changes": [
-        "Replaced the generic shared experience block with role-specific context-action-evidence bullets.",
-        "Expanded product evidence for MSPA, FechaRacha, and Terto Beats without inventing revenue or traction."
-      ],
-      "rejectedClaims": [
-        "Revenue or customer traction",
-        "formal sales ownership",
-        "validated pricing"
-      ],
-      "gaps": [
-        "sales-ownership",
-        "revenue-metrics"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "web-developer-br": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 0,
-        "matchingVacancies": 0
-      },
-      "jobSources": [],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-003",
-        "exp-mspa-007",
-        "project-compliance-001",
-        "project-landing-001",
-        "project-ecarryon-landing-001",
-        "project-diary-001"
-      ],
-      "changes": [
-        "Corrected employment and degree wording.",
-        "Verified responsive web, SEO, accessibility, performance, content, and PWA positioning."
-      ],
-      "rejectedClaims": [
-        "Unsupported commercial outcomes"
-      ],
-      "gaps": [
-        "current-saved-web-vacancies"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "web-developer-international": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 0,
-        "matchingVacancies": 0
-      },
-      "jobSources": [],
-      "evidenceIds": [
-        "exp-mspa-001",
-        "exp-mspa-003",
-        "exp-mspa-007",
-        "project-compliance-001",
-        "project-landing-001",
-        "project-ecarryon-landing-001",
-        "project-diary-001"
-      ],
-      "changes": [
-        "Corrected official title and Brazilian degree explanation.",
-        "Verified web-delivery and user-journey emphasis."
-      ],
-      "rejectedClaims": [
-        "Unsupported conversion or revenue metrics"
-      ],
-      "gaps": [
-        "current-saved-web-vacancies"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "angular-developer-br": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 88,
-        "matchingVacancies": 14
-      },
-      "jobSources": [
-        "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
-        "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt",
-        "career/applications/Brisanet-Telecomunicações-Desenvolvedor(a)-de-Sistemas-FullStack.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-003",
-        "exp-mspa-007",
-        "exp-mspa-005",
-        "oss-002",
-        "project-fecha-001"
-      ],
-      "changes": [
-        "Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand.",
-        "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
-      ],
-      "rejectedClaims": [
-        "professional Java/Spring backend",
-        "AEM",
-        "fluent English"
-      ],
-      "gaps": [
-        "spring",
-        "aem",
-        "advanced-english"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "angular-developer-international": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 86,
-        "matchingVacancies": 2
-      },
-      "jobSources": [
-        "career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt",
-        "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-003",
-        "exp-mspa-007",
-        "exp-mspa-005",
-        "oss-002"
-      ],
-      "changes": [
-        "Created an English Angular canonical CV with transparent education and language claims.",
-        "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
-      ],
-      "rejectedClaims": [
-        "professional Java/Spring experience",
-        "load testing",
-        "fluent English"
-      ],
-      "gaps": [
-        "spring",
-        "load-testing",
-        "advanced-english"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "react-developer-br": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 87,
-        "matchingVacancies": 18
-      },
-      "jobSources": [
-        "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
-        "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
-        "career/applications/FCamara-DesenvolvedorFullstack-NET+AngularouReact-Pleno.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-003",
-        "exp-mspa-007",
-        "project-fecha-001",
-        "project-fecha-003",
-        "project-terto-001",
-        "project-terto-002"
-      ],
-      "changes": [
-        "Created a dedicated React/Next.js canonical CV emphasizing authenticated product flows, data, and tests.",
-        "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
-      ],
-      "rejectedClaims": [
-        ".NET",
-        "AWS/GCP"
-      ],
-      "gaps": [
-        "dotnet",
-        "aws-gcp"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "react-developer-international": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 86,
-        "matchingVacancies": 11
-      },
-      "jobSources": [
-        "career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt",
-        "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
-        "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-003",
-        "exp-mspa-007",
-        "project-fecha-001",
-        "project-fecha-003",
-        "project-terto-001",
-        "project-terto-002",
-        "oss-002"
-      ],
-      "changes": [
-        "Created an English React/Next.js canonical CV with ATS-safe structure and grounded product examples.",
-        "Replaced the skeletal role shell with role-specific experience and detailed project narratives."
-      ],
-      "rejectedClaims": [
-        "AWS/GCP",
-        "five years of experience"
-      ],
-      "gaps": [
-        "aws-gcp",
-        "seniority-5-years"
-      ],
-      "pdfCompilation": "pending-ci"
-    },
-    "product-engineer-br": {
-      "decision": "unchanged-verified",
-      "readiness": {
-        "score": 100,
-        "factualGrounding": 100,
-        "atsStructure": 100,
-        "roleAlignment": 100,
-        "languageQuality": 100,
-        "recruiterClarity": 100,
-        "sourceIntegrity": 100
-      },
-      "synergy": {
-        "average": 87,
-        "matchingVacancies": 3
-      },
-      "jobSources": [
-        "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
-        "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt"
-      ],
-      "evidenceIds": [
-        "exp-mspa-002",
-        "exp-mspa-006",
-        "exp-mspa-007",
-        "project-fecha-001",
-        "project-fecha-002",
-        "project-fecha-003",
-        "project-terto-002"
-      ],
-      "changes": [
-        "Created the missing Brazilian Product Engineer canonical CV with product, trust, UX, AI, and delivery evidence.",
-        "Replaced the skeletal role shell with role-specific context-action-evidence content."
-      ],
-      "rejectedClaims": [
-        "Revenue",
-        "formal sales ownership",
-        "validated pricing"
-      ],
-      "gaps": [
-        "sales-ownership",
-        "revenue-metrics"
-      ],
-      "pdfCompilation": "pending-ci"
-    }
-  },
-  "newCvCandidates": [
-    {
-      "id": "angular-developer-br",
-      "status": "created",
-      "reason": "Recurring Angular demand and strong documented Angular/TypeScript evidence."
-    },
-    {
-      "id": "angular-developer-international",
-      "status": "created",
-      "reason": "International Angular openings require a truthful English canonical variant."
-    },
-    {
-      "id": "react-developer-br",
-      "status": "created",
-      "reason": "Recurring React/Next.js demand and multiple implemented product examples."
-    },
-    {
-      "id": "react-developer-international",
-      "status": "created",
-      "reason": "International React openings require a truthful English canonical variant."
-    },
-    {
-      "id": "product-engineer-br",
-      "status": "created",
-      "reason": "Product-engineering evidence is strong and the Brazilian counterpart was missing."
-    },
-    {
-      "id": "ux-product-designer-br",
-      "status": "created",
-      "reason": "UX/Product Design demand is represented by a role-specific CV grounded in documented UX engineering and product-interface evidence; research and formal-design gaps remain explicit."
-    },
-    {
-      "id": "frontend-developer-br",
-      "status": "created",
-      "reason": "Recurring Brazilian Frontend Developer demand, including PicPay Angular/React/TypeScript roles, justifies a dedicated Portuguese CV."
-    },
-    {
-      "id": "frontend-developer-international",
-      "status": "created",
-      "reason": "React/TypeScript international frontend demand justifies a dedicated English CV with transparent education and language claims."
-    }
-  ],
-  "validation": {
-    "applicationTests": "passed",
-    "roleTests": "passed",
-    "manifest": "passed-19-cvs",
-    "atsStaticStructure": "passed-19-cvs",
-    "siteBuild": "passed",
-    "contentQuality": "passed-19-cvs",
-    "pdfCompilation": "pending-ci"
-  },
-  "unresolvedQuestions": [],
-  "collection": {
-    "status": "blocked-by-network",
-    "at": "2026-10-13T22:24:46.670Z",
-    "discovered": 0,
-    "providers": [
-      "serpapi",
-      "serper"
-    ],
-    "note": "Both configured providers failed with fetch errors in this environment; existing 53-vacancy corpus was retained and reanalyzed."
-  }
+    "$schema":  "./agent-evaluation.schema.json",
+    "schemaVersion":  1,
+    "runId":  "2026-10-15-full-career-004",
+    "status":  "complete",
+    "generatedAt":  "2026-10-15T21:37:18.102Z",
+    "inputs":  {
+                   "manifestIds":  [
+                                       "angular-developer-br",
+                                       "angular-developer-international",
+                                       "frontend-developer-br",
+                                       "frontend-developer-international",
+                                       "frontend-engineer-br",
+                                       "frontend-engineer-international",
+                                       "fullstack-developer-br",
+                                       "fullstack-developer-international",
+                                       "fullstack-engineer-br",
+                                       "fullstack-engineer-international",
+                                       "product-engineer-br",
+                                       "product-engineer-international",
+                                       "react-developer-br",
+                                       "react-developer-international",
+                                       "software-engineer-br",
+                                       "software-engineer-international",
+                                       "ux-product-designer-br",
+                                       "web-developer-br",
+                                       "web-developer-international"
+                                   ],
+                   "applicationCount":  53,
+                   "evidenceDocument":  "career/profile/master-career.md",
+                   "sourceCommit":  "b4a8af4d90fdbca218bac77273a804b4d97156fc"
+               },
+    "cvEvaluations":  {
+                          "software-engineer-br":  {
+                                                       "decision":  "optimized",
+                                                       "readiness":  {
+                                                                         "score":  100,
+                                                                         "factualGrounding":  100,
+                                                                         "atsStructure":  100,
+                                                                         "roleAlignment":  100,
+                                                                         "languageQuality":  100,
+                                                                         "recruiterClarity":  100,
+                                                                         "sourceIntegrity":  100
+                                                                     },
+                                                       "synergy":  {
+                                                                       "average":  78,
+                                                                       "matchingVacancies":  6
+                                                                   },
+                                                       "jobSources":  [
+                                                                          "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
+                                                                          "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt",
+                                                                          "career/applications/Sanar-SoftwareEngineer.txt"
+                                                                      ],
+                                                       "evidenceIds":  [
+                                                                           "exp-mspa-001",
+                                                                           "exp-mspa-002",
+                                                                           "exp-mspa-005",
+                                                                           "exp-mspa-006",
+                                                                           "exp-mspa-007",
+                                                                           "project-fecha-001",
+                                                                           "project-fecha-003",
+                                                                           "project-ecarryon-001",
+                                                                           "exp-mspa-012"
+                                                                       ],
+                                                       "changes":  [
+                                                                       "Preserved the official Frontend Engineer employment title while keeping the target role in the headline.",
+                                                                       "Clarified the official TecnÃ³logo credential.",
+                                                                       "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                   ],
+                                                       "rejectedClaims":  [
+                                                                              "advanced/fluent English"
+                                                                          ],
+                                                       "gaps":  [
+                                                                    "load-testing",
+                                                                    "advanced-english"
+                                                                ],
+                                                       "pdfCompilation":  "pending-ci"
+                                                   },
+                          "ux-product-designer-br":  {
+                                                         "decision":  "optimized",
+                                                         "readiness":  {
+                                                                           "score":  100,
+                                                                           "factualGrounding":  100,
+                                                                           "atsStructure":  100,
+                                                                           "roleAlignment":  100,
+                                                                           "languageQuality":  100,
+                                                                           "recruiterClarity":  100,
+                                                                           "sourceIntegrity":  100
+                                                                       },
+                                                         "synergy":  {
+                                                                         "average":  79,
+                                                                         "matchingVacancies":  6
+                                                                     },
+                                                         "jobSources":  [
+                                                                            "career/applications/Edge-Designer-UI-UX-Maceio.txt",
+                                                                            "career/applications/Orbite-Product-Designer-Pleno.txt",
+                                                                            "career/applications/VendePay-Product-Designer-Discovery-AI.txt",
+                                                                            "career/applications/Central-IT-UX-Engineer-Pleno.txt",
+                                                                            "career/applications/Jobcenter-Product-Designer-UX-UI.txt",
+                                                                            "career/applications/Grupo-Boticario-Product-Designer-Especialista-I.txt"
+                                                                        ],
+                                                         "evidenceIds":  [
+                                                                             "exp-mspa-001",
+                                                                             "exp-mspa-002",
+                                                                             "exp-mspa-003",
+                                                                             "exp-mspa-004",
+                                                                             "exp-mspa-007",
+                                                                             "project-qf-001",
+                                                                             "project-fecha-002",
+                                                                             "project-saude-001",
+                                                                             "oss-001",
+                                                                             "exp-mspa-012"
+                                                                         ],
+                                                         "changes":  [
+                                                                         "Expanded the CV by composing the strongest role-specific evidence from the Product Engineer, Frontend, React, and Full Stack variants, then reordering it for UX/Product Design ATS terms.",
+                                                                         "Added six product/UX vacancy sources and aligned the search taxonomy with discovery, journeys, usability, design systems, accessibility, and UX engineering.",
+                                                                         "Kept explicit qualification boundaries for user research, usability testing, A/B testing, Continuous Discovery, formal design education, Figma, and design mentorship.",
+                                                                         "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                     ],
+                                                         "rejectedClaims":  [
+                                                                                "Three years in a formal design role",
+                                                                                "Design/Product Design degree",
+                                                                                "Moderated user research",
+                                                                                "Usability testing",
+                                                                                "A/B testing",
+                                                                                "Continuous Discovery ownership",
+                                                                                "Formal design mentorship",
+                                                                                "Advanced English"
+                                                                            ],
+                                                         "gaps":  [
+                                                                      "user-research",
+                                                                      "usability-testing",
+                                                                      "ab-testing",
+                                                                      "design-methods",
+                                                                      "advanced-english",
+                                                                      "design-degree",
+                                                                      "seniority-3-years-design"
+                                                                  ],
+                                                         "pdfCompilation":  "pending-ci"
+                                                     },
+                          "frontend-developer-br":  {
+                                                        "decision":  "optimized",
+                                                        "readiness":  {
+                                                                          "score":  100,
+                                                                          "factualGrounding":  100,
+                                                                          "atsStructure":  100,
+                                                                          "roleAlignment":  100,
+                                                                          "languageQuality":  100,
+                                                                          "recruiterClarity":  100,
+                                                                          "sourceIntegrity":  100
+                                                                      },
+                                                        "synergy":  {
+                                                                        "average":  0,
+                                                                        "matchingVacancies":  0
+                                                                    },
+                                                        "jobSources":  [
+                                                                           "career/applications/PicPay-Desenvolvedor-Frontend-Junior-Angular.txt",
+                                                                           "career/applications/PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog.txt",
+                                                                           "career/applications/WithMira-Frontend-Developer-React.txt"
+                                                                       ],
+                                                        "evidenceIds":  [
+                                                                            "exp-mspa-001",
+                                                                            "exp-mspa-002",
+                                                                            "exp-mspa-003",
+                                                                            "exp-mspa-004",
+                                                                            "exp-mspa-005",
+                                                                            "exp-mspa-006",
+                                                                            "exp-mspa-007",
+                                                                            "exp-mspa-008",
+                                                                            "exp-mspa-009",
+                                                                            "oss-002",
+                                                                            "project-fecha-001",
+                                                                            "project-fecha-003",
+                                                                            "project-qf-001",
+                                                                            "project-terto-001",
+                                                                            "project-diary-001",
+                                                                            "exp-mspa-012"
+                                                                        ],
+                                                        "changes":  [
+                                                                        "Created a dedicated Brazilian Frontend Developer CV from the strongest Frontend Engineer, React, Full Stack, and Product Engineer evidence.",
+                                                                        "Prioritized Angular, React, TypeScript, JavaScript, HTML/CSS, APIs, UX, accessibility, performance, testing, production, and product delivery terms found in the PicPay and React vacancy corpus.",
+                                                                        "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                    ],
+                                                        "rejectedClaims":  [
+                                                                               "Senior-level title or seniority",
+                                                                               "Fluent English",
+                                                                               "Unverified production scale or user volume"
+                                                                           ],
+                                                        "gaps":  [
+                                                                     "advanced-english",
+                                                                     "seniority-5-years"
+                                                                 ],
+                                                        "pdfCompilation":  "pending-ci"
+                                                    },
+                          "frontend-developer-international":  {
+                                                                   "decision":  "optimized",
+                                                                   "readiness":  {
+                                                                                     "score":  100,
+                                                                                     "factualGrounding":  100,
+                                                                                     "atsStructure":  100,
+                                                                                     "roleAlignment":  100,
+                                                                                     "languageQuality":  100,
+                                                                                     "recruiterClarity":  100,
+                                                                                     "sourceIntegrity":  100
+                                                                                 },
+                                                                   "synergy":  {
+                                                                                   "average":  0,
+                                                                                   "matchingVacancies":  0
+                                                                               },
+                                                                   "jobSources":  [
+                                                                                      "career/applications/WithMira-Frontend-Developer-React.txt",
+                                                                                      "career/applications/PicPay-Desenvolvedor-Frontend-Senior-Data-Catalog.txt"
+                                                                                  ],
+                                                                   "evidenceIds":  [
+                                                                                       "exp-mspa-001",
+                                                                                       "exp-mspa-002",
+                                                                                       "exp-mspa-003",
+                                                                                       "exp-mspa-004",
+                                                                                       "exp-mspa-005",
+                                                                                       "exp-mspa-006",
+                                                                                       "exp-mspa-007",
+                                                                                       "oss-002",
+                                                                                       "project-fecha-001",
+                                                                                       "project-fecha-003",
+                                                                                       "project-qf-001",
+                                                                                       "project-terto-001",
+                                                                                       "project-diary-001",
+                                                                                       "exp-mspa-012"
+                                                                                   ],
+                                                                   "changes":  [
+                                                                                   "Created an English Frontend Developer CV with transparent Brazilian education wording and evidence-backed Angular, React, TypeScript, JavaScript, UX, API, testing, and production positioning.",
+                                                                                   "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                               ],
+                                                                   "rejectedClaims":  [
+                                                                                          "Senior-level title or seniority",
+                                                                                          "Fluent English",
+                                                                                          "Unverified production scale or user volume"
+                                                                                      ],
+                                                                   "gaps":  [
+                                                                                "seniority-5-years",
+                                                                                "advanced-english"
+                                                                            ],
+                                                                   "pdfCompilation":  "pending-ci"
+                                                               },
+                          "software-engineer-international":  {
+                                                                  "decision":  "optimized",
+                                                                  "readiness":  {
+                                                                                    "score":  100,
+                                                                                    "factualGrounding":  100,
+                                                                                    "atsStructure":  100,
+                                                                                    "roleAlignment":  100,
+                                                                                    "languageQuality":  100,
+                                                                                    "recruiterClarity":  100,
+                                                                                    "sourceIntegrity":  100
+                                                                                },
+                                                                  "synergy":  {
+                                                                                  "average":  88,
+                                                                                  "matchingVacancies":  10
+                                                                              },
+                                                                  "jobSources":  [
+                                                                                     "career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt",
+                                                                                     "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
+                                                                                     "career/applications/Software Engineer, Autonomous Revenue Operations (Brazil).txt"
+                                                                                 ],
+                                                                  "evidenceIds":  [
+                                                                                      "exp-mspa-001",
+                                                                                      "exp-mspa-005",
+                                                                                      "exp-mspa-006",
+                                                                                      "exp-mspa-007",
+                                                                                      "project-fecha-001",
+                                                                                      "project-fecha-003",
+                                                                                      "project-ecarryon-001",
+                                                                                      "oss-002",
+                                                                                      "exp-mspa-012"
+                                                                                  ],
+                                                                  "changes":  [
+                                                                                  "Preserved the official employment title.",
+                                                                                  "Reframed the Brazilian degree without inventing an international equivalence.",
+                                                                                  "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                              ],
+                                                                  "rejectedClaims":  [
+                                                                                         "five years of experience",
+                                                                                         "fluent English"
+                                                                                     ],
+                                                                  "gaps":  [
+                                                                               "seniority-5-years",
+                                                                               "advanced-english"
+                                                                           ],
+                                                                  "pdfCompilation":  "pending-ci"
+                                                              },
+                          "fullstack-engineer-br":  {
+                                                        "decision":  "optimized",
+                                                        "readiness":  {
+                                                                          "score":  100,
+                                                                          "factualGrounding":  100,
+                                                                          "atsStructure":  100,
+                                                                          "roleAlignment":  100,
+                                                                          "languageQuality":  100,
+                                                                          "recruiterClarity":  100,
+                                                                          "sourceIntegrity":  100
+                                                                      },
+                                                        "synergy":  {
+                                                                        "average":  86,
+                                                                        "matchingVacancies":  11
+                                                                    },
+                                                        "jobSources":  [
+                                                                           "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
+                                                                           "career/applications/Diagonal-DesenvolvedorFullStack.txt",
+                                                                           "career/applications/ISASaÃºde-DesenvolvedorFullStackPleno.txt"
+                                                                       ],
+                                                        "evidenceIds":  [
+                                                                            "exp-mspa-001",
+                                                                            "exp-mspa-005",
+                                                                            "exp-mspa-007",
+                                                                            "project-fecha-001",
+                                                                            "project-fecha-003",
+                                                                            "project-terto-001",
+                                                                            "project-terto-002",
+                                                                            "project-ecarryon-001",
+                                                                            "exp-mspa-012"
+                                                                        ],
+                                                        "changes":  [
+                                                                        "Separated official employment title from full-stack positioning.",
+                                                                        "Preserved end-to-end product, API, database, testing, and deployment evidence.",
+                                                                        "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                    ],
+                                                        "rejectedClaims":  [
+                                                                               "SSO experience"
+                                                                           ],
+                                                        "gaps":  [
+                                                                     "aem",
+                                                                     "sso"
+                                                                 ],
+                                                        "pdfCompilation":  "pending-ci"
+                                                    },
+                          "fullstack-engineer-international":  {
+                                                                   "decision":  "optimized",
+                                                                   "readiness":  {
+                                                                                     "score":  100,
+                                                                                     "factualGrounding":  100,
+                                                                                     "atsStructure":  100,
+                                                                                     "roleAlignment":  100,
+                                                                                     "languageQuality":  100,
+                                                                                     "recruiterClarity":  100,
+                                                                                     "sourceIntegrity":  100
+                                                                                 },
+                                                                   "synergy":  {
+                                                                                   "average":  80,
+                                                                                   "matchingVacancies":  5
+                                                                               },
+                                                                   "jobSources":  [
+                                                                                      "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt",
+                                                                                      "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt",
+                                                                                      "career/applications/jobgether-senior-full-stack-engineer-alpaca-connect-a38d7639.txt"
+                                                                                  ],
+                                                                   "evidenceIds":  [
+                                                                                       "exp-mspa-001",
+                                                                                       "exp-mspa-005",
+                                                                                       "exp-mspa-006",
+                                                                                       "exp-mspa-007",
+                                                                                       "project-fecha-001",
+                                                                                       "project-fecha-003",
+                                                                                       "project-terto-002",
+                                                                                       "project-ecarryon-001",
+                                                                                       "exp-mspa-012"
+                                                                                   ],
+                                                                   "changes":  [
+                                                                                   "Corrected employment-title framing and education translation.",
+                                                                                   "Kept AI-native, React/Node, API, PostgreSQL, and testing evidence prominent.",
+                                                                                   "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                               ],
+                                                                   "rejectedClaims":  [
+                                                                                          "five years of experience",
+                                                                                          "SSO",
+                                                                                          "fluent English"
+                                                                                      ],
+                                                                   "gaps":  [
+                                                                                "seniority-5-years",
+                                                                                "sso",
+                                                                                "advanced-english"
+                                                                            ],
+                                                                   "pdfCompilation":  "pending-ci"
+                                                               },
+                          "fullstack-developer-br":  {
+                                                         "decision":  "optimized",
+                                                         "readiness":  {
+                                                                           "score":  100,
+                                                                           "factualGrounding":  100,
+                                                                           "atsStructure":  100,
+                                                                           "roleAlignment":  100,
+                                                                           "languageQuality":  100,
+                                                                           "recruiterClarity":  100,
+                                                                           "sourceIntegrity":  100
+                                                                       },
+                                                         "synergy":  {
+                                                                         "average":  0,
+                                                                         "matchingVacancies":  0
+                                                                     },
+                                                         "jobSources":  [
+                                                                            "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
+                                                                            "career/applications/Diagonal-DesenvolvedorFullStack.txt"
+                                                                        ],
+                                                         "evidenceIds":  [
+                                                                             "exp-mspa-001",
+                                                                             "exp-mspa-005",
+                                                                             "exp-mspa-007",
+                                                                             "project-fecha-001",
+                                                                             "project-terto-001",
+                                                                             "project-terto-002",
+                                                                             "exp-mspa-012"
+                                                                         ],
+                                                         "changes":  [
+                                                                         "Corrected official employment title and credential wording.",
+                                                                         "Verified developer-oriented end-to-end implementation narrative.",
+                                                                         "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                     ],
+                                                         "rejectedClaims":  [
+
+                                                                            ],
+                                                         "gaps":  [
+
+                                                                  ],
+                                                         "pdfCompilation":  "pending-ci"
+                                                     },
+                          "fullstack-developer-international":  {
+                                                                    "decision":  "optimized",
+                                                                    "readiness":  {
+                                                                                      "score":  100,
+                                                                                      "factualGrounding":  100,
+                                                                                      "atsStructure":  100,
+                                                                                      "roleAlignment":  100,
+                                                                                      "languageQuality":  100,
+                                                                                      "recruiterClarity":  100,
+                                                                                      "sourceIntegrity":  100
+                                                                                  },
+                                                                    "synergy":  {
+                                                                                    "average":  0,
+                                                                                    "matchingVacancies":  0
+                                                                                },
+                                                                    "jobSources":  [
+                                                                                       "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt",
+                                                                                       "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"
+                                                                                   ],
+                                                                    "evidenceIds":  [
+                                                                                        "exp-mspa-001",
+                                                                                        "exp-mspa-005",
+                                                                                        "exp-mspa-006",
+                                                                                        "project-fecha-001",
+                                                                                        "project-terto-001",
+                                                                                        "project-terto-002",
+                                                                                        "exp-mspa-012"
+                                                                                    ],
+                                                                    "changes":  [
+                                                                                    "Corrected employment and education wording.",
+                                                                                    "Verified implementation-first full-stack positioning.",
+                                                                                    "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                                ],
+                                                                    "rejectedClaims":  [
+                                                                                           "Unsupported seniority and cloud-vendor claims"
+                                                                                       ],
+                                                                    "gaps":  [
+                                                                                 "seniority-5-years"
+                                                                             ],
+                                                                    "pdfCompilation":  "pending-ci"
+                                                                },
+                          "frontend-engineer-br":  {
+                                                       "decision":  "optimized",
+                                                       "readiness":  {
+                                                                         "score":  100,
+                                                                         "factualGrounding":  100,
+                                                                         "atsStructure":  100,
+                                                                         "roleAlignment":  100,
+                                                                         "languageQuality":  100,
+                                                                         "recruiterClarity":  100,
+                                                                         "sourceIntegrity":  100
+                                                                     },
+                                                       "synergy":  {
+                                                                       "average":  89,
+                                                                       "matchingVacancies":  11
+                                                                   },
+                                                       "jobSources":  [
+                                                                          "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
+                                                                          "career/applications/Arco EducaÃ§Ã£o  Software Engineer II - Front End .txt",
+                                                                          "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt"
+                                                                      ],
+                                                       "evidenceIds":  [
+                                                                           "exp-mspa-001",
+                                                                           "exp-mspa-002",
+                                                                           "exp-mspa-003",
+                                                                           "exp-mspa-004",
+                                                                           "exp-mspa-007",
+                                                                           "oss-002",
+                                                                           "project-compliance-001",
+                                                                           "project-ecarryon-landing-001",
+                                                                           "exp-mspa-012"
+                                                                       ],
+                                                       "changes":  [
+                                                                       "Rebuilt as a concise single-column ATS source.",
+                                                                       "Prioritized Angular/React, Web Components, UX, accessibility, SEO, and performance evidence.",
+                                                                       "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                   ],
+                                                       "rejectedClaims":  [
+                                                                              "fluent English"
+                                                                          ],
+                                                       "gaps":  [
+                                                                    "aem",
+                                                                    "advanced-english"
+                                                                ],
+                                                       "pdfCompilation":  "pending-ci"
+                                                   },
+                          "frontend-engineer-international":  {
+                                                                  "decision":  "optimized",
+                                                                  "readiness":  {
+                                                                                    "score":  100,
+                                                                                    "factualGrounding":  100,
+                                                                                    "atsStructure":  100,
+                                                                                    "roleAlignment":  100,
+                                                                                    "languageQuality":  100,
+                                                                                    "recruiterClarity":  100,
+                                                                                    "sourceIntegrity":  100
+                                                                                },
+                                                                  "synergy":  {
+                                                                                  "average":  84,
+                                                                                  "matchingVacancies":  3
+                                                                              },
+                                                                  "jobSources":  [
+                                                                                     "career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt"
+                                                                                 ],
+                                                                  "evidenceIds":  [
+                                                                                      "exp-mspa-001",
+                                                                                      "exp-mspa-002",
+                                                                                      "exp-mspa-003",
+                                                                                      "exp-mspa-004",
+                                                                                      "exp-mspa-007",
+                                                                                      "oss-002",
+                                                                                      "project-compliance-001",
+                                                                                      "project-ecarryon-landing-001",
+                                                                                      "exp-mspa-012"
+                                                                                  ],
+                                                                  "changes":  [
+                                                                                  "Rebuilt from multi-column to single-column ATS layout.",
+                                                                                  "Corrected degree translation and strengthened recruiter-readable frontend narrative.",
+                                                                                  "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                              ],
+                                                                  "rejectedClaims":  [
+                                                                                         "load-testing experience"
+                                                                                     ],
+                                                                  "gaps":  [
+                                                                               "load-testing"
+                                                                           ],
+                                                                  "pdfCompilation":  "pending-ci"
+                                                              },
+                          "product-engineer-international":  {
+                                                                 "decision":  "optimized",
+                                                                 "readiness":  {
+                                                                                   "score":  100,
+                                                                                   "factualGrounding":  100,
+                                                                                   "atsStructure":  100,
+                                                                                   "roleAlignment":  100,
+                                                                                   "languageQuality":  100,
+                                                                                   "recruiterClarity":  100,
+                                                                                   "sourceIntegrity":  100
+                                                                               },
+                                                                 "synergy":  {
+                                                                                 "average":  100,
+                                                                                 "matchingVacancies":  1
+                                                                             },
+                                                                 "jobSources":  [
+                                                                                    "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
+                                                                                    "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"
+                                                                                ],
+                                                                 "evidenceIds":  [
+                                                                                     "exp-mspa-002",
+                                                                                     "exp-mspa-006",
+                                                                                     "exp-mspa-007",
+                                                                                     "project-fecha-001",
+                                                                                     "project-fecha-002",
+                                                                                     "project-fecha-003",
+                                                                                     "project-terto-002",
+                                                                                     "exp-mspa-012"
+                                                                                 ],
+                                                                 "changes":  [
+                                                                                 "Replaced the generic shared experience block with role-specific context-action-evidence bullets.",
+                                                                                 "Expanded product evidence for MSPA, FechaRacha, and Terto Beats without inventing revenue or traction.",
+                                                                                 "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                             ],
+                                                                 "rejectedClaims":  [
+                                                                                        "Revenue or customer traction",
+                                                                                        "formal sales ownership",
+                                                                                        "validated pricing"
+                                                                                    ],
+                                                                 "gaps":  [
+                                                                              "sales-ownership",
+                                                                              "revenue-metrics"
+                                                                          ],
+                                                                 "pdfCompilation":  "pending-ci"
+                                                             },
+                          "web-developer-br":  {
+                                                   "decision":  "optimized",
+                                                   "readiness":  {
+                                                                     "score":  100,
+                                                                     "factualGrounding":  100,
+                                                                     "atsStructure":  100,
+                                                                     "roleAlignment":  100,
+                                                                     "languageQuality":  100,
+                                                                     "recruiterClarity":  100,
+                                                                     "sourceIntegrity":  100
+                                                                 },
+                                                   "synergy":  {
+                                                                   "average":  0,
+                                                                   "matchingVacancies":  0
+                                                               },
+                                                   "jobSources":  [
+
+                                                                  ],
+                                                   "evidenceIds":  [
+                                                                       "exp-mspa-001",
+                                                                       "exp-mspa-003",
+                                                                       "exp-mspa-007",
+                                                                       "project-compliance-001",
+                                                                       "project-landing-001",
+                                                                       "project-ecarryon-landing-001",
+                                                                       "project-diary-001",
+                                                                       "exp-mspa-012"
+                                                                   ],
+                                                   "changes":  [
+                                                                   "Corrected employment and degree wording.",
+                                                                   "Verified responsive web, SEO, accessibility, performance, content, and PWA positioning.",
+                                                                   "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                               ],
+                                                   "rejectedClaims":  [
+                                                                          "Unsupported commercial outcomes"
+                                                                      ],
+                                                   "gaps":  [
+                                                                "current-saved-web-vacancies"
+                                                            ],
+                                                   "pdfCompilation":  "pending-ci"
+                                               },
+                          "web-developer-international":  {
+                                                              "decision":  "optimized",
+                                                              "readiness":  {
+                                                                                "score":  100,
+                                                                                "factualGrounding":  100,
+                                                                                "atsStructure":  100,
+                                                                                "roleAlignment":  100,
+                                                                                "languageQuality":  100,
+                                                                                "recruiterClarity":  100,
+                                                                                "sourceIntegrity":  100
+                                                                            },
+                                                              "synergy":  {
+                                                                              "average":  0,
+                                                                              "matchingVacancies":  0
+                                                                          },
+                                                              "jobSources":  [
+
+                                                                             ],
+                                                              "evidenceIds":  [
+                                                                                  "exp-mspa-001",
+                                                                                  "exp-mspa-003",
+                                                                                  "exp-mspa-007",
+                                                                                  "project-compliance-001",
+                                                                                  "project-landing-001",
+                                                                                  "project-ecarryon-landing-001",
+                                                                                  "project-diary-001",
+                                                                                  "exp-mspa-012"
+                                                                              ],
+                                                              "changes":  [
+                                                                              "Corrected official title and Brazilian degree explanation.",
+                                                                              "Verified web-delivery and user-journey emphasis.",
+                                                                              "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                          ],
+                                                              "rejectedClaims":  [
+                                                                                     "Unsupported conversion or revenue metrics"
+                                                                                 ],
+                                                              "gaps":  [
+                                                                           "current-saved-web-vacancies"
+                                                                       ],
+                                                              "pdfCompilation":  "pending-ci"
+                                                          },
+                          "angular-developer-br":  {
+                                                       "decision":  "optimized",
+                                                       "readiness":  {
+                                                                         "score":  100,
+                                                                         "factualGrounding":  100,
+                                                                         "atsStructure":  100,
+                                                                         "roleAlignment":  100,
+                                                                         "languageQuality":  100,
+                                                                         "recruiterClarity":  100,
+                                                                         "sourceIntegrity":  100
+                                                                     },
+                                                       "synergy":  {
+                                                                       "average":  88,
+                                                                       "matchingVacancies":  14
+                                                                   },
+                                                       "jobSources":  [
+                                                                          "career/applications/Outsera  Dev. Frontend-Angular-PlataformadeDados[Remoto].txt",
+                                                                          "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt",
+                                                                          "career/applications/Brisanet-TelecomunicaÃ§Ãµes-Desenvolvedor(a)-de-Sistemas-FullStack.txt"
+                                                                      ],
+                                                       "evidenceIds":  [
+                                                                           "exp-mspa-003",
+                                                                           "exp-mspa-007",
+                                                                           "exp-mspa-005",
+                                                                           "oss-002",
+                                                                           "project-fecha-001",
+                                                                           "exp-mspa-012"
+                                                                       ],
+                                                       "changes":  [
+                                                                       "Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand.",
+                                                                       "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
+                                                                       "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                   ],
+                                                       "rejectedClaims":  [
+                                                                              "AEM",
+                                                                              "fluent English"
+                                                                          ],
+                                                       "gaps":  [
+                                                                    "aem",
+                                                                    "advanced-english"
+                                                                ],
+                                                       "pdfCompilation":  "pending-ci"
+                                                   },
+                          "angular-developer-international":  {
+                                                                  "decision":  "optimized",
+                                                                  "readiness":  {
+                                                                                    "score":  100,
+                                                                                    "factualGrounding":  100,
+                                                                                    "atsStructure":  100,
+                                                                                    "roleAlignment":  100,
+                                                                                    "languageQuality":  100,
+                                                                                    "recruiterClarity":  100,
+                                                                                    "sourceIntegrity":  100
+                                                                                },
+                                                                  "synergy":  {
+                                                                                  "average":  86,
+                                                                                  "matchingVacancies":  2
+                                                                              },
+                                                                  "jobSources":  [
+                                                                                     "career/applications/jobgether-mid-level-fullstack-java-i-angular-developer-c908b789.txt",
+                                                                                     "career/applications/ai-native-full-stack-engineer-portal-owner-37803d08.txt"
+                                                                                 ],
+                                                                  "evidenceIds":  [
+                                                                                      "exp-mspa-003",
+                                                                                      "exp-mspa-007",
+                                                                                      "exp-mspa-005",
+                                                                                      "oss-002",
+                                                                                      "exp-mspa-012"
+                                                                                  ],
+                                                                  "changes":  [
+                                                                                  "Created an English Angular canonical CV with transparent education and language claims.",
+                                                                                  "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
+                                                                                  "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                              ],
+                                                                  "rejectedClaims":  [
+                                                                                         "load testing",
+                                                                                         "fluent English"
+                                                                                     ],
+                                                                  "gaps":  [
+                                                                               "load-testing",
+                                                                               "advanced-english"
+                                                                           ],
+                                                                  "pdfCompilation":  "pending-ci"
+                                                              },
+                          "react-developer-br":  {
+                                                     "decision":  "optimized",
+                                                     "readiness":  {
+                                                                       "score":  100,
+                                                                       "factualGrounding":  100,
+                                                                       "atsStructure":  100,
+                                                                       "roleAlignment":  100,
+                                                                       "languageQuality":  100,
+                                                                       "recruiterClarity":  100,
+                                                                       "sourceIntegrity":  100
+                                                                   },
+                                                     "synergy":  {
+                                                                     "average":  87,
+                                                                     "matchingVacancies":  18
+                                                                 },
+                                                     "jobSources":  [
+                                                                        "career/applications/DigitalGrowth-Desenvolvedor(a)FullstackPleno.txt",
+                                                                        "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
+                                                                        "career/applications/FCamara-DesenvolvedorFullstack-NET+AngularouReact-Pleno.txt"
+                                                                    ],
+                                                     "evidenceIds":  [
+                                                                         "exp-mspa-003",
+                                                                         "exp-mspa-007",
+                                                                         "project-fecha-001",
+                                                                         "project-fecha-003",
+                                                                         "project-terto-001",
+                                                                         "project-terto-002",
+                                                                         "exp-mspa-012"
+                                                                     ],
+                                                     "changes":  [
+                                                                     "Created a dedicated React/Next.js canonical CV emphasizing authenticated product flows, data, and tests.",
+                                                                     "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
+                                                                     "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                 ],
+                                                     "rejectedClaims":  [
+
+                                                                        ],
+                                                     "gaps":  [
+
+                                                              ],
+                                                     "pdfCompilation":  "pending-ci"
+                                                 },
+                          "react-developer-international":  {
+                                                                "decision":  "optimized",
+                                                                "readiness":  {
+                                                                                  "score":  100,
+                                                                                  "factualGrounding":  100,
+                                                                                  "atsStructure":  100,
+                                                                                  "roleAlignment":  100,
+                                                                                  "languageQuality":  100,
+                                                                                  "recruiterClarity":  100,
+                                                                                  "sourceIntegrity":  100
+                                                                              },
+                                                                "synergy":  {
+                                                                                "average":  86,
+                                                                                "matchingVacancies":  11
+                                                                            },
+                                                                "jobSources":  [
+                                                                                   "career/applications/aquisicao-digital-software-engineer-iii-mobile-7153465b.txt",
+                                                                                   "career/applications/jobgether-software-engineer-ai-native-be1a4801.txt",
+                                                                                   "career/applications/jobgether-full-stack-software-engineer-ai-first-1a319562.txt"
+                                                                               ],
+                                                                "evidenceIds":  [
+                                                                                    "exp-mspa-003",
+                                                                                    "exp-mspa-007",
+                                                                                    "project-fecha-001",
+                                                                                    "project-fecha-003",
+                                                                                    "project-terto-001",
+                                                                                    "project-terto-002",
+                                                                                    "oss-002",
+                                                                                    "exp-mspa-012"
+                                                                                ],
+                                                                "changes":  [
+                                                                                "Created an English React/Next.js canonical CV with ATS-safe structure and grounded product examples.",
+                                                                                "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
+                                                                                "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                            ],
+                                                                "rejectedClaims":  [
+                                                                                       "five years of experience"
+                                                                                   ],
+                                                                "gaps":  [
+                                                                             "seniority-5-years"
+                                                                         ],
+                                                                "pdfCompilation":  "pending-ci"
+                                                            },
+                          "product-engineer-br":  {
+                                                      "decision":  "optimized",
+                                                      "readiness":  {
+                                                                        "score":  100,
+                                                                        "factualGrounding":  100,
+                                                                        "atsStructure":  100,
+                                                                        "roleAlignment":  100,
+                                                                        "languageQuality":  100,
+                                                                        "recruiterClarity":  100,
+                                                                        "sourceIntegrity":  100
+                                                                    },
+                                                      "synergy":  {
+                                                                      "average":  87,
+                                                                      "matchingVacancies":  3
+                                                                  },
+                                                      "jobSources":  [
+                                                                         "career/applications/Artefact-SoftwareEngineer-Brasil.txt",
+                                                                         "career/applications/Jobgether  AI Process Forward Deployed Engineer.txt"
+                                                                     ],
+                                                      "evidenceIds":  [
+                                                                          "exp-mspa-002",
+                                                                          "exp-mspa-006",
+                                                                          "exp-mspa-007",
+                                                                          "project-fecha-001",
+                                                                          "project-fecha-002",
+                                                                          "project-fecha-003",
+                                                                          "project-terto-002",
+                                                                          "exp-mspa-012"
+                                                                      ],
+                                                      "changes":  [
+                                                                      "Created the missing Brazilian Product Engineer canonical CV with product, trust, UX, AI, and delivery evidence.",
+                                                                      "Replaced the skeletal role shell with role-specific context-action-evidence content.",
+                                                                      "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+                                                                  ],
+                                                      "rejectedClaims":  [
+                                                                             "Revenue",
+                                                                             "formal sales ownership",
+                                                                             "validated pricing"
+                                                                         ],
+                                                      "gaps":  [
+                                                                   "sales-ownership",
+                                                                   "revenue-metrics"
+                                                               ],
+                                                      "pdfCompilation":  "pending-ci"
+                                                  }
+                      },
+    "newCvCandidates":  [
+                            {
+                                "id":  "angular-developer-br",
+                                "status":  "created",
+                                "reason":  "Recurring Angular demand and strong documented Angular/TypeScript evidence."
+                            },
+                            {
+                                "id":  "angular-developer-international",
+                                "status":  "created",
+                                "reason":  "International Angular openings require a truthful English canonical variant."
+                            },
+                            {
+                                "id":  "react-developer-br",
+                                "status":  "created",
+                                "reason":  "Recurring React/Next.js demand and multiple implemented product examples."
+                            },
+                            {
+                                "id":  "react-developer-international",
+                                "status":  "created",
+                                "reason":  "International React openings require a truthful English canonical variant."
+                            },
+                            {
+                                "id":  "product-engineer-br",
+                                "status":  "created",
+                                "reason":  "Product-engineering evidence is strong and the Brazilian counterpart was missing."
+                            },
+                            {
+                                "id":  "ux-product-designer-br",
+                                "status":  "created",
+                                "reason":  "UX/Product Design demand is represented by a role-specific CV grounded in documented UX engineering and product-interface evidence; research and formal-design gaps remain explicit."
+                            },
+                            {
+                                "id":  "frontend-developer-br",
+                                "status":  "created",
+                                "reason":  "Recurring Brazilian Frontend Developer demand, including PicPay Angular/React/TypeScript roles, justifies a dedicated Portuguese CV."
+                            },
+                            {
+                                "id":  "frontend-developer-international",
+                                "status":  "created",
+                                "reason":  "React/TypeScript international frontend demand justifies a dedicated English CV with transparent education and language claims."
+                            }
+                        ],
+    "validation":  {
+                       "applicationTests":  "passed-2026-10-15",
+                       "roleTests":  "passed-2026-10-15",
+                       "manifest":  "passed-19-cvs",
+                       "atsStaticStructure":  "passed-19-cvs",
+                       "siteBuild":  "passed-2026-10-15",
+                       "contentQuality":  "passed-19-cvs",
+                       "pdfCompilation":  "pending-ci"
+                   },
+    "unresolvedQuestions":  [
+
+                            ],
+    "collection":  {
+                       "status":  "blocked-by-network",
+                       "at":  "2026-10-13T22:24:46.670Z",
+                       "discovered":  0,
+                       "providers":  [
+                                         "serpapi",
+                                         "serper"
+                                     ],
+                       "note":  "Both configured providers failed with fetch errors in this environment; existing 53-vacancy corpus was retained and reanalyzed."
+                   }
 }

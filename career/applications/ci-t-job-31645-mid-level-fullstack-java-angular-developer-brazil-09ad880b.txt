@@ -1,0 +1,75 @@
+Source URL: https://jobs.lever.co/ciandt/f3517328-145f-406c-8c70-40f3e031d53b
+Collected at: 2026-10-15T21:31:46.857Z
+Market: brazil
+Discovery: serpapi, serper
+Explicit age: unknown
+Fit signals: angular, web-components, testing, node, cicd, ux, ui, java
+
+[Job 31645] Mid Level Fullstack (Java / Angular) Developer, Brazil
+BrazilGU2 – Prod_GU2 /Homeoffice /Remote
+	APPLY FOR THIS JOB
+
+Na CI&T , ajudamos grandes empresas a transformar o potencial da AI em impacto real nos negócios com AI Deployment, execução AI-native e tech-integrated business solutions.
+
+Com 30 anos de experiência em transformação tecnológica, aceleramos inovação com expertise em agentic SDLC, application modernization, Data & AI, martech e business strategy. 
+
+Somos 8.000 CI&Ters em mais de 25 países, colaborando para construir soluções com impacto real. AI já faz parte da forma como trabalhamos, evoluímos e inovamos todos os dias.
+
+Importante: se você reside na Região Metropolitana de Campinas, sua presença nos escritórios da cidade será obrigatória, conforme a política de frequencia vigente.
+
+Buscamos pessoas localizadas no Brasil para trabalhar como Fullstack Developer e atuar em um projeto do ramo financeiro.
+
+Responsabilidades:
+ - Realizar o entendimento das necessidades técnicas, participando de inceptions e refinamentos;
+ - Atuar no desenvolvimento e evolução de uma solução escalável e de alta performance;
+ - Atendimento de INs da frente de atuação;
+ - Criar o principal canal de parcerias do cliente.
+
+Requisitos para este desafio:
+- Desenvolvimento backend em Java 8 e 21;
+- Desenvolvimento frontend;
+- Testes automatizados;
+- Cloud Azure;
+- Frameworks: Springboot, Angular 8+, Nodejs;
+- Microsserviços ;
+- Familiariedade com processos de CI / CD;
+- Testes automatizados;
+- Conhecimento de padrão de projeto;
+- Conhecimento em Docker / conteinerização de aplicações;
+- Git;
+- Comunicação para garantir o alinhamento de todas as pessoas do time e do cliente;
+- Entendimento adequado de demandas de negócio, bem como refinamento técnico;
+- Qualidade de código e boas práticas de programação;
+- Criticar e buscar melhoria contínua;
+
+Diferencias:
+- Excelentes habilidades de comunicação e capacidade de trabalhar em equipe;
+- Autonomia e Proatividade.
+
+Nossos benefícios:
+ 
+- Plano de saúde e odontológico;
+- Vale alimentação e refeição;
+- Auxílio-creche;
+- Licença parental estendida;
+- Parceria com academias e profissionais de saúde e bem-estar via Wellhub (Gympass)  TotalPass;
+- Participação nos Lucros e Resultados (PLR);
+- Seguro de Vida;
+- Plataforma de aprendizagem contínua (CI&T University);
+- Clube de descontos;
+- Plataforma online gratuita dedicada à promoção da saúde física, mental e bem-estar;
+- Curso gestante e parentalidade responsável;
+- Parceria com plataformas de cursos online;
+- Plataforma para aprendizagem de idiomas;
+- E muitos outros
+ 
+Mais detalhes sobre os nossos benefícios aqui: https://ciandt.com/br/pt-br/carreiras
+ 
+Na CI&T, a inclusão começa no primeiro contato. Se você é pessoa com deficiência, é importante apresentar o seu laudo durante o processo seletivo. Consulte quais dados são necessários conter no laudo clicando aqui. Assim, podemos garantir o suporte e as adaptações que você merece. Se ainda não tem o laudo caracterizador, não se preocupe: podemos te apoiar para obtê-lo.
+ 
+Temos um time dedicado de Saúde e Bem-estar, especialistas em inclusão e grupos de afinidade que estarão com você em todas as etapas. Conte com a gente para fazer essa jornada lado a lado.
+APPLY FOR THIS JOB
+
+CI&T Home Page
+
+Jobs powered by

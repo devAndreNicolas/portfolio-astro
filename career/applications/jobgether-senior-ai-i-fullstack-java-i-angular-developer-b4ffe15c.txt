@@ -1,0 +1,116 @@
+Source URL: https://jobs.lever.co/jobgether/a86f5dfc-cf54-46bb-904d-e51f38e08ac4
+Collected at: 2026-10-15T21:32:01.967Z
+Market: brazil
+Discovery: serpapi, serper
+Explicit age: unknown
+Fit signals: angular, web-components, testing, code-review, node, rest-api, security, cicd, ai-product, product, ui, java
+
+Senior AI I Fullstack (Java I Angular) Developer
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for a Senior AI | Fullstack (Java | Angular) Developer based in Brazil.
+
+Overview
+
+Join a forward-thinking technology environment where artificial intelligence, advanced software engineering, and intelligent automation are transforming the software development lifecycle. In this senior role, you will lead the integration of AI-powered tools and intelligent agents into engineering workflows, helping teams deliver high-quality solutions faster and more efficiently. You will combine strong Java and Spring expertise with AI orchestration, context engineering, and Spec-Driven Development practices. Working with multidisciplinary teams in the financial services sector, you will help establish technical standards, governance frameworks, and architectural best practices. You will also promote reliable AI-generated code through automated testing, code reviews, and continuous integration. This is an opportunity to shape next-generation engineering practices and drive meaningful innovation in a collaborative, continuously evolving environment.
+
+Accountabilities
+
+Lead the technical orchestration of AI tools and intelligent agents throughout the software development lifecycle, improving engineering productivity and delivery quality.
+
+Implement and maintain technical specifications and contextual guidance for agent-driven execution using Spec-Driven Development (SDD).
+
+Establish engineering governance practices and quality standards for AI-generated code, defining guardrails to minimize technical inaccuracies and unreliable outputs.
+
+Explore, implement, and optimize agentic development tools and workflows, including GitHub Copilot, Skills, Model Context Protocol (MCP) integrations, prompt engineering, and context engineering.
+
+Guide engineering teams in applying unit testing, automated testing, code reviews, code quality controls, and observability practices.
+
+Contribute to the design and evolution of software architectures involving Java, Spring, microservices, messaging systems, and AI-enabled capabilities.
+
+Collaborate with stakeholders and multidisciplinary teams to evaluate technical challenges and align architectural decisions with business and functional requirements.
+
+Identify opportunities to automate repetitive engineering tasks and improve development workflows through AI-assisted practices.
+
+Promote continuous improvement, technical knowledge sharing, and responsible adoption of AI technologies across development teams.
+
+Help ensure that AI-enabled solutions meet standards for maintainability, reliability, security, and scalability.
+
+Requirements
+
+Strong professional experience in software engineering using Java 17 or later and the Spring ecosystem, including Spring Boot and Spring Cloud.
+
+Practical experience applying artificial intelligence to software engineering workflows and developing or orchestrating intelligent agents.
+
+Solid knowledge of Spec-Driven Development (SDD), context engineering, and prompt orchestration techniques.
+
+Hands-on experience with GitHub Copilot, Skills, and MCP integrations.
+
+Knowledge of microservices architecture, messaging systems such as Kafka or RabbitMQ, and cloud platforms such as Microsoft Azure or AWS.
+
+Experience with unit testing, code quality practices, and CI/CD pipelines using tools such as GitLab, Jenkins, SonarQube, and Jira.
+
+Strong understanding of software architecture, development standards, and engineering governance.
+
+Excellent analytical and problem-solving skills, with the ability to assess AI-generated code and identify technical risks.
+
+Strong communication and collaboration skills, with the ability to influence technical decisions and work effectively across multidisciplinary teams.
+
+Adaptability and a continuous improvement mindset, particularly in dynamic environments focused on innovation and emerging technologies.
+
+Nice to have:
+
+Experience with additional programming languages such as Python or Node.js.
+
+Familiarity with front-end development frameworks, particularly Angular.
+
+Knowledge of event-driven architecture (EDA) and Infrastructure as Code tools such as Terraform or Bicep.
+
+Experience designing context architectures, including Retrieval-Augmented Generation (RAG), local knowledge bases, and specification files such as agents.md.
+
+Benefits
+
+Health and dental insurance.
+
+Meal and food allowances.
+
+Childcare assistance.
+
+Extended parental leave.
+
+Access to gyms and health and wellness professionals through Wellhub and TotalPass partnerships.
+
+Profit-sharing program (PLR).
+
+Life insurance.
+
+Continuous learning opportunities through a dedicated corporate learning platform.
+
+Employee discount programs.
+
+Free online resources focused on physical health, mental health, and overall well-being.
+
+Courses supporting pregnancy and responsible parenting.
+
+Partnerships with online learning platforms.
+
+Access to language-learning resources.
+
+Additional benefits and professional development opportunities.
+
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by

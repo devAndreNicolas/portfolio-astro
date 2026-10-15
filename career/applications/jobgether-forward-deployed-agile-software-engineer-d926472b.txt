@@ -1,0 +1,95 @@
+Source URL: https://jobs.lever.co/jobgether/060396ce-e43c-46de-8e25-ef2c5f0c65b9
+Collected at: 2026-10-15T21:31:33.924Z
+Market: brazil
+Discovery: serpapi, serper
+Explicit age: unknown
+Fit signals: typescript, web-components, testing, rest-api, authorization, security, cicd, ai-product, product, ux, ui
+
+Forward Deployed Agile Software Engineer
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, which manages all applications and next steps. Our partner is looking for a Forward Deployed Agile Software Engineer based in Brazil.
+
+Join a forward-thinking engineering environment where software development, artificial intelligence, and product innovation come together to solve complex business challenges.
+In this role, you will work directly with clients to transform ambiguous needs into practical, production-ready digital solutions.
+You will design and build AI-powered applications, autonomous agents, intelligent workflows, and full-stack software tailored to real-world business requirements.
+Beyond developing models and prompts, you will engineer the systems that make AI applications reliable, secure, observable, and scalable.
+Collaborating with multidisciplinary teams, you will move seamlessly from technical discovery and rapid prototyping to deployment and continuous improvement.
+You will have the opportunity to influence technical strategy, establish engineering best practices, and deliver measurable value across diverse industries.
+This role is ideal for a hands-on engineer who thrives in dynamic environments, enjoys customer collaboration, and is passionate about bringing emerging AI technologies into production.
+
+Accountabilities
+Client collaboration and technical discovery: Partner with clients and internal teams to understand business objectives, operational workflows, technical environments, data sources, and constraints. Translate ambiguous challenges into clear requirements, solution architectures, prototypes, and actionable delivery plans.
+AI application and software development: Design, develop, and deploy AI-enabled applications, agentic workflows, APIs, developer tools, data pipelines, and full-stack products that address real business needs.
+AI harness engineering: Build the infrastructure surrounding AI models, including prompts, tools, context management, memory, permissions, runtime controls, observability, and feedback mechanisms required for reliable production performance.
+Agent orchestration and workflow design: Develop and refine agent loops that support planning, tool selection, execution, observation, reflection, recovery, and termination. Model complex workflows using graphs, state machines, and orchestration patterns that coordinate models, systems, data, and human approvals.
+Evaluation and quality assurance: Create evaluation frameworks and testing strategies to measure task completion, accuracy, reliability, safety, latency, cost, and user value. Use representative datasets, regression testing, human review, and production feedback to continuously improve system performance.
+Rapid prototyping and product delivery: Build proofs of concept, validate solutions with real users, and transform successful prototypes into secure, scalable, maintainable production systems.
+Enterprise integration: Connect AI solutions to client systems, enterprise data sources, cloud platforms, APIs, databases, and third-party services while ensuring compatibility with existing technology environments.
+AI safety, security, and reliability: Establish appropriate safeguards, permission boundaries, approval mechanisms, and fallback strategies for autonomous and semi-autonomous systems. Identify and address issues such as hallucinations, prompt injection, context loss, looping, brittle tool calls, and unsafe execution.
+Observability and troubleshooting: Instrument applications to capture traces, intermediate states, performance metrics, and failures. Diagnose complex technical and operational issues and use insights to improve reliability and user outcomes.
+Engineering excellence: Apply strong software engineering practices across automated testing, documentation, security, version control, observability, and continuous integration and delivery.
+Cross-functional communication: Work closely with product managers, designers, engineers, data specialists, security teams, and client stakeholders. Communicate technical decisions, limitations, risks, trade-offs, and progress clearly to technical and non-technical audiences.
+Knowledge sharing and innovation: Develop reusable components, technical patterns, and implementation insights that strengthen future projects. Contribute to technical discovery, solution demonstrations, workshops, and pre-sales discussions when needed.
+Requirements
+Professional software engineering experience: Demonstrated experience building and deploying production-grade software, ideally including AI-powered applications, autonomous agents, or agentic systems.
+Programming proficiency: Strong skills in Python, TypeScript, or another programming language commonly used for AI applications, platforms, and developer tooling.
+Harness engineering expertise: Practical understanding of how to design the infrastructure, context, tools, permissions, controls, and feedback mechanisms that enable AI agents to operate reliably in production.
+Agentic workflow development: Experience building or working with agent loops involving planning, tool selection, execution, observation, reflection, recovery, and termination.
+Workflow orchestration: Familiarity with graph-based orchestration, state machines, and multi-step workflows coordinating agents, tools, data, and human approvals.
+AI evaluation and testing: Experience designing evaluation systems for AI applications, including task-based benchmarks, regression suites, model-graded evaluations, human review, and production monitoring.
+Understanding of AI systems: Knowledge of prompt design, context management, memory, retrieval, tool use, structured outputs, and model selection, including the trade-offs affecting quality, reliability, latency, and cost.
+Observability and debugging: Experience instrumenting AI systems to trace decisions, inspect intermediate states, measure quality, and diagnose failures.
+Core technical foundations: Strong understanding of APIs, distributed systems, databases, cloud infrastructure, and modern software development practices.
+Problem-solving and adaptability: Ability to quickly understand unfamiliar technologies, business domains, and existing systems, then turn ambiguous customer problems into tested prototypes and production-ready solutions.
+Product judgment: Ability to balance model capabilities, reliability, security, latency, cost, maintainability, and user experience when making technical decisions.
+Client-facing experience: Experience collaborating directly with customers, stakeholders, or cross-functional delivery teams, with the ability to build trust and navigate evolving requirements.
+Communication skills: Excellent written and verbal communication skills, including the ability to explain AI behavior, limitations, risks, and technical trade-offs clearly.
+Ownership and mindset: A high degree of curiosity, empathy, accountability, initiative, and willingness to work in fast-moving environments where technical constraints and business priorities may change.
+Flexibility: Willingness to travel occasionally for client workshops or on-site delivery when required.
+
+Nice to have:
+
+Experience with agent frameworks, workflow engines, coding agents, or custom model-orchestration systems.
+Experience building tool interfaces, execution sandboxes, permission models, and human-in-the-loop controls for autonomous or semi-autonomous systems.
+Familiarity with retrieval-augmented generation (RAG), embeddings, vector search, knowledge graphs, fine-tuning, and model-routing strategies.
+Experience evaluating AI systems using golden datasets, simulators, adversarial testing, online experiments, and production feedback.
+Familiarity with AI observability tools and practices, including execution traces, token and cost analysis, latency monitoring, failure classification, and quality dashboards.
+Experience developing multi-model systems or specialized agents that collaborate to complete complex tasks.
+Understanding of AI security risks, including prompt injection, data leakage, excessive agency, insecure tool use, and supply-chain vulnerabilities.
+Experience with cloud platforms such as AWS, Microsoft Azure, or Google Cloud, as well as containers, Kubernetes, infrastructure as code, and CI/CD tooling.
+Contributions to open-source AI infrastructure, evaluation tools, agent frameworks, or related projects.
+Experience delivering solutions in regulated industries or complex enterprise environments.
+Background in consulting, professional services, solutions engineering, sales engineering, or other customer-facing technical roles.
+A track record of taking products from initial discovery through production launch and ongoing adoption.
+Claude Certified Architect – Foundations or Professional certification, or an equivalent qualification, supported by practical experience building Claude-based AI solutions, agentic workflows, and enterprise integrations.
+Demonstrated experience in agentic AI and harness-driven development, including designing, building, and optimizing autonomous agents, multi-agent workflows, tool integrations, and the harnesses required for reliable, scalable production applications.
+
+Candidates do not need to meet every listed qualification to apply. Professionals with relevant adjacent experience and a strong interest in the role are encouraged to submit their applications.
+
+Benefits
+Meaningful technical challenges: Work on high-impact problems across industries, technology platforms, and business domains.
+Hands-on product development: Build and deploy real-world software and production systems rather than limiting your work to recommendations or presentations.
+Direct client collaboration: Work closely with customers, understand their needs, and see the tangible impact of your technical decisions.
+Exposure to emerging technologies: Explore AI-powered applications, agentic systems, harness engineering, modern software development, and innovative product delivery approaches.
+Cross-functional collaboration: Partner with multidisciplinary teams that value experimentation, knowledge sharing, and continuous learning.
+Technical influence: Contribute to engineering standards, reusable solutions, and evolving technical practices across projects.
+Ownership and autonomy: Take responsibility for solving complex problems and helping promising ideas progress from discovery to production.
+Inclusive work environment: Join a culture that values diverse perspectives, equal opportunity, empowerment, transparency, and thoughtful innovation.
+Remote work: Work remotely, with occasional travel for client workshops or on-site delivery when required.
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by

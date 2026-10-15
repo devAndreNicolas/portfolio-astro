@@ -114,7 +114,7 @@ O output deve incluir todos os CV IDs, readiness por dimensão, synergy agregada
 ## Estado da execução
 
 - Status: `complete`
-- Run ID: `2026-10-13-full-career-003`
-- Início: `2026-10-13T22:24:46Z`
-- Fim: `2026-10-13T22:25:46Z`
-- Resultado: os dois provedores configurados (SerpAPI e Serper) falharam com `fetch failed`; a coleta externa fica registrada como bloqueada por rede, sem afirmar que não havia vagas. O corpus local completo de 53 vagas foi reanalisado, com análise, recomendações de cargo, role-fit, relatório e dashboard atualizados. Os 19 IDs do manifesto mantêm readiness 100/100 e foram registrados na avaliação estruturada. Testes de aplicações e cargos, `cv:check`, `career:verify` e `pnpm validate` passaram. `/career/` consome o relatório/dashboard e `/cv/` usa o manifesto; GitHub Actions segue restrito à compilação/publicação dos PDFs. Compilação dos PDFs permanece `pending-ci` porque não há `latexmk` nem Tectonic localmente.
+- Run ID: `2026-10-15-full-career-004`
+- Início: `2026-10-15T21:20:00Z`
+- Fim: `2026-10-15T21:40:00Z`
+- Resultado: a coleta Brasil atualizou o corpus local, que foi analisado junto às 53 vagas disponíveis. Os 19 IDs do manifesto foram revisados e enriquecidos com a confirmação direta de experiência MSPA em Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, segurança, testes, acessibilidade, documentação técnica e entrega de UI. As fontes foram normalizadas para uma coluna, 10 pt e margens convencionais, sem reduzir conteúdo para forçar uma página. `applications:test`, `roles:test`, `cv:check`, `cv:content:check`, `career:cv-fit`, `career:verify` e `pnpm validate` passaram. Os relatórios, dashboard e histórico da rodada foram atualizados; a compilação/verificação de PDFs permanece `pending-ci` porque não há `latexmk` nem Tectonic localmente.

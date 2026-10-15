@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-15-full-career-004",
+  "status": "complete",
+  "summary": {
+    "reason": "Full career run requested to enrich every canonical CV with candidate-confirmed MSPA experience and improve the shared ATS-readable layout.",
+    "market": {
+      "analyzedVacancies": 53,
+      "collection": "Brazil collection refreshed; 10 new local vacancy files were retained and analyzed."
+    },
+    "cvReview": {
+      "manifestIds": 19,
+      "changes": "All canonical source files now use a readable 10pt single-column layout with conventional margins. Every role family received a clearly separated MSPA contribution block for Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, technical documentation, and UI delivery.",
+      "readiness": "100/100 for all 19 manifest IDs",
+      "pdfCompilation": "pending-ci"
+    },
+    "validation": {
+      "applications": "passed",
+      "roles": "passed",
+      "cvCheck": "passed",
+      "contentQuality": "passed",
+      "roleFit": "updated",
+      "careerVerify": "passed",
+      "siteBuild": "passed"
+    }
+  },
+  "outputs": [
+    "career/profile/master-career.md",
+    "career/operations/agent-evaluation.json",
+    "career/operations/report.json",
+    "src/data/career-dashboard.json"
+  ],
+  "unresolvedQuestions": []
+}

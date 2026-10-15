@@ -1,0 +1,72 @@
+Source URL: https://jobs.lever.co/jobgether/647d2594-bbdf-42eb-80e4-1bf7fc7a03fb
+Collected at: 2026-10-15T21:31:28.614Z
+Market: brazil
+Discovery: serpapi, serper
+Explicit age: unknown
+Fit signals: typescript, react, nextjs, web-components, node, rest-api, postgresql, security, cicd, ui
+
+Software Engineer, Trust & Safety
+BrazilSecurity & IT – IT /Full-Time /Remote
+	APPLY FOR THIS JOB
+
+This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Software Engineer, Trust & Safety based in Brazil.
+
+Join a fully remote engineering team building reliable email infrastructure for millions of developers worldwide. As a Software Engineer specializing in Trust & Safety, you will design and develop sophisticated anti-abuse systems that protect legitimate senders while preventing spam, phishing, fraud, and account compromise. You will build real-time enforcement mechanisms, scalable detection pipelines, and automated workflows that turn security signals into effective action within milliseconds. Working across backend services, infrastructure, databases, and machine learning, you will help strengthen platform security without compromising the experience of legitimate users. You will have significant ownership over technical decisions, from initial discovery through production deployment. This role offers the opportunity to solve complex engineering challenges in a quality-focused, collaborative, and globally distributed environment.
+
+Accountabilities:
+Build and operate real-time enforcement systems that evaluate and act on potential abuse within strict millisecond-level latency requirements.
+Design scalable detection pipelines that transform signals from email sending, receiving, and account activity into decisions and automated actions.
+Develop, maintain, and improve detection rules and enforcement policies, ensuring they can be updated safely and evaluated consistently.
+Detect and contain account takeovers and leaked API keys by identifying suspicious behavioral changes and limiting potential damage while avoiding unnecessary account lockouts.
+Establish feedback mechanisms that record the reasons behind enforcement decisions and reversals, measure detection precision, and identify rules that negatively affect legitimate senders.
+Automate manual workflows, including investigations, appeals, and bulk enforcement actions, to improve operational efficiency as platform usage grows.
+Build, evaluate, and deploy machine learning classifiers for spam and phishing detection, validating their precision before enabling automated enforcement.
+Implement safeguards that reduce false positives and ensure enforcement decisions are reliable, explainable, and reversible where appropriate.
+Maintain comprehensive observability through structured logs, metrics, tracing, error handling, and audit trails for all enforcement activities.
+Contribute across the full technology stack, including frontend interfaces, backend services, databases, queues, and supporting infrastructure.
+Collaborate with engineering colleagues and developers using the platform to understand real-world needs and deliver effective, dependable solutions.
+Take ownership of projects from discovery and technical design through implementation, production deployment, and continuous improvement.
+
+Requirements:
+
+At least five years of professional software engineering experience.
+Strong written and spoken English communication skills.
+Deep hands-on experience with Node.js, TypeScript, and React, ideally including frameworks such as Hono and Next.js.
+Experience with Go or a strong willingness to use it for latency-sensitive backend services.
+Solid infrastructure and reliability engineering skills, including experience with AWS, AWS CDK, and Datadog.
+Strong understanding of APIs, event-driven architectures, queues, and stateful services.
+Experience designing resilient systems that fail safely, with an emphasis on treating false positives as defects that must be investigated and addressed.
+Strong observability practices, including metrics, logging, distributed tracing, error handling, and production monitoring.
+Ability to take ownership across the stack, from frontend applications to backend services, databases, and messaging infrastructure.
+Proven experience working with PostgreSQL and Redis.
+Preferred: Previous experience in trust and safety engineering, fraud prevention, cybersecurity, or abuse detection.
+Preferred: Experience building real-time enforcement systems, such as rate limiting, or rules engines using policy languages such as CEL.
+Preferred: Experience deploying machine learning or large language model-based detection systems in production, including measuring precision and recall.
+Preferred: Knowledge of email security and deliverability concepts, including SPF, DKIM, DMARC, bounces, complaints, and phishing campaigns.
+Preferred: Experience with PostgreSQL and Redis performance tuning.
+
+Benefits:
+
+Fully remote working arrangement for candidates based in the Americas or European time zones, subject to role eligibility.
+Annual compensation of $150,000–$175,000 USD, depending on location and experience.
+Opportunity to influence technical architecture and engineering decisions.
+Ownership of projects from discovery through production deployment.
+Close collaboration with developers who use the platform and benefit directly from the systems you build.
+A globally distributed team that values thoughtful feedback, shared learning, and mutual support.
+A strong focus on software quality, infrastructure reliability, and excellent developer experience.
+Opportunities to attend team offsites, conferences, meetups, and other professional gatherings, with some travel expected.
+How Jobgether works:
+We use an AI-powered matching process to ensure your application is reviewed quickly, objectively, and fairly against the role's core requirements. Our system identifies the top-fitting candidates, and this shortlist is then shared directly with the hiring company. The final decision and next steps (interviews, assessments) are managed by their internal team.
+We appreciate your interest and wish you the best!
+ Why Apply Through Jobgether? 
+ 
+Data Privacy Notice: By submitting your application, you acknowledge that Jobgether will process your personal data to evaluate your candidacy and share relevant information with the hiring employer. This processing is based on legitimate interest and pre-contractual measures under applicable data protection laws (including GDPR). You may exercise your rights (access, rectification, erasure, objection) at any time.
+ 
+ 
+#LI-CL1
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+APPLY FOR THIS JOB
+
+Jobgether Home Page
+
+Jobs powered by
