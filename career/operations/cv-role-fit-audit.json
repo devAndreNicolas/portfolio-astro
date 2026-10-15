@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T21:35:41.162Z",
+  "generatedAt": "2026-10-15T22:11:32.314Z",
   "definition": "Independent fit audit: compares recognized job requirements with the actual recommended CV text and evidence-backed terms. It is not ATS pass probability or a hiring prediction.",
   "thresholds": {
     "strongFit": "claimable coverage >= 70% and no missing/unsupported required term",
@@ -9,11 +9,11 @@
   "summary": [
     {
       "cv": "software-engineer-international",
-      "vacancyCount": 10,
-      "averageOriginalEvidenceCoverage": 88,
-      "averageCvClaimableCoverage": 88,
+      "vacancyCount": 14,
+      "averageOriginalEvidenceCoverage": 86,
+      "averageCvClaimableCoverage": 86,
       "averageDelta": 0,
-      "criticalGapVacancies": 7
+      "criticalGapVacancies": 10
     },
     {
       "cv": "ux-product-designer-br",
@@ -22,6 +22,14 @@
       "averageCvClaimableCoverage": 79,
       "averageDelta": 0,
       "criticalGapVacancies": 2
+    },
+    {
+      "cv": "frontend-engineer-br",
+      "vacancyCount": 13,
+      "averageOriginalEvidenceCoverage": 89,
+      "averageCvClaimableCoverage": 89,
+      "averageDelta": 0,
+      "criticalGapVacancies": 7
     },
     {
       "cv": "fullstack-engineer-br",
@@ -40,6 +48,14 @@
       "criticalGapVacancies": 3
     },
     {
+      "cv": "frontend-engineer-international",
+      "vacancyCount": 6,
+      "averageOriginalEvidenceCoverage": 84,
+      "averageCvClaimableCoverage": 84,
+      "averageDelta": 0,
+      "criticalGapVacancies": 4
+    },
+    {
       "cv": "product-engineer-international",
       "vacancyCount": 1,
       "averageOriginalEvidenceCoverage": 100,
@@ -48,28 +64,12 @@
       "criticalGapVacancies": 0
     },
     {
-      "cv": "frontend-engineer-br",
-      "vacancyCount": 11,
-      "averageOriginalEvidenceCoverage": 89,
-      "averageCvClaimableCoverage": 89,
+      "cv": "fullstack-engineer-international",
+      "vacancyCount": 6,
+      "averageOriginalEvidenceCoverage": 82,
+      "averageCvClaimableCoverage": 82,
       "averageDelta": 0,
       "criticalGapVacancies": 6
-    },
-    {
-      "cv": "frontend-engineer-international",
-      "vacancyCount": 3,
-      "averageOriginalEvidenceCoverage": 84,
-      "averageCvClaimableCoverage": 84,
-      "averageDelta": 0,
-      "criticalGapVacancies": 2
-    },
-    {
-      "cv": "fullstack-engineer-international",
-      "vacancyCount": 5,
-      "averageOriginalEvidenceCoverage": 80,
-      "averageCvClaimableCoverage": 80,
-      "averageDelta": 0,
-      "criticalGapVacancies": 5
     }
   ],
   "applications": [
@@ -96,6 +96,18 @@
       "unsupportedRequired": [],
       "missingFromCv": [],
       "evaluatedRequirements": 2
+    },
+    {
+      "source": "career/applications/ci-t-job-31645-mid-level-fullstack-java-angular-developer-brazil-09ad880b.txt",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "originalEvidenceCoverage": 100,
+      "cvClaimableCoverage": 100,
+      "delta": 0,
+      "status": "strong-fit",
+      "requiredMissing": [],
+      "unsupportedRequired": [],
+      "missingFromCv": [],
+      "evaluatedRequirements": 7
     },
     {
       "source": "career/applications/Diagonal-DesenvolvedorFullStack.txt",
@@ -144,6 +156,18 @@
       "unsupportedRequired": [],
       "missingFromCv": [],
       "evaluatedRequirements": 7
+    },
+    {
+      "source": "career/applications/jobgether-frontend-developer-react-a3d2e70d.txt",
+      "recommendedCanonicalCv": "frontend-engineer-international",
+      "originalEvidenceCoverage": 100,
+      "cvClaimableCoverage": 100,
+      "delta": 0,
+      "status": "strong-fit",
+      "requiredMissing": [],
+      "unsupportedRequired": [],
+      "missingFromCv": [],
+      "evaluatedRequirements": 13
     },
     {
       "source": "career/applications/jobgether-senior-software-engineer-product-expansion-team-e788ea5e.txt",
@@ -326,6 +350,20 @@
       "evaluatedRequirements": 10
     },
     {
+      "source": "career/applications/applied-ai-engineer-startups-6a029767.txt",
+      "recommendedCanonicalCv": "software-engineer-international",
+      "originalEvidenceCoverage": 89,
+      "cvClaimableCoverage": 89,
+      "delta": 0,
+      "status": "strong-fit",
+      "requiredMissing": [],
+      "unsupportedRequired": [],
+      "missingFromCv": [
+        "seniority-5-years"
+      ],
+      "evaluatedRequirements": 9
+    },
+    {
       "source": "career/applications/CI&T  Mid-Level Fullstack Developer ( Java + Angular ) Brazil.txt",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "originalEvidenceCoverage": 89,
@@ -398,6 +436,20 @@
       "evaluatedRequirements": 17
     },
     {
+      "source": "career/applications/jobgether-senior-full-stack-engineer-tech-lead-608a49fc.txt",
+      "recommendedCanonicalCv": "fullstack-engineer-international",
+      "originalEvidenceCoverage": 88,
+      "cvClaimableCoverage": 88,
+      "delta": 0,
+      "status": "review-critical-gaps",
+      "requiredMissing": [],
+      "unsupportedRequired": [
+        "aws-gcp"
+      ],
+      "missingFromCv": [],
+      "evaluatedRequirements": 10
+    },
+    {
       "source": "career/applications/INDIStaffingServices-AngularDeveloper-Remote-Work.txt",
       "recommendedCanonicalCv": "frontend-engineer-br",
       "originalEvidenceCoverage": 87,
@@ -432,6 +484,30 @@
         "advanced-english"
       ],
       "evaluatedRequirements": 8
+    },
+    {
+      "source": "career/applications/jobgether-desenvolvedor-a-full-stack-com-enfase-em-frontend-2acf3dee.txt",
+      "recommendedCanonicalCv": "frontend-engineer-br",
+      "originalEvidenceCoverage": 87,
+      "cvClaimableCoverage": 83,
+      "delta": 4,
+      "status": "review-critical-gaps",
+      "requiredMissing": [
+        "product",
+        "ab-testing",
+        "aem"
+      ],
+      "unsupportedRequired": [
+        "ab-testing",
+        "aem",
+        "documentation"
+      ],
+      "missingFromCv": [
+        "product",
+        "ab-testing",
+        "aem"
+      ],
+      "evaluatedRequirements": 24
     },
     {
       "source": "career/applications/jobgether-senior-software-engineer-ai-driven-curveglass-0e337170.txt",
@@ -478,6 +554,25 @@
         "rag"
       ],
       "evaluatedRequirements": 8
+    },
+    {
+      "source": "career/applications/jobgether-forward-deployed-agile-software-engineer-d926472b.txt",
+      "recommendedCanonicalCv": "software-engineer-international",
+      "originalEvidenceCoverage": 84,
+      "cvClaimableCoverage": 84,
+      "delta": 0,
+      "status": "review-critical-gaps",
+      "requiredMissing": [
+        "design-methods"
+      ],
+      "unsupportedRequired": [
+        "design-methods"
+      ],
+      "missingFromCv": [
+        "design-methods",
+        "rag"
+      ],
+      "evaluatedRequirements": 12
     },
     {
       "source": "career/applications/jobgether-senior-software-engineer-full-stack-9569b578.txt",
@@ -564,6 +659,25 @@
       ],
       "missingFromCv": [],
       "evaluatedRequirements": 7
+    },
+    {
+      "source": "career/applications/jobgether-senior-full-stack-developer-react-node-js-78f6ab6b.txt",
+      "recommendedCanonicalCv": "frontend-engineer-international",
+      "originalEvidenceCoverage": 82,
+      "cvClaimableCoverage": 82,
+      "delta": 0,
+      "status": "review-critical-gaps",
+      "requiredMissing": [
+        "load-testing"
+      ],
+      "unsupportedRequired": [
+        "aws-gcp",
+        "load-testing"
+      ],
+      "missingFromCv": [
+        "load-testing"
+      ],
+      "evaluatedRequirements": 16
     },
     {
       "source": "career/applications/N-iX  Fullstack Engineer (ScalaTypeScript).txt",
@@ -667,6 +781,26 @@
       "evaluatedRequirements": 9
     },
     {
+      "source": "career/applications/jobgether-software-engineer-trust-safety-aae1085a.txt",
+      "recommendedCanonicalCv": "software-engineer-international",
+      "originalEvidenceCoverage": 79,
+      "cvClaimableCoverage": 79,
+      "delta": 0,
+      "status": "review-critical-gaps",
+      "requiredMissing": [
+        "seniority-5-years"
+      ],
+      "unsupportedRequired": [
+        "aws-gcp",
+        "seniority-5-years"
+      ],
+      "missingFromCv": [
+        "seniority-5-years",
+        "load-testing"
+      ],
+      "evaluatedRequirements": 12
+    },
+    {
       "source": "career/applications/senior-frontend-engineer-media-production-brazil-a0724182.txt",
       "recommendedCanonicalCv": "frontend-engineer-international",
       "originalEvidenceCoverage": 79,
@@ -736,6 +870,27 @@
       "evaluatedRequirements": 11
     },
     {
+      "source": "career/applications/jobgether-senior-ai-i-fullstack-java-i-angular-developer-b4ffe15c.txt",
+      "recommendedCanonicalCv": "frontend-engineer-international",
+      "originalEvidenceCoverage": 70,
+      "cvClaimableCoverage": 70,
+      "delta": 0,
+      "status": "review-critical-gaps",
+      "requiredMissing": [
+        "load-testing"
+      ],
+      "unsupportedRequired": [
+        "aws-gcp",
+        "load-testing",
+        "spring"
+      ],
+      "missingFromCv": [
+        "load-testing",
+        "rag"
+      ],
+      "evaluatedRequirements": 14
+    },
+    {
       "source": "career/applications/Athelas-SoftwareEngineer-Applied-AI(Brazil).txt",
       "recommendedCanonicalCv": "software-engineer-br",
       "originalEvidenceCoverage": 68,
@@ -774,6 +929,29 @@
       "evaluatedRequirements": 7
     },
     {
+      "source": "career/applications/jobgether-architect-software-engineer-e7a025a8.txt",
+      "recommendedCanonicalCv": "software-engineer-international",
+      "originalEvidenceCoverage": 68,
+      "cvClaimableCoverage": 68,
+      "delta": 0,
+      "status": "review-critical-gaps",
+      "requiredMissing": [
+        "dotnet",
+        "load-testing"
+      ],
+      "unsupportedRequired": [
+        "aws-gcp",
+        "documentation",
+        "dotnet",
+        "load-testing"
+      ],
+      "missingFromCv": [
+        "dotnet",
+        "load-testing"
+      ],
+      "evaluatedRequirements": 13
+    },
+    {
       "source": "career/applications/software-engineer-applied-ai-brazil-687d1d4b.txt",
       "recommendedCanonicalCv": "software-engineer-international",
       "originalEvidenceCoverage": 68,
@@ -799,12 +977,16 @@
       "cvClaimableCoverage": 65,
       "delta": 0,
       "status": "review-critical-gaps",
-      "requiredMissing": [],
+      "requiredMissing": [
+        "dotnet"
+      ],
       "unsupportedRequired": [
         "aws-gcp",
         "dotnet"
       ],
-      "missingFromCv": [],
+      "missingFromCv": [
+        "dotnet"
+      ],
       "evaluatedRequirements": 6
     },
     {

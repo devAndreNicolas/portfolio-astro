@@ -114,7 +114,7 @@ O output deve incluir todos os CV IDs, readiness por dimensão, synergy agregada
 ## Estado da execução
 
 - Status: `complete`
-- Run ID: `2026-10-15-full-career-004`
-- Início: `2026-10-15T21:20:00Z`
-- Fim: `2026-10-15T21:40:00Z`
-- Resultado: a coleta Brasil atualizou o corpus local, que foi analisado junto às 53 vagas disponíveis. Os 19 IDs do manifesto foram revisados e enriquecidos com a confirmação direta de experiência MSPA em Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, segurança, testes, acessibilidade, documentação técnica e entrega de UI. As fontes foram normalizadas para uma coluna, 10 pt e margens convencionais, sem reduzir conteúdo para forçar uma página. `applications:test`, `roles:test`, `cv:check`, `cv:content:check`, `career:cv-fit`, `career:verify` e `pnpm validate` passaram. Os relatórios, dashboard e histórico da rodada foram atualizados; a compilação/verificação de PDFs permanece `pending-ci` porque não há `latexmk` nem Tectonic localmente.
+- Run ID: `2026-10-15-full-career-005`
+- Início: `2026-10-15T22:00:00Z`
+- Fim: `2026-10-15T22:15:00Z`
+- Resultado: a coleta Brasil foi tentada, mas os dois providers configurados falharam por rede; o corpus local de 63 vagas foi preservado e reanalisado. Os 19 IDs do manifesto foram atualizados por meio de suas 17 fontes canônicas: .NET, C, C# e C++ foram removidos como experiência não suportada; AWS/Azure e engenharia de harnesses de IA foram incorporados com contexto, avaliação determinística e guardrails de escopo, qualidade de saída e custo de modelo; e FechaRacha foi atualizado para Marca Racha onde o projeto aparece. Python permanece como evidência privada até haver projeto mais forte para sustentar posicionamento público. `applications:test`, `roles:test`, `cv:check`, `cv:content:check`, `career:cv-fit`, `career:verify` e `pnpm validate` passaram. Os relatórios, dashboard e histórico da rodada foram atualizados; a compilação/verificação de PDFs permanece `pending-ci` porque não há `latexmk` nem Tectonic localmente.

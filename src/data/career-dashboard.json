@@ -1,141 +1,310 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T21:37:28.235Z",
+  "generatedAt": "2026-10-15T22:14:33.498Z",
   "collection": {
-    "at": "2026-10-15T21:32:17.354Z",
+    "at": "2026-10-15T22:11:16.081Z",
     "country": "brazil",
     "provider": "both",
     "afterDate": "2026-10-12",
     "maxAgeDays": 7,
-    "discovered": 46,
-    "collected": 10,
-    "rejected": {
-      "duplicate": 1,
-      "location": 0,
-      "stale": 0,
-      "mismatch": 3,
-      "structure": 10,
-      "blocked": 0
-    },
-    "attempts": [
+    "discovered": 0,
+    "collected": 0,
+    "rejected": {},
+    "attempts": [],
+    "discoveryErrors": [
       {
-        "url": "https://jobs.ashbyhq.com/trustly/aa2da7bd-bb22-42c7-bb39-a95b260943fc",
-        "title": "Staff Software Engineer, Payment Gateway",
-        "reason": "insufficient-core-signals",
-        "fitSignals": [
-          "web-components",
-          "security",
-          "ai-product",
-          "payments",
-          "ui",
-          "java"
-        ]
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.ashbyhq.com/openai?resource_id=73",
-        "title": "Open Positions (805)",
-        "reason": "structure",
-        "textLength": 95017
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.ashbyhq.com/openai/8cad7bcc-3720-4534-822d-d9722599e8a6?resource_id=73",
-        "title": "Applied AI Engineer, Startups",
-        "reason": "duplicate"
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://boards.greenhouse.io/airbnb/jobs/8263303",
-        "title": "Software Engineer, Analytics Infrastructure",
-        "reason": "structure",
-        "textLength": 7462
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://boards.greenhouse.io/airbnb/jobs/8263282",
-        "title": "Senior Software Engineer, Analytics Infrastructure",
-        "reason": "structure",
-        "textLength": 7150
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://boards.greenhouse.io/bitwarden/jobs/8008706003",
-        "title": "404",
-        "reason": "structure",
-        "textLength": 121
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://boards.greenhouse.io/bitwarden/jobs/8005324003",
-        "title": "Lead Software Engineer (Provider/Business Unit Portals)",
-        "reason": "structure",
-        "textLength": 7783
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://boards.greenhouse.io/okta/jobs/8220649",
-        "title": "Staff Software Engineer",
-        "reason": "insufficient-core-signals",
-        "fitSignals": [
-          "accessibility",
-          "seo",
-          "web-components",
-          "rest-api",
-          "auth",
-          "authorization",
-          "security",
-          "ux",
-          "ui",
-          "java"
-        ]
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://boards.greenhouse.io/alpaca/jobs/6207262004",
-        "title": "Software Engineer, Securities Finance",
-        "reason": "insufficient-core-signals",
-        "fitSignals": [
-          "web-components",
-          "rest-api",
-          "postgresql",
-          "ai-product",
-          "ui"
-        ]
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/jobgether/b347bd14-4b7f-4329-bd97-0cd52fd6a1da/apply?utm_source=hiring.lat",
-        "title": "Jobgether - Senior Full Stack Developer (React + Node.js)",
-        "reason": "structure",
-        "textLength": 758
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/jobgether/99061834-fde2-4f36-a51c-5cc7abd1e5d1",
-        "title": "Not found – 404 error",
-        "reason": "structure",
-        "textLength": 146
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/jobgether/38541477-62e2-473f-bc94-e34fe0aada5f",
-        "reason": "request-error",
-        "message": "page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://jobs.lever.co/jobgether/38541477-62e2-473f-bc94-e34fe0aada5f\", waiting until \"domcontentloaded\"\u001b[22m\n"
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/ciandt/f3517328-145f-406c-8c70-40f3e031d53b/apply",
-        "title": "CI&T - [Job 31645] Mid Level Fullstack (Java / Angular) Developer, Brazil",
-        "reason": "structure",
-        "textLength": 5825
+        "provider": "serpapi",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/mujininc/5b0ffb45-aa5d-4da6-9959-4b9f6378bbaa/apply?lever-origin=applied&lever-source%5B%5D=JapanDev&source=japan-dev.com&utm_source=japan-dev.com",
-        "title": "Mujin - Frontend Engineer（React Native）",
-        "reason": "structure",
-        "textLength": 4351
+        "provider": "serper",
+        "message": "fetch failed"
       },
       {
-        "url": "https://jobs.lever.co/jobgether/eee46e6c-0163-42a1-859e-705f248b559e/apply?utm_source=hiring.lat",
-        "title": "Jobgether - Senior Software Engineer (React & .NET)",
-        "reason": "structure",
-        "textLength": 753
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serpapi",
+        "message": "fetch failed"
+      },
+      {
+        "provider": "serper",
+        "message": "fetch failed"
       }
-    ],
-    "discoveryErrors": []
+    ]
   },
   "totals": {
-    "jobs": 53,
-    "strongMatches": 44,
+    "jobs": 63,
+    "strongMatches": 52,
     "canonicalCvs": 19
   },
   "cvs": [
@@ -276,6 +445,30 @@
       ]
     },
     {
+      "id": "1207ee61e6b8",
+      "name": "ci-t-job-31645-mid-level-fullstack-java-angular-developer-brazil-09ad880b",
+      "sourceUrl": "https://jobs.lever.co/ciandt/f3517328-145f-406c-8c70-40f3e031d53b",
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 100,
+      "requirementCount": 7,
+      "gaps": [],
+      "evidence": [
+        "exp-mspa-003",
+        "project-missions-001",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-007",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004",
+        "oss-001",
+        "exp-mspa-002",
+        "project-qf-001"
+      ]
+    },
+    {
       "id": "557b493c0692",
       "name": "Diagonal-DesenvolvedorFullStack",
       "sourceUrl": null,
@@ -356,6 +549,34 @@
         "project-ecarryon-001",
         "exp-mspa-004",
         "oss-001"
+      ]
+    },
+    {
+      "id": "8c1522a22f54",
+      "name": "jobgether-frontend-developer-react-a3d2e70d",
+      "sourceUrl": "https://jobs.lever.co/jobgether/4669fb4c-9c4f-47ab-b6a4-10426518a34b",
+      "language": "en",
+      "recommendedCv": "frontend-engineer-international",
+      "coverage": 100,
+      "requirementCount": 13,
+      "gaps": [],
+      "evidence": [
+        "exp-mspa-007",
+        "exp-mspa-003",
+        "project-ecarryon-landing-001",
+        "exp-mspa-002",
+        "project-fecha-002",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-004",
+        "oss-001",
+        "oss-002",
+        "project-missions-001",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "project-qf-001"
       ]
     },
     {
@@ -694,6 +915,30 @@
       ]
     },
     {
+      "id": "d5a64e972cb0",
+      "name": "applied-ai-engineer-startups-6a029767",
+      "sourceUrl": "https://jobs.ashbyhq.com/openai/8cad7bcc-3720-4534-822d-d9722599e8a6",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 89,
+      "requirementCount": 9,
+      "gaps": [
+        "seniority-5-years"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "exp-mspa-004",
+        "project-ecarryon-001",
+        "project-missions-001",
+        "exp-mspa-003",
+        "exp-mspa-005",
+        "project-fecha-002",
+        "project-fecha-003",
+        "oss-001"
+      ]
+    },
+    {
       "id": "4e580ccec6e1",
       "name": "CI&T  Mid-Level Fullstack Developer ( Java + Angular ) Brazil",
       "sourceUrl": null,
@@ -813,6 +1058,33 @@
       ]
     },
     {
+      "id": "1b1cf5c95f2f",
+      "name": "jobgether-senior-full-stack-engineer-tech-lead-608a49fc",
+      "sourceUrl": "https://jobs.lever.co/jobgether/384c8cda-f403-46c8-b78d-6f1fd4f23707",
+      "language": "en",
+      "recommendedCv": "fullstack-engineer-international",
+      "coverage": 88,
+      "requirementCount": 10,
+      "gaps": [
+        "aws-gcp"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-003",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004",
+        "oss-001"
+      ]
+    },
+    {
       "id": "4f5135e9e558",
       "name": "INDIStaffingServices-AngularDeveloper-Remote-Work",
       "sourceUrl": null,
@@ -856,6 +1128,42 @@
         "project-ecarryon-001",
         "exp-mspa-004",
         "oss-001"
+      ]
+    },
+    {
+      "id": "0d057c634940",
+      "name": "jobgether-desenvolvedor-a-full-stack-com-enfase-em-frontend-2acf3dee",
+      "sourceUrl": "https://jobs.lever.co/jobgether/103a89b6-5eb7-4274-b50f-ed54cb72db1b",
+      "language": "pt-BR",
+      "recommendedCv": "frontend-engineer-br",
+      "coverage": 87,
+      "requirementCount": 24,
+      "gaps": [
+        "ab-testing",
+        "aem",
+        "documentation"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "project-ecarryon-landing-001",
+        "exp-mspa-006",
+        "oss-002",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "project-terto-002",
+        "exp-mspa-005",
+        "exp-mspa-002",
+        "project-fecha-002",
+        "project-ecarryon-001",
+        "project-compliance-001",
+        "project-landing-001",
+        "project-fecha-003",
+        "exp-mspa-004",
+        "oss-001",
+        "project-qf-001",
+        "project-missions-001"
       ]
     },
     {
@@ -929,6 +1237,38 @@
         "project-ecarryon-001",
         "project-fecha-002",
         "project-fecha-003"
+      ]
+    },
+    {
+      "id": "44f277f1ea00",
+      "name": "jobgether-forward-deployed-agile-software-engineer-d926472b",
+      "sourceUrl": "https://jobs.lever.co/jobgether/060396ce-e43c-46de-8e25-ef2c5f0c65b9",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 84,
+      "requirementCount": 12,
+      "gaps": [
+        "design-methods",
+        "aws-gcp",
+        "rag"
+      ],
+      "evidence": [
+        "project-fecha-003",
+        "project-saude-001",
+        "exp-mspa-007",
+        "exp-mspa-002",
+        "project-fecha-002",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "exp-mspa-006",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-003",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-qf-001",
+        "oss-001",
+        "exp-mspa-004"
       ]
     },
     {
@@ -1064,6 +1404,37 @@
         "exp-mspa-006",
         "exp-mspa-007",
         "project-terto-002"
+      ]
+    },
+    {
+      "id": "a4c2a3efbe4a",
+      "name": "jobgether-senior-full-stack-developer-react-node-js-78f6ab6b",
+      "sourceUrl": "https://jobs.lever.co/jobgether/b347bd14-4b7f-4329-bd97-0cd52fd6a1da",
+      "language": "en",
+      "recommendedCv": "frontend-engineer-international",
+      "coverage": 82,
+      "requirementCount": 16,
+      "gaps": [
+        "aws-gcp",
+        "load-testing",
+        "spring"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "exp-mspa-005",
+        "exp-mspa-003",
+        "project-ecarryon-001",
+        "oss-002",
+        "project-missions-001",
+        "project-terto-002",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-004",
+        "oss-001",
+        "project-rendecerto-001"
       ]
     },
     {
@@ -1217,6 +1588,34 @@
       ]
     },
     {
+      "id": "70474638d92e",
+      "name": "jobgether-software-engineer-trust-safety-aae1085a",
+      "sourceUrl": "https://jobs.lever.co/jobgether/647d2594-bbdf-42eb-80e4-1bf7fc7a03fb",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 79,
+      "requirementCount": 12,
+      "gaps": [
+        "aws-gcp",
+        "seniority-5-years",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "project-fecha-001",
+        "project-terto-001",
+        "project-rendecerto-001",
+        "exp-mspa-005",
+        "exp-mspa-003",
+        "project-ecarryon-001",
+        "exp-mspa-004",
+        "oss-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006"
+      ]
+    },
+    {
       "id": "1e670098a6b1",
       "name": "senior-frontend-engineer-media-production-brazil-a0724182",
       "sourceUrl": "https://jobs.ashbyhq.com/truelogic/dc02aa2e-ed76-46a2-a1ac-95b68668cafd",
@@ -1310,6 +1709,38 @@
       ]
     },
     {
+      "id": "aa63c9ff0f4a",
+      "name": "jobgether-senior-ai-i-fullstack-java-i-angular-developer-b4ffe15c",
+      "sourceUrl": "https://jobs.lever.co/jobgether/a86f5dfc-cf54-46bb-904d-e51f38e08ac4",
+      "language": "en",
+      "recommendedCv": "frontend-engineer-international",
+      "coverage": 70,
+      "requirementCount": 14,
+      "gaps": [
+        "aws-gcp",
+        "load-testing",
+        "spring",
+        "rag"
+      ],
+      "evidence": [
+        "exp-mspa-006",
+        "exp-mspa-007",
+        "project-missions-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-003",
+        "oss-002",
+        "exp-mspa-005",
+        "project-ecarryon-001",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "exp-mspa-004",
+        "oss-001",
+        "project-fecha-001",
+        "project-terto-001"
+      ]
+    },
+    {
       "id": "967eaf7ddcea",
       "name": "Athelas-SoftwareEngineer-Applied-AI(Brazil)",
       "sourceUrl": null,
@@ -1349,6 +1780,37 @@
         "project-fecha-003",
         "exp-mspa-006",
         "exp-mspa-007"
+      ]
+    },
+    {
+      "id": "0fb0f4af23c1",
+      "name": "jobgether-architect-software-engineer-e7a025a8",
+      "sourceUrl": "https://jobs.lever.co/jobgether/a8fb3242-0719-4c8f-aa1c-111dacce7926",
+      "language": "en",
+      "recommendedCv": "software-engineer-international",
+      "coverage": 68,
+      "requirementCount": 13,
+      "gaps": [
+        "aws-gcp",
+        "documentation",
+        "dotnet",
+        "load-testing"
+      ],
+      "evidence": [
+        "exp-mspa-007",
+        "project-missions-001",
+        "exp-mspa-003",
+        "exp-mspa-005",
+        "project-fecha-001",
+        "project-ecarryon-001",
+        "project-fecha-002",
+        "project-fecha-003",
+        "exp-mspa-006",
+        "project-terto-002",
+        "project-rendecerto-001",
+        "oss-002",
+        "exp-mspa-004",
+        "oss-001"
       ]
     },
     {
@@ -1505,14 +1967,14 @@
   "operations": {
     "$schema": "./report.schema.json",
     "schemaVersion": 1,
-    "generatedAt": "2026-10-15T21:37:27.328Z",
+    "generatedAt": "2026-10-15T22:14:32.510Z",
     "definitions": {
       "synergy": "Weighted evidence coverage of recognized vacancy requirements. It is not an ATS-pass or interview-probability score.",
       "atsStructure": "Static source checks for known ATS risks; PDF text extraction and visual review remain separate checks."
     },
     "totals": {
-      "analyzedVacancies": 53,
-      "strongMatches": 44,
+      "analyzedVacancies": 63,
+      "strongMatches": 52,
       "canonicalCvs": 19,
       "atsStructureReady": 19,
       "plannedVariants": 0
@@ -1641,7 +2103,7 @@
         "public": true,
         "source": "career/cvs/software-engineer-br.tex",
         "output": "public/cv/andre-nicolas-engenheiro-software-br.pdf",
-        "sourceSha256": "dbb055165c556a8775438318dacdf83ec2386fa83bc22168d5e7d79bc7394e02",
+        "sourceSha256": "4bd5b964bb0c9edfcee61020272c5e74e6fe7af350a183b4b6013a4be903c2e0",
         "matchingVacancies": 6,
         "averageEvidenceCoverage": 78,
         "status": "ats-structure-ok",
@@ -1676,15 +2138,18 @@
             "project-fecha-001",
             "project-fecha-003",
             "project-ecarryon-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Preserved the official Frontend Engineer employment title while keeping the target role in the headline.",
             "Clarified the official TecnÃ³logo credential.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
-            "advanced/fluent English"
+            "advanced/fluent English",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "load-testing",
@@ -1700,9 +2165,9 @@
         "public": true,
         "source": "career/cvs/software-engineer-international.tex",
         "output": "public/cv/andre-nicolas-software-engineer-en.pdf",
-        "sourceSha256": "0e2c8d9756e193f18781b04af8dc5c3e76d4f8c6e92e39fbfa0b9ccd1ef7c7fe",
-        "matchingVacancies": 10,
-        "averageEvidenceCoverage": 88,
+        "sourceSha256": "7dd69f9a341e56a69a7f8f40893c4271b9acb3ef8f8087d832e6a13431784c87",
+        "matchingVacancies": 14,
+        "averageEvidenceCoverage": 86,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -1735,16 +2200,19 @@
             "project-fecha-003",
             "project-ecarryon-001",
             "oss-002",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Preserved the official employment title.",
             "Reframed the Brazilian degree without inventing an international equivalence.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
             "five years of experience",
-            "fluent English"
+            "fluent English",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "seniority-5-years",
@@ -1760,7 +2228,7 @@
         "public": true,
         "source": "career/cvs/fullstack-engineer-br.tex",
         "output": "public/cv/andre-nicolas-engenheiro-fullstack-br.pdf",
-        "sourceSha256": "b5262ebe1b16ef13bc055f681b52b2160a1385fae66ebee08a80f36e3eb8b1f4",
+        "sourceSha256": "f48bdc57f667d24c18d7e57c90c6c80bbc9ef121bd39ba2c11db75eeac9d6ada",
         "matchingVacancies": 11,
         "averageEvidenceCoverage": 86,
         "status": "ats-structure-ok",
@@ -1795,15 +2263,18 @@
             "project-terto-001",
             "project-terto-002",
             "project-ecarryon-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Separated official employment title from full-stack positioning.",
             "Preserved end-to-end product, API, database, testing, and deployment evidence.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
-            "SSO experience"
+            "SSO experience",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "aem",
@@ -1819,9 +2290,9 @@
         "public": true,
         "source": "career/cvs/fullstack-engineer-international.tex",
         "output": "public/cv/andre-nicolas-fullstack-engineer-en.pdf",
-        "sourceSha256": "9f19c232d4602a6c4e15aa4f779a560681e1b3da86d641e8092e2bca43161747",
-        "matchingVacancies": 5,
-        "averageEvidenceCoverage": 80,
+        "sourceSha256": "857a919af1475e0bf60dcac07fea3686a4e7f0ccd12cdf6ff71ec10d1572c08a",
+        "matchingVacancies": 6,
+        "averageEvidenceCoverage": 82,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -1854,17 +2325,20 @@
             "project-fecha-003",
             "project-terto-002",
             "project-ecarryon-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Corrected employment-title framing and education translation.",
             "Kept AI-native, React/Node, API, PostgreSQL, and testing evidence prominent.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
             "five years of experience",
             "SSO",
-            "fluent English"
+            "fluent English",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "seniority-5-years",
@@ -1881,7 +2355,7 @@
         "public": true,
         "source": "career/cvs/fullstack-developer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-fullstack-br.pdf",
-        "sourceSha256": "4b9ec44d4d0268a47753a82772880c02a943f9c3cffdc10d095948a1825c9333",
+        "sourceSha256": "1c3b42cb2036501dad7d546ce8eace6262fd13131258058d36c03fc82d6b7814",
         "matchingVacancies": 0,
         "averageEvidenceCoverage": 0,
         "status": "ats-structure-ok",
@@ -1913,14 +2387,18 @@
             "project-fecha-001",
             "project-terto-001",
             "project-terto-002",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Corrected official employment title and credential wording.",
             "Verified developer-oriented end-to-end implementation narrative.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
-          "rejectedClaims": [],
+          "rejectedClaims": [
+            ".NET, C, C#, and C++ hands-on experience"
+          ],
           "gaps": [],
           "pdfCompilation": "pending-ci"
         }
@@ -1932,7 +2410,7 @@
         "public": true,
         "source": "career/cvs/fullstack-developer-international.tex",
         "output": "public/cv/andre-nicolas-fullstack-developer-en.pdf",
-        "sourceSha256": "8bc00d43a1faa39a9761af6e70cbb3c038b1ccde941b0bca4e8ae5ba776cc8d1",
+        "sourceSha256": "33955ea73ad5140fa5b895f67b02969477d060beacd1532dc731849c76748615",
         "matchingVacancies": 0,
         "averageEvidenceCoverage": 0,
         "status": "ats-structure-ok",
@@ -1964,15 +2442,18 @@
             "project-fecha-001",
             "project-terto-001",
             "project-terto-002",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Corrected employment and education wording.",
             "Verified implementation-first full-stack positioning.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
-            "Unsupported seniority and cloud-vendor claims"
+            "Unsupported seniority and cloud-vendor claims",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "seniority-5-years"
@@ -1987,8 +2468,8 @@
         "public": true,
         "source": "career/cvs/frontend-engineer-br.tex",
         "output": "public/cv/andre-nicolas-engenheiro-frontend-br.pdf",
-        "sourceSha256": "3cf769852dca56637d0ffaa2240ee030370b0fb3c49b53ef89abcc373c81a2a4",
-        "matchingVacancies": 11,
+        "sourceSha256": "73685a1da7760853b503618c10c55cab140fdae832c10973b9e8e8abe0c6f29c",
+        "matchingVacancies": 13,
         "averageEvidenceCoverage": 89,
         "status": "ats-structure-ok",
         "risks": [],
@@ -2022,15 +2503,18 @@
             "oss-002",
             "project-compliance-001",
             "project-ecarryon-landing-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Rebuilt as a concise single-column ATS source.",
             "Prioritized Angular/React, Web Components, UX, accessibility, SEO, and performance evidence.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
-            "fluent English"
+            "fluent English",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "aem",
@@ -2046,8 +2530,8 @@
         "public": true,
         "source": "career/cvs/frontend-engineer-international.tex",
         "output": "public/cv/andre-nicolas-frontend-engineer-en.pdf",
-        "sourceSha256": "691d6a5468ad34120bfa1bc186d3421001b32d678372e06121cae475edd1d65c",
-        "matchingVacancies": 3,
+        "sourceSha256": "61d36dc13548de35d0ecbbbf92a167e46e34e5b17cf608a6d553fe1b5d059b49",
+        "matchingVacancies": 6,
         "averageEvidenceCoverage": 84,
         "status": "ats-structure-ok",
         "risks": [],
@@ -2079,15 +2563,18 @@
             "oss-002",
             "project-compliance-001",
             "project-ecarryon-landing-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Rebuilt from multi-column to single-column ATS layout.",
             "Corrected degree translation and strengthened recruiter-readable frontend narrative.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
-            "load-testing experience"
+            "load-testing experience",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "load-testing"
@@ -2102,7 +2589,7 @@
         "public": true,
         "source": "career/cvs/product-engineer-international.tex",
         "output": "public/cv/andre-nicolas-product-engineer-en.pdf",
-        "sourceSha256": "8cec6898fec4e072c9a0dcad7aa627dfb6cb188d585fe5b1cf0ea9e0b6ec6e0f",
+        "sourceSha256": "252485e8b7b85c4c71e2366d790c24bd3c1740f5e33567dbe6f5d91970f60871",
         "matchingVacancies": 1,
         "averageEvidenceCoverage": 100,
         "status": "ats-structure-ok",
@@ -2135,17 +2622,20 @@
             "project-fecha-002",
             "project-fecha-003",
             "project-terto-002",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Replaced the generic shared experience block with role-specific context-action-evidence bullets.",
             "Expanded product evidence for MSPA, FechaRacha, and Terto Beats without inventing revenue or traction.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
             "Revenue or customer traction",
             "formal sales ownership",
-            "validated pricing"
+            "validated pricing",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "sales-ownership",
@@ -2161,7 +2651,7 @@
         "public": true,
         "source": "career/cvs/web-developer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-web-br.pdf",
-        "sourceSha256": "0657c2c3aa3dfd2b1d23832d9f173c7282fa28d9d848f0ca2ddca1aa866828c2",
+        "sourceSha256": "e3885cb962e1e567009e4198cd59d3e5080e87f579895a52fe835da2578dc951",
         "matchingVacancies": 0,
         "averageEvidenceCoverage": 0,
         "status": "ats-structure-ok",
@@ -2191,15 +2681,18 @@
             "project-landing-001",
             "project-ecarryon-landing-001",
             "project-diary-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Corrected employment and degree wording.",
             "Verified responsive web, SEO, accessibility, performance, content, and PWA positioning.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
-            "Unsupported commercial outcomes"
+            "Unsupported commercial outcomes",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "current-saved-web-vacancies"
@@ -2214,7 +2707,7 @@
         "public": true,
         "source": "career/cvs/web-developer-international.tex",
         "output": "public/cv/andre-nicolas-web-developer-en.pdf",
-        "sourceSha256": "d0bbcf3d22b1858cc19f9ec6a7f38d9ed33f409bf0683a912e3bf54ec9f27043",
+        "sourceSha256": "5d4fb498e81fcf4fbe82032eed8e721bdc30ae25fce5e3faabbb6b1a4768041c",
         "matchingVacancies": 0,
         "averageEvidenceCoverage": 0,
         "status": "ats-structure-ok",
@@ -2244,15 +2737,18 @@
             "project-landing-001",
             "project-ecarryon-landing-001",
             "project-diary-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Corrected official title and Brazilian degree explanation.",
             "Verified web-delivery and user-journey emphasis.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
-            "Unsupported conversion or revenue metrics"
+            "Unsupported conversion or revenue metrics",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "current-saved-web-vacancies"
@@ -2267,8 +2763,8 @@
         "public": true,
         "source": "career/cvs/angular-developer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-angular-br.pdf",
-        "sourceSha256": "2a1c5164d8e8b22b6453119e8f4a5de385ec42768ea0002e1201ee9ed23953b2",
-        "matchingVacancies": 14,
+        "sourceSha256": "c13a7cda2dde24bcc625a1c9ec5a273979e4b00a07525c9dd6511e6cec428440",
+        "matchingVacancies": 15,
         "averageEvidenceCoverage": 88,
         "status": "ats-structure-ok",
         "risks": [],
@@ -2299,16 +2795,19 @@
             "exp-mspa-005",
             "oss-002",
             "project-fecha-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Created a dedicated Angular/TypeScript/Signals/RxJS canonical CV from recurring demand.",
             "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
             "AEM",
-            "fluent English"
+            "fluent English",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "aem",
@@ -2324,9 +2823,9 @@
         "public": true,
         "source": "career/cvs/angular-developer-international.tex",
         "output": "public/cv/andre-nicolas-angular-developer-en.pdf",
-        "sourceSha256": "2fb82350b75fe2443cb7c15dc3bd1a9efb1293e2b177efb9787b1810e3a01bf3",
-        "matchingVacancies": 2,
-        "averageEvidenceCoverage": 86,
+        "sourceSha256": "68cfa5ea8c7e189265ff7db6eabff92ede7f8635763c1ad70d233c3ca92359c6",
+        "matchingVacancies": 3,
+        "averageEvidenceCoverage": 80,
         "status": "ats-structure-ok",
         "risks": [],
         "optimizationPriority": "high",
@@ -2354,16 +2853,19 @@
             "exp-mspa-007",
             "exp-mspa-005",
             "oss-002",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Created an English Angular canonical CV with transparent education and language claims.",
             "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
             "load testing",
-            "fluent English"
+            "fluent English",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "load-testing",
@@ -2379,8 +2881,8 @@
         "public": true,
         "source": "career/cvs/react-developer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-react-br.pdf",
-        "sourceSha256": "adb7cd530ce860b780b8533383fb97aa37919a6d1a342a5614b990ad3330c4f8",
-        "matchingVacancies": 18,
+        "sourceSha256": "74900cb36dcc63292ec7e9edac0e0c90486eee243133472dacc00f7bd7a73188",
+        "matchingVacancies": 19,
         "averageEvidenceCoverage": 87,
         "status": "ats-structure-ok",
         "risks": [],
@@ -2412,14 +2914,18 @@
             "project-fecha-003",
             "project-terto-001",
             "project-terto-002",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Created a dedicated React/Next.js canonical CV emphasizing authenticated product flows, data, and tests.",
             "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
-          "rejectedClaims": [],
+          "rejectedClaims": [
+            ".NET, C, C#, and C++ hands-on experience"
+          ],
           "gaps": [],
           "pdfCompilation": "pending-ci"
         }
@@ -2431,8 +2937,8 @@
         "public": true,
         "source": "career/cvs/react-developer-international.tex",
         "output": "public/cv/andre-nicolas-react-developer-en.pdf",
-        "sourceSha256": "e3747e50e5c2a5d71ce1dd67983e6a63968591180b90cacfe33b00d9fe12e6af",
-        "matchingVacancies": 11,
+        "sourceSha256": "8827176b5c606838105bd0f1495b7dc70f5d6c004803e39cc379ddfbd76e985d",
+        "matchingVacancies": 15,
         "averageEvidenceCoverage": 86,
         "status": "ats-structure-ok",
         "risks": [],
@@ -2465,15 +2971,18 @@
             "project-terto-001",
             "project-terto-002",
             "oss-002",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Created an English React/Next.js canonical CV with ATS-safe structure and grounded product examples.",
             "Replaced the skeletal role shell with role-specific experience and detailed project narratives.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
-            "five years of experience"
+            "five years of experience",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "seniority-5-years"
@@ -2488,8 +2997,8 @@
         "public": true,
         "source": "career/cvs/product-engineer-br.tex",
         "output": "public/cv/andre-nicolas-engenheiro-produto-br.pdf",
-        "sourceSha256": "f1ee8b67876cfcd925cd367f941ea40c77b57fd5e60c8e08668e595cd2634f5f",
-        "matchingVacancies": 3,
+        "sourceSha256": "e1518a4adb66771d1142ac1850f90be8cc7f8035ab130212463f69aa6200f0f5",
+        "matchingVacancies": 4,
         "averageEvidenceCoverage": 87,
         "status": "ats-structure-ok",
         "risks": [],
@@ -2521,17 +3030,20 @@
             "project-fecha-002",
             "project-fecha-003",
             "project-terto-002",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Created the missing Brazilian Product Engineer canonical CV with product, trust, UX, AI, and delivery evidence.",
             "Replaced the skeletal role shell with role-specific context-action-evidence content.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
             "Revenue",
             "formal sales ownership",
-            "validated pricing"
+            "validated pricing",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "sales-ownership",
@@ -2547,7 +3059,7 @@
         "public": true,
         "source": "career/cvs/ux-product-designer-br.tex",
         "output": "public/cv/andre-nicolas-ux-product-designer-br.pdf",
-        "sourceSha256": "6fb13dabc7fedb684f1328023f0403ffaa45657314ca986b7d994fa402feaf52",
+        "sourceSha256": "b728e0e98757d228ccbf7777dd90e5aaf4e16b71d057e1eea5f752fc92eb973b",
         "matchingVacancies": 6,
         "averageEvidenceCoverage": 79,
         "status": "ats-structure-ok",
@@ -2586,13 +3098,15 @@
             "project-fecha-002",
             "project-saude-001",
             "oss-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Expanded the CV by composing the strongest role-specific evidence from the Product Engineer, Frontend, React, and Full Stack variants, then reordering it for UX/Product Design ATS terms.",
             "Added six product/UX vacancy sources and aligned the search taxonomy with discovery, journeys, usability, design systems, accessibility, and UX engineering.",
             "Kept explicit qualification boundaries for user research, usability testing, A/B testing, Continuous Discovery, formal design education, Figma, and design mentorship.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
             "Three years in a formal design role",
@@ -2602,7 +3116,8 @@
             "A/B testing",
             "Continuous Discovery ownership",
             "Formal design mentorship",
-            "Advanced English"
+            "Advanced English",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "user-research",
@@ -2623,7 +3138,7 @@
         "public": true,
         "source": "career/cvs/frontend-engineer-br.tex",
         "output": "public/cv/andre-nicolas-desenvolvedor-frontend-br.pdf",
-        "sourceSha256": "3cf769852dca56637d0ffaa2240ee030370b0fb3c49b53ef89abcc373c81a2a4",
+        "sourceSha256": "73685a1da7760853b503618c10c55cab140fdae832c10973b9e8e8abe0c6f29c",
         "matchingVacancies": 0,
         "averageEvidenceCoverage": 0,
         "status": "ats-structure-ok",
@@ -2665,17 +3180,20 @@
             "project-qf-001",
             "project-terto-001",
             "project-diary-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Created a dedicated Brazilian Frontend Developer CV from the strongest Frontend Engineer, React, Full Stack, and Product Engineer evidence.",
             "Prioritized Angular, React, TypeScript, JavaScript, HTML/CSS, APIs, UX, accessibility, performance, testing, production, and product delivery terms found in the PicPay and React vacancy corpus.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
             "Senior-level title or seniority",
             "Fluent English",
-            "Unverified production scale or user volume"
+            "Unverified production scale or user volume",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "advanced-english",
@@ -2691,7 +3209,7 @@
         "public": true,
         "source": "career/cvs/frontend-engineer-international.tex",
         "output": "public/cv/andre-nicolas-frontend-developer-en.pdf",
-        "sourceSha256": "691d6a5468ad34120bfa1bc186d3421001b32d678372e06121cae475edd1d65c",
+        "sourceSha256": "61d36dc13548de35d0ecbbbf92a167e46e34e5b17cf608a6d553fe1b5d059b49",
         "matchingVacancies": 0,
         "averageEvidenceCoverage": 0,
         "status": "ats-structure-ok",
@@ -2730,16 +3248,19 @@
             "project-qf-001",
             "project-terto-001",
             "project-diary-001",
-            "exp-mspa-012"
+            "exp-mspa-012",
+            "exp-mspa-013",
+            "project-marca-racha-004"
           ],
           "changes": [
             "Created an English Frontend Developer CV with transparent Brazilian education wording and evidence-backed Angular, React, TypeScript, JavaScript, UX, API, testing, and production positioning.",
-            "Enriched the MSPA experience with candidate-confirmed Node.js, Java, Spring/Spring Boot, .NET, AWS/cloud, security, testing, accessibility, documentation, and UI-delivery contributions; updated the readable ATS layout."
+            "Refreshed the canonical CV from the updated evidence: removed unsupported .NET/C-family claims; added AWS/Azure, AI harness, deterministic-evaluation, and scope/output/cost-guardrail evidence; and updated Marca Racha naming where the project is represented."
           ],
           "rejectedClaims": [
             "Senior-level title or seniority",
             "Fluent English",
-            "Unverified production scale or user volume"
+            "Unverified production scale or user volume",
+            ".NET, C, C#, and C++ hands-on experience"
           ],
           "gaps": [
             "seniority-5-years",
@@ -2797,9 +3318,9 @@
       }
     ],
     "agentRun": {
-      "runId": "2026-10-15-full-career-004",
+      "runId": "2026-10-15-full-career-005",
       "status": "complete",
-      "generatedAt": "2026-10-15T21:37:18.102Z",
+      "generatedAt": "2026-10-15T22:14:31.342Z",
       "unresolvedQuestions": []
     }
   }

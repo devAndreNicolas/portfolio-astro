@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-15-full-career-005",
+  "status": "complete",
+  "summary": {
+    "reason": "Full career run requested to correct unsupported technology claims and synchronize every canonical CV with current AI-harness and Marca Racha evidence.",
+    "market": {
+      "analyzedVacancies": 63,
+      "collection": "Brazil collection was attempted; both configured providers failed with fetch errors, so the retained 63-vacancy corpus was analyzed."
+    },
+    "cvReview": {
+      "manifestIds": 19,
+      "changes": "All manifest variants were refreshed through their 17 shared canonical LaTeX sources: .NET, C, C#, and C++ were removed as unsupported; AWS/Azure and AI-harness evidence were added; and project references were renamed to Marca Racha where present. Python remains private evidence until a stronger project supports public positioning.",
+      "readiness": "100/100 for all 19 manifest IDs",
+      "pdfCompilation": "pending-ci"
+    },
+    "validation": {
+      "applications": "passed",
+      "roles": "passed",
+      "cvCheck": "passed",
+      "contentQuality": "passed",
+      "roleFit": "updated",
+      "careerVerify": "passed",
+      "siteBuild": "passed"
+    }
+  },
+  "outputs": [
+    "career/profile/master-career.md",
+    "career/operations/agent-evaluation.json",
+    "career/operations/report.json",
+    "src/data/career-dashboard.json"
+  ],
+  "unresolvedQuestions": []
+}
