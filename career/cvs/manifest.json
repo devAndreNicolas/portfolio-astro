@@ -24,6 +24,7 @@
     "systems-development-analyst-br": { "source": "career/cvs/analista-desenvolvimento-sistemas-br.tex", "output": "public/cv/andre-nicolas-analista-desenvolvimento-sistemas-br.pdf", "language": "pt-BR", "public": true },
     "software-developer-br": { "source": "career/cvs/desenvolvedor-software-br.tex", "output": "public/cv/andre-nicolas-desenvolvedor-software-br.pdf", "language": "pt-BR", "public": true },
     "systems-support-n2-br": { "source": "career/cvs/analista-suporte-sistemas-n2-br.tex", "output": "public/cv/andre-nicolas-analista-suporte-sistemas-n2-br.pdf", "language": "pt-BR", "public": true },
-    "technical-support-n2-br": { "source": "career/cvs/analista-suporte-tecnico-n2-br.tex", "output": "public/cv/andre-nicolas-analista-suporte-tecnico-n2-br.pdf", "language": "pt-BR", "public": true }
+    "technical-support-n2-br": { "source": "career/cvs/analista-suporte-tecnico-n2-br.tex", "output": "public/cv/andre-nicolas-analista-suporte-tecnico-n2-br.pdf", "language": "pt-BR", "public": true },
+    "business-analyst-br": { "source": "career/cvs/analista-negocios-comercial-tech-br.tex", "output": "public/cv/andre-nicolas-analista-negocios-comercial-tech-br.pdf", "language": "pt-BR", "public": true }
   }
 }
