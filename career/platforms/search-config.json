@@ -1,13 +1,40 @@
 {
   "version": 1,
-  "purpose": "High-signal Google searches for original ATS job boards. Queries are regenerated with a rolling date filter.",
+  "purpose": "Role-specific searches for software, systems analysis, support, and administrative vacancies across original ATS boards and direct job portals. ATS queries use a rolling date filter.",
+  "checkedAt": "2026-10-16",
   "groups": [
     { "id": "fullstack", "label": "Full Stack", "query": "(\"Full Stack Engineer\" OR \"Full Stack Developer\" OR \"Software Engineer\") (\"TypeScript\" OR \"React\" OR \"Angular\" OR \"Node.js\")" },
     { "id": "frontend", "label": "Frontend", "query": "(\"Frontend Developer\" OR \"Frontend Engineer\" OR \"Desenvolvedor Frontend\" OR \"Desenvolvedor Front-end\" OR \"Angular Developer\" OR \"React Developer\") (\"TypeScript\" OR \"JavaScript\" OR \"Angular\" OR \"React\")" },
+    { "id": "systems-analyst", "label": "Analista de Sistemas", "query": "(\"Analista de Sistemas\" OR \"Analista de Sistemas de Informação\" OR \"Systems Analyst\") (SQL OR APIs OR integração OR integrações OR sistemas)" },
+    { "id": "systems-development-analyst", "label": "Analista de Desenvolvimento de Sistemas", "query": "(\"Analista de Desenvolvimento de Sistemas\" OR \"Analista Desenvolvedor\" OR \"Desenvolvedor de Sistemas\") (Java OR Spring OR TypeScript OR SQL OR APIs)" },
+    { "id": "software-development", "label": "Desenvolvedor de Software", "query": "(\"Desenvolvedor de Software\" OR \"Engenheiro de Software\" OR \"Software Developer\" OR \"Software Engineer\") (TypeScript OR JavaScript OR Java OR Go OR APIs)" },
     { "id": "product", "label": "Product / Software", "query": "(\"Product Engineer\" OR \"Software Engineer\") (\"TypeScript\" OR \"React\" OR \"AI\")" },
+    { "id": "systems-support", "label": "Suporte a Sistemas / Aplicações N2", "query": "(\"Suporte a Sistemas\" OR \"Suporte a Aplicações\" OR \"Analista de Suporte N2\" OR \"Application Support Analyst\") (SQL OR MySQL OR chamados OR APIs OR incidentes)" },
+    { "id": "technical-support", "label": "Suporte Técnico N1/N2", "query": "(\"Suporte Técnico N2\" OR \"Analista de Suporte Técnico\" OR \"Técnico de Suporte\" OR \"Service Desk Analyst\" OR \"Help Desk\") (Windows OR Microsoft 365 OR Active Directory OR DNS OR DHCP OR hardware OR redes)" },
+    { "id": "administrative-assistant", "label": "Assistente / Auxiliar Administrativo", "query": "(\"Assistente Administrativo\" OR \"Auxiliar Administrativo\" OR \"Administrative Assistant\" OR \"Administrative Clerk\")" },
     { "id": "ux-product-design", "label": "UX / Product Design", "query": "(\"Product Designer\" OR \"UX Designer\" OR \"UI/UX Designer\" OR \"UX Engineer\" OR \"Product Design\") (\"UX\" OR \"user research\" OR \"Figma\" OR \"usability\")" },
     { "id": "ai", "label": "Applied AI", "query": "(\"AI Product Engineer\" OR \"Applied AI Engineer\" OR \"AI Software Engineer\" OR \"Full Stack Engineer\") (\"LLM\" OR \"GenAI\" OR \"AI\" OR \"TypeScript\")" },
     { "id": "founding", "label": "Founding / Early Engineer", "query": "(\"Founding Engineer\" OR \"Founding Software Engineer\" OR \"Early Engineer\" OR \"First Engineer\") (\"TypeScript\" OR \"React\" OR \"AI\")" }
+  ],
+  "directSearches": [
+    { "id": "systems-analyst", "label": "Analista de Sistemas", "term": "Analista de Sistemas" },
+    { "id": "systems-development-analyst", "label": "Analista de Desenvolvimento de Sistemas", "term": "Analista de Desenvolvimento de Sistemas" },
+    { "id": "software-development", "label": "Desenvolvedor de Software", "term": "Desenvolvedor de Software" },
+    { "id": "systems-support", "label": "Suporte a Sistemas / Suporte N2", "term": "Analista de Suporte N2 Sistemas" },
+    { "id": "technical-support", "label": "Suporte Técnico N1/N2", "term": "Suporte Técnico" },
+    { "id": "administrative-assistant", "label": "Assistente Administrativo", "term": "Assistente Administrativo" },
+    { "id": "administrative-auxiliary", "label": "Auxiliar Administrativo", "term": "Auxiliar Administrativo" }
+  ],
+  "vacancyExamples": [
+    { "label": "Analista de Sistemas — FIESC 02400/2026 (espelho JobLeads)", "url": "https://www.jobleads.com/br/job/02400-2026-analista-de-sistemas-pleno--florianopolis--e216338b9ea0f72a6069ab4c668802e2d", "note": "Híbrida em Florianópolis; confirme a vaga no portal oficial da FIESC." },
+    { "label": "Analista de Desenvolvimento de Sistemas — Mais Mobi", "url": "https://br.indeed.com/viewjob?jk=da2c43aca860d734", "note": "Anúncio no Indeed para Rio de Janeiro; confira status e candidatura na empresa." },
+    { "label": "Desenvolvedor de Software Sênior Backend — Montreal", "url": "https://montreal.gupy.io/jobs/12599701?jobBoardSource=gupy_public_page", "note": "Vaga temporária; consulta em 16/10/2026." },
+    { "label": "Analista de Suporte N2 remoto — Gaudium", "url": "https://gaudium.gupy.io/jobs/12706655?jobBoardSource=gupy_public_page", "note": "Gupy apresentava a vaga; envolve triagem de escalonados, MySQL e reprodução de bugs." },
+    { "label": "Analista de Suporte N2 (Sistemas) — Digisystem", "url": "https://jobs.recrutei.com.br/digisystem/vacancy/150772-analista-de-suporte-n2-sistemas", "note": "Página acessível; confirme se a candidatura segue aberta." },
+    { "label": "Analista de Suporte N2 Jr — Digisystem", "url": "https://jobs.recrutei.com.br/digisystem/vacancy/108736-analista-de-suporte-n2-jr", "note": "Brasília; página acessível; exige experiência prévia e cita TCP/IP, DNS e DHCP." },
+    { "label": "Assistente Administrativo (Comercial) — Amo", "url": "https://amo.gupy.io/job/eyJqb2JJZCI6MTI3MjcwNjAsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0%3D?jobBoardSource=gupy_portal", "note": "Publicada em 14/10/2026; prazo indicado até 13/12/2026." },
+    { "label": "Auxiliar Administrativo (Análise de Dados) — Cargill", "url": "https://careers.cargill.com/pt-br/vaga/uberlandia/auxiliar-administrativo-analise-de-dados-uberlandia-mg/31240/101951601440", "note": "Publicada em 14/10/2026; página oficial da empresa." },
+    { "label": "Auxiliar Administrativo — Grupo Águia Branca", "url": "https://express.empregare.com/pt-br/vaga-auxiliar-administrativo-vitoria-es_178231", "note": "Vitória; confira status no anúncio antes de aplicar." }
   ],
   "platforms": [
     { "id": "ashby", "label": "Ashby", "site": "jobs.ashbyhq.com", "markets": ["remote", "brazil"] },
@@ -24,6 +51,12 @@
       "searchGroups": [
         { "id": "fullstack-pt", "label": "Full Stack (PT-BR)", "query": "(\"Desenvolvedor Full Stack\" OR \"Desenvolvedor(a) Full Stack\" OR \"Desenvolvedor Fullstack\" OR \"Desenvolvedor(a) Fullstack\" OR \"Pessoa Desenvolvedora Full Stack\") (\"TypeScript\" OR \"React\" OR \"Angular\" OR \"Node.js\" OR \"JavaScript\")" },
         { "id": "frontend-pt", "label": "Frontend (PT-BR)", "query": "(\"Desenvolvedor Frontend\" OR \"Desenvolvedor(a) Frontend\" OR \"Desenvolvedor Angular\" OR \"Desenvolvedor(a) Angular\" OR \"Desenvolvedor React\" OR \"Pessoa Desenvolvedora Frontend\") (\"TypeScript\" OR \"Angular\" OR \"React\")" },
+        { "id": "systems-analyst-pt", "label": "Analista de Sistemas (PT-BR)", "query": "(\"Analista de Sistemas\" OR \"Analista de Sistemas de Informação\") (SQL OR APIs OR integração OR suporte OR requisitos)" },
+        { "id": "systems-development-analyst-pt", "label": "Analista de Desenvolvimento de Sistemas (PT-BR)", "query": "(\"Analista de Desenvolvimento de Sistemas\" OR \"Analista Desenvolvedor\" OR \"Desenvolvedor de Sistemas\") (Java OR Spring OR TypeScript OR SQL OR APIs)" },
+        { "id": "software-development-pt", "label": "Desenvolvedor de Software (PT-BR)", "query": "(\"Desenvolvedor de Software\" OR \"Engenheiro de Software\" OR \"Pessoa Desenvolvedora\") (TypeScript OR JavaScript OR Java OR Go OR APIs)" },
+        { "id": "systems-support-pt", "label": "Suporte a Sistemas / N2 (PT-BR)", "query": "(\"Suporte a Sistemas\" OR \"Suporte a Aplicações\" OR \"Analista de Suporte N2\") (SQL OR MySQL OR chamados OR APIs OR incidentes)" },
+        { "id": "technical-support-pt", "label": "Suporte Técnico N1/N2 (PT-BR)", "query": "(\"Suporte Técnico N2\" OR \"Analista de Suporte Técnico\" OR \"Técnico de Suporte\" OR \"Service Desk\") (Windows OR \"Microsoft 365\" OR \"Active Directory\" OR DNS OR DHCP OR hardware OR redes)" },
+        { "id": "administrative-assistant-pt", "label": "Assistente / Auxiliar Administrativo (PT-BR)", "query": "(\"Assistente Administrativo\" OR \"Auxiliar Administrativo\")" },
         { "id": "software-pt", "label": "Software / Produto (PT-BR)", "query": "(\"Engenheiro de Software\" OR \"Engenheira de Software\" OR \"Desenvolvedor de Software\" OR \"Desenvolvedor(a) de Software\" OR \"Pessoa Desenvolvedora\") (\"TypeScript\" OR \"React\" OR \"Angular\" OR \"Node.js\" OR \"API\")" },
         { "id": "ai-pt", "label": "IA aplicada (PT-BR)", "query": "(\"Engenheiro de IA\" OR \"Engenheira de IA\" OR \"Desenvolvedor de IA\" OR \"Desenvolvedor(a) de IA\" OR \"Inteligência Artificial\" OR \"Full Stack\") (\"IA\" OR \"AI\" OR \"LLM\" OR \"GenAI\" OR \"TypeScript\")" },
         { "id": "ux-product-design-pt", "label": "UX / Design de Produto (PT-BR)", "query": "(\"Designer de Produto\" OR \"Designer UI/UX\" OR \"UX Designer\" OR \"UI/UX\" OR \"UX Engineer\") (\"UX\" OR \"pesquisa de usuário\" OR \"usabilidade\" OR \"Figma\")" }

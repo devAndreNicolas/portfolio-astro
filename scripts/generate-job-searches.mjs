@@ -32,24 +32,67 @@ for (const platform of config.platforms) {
 }
 
 const selected = rows.filter((row) => primaryPlatforms.has(row.platform.id));
+const directSearches = config.directSearches.map((item) => {
+  const googleQuery = `"${item.term}" ("Maceió" OR "Alagoas" OR "Brasil remoto" OR "home office") vagas`;
+  const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(googleQuery)}`;
+  const linkedinUrl = new URL("https://www.linkedin.com/jobs/search/");
+  linkedinUrl.searchParams.set("keywords", item.term);
+  linkedinUrl.searchParams.set("location", "Maceió, Alagoas, Brasil");
+  const indeedUrl = new URL("https://br.indeed.com/jobs");
+  indeedUrl.searchParams.set("q", item.term);
+  indeedUrl.searchParams.set("l", "Maceió, AL");
+  const gupyUrl = `https://portal.gupy.io/job-search/term%3D${encodeURIComponent(item.term)}`;
+  return [
+    `### ${item.label}`,
+    "",
+    `- [Google — Maceió, Alagoas ou remoto](${googleUrl})`,
+    `- [LinkedIn — Maceió/AL](${linkedinUrl.toString()})`,
+    `- [Indeed — Maceió/AL](${indeedUrl.toString()})`,
+    `- [Gupy — Brasil; filtre local e modalidade](${gupyUrl})`,
+    ""
+  ];
+}).flat();
+const vacancyExamples = config.vacancyExamples.map((item) => `- [${item.label}](${item.url}) — ${item.note}`).join("\n");
 const markdown = [
-  "# Job-board search radar",
+  "# Radar de busca de vagas",
   "",
-  `Generated ${new Date().toISOString().slice(0, 10)}. The rolling freshness filter is **after:${afterDate}** (${days} days). Google indexing date is only a discovery signal; open the ATS page and confirm that the role is active before applying.`,
+  `Gerado em ${new Date().toISOString().slice(0, 10)}. As buscas em ATS usam **after:${afterDate}** (${days} dias). A data de indexação do Google serve só como pista; confirme a publicação e a candidatura no anúncio original.`,
   "",
-  "## Run first",
+  "## Sumário",
+  "",
+  "- [Atalhos por cargo — LinkedIn, Indeed, Gupy e Google](#buscar-direto-por-cargo)",
+  `- [Anúncios de referência consultados em ${config.checkedAt}](#anuncios-de-referencia-consultados-em-${config.checkedAt})`,
+  "- [Buscas nos sites oficiais dos ATS](#buscar-nos-sites-oficiais-dos-ats)",
+  "- [Como usar as buscas e se candidatar](#como-usar-as-buscas)",
+  "",
+  "## Buscar direto por cargo",
+  "",
+  "Estes atalhos cobrem os cargos pedidos. Google combina Maceió, Alagoas e remoto; LinkedIn e Indeed abrem com localização Maceió/AL; na Gupy, pesquise o título e filtre localização/modalidade. Para vagas remotas, aplique o filtro remoto em cada portal.",
+  "",
+  ...directSearches,
+  `## Anúncios de referência consultados em ${config.checkedAt}`,
+  "",
+  "Links diretos de exemplos encontrados durante a pesquisa. Alguns são espelhos ou podem encerrar candidatura; use o portal da empresa para confirmar status, localidade e requisitos antes de se candidatar.",
+  "",
+  vacancyExamples,
+  "",
+  "## Buscar nos sites oficiais dos ATS",
+  "",
+  "### Priorize estas plataformas",
   "",
   ...selected.map((row) => `- [${row.group.label} — ${row.platform.label} — ${row.market === "remote" ? "International remote" : "Brazil"}](${row.url})`),
   "",
-  "## Secondary boards",
+  "### Outras plataformas",
   "",
   ...rows.filter((row) => !primaryPlatforms.has(row.platform.id)).map((row) => `- [${row.group.label} — ${row.platform.label} — ${row.market === "remote" ? "International remote" : "Brazil"}](${row.url})`),
   "",
-  "## Workflow",
+  "## Como usar as buscas",
   "",
-  "1. Run the first section daily with `pnpm jobs:searches`.",
-  "2. Confirm the board is active and save the full description as `career/applications/<company>-<role>.txt`.",
-  "3. Run `pnpm applications:analyze`; create a tailored CV only for strong, truthful matches.",
+  "1. Abra o link do cargo e filtre Maceió/AL, remoto ou híbrido; ordene pelas publicações mais recentes.",
+  "2. Use as buscas de ATS para encontrar anúncios nas páginas de carreira das empresas. `after:` limita quando o Google indexou a página, não comprova a data de publicação.",
+  "3. Abra o anúncio original, confirme que recebe candidaturas e confira requisitos, local e modalidade.",
+  "4. Salve link e descrição em `career/applications/<company>-<role>.txt` para analisar a vaga e escolher o CV adequado.",
+  "5. Atualize esta lista com `pnpm jobs:searches`.",
   ""
 ].join("\n");
 
