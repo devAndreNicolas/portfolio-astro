@@ -1,5 +1,7 @@
 # Técnico Q&A
 
+Use também o [treino técnico prático aprofundado](10-technical-practice.md), com respostas completas para cenários de NestJS, MongoDB, Temporal, avaliação de LLMs e AWS. Exercícios simulados não são experiência profissional alegada.
+
 - **NestJS:** declarar que la experiencia comprovada é em TypeScript, APIs e arquitetura; não afirmar produção NestJS sem confirmação.
 - **MongoDB:** declarar que a experiência comprovada é SQL/PostgreSQL; discutir isolamento, índices, consistência e modelagem apenas como princípios transferíveis.
 - **Temporal:** explicar que workflows duráveis precisam de estado, retries, idempotência e observabilidade; não afirmar experiência direta.

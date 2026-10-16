@@ -1,5 +1,7 @@
 # Técnico Q&A
 
+O [treino técnico prático aprofundado](10-technical-practice.md) traz perguntas com respostas desenvolvidas sobre SDKs, navegador, consentimento real, segurança, telemetria e desenho de sistemas. Exercícios de antifraude estão identificados como simulação.
+
 - **XSS/CSP/CORS/CSRF:** explicar o propósito de cada controle sem prometer implementação não comprovada; reforçar validação, política de origem, proteção de sessão e defesa em camadas.
 - **Web Components:** Custom Elements e Shadow DOM permitem componentes encapsulados e framework-agnostic; relacionar ao Trust Center.
 - **Telemetria:** medir etapas críticas, falhas, latência, navegador/dispositivo e integridade sem coletar PII desnecessária.

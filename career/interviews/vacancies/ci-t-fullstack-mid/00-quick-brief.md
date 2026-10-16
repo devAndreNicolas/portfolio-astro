@@ -6,11 +6,11 @@ Java 17–25/Spring, Angular 21, SASS, APIs REST, SQL Server, microsserviços, m
 
 ## Posicionamento recomendado
 
-“Minha base mais forte é Angular/TypeScript e desenvolvimento orientado a produto. Também tenho experiência full-stack com APIs, SQL/PostgreSQL, regras de negócio, testes, CI/CD e entrega. Java é uma base acadêmica e de projeto, não uma experiência profissional Spring; por isso eu apresentaria essa lacuna com transparência.”
+“Minha evidência mais detalhada é em Angular/TypeScript, desenvolvimento orientado a produto e contribuição full-stack com APIs, SQL/PostgreSQL, regras de negócio, testes, CI/CD e entrega. Também tive atuação hands-on com Java e Spring/Spring Boot na MSPA, além da base acadêmica de Java. Eu explicaria concretamente as tarefas e limites que conheço, sem me apresentar como especialista Java/Spring nem afirmar SQL Server, Angular 21, Bamboo ou Azure específico sem evidência de projeto.”
 
 ## Atenções
 
-- Não afirmar Java/Spring, SQL Server, Azure, Bamboo ou Angular 21 em produção sem nova evidência.
+- Java/Spring/Spring Boot e Azure têm confirmação de atuação hands-on na MSPA; explicar o escopo real de cada contribuição sem inflar senioridade ou ownership. Não afirmar SQL Server, Bamboo ou Angular 21 em produção sem evidência específica.
 - Destacar Angular, TypeScript, acessibilidade, testes, APIs, arquitetura de componentes e participação full-stack.
 - Perguntar se a presença em Campinas é obrigatória para o seu caso; a vaga explicita essa condição para a Região Metropolitana de Campinas.
 

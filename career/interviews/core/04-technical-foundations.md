@@ -1,5 +1,7 @@
 # Fundamentos técnicos Q&A
 
+Este resumo é referência rápida. Para perguntas práticas com respostas desenvolvidas, exemplos ancorados na MSPA/Trust Center/Compass e simulações rotuladas, use [Banco de treino completo](09-practice-bank.md).
+
 ## Como você trabalha de ponta a ponta?
 
 “Começo entendendo o problema, usuários, regras e critérios de aceitação. Depois separo o fluxo por camadas, defino contratos e permissões, implemento frontend e backend quando necessário, testo os comportamentos críticos e acompanho logs e feedback após a entrega.”

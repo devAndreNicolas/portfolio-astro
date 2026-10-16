@@ -1,5 +1,7 @@
 # Histórias comportamentais
 
+As respostas curtas abaixo são um índice de histórias, não um banco de simulado. Para respostas completas, follow-ups e questões técnicas situacionais, use [Banco de treino completo](09-practice-bank.md).
+
 Use cada história em quatro blocos: situação, papel pessoal, ações e resultado/aprendizado.
 
 ## 1. Compass — produto e validação
