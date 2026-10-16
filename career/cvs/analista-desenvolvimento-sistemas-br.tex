@@ -1,0 +1,374 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[
+    left=1.35cm,
+    right=1.35cm,
+    top=1.15cm,
+    bottom=1.15cm
+]{geometry}
+
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontspec}
+
+\definecolor{darkblue}{HTML}{0F172A}
+\definecolor{accentblue}{HTML}{2563EB}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=accentblue,
+    linkcolor=darkblue
+}
+
+% =========================================================
+% GENERAL
+% =========================================================
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+\linespread{1.02}
+
+\raggedbottom
+
+% =========================================================
+% SECTION STYLE
+% =========================================================
+
+\titleformat{\section}
+    {\normalsize\bfseries\color{darkblue}}
+    {}
+    {0pt}
+    {}
+    [\titlerule]
+
+\titlespacing*{\section}
+    {0pt}
+    {0pt}
+    {0pt}
+
+% =========================================================
+% LISTS
+% =========================================================
+
+\setlist[itemize]{
+    leftmargin=1.15em,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+\setlist[description]{
+    style=multiline,
+    leftmargin=3.35cm,
+    labelwidth=3.35cm,
+    labelsep=0.12cm,
+    itemsep=0pt,
+    topsep=0pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+\begin{document}
+
+% =========================================================
+% HEADER
+% =========================================================
+
+\begin{center}
+
+    {\LARGE \textbf{ANDRÉ NICOLAS SILVA}} \\[-2pt]
+
+    {\normalsize \textbf{Analista de Desenvolvimento de Sistemas | Engenharia Full Stack}} \\[1pt]
+
+    \footnotesize
+    Brasil \quad • \quad
+    \href{mailto:devandrenicolas@gmail.com}{devandrenicolas@gmail.com} \\[-1pt]
+
+    \textbf{\href{https://portfolio-andrenicolas.vercel.app}{Portfólio}}
+    \quad • \quad
+    \href{https://github.com/devAndreNicolas}{GitHub}
+    \quad • \quad
+    \href{https://www.linkedin.com/in/devandrenicolas}{LinkedIn}
+
+\end{center}
+
+\vspace{-3pt}
+
+% =========================================================
+% SUMMARY
+% =========================================================
+
+\section*{RESUMO PROFISSIONAL}
+
+\footnotesize
+
+Analista de Desenvolvimento de Sistemas com formação em Sistemas para Internet e experiência prática na construção e evolução de produtos SaaS usados por \textbf{10+ empresas}. Participa de necessidades e regras de negócio, análise técnica, implementação, testes, depuração e entrega de funcionalidades em produção, com contribuição em frontend, backend, APIs e dados.
+
+Experiência com \textbf{Angular, React, TypeScript, JavaScript, Go, Node.js, Java/Spring, APIs REST, SQL e PostgreSQL}. Trabalha com arquitetura de componentes e limites de aplicação, persistência, integrações, autorização, testes automatizados e CI/CD. Também integrou funcionalidades de IA com Genkit, contexto, sanitização de entrada e respostas estruturadas.
+
+Atualmente exerce o cargo de \textbf{Frontend Engineer na MSPA}, com contribuições full-stack alinhadas a requisitos de produto. Esta variante enfatiza análise e desenvolvimento de sistemas sem alterar o título ou senioridade do emprego registrado.
+% =========================================================
+% SKILLS
+% =========================================================
+
+\section*{COMPETÊNCIAS PRINCIPAIS}
+
+\footnotesize
+
+\begin{description}
+    \item[\textbf{Análise e Desenvolvimento}]
+    Requisitos de produto, regras de negócio, escopo técnico, implementação e evolução de sistemas web, debugging e entrega em produção
+
+    \item[\textbf{Frontend}]
+    TypeScript, JavaScript, Angular, Angular Signals, RxJS, React, Next.js, HTML/CSS, Web Components, Lit e Shadow DOM
+
+    \item[\textbf{Backend \& APIs}]
+    Go, Node.js, Java e Spring/Spring Boot em contribuições na MSPA; APIs REST/internas, serviços, concorrência, processamento assíncrono, eventos e integrações
+
+    \item[\textbf{Banco de Dados}]
+    SQL, PostgreSQL, Supabase, queries, persistência, migrações e regras de negócio
+
+    \item[\textbf{Arquitetura \& Segurança}]
+    Arquitetura baseada em componentes, Hexagonal Architecture, separação de responsabilidades, validação, autorização e controle de acesso
+
+    \item[\textbf{Testes \& Entrega}]
+    Vitest, testes automatizados, Testcontainers, code review, Git, CI/CD, debugging e suporte à produção
+
+    \item[\textbf{IA Aplicada}]
+    Genkit, integração de LLMs, prompt/context engineering, sanitização de entradas, respostas estruturadas, harnesses de IA e avaliação determinística
+
+    \item[\textbf{Cloud \& Containers}]
+    Cloudflare Workers, KV, D1, Durable Objects, AWS/Azure em escopo de contribuição, Podman/Docker compatível, Bash e imagens Docker de produção
+\end{description}
+
+% =========================================================
+% EXPERIENCE
+% =========================================================
+
+\section*{EXPERIÊNCIA PROFISSIONAL}
+
+\noindent
+\textbf{MSPA — Frontend Engineer (contribuições full stack)}
+\hfill
+\textit{Abr 2025 -- Presente}
+
+\textit{Plataforma SaaS para Privacidade, Compliance (LGPD) e Auditoria Digital}
+
+\begin{itemize}
+
+    \item
+    \textbf{Análise, Desenvolvimento \& Evolução de Sistemas:}
+    Contribuiu para Compass e Trust Center, produtos SaaS usados
+    por \textbf{10+ empresas}, acompanhando requisitos e regras de
+    negócio desde a definição técnica até implementação,
+    refinamento, testes, debugging e entrega em produção.
+
+    \item
+    \textbf{Produto \& Tomada de Decisões Técnicas:}
+    Traduziu requisitos de negócio e necessidades de produto em
+    soluções técnicas, contribuindo para escopo de features,
+    regras de negócio, UX, arquitetura, estratégia de
+    implementação e trade-offs técnicos.
+
+    \item
+    \textbf{Engenharia AI-Native:}
+    Aplicou um workflow de desenvolvimento orientado por IA
+    utilizando \textbf{Codex, Claude, Cursor, CodeRabbit, Skills,
+    MCPs, Agents e SDD} para acelerar implementação, explorar
+    soluções, compreender codebases, investigar problemas,
+    revisar mudanças e iterar sobre funcionalidades de produto,
+    mantendo consistência arquitetural e qualidade de código.
+
+    \item
+    \textbf{Engenharia de Produto com IA Generativa:}
+    Integração de \textbf{Generative AI em produtos SaaS em
+    produção}, desenvolvendo funcionalidades voltadas ao usuário
+    com contextual prompt engineering, input sanitization e
+    respostas estruturadas de IA utilizando \textbf{Genkit},
+    com foco em funcionalidades de produto confiáveis e
+    consistentes.
+
+    \item
+    \textbf{Engenharia Full Stack:}
+    Implementou funcionalidades em produção atravessando
+    frontend, backend, APIs, dados e infraestrutura, atuando
+    entre diferentes camadas da aplicação de acordo com os
+    requisitos de produto e problemas técnicos.
+
+    \item
+    \textbf{Stack Ampliada de Plataforma:}
+    Contribui na MSPA com \textbf{Node.js, Java, Spring/Spring Boot,
+    AWS e Azure/serviços cloud, containers Podman/Docker-compatíveis,
+    Bash, Testcontainers, imagens Docker de produção, testes, acessibilidade,
+    documentação técnica, entrega de UI e engenharia orientada à segurança},
+    selecionando a camada adequada conforme os requisitos do produto.
+
+    \item
+    \textbf{Engenharia Backend \& Sistemas:}
+    Contribuiu para \textbf{serviços backend e APIs em Golang},
+    investigando e implementando soluções envolvendo
+    concorrência, processamento assíncrono, eventos, integrações
+    entre serviços, automações e problemas de produção em
+    diferentes camadas da aplicação.
+
+    \item
+    \textbf{Dados \& Regras de Negócio:}
+    Trabalhou com \textbf{SQL e PostgreSQL}, incluindo queries,
+    persistência de dados, database migrations, regras de negócio
+    e investigação de problemas relacionados a dados em
+    diferentes workflows da aplicação.
+
+    \item
+    \textbf{Arquitetura de Software:}
+    Participou de decisões arquiteturais e implementou soluções
+    seguindo \textbf{Hexagonal Architecture}, arquitetura baseada
+    em componentes, separação de responsabilidades, sistemas
+    reutilizáveis e limites de sistema manuteníveis.
+
+    \item
+    \textbf{Web \& Edge Systems:}
+    Desenvolveu um consent engine agnóstico utilizando
+    \textbf{Web Components, Lit e Shadow DOM}, integrado com
+    \textbf{Cloudflare Workers, KV, D1 e Durable Objects}
+    para execução na edge e funcionalidades distribuídas.
+
+    \item
+    \textbf{Performance \& Confiabilidade:}
+    Implementou melhorias de performance e SEO, investigando
+    gargalos e otimizando comportamento de carregamento e
+    performance da aplicação, mantendo usabilidade e
+    confiabilidade em produção.
+
+    \item
+    \textbf{Entrega de Engenharia:}
+    Atuou ao longo do ciclo de entrega de software, incluindo
+    \textbf{CI/CD, deployment, debugging, investigação em
+    produção e integração de mudanças entre diferentes camadas
+    da aplicação}.
+
+    \item
+    \textbf{Coordenação de Engenharia:}
+    Reorganizou o workflow de desenvolvimento durante uma fase
+    crítica do projeto, melhorando clareza de escopo, organização
+    de sprints e produtividade de uma \textbf{equipe de 6 pessoas},
+    com coordenação direta de 4 integrantes.
+
+\end{itemize}
+
+% =========================================================
+% OPEN SOURCE
+% =========================================================
+
+\section*{CONTRIBUIÇÕES OPEN SOURCE}
+
+\noindent
+\textbf{Stoat / Revolt Platforms LTD — Engenheiro Frontend Voluntário}
+\hfill
+\textit{2026 -- Presente}
+
+\footnotesize
+
+Contribui para o projeto open source com foco em
+\textbf{UX engineering e desenvolvimento frontend}, identificando
+problemas voltados aos usuários e transformando-os em melhorias
+técnicas que tornam o produto mais claro e intuitivo para os
+usuários.
+\textbf{Pull request aprovado pelos maintainers do projeto.}
+
+% =========================================================
+% PROJECTS
+% =========================================================
+
+\section*{PROJETOS}
+
+\noindent
+\textbf{Marca Racha — Produto web full-stack}
+\hfill
+\textit{Next.js, React, TypeScript, Supabase, Prisma, Vitest}
+
+\footnotesize
+
+Implementou fluxos de partidas, convites, pedidos de entrada e notificações, conectando UI, validação, serviços e persistência. Testes comportamentais cobrem permissões, ownership, limites de convite, deduplicação e transições de estado.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{Terto Beats — Checkout e ciclo de pedido}
+\hfill
+\textit{Next.js, TypeScript, Supabase, Stripe, Mercado Pago}
+
+\footnotesize
+
+Implementou criação de pedidos pendentes, validação de valores e provedores, checkout e rotas de webhook que processam eventos de pagamento e acionam a finalização compartilhada do pedido.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{RendeCerto — Simulador de cenários financeiros}
+\hfill
+\textit{Next.js, TypeScript, Vitest}
+
+\footnotesize
+
+Implementou regras determinísticas de cálculo e comparação de cenários; testes automatizados verificam resultados para casos representativos.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{Compass e Trust Center — Sistemas SaaS de compliance}
+\hfill
+\textit{Angular, TypeScript, Go, PostgreSQL, Cloudflare}
+
+\footnotesize
+
+Contribuiu para implementação e evolução de fluxos de produto, APIs e serviços, persistência, consentimento incorporável e eventos de auditoria, com testes, depuração e entrega em produção.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{Saúde em Campo — Arquitetura mobile offline-first}
+\hfill
+\textit{React Native, Expo, SQLite, Drizzle, TanStack Query}
+
+\footnotesize
+
+Desenhou uma aplicação para equipes que registram visitas e informações de saúde em campo mesmo sem conectividade. A proposta combina isolamento local por usuário, fila de sincronização, idempotência, retries/backoff, RBAC e priorização de risco; é evidência de arquitetura, não de implantação clínica.
+
+\vspace{0.5pt}
+
+\noindent
+\textbf{Missões do Dia — Aplicativo Android}
+\hfill
+\textit{Java, SQLite, SharedPreferences, Services, BroadcastReceiver, AsyncTask, XML}
+
+\footnotesize
+
+Desenvolveu um aplicativo acadêmico Android de CRUD de missões com persistência local, componentes nativos e layouts XML.
+
+% EDUCATION
+% =========================================================
+
+\section*{FORMAÇÃO}
+
+\noindent
+\textbf{Tecnólogo em Sistemas para Internet} — UNCISAL
+\hfill
+\textit{Concluído em 2026}
+
+% =========================================================
+% LANGUAGES
+% =========================================================
+
+\vspace{-2pt}
+\section*{IDIOMAS}
+
+\noindent
+\textbf{Português:} Nativo
+\quad • \quad
+\textbf{Inglês:} Intermediário/Avançado (em aprimoramento contínuo)
+
+\end{document}

@@ -4,6 +4,18 @@ Este arquivo é para ensaiar respostas em voz alta, não para decorar palavra po
 
 Nas histórias reais, mantenha o resultado no limite do que foi observado. Se perguntarem por métrica que não foi registrada, diga isso com clareza e explique qual sinal vocês acompanhavam.
 
+## Sumário
+
+- [Glossário](#glossario)
+- [Comportamental e experiência (1–12)](#comportamental)
+- [Frontend — atuação concreta (29–34)](#frontend)
+- [Backend — atuação concreta (35–40)](#backend)
+- [Full-stack — atravessando camadas (41–45)](#fullstack)
+- [IA — produto, engenharia e avaliação (46–52)](#ia)
+- [Perguntas técnicas e cenários (53–68)](#tecnicas-gerais)
+- [Treino de formato](#treino)
+
+<a id="glossario"></a>
 ## Glossário deste banco
 
 Definições curtas para revisar antes do treino. Em entrevista, explique o conceito com suas palavras e conecte-o a um exemplo; evite recitar siglas sem contexto.
@@ -65,6 +77,7 @@ Definições curtas para revisar antes do treino. Em entrevista, explique o conc
 - **False positive / falso positivo:** caso legítimo classificado incorretamente como suspeito, bloqueado ou inválido.
 - **Baseline:** valor ou condição de referência usada para comparar uma mudança; sem baseline, não se deve alegar ganho medido.
 
+<a id="comportamental"></a>
 ## Comportamental e experiência
 
 ### 1. Conte uma decisão técnica difícil e o que você sacrificou.
@@ -117,6 +130,7 @@ Definições curtas para revisar antes do treino. Em entrevista, explique o conc
 
 ## Perguntas técnicas com resposta falada
 
+<a id="frontend"></a>
 ## Frontend — atuação concreta
 
 ### 29. Conte sobre uma interface de produção em que você precisou entender o problema do usuário, não só implementar um layout.
@@ -143,6 +157,7 @@ Definições curtas para revisar antes do treino. Em entrevista, explique o conc
 
 **Resposta — evidência de prática, sem projeto inventado:** “Acessibilidade faz parte do meu trabalho frontend, mas não tenho uma história única registrada com antes/depois e métrica. Numa entrevista, eu explicaria a prática com um caso que realmente toquei: qual componente, qual barreira encontrada, como validei teclado/leitor de tela e o que mudou. Como exemplo de abordagem, num diálogo de consentimento eu verificaria nome acessível, ordem e retorno de foco, operação por teclado e anúncio de erro; isso é um cenário de treino, não uma alegação de que implementei esse caso específico no Trust Center.”
 
+<a id="backend"></a>
 ## Backend — atuação concreta
 
 ### 35. Conte sobre uma contribuição sua em backend que mudou comportamento de produto.
@@ -169,6 +184,7 @@ Definições curtas para revisar antes do treino. Em entrevista, explique o conc
 
 **Resposta — simulação:** “Se gravar e publicar forem dois efeitos independentes, um pode concluir enquanto o outro falha. Eu consideraria uma outbox transacional: persistir a mudança e o evento na mesma transação local, publicar depois com retry e consumidor idempotente. Monitoraria idade da fila e falhas permanentes. Antes de escolher, perguntaria se a consistência imediata é requisito e qual broker já existe. É desenho de exercício; não estou dizendo que implementei outbox na MSPA.”
 
+<a id="fullstack"></a>
 ## Full-stack — atravessando camadas de verdade
 
 ### 41. Conte uma funcionalidade em que seu trabalho atravessou frontend, API e dados.
@@ -191,6 +207,7 @@ Definições curtas para revisar antes do treino. Em entrevista, explique o conc
 
 **Resposta:** “Na camada de domínio, testo transições e regras com casos válidos e inválidos. Na API, testo autenticação, autorização, validação e contrato. Na persistência/integridade, testo contra banco ou dependência real quando a query ou concorrência importam. Na UI, testo os estados e a jornada crítica; deixo poucos E2E para integração de ponta a ponta. Em Marca Racha há testes de comportamento para ownership, membership, convites, limites e notificações; na MSPA também trabalhei com testes automatizados e integração.”
 
+<a id="ia"></a>
 ## IA — produto, engenharia e avaliação
 
 ### 46. Diferencie seu trabalho integrando IA a um produto do seu uso de IA para desenvolver.
@@ -221,6 +238,7 @@ Definições curtas para revisar antes do treino. Em entrevista, explique o conc
 
 **Resposta:** “Eu não usaria se a tarefa for mais simples e barata de resolver diretamente, se o contexto contiver dados que não podem ser enviados ao modelo ou se a saída não puder ser validada com segurança para o risco envolvido. Também evitaria deixar o modelo decidir autorização ou executar ação irreversível sem controles. A decisão é pelo problema, privacidade, custo e capacidade de verificar, não por usar IA em tudo.”
 
+<a id="tecnicas-gerais"></a>
 ### 53. No Trust Center, como impedir um script de analytics de rodar antes do consentimento?
 
 **Resposta — experiência real com aprofundamento:** “A decisão começa antes do banner: o script que controla consentimento precisa executar antes de scripts opcionais. Eu não deixaria tags de terceiros carregarem livremente e tentaria removê-las depois, porque isso não desfaz coleta que já ocorreu. A solução precisa controlar o carregamento, manter a escolha por categoria e liberar cada integração só após autorização. No Trust Center, contribuímos para esse fluxo com um componente Web Component isolado e serviços de borda. Validávamos com perfil limpo do navegador, inspecionando requests, cookies e storage antes da decisão, depois de aceitar e depois de rejeitar. Também conferíamos os eventos de auditoria. A ordem exata de tags e a integração variam conforme o site hospedeiro.”
@@ -285,6 +303,7 @@ Definições curtas para revisar antes do treino. Em entrevista, explique o conc
 
 **Resposta:** “Eu digo exatamente o que consigo sustentar. Por exemplo: ‘Tínhamos mais de dez empresas usando Compass, e acompanhávamos conclusão e tempo do fluxo com funis; eu não tenho o valor antes/depois para afirmar uma redução’. Depois explico o critério de decisão ou o comportamento que verificávamos. Se a empresa precisa daquela métrica, posso dizer qual dado eu buscaria no sistema, mas não vou inventá-la.”
 
+<a id="treino"></a>
 ## Treino de formato
 
 Para cada resposta, pratique três versões: 20 segundos com conclusão e evidência; 60 segundos com contexto, decisão, ação e resultado verificável; aprofundamento de 2 minutos com trade-offs e detalhes técnicos. Faça pausa depois da resposta principal para deixar espaço a perguntas de follow-up.

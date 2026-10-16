@@ -12,6 +12,8 @@ Private factual memory for CV and portfolio work. Last synthesized: 2026-10-01. 
 
 ## Evidence ledger
 
+- **skill-support-001 — Candidate-confirmed support competencies.** On 2026-10-16, André explicitly confirmed that he knows the competencies requested by the support vacancy examples collected in `career/market/role-family-research-2026-10.md` and authorized presenting them as skills. This covers application/system troubleshooting and technical support topics represented in those ads, including ticket handling, escalation/SLA concepts, Windows/Microsoft 365, identity and network basics, endpoint/hardware support, and SQL-based application investigation. This is a candidate self-report of skills, not evidence of prior support employment, ticket volume, tool-specific tenure, formal ITIL certification, or measurable service results. Source: direct candidate confirmation in the career-work session, 2026-10-16.
+
 ### GitHub-backed project evidence
 
 - **oss-002 — Stoat for Web merged contribution.** GitHub confirms PR [stoatchat/for-web#1518](https://github.com/stoatchat/for-web/pull/1518), `fix: Show file size validation errors`, was merged on 2026-08-20. The repository is the official Solid.js web client for `stoat.chat/app`. This is stronger evidence than a generic “approved PR”; describe it as a merged open-source frontend contribution.

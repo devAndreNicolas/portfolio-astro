@@ -50,6 +50,6 @@ O escopo se divide entre rotinas gerais e funções analíticas/operacionais esp
 ## Decisão de CV e posicionamento
 
 - Priorizar três variantes brasileiras com narrativas distintas e evidência suficiente: **Analista de Sistemas**, **Analista de Desenvolvimento de Sistemas** e **Desenvolvedor de Software**.
-- Para suporte, avaliar primeiro uma variante **Suporte a Sistemas/Aplicações**, depois da confirmação de tarefas de atendimento e operação. Não misturar com suporte de hardware/rede se não houver experiência.
+- Para suporte, foram criadas duas variantes distintas após confirmação direta do candidato de que domina as competências das vagas pesquisadas: **Suporte a Sistemas/Aplicações N2** e **Suporte Técnico N2**. A confirmação sustenta competências declaradas, não histórico de emprego em service desk, ferramentas específicas utilizadas profissionalmente ou métricas de SLA; a experiência profissional continua descrita como desenvolvimento e sustentação de software.
 - Para assistente/auxiliar administrativo, obter primeiro uma lista concreta de ferramentas, tarefas e exemplos já executados. Se houver experiência, criar variante apropriada ao subperfil (geral, dados, estoque/compras, financeiro ou atendimento); se não houver, criar projetos reais de planilhas/controles e apresentar como projetos/estudo, nunca como emprego.
 - Palavras-chave aparecem no CV somente como competências comprovadas, práticas de projeto claramente identificadas ou formação/estudo devidamente rotulado. Lacunas não entram como skill profissional.

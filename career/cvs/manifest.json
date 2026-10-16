@@ -19,6 +19,11 @@
     "product-engineer-br": { "source": "career/cvs/product-engineer-br.tex", "output": "public/cv/andre-nicolas-engenheiro-produto-br.pdf", "language": "pt-BR", "public": true },
     "ux-product-designer-br": { "source": "career/cvs/ux-product-designer-br.tex", "output": "public/cv/andre-nicolas-ux-product-designer-br.pdf", "language": "pt-BR", "public": true },
     "frontend-developer-br": { "source": "career/cvs/frontend-engineer-br.tex", "output": "public/cv/andre-nicolas-desenvolvedor-frontend-br.pdf", "language": "pt-BR", "public": true },
-    "frontend-developer-international": { "source": "career/cvs/frontend-engineer-international.tex", "output": "public/cv/andre-nicolas-frontend-developer-en.pdf", "language": "en", "public": true }
+    "frontend-developer-international": { "source": "career/cvs/frontend-engineer-international.tex", "output": "public/cv/andre-nicolas-frontend-developer-en.pdf", "language": "en", "public": true },
+    "systems-analyst-br": { "source": "career/cvs/analista-sistemas-br.tex", "output": "public/cv/andre-nicolas-analista-sistemas-br.pdf", "language": "pt-BR", "public": true },
+    "systems-development-analyst-br": { "source": "career/cvs/analista-desenvolvimento-sistemas-br.tex", "output": "public/cv/andre-nicolas-analista-desenvolvimento-sistemas-br.pdf", "language": "pt-BR", "public": true },
+    "software-developer-br": { "source": "career/cvs/desenvolvedor-software-br.tex", "output": "public/cv/andre-nicolas-desenvolvedor-software-br.pdf", "language": "pt-BR", "public": true },
+    "systems-support-n2-br": { "source": "career/cvs/analista-suporte-sistemas-n2-br.tex", "output": "public/cv/andre-nicolas-analista-suporte-sistemas-n2-br.pdf", "language": "pt-BR", "public": true },
+    "technical-support-n2-br": { "source": "career/cvs/analista-suporte-tecnico-n2-br.tex", "output": "public/cv/andre-nicolas-analista-suporte-tecnico-n2-br.pdf", "language": "pt-BR", "public": true }
   }
 }
