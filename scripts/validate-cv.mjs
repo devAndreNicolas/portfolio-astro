@@ -13,7 +13,9 @@ for (const [id, cv] of Object.entries(cvs)) {
   const problems = [];
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id) || ids.has(id)) problems.push("ID must be unique kebab-case");
   ids.add(id);
-  if (!cv.source?.startsWith("career/cvs/") || !cv.source.endsWith(".tex")) problems.push("source must be a career/cvs .tex file");
+  const canonicalSource = /^career\/cvs\/.+\.tex$/.test(cv.source ?? "");
+  const applicationSource = /^career\/applications\/[^/]+\/.+\.tex$/.test(cv.source ?? "");
+  if (!canonicalSource && !applicationSource) problems.push("source must be a career/cvs .tex file or a job-specific career/applications/<company-role> .tex file");
   if (!cv.output?.startsWith("public/cv/") || !cv.output.endsWith(".pdf")) problems.push("output must be a public/cv .pdf file");
   if (!existsSync(resolve(root, cv.source))) problems.push(`missing source ${cv.source}`);
   if (requirePdfs && !existsSync(resolve(root, cv.output))) problems.push(`missing built PDF ${cv.output}`);

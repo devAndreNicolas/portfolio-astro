@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "career/cvs/**"
+      - "career/applications/**"
+      - "scripts/list-public-cv-sources.mjs"
       - "scripts/sync-public-cvs.mjs"
       - ".github/workflows/publish-cvs.yml"
   workflow_dispatch:
@@ -19,10 +21,17 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
-      - name: Compile canonical CVs with XeLaTeX
+      - name: Select public LaTeX sources from the manifest
+        id: sources
+        run: |
+          echo "files<<EOF" >> "$GITHUB_OUTPUT"
+          node scripts/list-public-cv-sources.mjs >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Compile public CVs with XeLaTeX
         uses: xu-cheng/latex-action@v4
         with:
-          root_file: career/cvs/*.tex
+          root_file: ${{ steps.sources.outputs.files }}
           working_directory: .
           latexmk_use_xelatex: true
         env:

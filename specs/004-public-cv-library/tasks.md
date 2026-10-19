@@ -5,3 +5,4 @@
 - [x] Add the manifest-driven `/cv/` route without navigation links.
 - [x] Exclude the route from the sitemap.
 - [x] Build canonical PDFs in GitHub Actions with XeLaTeX; commit public assets for deployment.
+- [x] Publish approved job-specific CV variants through the manifest-driven PDF pipeline and library.
