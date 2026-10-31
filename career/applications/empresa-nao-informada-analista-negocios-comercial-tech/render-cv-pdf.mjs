@@ -88,7 +88,7 @@ const html = `<!doctype html>
   <section>
     <h2>Formação e idiomas</h2>
     <p class="education"><strong>Tecnólogo em Sistemas para Internet</strong> — UNCISAL · Concluído em 2026</p>
-    <p><strong>Português:</strong> nativo · <strong>Inglês:</strong> intermediário/avançado, em aprimoramento contínuo</p>
+    <p><strong>Português:</strong> nativo · <strong>Inglês:</strong> avançado, em aprimoramento contínuo</p>
   </section>
 </body>
 </html>`;

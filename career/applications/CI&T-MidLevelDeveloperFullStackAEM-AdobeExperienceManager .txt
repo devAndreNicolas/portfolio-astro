@@ -111,7 +111,7 @@ Comportamental:
 
     Experiência em testes A/B, CRO e personalização de conteúdo
 
-    Inglês intermediário/avançado (documentação e suporte Adobe)
+    Inglês avançado (documentação e suporte Adobe)
 
     Familiaridade com Docker, Jenkins/GitHub Actions ou observabilidade
 
